@@ -21,6 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests  # Install the necessary dependencies
+          pip install pytz
 
       - name: Run EPG fetcher
         run: python epg_fetcher.py  # Execute the script to fetch the EPG data

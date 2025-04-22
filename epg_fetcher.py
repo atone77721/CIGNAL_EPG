@@ -11,13 +11,22 @@ pst = pytz.timezone("Asia/Manila")
 
 def fetch_epg():
     print("📡 Fetching EPG from API...")
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Accept": "application/json",
+        "Origin": "https://cignal.tv",
+        "Referer": "https://cignal.tv/",
+    }
+
     try:
-        response = requests.get(API_URL, verify=False, timeout=20)
+        response = requests.get(API_URL, headers=headers, verify=False, timeout=20)
         response.raise_for_status()
         data = response.json()
     except Exception as e:
         print(f"❌ Failed to fetch EPG: {e}")
         return
+
 
     tv = ET.Element("tv", {
         "generator-info-name": "Cignal API EPG",

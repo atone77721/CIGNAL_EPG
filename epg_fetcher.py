@@ -49,12 +49,12 @@ def format_xml(elem, level=0):
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
     
-    # Updated URL with the new API endpoint and query parameters for only one channel
+    # Updated URL with the new API endpoint and query parameters for all channels
     url = (
         f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
         f"start={start.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
         f"end={end.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
-        f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100&channelId={cid}"
+        f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
     )
 
     programmes = []
@@ -74,10 +74,14 @@ def fetch_epg(name, cid):
             channel = ET.SubElement(tv, "channel", {"id": cid})
             ET.SubElement(channel, "display-name").text = name
 
-        # Now fetch the specific data for each channel and handle
+        # Manually filter the data for this channel
         for entry in data["data"]:
             if "airing" in entry:
                 for program in entry["airing"]:
+                    channel_id = program.get("cid")
+                    if channel_id != cid:
+                        continue  # Skip programmes that do not match the current channel
+
                     start_time = program.get("sc_st_dt")
                     end_time = program.get("sc_ed_dt")
                     pgm = program.get("pgm", {})

@@ -2,6 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import json
+import os
 import urllib3
 
 # Disable SSL warnings (insecure workaround)
@@ -19,7 +20,16 @@ headers = {
 start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Start time today at 16:00 UTC
 end = start + timedelta(days=7)  # 7 days window
 
-tv = ET.Element("tv", attrib={"generator-info-name": "Cignal EPG Fetcher", "generator-info-url": "https://example.com"})
+# Try to load existing EPG file if it exists
+epg_file = "cignal_epg.xml"
+if os.path.exists(epg_file):
+    tree = ET.parse(epg_file)
+    tv = tree.getroot()
+    print(f"✅ Loaded existing EPG file: {epg_file}")
+else:
+    # Create a new XMLTV root element if file doesn't exist
+    tv = ET.Element("tv", attrib={"generator-info-name": "Cignal EPG Fetcher", "generator-info-url": "https://example.com"})
+    print(f"✅ Created new EPG structure for: {epg_file}")
 
 def format_xml(elem, level=0):
     indent = "\n" + ("  " * level)
@@ -58,9 +68,11 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
-        # Create the channel element
-        channel = ET.SubElement(tv, "channel", {"id": cid})
-        ET.SubElement(channel, "display-name").text = name
+        # Create the channel element if it doesn't already exist
+        existing_channel = tv.find(f"./channel[@id='{cid}']")
+        if existing_channel is None:
+            channel = ET.SubElement(tv, "channel", {"id": cid})
+            ET.SubElement(channel, "display-name").text = name
 
         for entry in data["data"]:
             if "airing" in entry:
@@ -102,11 +114,12 @@ for name, cid in channels.items():
 
 # Pretty-print and write XML
 format_xml(tv)
-output_file = "cignal_epg_7days.xml"
-ET.ElementTree(tv).write(output_file, encoding="utf-8", xml_declaration=True)
-print(f"✅ EPG saved to {output_file}")
+
+# Save the updated EPG to the file
+ET.ElementTree(tv).write(epg_file, encoding="utf-8", xml_declaration=True)
+print(f"✅ EPG saved to {epg_file}")
 
 # Preview the output (for GitHub Actions/logs)
 print("\n📄 Preview of EPG XML:\n" + "-" * 40)
-with open(output_file, "r", encoding="utf-8") as f:
+with open(epg_file, "r", encoding="utf-8") as f:
     print(f.read())

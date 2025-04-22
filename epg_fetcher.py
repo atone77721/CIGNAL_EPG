@@ -13,7 +13,7 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*"
 }
 
-# Example CHANNELS dictionary – replace or expand as needed
+# Replace with the full list or auto-load from XML if needed
 CHANNELS = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
     "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
@@ -49,6 +49,13 @@ def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
     root = ET.Element("tv")
     total_programs = 0
 
+    # ✅ Add <channel> elements for OTT compatibility
+    for name, site_id in CHANNELS.items():
+        ch = ET.SubElement(root, "channel", {"id": site_id})
+        name_tag = ET.SubElement(ch, "display-name")
+        name_tag.text = name
+
+    # ✅ Add <programme> elements
     for channel_epg in epg_data_list:
         for block in channel_epg.get("data", []):
             for item in block.get("airing", []):
@@ -65,7 +72,7 @@ def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
 
     tree = ET.ElementTree(root)
     tree.write(output, encoding="utf-8", xml_declaration=True)
-    print(f"✅ EPG XML written to '{output}' with {total_programs} programmes")
+    print(f"✅ XMLTV written to '{output}' with {total_programs} programmes and {len(CHANNELS)} channels")
 
 if __name__ == "__main__":
     today = datetime.datetime.utcnow()

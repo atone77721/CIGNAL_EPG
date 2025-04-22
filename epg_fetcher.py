@@ -6,17 +6,14 @@ import os
 from datetime import datetime, timedelta
 import pytz
 
-# URLs per channel (adjust based on your actual channel URL requirements)
+# URLs per channel (adjust as needed)
 channel_urls = {
-    "cg_hbohd": "http://www.hbo.com",  # Example URL, change per actual channel
-    # Add other channel mappings as needed
+    "cg_hbohd": "http://www.hbo.com",
+    # Add more channels here
 }
 
 def fetch_epg():
-    # Get the current time in UTC (we will adjust it to Manila Time later)
     now_utc = datetime.utcnow()
-
-    # Format the current time and calculate the range (2 days from now)
     start_time = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
     end_time = (now_utc + timedelta(days=2)).strftime('%Y-%m-%dT%H:%M:%SZ')
 
@@ -30,112 +27,95 @@ def fetch_epg():
         "pageNumber": 1,
         "pageSize": 100,
     }
-    
+
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0',
     }
 
     try:
         response = requests.get(url, params=params, headers=headers)
-        print("Raw Response: ", response.text)  # Debugging line to check the raw response
+        print("Raw Response: ", response.text)  # For debugging
         response.raise_for_status()
-        
-        try:
-            return response.json()
-        except ValueError as e:
-            print(f"Error decoding JSON: {e}")
-            return []
-    except requests.exceptions.RequestException as e:
-        print(f"Error with the request: {e}")
+        return response.json()
+    except Exception as e:
+        print(f"❌ Error fetching EPG: {e}")
         return []
-
-def format_manila_time(offset_hours=0):
-    """Generates the current time with Manila Time (UTC+8) and optional time offset in the format YYYYMMDDHHMMSS +0800"""
-    manila_tz = pytz.timezone('Asia/Manila')
-    now = datetime.now(manila_tz) + timedelta(hours=offset_hours)  # Apply offset if necessary (e.g., timezone)
-    return now.strftime('%Y%m%d%H%M%S') + " +0800"  # Format: YYYYMMDDHHMMSS +0800 for Manila Time
 
 def create_epg_xml(epg_data):
     if isinstance(epg_data, dict) and 'data' in epg_data:
         epg_data = epg_data['data']
     else:
-        print("Error: EPG data format is incorrect.")
+        print("❌ Incorrect EPG data format.")
         return
-    
+
     tv = ET.Element('tv', {'generator-info-name': 'none', 'generator-info-url': 'none'})
-    
-    # Store all programs in a dictionary
     programs_by_channel = {}
 
     for item in epg_data:
-        if 'airing' in item:
-            for airing in item['airing']:
-                channel_details = airing['ch']
-                channel_id = channel_details.get('cs', 'unknown')
-                display_name = channel_details.get('ex_id', 'Unknown Channel')
+        if 'airing' not in item:
+            continue
 
-                # Ensure the channel exists in our dictionary and create the <channel> element
-                if channel_id not in programs_by_channel:
-                    programs_by_channel[channel_id] = []
+        for airing in item['airing']:
+            channel_details = airing['ch']
+            channel_id = channel_details.get('cs', 'unknown')
+            display_name = channel_details.get('ex_id', 'Unknown Channel')
 
-                    # Create the channel element with <url>
-                    channel = ET.SubElement(tv, 'channel', {'id': channel_id})
-                    ET.SubElement(channel, 'display-name', {'lang': 'en'}).text = display_name
-                    url = channel_urls.get(channel_id, "http://example.com")  # Get URL from the map or default
-                    ET.SubElement(channel, 'url').text = url
+            if channel_id not in programs_by_channel:
+                programs_by_channel[channel_id] = []
 
-                # Add the programmes
-                for episode in airing['pgm']['lod']:
-                    # Generate current time for program start and stop in Manila Time
-                    programme_start_formatted = format_manila_time()
-                    programme_end_formatted = format_manila_time(offset_hours=1)  # End time 1 hour later for example
+                channel_elem = ET.SubElement(tv, 'channel', {'id': channel_id})
+                ET.SubElement(channel_elem, 'display-name', {'lang': 'en'}).text = display_name
+                url = channel_urls.get(channel_id, "http://example.com")
+                ET.SubElement(channel_elem, 'url').text = url
 
-                    # Correctly extract title and description
-                    title = airing['pgm']['lon'][0]['n']  # Title from 'lon' (long description)
-                    description = airing['pgm']['lod'][0]['n']  # Description from 'lod' (short description)
+            # Time parsing
+            try:
+                start_utc = datetime.strptime(airing['st'], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
+                end_utc = datetime.strptime(airing['et'], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
+            except Exception as e:
+                print(f"❌ Error parsing time: {e}")
+                continue
 
-                    # Create the <programme> element with the formatted times
-                    programme = ET.SubElement(tv, 'programme', {
-                        'start': programme_start_formatted,
-                        'stop': programme_end_formatted,
-                        'channel': channel_id
-                    })
+            manila_tz = pytz.timezone('Asia/Manila')
+            start_manila = start_utc.astimezone(manila_tz)
+            end_manila = end_utc.astimezone(manila_tz)
 
-                    title_elem = ET.SubElement(programme, 'title', {'lang': 'en'})
-                    title_elem.text = title  # Correct title
+            start_str = start_manila.strftime('%Y%m%d%H%M%S') + " +0800"
+            end_str = end_manila.strftime('%Y%m%d%H%M%S') + " +0800"
 
-                    desc_elem = ET.SubElement(programme, 'desc', {'lang': 'en'})
-                    desc_elem.text = description  # Correct description
+            # Title & description
+            title = airing['pgm']['lon'][0]['n'] if airing['pgm'].get('lon') else 'No Title'
+            description = airing['pgm']['lod'][0]['n'] if airing['pgm'].get('lod') else 'No Description'
 
-        else:
-            print(f"Warning: No 'airing' found in item: {item}")
-    
-    # Pretty print the XML and save it to file
+            programme = ET.SubElement(tv, 'programme', {
+                'start': start_str,
+                'stop': end_str,
+                'channel': channel_id
+            })
+
+            ET.SubElement(programme, 'title', {'lang': 'en'}).text = title
+            ET.SubElement(programme, 'desc', {'lang': 'en'}).text = description
+
+    # Save pretty XML
     try:
         xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
         parsed_xml = minidom.parseString(xml_str)
-        
-        # Debug print the XML
-        print("Generated XML:")
-        print(parsed_xml.toprettyxml(indent="  "))  # Print XML to console for debug
-        
-        # Save to file
+
         save_path = os.path.join(os.getcwd(), "cignal_epg.xml")
-        print(f"Saving to: {save_path}")  # Debugging line to show file path
         with open(save_path, "w", encoding="utf-8") as f:
-            f.write(parsed_xml.toprettyxml(indent="  "))  # Ensure it's saved
+            f.write(parsed_xml.toprettyxml(indent="  "))
         print(f"✅ EPG saved to {save_path}")
     except Exception as e:
-        print(f"❌ Error saving XML file: {e}")
+        print(f"❌ Error saving XML: {e}")
 
 def main():
     print("📡 Fetching EPG from API...")
     epg_data = fetch_epg()
 
     if not epg_data:
-        print("❌ No data fetched, skipping XML creation.")
+        print("❌ No data fetched.")
     else:
-        print(f"✅ Data fetched, proceeding with XML creation.")
+        print("✅ Data fetched. Generating XML...")
         create_epg_xml(epg_data)
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@ import os
 from datetime import datetime, timedelta
 import pytz
 from gzip import open as gzip_open
+import re
 
 # Channel URLs (update as needed)
 channel_urls = {
@@ -34,12 +35,14 @@ def fetch_epg():
 
     try:
         response = requests.get(url, params=params, headers=headers)
-        print("📡 Raw API Response received.")
         response.raise_for_status()
         return response.json()
     except Exception as e:
         print(f"❌ Error fetching EPG: {e}")
         return []
+
+def is_valid_timestamp(ts):
+    return isinstance(ts, str) and re.match(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", ts)
 
 def create_epg_xml(epg_data):
     if isinstance(epg_data, dict) and 'data' in epg_data:
@@ -58,30 +61,17 @@ def create_epg_xml(epg_data):
             continue
 
         for airing in item['airing']:
-            channel_details = airing['ch']
-            channel_id = channel_details.get('cs', 'unknown')
-            display_name = channel_details.get('ex_id', 'Unknown Channel')
+            st_raw = airing.get('st', '')
+            et_raw = airing.get('et', '')
 
-            if channel_id not in programs_by_channel:
-                programs_by_channel[channel_id] = []
+            if not (is_valid_timestamp(st_raw) and is_valid_timestamp(et_raw)):
+                skipped_count += 1
+                continue
 
-                channel_elem = ET.SubElement(tv, 'channel', {'id': channel_id})
-                ET.SubElement(channel_elem, 'display-name', {'lang': 'en'}).text = display_name
-                url = channel_urls.get(channel_id, "http://example.com")
-                ET.SubElement(channel_elem, 'url').text = url
-
-            # Validate & parse time
             try:
-                st_raw = airing.get('st', '')
-                et_raw = airing.get('et', '')
-
-                if not (st_raw.endswith("Z") and et_raw.endswith("Z")):
-                    raise ValueError(f"Invalid time format: st={st_raw}, et={et_raw}")
-
                 start_utc = datetime.strptime(st_raw, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
                 end_utc = datetime.strptime(et_raw, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
             except Exception as e:
-                print(f"❌ Skipping program due to time parsing error: {e}")
                 skipped_count += 1
                 continue
 
@@ -91,6 +81,16 @@ def create_epg_xml(epg_data):
 
             start_str = start_manila.strftime('%Y%m%d%H%M%S') + " +0800"
             end_str = end_manila.strftime('%Y%m%d%H%M%S') + " +0800"
+
+            channel_details = airing['ch']
+            channel_id = channel_details.get('cs', 'unknown')
+            display_name = channel_details.get('ex_id', 'Unknown Channel')
+
+            if channel_id not in programs_by_channel:
+                programs_by_channel[channel_id] = []
+                channel_elem = ET.SubElement(tv, 'channel', {'id': channel_id})
+                ET.SubElement(channel_elem, 'display-name', {'lang': 'en'}).text = display_name
+                ET.SubElement(channel_elem, 'url').text = channel_urls.get(channel_id, "http://example.com")
 
             title = airing['pgm']['lon'][0]['n'] if airing['pgm'].get('lon') else 'No Title'
             description = airing['pgm']['lod'][0]['n'] if airing['pgm'].get('lod') else 'No Description'
@@ -105,6 +105,10 @@ def create_epg_xml(epg_data):
             ET.SubElement(programme, 'desc', {'lang': 'en'}).text = description
             added_count += 1
 
+    if added_count == 0:
+        print("❌ No valid programs found, nothing to save.")
+        return
+
     try:
         xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
         parsed_xml = minidom.parseString(xml_str)
@@ -114,14 +118,12 @@ def create_epg_xml(epg_data):
             f.write(parsed_xml.toprettyxml(indent="  "))
         print(f"✅ EPG saved to {save_path}")
 
-        # Save GZIP version
         gz_path = save_path + ".gz"
         with gzip_open(gz_path, "wt", encoding="utf-8") as gz:
             gz.write(parsed_xml.toprettyxml(indent="  "))
         print(f"✅ GZipped EPG saved to {gz_path}")
 
-        # Summary
-        print(f"📊 {added_count} programs added, ❌ {skipped_count} skipped due to bad timestamps.")
+        print(f"📊 {added_count} programs added, ❌ {skipped_count} skipped.")
 
     except Exception as e:
         print(f"❌ Error saving XML: {e}")

@@ -13,13 +13,16 @@ def fetch_epg():
         "pageSize": 100,
     }
 
-    response = requests.get(url, params=params)
-    response_data = response.json()
-
-    if response_data.get("data"):
-        return response_data["data"]
-    else:
-        print("No data found in the response.")
+    try:
+        response = requests.get(url, params=params)
+        print("Raw Response: ", response.text)  # Debugging line to check the raw response
+        response.raise_for_status()  # Raises an exception for HTTP errors
+        return response.json()  # Attempt to parse JSON
+    except requests.exceptions.RequestException as e:
+        print(f"Error with the request: {e}")
+        return []
+    except ValueError as e:
+        print(f"Error decoding JSON: {e}")
         return []
 
 def create_epg_xml(epg_data):
@@ -59,7 +62,7 @@ def main():
         create_epg_xml(epg_data)
         print("✅ EPG saved to cignal_epg.xml")
     else:
-        print("❌ No data found in the API response.")
+        print("❌ No data found or error occurred during fetching.")
 
 if __name__ == "__main__":
     main()

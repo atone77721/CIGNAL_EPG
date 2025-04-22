@@ -8,9 +8,15 @@ import urllib3
 # Disable SSL warnings (insecure workaround)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# Load channel map from JSON (expects a dictionary like {"Name": "ID"})
-with open("cignal-map-channel.json") as f:
-    channels = json.load(f)
+# Channel details (manually defined in the script for each channel)
+channels = [
+    {"name": "Bilyonaryoch", "id": "166677E4-33C5-4C3B-A09D-7B3442D99E77"},
+    {"name": "Rptv", "id": "44B03994-C303-4ACE-997C-91CAC493D0FC"},
+    {"name": "Truefmtv", "id": "4514F052-94DC-47C5-8BB1-DA42BD5F2F57"},
+    {"name": "Cg Hitsnow", "id": "68C2D95A-A2A4-4C2B-93BE-41893C61210C"},
+    {"name": "Cg Hbohd", "id": "B741DD7A-A7F8-4F8A-A549-9EF411020F9D"},
+    {"name": "Sari Sari", "id": "E55ADE4C-C9E1-11EC-9D64-0242AC120002"}
+]
 
 headers = {
     "User-Agent": "Mozilla/5.0"
@@ -113,9 +119,9 @@ def fetch_epg(name, cid):
     for _, prog in programmes:
         tv.append(prog)
 
-# Loop through all channels (assuming channels is a dict: name -> cid)
-for name, cid in channels.items():
-    fetch_epg(name, cid)
+# Loop through all channels and fetch EPG for each one
+for channel in channels:
+    fetch_epg(channel["name"], channel["id"])
 
 # Pretty-print and write XML
 format_xml(tv)

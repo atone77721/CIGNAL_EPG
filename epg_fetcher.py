@@ -1,6 +1,7 @@
 import requests
 import datetime
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 
 API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
 
@@ -13,7 +14,7 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*"
 }
 
-# Replace with the full list or auto-load from XML if needed
+# Replace or auto-generate this list as needed
 CHANNELS = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
     "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
@@ -38,24 +39,20 @@ def fetch_epg(channel_id, start, end):
     print("🔗 URL:", response.url)
     if response.status_code != 200:
         print("❌ Error response:", response.text)
-    else:
-        data = response.json()
-        print("📦 Sample Result:", str(data)[:400])
-        return data
-    response.raise_for_status()
-    return {}
+        return {}
+    return response.json()
 
 def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
     root = ET.Element("tv")
     total_programs = 0
 
-    # ✅ Add <channel> elements for OTT compatibility
+    # Add <channel> entries
     for name, site_id in CHANNELS.items():
         ch = ET.SubElement(root, "channel", {"id": site_id})
         name_tag = ET.SubElement(ch, "display-name")
         name_tag.text = name
 
-    # ✅ Add <programme> elements
+    # Add <programme> entries
     for channel_epg in epg_data_list:
         for block in channel_epg.get("data", []):
             for item in block.get("airing", []):
@@ -64,14 +61,35 @@ def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
                     "stop": item.get("sc_ed_dt", "") + " +0000",
                     "channel": item.get("cid", "unknown")
                 })
+
+                # Safe title extraction
+                lon = item.get("lon")
+                if isinstance(lon, list) and lon and isinstance(lon[0], dict):
+                    title_text = lon[0].get("n", "No Title")
+                else:
+                    title_text = "No Title"
+
+                # Safe description extraction
+                lod = item.get("lod")
+                if isinstance(lod, list) and lod and isinstance(lod[0], dict):
+                    desc_text = lod[0].get("n", "No Description")
+                else:
+                    desc_text = "No Description"
+
                 title = ET.SubElement(prog, "title", {"lang": "en"})
-                title.text = item.get("lon", [{}])[0].get("n", "No Title")
+                title.text = title_text
                 desc = ET.SubElement(prog, "desc", {"lang": "en"})
-                desc.text = item.get("lod", [{}])[0].get("n", "No Description")
+                desc.text = desc_text
                 total_programs += 1
 
-    tree = ET.ElementTree(root)
-    tree.write(output, encoding="utf-8", xml_declaration=True)
+    # Pretty print and write to file
+    rough_string = ET.tostring(root, encoding="utf-8")
+    pretty_xml = minidom.parseString(rough_string).toprettyxml(indent="  ")
+    pretty_xml = "\n".join([line for line in pretty_xml.split("\n") if line.strip()])  # remove empty lines
+
+    with open(output, "w", encoding="utf-8") as f:
+        f.write(pretty_xml)
+
     print(f"✅ XMLTV written to '{output}' with {total_programs} programmes and {len(CHANNELS)} channels")
 
 if __name__ == "__main__":

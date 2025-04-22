@@ -91,8 +91,8 @@ def create_epg_xml(epg_data):
                     programme_end_formatted = format_manila_time(offset_hours=1)  # End time 1 hour later for example
 
                     # Correctly extract title and description
-                    title = airing['pgm']['lod'][0]['n']  # Title from 'lod'
-                    description = airing['pgm']['lon'][0]['n']  # Description from 'lon'
+                    title = airing['pgm']['lon'][0]['n']  # Title from 'lon' (long description)
+                    description = airing['pgm']['lod'][0]['n']  # Description from 'lod' (short description)
 
                     # Create the <programme> element with the formatted times
                     programme = ET.SubElement(tv, 'programme', {

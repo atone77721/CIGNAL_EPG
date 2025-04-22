@@ -8,7 +8,7 @@ import pytz
 
 # URLs per channel (adjust based on your actual channel URL requirements)
 channel_urls = {
-    "bilyonaryoch": "http://www.cignalplay.com",  # Example URL, change per actual channel
+    "cg_hbohd": "http://www.hbo.com",  # Example URL, change per actual channel
     # Add other channel mappings as needed
 }
 
@@ -90,6 +90,10 @@ def create_epg_xml(epg_data):
                     programme_start_formatted = format_manila_time()
                     programme_end_formatted = format_manila_time(offset_hours=1)  # End time 1 hour later for example
 
+                    # Correctly extract title and description
+                    title = airing['pgm']['lod'][0]['n']  # Title from 'lod'
+                    description = airing['pgm']['lon'][0]['n']  # Description from 'lon'
+
                     # Create the <programme> element with the formatted times
                     programme = ET.SubElement(tv, 'programme', {
                         'start': programme_start_formatted,
@@ -97,12 +101,11 @@ def create_epg_xml(epg_data):
                         'channel': channel_id
                     })
 
-                    title = ET.SubElement(programme, 'title', {'lang': 'en'})
-                    title.text = episode.get('n', 'No Title')  # Episode title
+                    title_elem = ET.SubElement(programme, 'title', {'lang': 'en'})
+                    title_elem.text = title  # Correct title
 
-                    # Fallback: if no description is available, use the title
-                    description = ET.SubElement(programme, 'desc', {'lang': 'en'})
-                    description.text = episode.get('n', 'No Description')  # Default to title if no desc
+                    desc_elem = ET.SubElement(programme, 'desc', {'lang': 'en'})
+                    desc_elem.text = description  # Correct description
 
         else:
             print(f"Warning: No 'airing' found in item: {item}")

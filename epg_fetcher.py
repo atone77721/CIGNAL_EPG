@@ -35,42 +35,44 @@ def fetch_epg(name, cid):
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
             json_data = response.json()
-            data = json_data.get("data", [])
+            programs = json_data.get("data", [])
 
-            if not data:
-                print(f"⚠️ No EPG data returned for {name}")
-                return
+            for program in programs:
+                airings = program.get("airing", [])
+                for airing in airings:
+                    try:
+                        start_time = airing["sc_st_dt"]
+                        end_time = airing["sc_ed_dt"]
+                        title = airing.get("pgm", {}).get("lod", [{}])[0].get("n", "No Title")
+                        desc = airing.get("pgm", {}).get("lon", [{}])[0].get("n", "No Description")
 
-            print(f"🔍 Sample program data for {name}: {data[0]}")
-
-            for program in data:
-                try:
-                    print(f"🧪 Program keys: {program.keys()}")
-
-                    start_time = program["start"]
-                    end_time = program["end"]
-                    title = program.get("title", "No Title")
-                    desc = program.get("description", "No Description")
-
-                    prog = ET.SubElement(tv, "programme", {
-                        "start": f"{start_time} +0000",
-                        "stop": f"{end_time} +0000",
-                        "channel": cid
-                    })
-                    ET.SubElement(prog, "title", lang="en").text = title
-                    ET.SubElement(prog, "desc", lang="en").text = desc
-                except KeyError as e:
-                    print(f"❌ Missing expected key {e} in program data: {program}")
+                        prog = ET.SubElement(tv, "programme", {
+                            "start": f"{start_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
+                            "stop": f"{end_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
+                            "channel": cid
+                        })
+                        ET.SubElement(prog, "title", lang="en").text = title
+                        ET.SubElement(prog, "desc", lang="en").text = desc
+                    except Exception as e:
+                        print(f"❌ Failed to process airing: {e}")
         else:
             print(f"❌ Failed to fetch EPG for {name}: HTTP {response.status_code}")
     except Exception as e:
         print(f"❌ Error during request for {name}: {e}")
 
+# Create channel elements
 for name, cid in channels.items():
     ET.SubElement(tv, "channel", {"id": cid})
     ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
     fetch_epg(name, cid)
 
+# Write to XML
+output_file = "cignal_epg.xml"
 tree = ET.ElementTree(tv)
-tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
-print("✅ EPG file written to cignal_epg.xml")
+tree.write(output_file, encoding="utf-8", xml_declaration=True)
+print(f"✅ EPG file written to {output_file}")
+
+# Print XML contents
+print("\n📄 Preview of cignal_epg.xml:\n" + "-" * 40)
+with open(output_file, "r", encoding="utf-8") as f:
+    print(f.read())

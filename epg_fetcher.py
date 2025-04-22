@@ -25,10 +25,10 @@ params = {
     "pageSize": 100
 }
 
-# Add headers to the request if needed (User-Agent, Authorization, etc.)
+# Add JWT Token to the headers (ensure it's in the correct format: Header.Payload.Signature)
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Authorization": "Bearer <your_api_key_here>"  # Replace with actual API key if needed
+    "Authorization": "Bearer <your_jwt_token_here>"  # Replace with actual JWT token
 }
 
 # Function to fetch EPG data

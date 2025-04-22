@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import json
 import os
+from xml.dom import minidom  # <-- Add this import
 
 # Load channel map from JSON
 with open("cignal-map-channel.json") as f:
@@ -90,7 +91,7 @@ tree_master = ET.ElementTree(tv_master)
 # Prettify the XML to ensure correct indentation and formatting
 def pretty_print_xml(xml_element):
     rough_string = ET.tostring(xml_element, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
+    reparsed = minidom.parseString(rough_string)  # This line uses minidom
     return reparsed.toprettyxml(indent="  ")
 
 # Write the prettified XML to file

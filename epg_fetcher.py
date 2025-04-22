@@ -1,6 +1,9 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+import os
+
+FILENAME = "cignal_epg.xml"
 
 channels = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
@@ -33,27 +36,21 @@ def fetch_epg(name, cid):
     try:
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
-            try:
-                json_data = response.json()
-                print(f"📦 Raw JSON for {name}:\n{json_data}\n")  # DEBUG
+            json_data = response.json()
+            for program in json_data.get("data", []):
+                start_time = program["start"]
+                end_time = program["end"]
+                title = program.get("title", "No Title")
+                desc = program.get("description", "No Description")
 
-                for program in json_data.get("data", []):
-                    print(f"▶️ Program data: {program}")  # DEBUG
-                    start_time = program["start"]
-                    end_time = program["end"]
-                    title = program.get("title", "No Title")
-                    desc = program.get("description", "No Description")
+                prog = ET.SubElement(tv, "programme", {
+                    "start": f"{start_time} +0000",
+                    "stop": f"{end_time} +0000",
+                    "channel": cid
+                })
+                ET.SubElement(prog, "title", lang="en").text = title
+                ET.SubElement(prog, "desc", lang="en").text = desc
 
-                    prog = ET.SubElement(tv, "programme", {
-                        "start": f"{start_time} +0000",
-                        "stop": f"{end_time} +0000",
-                        "channel": cid
-                    })
-                    ET.SubElement(prog, "title", lang="en").text = title
-                    ET.SubElement(prog, "desc", lang="en").text = desc
-
-            except Exception as e:
-                print(f"⚠️ Failed to parse JSON for {name}: {e}")
         else:
             print(f"❌ Failed to fetch EPG: HTTP {response.status_code}")
     except Exception as e:
@@ -65,5 +62,5 @@ for name, cid in channels.items():
     fetch_epg(name, cid)
 
 tree = ET.ElementTree(tv)
-tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
-print("✅ EPG file written to cignal_epg.xml")
+tree.write(FILENAME, encoding="utf-8", xml_declaration=True)
+print(f"✅ EPG file written to {FILENAME}")

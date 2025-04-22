@@ -1,12 +1,10 @@
+import json
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-import json
-import os
 from xml.dom import minidom
 
-# Load your channel map
-with open("cignal-map-channel.json") as f:
+with open("cignal-map-channel.json", "r") as f:
     channels = json.load(f)
 
 headers = {
@@ -17,12 +15,7 @@ headers = {
 start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
 end = start + timedelta(days=1)
 
-# Pretty save
-def save_pretty_xml(tree: ET.ElementTree, filename: str):
-    rough_string = ET.tostring(tree.getroot(), encoding="utf-8")
-    reparsed = minidom.parseString(rough_string)
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(reparsed.toprettyxml(indent="  "))
+tv = ET.Element("tv")
 
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
@@ -36,59 +29,56 @@ def fetch_epg(name, cid):
 
     try:
         response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        data = response.json()
+        if response.status_code == 200:
+            json_data = response.json()
+            programs = json_data.get("data", [])
 
-        if not isinstance(data.get("data"), list):
-            print(f"⚠️ Unexpected format for {name}")
-            return None
+            if not programs:
+                print(f"⚠️ No EPG data for {name}")
+                return
 
-        tv = ET.Element("tv")
+            for entry in programs:
+                airings = entry.get("airing", [])
+                for airing in airings:
+                    start_time = airing.get("sc_st_dt")
+                    end_time = airing.get("sc_ed_dt")
+                    pgm = airing.get("pgm", {})
+                    title = pgm.get("lod", [{"n": "No Title"}])[0].get("n", "No Title")
+                    desc = pgm.get("lon", [{"n": "No Description"}])[0].get("n", "No Description")
 
-        # Channel info
-        channel = ET.SubElement(tv, "channel", {"id": cid})
-        ET.SubElement(channel, "display-name").text = name
-        # Optional: add logo if you have URLs or files
-        # ET.SubElement(channel, "icon", {"src": f"https://yourdomain.com/logos/{cid}.png"})
+                    if not start_time or not end_time:
+                        print(f"❌ Missing start/end in airing for {name}")
+                        continue
 
-        for entry in data["data"]:
-            for program in entry.get("airing", []):
-                start_time = program.get("sc_st_dt")
-                end_time = program.get("sc_ed_dt")
-                pgm = program.get("pgm", {})
-                title = pgm.get("lod", [{}])[0].get("n", "No Title")
-                desc = pgm.get("lon", [{}])[0].get("n", "No Description")
+                    prog = ET.SubElement(tv, "programme", {
+                        "start": f"{start_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
+                        "stop": f"{end_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
+                        "channel": cid
+                    })
+                    ET.SubElement(prog, "title", lang="en").text = title
+                    ET.SubElement(prog, "desc", lang="en").text = desc
 
-                if not start_time or not end_time:
-                    continue
-
-                start_fmt = start_time.replace("-", "").replace(":", "")[:14]
-                end_fmt = end_time.replace("-", "").replace(":", "")[:14]
-
-                prog = ET.SubElement(tv, "programme", {
-                    "start": f"{start_fmt} +0000",
-                    "stop": f"{end_fmt} +0000",
-                    "channel": cid
-                })
-                ET.SubElement(prog, "title", lang="en").text = title
-                ET.SubElement(prog, "desc", lang="en").text = desc
-
-        return tv
-
+        else:
+            print(f"❌ HTTP Error {response.status_code} for {name}")
     except Exception as e:
-        print(f"❌ Error fetching/parsing EPG for {name}: {e}")
-        return None
+        print(f"❌ Exception fetching EPG for {name}: {e}")
 
-# Master TV node
-tv_master = ET.Element("tv")
+for ch in channels:
+    name = ch.get("name", "Unknown")
+    cid = ch.get("id", name.lower().replace(" ", "_"))
 
-for name, cid in channels.items():
-    epg_data = fetch_epg(name, cid)
-    if epg_data:
-        for elem in epg_data:
-            tv_master.append(elem)
+    ch_element = ET.SubElement(tv, "channel", {"id": cid})
+    ET.SubElement(ch_element, "display-name").text = name
+    ET.SubElement(ch_element, "display-name").text = cid  # fallback
 
-# Save pretty XMLTV file
-tree = ET.ElementTree(tv_master)
-save_pretty_xml(tree, "cignal_epg.xml")
-print("✅ Saved to cignal_epg.xml")
+    fetch_epg(name, cid)
+
+# Pretty-print XML output
+rough_string = ET.tostring(tv, encoding="utf-8")
+reparsed = minidom.parseString(rough_string)
+pretty_xml = reparsed.toprettyxml(indent="  ")
+
+with open("cignal_epg.xml", "w", encoding="utf-8") as f:
+    f.write(pretty_xml)
+
+print("✅ Pretty EPG saved to cignal_epg.xml")

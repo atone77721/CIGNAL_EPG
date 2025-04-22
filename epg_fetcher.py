@@ -1,99 +1,72 @@
-import json
-import os
 import requests
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
-from datetime import datetime, timedelta
+import json
+import os
+import re
+from datetime import datetime
+from tqdm import tqdm
 
-# Constants
-EPG_URL_TEMPLATE = "https://cignal.s3-ap-southeast-1.amazonaws.com/epg/{channel_id}.json"
-CHANNEL_MAP_FILE = "cignal-map-channel.json"
-OUTPUT_DIR = "xmltv"
-MASTER_FILE = "xmltv.xml"
+# Load channel mapping from cignal-map-channel.json
+with open("cignal-map-channel.json", "r") as f:
+    channels = json.load(f)
 
-# Helpers
-def fetch_epg(channel_id):
-    url = EPG_URL_TEMPLATE.format(channel_id=channel_id)
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        return response.json()
-    except:
-        print(f"❌ Failed to fetch EPG for {channel_id}")
-        return None
+# Load optional EPG ID overrides
+epg_id_map = {}
+if os.path.exists("epg-id-map.json"):
+    with open("epg-id-map.json", "r") as f:
+        epg_id_map = json.load(f)
 
-def pretty_print_xml(elem):
-    rough_string = ET.tostring(elem, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent="  ")
+# Create EPG directory if it doesn't exist
+os.makedirs("epg", exist_ok=True)
 
-def build_channel_element(channel):
-    elem = ET.Element("channel", id=channel["id"])
-    display_name = ET.SubElement(elem, "display-name")
-    display_name.text = channel["name"]
-    return elem
+def sanitize_epg_id(name):
+    return re.sub(r'[^a-z0-9]+', '', name.lower())
 
-def build_programme_element(channel_id, programme):
-    start = datetime.fromisoformat(programme["start"])
-    stop = datetime.fromisoformat(programme["end"])
-    start_str = start.strftime("%Y%m%d%H%M%S +0000")
-    stop_str = stop.strftime("%Y%m%d%H%M%S +0000")
+# Initialize master EPG root
+tv = ET.Element("tv")
 
-    elem = ET.Element("programme", start=start_str, stop=stop_str, channel=channel_id)
+# Loop through each channel
+for channel in tqdm(channels, desc="Generating EPG"):
 
-    title = ET.SubElement(elem, "title", lang="en")
-    title.text = programme.get("title", "No Title")
+    # Use epg_id map, else sanitize channel_number
+    raw_id = channel.get("channel_number", "")
+    epg_channel_id = epg_id_map.get(raw_id) or sanitize_epg_id(raw_id)
 
-    desc = ET.SubElement(elem, "desc", lang="en")
-    desc.text = programme.get("description", "")
+    # Make request to the EPG endpoint
+    url = f"https://ott.cignal.tv/EPG/guide/{epg_channel_id}"
+    response = requests.get(url)
 
-    category = ET.SubElement(elem, "category", lang="en")
-    category.text = programme.get("genre", "Other")
+    if response.status_code != 200:
+        print(f"❌ Failed to fetch EPG for {epg_channel_id} ({channel.get('channel_name')})")
+        continue
 
-    return elem
+    data = response.json()
 
-def save_xml_file(file_path, xml_elem):
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.write(pretty_print_xml(xml_elem))
+    # Create XML for the channel
+    channel_element = ET.Element("channel", id=epg_channel_id)
+    display_name = ET.SubElement(channel_element, "display-name")
+    display_name.text = channel.get("channel_name")
+    tv.append(channel_element)
 
-# Main script
-def main():
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    # Save EPG entries per program
+    for program in data.get("programs", []):
+        programme = ET.Element("programme", {
+            "start": datetime.fromisoformat(program["start"]).strftime("%Y%m%d%H%M%S") + " +0000",
+            "stop": datetime.fromisoformat(program["end"]).strftime("%Y%m%d%H%M%S") + " +0000",
+            "channel": epg_channel_id,
+        })
+        title = ET.SubElement(programme, "title")
+        title.text = program.get("title", "No Title")
+        desc = ET.SubElement(programme, "desc")
+        desc.text = program.get("description", "No Description")
+        tv.append(programme)
 
-    with open(CHANNEL_MAP_FILE, "r", encoding="utf-8") as f:
-        channel_map = json.load(f)
+    # Save per-channel EPG
+    epg_tree = ET.ElementTree(ET.Element("tv", children=[channel_element] + tv.findall(f"./programme[@channel='{epg_channel_id}']")))
+    epg_tree.write(f"epg/{epg_channel_id}.xml", encoding="utf-8", xml_declaration=True)
 
-    tv_master = ET.Element("tv")
+# Save master EPG XML
+tree = ET.ElementTree(tv)
+tree.write("epg/cignal-epg.xml", encoding="utf-8", xml_declaration=True)
 
-    for channel in channel_map:
-        channel_id = channel["id"]
-        channel_name = channel["name"]
-        print(f"📡 Fetching EPG for {channel_name} (ID: {channel_id})")
-
-        epg_data = fetch_epg(channel_id)
-        if not epg_data:
-            continue
-
-        # Create root element for per-channel file
-        tv = ET.Element("tv")
-
-        # Add <channel> to both
-        chan_elem = build_channel_element(channel)
-        tv.append(chan_elem)
-        tv_master.append(chan_elem)
-
-        # Add <programme>s
-        for prog in epg_data.get("listings", []):
-            prog_elem = build_programme_element(channel_id, prog)
-            tv.append(prog_elem)
-            tv_master.append(prog_elem)
-
-        # Save per-channel XMLTV
-        save_xml_file(os.path.join(OUTPUT_DIR, f"{channel_id}.xml"), tv)
-
-    # Save master XMLTV
-    save_xml_file(MASTER_FILE, tv_master)
-
-if __name__ == "__main__":
-    main()
+print("✅ Done generating EPGs!")

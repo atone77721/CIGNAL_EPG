@@ -65,18 +65,22 @@ def create_epg_xml(epg_data):
                 # Add channel info to the list for JSON
                 channels.append({"channel_id": channel_id, "channel_name": display_name})
                 
-                # Create the programme element
-                programme = ET.SubElement(tv, 'programme', {
-                    'start': airing['sc_st_dt'],
-                    'stop': airing['sc_ed_dt'],
-                    'channel': channel_id
-                })
-                
-                title = ET.SubElement(programme, 'title', {'lang': 'en'})
-                title.text = airing['pgm']['lod'][0]['n']
-                
-                description = ET.SubElement(programme, 'desc', {'lang': 'en'})
-                description.text = airing['pgm']['lod'][0]['n']
+                # Now handle the episode separation by creating individual programmes
+                for episode in airing['pgm']['lod']:
+                    # Create the programme element for each episode
+                    programme = ET.SubElement(tv, 'programme', {
+                        'start': airing['sc_st_dt'],
+                        'stop': airing['sc_ed_dt'],
+                        'channel': channel_id
+                    })
+                    
+                    # Use the episode name for the title
+                    title = ET.SubElement(programme, 'title', {'lang': 'en'})
+                    title.text = episode['n']
+                    
+                    # Use the same title as the description (as requested)
+                    description = ET.SubElement(programme, 'desc', {'lang': 'en'})
+                    description.text = episode['n']
         else:
             print(f"Warning: No 'airing' found in item: {item}")
     

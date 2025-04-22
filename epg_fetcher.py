@@ -1,21 +1,9 @@
 import requests
-import datetime
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
-import json
+from datetime import datetime, timedelta
 
-API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
-
-HEADERS = {
-    "Accept-Encoding": "gzip, deflate, br",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "Referer": "https://cignalplay.com/",
-    "Origin": "https://cignalplay.com",
-    "Connection": "keep-alive",
-    "Accept": "application/json, text/plain, */*"
-}
-
-CHANNELS = {
+# Replace with your actual channel ID mapping (names to UUIDs)
+channels = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
     "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
     "Cg Hbohd": "B741DD7A-A7F8-4F8A-A549-9EF411020F9D",
@@ -23,107 +11,55 @@ CHANNELS = {
     "Tvmaria Prd": "2C55AD7F-3589-48DA-BEC4-005200215975"
 }
 
-def fetch_epg(channel_id, start, end):
-    params = {
-        "start": start + "Z",
-        "end": end + "Z",
-        "reg": "ph",
-        "dt": "all",
-        "client": "pldt-cignal-web",
-        "pageNumber": 1,
-        "pageSize": 100
-    }
+# Time range for the EPG
+start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+end = start + timedelta(days=1)
+
+start_str = start.isoformat() + "Z"
+end_str = end.isoformat() + "Z"
+
+# XMLTV root element
+tv = ET.Element("tv")
+
+# To keep track of unique programmes
+programmes = []
+
+def fetch_epg(channel_name, channel_id):
     print(f"📡 Fetching EPG for channel ID: {channel_id}")
-    response = requests.get(API_URL, headers=HEADERS, params=params)
-    print("🔍 Status:", response.status_code)
-    print("🔗 URL:", response.url)
-    if response.status_code != 200:
-        print("❌ Error response:", response.text)
-        return {}
-    return response.json()
+    url = f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?start={start_str}&end={end_str}&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
+    response = requests.get(url)
+    print(f"🔍 Status: {response.status_code}")
+    print(f"🔗 URL: {url}")
+    data = response.json()
 
-def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
-    root = ET.Element("tv")
-    total_programs = 0
+    # Create <channel> element
+    ch_elem = ET.SubElement(tv, "channel", id=channel_id)
+    ET.SubElement(ch_elem, "display-name").text = channel_name
 
-    # Add <channel> entries
-    for name, site_id in CHANNELS.items():
-        ch = ET.SubElement(root, "channel", {"id": site_id})
-        name_tag = ET.SubElement(ch, "display-name")
-        name_tag.text = name
+    epg_items = data if isinstance(data, list) else [data]
+    for item in epg_items:
+        if "pgm" not in item or "sc_st_dt" not in item or "sc_ed_dt" not in item:
+            continue
+        start = datetime.strptime(item["sc_st_dt"], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y%m%d%H%M%S") + " +0000"
+        stop = datetime.strptime(item["sc_ed_dt"], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y%m%d%H%M%S") + " +0000"
+        title = item["pgm"]["lod"][0]["n"] if item["pgm"].get("lod") else "Untitled"
+        desc = item["pgm"]["lon"][0]["n"] if item["pgm"].get("lon") else ""
 
-    # Add <programme> entries
-    for channel_epg in epg_data_list:
-        for block in channel_epg.get("data", []):
-            for item in block.get("airing", []):
-                if not item.get("sc_st_dt") or not item.get("sc_ed_dt"):
-                    continue
+        programme = ET.Element("programme", start=start, stop=stop, channel=channel_id)
+        ET.SubElement(programme, "title", lang="en").text = title
+        ET.SubElement(programme, "desc", lang="en").text = desc
+        programmes.append(programme)
 
-                prog = ET.SubElement(root, "programme", {
-                    "start": item["sc_st_dt"] + " +0000",
-                    "stop": item["sc_ed_dt"] + " +0000",
-                    "channel": item.get("cid", "unknown")
-                })
+        print(f"🔎 Sample data for {channel_name}:")
+        print(item)
 
-                # Extract title
-                title_text = "No Title"
-                if isinstance(item.get("lon"), list):
-                    for i in item["lon"]:
-                        if isinstance(i, dict) and i.get("n"):
-                            title_text = i["n"]
-                            break
+for name, cid in channels.items():
+    fetch_epg(name, cid)
 
-                # Extract description
-                desc_text = "No Description"
-                if isinstance(item.get("lod"), list):
-                    for i in item["lod"]:
-                        if isinstance(i, dict) and i.get("n"):
-                            desc_text = i["n"]
-                            break
+for p in programmes:
+    tv.append(p)
 
-                title = ET.SubElement(prog, "title", {"lang": "en"})
-                title.text = title_text
-                desc = ET.SubElement(prog, "desc", {"lang": "en"})
-                desc.text = desc_text
-                total_programs += 1
+tree = ET.ElementTree(tv)
+tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
 
-    # Pretty print and write to file
-    rough_string = ET.tostring(root, encoding="utf-8")
-    pretty_xml = minidom.parseString(rough_string).toprettyxml(indent="  ")
-    pretty_xml = "\n".join([line for line in pretty_xml.split("\n") if line.strip()])  # remove empty lines
-
-    with open(output, "w", encoding="utf-8") as f:
-        f.write(pretty_xml)
-
-    print(f"✅ XMLTV written to '{output}' with {total_programs} programmes and {len(CHANNELS)} channels")
-
-if __name__ == "__main__":
-    today = datetime.datetime.utcnow()
-    end_date = today + datetime.timedelta(days=1)
-    start = today.strftime("%Y-%m-%dT00:00:00")
-    end = end_date.strftime("%Y-%m-%dT00:00:00")
-
-    all_epg_data = []
-
-    for name, cid in CHANNELS.items():
-        try:
-            epg_data = fetch_epg(cid, start, end)
-            if epg_data.get("data"):
-                # 🔎 Print one sample item for inspection
-                print(f"🔎 Sample data for {name}:")
-                for block in epg_data["data"]:
-                    for item in block.get("airing", []):
-                        print(json.dumps(item, indent=2))
-                        break
-                    break
-
-                all_epg_data.append(epg_data)
-            else:
-                print(f"⚠️ No results found for {name}")
-        except Exception as e:
-            print(f"❌ Failed to fetch EPG for {name}: {e}")
-
-    if all_epg_data and any(d.get("data") for d in all_epg_data):
-        build_combined_xmltv(all_epg_data)
-    else:
-        print("⚠️ No EPG data retrieved — check channel IDs, API response, or date range.")
+print(f"✅ XMLTV written to 'cignal_epg.xml' with {len(programmes)} programmes and {len(channels)} channels")

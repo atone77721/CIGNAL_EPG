@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import json
 import os
 import urllib3
+import gzip
 
 # Disable SSL warnings (insecure workaround)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -16,9 +17,9 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# Adjusted start and end times for the new API query format (2 days)
+# Adjusted start and end times for the new API query format (1 day)
 start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Start time today at 16:00 UTC
-end = start + timedelta(days=2)  # 2 days window
+end = start + timedelta(days=1)  # 1-day window
 
 # Try to load existing EPG file if it exists
 epg_file = "cignal_epg.xml"
@@ -115,11 +116,14 @@ for name, cid in channels.items():
 # Pretty-print and write XML
 format_xml(tv)
 
-# Save the updated EPG to the file
-ET.ElementTree(tv).write(epg_file, encoding="utf-8", xml_declaration=True)
-print(f"✅ EPG saved to {epg_file}")
+# Compress the output XML to a .gz file
+output_file = "cignal_epg.xml.gz"
+with gzip.open(output_file, 'wb') as f:
+    ET.ElementTree(tv).write(f, encoding="utf-8", xml_declaration=True)
+
+print(f"✅ EPG saved to {output_file}")
 
 # Preview the output (for GitHub Actions/logs)
-print("\n📄 Preview of EPG XML:\n" + "-" * 40)
-with open(epg_file, "r", encoding="utf-8") as f:
-    print(f.read())
+print("\n📄 Preview of EPG XML (compressed):\n" + "-" * 40)
+with gzip.open(output_file, "rb") as f:
+    print(f.read().decode("utf-8"))

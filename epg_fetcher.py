@@ -54,8 +54,13 @@ for item in json_data.get("data", []):
         processed_channels[channel_id] = True
 
     # Program info
-    start_str = airing.get("id", "").split("-")[-1].replace("T", "").replace("Z", "").replace(":", "")
-    start_dt = datetime.strptime(start_str, "%Y%m%d%H%M%S")
+    try:
+        airing_id = airing.get("id", "")
+        timestamp = airing_id.split("-")[-1].replace("T", "").replace("Z", "").replace(":", "")
+        start_dt = datetime.strptime(timestamp, "%Y%m%d%H%M%S")
+    except Exception:
+        continue  # skip malformed entries
+
     end_dt = start_dt + timedelta(minutes=airing.get("dur", 30))
 
     # Format time in XMLTV format
@@ -77,7 +82,7 @@ for item in json_data.get("data", []):
 
 # Output XML to file (pretty printed)
 tree = ET.ElementTree(root)
-ET.indent(tree, space="  ", level=0)  # Python 3.9+
+ET.indent(tree, space="  ", level=0)  # Requires Python 3.9+
 tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
 
 print("✅ EPG saved to cignal_epg.xml")

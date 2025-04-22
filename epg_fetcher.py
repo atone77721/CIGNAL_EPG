@@ -109,9 +109,10 @@ for name, cid in channels.items():
 
 format_xml(tv)
 
-# Save to XML
-ET.ElementTree(tv).write(epg_file, encoding="utf-8", xml_declaration=True)
-print(f"✅ EPG saved to {epg_file}")
+# Save to XML (no update, just fetch and format)
+# We don't save the XML directly in this version
+# ET.ElementTree(tv).write(epg_file, encoding="utf-8", xml_declaration=True)
+print(f"✅ EPG structure fetched and formatted successfully.")
 
 # Compress to .gz
 with open(epg_file, "rb") as f_in:

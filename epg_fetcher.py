@@ -1,9 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-import os
-
-FILENAME = "cignal_epg.xml"
 
 channels = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
@@ -29,6 +26,7 @@ def fetch_epg(name, cid):
         f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
         f"?start={start.isoformat()}Z"
         f"&end={end.isoformat()}Z"
+        f"&channelId={cid}"
         f"&reg=ph&dt=all&client=pldt-cignal-web"
         f"&pageNumber=1&pageSize=100"
     )
@@ -37,22 +35,30 @@ def fetch_epg(name, cid):
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
             json_data = response.json()
-            for program in json_data.get("data", []):
-                start_time = program["start"]
-                end_time = program["end"]
-                title = program.get("title", "No Title")
-                desc = program.get("description", "No Description")
+            data = json_data.get("data", [])
 
-                prog = ET.SubElement(tv, "programme", {
-                    "start": f"{start_time} +0000",
-                    "stop": f"{end_time} +0000",
-                    "channel": cid
-                })
-                ET.SubElement(prog, "title", lang="en").text = title
-                ET.SubElement(prog, "desc", lang="en").text = desc
+            if not data:
+                print(f"⚠️ No EPG data returned for {name}")
+                return
 
+            for program in data:
+                try:
+                    start_time = program["start"]
+                    end_time = program["end"]
+                    title = program.get("title", "No Title")
+                    desc = program.get("description", "No Description")
+
+                    prog = ET.SubElement(tv, "programme", {
+                        "start": f"{start_time} +0000",
+                        "stop": f"{end_time} +0000",
+                        "channel": cid
+                    })
+                    ET.SubElement(prog, "title", lang="en").text = title
+                    ET.SubElement(prog, "desc", lang="en").text = desc
+                except KeyError as e:
+                    print(f"❌ Missing expected key {e} in program data for {name}")
         else:
-            print(f"❌ Failed to fetch EPG: HTTP {response.status_code}")
+            print(f"❌ Failed to fetch EPG for {name}: HTTP {response.status_code}")
     except Exception as e:
         print(f"❌ Error during request for {name}: {e}")
 
@@ -62,5 +68,5 @@ for name, cid in channels.items():
     fetch_epg(name, cid)
 
 tree = ET.ElementTree(tv)
-tree.write(FILENAME, encoding="utf-8", xml_declaration=True)
-print(f"✅ EPG file written to {FILENAME}")
+tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
+print("✅ EPG file written to cignal_epg.xml")

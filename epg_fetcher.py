@@ -101,10 +101,12 @@ def create_epg_xml(epg_data):
         parsed_xml = minidom.parseString(xml_str)
         
         # Debug print the XML
+        print("Generated XML:")
         print(parsed_xml.toprettyxml(indent="  "))  # Print XML to console for debug
         
         # Save to file
         save_path = os.path.join(os.getcwd(), "cignal_epg.xml")
+        print(f"Saving to: {save_path}")  # Debugging line to show file path
         with open(save_path, "w", encoding="utf-8") as f:
             f.write(parsed_xml.toprettyxml(indent="  "))  # Ensure it's saved
         print(f"✅ EPG saved to {save_path}")

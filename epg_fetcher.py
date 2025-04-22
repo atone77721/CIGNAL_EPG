@@ -1,6 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 import json
+from xml.dom import minidom  # Import minidom for pretty printing
 
 def fetch_epg():
     url = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
@@ -84,9 +85,11 @@ def create_epg_xml(epg_data):
         json.dump(channels, f, indent=4)
     print("✅ Channel mapping saved to cignal-map-channel.json")
 
-    # Save the XML file
-    tree = ET.ElementTree(tv)
-    tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
+    # Pretty print the XML and save it to file
+    xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
+    parsed_xml = minidom.parseString(xml_str)
+    with open("cignal_epg.xml", "w", encoding="utf-8") as f:
+        f.write(parsed_xml.toprettyxml(indent="  "))  # Add indentation for readability
     print("✅ EPG saved to cignal_epg.xml")
 
 def main():

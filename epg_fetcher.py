@@ -2,6 +2,7 @@ import requests
 import datetime
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
+import json
 
 API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
 
@@ -14,7 +15,6 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*"
 }
 
-# Replace or auto-generate this list as needed
 CHANNELS = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
     "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
@@ -56,25 +56,30 @@ def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
     for channel_epg in epg_data_list:
         for block in channel_epg.get("data", []):
             for item in block.get("airing", []):
+                if not item.get("sc_st_dt") or not item.get("sc_ed_dt"):
+                    continue
+
                 prog = ET.SubElement(root, "programme", {
-                    "start": item.get("sc_st_dt", "") + " +0000",
-                    "stop": item.get("sc_ed_dt", "") + " +0000",
+                    "start": item["sc_st_dt"] + " +0000",
+                    "stop": item["sc_ed_dt"] + " +0000",
                     "channel": item.get("cid", "unknown")
                 })
 
-                # Safe title extraction
-                lon = item.get("lon")
-                if isinstance(lon, list) and lon and isinstance(lon[0], dict):
-                    title_text = lon[0].get("n", "No Title")
-                else:
-                    title_text = "No Title"
+                # Extract title
+                title_text = "No Title"
+                if isinstance(item.get("lon"), list):
+                    for i in item["lon"]:
+                        if isinstance(i, dict) and i.get("n"):
+                            title_text = i["n"]
+                            break
 
-                # Safe description extraction
-                lod = item.get("lod")
-                if isinstance(lod, list) and lod and isinstance(lod[0], dict):
-                    desc_text = lod[0].get("n", "No Description")
-                else:
-                    desc_text = "No Description"
+                # Extract description
+                desc_text = "No Description"
+                if isinstance(item.get("lod"), list):
+                    for i in item["lod"]:
+                        if isinstance(i, dict) and i.get("n"):
+                            desc_text = i["n"]
+                            break
 
                 title = ET.SubElement(prog, "title", {"lang": "en"})
                 title.text = title_text
@@ -104,6 +109,14 @@ if __name__ == "__main__":
         try:
             epg_data = fetch_epg(cid, start, end)
             if epg_data.get("data"):
+                # 🔎 Print one sample item for inspection
+                print(f"🔎 Sample data for {name}:")
+                for block in epg_data["data"]:
+                    for item in block.get("airing", []):
+                        print(json.dumps(item, indent=2))
+                        break
+                    break
+
                 all_epg_data.append(epg_data)
             else:
                 print(f"⚠️ No results found for {name}")

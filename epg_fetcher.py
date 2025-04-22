@@ -1,6 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 
 # Define the timezone to convert the times to (e.g., Philippines Time)
@@ -9,10 +9,18 @@ TIMEZONE = pytz.timezone("Asia/Manila")
 # API URL (replace with the correct endpoint)
 API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?start=2024-04-27T16%3A00:00Z&end=2024-04-28T16%3A00:00Z&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
 
+# Headers (add necessary headers here)
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+    'Referer': 'https://www.cignalplay.com',  # Adding the custom header
+    'Host': 'live-data-store-cdn.api.pldt.firstlight.ai',  # Optional if needed
+    # Add additional headers if needed (e.g., API keys, etc.)
+}
+
 def fetch_epg():
     try:
-        # Send the GET request without the Authorization header (no JWT token)
-        response = requests.get(API_URL)
+        # Send the GET request with headers
+        response = requests.get(API_URL, headers=headers)
         response.raise_for_status()  # Check for any errors in the response
 
         # Parse the JSON response from the API

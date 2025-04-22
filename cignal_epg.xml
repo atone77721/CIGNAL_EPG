@@ -1,17 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Cignal EPG Fetcher" generator-info-url="https://example.com">
-  <channel id="166677E4-33C5-4C3B-A09D-7B3442D99E77">
-    <display-name>Bilyonaryoch</display-name>
-  </channel>
-  <programme start="20250422151551 +0800" stop="20250422161551 +0800" channel="166677E4-33C5-4C3B-A09D-7B3442D99E77">
-    <title lang="en">Billionaire's Show</title>
-    <desc lang="en">The richest and most powerful individuals.</desc>
-  </programme>
-  <channel id="44B03994-C303-4ACE-997C-91CAC493D0FC">
-    <display-name>Rptv</display-name>
-  </channel>
-  <programme start="20250422161551 +0800" stop="20250422171551 +0800" channel="44B03994-C303-4ACE-997C-91CAC493D0FC">
-    <title lang="en">Rptv Live</title>
-    <desc lang="en">Live broadcast of news and events.</desc>
-  </programme>
-</tv>
+<tv generator-info-name="Cignal EPG Fetcher" generator-info-url="https://example.com" />

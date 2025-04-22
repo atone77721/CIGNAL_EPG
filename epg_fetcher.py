@@ -49,7 +49,7 @@ def format_xml(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = indent
 
-# Gather available channels from the API for reference
+# Store available channels for external use
 available_channels = {}
 
 def fetch_epg(name, cid):
@@ -73,7 +73,6 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
-        # Collect all available channels
         for entry in data["data"]:
             chn = entry.get("chn", {})
             ch_name = chn.get("name")
@@ -130,10 +129,13 @@ def fetch_epg(name, cid):
 for name, cid in channels.items():
     fetch_epg(name, cid)
 
-# Save available channels to help with mapping
-with open("available_channels.json", "w", encoding="utf-8") as f:
-    json.dump(available_channels, f, indent=2)
-    print("📥 Saved available channels list to available_channels.json")
+# Save the available channels JSON
+try:
+    with open("available_channels.json", "w", encoding="utf-8") as f:
+        json.dump(available_channels, f, indent=2, ensure_ascii=False)
+    print("📥 Saved available channels to available_channels.json")
+except Exception as e:
+    print(f"❌ Failed to save available_channels.json: {e}")
 
 # Pretty-print and write XML
 format_xml(tv)

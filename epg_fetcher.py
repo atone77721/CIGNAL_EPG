@@ -68,14 +68,21 @@ def create_epg_xml(epg_data):
                 url = channel_urls.get(channel_id, "http://example.com")
                 ET.SubElement(channel_elem, 'url').text = url
 
-            # Time parsing
+            # Time parsing with validation
             try:
-                start_utc = datetime.strptime(airing['st'], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
-                end_utc = datetime.strptime(airing['et'], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
+                st_raw = airing.get('st', '')
+                et_raw = airing.get('et', '')
+
+                if not (st_raw.endswith("Z") and et_raw.endswith("Z")):
+                    raise ValueError(f"Invalid time format: st={st_raw}, et={et_raw}")
+
+                start_utc = datetime.strptime(st_raw, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
+                end_utc = datetime.strptime(et_raw, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
             except Exception as e:
-                print(f"❌ Error parsing time: {e}")
+                print(f"❌ Skipping program due to time parsing error: {e}")
                 continue
 
+            # Convert to Manila time
             manila_tz = pytz.timezone('Asia/Manila')
             start_manila = start_utc.astimezone(manila_tz)
             end_manila = end_utc.astimezone(manila_tz)

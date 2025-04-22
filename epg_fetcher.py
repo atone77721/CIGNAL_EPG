@@ -1,92 +1,99 @@
+import json
+import os
 import requests
- import xml.etree.ElementTree as ET
- from datetime import datetime, timedelta
- import json
- import os
- 
- # Load channel map from JSON
- with open("cignal-map-channel.json") as f:
-     channels = json.load(f)
- 
- headers = {
-     "User-Agent": "Mozilla/5.0",
-     "Accept": "application/json"
- }
- 
- start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
- end = start + timedelta(days=1)
- 
- def fetch_epg(name, cid):
-     print(f"📡 Fetching EPG for {name} (ID: {cid})")
-     url = (
-         f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
-         f"?start={start.isoformat()}Z"
-         f"&end={end.isoformat()}Z"
-         f"&reg=ph&dt=all&client=pldt-cignal-web"
-         f"&pageNumber=1&pageSize=100"
-     )
- 
-     try:
-         response = requests.get(url, headers=headers)
-         response.raise_for_status()
-         data = response.json()
- 
-         if not isinstance(data.get("data"), list):
-             print(f"⚠️ Unexpected format for {name}")
-             return
- 
-         # Create a new XML element for the channel data
-         tv = ET.Element("tv")
-         ET.SubElement(tv, "channel", {"id": cid})
-         ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
- 
-         for entry in data["data"]:
-             if "airing" in entry:
-                 for program in entry["airing"]:
-                     start_time = program.get("sc_st_dt")
-                     end_time = program.get("sc_ed_dt")
-                     pgm = program.get("pgm", {})
-                     title = pgm.get("lod", [{}])[0].get("n", "No Title")
-                     desc = pgm.get("lon", [{}])[0].get("n", "No Description")
- 
-                     if not start_time or not end_time:
-                         continue
- 
-                     prog = ET.SubElement(tv, "programme", {
-                         "start": f"{start_time.replace('-', '').replace(':', '')} +0000",
-                         "stop": f"{end_time.replace('-', '').replace(':', '')} +0000",
-                         "channel": cid
-                     })
-                     ET.SubElement(prog, "title", lang="en").text = title
-                     ET.SubElement(prog, "desc", lang="en").text = desc
- 
-         # Write to individual XML file
-         # Save to individual XML files for each channel
-         filename = f"epg_{name.replace(' ', '_').lower()}.xml"
-         tree = ET.ElementTree(tv)
-         tree.write(filename, encoding="utf-8", xml_declaration=True)
-         print(f"✅ EPG file written to {filename}")
- 
-         return tv  # Return the channel XML element to append to master XML
- 
-     except Exception as e:
-         print(f"❌ Error fetching/parsing EPG for {name}: {e}")
-         return None
- 
- # Main TV element for combined XML
- tv_master = ET.Element("tv")
- 
- # Loop through all channels
- # Fetch and save individual EPG files, and also collect data for the master XML
- for name, cid in channels.items():
-     fetch_epg(name, cid)
-     channel_data = fetch_epg(name, cid)
-     if channel_data is not None:
-         # Append each channel's data to the master XML
-         tv_master.extend(channel_data.findall("channel"))
-         tv_master.extend(channel_data.findall("programme"))
- 
- # Save the combined EPG data to the main cignal_epg.xml file
- tree_master = ET.ElementTree(tv_master)
- tree_master.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
- print("✅ Combined EPG file written to cignal_epg.xml")
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
+from datetime import datetime, timedelta
+
+# Constants
+EPG_URL_TEMPLATE = "https://cignal.s3-ap-southeast-1.amazonaws.com/epg/{channel_id}.json"
+CHANNEL_MAP_FILE = "cignal-map-channel.json"
+OUTPUT_DIR = "xmltv"
+MASTER_FILE = "xmltv.xml"
+
+# Helpers
+def fetch_epg(channel_id):
+    url = EPG_URL_TEMPLATE.format(channel_id=channel_id)
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()
+    except:
+        print(f"❌ Failed to fetch EPG for {channel_id}")
+        return None
+
+def pretty_print_xml(elem):
+    rough_string = ET.tostring(elem, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ")
+
+def build_channel_element(channel):
+    elem = ET.Element("channel", id=channel["id"])
+    display_name = ET.SubElement(elem, "display-name")
+    display_name.text = channel["name"]
+    return elem
+
+def build_programme_element(channel_id, programme):
+    start = datetime.fromisoformat(programme["start"])
+    stop = datetime.fromisoformat(programme["end"])
+    start_str = start.strftime("%Y%m%d%H%M%S +0000")
+    stop_str = stop.strftime("%Y%m%d%H%M%S +0000")
+
+    elem = ET.Element("programme", start=start_str, stop=stop_str, channel=channel_id)
+
+    title = ET.SubElement(elem, "title", lang="en")
+    title.text = programme.get("title", "No Title")
+
+    desc = ET.SubElement(elem, "desc", lang="en")
+    desc.text = programme.get("description", "")
+
+    category = ET.SubElement(elem, "category", lang="en")
+    category.text = programme.get("genre", "Other")
+
+    return elem
+
+def save_xml_file(file_path, xml_elem):
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(pretty_print_xml(xml_elem))
+
+# Main script
+def main():
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+
+    with open(CHANNEL_MAP_FILE, "r", encoding="utf-8") as f:
+        channel_map = json.load(f)
+
+    tv_master = ET.Element("tv")
+
+    for channel in channel_map:
+        channel_id = channel["id"]
+        channel_name = channel["name"]
+        print(f"📡 Fetching EPG for {channel_name} (ID: {channel_id})")
+
+        epg_data = fetch_epg(channel_id)
+        if not epg_data:
+            continue
+
+        # Create root element for per-channel file
+        tv = ET.Element("tv")
+
+        # Add <channel> to both
+        chan_elem = build_channel_element(channel)
+        tv.append(chan_elem)
+        tv_master.append(chan_elem)
+
+        # Add <programme>s
+        for prog in epg_data.get("listings", []):
+            prog_elem = build_programme_element(channel_id, prog)
+            tv.append(prog_elem)
+            tv_master.append(prog_elem)
+
+        # Save per-channel XMLTV
+        save_xml_file(os.path.join(OUTPUT_DIR, f"{channel_id}.xml"), tv)
+
+    # Save master XMLTV
+    save_xml_file(MASTER_FILE, tv_master)
+
+if __name__ == "__main__":
+    main()

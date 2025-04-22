@@ -16,9 +16,9 @@ def fetch_epg():
     # Get the current time in UTC (we will adjust it to Manila Time later)
     now_utc = datetime.utcnow()
 
-    # Format the current time and calculate the range (24 hours from now)
+    # Format the current time and calculate the range (2 days from now)
     start_time = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
-    end_time = (now_utc + timedelta(days=1)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    end_time = (now_utc + timedelta(days=2)).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     url = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
     params = {

@@ -2,13 +2,12 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import json
-import os
 import urllib3
 
 # Disable SSL warnings (insecure workaround)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# Load channel map from JSON
+# Load channel map from JSON (expects a dictionary like {"Name": "ID"})
 with open("cignal-map-channel.json") as f:
     channels = json.load(f)
 
@@ -56,9 +55,6 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
-        ET.SubElement(tv, "channel", {"id": cid})
-        ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
-
         for entry in data["data"]:
             if "airing" in entry:
                 for program in entry["airing"]:
@@ -92,10 +88,8 @@ def fetch_epg(name, cid):
     for _, prog in programmes:
         tv.append(prog)
 
-# Loop through all channels
-for ch in channels:
-    name = ch["name"]
-    cid = ch["id"]
+# Loop through all channels (assuming channels is a dict: name -> cid)
+for name, cid in channels.items():
     ch_elem = ET.SubElement(tv, "channel", {"id": cid})
     ET.SubElement(ch_elem, "display-name").text = name
     fetch_epg(name, cid)

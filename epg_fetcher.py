@@ -25,11 +25,17 @@ params = {
     "pageSize": 100
 }
 
+# Add headers to the request if needed (User-Agent, Authorization, etc.)
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Authorization": "Bearer <your_api_key_here>"  # Replace with actual API key if needed
+}
+
 # Function to fetch EPG data
 def fetch_epg():
     try:
         print("📡 Fetching EPG from API...")
-        response = requests.get(API_URL, params=params)
+        response = requests.get(API_URL, params=params, headers=headers)
 
         # Check if the response was successful
         if response.status_code == 200:

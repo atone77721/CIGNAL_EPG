@@ -3,6 +3,7 @@ import datetime
 import xml.etree.ElementTree as ET
 
 API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
+
 HEADERS = {
     "Accept-Encoding": "gzip, deflate, br",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -12,10 +13,14 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*"
 }
 
-# Sample channel config – extend with full site_id list
+# Sample channels from your cignalplay.com.channels.xml
 CHANNELS = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
-    "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C"
+    "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
+    "Cg Hbohd": "B741DD7A-A7F8-4F8A-A549-9EF411020F9D",
+    "Tvup Prd": "C0B38DBD-BE4F-4044-9D85-D827D8DC64C4",
+    "Tvmaria Prd": "2C55AD7F-3589-48DA-BEC4-005200215975"
+    # 🔧 Add more channels from your XML here
 }
 
 def fetch_epg(channel_id, start, end):
@@ -28,17 +33,23 @@ def fetch_epg(channel_id, start, end):
         "pageNumber": 1,
         "pageSize": 100
     }
-    print(f"Fetching EPG for channel ID: {channel_id}")
+    print(f"📡 Fetching EPG for channel ID: {channel_id}")
     response = requests.get(API_URL, headers=HEADERS, params=params)
-    print("Status Code:", response.status_code)
-    print("Requested URL:", response.url)
+    print("🔍 Status:", response.status_code)
+    print("🔗 URL:", response.url)
     if response.status_code != 200:
-        print("Response Content:", response.text)
+        print("❌ Error response:", response.text)
+    else:
+        data = response.json()
+        print("📦 Sample Result:", str(data)[:400])
+        return data
     response.raise_for_status()
-    return response.json()
+    return {}
 
 def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
     root = ET.Element("tv")
+    total_programs = 0
+
     for channel_epg in epg_data_list:
         for item in channel_epg.get("result", []):
             prog = ET.SubElement(root, "programme", {
@@ -50,10 +61,11 @@ def build_combined_xmltv(epg_data_list, output="cignal_epg.xml"):
             title.text = item.get("lon", [{}])[0].get("n", "No Title")
             desc = ET.SubElement(prog, "desc", {"lang": "en"})
             desc.text = item.get("lod", [{}])[0].get("n", "No Description")
+            total_programs += 1
 
     tree = ET.ElementTree(root)
     tree.write(output, encoding="utf-8", xml_declaration=True)
-    print(f"EPG XML written to {output}")
+    print(f"✅ EPG XML written to '{output}' with {total_programs} programmes")
 
 if __name__ == "__main__":
     today = datetime.datetime.utcnow()
@@ -66,8 +78,14 @@ if __name__ == "__main__":
     for name, cid in CHANNELS.items():
         try:
             epg_data = fetch_epg(cid, start, end)
-            all_epg_data.append(epg_data)
+            if epg_data.get("result"):
+                all_epg_data.append(epg_data)
+            else:
+                print(f"⚠️ No results found for {name}")
         except Exception as e:
-            print(f"Failed to fetch EPG for {name}: {e}")
+            print(f"❌ Failed to fetch EPG for {name}: {e}")
 
-    build_combined_xmltv(all_epg_data)
+    if all_epg_data and any(e.get("result") for e in all_epg_data):
+        build_combined_xmltv(all_epg_data)
+    else:
+        print("⚠️ No EPG data retrieved — check channel IDs, API response, or date range.")

@@ -1,7 +1,14 @@
 import requests
 import xml.etree.ElementTree as ET
 import json
-from xml.dom import minidom  # Import minidom for pretty printing
+from xml.dom import minidom
+
+# URLs per channel (adjust based on your actual channel URL requirements)
+channel_urls = {
+    "A2z.ph": "http://www.cignalplay.com",
+    "ANC.ph": "http://www.clickthecity.com",
+    "ANIMALPLANET.ph": "http://www.tapdmv.com"
+}
 
 def fetch_epg():
     url = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
@@ -33,6 +40,11 @@ def fetch_epg():
         print(f"Error with the request: {e}")
         return []
 
+def format_time(date_time_str):
+    # Converts datetime from '2025-04-23T16:00:00Z' to '20250423160000 -0500'
+    dt = date_time_str.replace("T", "").replace("Z", "")
+    return f"{dt[:8]}{dt[8:14]} -0500"  # Assuming timezone is -0500
+
 def create_epg_xml(epg_data):
     if isinstance(epg_data, dict) and 'data' in epg_data:
         epg_data = epg_data['data']
@@ -40,64 +52,49 @@ def create_epg_xml(epg_data):
         print("Error: EPG data format is incorrect.")
         return
     
-    tv = ET.Element('tv', {'generator-info-name': 'Cignal EPG Fetcher', 'generator-info-url': 'https://example.com'})
+    tv = ET.Element('tv', {'generator-info-name': 'none', 'generator-info-url': 'none'})
     
-    channels = []  # List to store channel data for JSON output
-    
-    # Dictionary to store channel programs by channel ID and start time
+    # Store all programs in a dictionary
     programs_by_channel = {}
 
     for item in epg_data:
         if 'airing' in item:
             for airing in item['airing']:
-                # Debugging: Print the channel details
                 channel_details = airing['ch']
-                print(f"Channel details: {channel_details}")  # Debugging line
-                
-                # Use 'cs' and 'ex_id' as the channel ID and display name
-                channel_id = airing['ch'].get('cs', 'unknown')  # 'cs' for channel ID
-                display_name = airing['ch'].get('ex_id', 'Unknown Channel')  # 'ex_id' for channel name
-                
-                # Debugging: Print the channel_id and display_name
-                print(f"Channel ID: {channel_id}, Display Name: {display_name}")  # Debugging line
-                
-                # If this channel has not been added to the dictionary, add it
+                channel_id = airing['ch'].get('cs', 'unknown')
+                display_name = airing['ch'].get('ex_id', 'Unknown Channel')
+
+                # Ensure the channel exists in our dictionary and create the <channel> element
                 if channel_id not in programs_by_channel:
                     programs_by_channel[channel_id] = []
-                    # Create the channel element for XML
+
+                    # Create the channel element with <url>
                     channel = ET.SubElement(tv, 'channel', {'id': channel_id})
-                    ET.SubElement(channel, 'display-name').text = display_name
-                
-                # Add the programme to the appropriate channel slot
+                    ET.SubElement(channel, 'display-name', {'lang': 'en'}).text = display_name
+                    url = channel_urls.get(channel_id, "http://example.com")  # Get URL from the map or default
+                    ET.SubElement(channel, 'url').text = url
+
+                # Add the programmes
                 for episode in airing['pgm']['lod']:
                     programme_start = airing['sc_st_dt']
                     programme_end = airing['sc_ed_dt']
-                    
-                    # Ensure a unique key for each programme (based on start time and channel)
-                    programme_key = (programme_start, channel_id)
 
-                    if programme_key not in programs_by_channel[channel_id]:
-                        programme = ET.SubElement(tv, 'programme', {
-                            'start': programme_start,
-                            'stop': programme_end,
-                            'channel': channel_id
-                        })
+                    # Create the <programme> element with the formatted times
+                    programme = ET.SubElement(tv, 'programme', {
+                        'start': format_time(programme_start),
+                        'stop': format_time(programme_end),
+                        'channel': channel_id
+                    })
 
-                        title = ET.SubElement(programme, 'title', {'lang': 'en'})
-                        title.text = episode['n']  # Episode title
+                    title = ET.SubElement(programme, 'title', {'lang': 'en'})
+                    title.text = episode['n']  # Episode title
 
-                        description = ET.SubElement(programme, 'desc', {'lang': 'en'})
-                        description.text = episode['n']  # Episode description
+                    description = ET.SubElement(programme, 'desc', {'lang': 'en'})
+                    description.text = episode['n']  # Episode description (assuming same as title)
 
-                        programs_by_channel[channel_id].append(programme_key)
         else:
             print(f"Warning: No 'airing' found in item: {item}")
     
-    # Save the channel data to a JSON file
-    with open('cignal-map-channel.json', 'w') as f:
-        json.dump(channels, f, indent=4)
-    print("✅ Channel mapping saved to cignal-map-channel.json")
-
     # Pretty print the XML and save it to file
     try:
         xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()

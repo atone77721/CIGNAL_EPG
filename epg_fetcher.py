@@ -20,59 +20,85 @@ end = start + timedelta(days=1)
 
 tv = ET.Element("tv")
 
+def format_xml(elem, level=0):
+    """Pretty-print XML indentation"""
+    indent = "\n" + ("  " * level)
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = indent + "  "
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = indent
+        for child in elem:
+            format_xml(child, level + 1)
+        if not child.tail or not child.tail.strip():
+            child.tail = indent
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = indent
+
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
     url = (
         f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
         f"?start={start.isoformat()}Z"
         f"&end={end.isoformat()}Z"
-        f"&channelId={cid}"
         f"&reg=ph&dt=all&client=pldt-cignal-web"
         f"&pageNumber=1&pageSize=100"
     )
 
+    programmes = []
+
     try:
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
-            json_data = response.json()
-            programs = json_data.get("data", [])
+            data = response.json()
+            programs = data.get("data", [])
 
             for program in programs:
                 airings = program.get("airing", [])
                 for airing in airings:
+                    if airing.get("cid") != cid:
+                        continue
+
                     try:
                         start_time = airing["sc_st_dt"]
                         end_time = airing["sc_ed_dt"]
                         title = airing.get("pgm", {}).get("lod", [{}])[0].get("n", "No Title")
                         desc = airing.get("pgm", {}).get("lon", [{}])[0].get("n", "No Description")
 
-                        prog = ET.SubElement(tv, "programme", {
+                        prog = ET.Element("programme", {
                             "start": f"{start_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
                             "stop": f"{end_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
                             "channel": cid
                         })
                         ET.SubElement(prog, "title", lang="en").text = title
                         ET.SubElement(prog, "desc", lang="en").text = desc
+                        programmes.append((start_time, prog))
                     except Exception as e:
-                        print(f"❌ Failed to process airing: {e}")
+                        print(f"❌ Error parsing airing for {name}: {e}")
         else:
-            print(f"❌ Failed to fetch EPG for {name}: HTTP {response.status_code}")
+            print(f"❌ HTTP Error {response.status_code} for {name}")
     except Exception as e:
-        print(f"❌ Error during request for {name}: {e}")
+        print(f"❌ Request error for {name}: {e}")
 
-# Create channel elements
+    # Sort by start time
+    programmes.sort(key=lambda x: x[0])
+    for _, prog in programmes:
+        tv.append(prog)
+
+# Add channel info and fetch EPGs
 for name, cid in channels.items():
-    ET.SubElement(tv, "channel", {"id": cid})
-    ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
+    ch = ET.SubElement(tv, "channel", {"id": cid})
+    ET.SubElement(ch, "display-name").text = name
     fetch_epg(name, cid)
 
-# Write to XML
+# Pretty-print and write XML
+format_xml(tv)
 output_file = "cignal_epg.xml"
-tree = ET.ElementTree(tv)
-tree.write(output_file, encoding="utf-8", xml_declaration=True)
-print(f"✅ EPG file written to {output_file}")
+ET.ElementTree(tv).write(output_file, encoding="utf-8", xml_declaration=True)
+print(f"✅ EPG saved to {output_file}")
 
-# Print XML contents
-print("\n📄 Preview of cignal_epg.xml:\n" + "-" * 40)
+# Preview the output (for GitHub Actions/logs)
+print("\n📄 Preview of EPG XML:\n" + "-" * 40)
 with open(output_file, "r", encoding="utf-8") as f:
     print(f.read())

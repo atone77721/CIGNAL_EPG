@@ -5,9 +5,8 @@ from xml.dom import minidom
 
 # URLs per channel (adjust based on your actual channel URL requirements)
 channel_urls = {
-    "A2z.ph": "http://www.cignalplay.com",
-    "ANC.ph": "http://www.clickthecity.com",
-    "ANIMALPLANET.ph": "http://www.tapdmv.com"
+    "bilyonaryoch": "http://www.cignalplay.com",  # Example URL, change per actual channel
+    # Add other channel mappings as needed
 }
 
 def fetch_epg():
@@ -61,8 +60,8 @@ def create_epg_xml(epg_data):
         if 'airing' in item:
             for airing in item['airing']:
                 channel_details = airing['ch']
-                channel_id = airing['ch'].get('cs', 'unknown')
-                display_name = airing['ch'].get('ex_id', 'Unknown Channel')
+                channel_id = channel_details.get('cs', 'unknown')
+                display_name = channel_details.get('ex_id', 'Unknown Channel')
 
                 # Ensure the channel exists in our dictionary and create the <channel> element
                 if channel_id not in programs_by_channel:
@@ -89,10 +88,9 @@ def create_epg_xml(epg_data):
                     title = ET.SubElement(programme, 'title', {'lang': 'en'})
                     title.text = episode.get('n', 'No Title')  # Episode title
 
-                    # Use a separate field for description if available, or fall back to title
+                    # Use the same 'n' field for description (or you can adjust if there's another field)
                     description = ET.SubElement(programme, 'desc', {'lang': 'en'})
-                    description_text = episode.get('desc', episode.get('n', 'No Description'))  # Default to title if no desc
-                    description.text = description_text
+                    description.text = episode.get('n', 'No Description')  # Default to title if no desc
 
         else:
             print(f"Warning: No 'airing' found in item: {item}")

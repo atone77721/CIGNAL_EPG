@@ -3,6 +3,8 @@ import xml.etree.ElementTree as ET
 import json
 from xml.dom import minidom
 import os
+from datetime import datetime, timedelta
+import pytz
 
 # URLs per channel (adjust based on your actual channel URL requirements)
 channel_urls = {
@@ -11,10 +13,17 @@ channel_urls = {
 }
 
 def fetch_epg():
+    # Get the current time in UTC (we will adjust it to Manila Time later)
+    now_utc = datetime.utcnow()
+
+    # Format the current time and calculate the range (24 hours from now)
+    start_time = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
+    end_time = (now_utc + timedelta(days=1)).strftime('%Y-%m-%dT%H:%M:%SZ')
+
     url = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
     params = {
-        "start": "2025-04-23T16:00:00Z",
-        "end": "2025-04-24T16:00:00Z",
+        "start": start_time,
+        "end": end_time,
         "reg": "ph",
         "dt": "all",
         "client": "pldt-cignal-web",
@@ -40,9 +49,11 @@ def fetch_epg():
         print(f"Error with the request: {e}")
         return []
 
-def format_time(date_time_str):
-    dt = date_time_str.replace("T", "").replace("Z", "")
-    return f"{dt[:8]}{dt[8:14]} -0500"  # Assuming timezone is -0500
+def format_manila_time(offset_hours=0):
+    """Generates the current time with Manila Time (UTC+8) and optional time offset in the format YYYYMMDDHHMMSS +0800"""
+    manila_tz = pytz.timezone('Asia/Manila')
+    now = datetime.now(manila_tz) + timedelta(hours=offset_hours)  # Apply offset if necessary (e.g., timezone)
+    return now.strftime('%Y%m%d%H%M%S') + " +0800"  # Format: YYYYMMDDHHMMSS +0800 for Manila Time
 
 def create_epg_xml(epg_data):
     if isinstance(epg_data, dict) and 'data' in epg_data:
@@ -75,13 +86,14 @@ def create_epg_xml(epg_data):
 
                 # Add the programmes
                 for episode in airing['pgm']['lod']:
-                    programme_start = airing['sc_st_dt']
-                    programme_end = airing['sc_ed_dt']
+                    # Generate current time for program start and stop in Manila Time
+                    programme_start_formatted = format_manila_time()
+                    programme_end_formatted = format_manila_time(offset_hours=1)  # End time 1 hour later for example
 
                     # Create the <programme> element with the formatted times
                     programme = ET.SubElement(tv, 'programme', {
-                        'start': format_time(programme_start),
-                        'stop': format_time(programme_end),
+                        'start': programme_start_formatted,
+                        'stop': programme_end_formatted,
                         'channel': channel_id
                     })
 

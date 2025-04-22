@@ -63,12 +63,24 @@ def fetch_epg():
                 ET.SubElement(programme, "title", lang="en").text = program_title
                 ET.SubElement(programme, "desc", lang="en").text = program_desc
 
-        # Generate the XML string
-        xml_data = ET.tostring(root, encoding="utf-8", method="xml").decode()
+        # Create a new tree from the root element
+        tree = ET.ElementTree(root)
 
-        # Save the XML to a file
+        # Write the XML to a file with pretty-printing
+        with open("cignal_epg.xml", "wb") as f:
+            tree.write(f, encoding="utf-8", xml_declaration=True)
+
+        # Read the file and prettify the output
+        with open("cignal_epg.xml", "r", encoding="utf-8") as f:
+            xml_str = f.read()
+
+        # Prettify the XML using a more manual approach
+        from xml.dom import minidom
+        pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
+
+        # Write the prettified XML back to the file
         with open("cignal_epg.xml", "w", encoding="utf-8") as f:
-            f.write(xml_data)
+            f.write(pretty_xml)
 
         print("✅ EPG saved to cignal_epg.xml")
 

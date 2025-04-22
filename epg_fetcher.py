@@ -50,8 +50,9 @@ def fetch_epg():
                         continue
 
                     # Convert start and end times to the correct format for XMLTV
-                    start_time = datetime.strptime(start_time, "%Y-%m-%dT%H:%M:%S")  # Assuming this format
-                    end_time = datetime.strptime(end_time, "%Y-%m-%dT%H:%M:%S")
+                    # Handle the 'Z' in the time string (UTC timezone)
+                    start_time = datetime.strptime(start_time[:-1], "%Y-%m-%dT%H:%M:%S")  # Remove 'Z' before parsing
+                    end_time = datetime.strptime(end_time[:-1], "%Y-%m-%dT%H:%M:%S")  # Remove 'Z' before parsing
                     start_time = start_time.astimezone(PST).strftime("%Y%m%d%H%M%S +0800")
                     end_time = end_time.astimezone(PST).strftime("%Y%m%d%H%M%S +0800")
 

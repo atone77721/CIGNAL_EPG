@@ -50,8 +50,9 @@ def create_epg_xml(epg_data):
                 channel_details = airing['ch']
                 print(f"Channel details: {channel_details}")  # Debugging line
                 
-                channel_id = airing['ch'].get('cid', 'unknown')  # Use 'unknown' if 'cid' is missing
-                display_name = airing['ch'].get('acs', 'Unknown Channel')  # Use 'Unknown Channel' if 'acs' is missing
+                # Use 'cs' and 'ex_id' as the channel ID and display name
+                channel_id = airing['ch'].get('cs', 'unknown')  # 'cs' for channel ID
+                display_name = airing['ch'].get('ex_id', 'Unknown Channel')  # 'ex_id' for channel name
                 
                 # Debugging: Print the channel_id and display_name
                 print(f"Channel ID: {channel_id}, Display Name: {display_name}")  # Debugging line

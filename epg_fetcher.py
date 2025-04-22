@@ -15,8 +15,9 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
-end = start + timedelta(days=1)
+# Adjusted start and end times for the new API query format
+start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Adjusted start time
+end = start + timedelta(days=1)  # 24-hour window
 
 tv = ET.Element("tv")
 
@@ -37,11 +38,13 @@ def format_xml(elem, level=0):
 
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
+    
+    # Updated URL with the new API endpoint and query parameters
     url = (
-        f"https://cignalepg-api.aws.cignal.tv/epg/getepg?cid={cid}"
-        f"&from={start.strftime('%Y-%m-%dT00:00:00.000Z')}"
-        f"&to={end.strftime('%Y-%m-%dT00:00:00.000Z')}"
-        f"&pageNumber=1&pageSize=100"
+        f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
+        f"start={start.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
+        f"end={end.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
+        f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
     )
 
     programmes = []

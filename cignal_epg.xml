@@ -1,2 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Cignal EPG Fetcher" generator-info-url="https://example.com" />
+<tv generator-info-name="Cignal EPG Fetcher" generator-info-url="https://example.com">
+  <channel id="166677E4-33C5-4C3B-A09D-7B3442D99E77">
+    <display-name>Bilyonaryoch</display-name>
+  </channel>
+  <programme start="20250422151014 +0800" stop="20250422161014 +0800" channel="166677E4-33C5-4C3B-A09D-7B3442D99E77">
+    <title lang="en">Billionaire's Show</title>
+    <desc lang="en">The richest and most powerful individuals.</desc>
+  </programme>
+</tv>

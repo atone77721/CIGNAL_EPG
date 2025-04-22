@@ -1,8 +1,8 @@
 import requests
-import json
-from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
 
+# Channel list
 channels = {
     "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
     "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
@@ -11,71 +11,68 @@ channels = {
     "Tvmaria Prd": "2C55AD7F-3589-48DA-BEC4-005200215975"
 }
 
-BASE_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json"
-}
+# API template
+API_URL_TEMPLATE = (
+    "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
+    "start={start}&end={end}&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
+)
 
-start_date = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
-end_date = start_date + timedelta(days=1)
+# Create XMLTV root
+tv = ET.Element("tv")
 
+# Add channels to XML
+for name, channel_id in channels.items():
+    channel = ET.SubElement(tv, "channel", id=channel_id)
+    display_name = ET.SubElement(channel, "display-name")
+    display_name.text = name
+
+# Time range: 1 day
+start_time = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+end_time = start_time + timedelta(days=1)
+start_str = start_time.isoformat() + "Z"
+end_str = end_time.isoformat() + "Z"
+
+# Fetch EPG for each channel
 def fetch_epg(channel_name, channel_id):
-    print(f"📡 Fetching EPG for channel ID: {channel_id}")
-
-    params = {
-        "start": start_date.isoformat() + "Z",
-        "end": end_date.isoformat() + "Z",
-        "reg": "ph",
-        "dt": "all",
-        "client": "pldt-cignal-web",
-        "pageNumber": 1,
-        "pageSize": 100
-    }
-
-    response = requests.get(BASE_URL, headers=HEADERS, params=params)
-    print(f"🔍 Status: {response.status_code}")
-    print(f"🔗 URL: {response.url}")
-
-    if response.status_code != 200:
-        print(f"❌ Failed to fetch EPG for {channel_name} (Status {response.status_code})")
-        print(f"🔴 Response body: {response.text}")
-        return []
+    print(f"📡 Fetching EPG for {channel_name} (ID: {channel_id})")
+    url = API_URL_TEMPLATE.format(start=start_str, end=end_str)
 
     try:
+        response = requests.get(url)
+        if response.status_code != 200:
+            print(f"❌ Failed to fetch EPG: HTTP {response.status_code}")
+            return
+
         data = response.json()
-    except json.JSONDecodeError as e:
-        print(f"❌ Failed to decode JSON: {e}")
-        print(f"🔴 Raw response: {response.text}")
-        return []
-
-    programmes = data if isinstance(data, list) else [data]
-    print(f"🔎 Sample data for {channel_name}:\n{json.dumps(programmes[0], indent=2) if programmes else 'No data'}")
-
-    return programmes
-
-def build_xmltv(epg_data):
-    tv = ET.Element("tv")
-
-    for channel_name, channel_id in channels.items():
-        channel_elem = ET.SubElement(tv, "channel", id=channel_id)
-        display_name = ET.SubElement(channel_elem, "display-name")
-        display_name.text = channel_name
-
-        programmes = fetch_epg(channel_name, channel_id)
+        programmes = data.get("lst", [])
 
         for prog in programmes:
+            if prog.get("chnl_id") != channel_id:
+                continue
+
             start = prog.get("sc_st_dt", "").replace("-", "").replace(":", "").replace("T", "").replace("Z", "") + " +0000"
             end = prog.get("sc_ed_dt", "").replace("-", "").replace(":", "").replace("T", "").replace("Z", "") + " +0000"
-            title = prog.get("pgm", {}).get("lod", [{}])[0].get("n", "Unknown")
 
-            prog_elem = ET.SubElement(tv, "programme", start=start, stop=end, channel=channel_id)
-            title_elem = ET.SubElement(prog_elem, "title", lang="en")
+            lod = prog.get("pgm", {}).get("lod", [{}])[0]
+            title = lod.get("n", "No Title")
+            desc = lod.get("d", "No Description")
+
+            programme = ET.SubElement(tv, "programme", start=start, stop=end, channel=channel_id)
+            title_elem = ET.SubElement(programme, "title", lang="en")
             title_elem.text = title
+            desc_elem = ET.SubElement(programme, "desc", lang="en")
+            desc_elem.text = desc
 
-    tree = ET.ElementTree(tv)
-    tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
-    print(f"✅ XMLTV written to 'cignal_epg.xml'")
+    except requests.exceptions.JSONDecodeError as e:
+        print(f"❌ JSON decode error: {e}")
+    except Exception as e:
+        print(f"❌ Unexpected error: {e}")
 
-if __name__ == "__main__":
-    build_xmltv(channels)
+# Run fetch for all channels
+for name, cid in channels.items():
+    fetch_epg(name, cid)
+
+# Output XMLTV file
+tree = ET.ElementTree(tv)
+tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+print("✅ EPG file written to epg.xml")

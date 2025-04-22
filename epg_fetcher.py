@@ -41,8 +41,12 @@ def fetch_epg(name, cid):
                 print(f"⚠️ No EPG data returned for {name}")
                 return
 
+            print(f"🔍 Sample program data for {name}: {data[0]}")
+
             for program in data:
                 try:
+                    print(f"🧪 Program keys: {program.keys()}")
+
                     start_time = program["start"]
                     end_time = program["end"]
                     title = program.get("title", "No Title")
@@ -56,7 +60,7 @@ def fetch_epg(name, cid):
                     ET.SubElement(prog, "title", lang="en").text = title
                     ET.SubElement(prog, "desc", lang="en").text = desc
                 except KeyError as e:
-                    print(f"❌ Missing expected key {e} in program data for {name}")
+                    print(f"❌ Missing expected key {e} in program data: {program}")
         else:
             print(f"❌ Failed to fetch EPG for {name}: HTTP {response.status_code}")
     except Exception as e:

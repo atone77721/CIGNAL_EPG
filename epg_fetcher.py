@@ -51,6 +51,9 @@ def create_epg_xml(epg_data):
     tv = ET.Element('tv', {'generator-info-name': 'none', 'generator-info-url': 'none'})
     programs_by_channel = {}
 
+    added_count = 0
+    skipped_count = 0
+
     for item in epg_data:
         if 'airing' not in item:
             continue
@@ -80,9 +83,9 @@ def create_epg_xml(epg_data):
                 end_utc = datetime.strptime(et_raw, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
             except Exception as e:
                 print(f"❌ Skipping program due to time parsing error: {e}")
+                skipped_count += 1
                 continue
 
-            # Convert to Manila time
             manila_tz = pytz.timezone('Asia/Manila')
             start_manila = start_utc.astimezone(manila_tz)
             end_manila = end_utc.astimezone(manila_tz)
@@ -90,7 +93,6 @@ def create_epg_xml(epg_data):
             start_str = start_manila.strftime('%Y%m%d%H%M%S') + " +0800"
             end_str = end_manila.strftime('%Y%m%d%H%M%S') + " +0800"
 
-            # Title & description
             title = airing['pgm']['lon'][0]['n'] if airing['pgm'].get('lon') else 'No Title'
             description = airing['pgm']['lod'][0]['n'] if airing['pgm'].get('lod') else 'No Description'
 
@@ -103,6 +105,8 @@ def create_epg_xml(epg_data):
             ET.SubElement(programme, 'title', {'lang': 'en'}).text = title
             ET.SubElement(programme, 'desc', {'lang': 'en'}).text = description
 
+            added_count += 1
+
     # Save pretty XML
     try:
         xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
@@ -112,6 +116,7 @@ def create_epg_xml(epg_data):
         with open(save_path, "w", encoding="utf-8") as f:
             f.write(parsed_xml.toprettyxml(indent="  "))
         print(f"✅ EPG saved to {save_path}")
+        print(f"📊 {added_count} programs added, ❌ {skipped_count} skipped due to bad timestamps.")
     except Exception as e:
         print(f"❌ Error saving XML: {e}")
 

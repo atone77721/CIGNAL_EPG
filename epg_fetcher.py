@@ -15,11 +15,11 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# Adjusted start and end times for the new API query format
-start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Adjusted start time
-end = start + timedelta(days=1)  # 24-hour window
+# Adjusted start and end times for the new API query format (7 days)
+start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Start time today at 16:00 UTC
+end = start + timedelta(days=7)  # 7 days window
 
-tv = ET.Element("tv")
+tv = ET.Element("tv", attrib={"generator-info-name": "Cignal EPG Fetcher", "generator-info-url": "https://example.com"})
 
 def format_xml(elem, level=0):
     indent = "\n" + ("  " * level)
@@ -58,6 +58,10 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
+        # Create the channel element
+        channel = ET.SubElement(tv, "channel", {"id": cid})
+        ET.SubElement(channel, "display-name").text = name
+
         for entry in data["data"]:
             if "airing" in entry:
                 for program in entry["airing"]:
@@ -71,6 +75,7 @@ def fetch_epg(name, cid):
                         continue
 
                     try:
+                        # Format start and stop times for XMLTV
                         prog = ET.Element("programme", {
                             "start": f"{start_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
                             "stop": f"{end_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
@@ -93,13 +98,11 @@ def fetch_epg(name, cid):
 
 # Loop through all channels (assuming channels is a dict: name -> cid)
 for name, cid in channels.items():
-    ch_elem = ET.SubElement(tv, "channel", {"id": cid})
-    ET.SubElement(ch_elem, "display-name").text = name
     fetch_epg(name, cid)
 
 # Pretty-print and write XML
 format_xml(tv)
-output_file = "cignal_epg.xml"
+output_file = "cignal_epg_7days.xml"
 ET.ElementTree(tv).write(output_file, encoding="utf-8", xml_declaration=True)
 print(f"✅ EPG saved to {output_file}")
 

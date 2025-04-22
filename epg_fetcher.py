@@ -6,15 +6,8 @@ from datetime import datetime, timedelta, timezone
 with open("cignal-map-channel.json", "r") as f:
     channel_map = json.load(f)
 
-# Build the headers to mimic a legit request (you may not need this if you're not calling an API)
-headers = {
-    "Origin": "https://cignalplay.com",
-    "Referer": "https://cignalplay.com/",
-    "User-Agent": "Mozilla/5.0",
-}
-
-# Sample hardcoded EPG data (replace this with actual data scraping logic)
-# This is an example; you may need to replace this part with real data fetching
+# Sample EPG data (replace this with actual data scraping or fetching)
+# Here, we're assuming the EPG data is fetched from a local source or scraped earlier
 epg_data = [
     {
         "channel_name": "Bilyonaryoch",
@@ -23,6 +16,13 @@ epg_data = [
         "title": "Billionaire's Show",
         "description": "The richest and most powerful individuals."
     },
+    {
+        "channel_name": "Rptv",
+        "start_time": (datetime.now(timezone.utc) + timedelta(hours=1)).strftime("%Y%m%d%H%M%S") + " +0800",  # current time + 1 hour
+        "end_time": (datetime.now(timezone.utc) + timedelta(hours=2)).strftime("%Y%m%d%H%M%S") + " +0800",  # 2 hours later
+        "title": "Rptv Live",
+        "description": "Live broadcast of news and events."
+    }
     # Add more data as needed
 ]
 

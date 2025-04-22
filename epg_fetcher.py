@@ -43,12 +43,18 @@ def create_epg_xml(epg_data):
     for item in epg_data:
         if 'airing' in item:
             for airing in item['airing']:
+                # Debugging: Print the channel details
+                channel_details = airing['ch']
+                print(f"Channel details: {channel_details}")  # Debugging line
+                
                 channel_id = airing['ch'].get('cid', 'unknown')  # Use 'unknown' if 'cid' is missing
+                display_name = airing['ch'].get('acs', 'Unknown Channel')  # Use 'Unknown Channel' if 'acs' is missing
+                
+                # Debugging: Print the channel_id and display_name
+                print(f"Channel ID: {channel_id}, Display Name: {display_name}")  # Debugging line
+                
                 # Create the channel element
                 channel = ET.SubElement(tv, 'channel', {'id': channel_id})
-                
-                # Safely access 'acs' if it exists
-                display_name = airing['ch'].get('acs', 'Unknown Channel')
                 ET.SubElement(channel, 'display-name').text = display_name
                 
                 # Create the programme element

@@ -32,6 +32,7 @@ else:
     print(f"✅ Created new EPG structure for: {epg_file}")
 
 def format_xml(elem, level=0):
+    """Formats the XML for better readability."""
     indent = "\n" + ("  " * level)
     if len(elem):
         if not elem.text or not elem.text.strip():
@@ -47,6 +48,7 @@ def format_xml(elem, level=0):
             elem.tail = indent
 
 def fetch_epg(name, cid):
+    """Fetches EPG data for a given channel."""
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
     
     # Updated URL with the new API endpoint and query parameters
@@ -68,21 +70,13 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
-        # Filter the data for the specific channel ID
-        channel_data = [entry for entry in data["data"] if entry.get("channel_id") == cid]
-
-        # If no data found for this channel, skip it
-        if not channel_data:
-            print(f"⚠️ No EPG data found for {name}")
-            return
-
         # Create the channel element if it doesn't already exist
         existing_channel = tv.find(f"./channel[@id='{cid}']")
         if existing_channel is None:
             channel = ET.SubElement(tv, "channel", {"id": cid})
             ET.SubElement(channel, "display-name").text = name
 
-        for entry in channel_data:
+        for entry in data["data"]:
             if "airing" in entry:
                 for program in entry["airing"]:
                     start_time = program.get("sc_st_dt")
@@ -123,11 +117,6 @@ for name, cid in channels.items():
 # Pretty-print and write XML
 format_xml(tv)
 
-# Save the updated EPG to the file
+# Save the updated EPG to the file (no compression)
 ET.ElementTree(tv).write(epg_file, encoding="utf-8", xml_declaration=True)
 print(f"✅ EPG written to {epg_file}")
-
-# Preview the output (for GitHub Actions/logs)
-print("\n📄 Preview of EPG XML:\n" + "-" * 40)
-with open(epg_file, "r", encoding="utf-8") as f:
-    print(f.read())

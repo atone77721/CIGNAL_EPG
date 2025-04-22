@@ -1,97 +1,80 @@
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+from datetime import datetime
 import pytz
+import os
 
-# XMLTV root
-tv = ET.Element("tv", attrib={
-    "generator-info-name": "Cignal API EPG",
-    "generator-info-url": "https://example.com"
-})
+API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/epgs/cignal/airing/grid?limit=1000"
+OUTPUT_XML = "cignal_epg.xml"
 
-# Time range for EPG: now to +2 days (PST)
 pst = pytz.timezone("Asia/Manila")
-start_pst = datetime.now(pst).replace(minute=0, second=0, microsecond=0)
-end_pst = start_pst + timedelta(days=2)
-start_utc = start_pst.astimezone(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-end_utc = end_pst.astimezone(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
-# API endpoint
-url = (
-    f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
-    f"start={start_utc}&end={end_utc}&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
-)
+def fetch_epg():
+    print("📡 Fetching EPG from API...")
+    try:
+        response = requests.get(API_URL, verify=False, timeout=20)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        print(f"❌ Failed to fetch EPG: {e}")
+        return
 
-headers = {
-    "User-Agent": "Mozilla/5.0"
-}
+    tv = ET.Element("tv", {
+        "generator-info-name": "Cignal API EPG",
+        "generator-info-url": "https://example.com"
+    })
 
-print("📡 Fetching data from Cignal API...")
-try:
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    data = response.json()
+    channels_added = set()
 
     if isinstance(data.get("data"), list):
         for entry in data["data"]:
-            channel_id = entry.get("channel_id", "unknown")
-            channel_name = entry.get("channel_name", "Unknown Channel")
+            channel = entry.get("channel", {})
+            channel_id = channel.get("id", "unknown")
+            channel_name = channel.get("name", "Unknown Channel")
 
-            # Add channel to XML if not already present
-            ch_elem = ET.SubElement(tv, "channel", {"id": channel_id})
-            ET.SubElement(ch_elem, "display-name").text = channel_name
+            # Skip invalid
+            if not channel_id or channel_id == "unknown":
+                continue
 
-            if "airing" in entry:
-                for prog in entry["airing"]:
-                    st = prog.get("sc_st_dt")
-                    et = prog.get("sc_ed_dt")
-                    pgm = prog.get("pgm", {})
-                    title = pgm.get("lod", [{}])[0].get("n", "No Title")
-                    desc = pgm.get("lon", [{}])[0].get("n", "No Description")
+            # Add channel tag once
+            if channel_id not in channels_added:
+                ch_elem = ET.SubElement(tv, "channel", {"id": channel_id})
+                ET.SubElement(ch_elem, "display-name").text = channel_name
+                channels_added.add(channel_id)
 
-                    if not st or not et:
-                        continue
+            for prog in entry.get("airing", []):
+                st = prog.get("sc_st_dt")
+                et = prog.get("sc_ed_dt")
+                pgm = prog.get("pgm", {})
+                title = pgm.get("lod", [{}])[0].get("n", "No Title")
+                desc = pgm.get("lon", [{}])[0].get("n", title)
 
-                    # Convert UTC to PST time
+                if not st or not et:
+                    continue
+
+                try:
                     start_obj = datetime.strptime(st, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc).astimezone(pst)
                     end_obj = datetime.strptime(et, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc).astimezone(pst)
+                except Exception:
+                    continue
 
-                    start_fmt = start_obj.strftime('%Y%m%d%H%M%S') + " +0800"
-                    end_fmt = end_obj.strftime('%Y%m%d%H%M%S') + " +0800"
+                prog_elem = ET.Element("programme", {
+                    "start": start_obj.strftime('%Y%m%d%H%M%S') + " +0800",
+                    "stop": end_obj.strftime('%Y%m%d%H%M%S') + " +0800",
+                    "channel": channel_id
+                })
+                ET.SubElement(prog_elem, "title", lang="en").text = title
+                ET.SubElement(prog_elem, "desc", lang="en").text = desc
+                tv.append(prog_elem)
 
-                    prog_elem = ET.Element("programme", {
-                        "start": start_fmt,
-                        "stop": end_fmt,
-                        "channel": channel_id
-                    })
-                    ET.SubElement(prog_elem, "title", lang="en").text = title
-                    ET.SubElement(prog_elem, "desc", lang="en").text = desc
-                    tv.append(prog_elem)
-    else:
-        print("⚠️ No valid 'data' field in API response.")
+    # Write XML to file
+    tree = ET.ElementTree(tv)
+    if os.path.exists(OUTPUT_XML):
+        os.rename(OUTPUT_XML, OUTPUT_XML + ".bak")
+        print("🗂️ Backup saved as cignal_epg.xml.bak")
 
-except Exception as e:
-    print(f"❌ Error fetching EPG: {e}")
+    tree.write(OUTPUT_XML, encoding="utf-8", xml_declaration=True)
+    print("✅ EPG saved to cignal_epg.xml")
 
-# Format output XML
-def format_xml(elem, level=0):
-    indent = "\n" + ("  " * level)
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = indent + "  "
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = indent
-        for child in elem:
-            format_xml(child, level + 1)
-        if not child.tail or not child.tail.strip():
-            child.tail = indent
-    else:
-        if level and (not elem.tail or not elem.tail.strip()):
-            elem.tail = indent
-
-format_xml(tv)
-
-# Save to file
-output_file = "cignal_epg.xml"
-ET.ElementTree(tv).write(output_file, encoding="utf-8", xml_declaration=True)
-print(f"✅ EPG saved to {output_file}")
+if __name__ == "__main__":
+    fetch_epg()

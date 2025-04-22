@@ -22,38 +22,51 @@ def fetch_epg():
         response = requests.get(url, params=params, headers=headers)
         print("Raw Response: ", response.text)  # Debugging line to check the raw response
         response.raise_for_status()  # Raises an exception for HTTP errors
-        return response.json()  # Attempt to parse JSON
+        
+        # Ensure the response is parsed as JSON
+        try:
+            return response.json()
+        except ValueError as e:
+            print(f"Error decoding JSON: {e}")
+            return []
     except requests.exceptions.RequestException as e:
         print(f"Error with the request: {e}")
         return []
-    except ValueError as e:
-        print(f"Error decoding JSON: {e}")
-        return []
 
 def create_epg_xml(epg_data):
+    # Ensure the data is in the expected format
+    if isinstance(epg_data, dict) and 'data' in epg_data:
+        epg_data = epg_data['data']
+    else:
+        print("Error: EPG data format is incorrect.")
+        return
+    
     # Create the root XML element
     tv = ET.Element('tv', {'generator-info-name': 'Cignal EPG Fetcher', 'generator-info-url': 'https://example.com'})
     
     # Iterate through the EPG data to create XML entries
     for item in epg_data:
-        for airing in item['airing']:
-            # Create the channel element
-            channel = ET.SubElement(tv, 'channel', {'id': airing['ch']['cid']})
-            ET.SubElement(channel, 'display-name').text = airing['ch']['acs']
-            
-            # Create the programme element
-            programme = ET.SubElement(tv, 'programme', {
-                'start': airing['sc_st_dt'],
-                'stop': airing['sc_ed_dt'],
-                'channel': airing['ch']['cid']
-            })
-            
-            title = ET.SubElement(programme, 'title', {'lang': 'en'})
-            title.text = airing['pgm']['lod'][0]['n']  # Program name
-            
-            description = ET.SubElement(programme, 'desc', {'lang': 'en'})
-            description.text = airing['pgm']['lod'][0]['n']  # Use program name as description
-
+        if 'airing' in item:
+            for airing in item['airing']:
+                # Create the channel element
+                channel = ET.SubElement(tv, 'channel', {'id': airing['ch']['cid']})
+                ET.SubElement(channel, 'display-name').text = airing['ch']['acs']
+                
+                # Create the programme element
+                programme = ET.SubElement(tv, 'programme', {
+                    'start': airing['sc_st_dt'],
+                    'stop': airing['sc_ed_dt'],
+                    'channel': airing['ch']['cid']
+                })
+                
+                title = ET.SubElement(programme, 'title', {'lang': 'en'})
+                title.text = airing['pgm']['lod'][0]['n']  # Program name
+                
+                description = ET.SubElement(programme, 'desc', {'lang': 'en'})
+                description.text = airing['pgm']['lod'][0]['n']  # Use program name as description
+        else:
+            print(f"Warning: No 'airing' found in item: {item}")
+    
     # Generate the final XML string
     tree = ET.ElementTree(tv)
     tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)

@@ -12,9 +12,14 @@ def fetch_epg():
         "pageNumber": 1,
         "pageSize": 100,
     }
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        # Add any other required headers here, such as 'Authorization': 'Bearer YOUR_API_KEY'
+    }
 
     try:
-        response = requests.get(url, params=params)
+        response = requests.get(url, params=params, headers=headers)
         print("Raw Response: ", response.text)  # Debugging line to check the raw response
         response.raise_for_status()  # Raises an exception for HTTP errors
         return response.json()  # Attempt to parse JSON

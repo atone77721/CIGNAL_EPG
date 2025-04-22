@@ -36,9 +36,11 @@ def fetch_epg(name, cid):
             return
 
         # Create a new XML element for the channel data
-        tv = ET.Element("tv")
-        ET.SubElement(tv, "channel", {"id": cid})
-        ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
+        tv = ET.Element("tv", version="1.0", xmlns="http://www.xmltv.org/schema")
+
+        # Create the channel element
+        channel_elem = ET.SubElement(tv, "channel", {"id": cid})
+        ET.SubElement(channel_elem, "display-name").text = name
 
         for entry in data["data"]:
             if "airing" in entry:
@@ -52,9 +54,13 @@ def fetch_epg(name, cid):
                     if not start_time or not end_time:
                         continue
 
+                    # Formatting the start and end times to match the expected format
+                    start_time = start_time.replace("-", "").replace(":", "")[:14]
+                    end_time = end_time.replace("-", "").replace(":", "")[:14]
+
                     prog = ET.SubElement(tv, "programme", {
-                        "start": f"{start_time.replace('-', '').replace(':', '')} +0000",
-                        "stop": f"{end_time.replace('-', '').replace(':', '')} +0000",
+                        "start": f"{start_time} +0000",
+                        "stop": f"{end_time} +0000",
                         "channel": cid
                     })
                     ET.SubElement(prog, "title", lang="en").text = title
@@ -73,7 +79,7 @@ def fetch_epg(name, cid):
         return None
 
 # Main TV element for combined XML
-tv_master = ET.Element("tv")
+tv_master = ET.Element("tv", version="1.0", xmlns="http://www.xmltv.org/schema")
 
 # Fetch and save individual EPG files, and also collect data for the master XML
 for name, cid in channels.items():

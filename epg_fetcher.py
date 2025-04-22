@@ -45,6 +45,7 @@ def fetch_epg():
                     pgm = program.get("pgm", {})
                     title = pgm.get("lod", [{}])[0].get("n", "No Title")
                     desc = pgm.get("lon", [{}])[0].get("n", "No Description")
+                    channel_id = program.get("channel", "unknown")  # Extract channel ID, or use "unknown" if not found
 
                     if not start_time or not end_time:
                         continue
@@ -60,7 +61,7 @@ def fetch_epg():
                     programme = ET.Element("programme", {
                         "start": start_time,
                         "stop": end_time,
-                        "channel": "unknown"  # We can replace "unknown" with channel data if available
+                        "channel": channel_id  # Use the correct channel ID here
                     })
                     ET.SubElement(programme, "title", lang="en").text = title
                     ET.SubElement(programme, "desc", lang="en").text = desc

@@ -49,6 +49,11 @@ def create_xmltv(channel_map, start_time, end_time):
     page_number = 1
     while True:
         epg_data = fetch_epg_data(start_time, end_time, page_number)
+        
+        # Debugging: Print API response for verification
+        if epg_data:
+            print(f"Fetched {len(epg_data.get('data', []))} programs from page {page_number}")
+
         if not epg_data or 'data' not in epg_data:
             break
 
@@ -62,6 +67,7 @@ def create_xmltv(channel_map, start_time, end_time):
             title = program.get('title', 'No Title')
             description = program.get('description', '')
 
+            # Add programme element to the XML
             programme = ET.SubElement(tv, 'programme', {
                 'start': start_time,
                 'stop': end_time,

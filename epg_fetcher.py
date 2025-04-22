@@ -16,9 +16,9 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# Adjusted start and end times for the new API query format (7 days)
+# Adjusted start and end times for the new API query format (2 days)
 start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Start time today at 16:00 UTC
-end = start + timedelta(days=7)  # 7 days window
+end = start + timedelta(days=2)  # 2 days window
 
 # Try to load existing EPG file if it exists
 epg_file = "cignal_epg.xml"

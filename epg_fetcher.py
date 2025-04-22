@@ -29,6 +29,9 @@ def fetch_epg():
         # Create the root XML element
         root = ET.Element("tv", generator_info_name="Cignal EPG Fetcher", generator_info_url="https://example.com")
 
+        # Dictionary to keep track of channel IDs we've already processed
+        processed_channels = {}
+
         # Loop through the response and populate the XML
         for item in epg_data.get("data", []):
             for airing in item.get("airing", []):
@@ -49,10 +52,13 @@ def fetch_epg():
                 start_time_str = start_time.strftime("%Y%m%d%H%M%S")  # Convert to desired format
                 stop_time_str = stop_time.strftime("%Y%m%d%H%M%S")
 
-                # Create XML elements for each program
-                channel = ET.SubElement(root, "channel", id=channel_id)
-                ET.SubElement(channel, "display-name").text = channel_id  # Set a display name for simplicity
+                # Only add a new channel if we haven't added it before
+                if channel_id not in processed_channels:
+                    channel = ET.SubElement(root, "channel", id=channel_id)
+                    ET.SubElement(channel, "display-name").text = channel_id  # Set a display name for simplicity
+                    processed_channels[channel_id] = True
 
+                # Create XML elements for each program
                 programme = ET.SubElement(root, "programme", start=f"{start_time_str} +0800", stop=f"{stop_time_str} +0800", channel=channel_id)
                 ET.SubElement(programme, "title", lang="en").text = program_title
                 ET.SubElement(programme, "desc", lang="en").text = program_desc

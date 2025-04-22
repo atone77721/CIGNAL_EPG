@@ -4,7 +4,7 @@ import datetime
 import json
 import os
 
-CHANNEL_MAP_PATH = 'signal-map-channel.json'
+CHANNEL_MAP_PATH = 'cignal-map-channel.json'
 EPG_API_URL = 'https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg'
 
 def load_channel_map():

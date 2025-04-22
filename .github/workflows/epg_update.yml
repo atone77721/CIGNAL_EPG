@@ -1,7 +1,7 @@
 name: cignal-epg-scraper
 
 on:
-  workflow_dispatch:  # Allow manual trigger for the job
+  workflow_dispatch:
 
 jobs:
   fetch_epg:
@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Disable token persistence for better security
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -20,17 +20,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests  # Install the necessary dependencies
-          pip install pytz
+          pip install requests pytz
 
       - name: Run EPG fetcher
-        run: python epg_fetcher.py  # Execute the script to fetch the EPG data
+        run: python epg_fetcher.py  # This will create both XML and GZ versions
 
       - name: Commit and push if changes
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/Alobadman/CIGNAL_EPG.git  # Authentication via token
-          git add cignal_epg.xml  # Add the uncompressed XML file to commit
-          git diff --staged --quiet || git commit -m "Update Cignal EPG data"  # Check for changes before committing
-          git push --force  # Push the changes to the repository
+          git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/Alobadman/CIGNAL_EPG.git
+          git add cignal_epg.xml cignal_epg.xml.gz
+          git diff --staged --quiet || git commit -m "Update Cignal EPG data (xml + gz)"
+          git push --force

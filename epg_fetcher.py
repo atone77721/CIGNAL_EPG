@@ -1,91 +1,83 @@
 import requests
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-import pytz
+from datetime import datetime, timedelta, timezone
 
-# Define the timezone to convert the times to (e.g., Philippines Time)
-TIMEZONE = pytz.timezone("Asia/Manila")
-
-# API URL (replace with the correct endpoint)
-API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?start=2024-04-27T16%3A00:00Z&end=2024-04-28T16%3A00:00Z&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
-
-# Headers (add necessary headers here)
+# Build headers to mimic a legit request
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-    'Referer': 'https://www.cignalplay.com',  # Adding the custom header
-    'Host': 'live-data-store-cdn.api.pldt.firstlight.ai',  # Optional if needed
-    # Add additional headers if needed (e.g., API keys, etc.)
+    "Origin": "https://cignalplay.com",
+    "Referer": "https://cignalplay.com/",
+    "User-Agent": "Mozilla/5.0",
 }
 
-def fetch_epg():
-    try:
-        # Send the GET request with headers
-        response = requests.get(API_URL, headers=headers)
-        response.raise_for_status()  # Check for any errors in the response
+# Define the time range (from today 16:00 UTC to tomorrow 16:00 UTC)
+start_time = datetime.now(timezone.utc).replace(hour=16, minute=0, second=0, microsecond=0)
+end_time = start_time + timedelta(days=1)
 
-        # Parse the JSON response from the API
-        epg_data = response.json()
+# Build API URL
+api_url = (
+    "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
+    f"?start={start_time.isoformat()}&end={end_time.isoformat()}"
+    "&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
+)
 
-        # Create the root XML element
-        root = ET.Element("tv", generator_info_name="Cignal EPG Fetcher", generator_info_url="https://example.com")
+print("📡 Fetching EPG from API...")
+try:
+    response = requests.get(api_url, headers=headers, verify=False)
+    response.raise_for_status()
+    json_data = response.json()
+except Exception as e:
+    print(f"❌ Failed to fetch EPG: {e}")
+    exit(1)
 
-        # Dictionary to keep track of channel IDs we've already processed
-        processed_channels = {}
+# Create root XML structure
+root = ET.Element("tv", attrib={
+    "generator-info-name": "Cignal EPG Fetcher",
+    "generator-info-url": "https://example.com"
+})
 
-        # Loop through the response and populate the XML
-        for item in epg_data.get("data", []):
-            for airing in item.get("airing", []):
-                channel_id = airing.get("cid")
-                program_title = airing.get("pgm", {}).get("lod", [{}])[0].get("n")
-                program_desc = airing.get("pgm", {}).get("lon", [{}])[0].get("n")
-                start_time_str = airing.get("ct")
-                duration = airing.get("dur", 0)
+# Track added channels
+processed_channels = {}
 
-                # Convert the start time to a datetime object
-                start_time = datetime.strptime(start_time_str, "%Y-%m-%dT%H:%M:%SZ")
-                start_time = start_time.replace(tzinfo=pytz.utc).astimezone(TIMEZONE)
+# Loop through the data
+for item in json_data.get("data", []):
+    airing = item.get("airing", [])[0] if item.get("airing") else None
+    if not airing:
+        continue
 
-                # Calculate the stop time by adding the duration
-                stop_time = start_time + timedelta(minutes=duration)
+    channel_id = airing.get("cid")
+    channel_name = airing.get("ch", {}).get("acs", channel_id)
 
-                # Format the times in the required XML format (YYYYMMDDHHMMSS)
-                start_time_str = start_time.strftime("%Y%m%d%H%M%S")  # Convert to desired format
-                stop_time_str = stop_time.strftime("%Y%m%d%H%M%S")
+    # Add channel only once
+    if channel_id not in processed_channels:
+        channel_elem = ET.SubElement(root, "channel", id=channel_id)
+        ET.SubElement(channel_elem, "display-name").text = channel_name
+        processed_channels[channel_id] = True
 
-                # Only add a new channel if we haven't added it before
-                if channel_id not in processed_channels:
-                    channel = ET.SubElement(root, "channel", id=channel_id)
-                    ET.SubElement(channel, "display-name").text = channel_id  # Set a display name for simplicity
-                    processed_channels[channel_id] = True
+    # Program info
+    start_str = airing.get("id", "").split("-")[-1].replace("T", "").replace("Z", "").replace(":", "")
+    start_dt = datetime.strptime(start_str, "%Y%m%d%H%M%S")
+    end_dt = start_dt + timedelta(minutes=airing.get("dur", 30))
 
-                # Create XML elements for each program
-                programme = ET.SubElement(root, "programme", start=f"{start_time_str} +0800", stop=f"{stop_time_str} +0800", channel=channel_id)
-                ET.SubElement(programme, "title", lang="en").text = program_title
-                ET.SubElement(programme, "desc", lang="en").text = program_desc
+    # Format time in XMLTV format
+    start_xml = start_dt.strftime("%Y%m%d%H%M%S") + " +0800"
+    end_xml = end_dt.strftime("%Y%m%d%H%M%S") + " +0800"
 
-        # Create a new tree from the root element
-        tree = ET.ElementTree(root)
+    # Title and description
+    program_title = airing.get("pgm", {}).get("lod", [{}])[0].get("n", "No Title")
+    program_desc = airing.get("pgm", {}).get("lon", [{}])[0].get("n", "No Description")
 
-        # Write the XML to a file with pretty-printing
-        with open("cignal_epg.xml", "wb") as f:
-            tree.write(f, encoding="utf-8", xml_declaration=True)
+    # Add programme element
+    programme_elem = ET.SubElement(root, "programme", attrib={
+        "start": start_xml,
+        "stop": end_xml,
+        "channel": channel_id
+    })
+    ET.SubElement(programme_elem, "title", lang="en").text = program_title
+    ET.SubElement(programme_elem, "desc", lang="en").text = program_desc
 
-        # Read the file and prettify the output
-        with open("cignal_epg.xml", "r", encoding="utf-8") as f:
-            xml_str = f.read()
+# Output XML to file (pretty printed)
+tree = ET.ElementTree(root)
+ET.indent(tree, space="  ", level=0)  # Python 3.9+
+tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
 
-        # Prettify the XML using a more manual approach
-        from xml.dom import minidom
-        pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
-
-        # Write the prettified XML back to the file
-        with open("cignal_epg.xml", "w", encoding="utf-8") as f:
-            f.write(pretty_xml)
-
-        print("✅ EPG saved to cignal_epg.xml")
-
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Failed to fetch EPG: {e}")
-
-if __name__ == "__main__":
-    fetch_epg()
+print("✅ EPG saved to cignal_epg.xml")

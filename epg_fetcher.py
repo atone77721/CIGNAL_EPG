@@ -88,7 +88,7 @@ def create_epg_xml(epg_data):
                     title = ET.SubElement(programme, 'title', {'lang': 'en'})
                     title.text = episode.get('n', 'No Title')  # Episode title
 
-                    # Use the same 'n' field for description (or you can adjust if there's another field)
+                    # Fallback: if no description is available, use the title
                     description = ET.SubElement(programme, 'desc', {'lang': 'en'})
                     description.text = episode.get('n', 'No Description')  # Default to title if no desc
 

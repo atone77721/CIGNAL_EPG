@@ -32,8 +32,14 @@ try:
     response = requests.get(api_url, headers=headers, verify=False)
     response.raise_for_status()
     epg_data = response.json().get("data", [])
+    print("Fetched EPG data:", epg_data)  # Debug print to see the fetched data
 except Exception as e:
     print(f"❌ Failed to fetch EPG: {e}")
+    exit(1)
+
+# Check if there is any data
+if not epg_data:
+    print("❌ No data found in the API response.")
     exit(1)
 
 # Create the XML root element

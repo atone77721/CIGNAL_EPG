@@ -22,12 +22,12 @@ jobs:
         run: |
           pip install requests  # Install the necessary dependencies
 
-      - name: Copy cignal epg script from repository
+      - name: Copy epg fetcher script from repository
         run: |
-          cp cignal-epg-scraper.py ./  # Copy the script from the repository into the working directory
+          cp epg_fetcher.py ./  # Copy the epg_fetcher.py from the repository
 
-      - name: Run cignal scraper
-        run: python cignal-epg-scraper.py  # Execute your script
+      - name: Run EPG fetcher
+        run: python epg_fetcher.py  # Execute the script to fetch the EPG data
 
       - name: Compress output XML
         run: |

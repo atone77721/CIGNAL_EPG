@@ -87,10 +87,12 @@ def create_epg_xml(epg_data):
                     })
 
                     title = ET.SubElement(programme, 'title', {'lang': 'en'})
-                    title.text = episode['n']  # Episode title
+                    title.text = episode.get('n', 'No Title')  # Episode title
 
+                    # Use a separate field for description if available, or fall back to title
                     description = ET.SubElement(programme, 'desc', {'lang': 'en'})
-                    description.text = episode['n']  # Episode description (assuming same as title)
+                    description_text = episode.get('desc', episode.get('n', 'No Description'))  # Default to title if no desc
+                    description.text = description_text
 
         else:
             print(f"Warning: No 'airing' found in item: {item}")

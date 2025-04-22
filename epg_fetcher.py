@@ -1,69 +1,125 @@
 import requests
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-import pytz
+import json
+import os
+import urllib3
 
-# Function to fetch the EPG data for a channel
-def fetch_epg(name, cid, start, end):
+# Disable SSL warnings (insecure workaround)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Load channel map from JSON (expects a dictionary like {"Name": "ID"})
+with open("cignal-map-channel.json") as f:
+    channels = json.load(f)
+
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+# Adjusted start and end times for the new API query format (2 days)
+start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)  # Start time today at 16:00 UTC
+end = start + timedelta(days=2)  # 2 days window
+
+# Try to load existing EPG file if it exists
+epg_file = "cignal_epg.xml"
+if os.path.exists(epg_file):
+    tree = ET.parse(epg_file)
+    tv = tree.getroot()
+    print(f"✅ Loaded existing EPG file: {epg_file}")
+else:
+    # Create a new XMLTV root element if file doesn't exist
+    tv = ET.Element("tv", attrib={"generator-info-name": "Cignal EPG Fetcher", "generator-info-url": "https://example.com"})
+    print(f"✅ Created new EPG structure for: {epg_file}")
+
+def format_xml(elem, level=0):
+    indent = "\n" + ("  " * level)
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = indent + "  "
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = indent
+        for child in elem:
+            format_xml(child, level + 1)
+        if not child.tail or not child.tail.strip():
+            child.tail = indent
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = indent
+
+def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
     
-    # Prepare the URL
+    # Updated URL with the new API endpoint and query parameters
     url = (
-        f"https://cignalepg-api.aws.cignal.tv/epg/getepg?cid={cid}"
-        f"&from={start.strftime('%Y-%m-%dT%H:%M:%S.000Z')}"
-        f"&to={end.strftime('%Y-%m-%dT%H:%M:%S.000Z')}"
-        f"&pageNumber=1&pageSize=100"
+        f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
+        f"start={start.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
+        f"end={end.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
+        f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
     )
-    
-    # Send the request to the API
+
+    programmes = []
+
     try:
-        response = requests.get(url, verify=False)  # Disable SSL verification for testing purposes
-        response.raise_for_status()  # Raise an exception for 4xx/5xx responses
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching data: {e}")
-        return None
+        response = requests.get(url, headers=headers, verify=False)
+        response.raise_for_status()
+        data = response.json()
 
-    # Check if the response contains the 'data' field
-    if response.status_code == 200:
-        try:
-            data = response.json()
-            if 'data' in data:
-                return data['data']
-            else:
-                print(f"No EPG data found for {name}.")
-                return None
-        except ValueError:
-            print(f"Failed to parse JSON for {name}.")
-            return None
-    else:
-        print(f"Failed to fetch EPG data for {name}. Status Code: {response.status_code}")
-        return None
+        if not isinstance(data.get("data"), list):
+            print(f"⚠️ Unexpected format for {name}")
+            return
 
-# Main function to process multiple channels
-def main():
-    # Define your channels and their corresponding `cid`
-    channels = [
-        {"name": "Bilyonaryoch", "cid": "Bilyonaryoch_cid"},
-        {"name": "Rptv", "cid": "Rptv_cid"},
-        {"name": "Truefmtv", "cid": "Truefmtv_cid"},
-        # Add more channels as needed
-    ]
+        # Create the channel element if it doesn't already exist
+        existing_channel = tv.find(f"./channel[@id='{cid}']")
+        if existing_channel is None:
+            channel = ET.SubElement(tv, "channel", {"id": cid})
+            ET.SubElement(channel, "display-name").text = name
 
-    # Get the current time in UTC
-    utc_now = datetime.now(pytz.utc)
-    
-    # Define the time window for EPG data (today's date, next 24 hours)
-    start = utc_now
-    end = utc_now + timedelta(days=1)
+        for entry in data["data"]:
+            if "airing" in entry:
+                for program in entry["airing"]:
+                    start_time = program.get("sc_st_dt")
+                    end_time = program.get("sc_ed_dt")
+                    pgm = program.get("pgm", {})
+                    title = pgm.get("lod", [{}])[0].get("n", "No Title")
+                    desc = pgm.get("lon", [{}])[0].get("n", "No Description")
 
-    # Iterate over each channel and fetch the EPG data
-    for channel in channels:
-        epg_data = fetch_epg(channel["name"], channel["cid"], start, end)
-        
-        if epg_data:
-            print(f"EPG data for {channel['name']}:")
-            print(epg_data)  # You can process this data as needed
-        else:
-            print(f"No data found for {channel['name']}")
+                    if not start_time or not end_time:
+                        continue
 
-if __name__ == "__main__":
-    main()
+                    try:
+                        # Format start and stop times for XMLTV
+                        prog = ET.Element("programme", {
+                            "start": f"{start_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
+                            "stop": f"{end_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
+                            "channel": cid
+                        })
+                        ET.SubElement(prog, "title", lang="en").text = title
+                        ET.SubElement(prog, "desc", lang="en").text = desc
+                        programmes.append((start_time, prog))
+                    except Exception as e:
+                        print(f"❌ Error parsing airing for {name}: {e}")
+
+    except Exception as e:
+        print(f"❌ Error fetching/parsing EPG for {name}: {e}")
+        return
+
+    # Sort by start time and append to TV
+    programmes.sort(key=lambda x: x[0])
+    for _, prog in programmes:
+        tv.append(prog)
+
+# Loop through all channels (assuming channels is a dict: name -> cid)
+for name, cid in channels.items():
+    fetch_epg(name, cid)
+
+# Pretty-print and write XML
+format_xml(tv)
+
+# Save the updated EPG to the file
+ET.ElementTree(tv).write(epg_file, encoding="utf-8", xml_declaration=True)
+print(f"✅ EPG saved to {epg_file}")
+
+# Preview the output (for GitHub Actions/logs)
+print("\n📄 Preview of EPG XML:\n" + "-" * 40)
+with open(epg_file, "r", encoding="utf-8") as f:
+    print(f.read())

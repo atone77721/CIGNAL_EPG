@@ -90,11 +90,14 @@ def create_epg_xml(epg_data):
     print("✅ Channel mapping saved to cignal-map-channel.json")
 
     # Pretty print the XML and save it to file
-    xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
-    parsed_xml = minidom.parseString(xml_str)
-    with open("cignal_epg.xml", "w", encoding="utf-8") as f:
-        f.write(parsed_xml.toprettyxml(indent="  "))  # Add indentation for readability
-    print("✅ EPG saved to cignal_epg.xml")
+    try:
+        xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
+        parsed_xml = minidom.parseString(xml_str)
+        with open("cignal_epg.xml", "w", encoding="utf-8") as f:
+            f.write(parsed_xml.toprettyxml(indent="  "))  # Add indentation for readability
+        print("✅ EPG saved to cignal_epg.xml")
+    except Exception as e:
+        print(f"❌ Error saving XML file: {e}")
 
 def main():
     print("📡 Fetching EPG from API...")

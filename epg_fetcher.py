@@ -1,69 +1,58 @@
-import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+import os
+import json
+from datetime import datetime
 
-channels = {
-    "Rptv": "44B03994-C303-4ACE-997C-91CAC493D0FC",
-    "Cg Hitsnow": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
-    "Cg Hbohd": "B741DD7A-A7F8-4F8A-A549-9EF411020F9D",
-    "Tvup Prd": "C0B38DBD-BE4F-4044-9D85-D827D8DC64C4",
-    "Tvmaria Prd": "2C55AD7F-3589-48DA-BEC4-005200215975"
-}
+EPG_DIR = "./epg"
+os.makedirs(EPG_DIR, exist_ok=True)
 
-headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json"
-}
-
-start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
-end = start + timedelta(days=1)
-
-tv = ET.Element("tv")
-
-def fetch_epg(name, cid):
-    print(f"📡 Fetching EPG for {name} (ID: {cid})")
-    url = (
-        f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
-        f"?start={start.isoformat()}Z"
-        f"&end={end.isoformat()}Z"
-        f"&reg=ph&dt=all&client=pldt-cignal-web"
-        f"&pageNumber=1&pageSize=100"
-    )
-
+def parse_programs(epg_json):
     try:
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
-            try:
-                json_data = response.json()
-                print(f"📦 Raw JSON for {name}:\n{json_data}\n")  # DEBUG
-
-                for program in json_data.get("data", []):
-                    print(f"▶️ Program data: {program}")  # DEBUG
-                    start_time = program["start"]
-                    end_time = program["end"]
-                    title = program.get("title", "No Title")
-                    desc = program.get("description", "No Description")
-
-                    prog = ET.SubElement(tv, "programme", {
-                        "start": f"{start_time} +0000",
-                        "stop": f"{end_time} +0000",
-                        "channel": cid
+        programs = []
+        for program in epg_json["data"]:
+            for airing in program.get("airing", []):
+                try:
+                    title = airing["pgm"]["lod"][0]["n"]
+                    start_time = airing["sc_st_dt"]
+                    end_time = airing["sc_ed_dt"]
+                    programs.append({
+                        "title": title,
+                        "start": start_time,
+                        "end": end_time
                     })
-                    ET.SubElement(prog, "title", lang="en").text = title
-                    ET.SubElement(prog, "desc", lang="en").text = desc
-
-            except Exception as e:
-                print(f"⚠️ Failed to parse JSON for {name}: {e}")
-        else:
-            print(f"❌ Failed to fetch EPG: HTTP {response.status_code}")
+                except KeyError as e:
+                    print(f"⚠️ Missing expected key in airing: {e}")
+        return programs
     except Exception as e:
-        print(f"❌ Error during request for {name}: {e}")
+        print(f"⚠️ Error parsing programs: {e}")
+        return []
 
-for name, cid in channels.items():
-    ET.SubElement(tv, "channel", {"id": cid})
-    ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
-    fetch_epg(name, cid)
+def load_epg(channel_id):
+    file_path = os.path.join(EPG_DIR, f"{channel_id}.json")
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"⚠️ Error loading EPG file {file_path}: {e}")
+        return None
 
-tree = ET.ElementTree(tv)
-tree.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
-print("✅ EPG file written to cignal_epg.xml")
+def main():
+    for file_name in os.listdir(EPG_DIR):
+        if file_name.endswith(".json"):
+            channel_id = file_name.replace(".json", "")
+            print(f"\n📡 Fetching EPG for {channel_id} (ID: {channel_id})")
+
+            epg_json = load_epg(channel_id)
+            if epg_json:
+                print(f"📦 Raw JSON for {channel_id}:")
+                print(json.dumps(epg_json.get("data", [])[:1], indent=2))  # Print sample for brevity
+
+                programs = parse_programs(epg_json)
+                print(f"▶️ Program data: {programs[:3]}")  # Print sample
+
+                if not programs:
+                    print(f"⚠️ Failed to parse JSON for {channel_id}: Missing or malformed 'airing' data")
+            else:
+                print(f"⚠️ No JSON data found for {channel_id}")
+
+if __name__ == "__main__":
+    main()

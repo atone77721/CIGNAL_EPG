@@ -1,15 +1,15 @@
 import requests
 import xml.etree.ElementTree as ET
-import json
 from xml.dom import minidom
 import os
 from datetime import datetime, timedelta
 import pytz
+from gzip import open as gzip_open
 
-# URLs per channel (adjust as needed)
+# Channel URLs (update as needed)
 channel_urls = {
     "cg_hbohd": "http://www.hbo.com",
-    # Add more channels here
+    # Add more channel mappings here
 }
 
 def fetch_epg():
@@ -34,7 +34,7 @@ def fetch_epg():
 
     try:
         response = requests.get(url, params=params, headers=headers)
-        print("Raw Response: ", response.text)  # For debugging
+        print("📡 Raw API Response received.")
         response.raise_for_status()
         return response.json()
     except Exception as e:
@@ -50,7 +50,6 @@ def create_epg_xml(epg_data):
 
     tv = ET.Element('tv', {'generator-info-name': 'none', 'generator-info-url': 'none'})
     programs_by_channel = {}
-
     added_count = 0
     skipped_count = 0
 
@@ -71,7 +70,7 @@ def create_epg_xml(epg_data):
                 url = channel_urls.get(channel_id, "http://example.com")
                 ET.SubElement(channel_elem, 'url').text = url
 
-            # Time parsing with validation
+            # Validate & parse time
             try:
                 st_raw = airing.get('st', '')
                 et_raw = airing.get('et', '')
@@ -104,10 +103,8 @@ def create_epg_xml(epg_data):
 
             ET.SubElement(programme, 'title', {'lang': 'en'}).text = title
             ET.SubElement(programme, 'desc', {'lang': 'en'}).text = description
-
             added_count += 1
 
-    # Save pretty XML
     try:
         xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
         parsed_xml = minidom.parseString(xml_str)
@@ -116,18 +113,27 @@ def create_epg_xml(epg_data):
         with open(save_path, "w", encoding="utf-8") as f:
             f.write(parsed_xml.toprettyxml(indent="  "))
         print(f"✅ EPG saved to {save_path}")
+
+        # Save GZIP version
+        gz_path = save_path + ".gz"
+        with gzip_open(gz_path, "wt", encoding="utf-8") as gz:
+            gz.write(parsed_xml.toprettyxml(indent="  "))
+        print(f"✅ GZipped EPG saved to {gz_path}")
+
+        # Summary
         print(f"📊 {added_count} programs added, ❌ {skipped_count} skipped due to bad timestamps.")
+
     except Exception as e:
         print(f"❌ Error saving XML: {e}")
 
 def main():
-    print("📡 Fetching EPG from API...")
+    print("🚀 Starting EPG generation...")
     epg_data = fetch_epg()
 
     if not epg_data:
-        print("❌ No data fetched.")
+        print("❌ No EPG data received.")
     else:
-        print("✅ Data fetched. Generating XML...")
+        print("📥 EPG data fetched, generating XML...")
         create_epg_xml(epg_data)
 
 if __name__ == "__main__":

@@ -49,12 +49,12 @@ def format_xml(elem, level=0):
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
     
-    # Updated URL with the new API endpoint and query parameters
+    # Updated URL with the new API endpoint and query parameters for only one channel
     url = (
         f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
         f"start={start.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
         f"end={end.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
-        f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
+        f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100&channelId={cid}"
     )
 
     programmes = []
@@ -65,7 +65,7 @@ def fetch_epg(name, cid):
         data = response.json()
 
         if not isinstance(data.get("data"), list):
-            print(f"⚠️ Unexpected format for {name}")
+            print(f"⚠️ No EPG data found for {name}")
             return
 
         # Create the channel element if it doesn't already exist
@@ -74,6 +74,7 @@ def fetch_epg(name, cid):
             channel = ET.SubElement(tv, "channel", {"id": cid})
             ET.SubElement(channel, "display-name").text = name
 
+        # Now fetch the specific data for each channel and handle
         for entry in data["data"]:
             if "airing" in entry:
                 for program in entry["airing"]:

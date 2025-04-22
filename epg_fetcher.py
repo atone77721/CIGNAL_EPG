@@ -2,6 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 from xml.dom import minidom
+import os
 
 # URLs per channel (adjust based on your actual channel URL requirements)
 channel_urls = {
@@ -40,7 +41,6 @@ def fetch_epg():
         return []
 
 def format_time(date_time_str):
-    # Converts datetime from '2025-04-23T16:00:00Z' to '20250423160000 -0500'
     dt = date_time_str.replace("T", "").replace("Z", "")
     return f"{dt[:8]}{dt[8:14]} -0500"  # Assuming timezone is -0500
 
@@ -104,9 +104,10 @@ def create_epg_xml(epg_data):
         print(parsed_xml.toprettyxml(indent="  "))  # Print XML to console for debug
         
         # Save to file
-        with open("cignal_epg.xml", "w", encoding="utf-8") as f:
+        save_path = os.path.join(os.getcwd(), "cignal_epg.xml")
+        with open(save_path, "w", encoding="utf-8") as f:
             f.write(parsed_xml.toprettyxml(indent="  "))  # Ensure it's saved
-        print("✅ EPG saved to cignal_epg.xml")
+        print(f"✅ EPG saved to {save_path}")
     except Exception as e:
         print(f"❌ Error saving XML file: {e}")
 

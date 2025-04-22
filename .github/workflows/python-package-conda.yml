@@ -1,0 +1,41 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # Run daily at 2:00 AM UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run EPG fetcher
+        run: python epg_fetcher.py
+
+      - name: Commit and push EPG
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'actions@github.com'
+
+          # Inject token from GitHub Secrets (CIGNAL_EPG)
+          git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/${{ github.repository }}
+
+          # Debug: show current remotes (to verify token usage)
+          git remote -v
+
+          # Commit and push only if file changed
+          git add cignal_epg.xml
+          git diff --cached --quiet || git commit -m "Auto-update EPG"
+          git push

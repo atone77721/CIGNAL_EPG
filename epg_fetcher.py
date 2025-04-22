@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import json
 import os
+from xml.dom import minidom
 
 # Load channel map from JSON
 with open("cignal-map-channel.json") as f:
@@ -15,6 +16,14 @@ headers = {
 
 start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
 end = start + timedelta(days=1)
+
+# Helper to pretty-print and save XML
+def save_pretty_xml(tree: ET.ElementTree, filename: str):
+    rough_string = ET.tostring(tree.getroot(), encoding="utf-8")
+    reparsed = minidom.parseString(rough_string)
+    pretty_xml = reparsed.toprettyxml(indent="  ")
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(pretty_xml)
 
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
@@ -35,10 +44,9 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
-        # Create a new XML element for the channel data
         tv = ET.Element("tv", version="1.0", xmlns="http://www.xmltv.org/schema")
 
-        # Create the channel element
+        # Channel element
         channel_elem = ET.SubElement(tv, "channel", {"id": cid})
         ET.SubElement(channel_elem, "display-name").text = name
 
@@ -54,42 +62,41 @@ def fetch_epg(name, cid):
                     if not start_time or not end_time:
                         continue
 
-                    # Formatting the start and end times to match the expected format
-                    start_time = start_time.replace("-", "").replace(":", "")[:14]
-                    end_time = end_time.replace("-", "").replace(":", "")[:14]
+                    # Format: YYYYMMDDhhmmss
+                    start_fmt = start_time.replace("-", "").replace(":", "")[:14]
+                    end_fmt = end_time.replace("-", "").replace(":", "")[:14]
 
                     prog = ET.SubElement(tv, "programme", {
-                        "start": f"{start_time} +0000",
-                        "stop": f"{end_time} +0000",
+                        "start": f"{start_fmt} +0000",
+                        "stop": f"{end_fmt} +0000",
                         "channel": cid
                     })
                     ET.SubElement(prog, "title", lang="en").text = title
                     ET.SubElement(prog, "desc", lang="en").text = desc
 
-        # Save to individual XML files for each channel
+        # Save individual EPG file
         filename = f"epg_{name.replace(' ', '_').lower()}.xml"
         tree = ET.ElementTree(tv)
-        tree.write(filename, encoding="utf-8", xml_declaration=True)
-        print(f"✅ EPG file written to {filename}")
+        save_pretty_xml(tree, filename)
+        print(f"✅ EPG saved to {filename}")
 
-        return tv  # Return the channel XML element to append to master XML
+        return tv
 
     except Exception as e:
         print(f"❌ Error fetching/parsing EPG for {name}: {e}")
         return None
 
-# Main TV element for combined XML
+# Master XML for all channels
 tv_master = ET.Element("tv", version="1.0", xmlns="http://www.xmltv.org/schema")
 
-# Fetch and save individual EPG files, and also collect data for the master XML
+# Fetch and build
 for name, cid in channels.items():
     channel_data = fetch_epg(name, cid)
     if channel_data is not None:
-        # Append each channel's data to the master XML
         tv_master.extend(channel_data.findall("channel"))
         tv_master.extend(channel_data.findall("programme"))
 
-# Save the combined EPG data to the main cignal_epg.xml file
-tree_master = ET.ElementTree(tv_master)
-tree_master.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
+# Save the full EPG file
+master_tree = ET.ElementTree(tv_master)
+save_pretty_xml(master_tree, "cignal_epg.xml")
 print("✅ Combined EPG file written to cignal_epg.xml")

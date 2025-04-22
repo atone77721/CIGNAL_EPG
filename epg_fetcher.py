@@ -2,88 +2,73 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
 import pytz
-import os
+import urllib3
 
-API_URL = "https://live-data-store-cdn.api.pldt.firstlight.ai/epgs/cignal/airing/grid?limit=1000"
-OUTPUT_XML = "cignal_epg.xml"
-
-pst = pytz.timezone("Asia/Manila")
+# Disable SSL warnings for unverified HTTPS requests
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def fetch_epg():
     print("📡 Fetching EPG from API...")
-
+    url = "https://live-data-store-cdn.api.pldt.firstlight.ai/epgs/cignal/airing/grid?limit=1000"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Accept": "application/json",
-        "Origin": "https://cignal.tv",
-        "Referer": "https://cignal.tv/",
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json"
     }
 
     try:
-        response = requests.get(API_URL, headers=headers, verify=False, timeout=20)
+        response = requests.get(url, headers=headers, verify=False)
         response.raise_for_status()
-        data = response.json()
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
         print(f"❌ Failed to fetch EPG: {e}")
         return
 
+    data = response.json()
+    epg_data = data.get("data", [])
 
-    tv = ET.Element("tv", {
+    if not epg_data:
+        print("⚠️ No EPG data found.")
+        return
+
+    root = ET.Element("tv", attrib={
         "generator-info-name": "Cignal API EPG",
         "generator-info-url": "https://example.com"
     })
 
     channels_added = set()
 
-    if isinstance(data.get("data"), list):
-        for entry in data["data"]:
-            channel = entry.get("channel", {})
-            channel_id = channel.get("id", "unknown")
-            channel_name = channel.get("name", "Unknown Channel")
+    for item in epg_data:
+        channel_info = item.get("channel", {})
+        channel_name = channel_info.get("name", "Unknown Channel")
+        channel_id = channel_info.get("id", "unknown")
 
-            # Skip invalid
-            if not channel_id or channel_id == "unknown":
-                continue
+        if channel_id not in channels_added:
+            channel_elem = ET.SubElement(root, "channel", id=channel_id)
+            ET.SubElement(channel_elem, "display-name").text = channel_name
+            channels_added.add(channel_id)
 
-            # Add channel tag once
-            if channel_id not in channels_added:
-                ch_elem = ET.SubElement(tv, "channel", {"id": channel_id})
-                ET.SubElement(ch_elem, "display-name").text = channel_name
-                channels_added.add(channel_id)
+        start_time_utc = datetime.fromisoformat(item.get("start")).replace(tzinfo=pytz.UTC)
+        end_time_utc = datetime.fromisoformat(item.get("end")).replace(tzinfo=pytz.UTC)
 
-            for prog in entry.get("airing", []):
-                st = prog.get("sc_st_dt")
-                et = prog.get("sc_ed_dt")
-                pgm = prog.get("pgm", {})
-                title = pgm.get("lod", [{}])[0].get("n", "No Title")
-                desc = pgm.get("lon", [{}])[0].get("n", title)
+        pst = pytz.timezone("Asia/Manila")
+        start_time = start_time_utc.astimezone(pst).strftime("%Y%m%d%H%M%S %z")
+        end_time = end_time_utc.astimezone(pst).strftime("%Y%m%d%H%M%S %z")
 
-                if not st or not et:
-                    continue
+        programme_elem = ET.SubElement(root, "programme", {
+            "start": start_time,
+            "stop": end_time,
+            "channel": channel_id
+        })
 
-                try:
-                    start_obj = datetime.strptime(st, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc).astimezone(pst)
-                    end_obj = datetime.strptime(et, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc).astimezone(pst)
-                except Exception:
-                    continue
+        title = item.get("title", "No Title")
+        desc = item.get("description", title)
+        ET.SubElement(programme_elem, "title", lang="en").text = title
+        ET.SubElement(programme_elem, "desc", lang="en").text = desc
 
-                prog_elem = ET.Element("programme", {
-                    "start": start_obj.strftime('%Y%m%d%H%M%S') + " +0800",
-                    "stop": end_obj.strftime('%Y%m%d%H%M%S') + " +0800",
-                    "channel": channel_id
-                })
-                ET.SubElement(prog_elem, "title", lang="en").text = title
-                ET.SubElement(prog_elem, "desc", lang="en").text = desc
-                tv.append(prog_elem)
+    tree = ET.ElementTree(root)
+    output_file = "cignal_epg.xml"
+    tree.write(output_file, encoding="utf-8", xml_declaration=True)
 
-    # Write XML to file
-    tree = ET.ElementTree(tv)
-    if os.path.exists(OUTPUT_XML):
-        os.rename(OUTPUT_XML, OUTPUT_XML + ".bak")
-        print("🗂️ Backup saved as cignal_epg.xml.bak")
-
-    tree.write(OUTPUT_XML, encoding="utf-8", xml_declaration=True)
-    print("✅ EPG saved to cignal_epg.xml")
+    print(f"✅ EPG saved to {output_file}")
 
 if __name__ == "__main__":
     fetch_epg()

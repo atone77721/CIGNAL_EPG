@@ -1,7 +1,39 @@
+import requests
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
+from datetime import datetime, timedelta
+import json
+import os
+import shutil
+import urllib3
+
+# Disable SSL warnings
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Load channel map
+with open("cignal-map-channel.json") as f:
+    channels = json.load(f)
+
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+# Setup time window
+start = datetime.utcnow().replace(hour=16, minute=0, second=0, microsecond=0)
+end = start + timedelta(days=2)
+
+# EPG file
+epg_file = "cignal_epg.xml"
+
+# Create new TV root
+tv = ET.Element("tv", attrib={
+    "generator-info-name": "Cignal EPG Fetcher",
+    "generator-info-url": "https://example.com"
+})
+
 def fetch_epg(name, cid):
     print(f"📡 Fetching EPG for {name} (ID: {cid})")
     
-    # Updated URL with the new API endpoint and query parameters
     url = (
         f"https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg?"
         f"start={start.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
@@ -9,60 +41,62 @@ def fetch_epg(name, cid):
         f"reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=100"
     )
 
-    programmes = []
-    existing_program_times = set()
-
     try:
         response = requests.get(url, headers=headers, verify=False)
         response.raise_for_status()
         data = response.json()
 
-        if not isinstance(data.get("data"), list):
-            print(f"⚠️ Unexpected format for {name}")
+        # Filter only matching channel
+        entries = [entry for entry in data.get("data", []) if entry.get("chn", {}).get("id") == cid]
+
+        if not entries:
+            print(f"⚠️ No EPG data found for {name}")
             return
 
-        # Create the channel element if it doesn't already exist
-        existing_channel = tv.find(f"./channel[@id='{cid}']")
-        if existing_channel is None:
-            channel = ET.SubElement(tv, "channel", {"id": cid})
-            ET.SubElement(channel, "display-name").text = name
+        # Add <channel> block
+        channel = ET.SubElement(tv, "channel", {"id": cid})
+        ET.SubElement(channel, "display-name").text = name
 
-        for entry in data["data"]:
-            if "airing" in entry:
-                for program in entry["airing"]:
-                    start_time = program.get("sc_st_dt")
-                    end_time = program.get("sc_ed_dt")
-                    pgm = program.get("pgm", {})
-                    title = pgm.get("lod", [{}])[0].get("n", "No Title")
-                    desc = pgm.get("lon", [{}])[0].get("n", "No Description")
+        for entry in entries:
+            for program in entry.get("airing", []):
+                start_time = program.get("sc_st_dt")
+                end_time = program.get("sc_ed_dt")
+                pgm = program.get("pgm", {})
+                title = pgm.get("lod", [{}])[0].get("n", "No Title")
+                desc = pgm.get("lon", [{}])[0].get("n", "No Description")
 
-                    if not start_time or not end_time:
-                        continue
+                if not start_time or not end_time:
+                    continue
 
-                    # Check if the program start time has already been added
-                    if start_time in existing_program_times:
-                        print(f"⚠️ Skipping duplicate program at {start_time}")
-                        continue
-                    
-                    try:
-                        # Format start and stop times for XMLTV
-                        prog = ET.Element("programme", {
-                            "start": f"{start_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
-                            "stop": f"{end_time.replace('-', '').replace(':', '').replace('T', '').replace('Z', '')} +0000",
-                            "channel": cid
-                        })
-                        ET.SubElement(prog, "title", lang="en").text = title
-                        ET.SubElement(prog, "desc", lang="en").text = desc
-                        programmes.append((start_time, prog))
-                        existing_program_times.add(start_time)  # Track added program times
-                    except Exception as e:
-                        print(f"❌ Error parsing airing for {name}: {e}")
+                # Format times
+                start_fmt = start_time.replace("-", "").replace(":", "").replace("T", "").replace("Z", "") + " +0000"
+                end_fmt = end_time.replace("-", "").replace(":", "").replace("T", "").replace("Z", "") + " +0000"
+
+                prog = ET.Element("programme", {
+                    "start": start_fmt,
+                    "stop": end_fmt,
+                    "channel": cid
+                })
+                ET.SubElement(prog, "title", lang="en").text = title
+                ET.SubElement(prog, "desc", lang="en").text = desc
+                tv.append(prog)
 
     except Exception as e:
         print(f"❌ Error fetching/parsing EPG for {name}: {e}")
-        return
 
-    # Sort by start time and append to TV
-    programmes.sort(key=lambda x: x[0])
-    for _, prog in programmes:
-        tv.append(prog)
+# Fetch EPG for all channels
+for name, cid in channels.items():
+    fetch_epg(name, cid)
+
+# Backup existing file
+if os.path.exists(epg_file):
+    shutil.copy2(epg_file, epg_file + ".bak")
+    print(f"🗂️ Backup saved as {epg_file}.bak")
+
+# Save and format output
+rough_string = ET.tostring(tv, encoding="utf-8")
+reparsed = minidom.parseString(rough_string)
+with open(epg_file, "w", encoding="utf-8") as f:
+    f.write(reparsed.toprettyxml(indent="  "))
+
+print(f"✅ EPG written to {epg_file}")

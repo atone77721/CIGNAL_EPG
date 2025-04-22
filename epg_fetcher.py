@@ -99,8 +99,13 @@ def create_epg_xml(epg_data):
     try:
         xml_str = ET.tostring(tv, encoding="utf-8", method="xml").decode()
         parsed_xml = minidom.parseString(xml_str)
+        
+        # Debug print the XML
+        print(parsed_xml.toprettyxml(indent="  "))  # Print XML to console for debug
+        
+        # Save to file
         with open("cignal_epg.xml", "w", encoding="utf-8") as f:
-            f.write(parsed_xml.toprettyxml(indent="  "))  # Add indentation for readability
+            f.write(parsed_xml.toprettyxml(indent="  "))  # Ensure it's saved
         print("✅ EPG saved to cignal_epg.xml")
     except Exception as e:
         print(f"❌ Error saving XML file: {e}")
@@ -109,11 +114,11 @@ def main():
     print("📡 Fetching EPG from API...")
     epg_data = fetch_epg()
 
-    if epg_data:
-        print(f"✅ EPG fetched with {len(epg_data)} items.")
-        create_epg_xml(epg_data)
+    if not epg_data:
+        print("❌ No data fetched, skipping XML creation.")
     else:
-        print("❌ No data found or error occurred during fetching.")
+        print(f"✅ Data fetched, proceeding with XML creation.")
+        create_epg_xml(epg_data)
 
 if __name__ == "__main__":
     main()

@@ -35,6 +35,7 @@ def fetch_epg(name, cid):
             print(f"⚠️ Unexpected format for {name}")
             return
 
+        # Create a new XML element for the channel data
         tv = ET.Element("tv")
         ET.SubElement(tv, "channel", {"id": cid})
         ET.SubElement(tv.find(f"./channel[@id='{cid}']"), "display-name").text = name
@@ -59,15 +60,30 @@ def fetch_epg(name, cid):
                     ET.SubElement(prog, "title", lang="en").text = title
                     ET.SubElement(prog, "desc", lang="en").text = desc
 
-        # Write to individual XML file
+        # Save to individual XML files for each channel
         filename = f"epg_{name.replace(' ', '_').lower()}.xml"
         tree = ET.ElementTree(tv)
         tree.write(filename, encoding="utf-8", xml_declaration=True)
         print(f"✅ EPG file written to {filename}")
 
+        return tv  # Return the channel XML element to append to master XML
+
     except Exception as e:
         print(f"❌ Error fetching/parsing EPG for {name}: {e}")
+        return None
 
-# Loop through all channels
+# Main TV element for combined XML
+tv_master = ET.Element("tv")
+
+# Fetch and save individual EPG files, and also collect data for the master XML
 for name, cid in channels.items():
-    fetch_epg(name, cid)
+    channel_data = fetch_epg(name, cid)
+    if channel_data is not None:
+        # Append each channel's data to the master XML
+        tv_master.extend(channel_data.findall("channel"))
+        tv_master.extend(channel_data.findall("programme"))
+
+# Save the combined EPG data to the main cignal_epg.xml file
+tree_master = ET.ElementTree(tv_master)
+tree_master.write("cignal_epg.xml", encoding="utf-8", xml_declaration=True)
+print("✅ Combined EPG file written to cignal_epg.xml")

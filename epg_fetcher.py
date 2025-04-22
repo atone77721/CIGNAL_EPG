@@ -9,15 +9,15 @@ headers = {
     "User-Agent": "Mozilla/5.0",
 }
 
-# Define the time range (from today 00:00 UTC to the next day 00:00 UTC)
+# Define the time range (today 00:00 UTC to 24 hours later)
 start_time = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
 end_time = start_time + timedelta(days=1)
 
-# Build API URL for a smaller time window to test
+# API URL with updated time window
 api_url = (
     "https://live-data-store-cdn.api.pldt.firstlight.ai/content/epg"
     f"?start={start_time.isoformat()}&end={end_time.isoformat()}"
-    "&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=5"
+    "&reg=ph&dt=all&client=pldt-cignal-web&pageNumber=1&pageSize=10"
 )
 
 print("📡 Fetching EPG from API...")

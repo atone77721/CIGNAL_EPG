@@ -22,10 +22,6 @@ jobs:
         run: |
           pip install requests  # Install the necessary dependencies
 
-      - name: Copy epg fetcher script from repository
-        run: |
-          cp epg_fetcher.py ./  # Copy the epg_fetcher.py from the repository
-
       - name: Run EPG fetcher
         run: python epg_fetcher.py  # Execute the script to fetch the EPG data
 

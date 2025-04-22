@@ -23,10 +23,10 @@ jobs:
         pip install requests
 
     - name: Run EPG generator
-      run: python epg_fetcher.py  # Replace with your actual script name
+      run: python epg_script.py  # Replace with your actual script name
 
     - name: Upload EPG artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: cignal_epg
         path: cignal_epg.xml.gz
@@ -39,5 +39,5 @@ jobs:
         git commit -m "🔄 Update compressed EPG file"
         git push
       env:
-        # Use GitHub token to push
+        # Use your custom secret CIGNAL_EPG for authentication
         GITHUB_TOKEN: ${{ secrets.CIGNAL_EPG }}

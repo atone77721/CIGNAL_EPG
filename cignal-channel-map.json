@@ -1,406 +1,83 @@
-{
-  "channels": [
-    {
-      "site_id": "44B03994-C303-4ACE-997C-91CAC493D0FC",
-      "xmltv_id": "Rptv",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "68C2D95A-A2A4-4C2B-93BE-41893C61210C",
-      "xmltv_id": "Cg Hitsnow",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "B741DD7A-A7F8-4F8A-A549-9EF411020F9D",
-      "xmltv_id": "Cg Hbohd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "C0B38DBD-BE4F-4044-9D85-D827D8DC64C4",
-      "xmltv_id": "Tvup Prd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "2C55AD7F-3589-48DA-BEC4-005200215975",
-      "xmltv_id": "Tvmaria Prd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "62F1A4ED-EB56-49DF-912D-0A2388131772",
-      "xmltv_id": "Cg Hbofam",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "BC3C51E7-F1A5-46DE-979D-65DC483AE59C",
-      "xmltv_id": "Cg Cinemax",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "C6AB65CE-37A0-4040-ABA7-021C669DBEE1",
-      "xmltv_id": "Lotusmacau Prd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "D5127959-34E4-41B2-AA80-CE74DDC2C3C4",
-      "xmltv_id": "Cg Hbosign",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "CEE83EE5-D870-4B3C-9339-ACA7FF4020D0",
-      "xmltv_id": "Cg Hbohits",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "C5298B63-6A6F-4CEC-8AC7-07B482EFA587",
-      "xmltv_id": "Cg Tvnmovie",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "40E328E7-FE69-4287-86EA-FA942A7EA302",
-      "xmltv_id": "Cg Dreamworktag",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "66B5278C-75EA-4D93-AD2B-A5822A0F1056",
-      "xmltv_id": "Cg Tvnpre",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "A9E09C52-721F-4316-ABB9-35EF145B69C0",
-      "xmltv_id": "Cg Tagalogmovie",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "B88CB39F-AC3A-4210-BAE5-F84FE52A2BD4",
-      "xmltv_id": "Radyo5",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "BBEE1ADF-0E6F-432D-B537-85D29ED83114",
-      "xmltv_id": "Cg Mptv",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A51FC-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Cartoon Net Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A5468-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Cnn Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A5580-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "A2z",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A5698-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Dreamworks Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A57B0-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Animal Planet",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A5BC0-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Spotv Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A5F08-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Nbn4",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A6228-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Premiersports Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A641C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tap Edge",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A6520-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Blueant Extreme",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A6624-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tap Sports",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A6868-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Bbcearth Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A696C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Onesportsplus Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A6A70-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Spotv Hd2",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A6C78-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Rock Entertainment",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A734E-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Discovery",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A7448-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Cctv4",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A7650-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Pbarush Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A7754-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Arirang",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A7CE0-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Kbs World",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A7DDA-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Onenews Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A7EE8-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Kix Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A80E6-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Lifetime",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A847E-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Bbcworld News",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A858C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Hgtv Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A869A-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Uaap Varsity",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A8898-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Travel Channel",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A899C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Premier Tennishd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A8AAA-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Pbo",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A8BB8-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Hits Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A9284-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Aljazeera",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A9392-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Oneph",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A9496-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Foodnetwork Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A9590-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Depedchannel",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A97A2-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tv5",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A9C02-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "History Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55A9D06-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Fashiontv Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AA120-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Viva",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AA47C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Bloomberg",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AA896-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Nhk Japan",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AB020-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Asianfoodnetwork",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AB750-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Onesports",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AB8E0-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Nickjr",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ABA02-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Warnertv Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ABB06-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Animax",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ABC0A-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Ibc13",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ABD18-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Cgtn",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AC36C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Axn",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AC48E-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tapmovies Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AC592-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Taptv",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AC696-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Moonbug Kids",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AC790-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tapactionflix Hd",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AC9B6-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "France24",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ACCD6-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Abc Australia",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ACF06-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Hits Movies",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AD122-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Channelnews Asia",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AD230-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Thrill",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AD5C8-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Crime Investigation",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AD848-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tech Storm",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55AD956-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Buko",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ADA5A-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Knowledge Channel",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ADB5E-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Tv5 Monde",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ADD5C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Nickelodeon",
-      "site": "cignalplay.com"
-    },
-    {
-      "site_id": "E55ADE4C-C9E1-11EC-9D64-0242AC120002",
-      "xmltv_id": "Sari Sari",
-      "site": "cignalplay.com"
-    }
-  ]
-}
-
-
+"bilyonaryoch":"166677E4-33C5-4C3B-A09D-7B3442D99E77"
+"rptv":"44B03994-C303-4ACE-997C-91CAC493D0FC"
+"truefmtv":"4514F052-94DC-47C5-8BB1-DA42BD5F2F57"
+"cg_hitsnow":"68C2D95A-A2A4-4C2B-93BE-41893C61210C"
+"cg_hbohd":"B741DD7A-A7F8-4F8A-A549-9EF411020F9D"
+"tvup_prd":"C0B38DBD-BE4F-4044-9D85-D827D8DC64C4"
+"tvmaria_prd":"2C55AD7F-3589-48DA-BEC4-005200215975"
+"cg_hbofam":"62F1A4ED-EB56-49DF-912D-0A2388131772"
+"cg_cinemax":"BC3C51E7-F1A5-46DE-979D-65DC483AE59C"
+"lotusmacau_prd":"C6AB65CE-37A0-4040-ABA7-021C669DBEE1"
+"cg_hbosign":"D5127959-34E4-41B2-AA80-CE74DDC2C3C4"
+"cg_hbohits":"CEE83EE5-D870-4B3C-9339-ACA7FF4020D0"
+"cg_tvnmovie":"C5298B63-6A6F-4CEC-8AC7-07B482EFA587"
+"cg_dreamworktag":"40E328E7-FE69-4287-86EA-FA942A7EA302"
+"cg_tvnpre":"66B5278C-75EA-4D93-AD2B-A5822A0F1056"
+"cg_tagalogmovie":"A9E09C52-721F-4316-ABB9-35EF145B69C0"
+"globaltrekker":"09A671F2-39E7-47AF-BC9B-53AB53BC7FD0"
+"cgtnenglish":"DEFC81EE-883B-446F-BD47-21F5B7FE0730"
+"cgnl_nba":"3327FF64-3E52-42DE-B516-4629BFABA8C7"
+"cg_mptv":"BBEE1ADF-0E6F-432D-B537-85D29ED83114"
+"cartoon_net_hd":"E55A51FC-C9E1-11EC-9D64-0242AC120002"
+"cnn_hd":"E55A5468-C9E1-11EC-9D64-0242AC120002"
+"a2z":"E55A5580-C9E1-11EC-9D64-0242AC120002"
+"dreamworks_hd":"E55A5698-C9E1-11EC-9D64-0242AC120002"
+"animal_planet":"E55A57B0-C9E1-11EC-9D64-0242AC120002"
+"SPOTV_HD":"E55A5BC0-C9E1-11EC-9D64-0242AC120002"
+"nbn4":"E55A5F08-C9E1-11EC-9D64-0242AC120002"
+"cg_ps_hd1":"E55A6228-C9E1-11EC-9D64-0242AC120002"
+"blueant_extreme":"E55A6520-C9E1-11EC-9D64-0242AC120002"
+"tap_sports":"E55A6624-C9E1-11EC-9D64-0242AC120002"
+"bbcearth_hd":"E55A6868-C9E1-11EC-9D64-0242AC120002"
+"onesportsplus_hd":"E55A696C-C9E1-11EC-9D64-0242AC120002"
+"SPOTV_HD2":"E55A6A70-C9E1-11EC-9D64-0242AC120002"
+"rock_entertainment":"E55A6C78-C9E1-11EC-9D64-0242AC120002"
+"discovery":"E55A734E-C9E1-11EC-9D64-0242AC120002"
+"cctv4":"E55A7448-C9E1-11EC-9D64-0242AC120002"
+"pbarush_hd":"E55A7650-C9E1-11EC-9D64-0242AC120002"
+"arirang":"E55A7754-C9E1-11EC-9D64-0242AC120002"
+"kbs_world":"E55A7CE0-C9E1-11EC-9D64-0242AC120002"
+"onenews_hd":"E55A7DDA-C9E1-11EC-9D64-0242AC120002"
+"kix_hd":"E55A7EE8-C9E1-11EC-9D64-0242AC120002"
+"lifetime":"E55A80E6-C9E1-11EC-9D64-0242AC120002"
+"bbcworld_news":"E55A847E-C9E1-11EC-9D64-0242AC120002"
+"hgtv_hd":"E55A858C-C9E1-11EC-9D64-0242AC120002"
+"uaap_varsity":"E55A869A-C9E1-11EC-9D64-0242AC120002"
+"travel_channel":"E55A8898-C9E1-11EC-9D64-0242AC120002"
+"premier_tennishd":"E55A899C-C9E1-11EC-9D64-0242AC120002"
+"pbo":"E55A8AAA-C9E1-11EC-9D64-0242AC120002"
+"hits_hd":"E55A8BB8-C9E1-11EC-9D64-0242AC120002"
+"aljazeera":"E55A9284-C9E1-11EC-9D64-0242AC120002"
+"oneph":"E55A9392-C9E1-11EC-9D64-0242AC120002"
+"foodnetwork_hd":"E55A9496-C9E1-11EC-9D64-0242AC120002"
+"depedchannel":"E55A9590-C9E1-11EC-9D64-0242AC120002"
+"tv5":"E55A97A2-C9E1-11EC-9D64-0242AC120002"
+"history_hd":"E55A9C02-C9E1-11EC-9D64-0242AC120002"
+"fashiontv_hd":"E55A9D06-C9E1-11EC-9D64-0242AC120002"
+"viva":"E55AA120-C9E1-11EC-9D64-0242AC120002"
+"bloomberg":"E55AA47C-C9E1-11EC-9D64-0242AC120002"
+"nhk_japan":"E55AA896-C9E1-11EC-9D64-0242AC120002"
+"asianfoodnetwork":"E55AB020-C9E1-11EC-9D64-0242AC120002"
+"onesports":"E55AB750-C9E1-11EC-9D64-0242AC120002"
+"nickjr":"E55AB8E0-C9E1-11EC-9D64-0242AC120002"
+"warnertv_hd":"E55ABA02-C9E1-11EC-9D64-0242AC120002"
+"animax":"E55ABB06-C9E1-11EC-9D64-0242AC120002"
+"ibc13":"E55ABC0A-C9E1-11EC-9D64-0242AC120002"
+"cgtn":"E55ABD18-C9E1-11EC-9D64-0242AC120002"
+"axn":"E55AC36C-C9E1-11EC-9D64-0242AC120002"
+"tapmovies_hd":"E55AC48E-C9E1-11EC-9D64-0242AC120002"
+"taptv":"E55AC592-C9E1-11EC-9D64-0242AC120002"
+"moonbug_kids":"E55AC696-C9E1-11EC-9D64-0242AC120002"
+"tapactionflix_hd":"E55AC790-C9E1-11EC-9D64-0242AC120002"
+"france24":"E55AC9B6-C9E1-11EC-9D64-0242AC120002"
+"abc_australia":"E55ACCD6-C9E1-11EC-9D64-0242AC120002"
+"hits_movies":"E55ACF06-C9E1-11EC-9D64-0242AC120002"
+"channelnews_asia":"E55AD122-C9E1-11EC-9D64-0242AC120002"
+"thrill":"E55AD230-C9E1-11EC-9D64-0242AC120002"
+"crime_investigation":"E55AD5C8-C9E1-11EC-9D64-0242AC120002"
+"tech_storm":"E55AD848-C9E1-11EC-9D64-0242AC120002"
+"buko":"E55AD956-C9E1-11EC-9D64-0242AC120002"
+"knowledge_channel":"E55ADA5A-C9E1-11EC-9D64-0242AC120002"
+"tv5_monde":"E55ADB5E-C9E1-11EC-9D64-0242AC120002"
+"nickelodeon":"E55ADD5C-C9E1-11EC-9D64-0242AC120002"
+"sari_sari":"E55ADE4C-C9E1-11EC-9D64-0242AC120002"

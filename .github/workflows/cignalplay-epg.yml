@@ -1,4 +1,4 @@
-name: cignalplay-epg-scraper
+name: cignal-epg-scraper
 
 on:
   workflow_dispatch:
@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -17,16 +19,17 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests pytz
+        run: |
+          pip install requests pytz
 
       - name: Run CignalPlay EPG fetcher
-        run: python cignalplay_fetcher.py
+        run: python cignalplay_fetcher.py  # This will create both XML and GZ versions
 
-      - name: Commit and push EPG files
+      - name: Commit and push if changes
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/Alobadman/CIGNAL_EPG.git
           git add cignalplay_epg.xml cignalplay_epg.xml.gz
-          git diff --staged --quiet || git commit -m "Update CignalPlay EPG (XML + GZ)"
+          git diff --staged --quiet || git commit -m "Update CignalPlay EPG data (xml + gz)"
           git push --force

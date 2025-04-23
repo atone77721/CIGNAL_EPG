@@ -67,12 +67,12 @@ def build_epg_xml(epg_data):
                 ET.SubElement(channel_el, 'url').text = CHANNEL_URLS.get(channel_id, "http://example.com")
                 channels_created.add(channel_id)
 
-            # ✅ Get start/end from airing level
-            start_str = airing.get('s')
-            end_str = airing.get('e')
+            # ✅ Use schedule start/end fields
+            start_str = airing.get('sc_st_dt')
+            end_str = airing.get('sc_ed_dt')
 
             if not start_str or not end_str:
-                print(f"⚠️ Skipping airing with missing start/end: {airing}")
+                print(f"⚠️ Skipping airing with missing schedule times: {airing}")
                 continue
 
             start_time = convert_to_manila(start_str)
@@ -81,7 +81,7 @@ def build_epg_xml(epg_data):
             if not start_time or not end_time:
                 continue
 
-            # ✅ Get title and description from pgm block
+            # Title & Description
             pgm_info = airing.get('pgm', {})
             title = pgm_info.get('lon', [{}])[0].get('n', 'No Title')
             description = pgm_info.get('lod', [{}])[0].get('n', 'No Description')

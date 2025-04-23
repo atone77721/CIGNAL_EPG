@@ -2,6 +2,8 @@ name: cignal-epg-scraper
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 */8 * * *'  # Every 8 hours
 
 jobs:
   fetch_epg:

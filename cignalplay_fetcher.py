@@ -6,12 +6,12 @@ import os
 from datetime import datetime, timedelta, timezone
 import pytz
 
-# Sample mapping from site_id to xmltv_id (add full mappings as needed)
+# Sample channel mappings
 CHANNELS = {
     "44B03994-C303-4ACE-997C-91CAC493D0FC": "Rptv",
     "68C2D95A-A2A4-4C2B-93BE-41893C61210C": "Cg Hitsnow",
     "B741DD7A-A7F8-4F8A-A549-9EF411020F9D": "Cg Hbohd",
-    # Add more site_id mappings from your channel XML file here
+    # Extend this dictionary with more site_id mappings
 }
 
 def format_manila_time(dt):
@@ -62,7 +62,7 @@ def build_xmltv(epg_data):
                 start_dt = datetime.strptime(airing.get('sc_st_dt'), "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
                 end_dt = datetime.strptime(airing.get('sc_ed_dt'), "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
             except Exception as e:
-                print(f"⚠️ Failed to parse times for {channel_id}: {e}")
+                print(f"⚠️ Time parse error for {channel_id}: {e}")
                 continue
 
             programme = ET.SubElement(tv, 'programme', {
@@ -90,7 +90,7 @@ def save_xml(content, filename):
 
 def main():
     now = datetime.now(timezone.utc)
-    end = now + timedelta(days=2)
+    end = now + timedelta(days=7)  # ⏳ Fetch EPG for 7 days instead of 2
     print("📡 Fetching EPG from API...")
     epg_data = fetch_epg(now, end)
 

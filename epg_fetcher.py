@@ -67,30 +67,32 @@ def build_epg_xml(epg_data):
                 ET.SubElement(channel_el, 'url').text = CHANNEL_URLS.get(channel_id, "http://example.com")
                 channels_created.add(channel_id)
 
-            for episode in airing.get('pgm', {}).get('lod', []):
-                start_str = episode.get('s')
-                end_str = episode.get('e')
+            # ✅ Get start/end from airing level
+            start_str = airing.get('s')
+            end_str = airing.get('e')
 
-                if not start_str or not end_str:
-                    print(f"⚠️ Skipping episode with missing start/end: {episode}")
-                    continue
+            if not start_str or not end_str:
+                print(f"⚠️ Skipping airing with missing start/end: {airing}")
+                continue
 
-                start_time = convert_to_manila(start_str)
-                end_time = convert_to_manila(end_str)
+            start_time = convert_to_manila(start_str)
+            end_time = convert_to_manila(end_str)
 
-                if not start_time or not end_time:
-                    continue
+            if not start_time or not end_time:
+                continue
 
-                title = airing['pgm'].get('lon', [{}])[0].get('n', 'No Title')
-                description = episode.get('n', 'No Description')
+            # ✅ Get title and description from pgm block
+            pgm_info = airing.get('pgm', {})
+            title = pgm_info.get('lon', [{}])[0].get('n', 'No Title')
+            description = pgm_info.get('lod', [{}])[0].get('n', 'No Description')
 
-                programme = ET.SubElement(tv, 'programme', {
-                    'start': format_epg_time(start_time),
-                    'stop': format_epg_time(end_time),
-                    'channel': channel_id
-                })
-                ET.SubElement(programme, 'title', {'lang': 'en'}).text = title
-                ET.SubElement(programme, 'desc', {'lang': 'en'}).text = description
+            programme = ET.SubElement(tv, 'programme', {
+                'start': format_epg_time(start_time),
+                'stop': format_epg_time(end_time),
+                'channel': channel_id
+            })
+            ET.SubElement(programme, 'title', {'lang': 'en'}).text = title
+            ET.SubElement(programme, 'desc', {'lang': 'en'}).text = description
 
     return tv
 

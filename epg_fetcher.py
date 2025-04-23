@@ -1,7 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import pytz
 import gzip
 
@@ -16,8 +16,8 @@ TIMEZONE = pytz.timezone('Asia/Manila')
 USER_AGENT = {'User-Agent': 'Mozilla/5.0'}
 
 def fetch_epg(start_offset_days=0, duration_days=2):
-    start_time = (datetime.utcnow() + timedelta(days=start_offset_days)).strftime('%Y-%m-%dT%H:%M:%SZ')
-    end_time = (datetime.utcnow() + timedelta(days=start_offset_days + duration_days)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    start_time = (datetime.now(timezone.utc) + timedelta(days=start_offset_days)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    end_time = (datetime.now(timezone.utc) + timedelta(days=start_offset_days + duration_days)).strftime('%Y-%m-%dT%H:%M:%SZ')
     
     params = {
         "start": start_time,
@@ -38,11 +38,13 @@ def fetch_epg(start_offset_days=0, duration_days=2):
         return []
 
 def convert_to_manila(utc_str):
+    if not utc_str:
+        return None
     try:
         utc_time = datetime.strptime(utc_str, '%Y-%m-%dT%H:%M:%SZ')
         return utc_time.replace(tzinfo=pytz.utc).astimezone(TIMEZONE)
     except Exception as e:
-        print(f"❌ Time conversion error: {e}")
+        print(f"❌ Time conversion error for value '{utc_str}': {e}")
         return None
 
 def format_epg_time(dt):
@@ -66,8 +68,16 @@ def build_epg_xml(epg_data):
                 channels_created.add(channel_id)
 
             for episode in airing.get('pgm', {}).get('lod', []):
-                start_time = convert_to_manila(episode.get('s'))
-                end_time = convert_to_manila(episode.get('e'))
+                start_str = episode.get('s')
+                end_str = episode.get('e')
+
+                if not start_str or not end_str:
+                    print(f"⚠️ Skipping episode with missing start/end: {episode}")
+                    continue
+
+                start_time = convert_to_manila(start_str)
+                end_time = convert_to_manila(end_str)
+
                 if not start_time or not end_time:
                     continue
 

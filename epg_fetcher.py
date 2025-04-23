@@ -7,7 +7,6 @@ import gzip
 
 # Mapping of channel URLs
 CHANNEL_URLS = {
-    {
   "bilyonaryoch": "http://www.cignalplay.com",
   "rptv": "http://www.cignalplay.com",
   "truefmtv": "http://www.cignalplay.com",

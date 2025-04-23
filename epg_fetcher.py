@@ -90,8 +90,6 @@ CHANNEL_URLS = {
   "tv5_monde": "http://www.cignalplay.com",
   "nickelodeon": "http://www.cignalplay.com",
   "sari_sari": "http://www.cignalplay.com"
-}
-
     # Add more mappings as needed
 }
 

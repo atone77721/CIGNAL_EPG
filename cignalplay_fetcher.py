@@ -3,18 +3,19 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import gzip
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import pytz
 
-# Map from site_id to channel display name from uploaded XML
+# Sample mapping from site_id to xmltv_id (add full mappings as needed)
 CHANNELS = {
     "44B03994-C303-4ACE-997C-91CAC493D0FC": "Rptv",
     "68C2D95A-A2A4-4C2B-93BE-41893C61210C": "Cg Hitsnow",
     "B741DD7A-A7F8-4F8A-A549-9EF411020F9D": "Cg Hbohd",
-    # ... extend the dictionary using the uploaded file ...
+    # Add more site_id mappings from your channel XML file here
 }
 
 def format_manila_time(dt):
+    dt = dt.astimezone(pytz.timezone("Asia/Manila"))
     return dt.strftime('%Y%m%d%H%M%S +0800')
 
 def fetch_epg(start_time, end_time):
@@ -39,12 +40,11 @@ def fetch_epg(start_time, end_time):
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"Failed to fetch EPG: {e}")
+        print(f"❌ Failed to fetch EPG: {e}")
         return {}
 
 def build_xmltv(epg_data):
     tv = ET.Element('tv')
-
     added_channels = set()
 
     for item in epg_data.get('data', []):
@@ -58,8 +58,12 @@ def build_xmltv(epg_data):
                 ET.SubElement(channel_el, 'display-name', {'lang': 'en'}).text = display_name
                 added_channels.add(channel_id)
 
-            start_dt = datetime.strptime(airing.get('sc_st_dt'), "%Y-%m-%dT%H:%M:%S")
-            end_dt = datetime.strptime(airing.get('sc_ed_dt'), "%Y-%m-%dT%H:%M:%S")
+            try:
+                start_dt = datetime.strptime(airing.get('sc_st_dt'), "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+                end_dt = datetime.strptime(airing.get('sc_ed_dt'), "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            except Exception as e:
+                print(f"⚠️ Failed to parse times for {channel_id}: {e}")
+                continue
 
             programme = ET.SubElement(tv, 'programme', {
                 'start': format_manila_time(start_dt),
@@ -78,22 +82,26 @@ def build_xmltv(epg_data):
 def save_xml(content, filename):
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"Saved XML to {filename}")
+    print(f"✅ Saved XML to {filename}")
 
     with gzip.open(f"{filename}.gz", "wb") as gz:
         gz.write(content.encode("utf-8"))
-    print(f"Saved GZ to {filename}.gz")
+    print(f"✅ Saved GZ to {filename}.gz")
 
 def main():
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     end = now + timedelta(days=2)
+    print("📡 Fetching EPG from API...")
     epg_data = fetch_epg(now, end)
 
     if not epg_data:
-        print("No data fetched.")
+        print("❌ No data fetched.")
         return
 
+    print("🧩 Building XMLTV format...")
     xml_content = build_xmltv(epg_data)
+
+    print("💾 Saving to files...")
     save_xml(xml_content, "cignalplay_epg.xml")
 
 if __name__ == "__main__":

@@ -904,6 +904,10 @@
     <title lang="en">Justice League Unlimited S2</title>
     <desc lang="en">Justice League Unlimited S2</desc>
   </programme>
+  <programme start="20250424082500 +0800" stop="20250424083600 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S2</title>
+    <desc lang="en">Bunnicula S2</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">Unknown</display-name>
   </channel>
@@ -3656,6 +3660,10 @@
     <title lang="en">Next Level Chef S4</title>
     <desc lang="en">The auditions continue with the next group to show off their culinary skills - the home cooks.</desc>
   </programme>
+  <programme start="20250424082500 +0800" stop="20250424092000 +0800" channel="rock_entertainment">
+    <title lang="en">Next Level Chef S4</title>
+    <desc lang="en">It's the final round of auditions, where eight professional chefs must impress the judges in order to advance to the next stage.</desc>
+  </programme>
   <channel id="discovery">
     <display-name lang="en">Unknown</display-name>
   </channel>
@@ -4577,6 +4585,10 @@
     <title lang="en">Totally Outnumbered</title>
     <desc lang="en">Totally Outnumbered is a unique Japanese variety game show where one supreme professional from a specific area of expertise faces off with a large group of amateurs in original competitions in each episode.</desc>
   </programme>
+  <programme start="20250424082500 +0800" stop="20250424100500 +0800" channel="kix_hd">
+    <title lang="en">Iron Squad 2</title>
+    <desc lang="en">The new season of this Korean military survival show brings eight Special Force units together to compete in extreme missions that will test their physical stamina, mental strength and teamwork. Top male reservists form teams of four to compete against one another. Witness how they battle till the end in front of five celebrity hosts!</desc>
+  </programme>
   <channel id="lifetime">
     <display-name lang="en">Unknown</display-name>
   </channel>
@@ -5180,10 +5192,6 @@
   <channel id="travel_channel">
     <display-name lang="en">Unknown</display-name>
   </channel>
-  <programme start="20250423073600 +0800" stop="20250423082400 +0800" channel="travel_channel">
-    <title lang="en">Alien Encounters In Area 51: A Mysteries At The Museum Special</title>
-    <desc lang="en">Don Wildman goes deep into the Nevada desert to investigate America's most top-secret military base.</desc>
-  </programme>
   <programme start="20250423082400 +0800" stop="20250423091200 +0800" channel="travel_channel">
     <title lang="en">Salvage Hunters (S6)</title>
     <desc lang="en">Drew Pritchard travels in search of weird and wonderful objects - the bigger the hoard of forgotten antiques and dusty furniture, the happier Drew is!</desc>
@@ -5339,6 +5347,10 @@
   <programme start="20250424073600 +0800" stop="20250424082400 +0800" channel="travel_channel">
     <title lang="en">Legends Of The Lost With Megan Fox (S1)</title>
     <desc lang="en">Megan Fox investigates the supernatural powers of one of the world's most mysterious monuments.</desc>
+  </programme>
+  <programme start="20250424082400 +0800" stop="20250424091200 +0800" channel="travel_channel">
+    <title lang="en">Booze Hunters (S1)</title>
+    <desc lang="en">Fourth episode of Booze hunters in search of the taste of Korea!</desc>
   </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">Unknown</display-name>
@@ -5814,10 +5826,6 @@
   <channel id="foodnetwork_hd">
     <display-name lang="en">Unknown</display-name>
   </channel>
-  <programme start="20250423073600 +0800" stop="20250423082400 +0800" channel="foodnetwork_hd">
-    <title lang="en">The Lost Kitchen (S1)</title>
-    <desc lang="en">As temperatures drop, the private dining cabin is finally ready. Erin prepares a special service that will debut the cabin and feature apples in every dish.</desc>
-  </programme>
   <programme start="20250423082400 +0800" stop="20250423091200 +0800" channel="foodnetwork_hd">
     <title lang="en">Restaurant: Impossible (S17)</title>
     <desc lang="en">Robert arrives at New Orleans to find a restaurant full of history but in need of his help. The livelihood of two families depends on its success.</desc>
@@ -5961,6 +5969,10 @@
   <programme start="20250424080000 +0800" stop="20250424082400 +0800" channel="foodnetwork_hd">
     <title lang="en">Be My Guest With Ina Garten (S4)</title>
     <desc lang="en">Ina Garten invites actor, producer and foodie Jennifer Garner to the barn for a chat over Brown Butter Skillet Cornbread.</desc>
+  </programme>
+  <programme start="20250424082400 +0800" stop="20250424084800 +0800" channel="foodnetwork_hd">
+    <title lang="en">Cheap Eats (S2)</title>
+    <desc lang="en">Ali Kahn digs into the best deals in Grand Rapids, Michigan.</desc>
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">Unknown</display-name>

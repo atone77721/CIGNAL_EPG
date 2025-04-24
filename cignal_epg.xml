@@ -740,10 +740,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424155700 +0800" stop="20250424162000 +0800" channel="cg_hbofam">
-    <title lang="en">Justice League Unlimited S1</title>
-    <desc lang="en">Justice League Unlimited S1</desc>
-  </programme>
   <programme start="20250424162000 +0800" stop="20250424163000 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S2</title>
     <desc lang="en">Bunnicula S2</desc>
@@ -943,6 +939,10 @@
   <programme start="20250425155300 +0800" stop="20250425162000 +0800" channel="cg_hbofam">
     <title lang="en">Justice League Unlimited S1</title>
     <desc lang="en">Justice League Unlimited S1</desc>
+  </programme>
+  <programme start="20250425162000 +0800" stop="20250425163100 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S2</title>
+    <desc lang="en">Bunnicula S2</desc>
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
@@ -3396,10 +3396,6 @@
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424152000 +0800" stop="20250424162000 +0800" channel="bbcearth_hd">
-    <title lang="en">Inside the Factory 9</title>
-    <desc lang="en">Paddy McGuinness, Cherry Healey and Ruth Goodman get exclusive access to some of the largest factories in the world to reveal the secrets behind the epic-scale production of our favourite products.</desc>
-  </programme>
   <programme start="20250424162000 +0800" stop="20250424171000 +0800" channel="bbcearth_hd">
     <title lang="en">Chasing Monsters 5</title>
     <desc lang="en">Cyril's after a huge Aymara. Weighing in at 100lb, this fierce ambush predator is capable of snapping piranhas in half or swallowing them whole.</desc>
@@ -3503,6 +3499,10 @@
   <programme start="20250425153000 +0800" stop="20250425162000 +0800" channel="bbcearth_hd">
     <title lang="en">How Did They Build That? 1</title>
     <desc lang="en">We visit an extraordinary bridge that spans a vast valley and becomes the tallest in the world, and a luxury hotel was built upside down in an abandoned quarry in China.</desc>
+  </programme>
+  <programme start="20250425162000 +0800" stop="20250425171000 +0800" channel="bbcearth_hd">
+    <title lang="en">Chasing Monsters 5</title>
+    <desc lang="en">Cyril is in Kiribati on a mission to catch a brutal and fearless predator capable of ramming sharks to death with its repetitive headbutts. The adventure is on to find the Giant Trevally, a true warrior of a fish.</desc>
   </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
@@ -6280,10 +6280,6 @@
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424152500 +0800" stop="20250424162000 +0800" channel="history_hd">
-    <title lang="en">Swamp People (S14)</title>
-    <desc lang="en">Jacob and Don venture into a cursed pirate swamp. Willie fishes solo after Little Willie takes a land job. Ronnie and Timmy battle poachers. Troy gambles on Pickle's new hotspot.</desc>
-  </programme>
   <programme start="20250424162000 +0800" stop="20250424172000 +0800" channel="history_hd">
     <title lang="en">Alone (S10)</title>
     <desc lang="en">With the snow comes a rush of emotion and the participants are tested in their resolve to keep working towards the $500,000 prize.</desc>
@@ -6387,6 +6383,10 @@
   <programme start="20250425152500 +0800" stop="20250425162000 +0800" channel="history_hd">
     <title lang="en">History's Greatest Mysteries (S4)</title>
     <desc lang="en">Thieves steal half a billion dollars in masterpieces from the Gardner Museum. An exhaustive search has failed to recover the stolen goods. Who orchestrated the biggest art heist in history and why?</desc>
+  </programme>
+  <programme start="20250425162000 +0800" stop="20250425172000 +0800" channel="history_hd">
+    <title lang="en">Pawn Stars (S24)</title>
+    <desc lang="en">Things get scary when a seller comes in with a letter from Stephen King. Will all work and no play make Corey a dull boy? Then, Chum gets a sweet lesson when he checks out signed Steve Aoki merchandise.</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -7228,10 +7228,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424161000 +0800" stop="20250424162000 +0800" channel="nickjr">
-    <title lang="en">The Great Shark Hunter</title>
-    <desc lang="en">Max needs to find more and more fishsticks to keep Sharkdog fed, but his search leads him right into the path of the increasingly suspicious Captain Barb Quigley.</desc>
-  </programme>
   <programme start="20250424162000 +0800" stop="20250424162500 +0800" channel="nickjr">
     <title lang="en">Sharks, Sharks, Sharks</title>
     <desc lang="en">Max and Dad are excited to continue their tradition of watching a sharks TV special together, but this year Sharkdog wants to be included.</desc>
@@ -7627,6 +7623,10 @@
   <programme start="20250425161000 +0800" stop="20250425162000 +0800" channel="nickjr">
     <title lang="en">My Fair Sharkdog</title>
     <desc lang="en">Max and Dennis compete to decide whose 'dog' is the best.</desc>
+  </programme>
+  <programme start="20250425162000 +0800" stop="20250425162500 +0800" channel="nickjr">
+    <title lang="en">Shark Marks the Spot</title>
+    <desc lang="en">Royce wants to go on a treasure hunt with Max, but Max is distracted with Sharkdog.</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -10004,10 +10004,6 @@
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424160000 +0800" stop="20250424162000 +0800" channel="knowledge_channel">
-    <title lang="en">Extracurricular</title>
-    <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
-  </programme>
   <programme start="20250424162000 +0800" stop="20250424164000 +0800" channel="knowledge_channel">
     <title lang="en">Extracurricular</title>
     <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
@@ -10211,6 +10207,10 @@
   <programme start="20250425160000 +0800" stop="20250425162000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Filipino</title>
     <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
+  </programme>
+  <programme start="20250425162000 +0800" stop="20250425164000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 10 Math</title>
+    <desc lang="en">These episodes explain the key concepts of measures of position.</desc>
   </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>

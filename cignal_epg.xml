@@ -1208,6 +1208,10 @@
     <title lang="en">Unbroken</title>
     <desc lang="en">Directed by Angelina Jolie, the movie tells the incredible story of Louis Zamperini, who survived on a raft in the ocean for 47 days.</desc>
   </programme>
+  <programme start="20250426002000 +0800" stop="20250426012000 +0800" channel="cg_hbosign">
+    <title lang="en">The Last Of Us S2</title>
+    <desc lang="en">Five years after the events of the first season, Joel and Ellie are drawn into conflict with each other and a world even more dangerous and unpredictable than the one they left behind.</desc>
+  </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1332,10 +1336,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424235500 +0800" stop="20250425002000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">The kids go on a training mission on Dragon Island, where Hiccup runs into an old enemy – Dagur!</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425004500 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">When the town’s well runs dry, Hiccup and Toothless discover a group of baby Whispering Death dragons living in the tunnels underneath, planted there by Alvin.</desc>
@@ -1571,6 +1571,10 @@
   <programme start="20250425235500 +0800" stop="20250426002000 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Once every 10 years, a mysterious glowing dragon visits Berk and this year Hiccup and Astrid are determined to find out where it's coming from – and stop it from reaching the village.</desc>
+  </programme>
+  <programme start="20250426002000 +0800" stop="20250426004500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">The gang competes to see who can best train a Terrible Terror, while Alvin is closing in on Berk.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -2700,10 +2704,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424235500 +0800" stop="20250425002000 +0800" channel="dreamworks_hd">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">The kids go on a training mission on Dragon Island, where Hiccup runs into an old enemy – Dagur!</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425004500 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">When the town’s well runs dry, Hiccup and Toothless discover a group of baby Whispering Death dragons living in the tunnels underneath, planted there by Alvin.</desc>
@@ -2940,14 +2940,14 @@
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Once every 10 years, a mysterious glowing dragon visits Berk and this year Hiccup and Astrid are determined to find out where it's coming from – and stop it from reaching the village.</desc>
   </programme>
+  <programme start="20250426002000 +0800" stop="20250426004500 +0800" channel="dreamworks_hd">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">The gang competes to see who can best train a Terrible Terror, while Alvin is closing in on Berk.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424235500 +0800" stop="20250425002200 +0800" channel="animal_planet">
-    <title lang="en">Dogs 101: New Tricks (S1)</title>
-    <desc lang="en">We explore the glamorous world of designer dogs, including the Cavachon, Chiweenie, Chorkle, Goldendoodle, and the  Labradoodle.</desc>
-  </programme>
   <programme start="20250425002200 +0800" stop="20250425005000 +0800" channel="animal_planet">
     <title lang="en">Dogs 101: New Tricks (S1)</title>
     <desc lang="en">It’s show time for these pups.  We unleash our viewers into the world of the dog show.</desc>
@@ -3073,6 +3073,10 @@
     <desc lang="en">Here the swift flowing Mekong carves its way through rugged valleys and people have adapted to life on the river in ingenious ways.</desc>
   </programme>
   <programme start="20250425235500 +0800" stop="20250426002200 +0800" channel="animal_planet">
+    <title lang="en">Dogs 101: New Tricks (S1)</title>
+    <desc lang="en">The most comprehensive dog encyclopedia on television is back with all your favorite breeds and a bunch of new tricks.</desc>
+  </programme>
+  <programme start="20250426002200 +0800" stop="20250426005000 +0800" channel="animal_planet">
     <title lang="en">Dogs 101: New Tricks (S1)</title>
     <desc lang="en">The most comprehensive dog encyclopedia on television is back with all your favorite breeds and a bunch of new tricks.</desc>
   </programme>
@@ -7244,10 +7248,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424235500 +0800" stop="20250425002000 +0800" channel="nickjr">
-    <title lang="en">Partly Claudia / Ranita's Magic Stripes</title>
-    <desc lang="en">Dora and Boots take Claudia, an energetic young rain cloud, to rain on a dry water slide. / Boots gets a case of Tickle Tail that Ranita the Frog can cure if she gets her magic stripes by helping friends around the Rainforest.</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425004000 +0800" channel="nickjr">
     <title lang="en">Boris / Born To Be Wild</title>
     <desc lang="en">The barbababies find a lost baby elephant and secretly look after it. How will Barbapapa and Barbamama react to Boris? // Boris the elephant misses home. The Barbapapa decide to bring him back to Africa. On the spot, they help Boris to acclimatize.</desc>
@@ -7644,14 +7644,14 @@
     <title lang="en">Troll Jelly / Catch That Kitty</title>
     <desc lang="en">Dora and Boots help the Grumples make troll jelly before the Grumpy Old Troll's snack time. / Dora and Boots have to recover El Gatito Magico and put it in its special place so all the friends stop acting like a cat.</desc>
   </programme>
+  <programme start="20250426002000 +0800" stop="20250426004000 +0800" channel="nickjr">
+    <title lang="en">Making Bread / From One Pit to Another</title>
+    <desc lang="en">Barbapapa wants to teach his children to make bread, but things don't go as planned... // The Barbababies plant an avocado tree. However, it takes years before the first harvest. Barbabright has an idea to save time that may well lead to...disaster.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424233000 +0800" stop="20250425002000 +0800" channel="warnertv_hd">
-    <title lang="en">East New York S1 5</title>
-    <desc lang="en">The team races to find an escaped prisoner before he finds the cop who put him away – Haywood!</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425004500 +0800" channel="warnertv_hd">
     <title lang="en">Container Wars S1 2</title>
     <desc lang="en">The biggest auction you've ever seen explodes when rival bidders bet huge sums of money on forfeited international shipping containers.  Will the bidders go home with brand new motor vehicles and large carnival antiques, or will they lose tens of thousands of dollars on duds?  Each container is a mystery just waiting to be unveiled.</desc>
@@ -8564,10 +8564,6 @@
     <display-name lang="en">moonbug_kids</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424235100 +0800" stop="20250425002000 +0800" channel="moonbug_kids">
-    <title lang="en">Let's Visit Danny's Farm!</title>
-    <desc lang="en">There is so much to learn about, it will make you want to shout ‘BLIPPI’!</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425005100 +0800" channel="moonbug_kids">
     <title lang="en">Let's Look After the Planet!</title>
     <desc lang="en">It's song and dance time! Join JJ, his friends and family celebrating life's big moments for little kids.</desc>
@@ -8752,10 +8748,6 @@
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250424223500 +0800" stop="20250425002000 +0800" channel="tapactionflix_hd">
-    <title lang="en">XXX: State Of The Union</title>
-    <desc lang="en">XXX: State Of The Union</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425021500 +0800" channel="tapactionflix_hd">
     <title lang="en">Untraceable</title>
     <desc lang="en">Untraceable</desc>
@@ -8807,6 +8799,10 @@
   <programme start="20250425224000 +0800" stop="20250426002000 +0800" channel="tapactionflix_hd">
     <title lang="en">Cabin Fever: Patient Zero</title>
     <desc lang="en">Cabin Fever: Patient Zero</desc>
+  </programme>
+  <programme start="20250426002000 +0800" stop="20250426020000 +0800" channel="tapactionflix_hd">
+    <title lang="en">You Should Have Left</title>
+    <desc lang="en">You Should Have Left</desc>
   </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
@@ -10392,10 +10388,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425000000 +0800" stop="20250425002000 +0800" channel="nickelodeon">
-    <title lang="en">The Casagrandes</title>
-    <desc lang="en">Rosa's family activity of birdwatching in the woods goes sour when Sergio gets mistaken for a rare species. //  Tired of not having a space of his own, Bobby secretly moves into a vacant apartment unit in the building. Feat. Lori Loud</desc>
-  </programme>
   <programme start="20250425002000 +0800" stop="20250425004500 +0800" channel="nickelodeon">
     <title lang="en">Tyler Perry's Young Dylan</title>
     <desc lang="en">Charlie lands his first job but must stand up for himself in order to keep it. Rebecca realizes that Tracee just might be a wolf in sheep's clothing.</desc>
@@ -10659,6 +10651,10 @@
   <programme start="20250426000000 +0800" stop="20250426002000 +0800" channel="nickelodeon">
     <title lang="en">The Casagrandes</title>
     <desc lang="en">The family discovers an amazing tamale cart and tries to keep it a secret from Abuela. // Ronnie Anne doesn't believe in an astrological prediction that 'love will find her,' until it seems to come true.</desc>
+  </programme>
+  <programme start="20250426002000 +0800" stop="20250426004500 +0800" channel="nickelodeon">
+    <title lang="en">Tyler Perry's Young Dylan</title>
+    <desc lang="en">Charlie's eavesdropping goes wrong when he informs Yasmine and Miles of Dylan's new life plan. Rebecca learns the meaning of true friendship and being enough for yourself.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

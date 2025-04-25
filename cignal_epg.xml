@@ -748,10 +748,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425155300 +0800" stop="20250425162000 +0800" channel="cg_hbofam">
-    <title lang="en">Justice League Unlimited S1</title>
-    <desc lang="en">Justice League Unlimited S1</desc>
-  </programme>
   <programme start="20250425162000 +0800" stop="20250425163100 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S2</title>
     <desc lang="en">Bunnicula S2</desc>
@@ -3409,10 +3405,6 @@
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425153000 +0800" stop="20250425162000 +0800" channel="bbcearth_hd">
-    <title lang="en">How Did They Build That? 1</title>
-    <desc lang="en">We visit an extraordinary bridge that spans a vast valley and becomes the tallest in the world, and a luxury hotel was built upside down in an abandoned quarry in China.</desc>
-  </programme>
   <programme start="20250425162000 +0800" stop="20250425171000 +0800" channel="bbcearth_hd">
     <title lang="en">Chasing Monsters 5</title>
     <desc lang="en">Cyril is in Kiribati on a mission to catch a brutal and fearless predator capable of ramming sharks to death with its repetitive headbutts. The adventure is on to find the Giant Trevally, a true warrior of a fish.</desc>
@@ -3776,6 +3768,10 @@
   <programme start="20250426152500 +0800" stop="20250426162000 +0800" channel="rock_entertainment">
     <title lang="en">Halo S2</title>
     <desc lang="en">John-117 comes face to face with Makee. A revelation leads Ackerson to question his loyalties. Soren and Laera’s relationship begins to fracture. Halsey, Kwan and Miranda work to solve a mystery.</desc>
+  </programme>
+  <programme start="20250426162000 +0800" stop="20250426171500 +0800" channel="rock_entertainment">
+    <title lang="en">Halo S2</title>
+    <desc lang="en">The climactic battle for the Halo begins. John makes a fateful choice. Soren and Kwan undertake a rescue mission. Halsey and Miranda unleash an ancient horror. Season finale.</desc>
   </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
@@ -4472,6 +4468,10 @@
   <programme start="20250426152500 +0800" stop="20250426162000 +0800" channel="kbs_world">
     <title lang="en">My Neighbor, Charles</title>
     <desc lang="en">Foreigners, leaving their homelands behind, have come all the way to new country, South Korea. They chose South Korea not for sightseeing or short-term stay. But, they are here for various reasons, such as work, study or even marriage. The real stories of foreigners who challenge themselves to survive in Korean society will be unfolded!</desc>
+  </programme>
+  <programme start="20250426162000 +0800" stop="20250426175000 +0800" channel="kbs_world">
+    <title lang="en">Moving Voices</title>
+    <desc lang="en">A global music trip to experience the music and the culture of various countries.</desc>
   </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
@@ -6081,10 +6081,6 @@
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425152500 +0800" stop="20250425162000 +0800" channel="history_hd">
-    <title lang="en">History's Greatest Mysteries (S4)</title>
-    <desc lang="en">Thieves steal half a billion dollars in masterpieces from the Gardner Museum. An exhaustive search has failed to recover the stolen goods. Who orchestrated the biggest art heist in history and why?</desc>
-  </programme>
   <programme start="20250425162000 +0800" stop="20250425172000 +0800" channel="history_hd">
     <title lang="en">Pawn Stars (S24)</title>
     <desc lang="en">Things get scary when a seller comes in with a letter from Stephen King. Will all work and no play make Corey a dull boy? Then, Chum gets a sweet lesson when he checks out signed Steve Aoki merchandise.</desc>
@@ -6188,6 +6184,10 @@
   <programme start="20250426152500 +0800" stop="20250426162000 +0800" channel="history_hd">
     <title lang="en">How Disney Built America</title>
     <desc lang="en">For nearly 70 years, Disney has pushed the boundaries of art and science through the work of a team of dreamers, designers, and builders known as the Imagineers.</desc>
+  </programme>
+  <programme start="20250426162000 +0800" stop="20250426172000 +0800" channel="history_hd">
+    <title lang="en">The UnXplained With William Shatner (S3)</title>
+    <desc lang="en">Throughout history, many have claimed to be able to see into the future and changed the course of history. But what did their prophecies reveal? And what predictions did they make for the future?</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -7053,10 +7053,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425161000 +0800" stop="20250425162000 +0800" channel="nickjr">
-    <title lang="en">My Fair Sharkdog</title>
-    <desc lang="en">Max and Dennis compete to decide whose 'dog' is the best.</desc>
-  </programme>
   <programme start="20250425162000 +0800" stop="20250425162500 +0800" channel="nickjr">
     <title lang="en">Shark Marks the Spot</title>
     <desc lang="en">Royce wants to go on a treasure hunt with Max, but Max is distracted with Sharkdog.</desc>
@@ -7436,6 +7432,10 @@
   <programme start="20250426161000 +0800" stop="20250426162000 +0800" channel="nickjr">
     <title lang="en">Hide-and-Go-Shark</title>
     <desc lang="en">Max and his friends visit Dad at the aquarium, but can they keep Dad from discovering Sharkdog?</desc>
+  </programme>
+  <programme start="20250426162000 +0800" stop="20250426162500 +0800" channel="nickjr">
+    <title lang="en">Green Around the Gills</title>
+    <desc lang="en">Max is ready to go on his fun camping trip when Sharkdog comes down with a mysterious illness.</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -8873,6 +8873,10 @@
     <title lang="en">French Connections</title>
     <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
   </programme>
+  <programme start="20250426162100 +0800" stop="20250426163000 +0800" channel="france24">
+    <title lang="en">Fashion</title>
+    <desc lang="en">Young creative minds and experienced gurus of fashion present their collections to the audience. Be aware of what is in the spotlight every season and find out the latest trends. Follow haute couture news, videos, reports and analyses, and look behind the scene of Parisian catwalks. </desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
@@ -9592,10 +9596,6 @@
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425160000 +0800" stop="20250425162000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 10 Filipino</title>
-    <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
-  </programme>
   <programme start="20250425162000 +0800" stop="20250425164000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Math</title>
     <desc lang="en">These episodes explain the key concepts of measures of position.</desc>
@@ -9797,6 +9797,10 @@
     <desc lang="en">These episodes explain the projectile motion, impulse and momentum, and conservation of linear momentum, conservation of mechanical energy, the relationship among heat, work, and efficiency. These episodes also talk about generation, transmission, and distribution of electrical energy from power plants to home.</desc>
   </programme>
   <programme start="20250426160000 +0800" stop="20250426162000 +0800" channel="knowledge_channel">
+    <title lang="en">Extracurricular</title>
+    <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
+  </programme>
+  <programme start="20250426162000 +0800" stop="20250426164000 +0800" channel="knowledge_channel">
     <title lang="en">Extracurricular</title>
     <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
   </programme>

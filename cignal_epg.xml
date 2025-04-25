@@ -1140,10 +1140,6 @@
     <display-name lang="en">cg_hbosign</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425220000 +0800" stop="20250426002000 +0800" channel="cg_hbosign">
-    <title lang="en">Unbroken</title>
-    <desc lang="en">Directed by Angelina Jolie, the movie tells the incredible story of Louis Zamperini, who survived on a raft in the ocean for 47 days.</desc>
-  </programme>
   <programme start="20250426002000 +0800" stop="20250426012000 +0800" channel="cg_hbosign">
     <title lang="en">The Last Of Us S2</title>
     <desc lang="en">Five years after the events of the first season, Joel and Ellie are drawn into conflict with each other and a world even more dangerous and unpredictable than the one they left behind.</desc>
@@ -1328,10 +1324,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425235500 +0800" stop="20250426002000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">Once every 10 years, a mysterious glowing dragon visits Berk and this year Hiccup and Astrid are determined to find out where it's coming from – and stop it from reaching the village.</desc>
-  </programme>
   <programme start="20250426002000 +0800" stop="20250426004500 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">The gang competes to see who can best train a Terrible Terror, while Alvin is closing in on Berk.</desc>
@@ -1567,6 +1559,10 @@
   <programme start="20250426235500 +0800" stop="20250427002000 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">While searching for traps, Tuffnut, Barf and Belch get trapped themselves… and a forest fire is approaching.</desc>
+  </programme>
+  <programme start="20250427002000 +0800" stop="20250427004500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">Bucket and Mulch accidentally discover a Skrill, and its up to the gang to save it from the Beserkers.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -2685,10 +2681,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425235500 +0800" stop="20250426002000 +0800" channel="dreamworks_hd">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">Once every 10 years, a mysterious glowing dragon visits Berk and this year Hiccup and Astrid are determined to find out where it's coming from – and stop it from reaching the village.</desc>
-  </programme>
   <programme start="20250426002000 +0800" stop="20250426004500 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">The gang competes to see who can best train a Terrible Terror, while Alvin is closing in on Berk.</desc>
@@ -2924,6 +2916,10 @@
   <programme start="20250426235500 +0800" stop="20250427002000 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">While searching for traps, Tuffnut, Barf and Belch get trapped themselves… and a forest fire is approaching.</desc>
+  </programme>
+  <programme start="20250427002000 +0800" stop="20250427004500 +0800" channel="dreamworks_hd">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">Bucket and Mulch accidentally discover a Skrill, and its up to the gang to save it from the Beserkers.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -3477,6 +3473,10 @@
     <title lang="en">Life Below Zero 12</title>
     <desc lang="en">With spring in full effect across the Arctic, residents of Alaska must seize seasonal opportunities. Sue Aikens sets out to hunt small game but must be wary of her recent surgery.</desc>
   </programme>
+  <programme start="20250427001500 +0800" stop="20250427011000 +0800" channel="bbcearth_hd">
+    <title lang="en">Michael Portillo's Long Weekends 1</title>
+    <desc lang="en">Michael rides the iconic Route 28 tram, embraces quirky Portuguese cuisine, loses himself to melancholic folk music, encounters passionate peacocks, and retraces the steps of a royal tragedy.</desc>
+  </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4021,10 +4021,6 @@
     <display-name lang="en">pbarush_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425221500 +0800" stop="20250426001500 +0800" channel="pbarush_hd">
-    <title lang="en">Blackwater vs Northport Game 17 49th PBA Philippine Cup April 25 QTA</title>
-    <desc lang="en">Blackwater vs Northport Game 17 49th PBA Philippine Cup April 25 QTA</desc>
-  </programme>
   <programme start="20250426001500 +0800" stop="20250426021500 +0800" channel="pbarush_hd">
     <title lang="en">Ginebra vs San Miguel Game 18 49th PBA Philippine Cup April 25 QTA</title>
     <desc lang="en">Ginebra vs San Miguel Game 18 49th PBA Philippine Cup April 25 QTA</desc>
@@ -4092,6 +4088,10 @@
   <programme start="20250426221500 +0800" stop="20250427001500 +0800" channel="pbarush_hd">
     <title lang="en">Magnolia vs Phoenix Game 19 49th PBA Philippine Cup April 26 QTA</title>
     <desc lang="en">Magnolia vs Phoenix Game 19 49th PBA Philippine Cup April 26 QTA</desc>
+  </programme>
+  <programme start="20250427001500 +0800" stop="20250427021500 +0800" channel="pbarush_hd">
+    <title lang="en">YCO Tanduay vs Toyota 7th PBA Invitational Conference Aug. 10, 1982</title>
+    <desc lang="en">YCO Tanduay vs Toyota 7th PBA Invitational Conference Aug. 10, 1982</desc>
   </programme>
   <channel id="arirang">
     <display-name lang="en">arirang</display-name>
@@ -6469,6 +6469,10 @@
     <title lang="en">Kung Aagawin Mo Ang Lahat Sa Akin</title>
     <desc lang="en">An intense rivalry has always existed between Jackie Lou and her older sister, Sharon, whom her parents had adopted before she was born. Their father believed the girls should be treated as equals but their mother, thought otherwise.</desc>
   </programme>
+  <programme start="20250427001500 +0800" stop="20250427020000 +0800" channel="viva">
+    <title lang="en">Apat na Anak ni Adan</title>
+    <desc lang="en">This movie centers on the relationship among four brothers and their collective exploits.</desc>
+  </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
     <url>http://www.cignalplay.com</url>
@@ -7121,10 +7125,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425235500 +0800" stop="20250426002000 +0800" channel="nickjr">
-    <title lang="en">Troll Jelly / Catch That Kitty</title>
-    <desc lang="en">Dora and Boots help the Grumples make troll jelly before the Grumpy Old Troll's snack time. / Dora and Boots have to recover El Gatito Magico and put it in its special place so all the friends stop acting like a cat.</desc>
-  </programme>
   <programme start="20250426002000 +0800" stop="20250426004000 +0800" channel="nickjr">
     <title lang="en">Making Bread / From One Pit to Another</title>
     <desc lang="en">Barbapapa wants to teach his children to make bread, but things don't go as planned... // The Barbababies plant an avocado tree. However, it takes years before the first harvest. Barbabright has an idea to save time that may well lead to...disaster.</desc>
@@ -7496,6 +7496,10 @@
   <programme start="20250426235500 +0800" stop="20250427002000 +0800" channel="nickjr">
     <title lang="en">Adventures In Plantsitting / Andrea the Alebrije</title>
     <desc lang="en">Dora and Boots take care of baby flowers Bouncy Blue, Dizzy Daisy, and Baby Rosette so Isa can attend a royal tea party. / Dora and Boots help baby Andrea find the magical leaf so she can receive her Alebrije powers and take care of the rainforest.</desc>
+  </programme>
+  <programme start="20250427002000 +0800" stop="20250427004000 +0800" channel="nickjr">
+    <title lang="en">The Tenderest Bond of All / The Orange Empire</title>
+    <desc lang="en">While the family makes pottery, Barbabravo and Barbabright try to set the world record for the largest cheese soufflé. // The Barbapapas decide to go to the park. While her brother and sisters play , Barbalib can't help to control everything.</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -8289,6 +8293,10 @@
     <title lang="en">State of the Union</title>
     <desc lang="en">State of the Union</desc>
   </programme>
+  <programme start="20250427001500 +0800" stop="20250427022000 +0800" channel="tapmovies_hd">
+    <title lang="en">The International </title>
+    <desc lang="en">The International </desc>
+  </programme>
   <channel id="taptv">
     <display-name lang="en">taptv</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8509,10 +8517,6 @@
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425224000 +0800" stop="20250426002000 +0800" channel="tapactionflix_hd">
-    <title lang="en">Cabin Fever: Patient Zero</title>
-    <desc lang="en">Cabin Fever: Patient Zero</desc>
-  </programme>
   <programme start="20250426002000 +0800" stop="20250426020000 +0800" channel="tapactionflix_hd">
     <title lang="en">You Should Have Left</title>
     <desc lang="en">You Should Have Left</desc>
@@ -9017,14 +9021,18 @@
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
   </programme>
+  <programme start="20250427001500 +0800" stop="20250427002100 +0800" channel="france24">
+    <title lang="en">French Connections</title>
+    <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
+  </programme>
+  <programme start="20250427002100 +0800" stop="20250427003000 +0800" channel="france24">
+    <title lang="en">Fashion</title>
+    <desc lang="en">Young creative minds and experienced gurus of fashion present their collections to the audience. Be aware of what is in the spotlight every season and find out the latest trends. Follow haute couture news, videos, reports and analyses, and look behind the scene of Parisian catwalks. </desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426000000 +0800" stop="20250426001500 +0800" channel="abc_australia">
-    <title lang="en">ABC Late News - Episode 83</title>
-    <desc lang="en">Follow the latest on today's news, covering what's happening and why it matters. ABC News has reporters across Australia and around the globe to bring you the news you need to know. Presented by Michael Tetlow in Perth.</desc>
-  </programme>
   <programme start="20250426001500 +0800" stop="20250426003000 +0800" channel="abc_australia">
     <title lang="en">War Stories - The Country's Toll</title>
     <desc lang="en">The Great War had a profound impact on rural Australia. Across the nation, the commemoration of ANZAC takes many forms, with dedicated volunteers determined to keep the past alive. Landline's Tim Lee reports. </desc>
@@ -9117,14 +9125,14 @@
     <title lang="en">Asia News Week - Episode 14</title>
     <desc lang="en">Yvonne Yong brings you a weekly roundup of the stories making news across the Asia region, plus what's trending on social media and making an impact on the culture and the way people live.</desc>
   </programme>
+  <programme start="20250427001500 +0800" stop="20250427010000 +0800" channel="abc_australia">
+    <title lang="en">Four Corners - Episode 12</title>
+    <desc lang="en">Four Corners is the home of Australian investigative journalism. These fearless and forensic documentaries expose scandals, trigger inquiries, fire debate and confront taboos.</desc>
+  </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250425220000 +0800" stop="20250426001500 +0800" channel="hits_movies">
-    <title lang="en">Insomnia</title>
-    <desc lang="en">Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn't set to investigate the methodical murder of a local teen</desc>
-  </programme>
   <programme start="20250426001500 +0800" stop="20250426024500 +0800" channel="hits_movies">
     <title lang="en">The Terminal</title>
     <desc lang="en">An Eastern European tourist unexpectedly finds himself stranded in JFK airport, and must take up temporary residence there.</desc>
@@ -10175,10 +10183,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426000000 +0800" stop="20250426002000 +0800" channel="nickelodeon">
-    <title lang="en">The Casagrandes</title>
-    <desc lang="en">The family discovers an amazing tamale cart and tries to keep it a secret from Abuela. // Ronnie Anne doesn't believe in an astrological prediction that 'love will find her,' until it seems to come true.</desc>
-  </programme>
   <programme start="20250426002000 +0800" stop="20250426004500 +0800" channel="nickelodeon">
     <title lang="en">Tyler Perry's Young Dylan</title>
     <desc lang="en">Charlie's eavesdropping goes wrong when he informs Yasmine and Miles of Dylan's new life plan. Rebecca learns the meaning of true friendship and being enough for yourself.</desc>
@@ -10430,6 +10434,10 @@
   <programme start="20250427000000 +0800" stop="20250427002000 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Lady Upturn introduces Squidward, and his musical "talents", to her high society friends after she becomes his patron. // Squidward sets out to prove that aliens aren't real...until he has a close encounter of his own.</desc>
+  </programme>
+  <programme start="20250427002000 +0800" stop="20250427004500 +0800" channel="nickelodeon">
+    <title lang="en">Monster High</title>
+    <desc lang="en">Afraid to be embarrassed at a dance-off, Draculaura secretly gives her dance partner, Clawd, enchanted shoes. // Cleo wants the lead role for the school play and raids her family's ancient tomb for a perfect, superior costume.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

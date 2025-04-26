@@ -3245,10 +3245,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426232000 +0800" stop="20250427001500 +0800" channel="bbcearth_hd">
-    <title lang="en">Life Below Zero 12</title>
-    <desc lang="en">With spring in full effect across the Arctic, residents of Alaska must seize seasonal opportunities. Sue Aikens sets out to hunt small game but must be wary of her recent surgery.</desc>
-  </programme>
   <programme start="20250427001500 +0800" stop="20250427011000 +0800" channel="bbcearth_hd">
     <title lang="en">Michael Portillo's Long Weekends 1</title>
     <desc lang="en">Michael rides the iconic Route 28 tram, embraces quirky Portuguese cuisine, loses himself to melancholic folk music, encounters passionate peacocks, and retraces the steps of a royal tragedy.</desc>
@@ -3809,10 +3805,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">pbarush_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426221500 +0800" stop="20250427001500 +0800" channel="pbarush_hd">
-    <title lang="en">Magnolia vs Phoenix Game 19 49th PBA Philippine Cup April 26 QTA</title>
-    <desc lang="en">Magnolia vs Phoenix Game 19 49th PBA Philippine Cup April 26 QTA</desc>
-  </programme>
   <programme start="20250427001500 +0800" stop="20250427021500 +0800" channel="pbarush_hd">
     <title lang="en">YCO Tanduay vs Toyota 7th PBA Invitational Conference Aug. 10, 1982</title>
     <desc lang="en">YCO Tanduay vs Toyota 7th PBA Invitational Conference Aug. 10, 1982</desc>
@@ -3884,6 +3876,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427221500 +0800" stop="20250428001500 +0800" channel="pbarush_hd">
     <title lang="en">Rain or Shine vs Meralco Game 20 49th PBA Philippine Cup April 27 QTA</title>
     <desc lang="en">Rain or Shine vs Meralco Game 20 49th PBA Philippine Cup April 27 QTA</desc>
+  </programme>
+  <programme start="20250428001500 +0800" stop="20250428021500 +0800" channel="pbarush_hd">
+    <title lang="en">TNT vs Converge Game 21 49th PBA Philippine Cup April 27 QTA</title>
+    <desc lang="en">TNT vs Converge Game 21 49th PBA Philippine Cup April 27 QTA</desc>
   </programme>
   <channel id="arirang">
     <display-name lang="en">arirang</display-name>
@@ -4104,6 +4100,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250428000000 +0800" stop="20250428001500 +0800" channel="arirang">
     <title lang="en">1Day 1K-Culture: K-Trend</title>
     <desc lang="en">1Day 1K-Culture: K-Trend</desc>
+  </programme>
+  <programme start="20250428001500 +0800" stop="20250428003000 +0800" channel="arirang">
+    <title lang="en">1Day 1K-Culture: K-People</title>
+    <desc lang="en">1Day 1K-Culture: K-People</desc>
   </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
@@ -6073,10 +6073,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">viva</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426220000 +0800" stop="20250427001500 +0800" channel="viva">
-    <title lang="en">Kung Aagawin Mo Ang Lahat Sa Akin</title>
-    <desc lang="en">An intense rivalry has always existed between Jackie Lou and her older sister, Sharon, whom her parents had adopted before she was born. Their father believed the girls should be treated as equals but their mother, thought otherwise.</desc>
-  </programme>
   <programme start="20250427001500 +0800" stop="20250427020000 +0800" channel="viva">
     <title lang="en">Apat na Anak ni Adan</title>
     <desc lang="en">This movie centers on the relationship among four brothers and their collective exploits.</desc>
@@ -6124,6 +6120,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427221500 +0800" stop="20250428001500 +0800" channel="viva">
     <title lang="en">Una Kang Naging Akin</title>
     <desc lang="en">Is there any way for Gabby to regain his other "memory" and remember the family he left behind?</desc>
+  </programme>
+  <programme start="20250428001500 +0800" stop="20250428020000 +0800" channel="viva">
+    <title lang="en">Pilya</title>
+    <desc lang="en">Ditas has the body of a full-grown adult but her sense is that of a child. Although she exists in an environment where vulgarity is deemed normal, she maintains her wide-eyed innocence.</desc>
   </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
@@ -7869,10 +7869,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">tapmovies_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426223000 +0800" stop="20250427001500 +0800" channel="tapmovies_hd">
-    <title lang="en">State of the Union</title>
-    <desc lang="en">State of the Union</desc>
-  </programme>
   <programme start="20250427001500 +0800" stop="20250427022000 +0800" channel="tapmovies_hd">
     <title lang="en">The International </title>
     <desc lang="en">The International </desc>
@@ -8237,10 +8233,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427000000 +0800" stop="20250427001500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250427001500 +0800" stop="20250427002100 +0800" channel="france24">
     <title lang="en">French Connections</title>
     <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
@@ -8725,14 +8717,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
   </programme>
+  <programme start="20250428001500 +0800" stop="20250428003000 +0800" channel="france24">
+    <title lang="en">Access Asia</title>
+    <desc lang="en">Access Asia opens the diverse continent and presents news from its segments to the audience. Get the latest updates on the social events and political stories, thorough analysis of the cutting-edge current affairs from India, China, Indonesia, Australia and other countries. </desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426234000 +0800" stop="20250427001500 +0800" channel="abc_australia">
-    <title lang="en">Asia News Week - Episode 14</title>
-    <desc lang="en">Yvonne Yong brings you a weekly roundup of the stories making news across the Asia region, plus what's trending on social media and making an impact on the culture and the way people live.</desc>
-  </programme>
   <programme start="20250427001500 +0800" stop="20250427010000 +0800" channel="abc_australia">
     <title lang="en">Four Corners - Episode 12</title>
     <desc lang="en">Four Corners is the home of Australian investigative journalism. These fearless and forensic documentaries expose scandals, trigger inquiries, fire debate and confront taboos.</desc>

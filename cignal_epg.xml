@@ -2235,10 +2235,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426160000 +0800" stop="20250426161500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Lamput</title>
-    <desc lang="en">The Docs’ latest invention generates multiple versions of themselves &amp; together the duplicates try to catch Lamput!</desc>
-  </programme>
   <programme start="20250426161500 +0800" stop="20250426164500 +0800" channel="cartoon_net_hd">
     <title lang="en">Clarence</title>
     <desc lang="en">Jeff wants to keep his new, flying "Wrath Hover Ginsbot" toy in its box. Clarence is desperate to play with the toy. And poor Sumo is caught in the middle.</desc>
@@ -2422,6 +2418,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427160000 +0800" stop="20250427161500 +0800" channel="cartoon_net_hd">
     <title lang="en">Lamput</title>
     <desc lang="en">Lamput and the Docs re-enact the classic folktale – Robinhood with their own unique twist!</desc>
+  </programme>
+  <programme start="20250427161500 +0800" stop="20250427164500 +0800" channel="cartoon_net_hd">
+    <title lang="en">Clarence</title>
+    <desc lang="en">Clarence's first night home alone spirals out of control, forcing Clarence and his pals to wage war against their own home security measures.</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -3463,6 +3463,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Big Little Journeys 1</title>
     <desc lang="en">A tiny chameleon faces the journey of a lifetime in a Madagascan forest, and a water vole in Scotland swims across a loch and scales a mountain to find new territory and a mate.</desc>
   </programme>
+  <programme start="20250427161500 +0800" stop="20250427170500 +0800" channel="bbcearth_hd">
+    <title lang="en">How Did They Build That? 1</title>
+    <desc lang="en">We visit an extraordinary bridge that spans a vast valley and becomes the tallest in the world, and a luxury hotel was built upside down in an abandoned quarry in China.</desc>
+  </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -3603,10 +3607,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">rock_entertainment</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426152500 +0800" stop="20250426162000 +0800" channel="rock_entertainment">
-    <title lang="en">Halo S2</title>
-    <desc lang="en">John-117 comes face to face with Makee. A revelation leads Ackerson to question his loyalties. Soren and Laera’s relationship begins to fracture. Halsey, Kwan and Miranda work to solve a mystery.</desc>
-  </programme>
   <programme start="20250426162000 +0800" stop="20250426171500 +0800" channel="rock_entertainment">
     <title lang="en">Halo S2</title>
     <desc lang="en">The climactic battle for the Halo begins. John makes a fateful choice. Soren and Kwan undertake a rescue mission. Halsey and Miranda unleash an ancient horror. Season finale.</desc>
@@ -4243,10 +4243,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">kbs_world</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426152500 +0800" stop="20250426162000 +0800" channel="kbs_world">
-    <title lang="en">My Neighbor, Charles</title>
-    <desc lang="en">Foreigners, leaving their homelands behind, have come all the way to new country, South Korea. They chose South Korea not for sightseeing or short-term stay. But, they are here for various reasons, such as work, study or even marriage. The real stories of foreigners who challenge themselves to survive in Korean society will be unfolded!</desc>
-  </programme>
   <programme start="20250426162000 +0800" stop="20250426175000 +0800" channel="kbs_world">
     <title lang="en">Moving Voices</title>
     <desc lang="en">A global music trip to experience the music and the culture of various countries.</desc>
@@ -4330,6 +4326,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427150000 +0800" stop="20250427161500 +0800" channel="kbs_world">
     <title lang="en">2019 Drama Special</title>
     <desc lang="en">Forget the existing one-act dramas! Short but impactive! KBS Drama Special presents high quality single episode dramas.  Dramas are the broadcast content with the widest public appeal.  KBS Drama Special will produce short dramas of far-reaching impact involving at times a serious social message, unique emotions or perspectives. It will stay abreast of modern viewership.</desc>
+  </programme>
+  <programme start="20250427161500 +0800" stop="20250427163000 +0800" channel="kbs_world">
+    <title lang="en">Got The Spot in Gyeongbuk</title>
+    <desc lang="en">This program highlights locations that are truly exceptional, blending traditional elements with modern trends. Through the eyes of foreign influencers who thrive on social media, we aim to showcase the unique charm of different regions and generate a wealth of engaging content in this groundbreaking travel initiative!</desc>
   </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
@@ -5971,10 +5971,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426152500 +0800" stop="20250426162000 +0800" channel="history_hd">
-    <title lang="en">How Disney Built America</title>
-    <desc lang="en">For nearly 70 years, Disney has pushed the boundaries of art and science through the work of a team of dreamers, designers, and builders known as the Imagineers.</desc>
-  </programme>
   <programme start="20250426162000 +0800" stop="20250426172000 +0800" channel="history_hd">
     <title lang="en">The UnXplained With William Shatner (S3)</title>
     <desc lang="en">Throughout history, many have claimed to be able to see into the future and changed the course of history. But what did their prophecies reveal? And what predictions did they make for the future?</desc>
@@ -6078,6 +6074,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427152500 +0800" stop="20250427162000 +0800" channel="history_hd">
     <title lang="en">Alone (S10)</title>
     <desc lang="en">As the remaining survivalists near day 50, conditions at Reindeer Lake intensify. Desperation rises as the temperatures continue to drop, and personal demons bubble to the surface.</desc>
+  </programme>
+  <programme start="20250427162000 +0800" stop="20250427172000 +0800" channel="history_hd">
+    <title lang="en">Ancient Aliens (S15)</title>
+    <desc lang="en">Studies have shown that up to 70% of all UFO sightings happen in so-called 'hotspots' where reports of visions and unusual phenomena are witnessed, and not only in modern times, but thousands of years ago.</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -7035,10 +7035,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426161000 +0800" stop="20250426162000 +0800" channel="nickjr">
-    <title lang="en">Hide-and-Go-Shark</title>
-    <desc lang="en">Max and his friends visit Dad at the aquarium, but can they keep Dad from discovering Sharkdog?</desc>
-  </programme>
   <programme start="20250426162000 +0800" stop="20250426162500 +0800" channel="nickjr">
     <title lang="en">Green Around the Gills</title>
     <desc lang="en">Max is ready to go on his fun camping trip when Sharkdog comes down with a mysterious illness.</desc>
@@ -7410,6 +7406,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427161000 +0800" stop="20250427162000 +0800" channel="nickjr">
     <title lang="en">Poots and Vegetables</title>
     <desc lang="en">Max tries to find something that Sharkdog will eat that isn't fish.</desc>
+  </programme>
+  <programme start="20250427162000 +0800" stop="20250427162500 +0800" channel="nickjr">
+    <title lang="en">Return of the Nightwalker</title>
+    <desc lang="en">Sharkdog and Mia team up in an unlikely pairing to stop Max from sleepwalking right into the ocean!</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -8475,10 +8475,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426161400 +0800" stop="20250426161500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250426161500 +0800" stop="20250426162100 +0800" channel="france24">
     <title lang="en">French Connections</title>
     <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
@@ -8966,6 +8962,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427161400 +0800" stop="20250427161500 +0800" channel="france24">
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250427161500 +0800" stop="20250427162100 +0800" channel="france24">
+    <title lang="en">The Observers</title>
+    <desc lang="en">The Observers on France 24 is a weekly show produced with photos, videos and personal accounts from Observers around the world. Top international current affairs are covered by using eyewitness accounts from Observers- people who are at the heart of an event. They send their photos and videos, which are verified and contextualized by France 24 team of professional journalists in Paris. </desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
@@ -9744,10 +9744,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426160000 +0800" stop="20250426162000 +0800" channel="knowledge_channel">
-    <title lang="en">Extracurricular</title>
-    <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
-  </programme>
   <programme start="20250426162000 +0800" stop="20250426164000 +0800" channel="knowledge_channel">
     <title lang="en">Extracurricular</title>
     <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
@@ -9951,6 +9947,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427160000 +0800" stop="20250427162000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Filipino</title>
     <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
+  </programme>
+  <programme start="20250427162000 +0800" stop="20250427164000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 10 Math</title>
+    <desc lang="en">These episodes explain the key concepts of measures of position.</desc>
   </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>

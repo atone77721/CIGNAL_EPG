@@ -4,10 +4,6 @@
     <display-name lang="en">bilyonaryoch</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="bilyonaryoch">
-    <title lang="en">At The Forefront </title>
-    <desc lang="en">At The Forefront </desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="bilyonaryoch">
     <title lang="en">Weather HQ Weekend</title>
     <desc lang="en">Weather HQ Weekend</desc>
@@ -172,14 +168,14 @@
     <title lang="en">Keep The Faith Mass New Ep</title>
     <desc lang="en">Keep The Faith Mass New Ep</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="bilyonaryoch">
+    <title lang="en">Weather HQ Weekend</title>
+    <desc lang="en">Weather HQ Weekend</desc>
+  </programme>
   <channel id="rptv">
     <display-name lang="en">rptv</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="rptv">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="rptv">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -269,6 +265,10 @@
     <desc lang="en">Program information is not yet available</desc>
   </programme>
   <programme start="20250427070000 +0800" stop="20250427080000 +0800" channel="rptv">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="rptv">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
@@ -448,14 +448,14 @@
     <title lang="en">Matlock S1</title>
     <desc lang="en">Follows Madeline "Matty" Matlock as she rejoins the work force at a prestigious law firm, where she uses her unassuming demeanor and wily tactics to win cases and expose wrong doing.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="cg_hitsnow">
+    <title lang="en">Fire Country S3</title>
+    <desc lang="en">Fire Country season 3 isn't turning down the heat - Bode faces tougher challenges which will force him to walk the straight and narrow in this unfair world.</desc>
+  </programme>
   <channel id="cg_hbohd">
     <display-name lang="en">cg_hbohd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426070500 +0800" stop="20250426092000 +0800" channel="cg_hbohd">
-    <title lang="en">A Beautiful Mind</title>
-    <desc lang="en">After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn to the nightmarish.</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426110000 +0800" channel="cg_hbohd">
     <title lang="en">The Hangover</title>
     <desc lang="en">When three friends get together for one last weekend-long bachelor party in Vegas, they think they had a good time.</desc>
@@ -504,14 +504,14 @@
     <title lang="en">The Island</title>
     <desc lang="en">Lincoln Six-Echo lives in a contained facility in the mid-21st century, his rebellious curiosity leads him to uncover a terrible truth.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427111000 +0800" channel="cg_hbohd">
+    <title lang="en">The Constant Gardener</title>
+    <desc lang="en">A diplomat is shattered when his young wife is mysteriously and brutally murdered. Digging deeper, he finds himself entangled in a series of cover-ups.</desc>
+  </programme>
   <channel id="tvup_prd">
     <display-name lang="en">tvup_prd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="tvup_prd">
-    <title lang="en">Up Talks</title>
-    <desc lang="en">Up Talks</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="tvup_prd">
     <title lang="en">Up Symphony Orchestra</title>
     <desc lang="en">Up Symphony Orchestra</desc>
@@ -656,6 +656,10 @@
     <title lang="en">100 Lectures On Ethics</title>
     <desc lang="en">100 Lectures On Ethics</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="tvup_prd">
+    <title lang="en">Up Talks</title>
+    <desc lang="en">Up Talks</desc>
+  </programme>
   <channel id="tvmaria_prd">
     <display-name lang="en">tvmaria_prd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -752,14 +756,14 @@
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="tvmaria_prd">
+    <title lang="en">TV Maria</title>
+    <desc lang="en">TV Maria</desc>
+  </programme>
   <channel id="cg_hbofam">
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426085400 +0800" stop="20250426091600 +0800" channel="cg_hbofam">
-    <title lang="en">Justice League Unlimited S2</title>
-    <desc lang="en">Justice League Unlimited S2</desc>
-  </programme>
   <programme start="20250426091600 +0800" stop="20250426093800 +0800" channel="cg_hbofam">
     <title lang="en">Justice League Unlimited S2</title>
     <desc lang="en">Justice League Unlimited S2</desc>
@@ -980,6 +984,14 @@
     <title lang="en">Bunnicula S2</title>
     <desc lang="en">Bunnicula S2</desc>
   </programme>
+  <programme start="20250427090600 +0800" stop="20250427091700 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S2</title>
+    <desc lang="en">Bunnicula S2</desc>
+  </programme>
+  <programme start="20250427091700 +0800" stop="20250427092800 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S2</title>
+    <desc lang="en">Bunnicula S2</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1141,6 +1153,10 @@
     <desc lang="en">Lotus Macau</desc>
   </programme>
   <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="lotusmacau_prd">
+    <title lang="en">Lotus Macau</title>
+    <desc lang="en">Lotus Macau</desc>
+  </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="lotusmacau_prd">
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
   </programme>
@@ -1328,10 +1344,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426085500 +0800" stop="20250426092000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Spirit Riding Free</title>
-    <desc lang="en">Lucky takes part in a secret Miradero tradition a nighttime scavenger hunt</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426094500 +0800" channel="cg_dreamworktag">
     <title lang="en">	 Abominable and The Invisible City</title>
     <desc lang="en">On the brink of his highly-anticipated White Coat Ceremony at school, Jin proudly dons his new white doctor’s coat around town, unwittingly drawing the attention of a creature named Morty. After a slobbery lick from Morty, Jin turns invisible! As Jin frantically tries to become re-visible, he discovers that Morty is very pregnant! Ultimately, Jin foregoes his ceremony and instead delivers Morty’s five babies.</desc>
@@ -1568,6 +1580,10 @@
     <title lang="en">Spirit Riding Free</title>
     <desc lang="en">When a sudden blizzard hits Miradero, Lucky and Maricela must work together to save the town.</desc>
   </programme>
+  <programme start="20250427092000 +0800" stop="20250427094500 +0800" channel="cg_dreamworktag">
+    <title lang="en">	 Abominable and The Invisible City</title>
+    <desc lang="en">Already stretched thin between responsibilities, Yi discovers one of Morty’s babies still in her building. She attempts to juggle her various responsibilities dumpling shop work, violin, magical creature childcare!), but it’s too much and she accidentally “loses” Mini-Morty. She’s going to need help from Jin and Peng to find Mini-Morty and return the baby creature to her mother.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1700,10 +1716,6 @@
     <display-name lang="en">globaltrekker</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426082500 +0800" stop="20250426091500 +0800" channel="globaltrekker">
-    <title lang="en">Michael J. Fox: Actor, Activist, Optimist</title>
-    <desc lang="en">Michael J. Fox's life, from his rise to fame to a Parkinson's diagnosis at 29, has been nothing short of a real-life movie, marked by unexpected twists and remarkable resilience.</desc>
-  </programme>
   <programme start="20250426091500 +0800" stop="20250426100500 +0800" channel="globaltrekker">
     <title lang="en">Kate Winslet: Leading Lady</title>
     <desc lang="en">Oscar-winner Kate Winslet, known for Titanic, is celebrated for her versatile, intense performances in both Hollywood blockbusters and indie films, cementing her as one of the finest actors of her generation.</desc>
@@ -1828,10 +1840,6 @@
     <display-name lang="en">cgtnenglish</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="cgtnenglish">
-    <title lang="en">Global Business</title>
-    <desc lang="en">Global Business is the flagship business show of CGTN English Channel, bringing you the latest economic data, business trends and policies.  </desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="cgtnenglish">
     <title lang="en">The World Today</title>
     <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
@@ -2022,6 +2030,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
 The Agenda: No nonsense talk; Challenging perceptions.
 </desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="cgtnenglish">
+    <title lang="en">Big Story</title>
+    <desc lang="en">Big Story is a documentary film program on CGTN. It explores global events with in a variety of filmic styles and featuring original, in-depth, thought-provoking storytelling. </desc>
+  </programme>
   <channel id="cgnl_nba">
     <display-name lang="en">nba-tv-philippines</display-name>
     <url>http://www.cignalplay.com</url>
@@ -2118,10 +2130,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">cg_mptv</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="cg_mptv">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="cg_mptv">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -2214,14 +2222,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="cg_mptv">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="cartoon_net_hd">
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426084500 +0800" stop="20250426091500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Tiny Toons Looniversity</title>
-    <desc lang="en">Babs is drawn into the world of modeling by animal calendar photographer, Elmyra Duff, while Plucky grapples with a bad caricature.</desc>
-  </programme>
   <programme start="20250426091500 +0800" stop="20250426094500 +0800" channel="cartoon_net_hd">
     <title lang="en">We Baby Bears</title>
     <desc lang="en">The Bears find themselves in an ancient Egyptian spa, but Grizz refuses to take a bath.</desc>
@@ -2406,14 +2414,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Tiny Toons Looniversity</title>
     <desc lang="en">It’s the first day at Acme Looniversity, where we find Babs and Buster Bunny as they meet new friends- tough gal Sweetie Bird, kind Hamton J. Pig, and narcissist Plucky Duck who are all kicking off their dreams to become professional toons.</desc>
   </programme>
+  <programme start="20250427091500 +0800" stop="20250427094500 +0800" channel="cartoon_net_hd">
+    <title lang="en">We Baby Bears</title>
+    <desc lang="en">When Squatter Otter finds his new RV destroyed, each bear tells their own version of what happened.</desc>
+  </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="cnn_hd">
-    <title lang="en">Anderson Cooper 360: Friday, April 25, 2025 8PM</title>
-    <desc lang="en">Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="cnn_hd">
     <title lang="en">The Source: Friday, April 25, 2025 9PM</title>
     <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
@@ -2606,14 +2614,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The White House Correspondents' Dinner: Saturday April 26, 2025 8PM</title>
     <desc lang="en">The latest, up-to-date news stories from around the globe.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="cnn_hd">
+    <title lang="en">The White House Correspondents' Dinner: Saturday April 26, 2025 9PM</title>
+    <desc lang="en">The latest, up-to-date news stories from around the globe.</desc>
+  </programme>
   <channel id="a2z">
     <display-name lang="en">a2z</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="a2z">
-    <title lang="en">Team Yey Galaw Go</title>
-    <desc lang="en">Team Yey Galaw Go</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="a2z">
     <title lang="en">Wansapanataym</title>
     <desc lang="en">Wansapanataym</desc>
@@ -2666,14 +2674,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Jesus Is Lord Sunday Worship And Healing Service</title>
     <desc lang="en">Jesus Is Lord Sunday Worship And Healing Service</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="a2z">
+    <title lang="en">Team Yey Sunday Funday</title>
+    <desc lang="en">Team Yey Sunday Funday</desc>
+  </programme>
   <channel id="dreamworks_hd">
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426085500 +0800" stop="20250426092000 +0800" channel="dreamworks_hd">
-    <title lang="en">Spirit Riding Free</title>
-    <desc lang="en">Lucky takes part in a secret Miradero tradition a nighttime scavenger hunt</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426094500 +0800" channel="dreamworks_hd">
     <title lang="en">	 Abominable and The Invisible City</title>
     <desc lang="en">On the brink of his highly-anticipated White Coat Ceremony at school, Jin proudly dons his new white doctor’s coat around town, unwittingly drawing the attention of a creature named Morty. After a slobbery lick from Morty, Jin turns invisible! As Jin frantically tries to become re-visible, he discovers that Morty is very pregnant! Ultimately, Jin foregoes his ceremony and instead delivers Morty’s five babies.</desc>
@@ -2910,6 +2918,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Spirit Riding Free</title>
     <desc lang="en">When a sudden blizzard hits Miradero, Lucky and Maricela must work together to save the town.</desc>
   </programme>
+  <programme start="20250427092000 +0800" stop="20250427094500 +0800" channel="dreamworks_hd">
+    <title lang="en">	 Abominable and The Invisible City</title>
+    <desc lang="en">Already stretched thin between responsibilities, Yi discovers one of Morty’s babies still in her building. She attempts to juggle her various responsibilities dumpling shop work, violin, magical creature childcare!), but it’s too much and she accidentally “loses” Mini-Morty. She’s going to need help from Jin and Peng to find Mini-Morty and return the baby creature to her mother.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://www.cignalplay.com</url>
@@ -3034,10 +3046,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">SPOTV_HD</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250426070000 +0800" stop="20250426090000 +0800" channel="SPOTV_HD">
-    <title lang="en">ISUZU UTE A-League Men 24/25  </title>
-    <desc lang="en">The ISUZU UTE A-League Men's is the top-division Men's soccer league in Australia. It consists of 13 teams, with the top four teams in the regular season then advance to the single-game knockout stage.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="SPOTV_HD">
     <title lang="en">Michelin Le Mans Cup, Barcelona </title>
     <desc lang="en">2025 marks the tenth season of the Michelin Le Mans Cup and for the first time the series will feature three classes, with Silver and Gold rated drivers able to compete together in LMP3.</desc>
@@ -3187,6 +3195,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <desc lang="en">PTV4</desc>
   </programme>
   <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="nbn4">
+    <title lang="en">PTV4</title>
+    <desc lang="en">PTV4</desc>
+  </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="nbn4">
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
   </programme>
@@ -3354,6 +3366,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The Asian Tournament</title>
     <desc lang="en">The Asian Tournament</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427110000 +0800" channel="tap_sports">
+    <title lang="en">Superbouts</title>
+    <desc lang="en">Superbouts</desc>
+  </programme>
   <channel id="bbcearth_hd">
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -3466,10 +3482,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">onesportsplus_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="onesportsplus_hd">
-    <title lang="en">Play by Play   Apr 25 DT</title>
-    <desc lang="en">Play by Play   Apr 25 DT</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426130000 +0800" channel="onesportsplus_hd">
     <title lang="en">One Friday Fights 104 Apr 11 </title>
     <desc lang="en">One Friday Fights 104 Apr 11 </desc>
@@ -3533,6 +3545,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427083000 +0800" stop="20250427090000 +0800" channel="onesportsplus_hd">
     <title lang="en">ONE Championship Weekly S6 E13</title>
     <desc lang="en">ONE Championship Weekly S6 E13</desc>
+  </programme>
+  <programme start="20250427090000 +0800" stop="20250427130000 +0800" channel="onesportsplus_hd">
+    <title lang="en">One Friday Fights 106 Apr 25 </title>
+    <desc lang="en">One Friday Fights 106 Apr 25 </desc>
   </programme>
   <channel id="SPOTV_HD2">
     <display-name lang="en">SPOTV_HD2</display-name>
@@ -3609,6 +3625,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427010000 +0800" stop="20250427091000 +0800" channel="SPOTV_HD2">
     <title lang="en">2025 Augusta Masters</title>
     <desc lang="en">First held in 1960, tournament participants and non-competing past champions contest a short, separate nine-hole layout in this part competition, part stress relief on the eve of the Masters.</desc>
+  </programme>
+  <programme start="20250427091000 +0800" stop="20250427120000 +0800" channel="SPOTV_HD2">
+    <title lang="en">MLB 2025: Regular season</title>
+    <desc lang="en">Major League Baseball is the most historic professional sports league consists of 30 member clubs in the U.S. and Canada, representing the highest level of professional baseball.</desc>
   </programme>
   <channel id="rock_entertainment">
     <display-name lang="en">rock_entertainment</display-name>
@@ -3714,14 +3734,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Peter Rabbit</title>
     <desc lang="en">Peter Rabbit, the mischievous and adventurous hero who has captivated generations of readers, now takes on the starring role of his own cute, contemporary comedy with attitude.</desc>
   </programme>
+  <programme start="20250427091500 +0800" stop="20250427104500 +0800" channel="rock_entertainment">
+    <title lang="en">Chosen Family</title>
+    <desc lang="en">Ann (Heather Graham) is a yoga teacher struggling to achieve inner peace despite the fact her family is driving her crazy and her dating life is miserable.</desc>
+  </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="discovery">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="discovery">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -3814,14 +3834,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="discovery">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="cctv4">
     <display-name lang="en">cctv4</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="cctv4">
-    <title lang="en">Global News</title>
-    <desc lang="en">A one-hour morning news program</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="cctv4">
     <title lang="en">Asia Today</title>
     <desc lang="en">Report the Asia News on Asian view </desc>
@@ -3978,6 +3998,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Global News</title>
     <desc lang="en">A one-hour morning news program</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="cctv4">
+    <title lang="en">Asia Today</title>
+    <desc lang="en">Report the Asia News on Asian view </desc>
+  </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4054,18 +4078,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Hot Seat S3 E04</title>
     <desc lang="en">Hot Seat S3 E04</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427110000 +0800" channel="pbarush_hd">
+    <title lang="en">Magnolia vs Phoenix Game 19 49th PBA Philippine Cup April 26</title>
+    <desc lang="en">Magnolia vs Phoenix Game 19 49th PBA Philippine Cup April 26</desc>
+  </programme>
   <channel id="arirang">
     <display-name lang="en">arirang</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="arirang">
-    <title lang="en">Regional Tastes: Gangwon</title>
-    <desc lang="en">Regional Tastes: Gangwon</desc>
-  </programme>
-  <programme start="20250426090000 +0800" stop="20250426092000 +0800" channel="arirang">
-    <title lang="en">Arirang Creative Lab A</title>
-    <desc lang="en">Arirang Creative Lab A</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426093000 +0800" channel="arirang">
     <title lang="en">Exploring Korean Literature A</title>
     <desc lang="en">Exploring Korean Literature A</desc>
@@ -4278,6 +4298,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Performarts Reload</title>
     <desc lang="en">Performarts Reload</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427092000 +0800" channel="arirang">
+    <title lang="en">Arirang Creative Lab B</title>
+    <desc lang="en">Arirang Creative Lab B</desc>
+  </programme>
+  <programme start="20250427092000 +0800" stop="20250427093000 +0800" channel="arirang">
+    <title lang="en">Exploring Korean Literature B</title>
+    <desc lang="en">Exploring Korean Literature B</desc>
+  </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4342,10 +4370,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">onenews_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="onenews_hd">
-    <title lang="en">From Helen's Kitchen</title>
-    <desc lang="en">From Helen's Kitchen</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="onenews_hd">
     <title lang="en">Recreate</title>
     <desc lang="en">Recreate</desc>
@@ -4490,6 +4514,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">From Helen's Kitchen</title>
     <desc lang="en">From Helen's Kitchen</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="onenews_hd">
+    <title lang="en">Recreate</title>
+    <desc lang="en">Recreate</desc>
+  </programme>
   <channel id="kix_hd">
     <display-name lang="en">kix_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4569,6 +4597,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427075000 +0800" stop="20250427091000 +0800" channel="kix_hd">
     <title lang="en">The Mask of Shura of Fire Cloud</title>
     <desc lang="en">18 years ago, the evil Black Feather clan infiltrated the territory of Master Fire Cloud and stole The Mask of Shura, thus releasing an evil spirit that was a baby. Master Fire Cloud adopted the baby to prevent him from becoming evil. When the baby grows up, he takes control of the mask and becomes Fire Cloud’s successor as the city’s guard.</desc>
+  </programme>
+  <programme start="20250427091000 +0800" stop="20250427105000 +0800" channel="kix_hd">
+    <title lang="en">Iron Squad 2</title>
+    <desc lang="en">The new season of this Korean military survival show brings eight Special Force units together to compete in extreme missions that will test their physical stamina, mental strength and teamwork. Top male reservists form teams of four to compete against one another. Witness how they battle till the end in front of five celebrity hosts!</desc>
   </programme>
   <channel id="lifetime">
     <display-name lang="en">lifetime</display-name>
@@ -4658,10 +4690,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">bbcworld_news</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="bbcworld_news">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="bbcworld_news">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -4754,14 +4782,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="bbcworld_news">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="hgtv_hd">
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426092000 +0800" channel="hgtv_hd">
-    <title lang="en">Unsellable Houses (S5)</title>
-    <desc lang="en">Renters turned buyers are calling on Lyndsay and Leslie. They need help deciding between a turnkey home or a long-term investment property.</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426094500 +0800" channel="hgtv_hd">
     <title lang="en">My Lottery Dream Home (S14)</title>
     <desc lang="en">David helps a young couple find a first home they can renovate after a big win in Rochester, New York.</desc>
@@ -4906,14 +4934,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Inside Out (S1)</title>
     <desc lang="en">Mike and Carmine take a little inspiration from nature and convert a family's home into a California Craftsman with an organic edge.</desc>
   </programme>
+  <programme start="20250427092000 +0800" stop="20250427101000 +0800" channel="hgtv_hd">
+    <title lang="en">Help! I Wrecked My House (S3)</title>
+    <desc lang="en">Indecision has a family stuck in a house with half-done projects. Jasmine finds the perfect way to create a finished home with a timeless look.</desc>
+  </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="uaap_varsity">
-    <title lang="en">The Glory Days S2 EP 7</title>
-    <desc lang="en">The Glory Days S2 EP 7</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426110000 +0800" channel="uaap_varsity">
     <title lang="en">Ateneo vs. UE Match 53 UAAP Season 87  Men's Volleyball  April 26 Live </title>
     <desc lang="en">Ateneo vs. UE Match 53 UAAP Season 87  Men's Volleyball  April 26 Live </desc>
@@ -4974,14 +5002,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The Glory Days S2 EP 7</title>
     <desc lang="en">The Glory Days S2 EP 7</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427110000 +0800" channel="uaap_varsity">
+    <title lang="en">NU vs. UST Match 55 UAAP Season 87  Men's Volleyball  April 27 Live </title>
+    <desc lang="en">NU vs. UST Match 55 UAAP Season 87  Men's Volleyball  April 27 Live </desc>
+  </programme>
   <channel id="travel_channel">
     <display-name lang="en">travel_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426084800 +0800" stop="20250426091200 +0800" channel="travel_channel">
-    <title lang="en">Trip Flip (S2)</title>
-    <desc lang="en">Bert Kreischer convinces a couple to vacation in Seattle, WA.</desc>
-  </programme>
   <programme start="20250426091200 +0800" stop="20250426093600 +0800" channel="travel_channel">
     <title lang="en">Beachfront Bargain Hunt (S22)</title>
     <desc lang="en">A couple from Houston want a beachside holiday home for their two children. Can they find the perfect property to create beautiful memories?</desc>
@@ -5138,14 +5166,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Border Control: Spain (S4)</title>
     <desc lang="en">In Madrid's main airport, Madrid-Barajas,5,000 security cameras help agents maintain security. Follow state security forces to discovery how they monitor Spain's borders.</desc>
   </programme>
+  <programme start="20250427091200 +0800" stop="20250427100000 +0800" channel="travel_channel">
+    <title lang="en">Mountain Monsters (S3)</title>
+    <desc lang="en">The AIMS team learns that a mysterious creature known as the Black Wolf roams the Dark Forest.</desc>
+  </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="premier_tennishd">
-    <title lang="en">PGA Tour THE PLAYERS Championship Official Film</title>
-    <desc lang="en">PGA Tour THE PLAYERS Championship Official Film</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426150000 +0800" channel="premier_tennishd">
     <title lang="en">LPGA Tour: The Chevron Championship Day 2</title>
     <desc lang="en">LPGA Tour: The Chevron Championship Day 2</desc>
@@ -5178,14 +5206,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">WTA 1000 Mutua Madrid Open Day 4 Session 1</title>
     <desc lang="en">WTA 1000 Mutua Madrid Open Day 4 Session 1</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427130000 +0800" channel="premier_tennishd">
+    <title lang="en">LPGA Tour: The Chevron Championship Day 3</title>
+    <desc lang="en">LPGA Tour: The Chevron Championship Day 3</desc>
+  </programme>
   <channel id="pbo">
     <display-name lang="en">pbo</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426070000 +0800" stop="20250426090000 +0800" channel="pbo">
-    <title lang="en">Para Sa Hopeless Romantic</title>
-    <desc lang="en">A student writer struggles to find a happy ending for her romantic story when her own real life romance falls apart.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426110000 +0800" channel="pbo">
     <title lang="en">Exit Point</title>
     <desc lang="en">Because of prison overcrowding, 12 inmates were sent to an island where they must fight and survive for freedom.</desc>
@@ -5242,10 +5270,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">hits_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="hits_hd">
-    <title lang="en">The Waltons S1 E02 - The Carnival</title>
-    <desc lang="en">From the Great Depression to World War II, an American family living in the Blue Ridge Mountains of Virginia struggles to remain together in this heartwarming series, the winner of 13 Emmy Awards, that chronicles the lives of a people poor in material wealth but rich in spirit.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="hits_hd">
     <title lang="en">Married With Children S1 E07 - Al Loses His Cherry</title>
     <desc lang="en">With offbeat humor and unflinching honesty, Married… With Children paints a more realistic picture of middle-class existence, warts and all for the less-than-lovable Bundys family</desc>
@@ -5370,10 +5394,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">aljazeera</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="aljazeera">
-    <title lang="en">Counting the Cost</title>
-    <desc lang="en">The show features the economical stories that shape our world and has an effect on the lives of the common human beings.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="aljazeera">
     <title lang="en">News Live</title>
     <desc lang="en">Up-to-date news and analysis from around the world.</desc>
@@ -5538,6 +5558,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">First Nations Frontline</title>
     <desc lang="en">Sweden's indigenous Sami people use their traditional knowledge to fight to preserve their nomadic way of living.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="aljazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
   <channel id="oneph">
     <display-name lang="en">oneph</display-name>
     <url>http://www.cignalplay.com</url>
@@ -5646,14 +5670,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Inay Ko Po</title>
     <desc lang="en">Inay Ko Po</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="oneph">
+    <title lang="en">Chink Positive</title>
+    <desc lang="en">Chink Positive</desc>
+  </programme>
   <channel id="foodnetwork_hd">
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426082400 +0800" stop="20250426091200 +0800" channel="foodnetwork_hd">
-    <title lang="en">Guy! Hawaiian Style (S1)</title>
-    <desc lang="en">Guy Fieri and his family hit the islands and dive right into Hawaiian adventure, culture and cuisine. The journey begins on Maui with a traditional blessing.</desc>
-  </programme>
   <programme start="20250426091200 +0800" stop="20250426093600 +0800" channel="foodnetwork_hd">
     <title lang="en">Cheap Eats (S2)</title>
     <desc lang="en">Ali eats his way through Chattanooga, TN, and tries a whiskey pot de creme.</desc>
@@ -5806,6 +5830,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Ayesha's Home Kitchen (S2)</title>
     <desc lang="en">Ayesha hosts a girls' night and serves breakfast for dinner with a party spread that includes a Frozen Mint Mocha Frappe Cocktail.</desc>
   </programme>
+  <programme start="20250427091200 +0800" stop="20250427100000 +0800" channel="foodnetwork_hd">
+    <title lang="en">Bobby's Triple Threat (S2)</title>
+    <desc lang="en">Costa Rican chef Byron Gomez hopes his trailblazing flavours and Michelin training will help him take the bag of $25,000 from Bobby Flay's Titans.</desc>
+  </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
     <url>http://www.cignalplay.com</url>
@@ -5902,14 +5930,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="depedchannel">
+    <title lang="en">DepEd TV</title>
+    <desc lang="en">DepEd TV</desc>
+  </programme>
   <channel id="tv5">
     <display-name lang="en">tv5</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="tv5">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="tv5">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -5999,6 +6027,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <desc lang="en">Program information is not yet available</desc>
   </programme>
   <programme start="20250427070000 +0800" stop="20250427080000 +0800" channel="tv5">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="tv5">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
@@ -6118,10 +6150,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">fashiontv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="fashiontv_hd">
-    <title lang="en">Fashion From Italy</title>
-    <desc lang="en">Check in for the recent updates of the famous Italian look - iconic casual aristocratic elegance in all its modern versions created by the world-famous and emerging Italian designers.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="fashiontv_hd">
     <title lang="en">Louis Vuitton</title>
     <desc lang="en">Louis Vuitton is like ABC for fashion lovers around the globe. Are you ready to pick up some fabulous details on the living and one of the most successful brands of the world? </desc>
@@ -6314,6 +6342,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Fashion From Germany</title>
     <desc lang="en">Explore German fashion famous for its elegant lines, unconventional young designs, and manufacturers of sports and outdoor clothing to find exceptional RTW and custom-made pieces for your wardrobe!</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="fashiontv_hd">
+    <title lang="en">Irina Shayk</title>
+    <desc lang="en">What the life of the fashion's greatest icons is all about? Get off with Irina Shayk for a bunch of fabulous ins and outs. </desc>
+  </programme>
   <channel id="viva">
     <display-name lang="en">viva</display-name>
     <url>http://www.cignalplay.com</url>
@@ -6374,10 +6406,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">bloomberg</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="bloomberg">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="bloomberg">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -6470,18 +6498,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="bloomberg">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="nhk_japan">
     <display-name lang="en">nhk_japan</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="nhk_japan">
-    <title lang="en">Japanology Plus</title>
-    <desc lang="en">Mamachari bikes, which originated in Japan, are designed to meet the needs of all kinds of people. They even helped women enter the workforce. We discover what makes them so unique and special.</desc>
-  </programme>
-  <programme start="20250426090000 +0800" stop="20250426091000 +0800" channel="nhk_japan">
-    <title lang="en">NHK NEWSLINE</title>
-    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
-  </programme>
   <programme start="20250426091000 +0800" stop="20250426100000 +0800" channel="nhk_japan">
     <title lang="en">Documentary 360</title>
     <desc lang="en">NHK WORLD-JAPAN's flagship documentary series offers must-see episodes on politics, the economy, social trends, science and the environment in Japan and beyond.</desc>
@@ -6790,14 +6814,18 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Core Kyoto mini</title>
     <desc lang="en">Karesansui is a dry-gardening style of arranging stones and gravel that developed as places for Buddhist monks in their ascetic training.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427091000 +0800" channel="nhk_japan">
+    <title lang="en">NHK NEWSLINE</title>
+    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
+  </programme>
+  <programme start="20250427091000 +0800" stop="20250427100000 +0800" channel="nhk_japan">
+    <title lang="en">Ukraine's Women Soldiers</title>
+    <desc lang="en">The number of women in the Ukrainian military has soared since the start of the Russian invasion. We follow these soldiers as they face the enemy and their own growing sense of despair.</desc>
+  </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426084000 +0800" stop="20250426090500 +0800" channel="asianfoodnetwork">
-    <title lang="en">5 Rencah 5 Rasa (S23)</title>
-    <desc lang="en">Malaysian chef Sherson Lian makes simple but delicious dishes using an array of ingredients and spices.</desc>
-  </programme>
   <programme start="20250426090500 +0800" stop="20250426093500 +0800" channel="asianfoodnetwork">
     <title lang="en">5 Rencah 5 Rasa (S23)</title>
     <desc lang="en">Malaysian chef Sherson Lian makes simple but delicious dishes using an array of ingredients and spices.</desc>
@@ -6990,10 +7018,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">onesports</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="onesports">
-    <title lang="en">Sabong Tv </title>
-    <desc lang="en">Sabong Tv </desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="onesports">
     <title lang="en">Agri Tv</title>
     <desc lang="en">Agri Tv</desc>
@@ -7062,14 +7086,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Tukaan </title>
     <desc lang="en">Tukaan </desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="onesports">
+    <title lang="en">Sabong Nation</title>
+    <desc lang="en">Sabong Nation</desc>
+  </programme>
   <channel id="nickjr">
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426084000 +0800" stop="20250426090000 +0800" channel="nickjr">
-    <title lang="en">The Crew Builds A Train Station / The Crew Builds A Sierra Sparkle Sign</title>
-    <desc lang="en">Rubble &amp; Crew build the first train station in Builder Cove just in time to welcome Farmer Zoe's new cow Mooreen. // Popstar Sierra Sparkle is moving to Builder Cove! But when the pups plan a surprise greeting, Speed Meister makes a plan of his own.</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426092500 +0800" channel="nickjr">
     <title lang="en">Rainbow's Lost Colors / Boots' Rubber Band Ball</title>
     <desc lang="en">The twins are excited to see their first rainbow, but it's missing its colors! Dora sets off to return its azul, rojo, y amarillo. // Boots' rubber band ball bounces into the Forest Next Door, and he must ask Cynthia the Centipede to get it back.</desc>
@@ -7442,14 +7466,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The Crew Builds A Mini Golf Course/The Crew Builds A Butterfly Garden</title>
     <desc lang="en">When a family of bunnies hops onto the soccer field, Rubble &amp; Crew use their skills to build a new sport... Bunny Ball! // After the pups discover a new kind of butterfly, it flutters away! Will a giant butterfly garden help bring it back?</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427092500 +0800" channel="nickjr">
+    <title lang="en">The Alebrije Adventure / Let's Get A Paleta</title>
+    <desc lang="en">Ale the Alebrije asks Dora for her help! The Alebrije tree is wilting, so it's up to Dora to find its rainbow water. // On a super hot day, everyone wants paleta, but Val's paleta truck is stuck! Dora goes to rescue her and get paletas for everyone.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426092000 +0800" channel="warnertv_hd">
-    <title lang="en">World's Dumbest S16 9</title>
-    <desc lang="en">Let freedom ring, as World's Dumbest presents "Only in America." Featuring 20 of the most patriotic patriots in the land - from a cop's strange take on the national anthem, to a dangerous mishap with a bald eagle, and the most insane thank you to thetroops ever put on film. Plus awesome commentary from our cast of America's best comics, including Brendon Walsh, Kevin McCaffrey and Jaime Andrews.</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426101000 +0800" channel="warnertv_hd">
     <title lang="en">World's Dumbest S16 10</title>
     <desc lang="en">The spotlight shines on 20 of the Worlds Dumbest Performers. From an underwear clad girl giving a sobriety test, to amateur firework technicians, plus a funeral home Christmas greeting that will send shivers down your spine - these dumb performers shine in the roles they were born to play.   Plus, awesome commentary from our cast of comedians, including Brendon Walsh, Kevin McCaffrey and Jaime Andrews.</desc>
@@ -7614,14 +7638,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Arrow S2 6</title>
     <desc lang="en">While Oliver tends to the Canary's wounds, he tries to get her to talk.  But when they're both attacked by the League of Assassins, she confesses that she's connected.</desc>
   </programme>
+  <programme start="20250427092000 +0800" stop="20250427101000 +0800" channel="warnertv_hd">
+    <title lang="en">Arrow S2 7</title>
+    <desc lang="en">Diggle heads to Russia to follow a lead on Deadshot (MICHAEL ROWE) in Moscow.  When Oliver and Felicity decide to join him, things get complicated when Isabel shows up as well.</desc>
+  </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="animax">
-    <title lang="en">Saiyuki Reload -Zeroin-</title>
-    <desc lang="en">Sanzo and others fight with Hazel and release a girl who is caught by yokai. At night, Hazel asks Sanzo to help…</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="animax">
     <title lang="en">Saiyuki Reload -Zeroin-</title>
     <desc lang="en">Sanzo and others happily visit a crowded town that is said to be protected by an anti-yokai magical barrier.</desc>
@@ -7814,6 +7838,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The Foolish Angel Dances With The Devil</title>
     <desc lang="en">Akutsu rescues Lily, and they hunt demons instead of dating. As they investigate wild dog attacks, a sinister gaze watches them.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="animax">
+    <title lang="en">Wind Breaker</title>
+    <desc lang="en">Tension with Shishitoren escalates after Sakura saves a secondary school student. He and Hiragi report it to Umemiya.</desc>
+  </programme>
   <channel id="ibc13">
     <display-name lang="en">ibc13</display-name>
     <url>http://www.cignalplay.com</url>
@@ -7910,14 +7938,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="ibc13">
+    <title lang="en">IBC13</title>
+    <desc lang="en">IBC13</desc>
+  </programme>
   <channel id="cgtn">
     <display-name lang="en">cgtn</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="cgtn">
-    <title lang="en">Best Eats</title>
-    <desc lang="en">Food connects people! A feast for the eyes that spotlights the cuisines of China in a way that’s bound to set the mouths of the whole globe watering!</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="cgtn">
     <title lang="en">Youthful China</title>
     <desc lang="en">The youth of a country is the future of that country. A series of documentaries focusing on the younger generation of China in which you get to see what they are achieving and what makes them tick! </desc>
@@ -8054,6 +8082,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Today’s Top Pick</title>
     <desc lang="en">Documentaries in this slot are rebroadcasts of our most-viewed and most popular stories of the season. They feature important social, economic, environmental or other policy-driven issues, affecting lives nationwide or simply in one small village. A broad selection of top productions by Chinese top documentary producers.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="cgtn">
+    <title lang="en">Today’s Top Pick</title>
+    <desc lang="en">Documentaries in this slot are rebroadcasts of our most-viewed and most popular stories of the season. They feature important social, economic, environmental or other policy-driven issues, affecting lives nationwide or simply in one small village. A broad selection of top productions by Chinese top documentary producers.</desc>
+  </programme>
   <channel id="axn">
     <display-name lang="en">axn</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8158,14 +8190,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Sight Unseen (Season 1)</title>
     <desc lang="en">Jake (Daniel Gillies) encourages Tess (Dolly Lewis) to talk to Superintendent Bennett (Roger Cross) about getting her old job back, but her hopes are cut short by his disappointing offer to join the Metro PD only to ride a desk.</desc>
   </programme>
+  <programme start="20250427091500 +0800" stop="20250427101000 +0800" channel="axn">
+    <title lang="en">Elsbeth (Season 2)</title>
+    <desc lang="en">Elsbeth and the team retrace Mac's steps to find the truth. </desc>
+  </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426071000 +0800" stop="20250426090000 +0800" channel="tapmovies_hd">
-    <title lang="en">The Boss Baby: Family Business</title>
-    <desc lang="en">The Boss Baby: Family Business</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426102000 +0800" channel="tapmovies_hd">
     <title lang="en">Land Before Time XIII: The wisdom Of Friends</title>
     <desc lang="en">Land Before Time XIII: The wisdom Of Friends</desc>
@@ -8221,6 +8253,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427070500 +0800" stop="20250427090000 +0800" channel="tapmovies_hd">
     <title lang="en">Small Soldiers 1998</title>
     <desc lang="en">Small Soldiers 1998</desc>
+  </programme>
+  <programme start="20250427090000 +0800" stop="20250427111000 +0800" channel="tapmovies_hd">
+    <title lang="en">Warcraft</title>
+    <desc lang="en">Warcraft</desc>
   </programme>
   <channel id="taptv">
     <display-name lang="en">taptv</display-name>
@@ -8350,14 +8386,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Saturday Today</title>
     <desc lang="en">Saturday Today</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="taptv">
+    <title lang="en">Brooklyn Nine-Nine S4</title>
+    <desc lang="en">Brooklyn Nine-Nine S4</desc>
+  </programme>
   <channel id="moonbug_kids">
     <display-name lang="en">moonbug_kids</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="moonbug_kids">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426100000 +0800" channel="moonbug_kids">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -8450,6 +8486,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250427080000 +0800" stop="20250427090000 +0800" channel="moonbug_kids">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8510,18 +8550,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The Nightmare (2015)</title>
     <desc lang="en">The Nightmare (2015)</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427110500 +0800" channel="tapactionflix_hd">
+    <title lang="en">47 Ronin</title>
+    <desc lang="en">47 Ronin</desc>
+  </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
-  <programme start="20250426090000 +0800" stop="20250426091500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250426091500 +0800" stop="20250426093000 +0800" channel="france24">
     <title lang="en">Guest of the day</title>
     <desc lang="en">Guest of the day.</desc>
@@ -9010,6 +9046,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427091500 +0800" channel="france24">
+    <title lang="en">The News</title>
+    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250427091500 +0800" stop="20250427093000 +0800" channel="france24">
+    <title lang="en">Guest of the day</title>
+    <desc lang="en">Guest of the day.</desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
@@ -9106,14 +9150,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Weekend Breakfast - Episode 17</title>
     <desc lang="en">Ease into your Sunday with an engaging mix of news, updated information, analysis, interviews, politics and weather. Presented by Fauziah Ibrahim, plus sport with Daniela Intili.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427103000 +0800" channel="abc_australia">
+    <title lang="en">Insiders  - 90 minute Campaign Special from McEwan</title>
+    <desc lang="en">Six days before election day, we're taking Insiders on the road for a 90 min Special from the key seat of McEwan in Victoria. David Speers and a panel of leading political minds discuss the week, plus we hear from the locals.</desc>
+  </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426064500 +0800" stop="20250426090000 +0800" channel="hits_movies">
-    <title lang="en">Insomnia</title>
-    <desc lang="en">Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn't set to investigate the methodical murder of a local teen</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426110000 +0800" channel="hits_movies">
     <title lang="en">Galaxy Quest</title>
     <desc lang="en">The alumni cast of a cult space TV show have to play their roles as the real thing when an alien race needs their help.</desc>
@@ -9162,10 +9206,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">channelnews_asia</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426083000 +0800" stop="20250426090000 +0800" channel="channelnews_asia">
-    <title lang="en">Tender Loving Food</title>
-    <desc lang="en">You're Invited! Italy. Malaysia. Singapore. Pizza, Pineapple tarts &amp; Cinnamon rolls. Stressed is desserts spelt backwards!</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="channelnews_asia">
     <title lang="en">Asia Now </title>
     <desc lang="en">Non-stop breaking stories, expert analysis and extensive news coverage every hour.</desc>
@@ -9351,6 +9391,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250427083000 +0800" stop="20250427090000 +0800" channel="channelnews_asia">
     <title lang="en">Lunch With Us</title>
     <desc lang="en">Millions of working Asians must decide every day where to go for lunch. We find out what appeals to people in different occupational groups and cultures.</desc>
+  </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="channelnews_asia">
+    <title lang="en">Asia Now </title>
+    <desc lang="en">Non-stop breaking stories, expert analysis and extensive news coverage every hour.</desc>
   </programme>
   <channel id="thrill">
     <display-name lang="en">thrill</display-name>
@@ -9644,14 +9688,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427100000 +0800" channel="tech_storm">
+    <title lang="en">TechStorm</title>
+    <desc lang="en">TechStorm</desc>
+  </programme>
   <channel id="buko">
     <display-name lang="en">buko</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="buko">
-    <title lang="en">Wow Mali Doble Tama</title>
-    <desc lang="en">Wow Mali Doble Tama</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426093000 +0800" channel="buko">
     <title lang="en">Nina Nino</title>
     <desc lang="en">Nina Nino</desc>
@@ -9764,18 +9808,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Wow Mali Doble Tama</title>
     <desc lang="en">Wow Mali Doble Tama</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427093000 +0800" channel="buko">
+    <title lang="en">Nina Nino</title>
+    <desc lang="en">Nina Nino</desc>
+  </programme>
   <channel id="knowledge_channel">
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426084000 +0800" stop="20250426090000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 2 English</title>
-    <desc lang="en">These episodes teach about pronouns and prepositions. These episodes also show how to read, match, and write words that use short vowels.</desc>
-  </programme>
-  <programme start="20250426090000 +0800" stop="20250426092000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 2 Araling Palipunan</title>
-    <desc lang="en">Sa mga palabas na ito tatalakayin ang pagpapahalaga sa kagalingang pansibiko bilang pakikibahagi sa mga layunin ng sariling komunidad.</desc>
-  </programme>
   <programme start="20250426092000 +0800" stop="20250426094000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 3 Filipino</title>
     <desc lang="en">Sa mga palabas na ito tinatalakay ang tungkol sa mga pangngalan, panghalip, at iba't ibang elemento ng kuwento. Ipapaliwanag din dito ang pagsusulat ng mga kuwento at pagbibigay ng kahulugan ng mga salita.</desc>
@@ -9976,14 +10016,18 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Grade 2 English</title>
     <desc lang="en">These episodes teach about pronouns and prepositions. These episodes also show how to read, match, and write words that use short vowels.</desc>
   </programme>
+  <programme start="20250427090000 +0800" stop="20250427092000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 2 Araling Panlipunan</title>
+    <desc lang="en">Sa mga palabas na ito tatalakayin ang pagpapahalaga sa kagalingang pansibiko bilang pakikibahagi sa mga layunin ng sariling komunidad.</desc>
+  </programme>
+  <programme start="20250427092000 +0800" stop="20250427094000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 3 Filipino</title>
+    <desc lang="en">Sa mga palabas na ito tinatalakay ang tungkol sa mga pangngalan, panghalip, at iba't ibang elemento ng kuwento. Ipapaliwanag din dito ang pagsusulat ng mga kuwento at pagbibigay ng kahulugan ng mga salita.</desc>
+  </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426085700 +0800" stop="20250426091600 +0800" channel="tv5_monde">
-    <title lang="en">64' Le Monde En Français - 2E Partie</title>
-    <desc lang="en">International current affairs as seen by the French-speaking world.</desc>
-  </programme>
   <programme start="20250426091600 +0800" stop="20250426092500 +0800" channel="tv5_monde">
     <title lang="en">L'Invité</title>
     <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
@@ -10172,14 +10216,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">64' Le Monde En Français - 2E Partie</title>
     <desc lang="en">International current affairs as seen by the French-speaking world.</desc>
   </programme>
+  <programme start="20250427091600 +0800" stop="20250427092500 +0800" channel="tv5_monde">
+    <title lang="en">L'Invité</title>
+    <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
+  </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426085500 +0800" stop="20250426091500 +0800" channel="nickelodeon">
-    <title lang="en">SpongeBob SquarePants</title>
-    <desc lang="en">Patrick inducts SpongeBob into his prestigious society of dullards and doofuses. // Patrick takes his grime to a new extreme, playing around in so much trash that he becomes unrecognizable.</desc>
-  </programme>
   <programme start="20250426091500 +0800" stop="20250426094000 +0800" channel="nickelodeon">
     <title lang="en">The Patrick Star Show</title>
     <desc lang="en">The Star family's pet toilet Tinkle has eleven toilet puppies. // Mistaking it for the local park, the Star family splits up at a cemetery to enjoy their favorite picnic activities.</desc>
@@ -10432,18 +10476,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Mrs. Puff's new substitute teacher gives SpongeBob a crash course in driving. // Mr. Krabs and Plankton must work together after discovering a well of miracle-grease under their restaurants.</desc>
   </programme>
+  <programme start="20250427091500 +0800" stop="20250427094000 +0800" channel="nickelodeon">
+    <title lang="en">The Patrick Star Show</title>
+    <desc lang="en">Patrick and SpongeBob work at the movie theater to watch a new premiere. // With Sandy's guidance, Patrick hosts a science show.</desc>
+  </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250426080000 +0800" stop="20250426090000 +0800" channel="sari_sari">
-    <title lang="en">Da Pers Family S3 ep 4 (ep 30)</title>
-    <desc lang="en">A story of a couple who preserves the family 
-bakery business legacy from closure. Now the 
-couple’s children, volunteers to step in and help the 
-business. Are the parents willing to accept change 
-and innovations of the new generation?</desc>
-  </programme>
   <programme start="20250426090000 +0800" stop="20250426110000 +0800" channel="sari_sari">
     <title lang="en">Sari Saring Sine: Eseng ng Tondo</title>
     <desc lang="en">The story of a workaholic policeman who is so dedicated to his job that it creates conflict between him and his jealous wife Digna (Jenny Syquia). It also stars Ina Raymundo as Elvie, a street-smart informer who falls in love with him</desc>

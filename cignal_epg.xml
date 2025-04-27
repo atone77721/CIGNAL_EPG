@@ -784,6 +784,10 @@
     <title lang="en">Justice League Unlimited S1</title>
     <desc lang="en">Justice League Unlimited S1</desc>
   </programme>
+  <programme start="20250428162000 +0800" stop="20250428163100 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S2</title>
+    <desc lang="en">Bunnicula S2</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
     <url>http://www.cignalplay.com</url>
@@ -999,6 +1003,10 @@
   <programme start="20250428140000 +0800" stop="20250428162000 +0800" channel="cg_hbosign">
     <title lang="en">The Prince Of Egypt: The Musical</title>
     <desc lang="en">This epic production with an original London cast and orchestra of more than 60 artists tells an inspiring tale of resilience and hope.</desc>
+  </programme>
+  <programme start="20250428162000 +0800" stop="20250428181500 +0800" channel="cg_hbosign">
+    <title lang="en">Something The Lord Made</title>
+    <desc lang="en">In this HBO Original movie, two men achieve an enormous medical breakthrough that earns one an award and the other, a painful lesson in unequal opportunity.</desc>
   </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
@@ -1440,6 +1448,10 @@
     <title lang="en">Fresh off the Sea 2</title>
     <desc lang="en">&lt;Fresh off the Sea&gt; returns with Season 2! Lim Ji-yeon and Lee Jae-wook join the crew to hit Korea's coast and explore local delicacies unique to the area.</desc>
   </programme>
+  <programme start="20250428162000 +0800" stop="20250428174500 +0800" channel="cg_tvnpre">
+    <title lang="en">BRO&amp;MARBLE in Dubai</title>
+    <desc lang="en">Top celebrities come together to play a real-life “Blue Marble” game in Dubai with unexpected challenges! Who will survive in crisis and seize both friendship and money as the ultimate winning bro?</desc>
+  </programme>
   <channel id="cg_tagalogmovie">
     <display-name lang="en">cg_tagalogmovie</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1834,6 +1846,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The World Today</title>
     <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
   </programme>
+  <programme start="20250428161500 +0800" stop="20250428170000 +0800" channel="cgtnenglish">
+    <title lang="en">Global Business</title>
+    <desc lang="en">Global Business is the flagship business show of CGTN English Channel, bringing you the latest economic data, business trends and policies.  </desc>
+  </programme>
   <channel id="cgnl_nba">
     <display-name lang="en">nba-tv-philippines</display-name>
     <url>http://www.cignalplay.com</url>
@@ -2038,10 +2054,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427160000 +0800" stop="20250427161500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Lamput</title>
-    <desc lang="en">Lamput and the Docs re-enact the classic folktale – Robinhood with their own unique twist!</desc>
-  </programme>
   <programme start="20250427161500 +0800" stop="20250427164500 +0800" channel="cartoon_net_hd">
     <title lang="en">Clarence</title>
     <desc lang="en">Clarence's first night home alone spirals out of control, forcing Clarence and his pals to wage war against their own home security measures.</desc>
@@ -2193,6 +2205,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428154500 +0800" stop="20250428161500 +0800" channel="cartoon_net_hd">
     <title lang="en">Boy Girl Dog Cat Mouse Cheese</title>
     <desc lang="en">A dog show is coming up, and cool prizes are given to the winning dog.</desc>
+  </programme>
+  <programme start="20250428161500 +0800" stop="20250428171500 +0800" channel="cartoon_net_hd">
+    <title lang="en">The Tom And Jerry Show</title>
+    <desc lang="en">Toodles the Witch mesmerizes Tom in a haunted castle, and poses a threat to Jerry and Tuffy.</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -3126,10 +3142,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427151000 +0800" stop="20250427161500 +0800" channel="bbcearth_hd">
-    <title lang="en">Big Little Journeys 1</title>
-    <desc lang="en">A tiny chameleon faces the journey of a lifetime in a Madagascan forest, and a water vole in Scotland swims across a loch and scales a mountain to find new territory and a mate.</desc>
-  </programme>
   <programme start="20250427161500 +0800" stop="20250427170500 +0800" channel="bbcearth_hd">
     <title lang="en">How Did They Build That? 1</title>
     <desc lang="en">We visit an extraordinary bridge that spans a vast valley and becomes the tallest in the world, and a luxury hotel was built upside down in an abandoned quarry in China.</desc>
@@ -4018,10 +4030,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">kbs_world</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427150000 +0800" stop="20250427161500 +0800" channel="kbs_world">
-    <title lang="en">2019 Drama Special</title>
-    <desc lang="en">Forget the existing one-act dramas! Short but impactive! KBS Drama Special presents high quality single episode dramas.  Dramas are the broadcast content with the widest public appeal.  KBS Drama Special will produce short dramas of far-reaching impact involving at times a serious social message, unique emotions or perspectives. It will stay abreast of modern viewership.</desc>
-  </programme>
   <programme start="20250427161500 +0800" stop="20250427163000 +0800" channel="kbs_world">
     <title lang="en">Got The Spot in Gyeongbuk</title>
     <desc lang="en">This program highlights locations that are truly exceptional, blending traditional elements with modern trends. Through the eyes of foreign influencers who thrive on social media, we aim to showcase the unique charm of different regions and generate a wealth of engaging content in this groundbreaking travel initiative!</desc>
@@ -5514,10 +5522,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427152500 +0800" stop="20250427162000 +0800" channel="history_hd">
-    <title lang="en">Alone (S10)</title>
-    <desc lang="en">As the remaining survivalists near day 50, conditions at Reindeer Lake intensify. Desperation rises as the temperatures continue to drop, and personal demons bubble to the surface.</desc>
-  </programme>
   <programme start="20250427162000 +0800" stop="20250427172000 +0800" channel="history_hd">
     <title lang="en">Ancient Aliens (S15)</title>
     <desc lang="en">Studies have shown that up to 70% of all UFO sightings happen in so-called 'hotspots' where reports of visions and unusual phenomena are witnessed, and not only in modern times, but thousands of years ago.</desc>
@@ -5621,6 +5625,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428152500 +0800" stop="20250428162000 +0800" channel="history_hd">
     <title lang="en">History's Greatest Of All Time With Peyton Manning (S1)</title>
     <desc lang="en">From GI Joe to the Slinky, host Peyton Manning counts down the top ten toys of all time, as voted by a panel of experts. Which one of your childhood favourites will be crowned the best of the best?</desc>
+  </programme>
+  <programme start="20250428162000 +0800" stop="20250428172000 +0800" channel="history_hd">
+    <title lang="en">Pawn Stars (S24)</title>
+    <desc lang="en">Things get scary when a seller comes in with a letter from Stephen King. Will all work and no play make Corey a dull boy? Then, Chum gets a sweet lesson when he checks out signed Steve Aoki merchandise.</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -6524,10 +6532,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427161000 +0800" stop="20250427162000 +0800" channel="nickjr">
-    <title lang="en">Poots and Vegetables</title>
-    <desc lang="en">Max tries to find something that Sharkdog will eat that isn't fish.</desc>
-  </programme>
   <programme start="20250427162000 +0800" stop="20250427162500 +0800" channel="nickjr">
     <title lang="en">Return of the Nightwalker</title>
     <desc lang="en">Sharkdog and Mia team up in an unlikely pairing to stop Max from sleepwalking right into the ocean!</desc>
@@ -6915,6 +6919,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428161000 +0800" stop="20250428162000 +0800" channel="nickjr">
     <title lang="en">Sharkdog Sitting</title>
     <desc lang="en">While Max is out Olivia babysits Sharkdog but she just can't keep him inside.</desc>
+  </programme>
+  <programme start="20250428162000 +0800" stop="20250428162500 +0800" channel="nickjr">
+    <title lang="en">Fish Fiesta Freakout</title>
+    <desc lang="en">Everyone's excited for the Foggy Springs carnival, but it's getting more and more difficult to keep Sharkdog a secret.</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -7600,6 +7608,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">American Ninja Warrior (Season 13)</title>
     <desc lang="en">The national finals conclude in Las Vegas as the remaining competitors move on to Stage 2 and beyond for their chance to win $1 million and become the next American Ninja Warrior.</desc>
   </programme>
+  <programme start="20250428161500 +0800" stop="20250428171000 +0800" channel="axn">
+    <title lang="en">Rookie Blue (Season 5)</title>
+    <desc lang="en">In the aftermath of the night's traumatic events, Andy and Dov try to pull themselves together at an all-night diner, but are caught off-duty and off-guard in a volatile diner hold-up.</desc>
+  </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -7944,14 +7956,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The Equalizer 2</title>
     <desc lang="en">The Equalizer 2</desc>
   </programme>
+  <programme start="20250428162000 +0800" stop="20250428182000 +0800" channel="tapactionflix_hd">
+    <title lang="en">Safe House</title>
+    <desc lang="en">Safe House</desc>
+  </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427161400 +0800" stop="20250427161500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250427161500 +0800" stop="20250427162100 +0800" channel="france24">
     <title lang="en">The Observers</title>
     <desc lang="en">The Observers on France 24 is a weekly show produced with photos, videos and personal accounts from Observers around the world. Top international current affairs are covered by using eyewitness accounts from Observers- people who are at the heart of an event. They send their photos and videos, which are verified and contextualized by France 24 team of professional journalists in Paris. </desc>
@@ -9078,10 +9090,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427160000 +0800" stop="20250427162000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 10 Filipino</title>
-    <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
-  </programme>
   <programme start="20250427162000 +0800" stop="20250427164000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Math</title>
     <desc lang="en">These episodes explain the key concepts of measures of position.</desc>
@@ -9285,6 +9293,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428160000 +0800" stop="20250428162000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Filipino</title>
     <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
+  </programme>
+  <programme start="20250428162000 +0800" stop="20250428164000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 10 Math</title>
+    <desc lang="en">These episodes explain the key concepts of measures of position.</desc>
   </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
@@ -9713,6 +9725,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428155000 +0800" stop="20250428161500 +0800" channel="nickelodeon">
     <title lang="en">The Loud House</title>
     <desc lang="en">Everyone in the family has been working hard to save up for a family vacation. But while road tripping to their destination, everything that can go for the family wrong does.</desc>
+  </programme>
+  <programme start="20250428161500 +0800" stop="20250428164000 +0800" channel="nickelodeon">
+    <title lang="en">The Casagrandes</title>
+    <desc lang="en">Ronnie Anne tries to convince her Dad to move to the city while he is visiting. With the help of Sid, she devices a plan that seems too good to fail.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

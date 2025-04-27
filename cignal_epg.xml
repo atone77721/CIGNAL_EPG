@@ -680,14 +680,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427085500 +0800" stop="20250427090600 +0800" channel="cg_hbofam">
-    <title lang="en">Bunnicula S2</title>
-    <desc lang="en">Bunnicula S2</desc>
-  </programme>
-  <programme start="20250427090600 +0800" stop="20250427091700 +0800" channel="cg_hbofam">
-    <title lang="en">Bunnicula S2</title>
-    <desc lang="en">Bunnicula S2</desc>
-  </programme>
   <programme start="20250427091700 +0800" stop="20250427092800 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S2</title>
     <desc lang="en">Bunnicula S2</desc>
@@ -852,6 +844,14 @@
     <title lang="en">Bunnicula S2</title>
     <desc lang="en">Bunnicula S2</desc>
   </programme>
+  <programme start="20250428090400 +0800" stop="20250428092000 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S2</title>
+    <desc lang="en">Bunnicula S2</desc>
+  </programme>
+  <programme start="20250428092000 +0800" stop="20250428095000 +0800" channel="cg_hbofam">
+    <title lang="en">Sesame Street S54</title>
+    <desc lang="en">Sesame Street S54</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1008,10 +1008,6 @@
     <display-name lang="en">cg_hbosign</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427074500 +0800" stop="20250427092500 +0800" channel="cg_hbosign">
-    <title lang="en">Ice On Fire</title>
-    <desc lang="en">This documentary highlights the effects of excess carbon on the Earth, and how some humans are innovating cutting-edge efforts to mitigate climate change.</desc>
-  </programme>
   <programme start="20250427092500 +0800" stop="20250427112000 +0800" channel="cg_hbosign">
     <title lang="en">Confirmation</title>
     <desc lang="en">An HBO Original movie about the hearings of a District of Columbia judge, whose nomination came under fire when a former employee accused him of sexual harassment.</desc>
@@ -1072,10 +1068,6 @@
     <display-name lang="en">cg_hbohits</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427072000 +0800" stop="20250427092500 +0800" channel="cg_hbohits">
-    <title lang="en">Jurassic Park</title>
-    <desc lang="en">Steven Spielberg's masterpiece follows a team of scientists on an island to witness real dinosaurs in a park, only to see everything go wrong when a storm hits.</desc>
-  </programme>
   <programme start="20250427092500 +0800" stop="20250427114000 +0800" channel="cg_hbohits">
     <title lang="en">The Fate Of The Furious</title>
     <desc lang="en">The eighth instalment of the action movie franchise brings the crew back together to stop an anarchist from unleashing chaos on the world’s stage.</desc>
@@ -1136,10 +1128,6 @@
     <display-name lang="en">cg_tvnmovie</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427072000 +0800" stop="20250427092500 +0800" channel="cg_tvnmovie">
-    <title lang="en">The Exclusive: Beat The Devil's Tattoo</title>
-    <desc lang="en">When a journalist discovers that his exclusive story on a serial killer was based on false information, he fabricates more lies to cover his mistake.</desc>
-  </programme>
   <programme start="20250427092500 +0800" stop="20250427112500 +0800" channel="cg_tvnmovie">
     <title lang="en">Train To Busan</title>
     <desc lang="en">While a zombie-virus breaks out in South Korea, passengers including a father and young daughter, a couple, and several students struggle to survive on the train from Seoul to Busan.</desc>
@@ -1196,10 +1184,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427085500 +0800" stop="20250427092000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Spirit Riding Free</title>
-    <desc lang="en">When a sudden blizzard hits Miradero, Lucky and Maricela must work together to save the town.</desc>
-  </programme>
   <programme start="20250427092000 +0800" stop="20250427094500 +0800" channel="cg_dreamworktag">
     <title lang="en">	 Abominable and The Invisible City</title>
     <desc lang="en">Already stretched thin between responsibilities, Yi discovers one of Morty’s babies still in her building. She attempts to juggle her various responsibilities dumpling shop work, violin, magical creature childcare!), but it’s too much and she accidentally “loses” Mini-Morty. She’s going to need help from Jin and Peng to find Mini-Morty and return the baby creature to her mother.</desc>
@@ -1436,6 +1420,10 @@
     <title lang="en">Trolls: The Beat Goes On!</title>
     <desc lang="en">When Peppy invites Branch to go on a Swag Stag hunt, Branch is nervous and invents a tall tale that he must keep up with/DJ Suki confesses that she's nervous to throw a party so Poppy suggests she join the Party Crash Course</desc>
   </programme>
+  <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">Kelp and his underwater friends race around an obstacle course, but Cruz gets sucked into a whirlpool. As each of them try to rescue him, they are sucked in! Kelp saves them all using his unicorn spark to create bubbles he attaches to seaweed. / Kelp helps his unicorn friends create music with their horns and pieces of nature. Ollie is embarrassed by the sound of his horn.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1515,6 +1503,10 @@
   <programme start="20250428082500 +0800" stop="20250428092000 +0800" channel="cg_tvnpre">
     <title lang="en">Walking Through The Village</title>
     <desc lang="en">Actor Gu Bon-seung shows the warmth and purity of life in the village along the river, and presents how new history was made and became one’s memory.</desc>
+  </programme>
+  <programme start="20250428092000 +0800" stop="20250428110000 +0800" channel="cg_tvnpre">
+    <title lang="en">The Genius Paik</title>
+    <desc lang="en">Will Paik Jong-won be able to successfully run a restaurant overseas? With the help of Lee Jang-woo, BamBam, Yuri and John Park, he will start his business in the barren land of K-food – Africa and Italy.</desc>
   </programme>
   <channel id="cg_tagalogmovie">
     <display-name lang="en">cg_tagalogmovie</display-name>
@@ -2087,10 +2079,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427084500 +0800" stop="20250427091500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Tiny Toons Looniversity</title>
-    <desc lang="en">It’s the first day at Acme Looniversity, where we find Babs and Buster Bunny as they meet new friends- tough gal Sweetie Bird, kind Hamton J. Pig, and narcissist Plucky Duck who are all kicking off their dreams to become professional toons.</desc>
-  </programme>
   <programme start="20250427091500 +0800" stop="20250427094500 +0800" channel="cartoon_net_hd">
     <title lang="en">We Baby Bears</title>
     <desc lang="en">When Squatter Otter finds his new RV destroyed, each bear tells their own version of what happened.</desc>
@@ -2262,6 +2250,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428084500 +0800" stop="20250428091500 +0800" channel="cartoon_net_hd">
     <title lang="en">Unikitty</title>
     <desc lang="en">After their spaceship explodes, Unikitty and the gang float helplessly through space.</desc>
+  </programme>
+  <programme start="20250428091500 +0800" stop="20250428101500 +0800" channel="cartoon_net_hd">
+    <title lang="en">The Tom And Jerry Show</title>
+    <desc lang="en">Hildie's received another dozen roses from her admirer.</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -2543,10 +2535,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427085500 +0800" stop="20250427092000 +0800" channel="dreamworks_hd">
-    <title lang="en">Spirit Riding Free</title>
-    <desc lang="en">When a sudden blizzard hits Miradero, Lucky and Maricela must work together to save the town.</desc>
-  </programme>
   <programme start="20250427092000 +0800" stop="20250427094500 +0800" channel="dreamworks_hd">
     <title lang="en">	 Abominable and The Invisible City</title>
     <desc lang="en">Already stretched thin between responsibilities, Yi discovers one of Morty’s babies still in her building. She attempts to juggle her various responsibilities dumpling shop work, violin, magical creature childcare!), but it’s too much and she accidentally “loses” Mini-Morty. She’s going to need help from Jin and Peng to find Mini-Morty and return the baby creature to her mother.</desc>
@@ -2783,6 +2771,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Trolls: The Beat Goes On!</title>
     <desc lang="en">When Peppy invites Branch to go on a Swag Stag hunt, Branch is nervous and invents a tall tale that he must keep up with/DJ Suki confesses that she's nervous to throw a party so Poppy suggests she join the Party Crash Course</desc>
   </programme>
+  <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="dreamworks_hd">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">Kelp and his underwater friends race around an obstacle course, but Cruz gets sucked into a whirlpool. As each of them try to rescue him, they are sucked in! Kelp saves them all using his unicorn spark to create bubbles he attaches to seaweed. / Kelp helps his unicorn friends create music with their horns and pieces of nature. Ollie is embarrassed by the sound of his horn.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://www.cignalplay.com</url>
@@ -2900,6 +2892,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <desc lang="en">Nigel visits Mosquitia, Central America's equivalent to the Amazon rainforest,with President of Honduras, Juan Orlando Hernandez.</desc>
   </programme>
   <programme start="20250428085000 +0800" stop="20250428091700 +0800" channel="animal_planet">
+    <title lang="en">Super Animals (S1)</title>
+    <desc lang="en">Super animals reveals the fantastic and amazing creatures that inhabit our planet.</desc>
+  </programme>
+  <programme start="20250428091700 +0800" stop="20250428094500 +0800" channel="animal_planet">
     <title lang="en">Super Animals (S1)</title>
     <desc lang="en">Super animals reveals the fantastic and amazing creatures that inhabit our planet.</desc>
   </programme>
@@ -3339,10 +3335,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">SPOTV_HD2</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250427010000 +0800" stop="20250427091000 +0800" channel="SPOTV_HD2">
-    <title lang="en">2025 Augusta Masters</title>
-    <desc lang="en">First held in 1960, tournament participants and non-competing past champions contest a short, separate nine-hole layout in this part competition, part stress relief on the eve of the Masters.</desc>
-  </programme>
   <programme start="20250427091000 +0800" stop="20250427120000 +0800" channel="SPOTV_HD2">
     <title lang="en">MLB 2025: Regular season</title>
     <desc lang="en">Major League Baseball is the most historic professional sports league consists of 30 member clubs in the U.S. and Canada, representing the highest level of professional baseball.</desc>
@@ -3411,10 +3403,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">rock_entertainment</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427074000 +0800" stop="20250427091500 +0800" channel="rock_entertainment">
-    <title lang="en">Peter Rabbit</title>
-    <desc lang="en">Peter Rabbit, the mischievous and adventurous hero who has captivated generations of readers, now takes on the starring role of his own cute, contemporary comedy with attitude.</desc>
-  </programme>
   <programme start="20250427091500 +0800" stop="20250427104500 +0800" channel="rock_entertainment">
     <title lang="en">Chosen Family</title>
     <desc lang="en">Ann (Heather Graham) is a yoga teacher struggling to achieve inner peace despite the fact her family is driving her crazy and her dating life is miserable.</desc>
@@ -3819,10 +3807,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">arirang</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427090000 +0800" stop="20250427092000 +0800" channel="arirang">
-    <title lang="en">Arirang Creative Lab B</title>
-    <desc lang="en">Arirang Creative Lab B</desc>
-  </programme>
   <programme start="20250427092000 +0800" stop="20250427093000 +0800" channel="arirang">
     <title lang="en">Exploring Korean Literature B</title>
     <desc lang="en">Exploring Korean Literature B</desc>
@@ -4159,6 +4143,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">My Only One</title>
     <desc lang="en">A woman's life gets twisted one day because of her biological father who shows up after 28 years of absence. He had been thoroughly hiding his identity, afraid that he might be an obstacle in his daughter's life. The father and daughter meet the "only ones" in their lives and put back together the pieces of their broken hearts.</desc>
   </programme>
+  <programme start="20250428092500 +0800" stop="20250428100000 +0800" channel="kbs_world">
+    <title lang="en">My Only One</title>
+    <desc lang="en">A woman's life gets twisted one day because of her biological father who shows up after 28 years of absence. He had been thoroughly hiding his identity, afraid that he might be an obstacle in his daughter's life. The father and daughter meet the "only ones" in their lives and put back together the pieces of their broken hearts.</desc>
+  </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4255,10 +4243,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">kix_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427075000 +0800" stop="20250427091000 +0800" channel="kix_hd">
-    <title lang="en">The Mask of Shura of Fire Cloud</title>
-    <desc lang="en">18 years ago, the evil Black Feather clan infiltrated the territory of Master Fire Cloud and stole The Mask of Shura, thus releasing an evil spirit that was a baby. Master Fire Cloud adopted the baby to prevent him from becoming evil. When the baby grows up, he takes control of the mask and becomes Fire Cloud’s successor as the city’s guard.</desc>
-  </programme>
   <programme start="20250427091000 +0800" stop="20250427105000 +0800" channel="kix_hd">
     <title lang="en">Iron Squad 2</title>
     <desc lang="en">The new season of this Korean military survival show brings eight Special Force units together to compete in extreme missions that will test their physical stamina, mental strength and teamwork. Top male reservists form teams of four to compete against one another. Witness how they battle till the end in front of five celebrity hosts!</desc>
@@ -4326,6 +4310,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428071500 +0800" stop="20250428092500 +0800" channel="kix_hd">
     <title lang="en">The Fishermen and the Sea S3</title>
     <desc lang="en">The new season of this Korean fishing variety show, hosted by two celebrity hosts who are fishing enthusiasts, sets sail with celebrity guests such as K-Pop idols Lee Know (Straykids), Yuno (Ateez), and Ha Sung Woon (Wanna One). The programme features some beautiful fishing spots around Korea and shares useful fishing tips with the viewers.</desc>
+  </programme>
+  <programme start="20250428092500 +0800" stop="20250428110000 +0800" channel="kix_hd">
+    <title lang="en">Iron Squad 2</title>
+    <desc lang="en">The new season of this Korean military survival show brings eight Special Force units together to compete in extreme missions that will test their physical stamina, mental strength and teamwork. Top male reservists form teams of four to compete against one another. Witness how they battle till the end in front of five celebrity hosts!</desc>
   </programme>
   <channel id="lifetime">
     <display-name lang="en">lifetime</display-name>
@@ -4410,6 +4398,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428080500 +0800" stop="20250428091000 +0800" channel="lifetime">
     <title lang="en">MasterChef Australia (S15)</title>
     <desc lang="en">The Top 3 arrive to find the kitchen set up for a cook-along. Today’s challenge represents the gateway to the Semi Final, with a sizeable advantage up for grabs.</desc>
+  </programme>
+  <programme start="20250428091000 +0800" stop="20250428094500 +0800" channel="lifetime">
+    <title lang="en">Deliciously Twisted Classics</title>
+    <desc lang="en">Chefs spoon up their favourite twists on scrumptious soups in these twisted takes on soup staples. These delicious twists will make you rethink your favorite soup classics.</desc>
   </programme>
   <channel id="bbcworld_news">
     <display-name lang="en">bbcworld_news</display-name>
@@ -4515,10 +4507,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427083000 +0800" stop="20250427092000 +0800" channel="hgtv_hd">
-    <title lang="en">Inside Out (S1)</title>
-    <desc lang="en">Mike and Carmine take a little inspiration from nature and convert a family's home into a California Craftsman with an organic edge.</desc>
-  </programme>
   <programme start="20250427092000 +0800" stop="20250427101000 +0800" channel="hgtv_hd">
     <title lang="en">Help! I Wrecked My House (S3)</title>
     <desc lang="en">Indecision has a family stuck in a house with half-done projects. Jasmine finds the perfect way to create a finished home with a timeless look.</desc>
@@ -4659,6 +4647,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">House Hunters International (S8)</title>
     <desc lang="en">Two Chicago lawyers are not swayed by the ups and down of renovating their first home.</desc>
   </programme>
+  <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="hgtv_hd">
+    <title lang="en">My Lottery Dream Home (S14)</title>
+    <desc lang="en">David helps a young couple find a first home they can renovate after a big win in Rochester, New York.</desc>
+  </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4711,10 +4703,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">travel_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427084800 +0800" stop="20250427091200 +0800" channel="travel_channel">
-    <title lang="en">Border Control: Spain (S4)</title>
-    <desc lang="en">In Madrid's main airport, Madrid-Barajas,5,000 security cameras help agents maintain security. Follow state security forces to discovery how they monitor Spain's borders.</desc>
-  </programme>
   <programme start="20250427091200 +0800" stop="20250427100000 +0800" channel="travel_channel">
     <title lang="en">Mountain Monsters (S3)</title>
     <desc lang="en">The AIMS team learns that a mysterious creature known as the Black Wolf roams the Dark Forest.</desc>
@@ -4838,6 +4826,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428082400 +0800" stop="20250428091200 +0800" channel="travel_channel">
     <title lang="en">Hotel Impossible: Top Ten Epic Showdowns</title>
     <desc lang="en">Anthony counts down ten Epic Showdowns from Hotel Impossible.</desc>
+  </programme>
+  <programme start="20250428091200 +0800" stop="20250428093600 +0800" channel="travel_channel">
+    <title lang="en">Trip Flip (S2)</title>
+    <desc lang="en">Bert Kreischer brings two friends on an all expenses paid trip to the Windy City.</desc>
   </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
@@ -5287,10 +5279,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427084800 +0800" stop="20250427091200 +0800" channel="foodnetwork_hd">
-    <title lang="en">Ayesha's Home Kitchen (S2)</title>
-    <desc lang="en">Ayesha hosts a girls' night and serves breakfast for dinner with a party spread that includes a Frozen Mint Mocha Frappe Cocktail.</desc>
-  </programme>
   <programme start="20250427091200 +0800" stop="20250427100000 +0800" channel="foodnetwork_hd">
     <title lang="en">Bobby's Triple Threat (S2)</title>
     <desc lang="en">Costa Rican chef Byron Gomez hopes his trailblazing flavours and Michelin training will help him take the bag of $25,000 from Bobby Flay's Titans.</desc>
@@ -5438,6 +5426,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428073600 +0800" stop="20250428091200 +0800" channel="foodnetwork_hd">
     <title lang="en">Tournament Of Champions (S4)</title>
     <desc lang="en">Guy Fieri matches up eight culinary powerhouses for the final round of jaw-dropping sudden death battles. Four will move on to the round of 16.</desc>
+  </programme>
+  <programme start="20250428091200 +0800" stop="20250428100000 +0800" channel="foodnetwork_hd">
+    <title lang="en">Restaurant: Impossible (S17)</title>
+    <desc lang="en">Robert arrives at New Orleans to find a restaurant full of history but in need of his help. The livelihood of two families depends on its success.</desc>
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
@@ -6101,10 +6093,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">nhk_japan</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427090000 +0800" stop="20250427091000 +0800" channel="nhk_japan">
-    <title lang="en">NHK NEWSLINE</title>
-    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
-  </programme>
   <programme start="20250427091000 +0800" stop="20250427100000 +0800" channel="nhk_japan">
     <title lang="en">Ukraine's Women Soldiers</title>
     <desc lang="en">The number of women in the Ukrainian military has soared since the start of the Russian invasion. We follow these soldiers as they face the enemy and their own growing sense of despair.</desc>
@@ -6421,6 +6409,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">NHK NEWSLINE</title>
     <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
   </programme>
+  <programme start="20250428091000 +0800" stop="20250428091500 +0800" channel="nhk_japan">
+    <title lang="en">Chatroom Japan</title>
+    <desc lang="en">The number of traditional Japanese carpenters is dwindling, but American Jon Stollenmeyer is helping to keep their style of architecture alive.</desc>
+  </programme>
+  <programme start="20250428091500 +0800" stop="20250428093000 +0800" channel="nhk_japan">
+    <title lang="en">Direct Talk</title>
+    <desc lang="en">In 2024, Miyakoshi Akiko won a New York Times' Best Illustrated Children's Book Award. We see how she creates art, using charcoal and watercolors. And we discover the inspiration behind her work.</desc>
+  </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
     <url>http://www.cignalplay.com</url>
@@ -6665,10 +6661,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427090000 +0800" stop="20250427092500 +0800" channel="nickjr">
-    <title lang="en">The Alebrije Adventure / Let's Get A Paleta</title>
-    <desc lang="en">Ale the Alebrije asks Dora for her help! The Alebrije tree is wilting, so it's up to Dora to find its rainbow water. // On a super hot day, everyone wants paleta, but Val's paleta truck is stuck! Dora goes to rescue her and get paletas for everyone.</desc>
-  </programme>
   <programme start="20250427092500 +0800" stop="20250427094500 +0800" channel="nickjr">
     <title lang="en">Blazing Amazing Stories</title>
     <desc lang="en">Blaze and AJ are babysitting for Baby Gherkin! When it's time for her nap, they tell her three epic bedtime stories about police, cowboys, and superheroes - all starring Blaze and his friends!</desc>
@@ -7049,14 +7041,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Big Red Chicken Wake Up! / The Mystery Gift</title>
     <desc lang="en">Dora and Boots have to wake up the Big Red Chicken before he floats over a waterfall! // Dora and friends must solve a series of questions and challenges to open a mysterious gift.</desc>
   </programme>
+  <programme start="20250428092500 +0800" stop="20250428094500 +0800" channel="nickjr">
+    <title lang="en">Big Rig Blaze</title>
+    <desc lang="en">When a windstorm blows away the supplies for Stripes' Animal Party, Blaze transforms into the one Monster Machine strong enough to haul it all back - a Big Rig! There's nothing he can't pull with that Big Rig Force!</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427083000 +0800" stop="20250427092000 +0800" channel="warnertv_hd">
-    <title lang="en">Arrow S2 6</title>
-    <desc lang="en">While Oliver tends to the Canary's wounds, he tries to get her to talk.  But when they're both attacked by the League of Assassins, she confesses that she's connected.</desc>
-  </programme>
   <programme start="20250427092000 +0800" stop="20250427101000 +0800" channel="warnertv_hd">
     <title lang="en">Arrow S2 7</title>
     <desc lang="en">Diggle heads to Russia to follow a lead on Deadshot (MICHAEL ROWE) in Moscow.  When Oliver and Felicity decide to join him, things get complicated when Isabel shows up as well.</desc>
@@ -7216,6 +7208,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428083000 +0800" stop="20250428092000 +0800" channel="warnertv_hd">
     <title lang="en">Arrow S2 8</title>
     <desc lang="en">With a mysterious Vertigo-related illness sweeping the city (and both Diggle and Felicity in danger) Oliver must choose between stopping the Count or standing by his family.</desc>
+  </programme>
+  <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="warnertv_hd">
+    <title lang="en">Hack My Life S2 13</title>
+    <desc lang="en">Brooke and Kevin reveal the ultimate hands-free mower and find hacks for removing carpet stains. Plus, they'll hack a chandelier and learn from pros with Becky's Beauty Hacks and Broke Ass Bob's guide to owning a dog.</desc>
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
@@ -7621,10 +7617,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">axn</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427082000 +0800" stop="20250427091500 +0800" channel="axn">
-    <title lang="en">Sight Unseen (Season 1)</title>
-    <desc lang="en">Jake (Daniel Gillies) encourages Tess (Dolly Lewis) to talk to Superintendent Bennett (Roger Cross) about getting her old job back, but her hopes are cut short by his disappointing offer to join the Metro PD only to ride a desk.</desc>
-  </programme>
   <programme start="20250427091500 +0800" stop="20250427101000 +0800" channel="axn">
     <title lang="en">Elsbeth (Season 2)</title>
     <desc lang="en">Elsbeth and the team retrace Mac's steps to find the truth. </desc>
@@ -8073,10 +8065,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427090000 +0800" stop="20250427091500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250427091500 +0800" stop="20250427093000 +0800" channel="france24">
     <title lang="en">Guest of the day</title>
     <desc lang="en">Guest of the day.</desc>
@@ -8568,6 +8556,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428090000 +0800" stop="20250428091500 +0800" channel="france24">
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250428091500 +0800" stop="20250428092100 +0800" channel="france24">
+    <title lang="en">Business</title>
+    <desc lang="en">Business on France 24 gives you a perfect chance to get the business updates as they come and to be up to speed on international finances and economics. Business keeps you posted on everything that really matters in our fast moving world.</desc>
+  </programme>
+  <programme start="20250428092100 +0800" stop="20250428093000 +0800" channel="france24">
+    <title lang="en">In the Press</title>
+    <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
@@ -9283,10 +9279,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427090000 +0800" stop="20250427092000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 2 Araling Panlipunan</title>
-    <desc lang="en">Sa mga palabas na ito tatalakayin ang pagpapahalaga sa kagalingang pansibiko bilang pakikibahagi sa mga layunin ng sariling komunidad.</desc>
-  </programme>
   <programme start="20250427092000 +0800" stop="20250427094000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 3 Filipino</title>
     <desc lang="en">Sa mga palabas na ito tinatalakay ang tungkol sa mga pangngalan, panghalip, at iba't ibang elemento ng kuwento. Ipapaliwanag din dito ang pagsusulat ng mga kuwento at pagbibigay ng kahulugan ng mga salita.</desc>
@@ -9491,18 +9483,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Grade 2 Araling Panlipunan</title>
     <desc lang="en">Sa mga palabas na ito tatalakayin ang pagpapahalaga sa kagalingang pansibiko bilang pakikibahagi sa mga layunin ng sariling komunidad.</desc>
   </programme>
+  <programme start="20250428092000 +0800" stop="20250428094000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 3 Filipino</title>
+    <desc lang="en">Sa mga palabas na ito tinatalakay ang tungkol sa mga pangngalan, panghalip, at iba't ibang elemento ng kuwento. Ipapaliwanag din dito ang pagsusulat ng mga kuwento at pagbibigay ng kahulugan ng mga salita.</desc>
+  </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427085700 +0800" stop="20250427091600 +0800" channel="tv5_monde">
-    <title lang="en">64' Le Monde En Français - 2E Partie</title>
-    <desc lang="en">International current affairs as seen by the French-speaking world.</desc>
-  </programme>
-  <programme start="20250427091600 +0800" stop="20250427092500 +0800" channel="tv5_monde">
-    <title lang="en">L'Invité</title>
-    <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
-  </programme>
   <programme start="20250427092500 +0800" stop="20250427093000 +0800" channel="tv5_monde">
     <title lang="en">64' L'Essentiel</title>
     <desc lang="en">The whole world, in French.</desc>
@@ -9679,14 +9667,18 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">64' Le Monde En Français - 2E Partie</title>
     <desc lang="en">International current affairs as seen by the French-speaking world.</desc>
   </programme>
+  <programme start="20250428091600 +0800" stop="20250428092500 +0800" channel="tv5_monde">
+    <title lang="en">L'Invité</title>
+    <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
+  </programme>
+  <programme start="20250428092500 +0800" stop="20250428093100 +0800" channel="tv5_monde">
+    <title lang="en">64' L'Essentiel</title>
+    <desc lang="en">The whole world, in French.</desc>
+  </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427085500 +0800" stop="20250427091500 +0800" channel="nickelodeon">
-    <title lang="en">SpongeBob SquarePants</title>
-    <desc lang="en">Mrs. Puff's new substitute teacher gives SpongeBob a crash course in driving. // Mr. Krabs and Plankton must work together after discovering a well of miracle-grease under their restaurants.</desc>
-  </programme>
   <programme start="20250427091500 +0800" stop="20250427094000 +0800" channel="nickelodeon">
     <title lang="en">The Patrick Star Show</title>
     <desc lang="en">Patrick and SpongeBob work at the movie theater to watch a new premiere. // With Sandy's guidance, Patrick hosts a science show.</desc>
@@ -9942,6 +9934,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250428085500 +0800" stop="20250428092000 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">The gang heads to a food convention, but things go awry when they become stranded in the woods. // SpongeBob accidentally fibs to his pen pal, but when his friend comes to visit, he must keep the ruse going!</desc>
+  </programme>
+  <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="nickelodeon">
+    <title lang="en">SpongeBob SquarePants</title>
+    <desc lang="en">When SpongeBob hides the secret formula in his home, it’s up to Gary to protect it from Plankton. // When a freak accident causes everyone in town to become as stupid as Patrick, Sandy must save the day.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

@@ -1216,6 +1216,10 @@
     <title lang="en">Forbidden Dream</title>
     <desc lang="en">Two Korean inventors develop a 20-year relationship while advancing the field of astronomy.</desc>
   </programme>
+  <programme start="20250429001500 +0800" stop="20250429020500 +0800" channel="cg_tvnmovie">
+    <title lang="en">The Roundup: Punishment</title>
+    <desc lang="en">Ma Seok-Do investigates a drug-trafficking app, uncovers a link to an illegal organization. As Baek Chang-Gi terrorizes the gambling market, an alliance is formed to stop the threat.</desc>
+  </programme>
   <channel id="cg_dreamworktag">
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
@@ -3704,6 +3708,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The Competition</title>
     <desc lang="en">Mauldin (Thora Birch) is a strong-willed but misguided young woman who encourages her millions of blog followers to apply her scientific formula to all relationships in order to prevent heartache.</desc>
   </programme>
+  <programme start="20250429001500 +0800" stop="20250429010000 +0800" channel="rock_entertainment">
+    <title lang="en">The Tonight Show Starring Jimmy Fallon S12</title>
+    <desc lang="en">Emmy and Grammy Award-winning comedian Jimmy Fallon brings his unique high-energy comedy to the storied 60-year NBC franchise with his welcoming interview style, love of audience participation, spot-on impersonations and innovative sketches.</desc>
+  </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
     <url>http://www.cignalplay.com</url>
@@ -3972,10 +3980,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">pbarush_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427221500 +0800" stop="20250428001500 +0800" channel="pbarush_hd">
-    <title lang="en">Rain or Shine vs Meralco Game 20 49th PBA Philippine Cup April 27 QTA</title>
-    <desc lang="en">Rain or Shine vs Meralco Game 20 49th PBA Philippine Cup April 27 QTA</desc>
-  </programme>
   <programme start="20250428001500 +0800" stop="20250428021500 +0800" channel="pbarush_hd">
     <title lang="en">TNT vs Converge Game 21 49th PBA Philippine Cup April 27 QTA</title>
     <desc lang="en">TNT vs Converge Game 21 49th PBA Philippine Cup April 27 QTA</desc>
@@ -4044,10 +4048,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">arirang</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428000000 +0800" stop="20250428001500 +0800" channel="arirang">
-    <title lang="en">1Day 1K-Culture: K-Trend</title>
-    <desc lang="en">1Day 1K-Culture: K-Trend</desc>
-  </programme>
   <programme start="20250428001500 +0800" stop="20250428003000 +0800" channel="arirang">
     <title lang="en">1Day 1K-Culture: K-People</title>
     <desc lang="en">1Day 1K-Culture: K-People</desc>
@@ -6328,10 +6328,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">viva</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250427221500 +0800" stop="20250428001500 +0800" channel="viva">
-    <title lang="en">Una Kang Naging Akin</title>
-    <desc lang="en">Is there any way for Gabby to regain his other "memory" and remember the family he left behind?</desc>
-  </programme>
   <programme start="20250428001500 +0800" stop="20250428020000 +0800" channel="viva">
     <title lang="en">Pilya</title>
     <desc lang="en">Ditas has the body of a full-grown adult but her sense is that of a child. Although she exists in an environment where vulgarity is deemed normal, she maintains her wide-eyed innocence.</desc>
@@ -8538,10 +8534,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428000000 +0800" stop="20250428001500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250428001500 +0800" stop="20250428003000 +0800" channel="france24">
     <title lang="en">Access Asia</title>
     <desc lang="en">Access Asia opens the diverse continent and presents news from its segments to the audience. Get the latest updates on the social events and political stories, thorough analysis of the cutting-edge current affairs from India, China, Indonesia, Australia and other countries. </desc>
@@ -9153,6 +9145,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429000000 +0800" stop="20250429001500 +0800" channel="abc_australia">
     <title lang="en">ABC Late News - Episode 84</title>
     <desc lang="en">Follow the latest on today's news, covering what's happening and why it matters. ABC News has reporters across Australia and around the globe to bring you the news you need to know. Presented by Michael Tetlow in Perth.</desc>
+  </programme>
+  <programme start="20250429001500 +0800" stop="20250429003000 +0800" channel="abc_australia">
+    <title lang="en">The Business - Episode 53</title>
+    <desc lang="en">Australia's leading daily business and finance show, bringing you up to date on market moves, economic trends and the forces affecting consumers, employees and business owners big and small. Presented by Kirsten Aiken.</desc>
   </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>

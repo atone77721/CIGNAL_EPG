@@ -1200,10 +1200,6 @@
     <display-name lang="en">cg_tvnmovie</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428220000 +0800" stop="20250429001500 +0800" channel="cg_tvnmovie">
-    <title lang="en">Forbidden Dream</title>
-    <desc lang="en">Two Korean inventors develop a 20-year relationship while advancing the field of astronomy.</desc>
-  </programme>
   <programme start="20250429001500 +0800" stop="20250429020500 +0800" channel="cg_tvnmovie">
     <title lang="en">The Roundup: Punishment</title>
     <desc lang="en">Ma Seok-Do investigates a drug-trafficking app, uncovers a link to an illegal organization. As Baek Chang-Gi terrorizes the gambling market, an alliance is formed to stop the threat.</desc>
@@ -1264,10 +1260,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428235500 +0800" stop="20250429002000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">Snotlout is concerned when his dragon’s flame goes out and the kids have to figure out how to reignite it before it’s too late.</desc>
-  </programme>
   <programme start="20250429002000 +0800" stop="20250429004500 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Once every 10 years, a mysterious glowing dragon visits Berk and this year Hiccup and Astrid are determined to find out where it's coming from – and stop it from reaching the village.</desc>
@@ -1504,14 +1496,14 @@
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">When different species of dragons are found on Dragon Island, the kids suspect that the Screaming Death might be back and it's up to an unlikely hero to save the day.</desc>
   </programme>
+  <programme start="20250430002000 +0800" stop="20250430004500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">While searching for traps, Tuffnut, Barf and Belch get trapped themselves… and a forest fire is approaching.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428222000 +0800" stop="20250429002000 +0800" channel="cg_tvnpre">
-    <title lang="en">Express Delivery: Mongolia Edition</title>
-    <desc lang="en">“Let’s deliver parcels while riding horses!” The “Dragon Zodiac Club” members become delivery men in Mongolia, globe-trotting to deliver parcels from the world only to keep their word!</desc>
-  </programme>
   <programme start="20250429002000 +0800" stop="20250429020000 +0800" channel="cg_tvnpre">
     <title lang="en">Handsome Guys</title>
     <desc lang="en">The cast travels across South Korea, discovering unique culture, nature, magical places, and fascinating people. Each episode features different guests, joining in the joyful journey.</desc>
@@ -1636,10 +1628,6 @@
     <display-name lang="en">globaltrekker</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428233000 +0800" stop="20250429002000 +0800" channel="globaltrekker">
-    <title lang="en">The Secret Life Of Owls</title>
-    <desc lang="en">This stunning series uncovers 'The Secret Life Of Owls' as never seen before, using a special camera rig to follow families of owls in a wild corner of rural Essex, through winter, spring and summer.</desc>
-  </programme>
   <programme start="20250429002000 +0800" stop="20250429011500 +0800" channel="globaltrekker">
     <title lang="en">The Lost Tapes S2</title>
     <desc lang="en">Rediscover the Tet Offensive: two months of battles that killed more than 15,000 American and Allied troops, and triggered anti-war protests across the U.S. Explore reports, images, and combat footage, much of which hasn’t been seen since 1968.</desc>
@@ -1767,6 +1755,10 @@
   <programme start="20250429232500 +0800" stop="20250430002000 +0800" channel="globaltrekker">
     <title lang="en">The Lost Tapes S2</title>
     <desc lang="en">Experience a chronological recounting of the Apollo 13 near-disaster, one of NASA’s most devastating—and finest—moments. Witness the events of April 1970 as they unfolded through news footage, mission control audio, and NASA archives.</desc>
+  </programme>
+  <programme start="20250430002000 +0800" stop="20250430011000 +0800" channel="globaltrekker">
+    <title lang="en">The Lost Tapes S2</title>
+    <desc lang="en">Examine the 2002 sniper attacks in Washington D.C. through police audio and video, as well as local and national news reports. The sniper’s three-week reign of terror triggered one of the most intense and complicated manhunts in American history.</desc>
   </programme>
   <channel id="cgtnenglish">
     <display-name lang="en">cgtnenglish</display-name>
@@ -2600,10 +2592,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428235500 +0800" stop="20250429002000 +0800" channel="dreamworks_hd">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">Snotlout is concerned when his dragon’s flame goes out and the kids have to figure out how to reignite it before it’s too late.</desc>
-  </programme>
   <programme start="20250429002000 +0800" stop="20250429004500 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Once every 10 years, a mysterious glowing dragon visits Berk and this year Hiccup and Astrid are determined to find out where it's coming from – and stop it from reaching the village.</desc>
@@ -2839,6 +2827,10 @@
   <programme start="20250429235500 +0800" stop="20250430002000 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">When different species of dragons are found on Dragon Island, the kids suspect that the Screaming Death might be back and it's up to an unlikely hero to save the day.</desc>
+  </programme>
+  <programme start="20250430002000 +0800" stop="20250430004500 +0800" channel="dreamworks_hd">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">While searching for traps, Tuffnut, Barf and Belch get trapped themselves… and a forest fire is approaching.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -3616,10 +3608,6 @@
     <display-name lang="en">rock_entertainment</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428223000 +0800" stop="20250429001500 +0800" channel="rock_entertainment">
-    <title lang="en">The Competition</title>
-    <desc lang="en">Mauldin (Thora Birch) is a strong-willed but misguided young woman who encourages her millions of blog followers to apply her scientific formula to all relationships in order to prevent heartache.</desc>
-  </programme>
   <programme start="20250429001500 +0800" stop="20250429010000 +0800" channel="rock_entertainment">
     <title lang="en">The Tonight Show Starring Jimmy Fallon S12</title>
     <desc lang="en">Emmy and Grammy Award-winning comedian Jimmy Fallon brings his unique high-energy comedy to the storied 60-year NBC franchise with his welcoming interview style, love of audience participation, spot-on impersonations and innovative sketches.</desc>
@@ -7132,10 +7120,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428235500 +0800" stop="20250429002000 +0800" channel="nickjr">
-    <title lang="en">Too Many Swipers / Bateo's Home Run</title>
-    <desc lang="en">Dora and Boots help Swiper re-join with his duplicates and make it to Grandma's picnic. / Dora and Boots help Bateo the Bat get to the baseball game in time to play.</desc>
-  </programme>
   <programme start="20250429002000 +0800" stop="20250429004000 +0800" channel="nickjr">
     <title lang="en">The Competition Prize / Marvelous Moustaches</title>
     <desc lang="en">The Barbabies win a touchpad. They all want to use it and snaffle it one after another. // Barbazoo collects photos of moustached celebrities. Unfortunately, it's impossible to find the last one: Charles Horseshoe-Furlip. He suspects a conspiracy...</desc>
@@ -7531,6 +7515,10 @@
   <programme start="20250429235500 +0800" stop="20250430002000 +0800" channel="nickjr">
     <title lang="en">The Great Abuela Cookoff / Missing Map</title>
     <desc lang="en">After the Pokey Pigeons eat all of Abuela's elotes, Dora and Boots set out to find more ingredients for the Great Abuela Cook-off. / Dora, Boots and Backpack play an adventurous game of Hide-and-Seek to find Map.</desc>
+  </programme>
+  <programme start="20250430002000 +0800" stop="20250430004000 +0800" channel="nickjr">
+    <title lang="en">Let Justice Be done / The Great Spring Clean</title>
+    <desc lang="en">Barbabeau forgot to return his book to the library. As Mr Strict the librarian is visiting Barbapapa today, Barbabeau decides to run away. // Barbamama wants the barbababies to tidy their bedrooms. They're hiding to escape the drudgery.</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -8640,6 +8628,10 @@
     <title lang="en">Thankful Pie</title>
     <desc lang="en">Gecko’s Garage is a repair shop that cares! Run by cheerful mechanic Gecko &amp; his trusty robot sidekicks.</desc>
   </programme>
+  <programme start="20250430001800 +0800" stop="20250430004400 +0800" channel="moonbug_kids">
+    <title lang="en">Amazing Adventures!</title>
+    <desc lang="en">Gecko’s Garage is a repair shop that cares! Run by cheerful mechanic Gecko &amp; his trusty robot sidekicks.</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -9184,10 +9176,6 @@
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429000000 +0800" stop="20250429001500 +0800" channel="abc_australia">
-    <title lang="en">ABC Late News - Episode 84</title>
-    <desc lang="en">Follow the latest on today's news, covering what's happening and why it matters. ABC News has reporters across Australia and around the globe to bring you the news you need to know. Presented by Michael Tetlow in Perth.</desc>
-  </programme>
   <programme start="20250429001500 +0800" stop="20250429003000 +0800" channel="abc_australia">
     <title lang="en">The Business - Episode 53</title>
     <desc lang="en">Australia's leading daily business and finance show, bringing you up to date on market moves, economic trends and the forces affecting consumers, employees and business owners big and small. Presented by Kirsten Aiken.</desc>
@@ -9303,6 +9291,10 @@
   <programme start="20250430000000 +0800" stop="20250430001500 +0800" channel="abc_australia">
     <title lang="en">ABC Late News - Episode 85</title>
     <desc lang="en">Follow the latest on today's news, covering what's happening and why it matters. ABC News has reporters across Australia and around the globe to bring you the news you need to know. Presented by Michael Tetlow in Perth.</desc>
+  </programme>
+  <programme start="20250430001500 +0800" stop="20250430003000 +0800" channel="abc_australia">
+    <title lang="en">The Business - Episode 54</title>
+    <desc lang="en">Australia's leading daily business and finance show, bringing you up to date on market moves, economic trends and the forces affecting consumers, employees and business owners big and small. Presented by Kirsten Aiken.</desc>
   </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>
@@ -9517,6 +9509,10 @@
   <programme start="20250429224500 +0800" stop="20250430002000 +0800" channel="thrill">
     <title lang="en">Funeral Vigil</title>
     <desc lang="en">Night vigils are done at funerals as the souls are said to linger three days after death. Si is a gambler who only goes home when he needs money from his mother and is not around when she dies. When he learns that his mother has buried treasure at home, Si returns to keep a vigil for her in order to find the treasure. Strange things start to occur…</desc>
+  </programme>
+  <programme start="20250430002000 +0800" stop="20250430015000 +0800" channel="thrill">
+    <title lang="en">Sa Haba Ng Gabi</title>
+    <desc lang="en">Two housemaids and a driver take shelter at their employer's mansion when a zombie outbreak happens one night. Can they all survive the night?</desc>
   </programme>
   <channel id="crime_investigation">
     <display-name lang="en">crime_investigation</display-name>
@@ -10238,10 +10234,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429000000 +0800" stop="20250429002000 +0800" channel="nickelodeon">
-    <title lang="en">The Casagrandes</title>
-    <desc lang="en">Ronnie Anne tries to convince her Dad to move to the city while he is visiting. With the help of Sid, she devices a plan that seems too good to fail.</desc>
-  </programme>
   <programme start="20250429002000 +0800" stop="20250429004500 +0800" channel="nickelodeon">
     <title lang="en">Tyler Perry's Young Dylan</title>
     <desc lang="en">Charlie Dylan must convince the crew that a new kid on the block may not be who he says he is. Myles finds out that honesty is the best policy.</desc>
@@ -10497,6 +10489,10 @@
   <programme start="20250430000000 +0800" stop="20250430002000 +0800" channel="nickelodeon">
     <title lang="en">The Casagrandes</title>
     <desc lang="en">When Ronnie Anne realizes that she's not up to date on all of the latest trends, she seeks help from Carlota. // Bobby struggles to find Sergio after wishing he would fly away and never come back.</desc>
+  </programme>
+  <programme start="20250430002000 +0800" stop="20250430004500 +0800" channel="nickelodeon">
+    <title lang="en">Tyler Perry's Young Dylan</title>
+    <desc lang="en">Viola schools Dylan on the roots of hip hop and rap. Dylan is exposed to a part of history that he will forever hold near and dear to his heart.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

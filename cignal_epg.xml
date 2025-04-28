@@ -648,14 +648,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428085300 +0800" stop="20250428090400 +0800" channel="cg_hbofam">
-    <title lang="en">Bunnicula S2</title>
-    <desc lang="en">Bunnicula S2</desc>
-  </programme>
-  <programme start="20250428090400 +0800" stop="20250428092000 +0800" channel="cg_hbofam">
-    <title lang="en">Bunnicula S2</title>
-    <desc lang="en">Bunnicula S2</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428095000 +0800" channel="cg_hbofam">
     <title lang="en">Sesame Street S54</title>
     <desc lang="en">Sesame Street S54</desc>
@@ -857,6 +849,14 @@
     <desc lang="en">Bunnicula S3</desc>
   </programme>
   <programme start="20250429085600 +0800" stop="20250429090700 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S3</title>
+    <desc lang="en">Bunnicula S3</desc>
+  </programme>
+  <programme start="20250429090700 +0800" stop="20250429091800 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S3</title>
+    <desc lang="en">Bunnicula S3</desc>
+  </programme>
+  <programme start="20250429091800 +0800" stop="20250429093500 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S3</title>
     <desc lang="en">Bunnicula S3</desc>
   </programme>
@@ -1084,6 +1084,10 @@
     <title lang="en">Something The Lord Made</title>
     <desc lang="en">In this HBO Original movie, two men achieve an enormous medical breakthrough that earns one an award and the other, a painful lesson in unequal opportunity.</desc>
   </programme>
+  <programme start="20250429092000 +0800" stop="20250429102500 +0800" channel="cg_hbosign">
+    <title lang="en">The Sympathizer S1</title>
+    <desc lang="en">As a reluctant consultant on a Hollywood film, the Captain navigates the egos and personalities of an increasingly chaotic production.</desc>
+  </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
     <url>http://www.cignalplay.com</url>
@@ -1212,14 +1216,14 @@
     <title lang="en">Love 911</title>
     <desc lang="en">A doctor tries to woo a grieving, widowed firefighter in her attempt to get him to testify on her behalf in a medical malpractice case.</desc>
   </programme>
+  <programme start="20250429092500 +0800" stop="20250429113500 +0800" channel="cg_tvnmovie">
+    <title lang="en">Miracle In Cell No.7</title>
+    <desc lang="en">A mentally challenged father who's wrongly jailed for the murder of a young girl reunites with her young daughter in the prison.</desc>
+  </programme>
   <channel id="cg_dreamworktag">
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428085500 +0800" stop="20250428092000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Trolls: The Beat Goes On!</title>
-    <desc lang="en">When Peppy invites Branch to go on a Swag Stag hunt, Branch is nervous and invents a tall tale that he must keep up with/DJ Suki confesses that she's nervous to throw a party so Poppy suggests she join the Party Crash Course</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="cg_dreamworktag">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">Kelp and his underwater friends race around an obstacle course, but Cruz gets sucked into a whirlpool. As each of them try to rescue him, they are sucked in! Kelp saves them all using his unicorn spark to create bubbles he attaches to seaweed. / Kelp helps his unicorn friends create music with their horns and pieces of nature. Ollie is embarrassed by the sound of his horn.</desc>
@@ -1456,14 +1460,14 @@
     <title lang="en">Trolls: The Beat Goes On!</title>
     <desc lang="en">The Trolls try to entertain and win over Archer Pastry with a series of Troll stories/When a rainbow over Troll Village begins to experience a catastrophic breakdown, Cloud Guy arrives in the village to offer his assistance</desc>
   </programme>
+  <programme start="20250429092000 +0800" stop="20250429094500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">Kelp and Scallop enlist Cruz’s help to perform a dance for Mom’s birthday. Though it’s hard at first, they learn to put their dolphin, unicorn, and narwhal powers together to create something special. / Kelp, Pixie, Ollie, and their friend Leroy try to help Juniper understand her angry feelings.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428082500 +0800" stop="20250428092000 +0800" channel="cg_tvnpre">
-    <title lang="en">Walking Through The Village</title>
-    <desc lang="en">Actor Gu Bon-seung shows the warmth and purity of life in the village along the river, and presents how new history was made and became one’s memory.</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428110000 +0800" channel="cg_tvnpre">
     <title lang="en">The Genius Paik</title>
     <desc lang="en">Will Paik Jong-won be able to successfully run a restaurant overseas? With the help of Lee Jang-woo, BamBam, Yuri and John Park, he will start his business in the barren land of K-food – Africa and Italy.</desc>
@@ -1731,6 +1735,10 @@
   <programme start="20250429084000 +0800" stop="20250429090500 +0800" channel="globaltrekker">
     <title lang="en">Wild Heroes</title>
     <desc lang="en">This time on Wild Heroes, there's shocking news for the elephant team, the vets are concerned about one of their rescued Little penguins, and we find out how it really does take a community to feed the Zoo.</desc>
+  </programme>
+  <programme start="20250429090500 +0800" stop="20250429095500 +0800" channel="globaltrekker">
+    <title lang="en">Destination Myanmar</title>
+    <desc lang="en">Destination Myanmar will take the audience to some of Myanmar's most beautiful and stunning Asian Heritage wetlands with fishermen paddling one-legged along shallow waters and floating gardens.</desc>
   </programme>
   <channel id="cgtnenglish">
     <display-name lang="en">cgtnenglish</display-name>
@@ -2140,10 +2148,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428084500 +0800" stop="20250428091500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Unikitty</title>
-    <desc lang="en">After their spaceship explodes, Unikitty and the gang float helplessly through space.</desc>
-  </programme>
   <programme start="20250428091500 +0800" stop="20250428101500 +0800" channel="cartoon_net_hd">
     <title lang="en">The Tom And Jerry Show</title>
     <desc lang="en">Hildie's received another dozen roses from her admirer.</desc>
@@ -2279,6 +2283,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429084500 +0800" stop="20250429091500 +0800" channel="cartoon_net_hd">
     <title lang="en">Unikitty</title>
     <desc lang="en">Unikitty and the gang are having a great time at the public pool, until they try to get Puppycorn to swim in the deep end with them.</desc>
+  </programme>
+  <programme start="20250429091500 +0800" stop="20250429101500 +0800" channel="cartoon_net_hd">
+    <title lang="en">The Tom And Jerry Show</title>
+    <desc lang="en">Tom &amp; Jerry help Tyke with a splinter.</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -2576,10 +2584,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428085500 +0800" stop="20250428092000 +0800" channel="dreamworks_hd">
-    <title lang="en">Trolls: The Beat Goes On!</title>
-    <desc lang="en">When Peppy invites Branch to go on a Swag Stag hunt, Branch is nervous and invents a tall tale that he must keep up with/DJ Suki confesses that she's nervous to throw a party so Poppy suggests she join the Party Crash Course</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="dreamworks_hd">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">Kelp and his underwater friends race around an obstacle course, but Cruz gets sucked into a whirlpool. As each of them try to rescue him, they are sucked in! Kelp saves them all using his unicorn spark to create bubbles he attaches to seaweed. / Kelp helps his unicorn friends create music with their horns and pieces of nature. Ollie is embarrassed by the sound of his horn.</desc>
@@ -2816,14 +2820,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Trolls: The Beat Goes On!</title>
     <desc lang="en">The Trolls try to entertain and win over Archer Pastry with a series of Troll stories/When a rainbow over Troll Village begins to experience a catastrophic breakdown, Cloud Guy arrives in the village to offer his assistance</desc>
   </programme>
+  <programme start="20250429092000 +0800" stop="20250429094500 +0800" channel="dreamworks_hd">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">Kelp and Scallop enlist Cruz’s help to perform a dance for Mom’s birthday. Though it’s hard at first, they learn to put their dolphin, unicorn, and narwhal powers together to create something special. / Kelp, Pixie, Ollie, and their friend Leroy try to help Juniper understand her angry feelings.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428085000 +0800" stop="20250428091700 +0800" channel="animal_planet">
-    <title lang="en">Super Animals (S1)</title>
-    <desc lang="en">Super animals reveals the fantastic and amazing creatures that inhabit our planet.</desc>
-  </programme>
   <programme start="20250428091700 +0800" stop="20250428094500 +0800" channel="animal_planet">
     <title lang="en">Super Animals (S1)</title>
     <desc lang="en">Super animals reveals the fantastic and amazing creatures that inhabit our planet.</desc>
@@ -4296,10 +4300,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">kbs_world</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428084500 +0800" stop="20250428092500 +0800" channel="kbs_world">
-    <title lang="en">My Only One</title>
-    <desc lang="en">A woman's life gets twisted one day because of her biological father who shows up after 28 years of absence. He had been thoroughly hiding his identity, afraid that he might be an obstacle in his daughter's life. The father and daughter meet the "only ones" in their lives and put back together the pieces of their broken hearts.</desc>
-  </programme>
   <programme start="20250428092500 +0800" stop="20250428100000 +0800" channel="kbs_world">
     <title lang="en">My Only One</title>
     <desc lang="en">A woman's life gets twisted one day because of her biological father who shows up after 28 years of absence. He had been thoroughly hiding his identity, afraid that he might be an obstacle in his daughter's life. The father and daughter meet the "only ones" in their lives and put back together the pieces of their broken hearts.</desc>
@@ -4391,6 +4391,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429081000 +0800" stop="20250429092500 +0800" channel="kbs_world">
     <title lang="en">The Slave Hunters</title>
     <desc lang="en">Slaves fervently wishing to live like a human being VS. Slave hunters chasing them tirelessly. A bloody battle between them begins to take place!!! Being a slave hunter, Daegil is disregarded by people due to his low social status. While doing his job, Daegil is offered by Lee Gyongsuk to get Song Taeha and is promised to be given a fair amount of money as a reward. Taeha was forced to become a state slave as he was wrongfully accused of stealing some provisions. After reading a secret message saying the life of Sohyeons youngest son is on the line, Taeha tries to escape in an attempt to save him, the eldest son of the Crown Prince. Daegil, however, gets wind of his plan and the two ends up fighting a bloody fight. Having barely escaped from the fierce fight, Taeha happens to accompany a woman named Hyewon. Daegil fails to track down the slave he was first assigned to capture, and constantly runs into Seolhwa who escaped from a troupe of strolling actors. To make things worse, Daegil is threatened to be killed by a group of slaves who formed a hit squad to assassinate nobles. As for Daegil, he has every reason to be successful in accomplishing his first mission. Aside from recovering his pride hurt by Taeha, Daegil needs a sizable sum of money to live a comfortable life in his old age. In the end, Taeha manages to run away from Daegil while Daegil feels affection for Hyewon.</desc>
+  </programme>
+  <programme start="20250429092500 +0800" stop="20250429100000 +0800" channel="kbs_world">
+    <title lang="en">Good Luck!</title>
+    <desc lang="en">A life story of three friends, one who is rich, one who is poor, and one who wishes to be rich, along with their families.</desc>
   </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
@@ -4496,10 +4500,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">kix_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428071500 +0800" stop="20250428092500 +0800" channel="kix_hd">
-    <title lang="en">The Fishermen and the Sea S3</title>
-    <desc lang="en">The new season of this Korean fishing variety show, hosted by two celebrity hosts who are fishing enthusiasts, sets sail with celebrity guests such as K-Pop idols Lee Know (Straykids), Yuno (Ateez), and Ha Sung Woon (Wanna One). The programme features some beautiful fishing spots around Korea and shares useful fishing tips with the viewers.</desc>
-  </programme>
   <programme start="20250428092500 +0800" stop="20250428110000 +0800" channel="kix_hd">
     <title lang="en">Iron Squad 2</title>
     <desc lang="en">The new season of this Korean military survival show brings eight Special Force units together to compete in extreme missions that will test their physical stamina, mental strength and teamwork. Top male reservists form teams of four to compete against one another. Witness how they battle till the end in front of five celebrity hosts!</desc>
@@ -4580,10 +4580,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">lifetime</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428080500 +0800" stop="20250428091000 +0800" channel="lifetime">
-    <title lang="en">MasterChef Australia (S15)</title>
-    <desc lang="en">The Top 3 arrive to find the kitchen set up for a cook-along. Today’s challenge represents the gateway to the Semi Final, with a sizeable advantage up for grabs.</desc>
-  </programme>
   <programme start="20250428091000 +0800" stop="20250428094500 +0800" channel="lifetime">
     <title lang="en">Deliciously Twisted Classics</title>
     <desc lang="en">Chefs spoon up their favourite twists on scrumptious soups in these twisted takes on soup staples. These delicious twists will make you rethink your favorite soup classics.</desc>
@@ -4792,10 +4788,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428083000 +0800" stop="20250428092000 +0800" channel="hgtv_hd">
-    <title lang="en">House Hunters International (S8)</title>
-    <desc lang="en">Two Chicago lawyers are not swayed by the ups and down of renovating their first home.</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="hgtv_hd">
     <title lang="en">My Lottery Dream Home (S14)</title>
     <desc lang="en">David helps a young couple find a first home they can renovate after a big win in Rochester, New York.</desc>
@@ -4956,6 +4948,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">House Hunters (S107)</title>
     <desc lang="en">A tech-industry professional in Chicago has found a new passion in rehabbing homes.</desc>
   </programme>
+  <programme start="20250429092000 +0800" stop="20250429101000 +0800" channel="hgtv_hd">
+    <title lang="en">The Flip Off (S1)</title>
+    <desc lang="en">Tarek and Heather compete against his ex Christina to find out who can out-flip the other in the living room!</desc>
+  </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
     <url>http://www.cignalplay.com</url>
@@ -5060,10 +5056,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">travel_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428082400 +0800" stop="20250428091200 +0800" channel="travel_channel">
-    <title lang="en">Hotel Impossible: Top Ten Epic Showdowns</title>
-    <desc lang="en">Anthony counts down ten Epic Showdowns from Hotel Impossible.</desc>
-  </programme>
   <programme start="20250428091200 +0800" stop="20250428093600 +0800" channel="travel_channel">
     <title lang="en">Trip Flip (S2)</title>
     <desc lang="en">Bert Kreischer brings two friends on an all expenses paid trip to the Windy City.</desc>
@@ -5195,6 +5187,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429082400 +0800" stop="20250429091200 +0800" channel="travel_channel">
     <title lang="en">Booze Traveler (S4)</title>
     <desc lang="en">Maxwell immerses himself in the culture of Tahiti.</desc>
+  </programme>
+  <programme start="20250429091200 +0800" stop="20250429093600 +0800" channel="travel_channel">
+    <title lang="en">Beachfront Bargain Hunt (S22)</title>
+    <desc lang="en">A couple from Houston want a beachside holiday home for their two children. Can they find the perfect property to create beautiful memories?</desc>
   </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
@@ -5664,10 +5660,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428073600 +0800" stop="20250428091200 +0800" channel="foodnetwork_hd">
-    <title lang="en">Tournament Of Champions (S4)</title>
-    <desc lang="en">Guy Fieri matches up eight culinary powerhouses for the final round of jaw-dropping sudden death battles. Four will move on to the round of 16.</desc>
-  </programme>
   <programme start="20250428091200 +0800" stop="20250428100000 +0800" channel="foodnetwork_hd">
     <title lang="en">Restaurant: Impossible (S17)</title>
     <desc lang="en">Robert arrives at New Orleans to find a restaurant full of history but in need of his help. The livelihood of two families depends on its success.</desc>
@@ -5827,6 +5819,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429082400 +0800" stop="20250429091200 +0800" channel="foodnetwork_hd">
     <title lang="en">Guy's Ultimate Game Night (S2)</title>
     <desc lang="en">Guy Fieri welcomes chefs Maneet Chuahan, Vivek Deora, Michael Voltaggio and Jet Tila to the Flavortown Lounge for in a one-handed grilled cheese competition.</desc>
+  </programme>
+  <programme start="20250429091200 +0800" stop="20250429100000 +0800" channel="foodnetwork_hd">
+    <title lang="en">Wildcard Kitchen (S1)</title>
+    <desc lang="en">Three all-star chefs play against each other in a high-stakes cooking competition! Who will prove their cooking prowess and take home some cold hard cash?</desc>
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
@@ -6492,14 +6488,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">nhk_japan</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428090000 +0800" stop="20250428091000 +0800" channel="nhk_japan">
-    <title lang="en">NHK NEWSLINE</title>
-    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
-  </programme>
-  <programme start="20250428091000 +0800" stop="20250428091500 +0800" channel="nhk_japan">
-    <title lang="en">Chatroom Japan</title>
-    <desc lang="en">The number of traditional Japanese carpenters is dwindling, but American Jon Stollenmeyer is helping to keep their style of architecture alive.</desc>
-  </programme>
   <programme start="20250428091500 +0800" stop="20250428093000 +0800" channel="nhk_japan">
     <title lang="en">Direct Talk</title>
     <desc lang="en">In 2024, Miyakoshi Akiko won a New York Times' Best Illustrated Children's Book Award. We see how she creates art, using charcoal and watercolors. And we discover the inspiration behind her work.</desc>
@@ -6780,6 +6768,18 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">NHK NEWSLINE</title>
     <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
   </programme>
+  <programme start="20250429091000 +0800" stop="20250429092000 +0800" channel="nhk_japan">
+    <title lang="en">Herbal Symphony #1 Spring</title>
+    <desc lang="en">In Uda, discover Japan's oldest private medicinal herb garden, where the natural landscape from 300 years ago is preserved in a botanical time capsule, a sanctuary of the local culture and history.</desc>
+  </programme>
+  <programme start="20250429092000 +0800" stop="20250429092500 +0800" channel="nhk_japan">
+    <title lang="en">1/30: People With Mental Illness</title>
+    <desc lang="en">1 in 30 Japanese suffer from mental illness. We follow a woman who finds it hard to do simple tasks due to her illness, as she goes to rehabilitation for returning to work.</desc>
+  </programme>
+  <programme start="20250429092500 +0800" stop="20250429093000 +0800" channel="nhk_japan">
+    <title lang="en">The Masterpieces of Tsutaju</title>
+    <desc lang="en">This miniseries presents the masterpieces of Tsutaju, a brilliant ukiyo-e producer of the Edo period. This episode features ukiyo-e artist Sharaku's "The Actor Ichikawa Ebizo as Takemura Sadanoshin."</desc>
+  </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
     <url>http://www.cignalplay.com</url>
@@ -6956,6 +6956,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Star Vs Food: Malaysia (S1)</title>
     <desc lang="en">A humanitarian at heart (Lisa) meets a protector of Kristang recipies (Chef Melba) to learn a a forgotten dishes.</desc>
   </programme>
+  <programme start="20250429090500 +0800" stop="20250429093500 +0800" channel="asianfoodnetwork">
+    <title lang="en">Star Vs Food: Malaysia (S1)</title>
+    <desc lang="en">A singer song writer (Daiyan) meets a culinary professor (Chef Fadzly) in the kitchen for a Master Class of Gastronomical Delight.</desc>
+  </programme>
   <channel id="onesports">
     <display-name lang="en">onesports</display-name>
     <url>http://www.cignalplay.com</url>
@@ -7060,10 +7064,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428090000 +0800" stop="20250428092500 +0800" channel="nickjr">
-    <title lang="en">Big Red Chicken Wake Up! / The Mystery Gift</title>
-    <desc lang="en">Dora and Boots have to wake up the Big Red Chicken before he floats over a waterfall! // Dora and friends must solve a series of questions and challenges to open a mysterious gift.</desc>
-  </programme>
   <programme start="20250428092500 +0800" stop="20250428094500 +0800" channel="nickjr">
     <title lang="en">Big Rig Blaze</title>
     <desc lang="en">When a windstorm blows away the supplies for Stripes' Animal Party, Blaze transforms into the one Monster Machine strong enough to haul it all back - a Big Rig! There's nothing he can't pull with that Big Rig Force!</desc>
@@ -7460,14 +7460,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Friendaversary Adventure / Swiper's Birthday Surprise</title>
     <desc lang="en">Boots and Dora journey to Banana Hill to bring Isa a Friendiversary gift - a flowerpot that Boots painted himself! // Dora and friends throw Swiper a surprise birthday party. On the way to the party, Swiper attempts to swipe his own surprise present.</desc>
   </programme>
+  <programme start="20250429092500 +0800" stop="20250429094500 +0800" channel="nickjr">
+    <title lang="en">Space Alien Adventure!</title>
+    <desc lang="en">Blaze and AJ make friends with a space alien named Gormy! But when Gormy's jetpack loses power, they set out to help him find six special space batteries so he can fly home to his alien family!</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428083000 +0800" stop="20250428092000 +0800" channel="warnertv_hd">
-    <title lang="en">Arrow S2 8</title>
-    <desc lang="en">With a mysterious Vertigo-related illness sweeping the city (and both Diggle and Felicity in danger) Oliver must choose between stopping the Count or standing by his family.</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="warnertv_hd">
     <title lang="en">Hack My Life S2 13</title>
     <desc lang="en">Brooke and Kevin reveal the ultimate hands-free mower and find hacks for removing carpet stains. Plus, they'll hack a chandelier and learn from pros with Becky's Beauty Hacks and Broke Ass Bob's guide to owning a dog.</desc>
@@ -7635,6 +7635,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429083000 +0800" stop="20250429092000 +0800" channel="warnertv_hd">
     <title lang="en">Arrow S2 9</title>
     <desc lang="en">After a seemingly impossible robbery at Queen Consolidated, Central City's police scientist Barry Allen (GRANT GUSTIN) offers to help Oliver and his team.</desc>
+  </programme>
+  <programme start="20250429092000 +0800" stop="20250429094500 +0800" channel="warnertv_hd">
+    <title lang="en">Hack My Life S2 15</title>
+    <desc lang="en">Dr. Hack is back with tips for treating medical maladies. Plus, Broke Ass Bob hacks moving in together, Kevin tests a homemade tanning blend, and Brooke reveals the Lazy Cook's latest endeavor: homemade microwaved potato chips.</desc>
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
@@ -8188,6 +8192,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">American Ninja Warrior (Season 13)</title>
     <desc lang="en">Ten ninja families compete relay-style on a six-obstacle course in teams of three family members.</desc>
   </programme>
+  <programme start="20250429091500 +0800" stop="20250429100500 +0800" channel="axn">
+    <title lang="en">Coroner (Season 3)</title>
+    <desc lang="en">CORONEA double homicide on Christmas Eve has Jenny and Donovan uncovering the troubling secrets of a picture-perfect family.</desc>
+  </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8520,18 +8528,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Ride Along</title>
     <desc lang="en">Ride Along</desc>
   </programme>
+  <programme start="20250429091000 +0800" stop="20250429112500 +0800" channel="tapactionflix_hd">
+    <title lang="en">Rescue Dawn</title>
+    <desc lang="en">Rescue Dawn</desc>
+  </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428090000 +0800" stop="20250428091500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
-  <programme start="20250428091500 +0800" stop="20250428092100 +0800" channel="france24">
-    <title lang="en">Business</title>
-    <desc lang="en">Business on France 24 gives you a perfect chance to get the business updates as they come and to be up to speed on international finances and economics. Business keeps you posted on everything that really matters in our fast moving world.</desc>
-  </programme>
   <programme start="20250428092100 +0800" stop="20250428093000 +0800" channel="france24">
     <title lang="en">In the Press</title>
     <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
@@ -8999,6 +9003,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429090000 +0800" stop="20250429091500 +0800" channel="france24">
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250429091500 +0800" stop="20250429092100 +0800" channel="france24">
+    <title lang="en">Business</title>
+    <desc lang="en">Business on France 24 gives you a perfect chance to get the business updates as they come and to be up to speed on international finances and economics. Business keeps you posted on everything that really matters in our fast moving world.</desc>
+  </programme>
+  <programme start="20250429092100 +0800" stop="20250429093000 +0800" channel="france24">
+    <title lang="en">In the Press</title>
+    <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
@@ -9663,10 +9675,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428090000 +0800" stop="20250428092000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 2 Araling Panlipunan</title>
-    <desc lang="en">Sa mga palabas na ito tatalakayin ang pagpapahalaga sa kagalingang pansibiko bilang pakikibahagi sa mga layunin ng sariling komunidad.</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428094000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 3 Filipino</title>
     <desc lang="en">Sa mga palabas na ito tinatalakay ang tungkol sa mga pangngalan, panghalip, at iba't ibang elemento ng kuwento. Ipapaliwanag din dito ang pagsusulat ng mga kuwento at pagbibigay ng kahulugan ng mga salita.</desc>
@@ -9871,18 +9879,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Grade 2 Araling Palipunan</title>
     <desc lang="en">Sa mga palabas na ito tatalakayin ang pagpapahalaga sa kagalingang pansibiko bilang pakikibahagi sa mga layunin ng sariling komunidad.</desc>
   </programme>
+  <programme start="20250429092000 +0800" stop="20250429094000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 3 Filipino</title>
+    <desc lang="en">Sa mga palabas na ito tinatalakay ang tungkol sa mga pangngalan, panghalip, at iba't ibang elemento ng kuwento. Ipapaliwanag din dito ang pagsusulat ng mga kuwento at pagbibigay ng kahulugan ng mga salita.</desc>
+  </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428085700 +0800" stop="20250428091600 +0800" channel="tv5_monde">
-    <title lang="en">64' Le Monde En Français - 2E Partie</title>
-    <desc lang="en">International current affairs as seen by the French-speaking world.</desc>
-  </programme>
-  <programme start="20250428091600 +0800" stop="20250428092500 +0800" channel="tv5_monde">
-    <title lang="en">L'Invité</title>
-    <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
-  </programme>
   <programme start="20250428092500 +0800" stop="20250428093100 +0800" channel="tv5_monde">
     <title lang="en">64' L'Essentiel</title>
     <desc lang="en">The whole world, in French.</desc>
@@ -10071,14 +10075,14 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">64' Le Monde En Français - 2E Partie</title>
     <desc lang="en">International current affairs as seen by the French-speaking world.</desc>
   </programme>
+  <programme start="20250429092000 +0800" stop="20250429092800 +0800" channel="tv5_monde">
+    <title lang="en">L'Invité</title>
+    <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
+  </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250428085500 +0800" stop="20250428092000 +0800" channel="nickelodeon">
-    <title lang="en">SpongeBob SquarePants</title>
-    <desc lang="en">The gang heads to a food convention, but things go awry when they become stranded in the woods. // SpongeBob accidentally fibs to his pen pal, but when his friend comes to visit, he must keep the ruse going!</desc>
-  </programme>
   <programme start="20250428092000 +0800" stop="20250428094500 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">When SpongeBob hides the secret formula in his home, it’s up to Gary to protect it from Plankton. // When a freak accident causes everyone in town to become as stupid as Patrick, Sandy must save the day.</desc>
@@ -10334,6 +10338,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250429085500 +0800" stop="20250429092000 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">When a storm sweeps the Krusty Krab away, its crew and customers will need a crazed Krabs to lead them back home. // Patrick’s last baby tooth needs to come out, but he’s afraid to let it go.</desc>
+  </programme>
+  <programme start="20250429092000 +0800" stop="20250429094500 +0800" channel="nickelodeon">
+    <title lang="en">SpongeBob SquarePants</title>
+    <desc lang="en">SpongeBob and Patrick get hooked on the latest fad - flying your own brain like a tiny drone! // When SpongeBob &amp; Patrick play Mermaidman and Barnacleboy, it's all fun and games until their sworn enemies arrive!</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

@@ -708,10 +708,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429155400 +0800" stop="20250429162000 +0800" channel="cg_hbofam">
-    <title lang="en">Justice League Unlimited S1</title>
-    <desc lang="en">Justice League Unlimited S1</desc>
-  </programme>
   <programme start="20250429162000 +0800" stop="20250429163100 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S3</title>
     <desc lang="en">Bunnicula S3</desc>
@@ -911,6 +907,10 @@
   <programme start="20250430155500 +0800" stop="20250430162000 +0800" channel="cg_hbofam">
     <title lang="en">Justice League Unlimited S2</title>
     <desc lang="en">Justice League Unlimited S2</desc>
+  </programme>
+  <programme start="20250430162000 +0800" stop="20250430163100 +0800" channel="cg_hbofam">
+    <title lang="en">Bunnicula S3</title>
+    <desc lang="en">Bunnicula S3</desc>
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
@@ -1268,10 +1268,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429160000 +0800" stop="20250429162500 +0800" channel="cg_dreamworktag">
-    <title lang="en">Go, Dog. Go!</title>
-    <desc lang="en">When Tag worries that she's no longer a "Go" dog, Lady Lydia helps her find a new persona by helping Tag try on a bunch of different hats. Luckily, when a runaway puppy needs to be wrangled, and only the speedy Tag can catch him, Tag realizes she was a Go dog all along. \ Sergeant Pooch reads Scooch, Tag and Kit a story book during their sleepover. But when the last pages are missing, the three kids work together to make up their own ending to the story.</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429165000 +0800" channel="cg_dreamworktag">
     <title lang="en">Team Zenko Go</title>
     <desc lang="en">Ari moves in to Harmony Harbor, but notices something strange involving a group of kids, a Noodle Truck chef and her pet squirrel. / After Ari discovers the secret of Team Zenko Go, he asks to join the crew. But first he must learn the importance of teamwork.</desc>
@@ -1507,6 +1503,10 @@
   <programme start="20250430160000 +0800" stop="20250430162500 +0800" channel="cg_dreamworktag">
     <title lang="en">Go, Dog. Go!</title>
     <desc lang="en">Tag, Scooch and Kit think they found the perfect story for their newspaper: Bigpaw is in Pawston! But when they find out that Frank and Beans were lying to the town, they seek to uncover the truth and reveal it to everyone. \ When Sam Whippet sets up a pirate-themed race for the Race Cadets, pirate-loving Scooch takes on the role of captain. Tag struggles to take orders as first mate while helping Scooch navigate maritime obstacles and avoid the fearsome pirates.</desc>
+  </programme>
+  <programme start="20250430162500 +0800" stop="20250430165000 +0800" channel="cg_dreamworktag">
+    <title lang="en">Team Zenko Go</title>
+    <desc lang="en">When Donna's delivery truck breaks down, it's up to the crew to help Donna continue delivering packages to Harmony Harbor's residents. / When the crew takes on a mission to rescue a lost pet, Ellie must face her fears in order to help save the day.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -2568,10 +2568,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429160000 +0800" stop="20250429162500 +0800" channel="dreamworks_hd">
-    <title lang="en">Go, Dog. Go!</title>
-    <desc lang="en">When Tag worries that she's no longer a "Go" dog, Lady Lydia helps her find a new persona by helping Tag try on a bunch of different hats. Luckily, when a runaway puppy needs to be wrangled, and only the speedy Tag can catch him, Tag realizes she was a Go dog all along. \ Sergeant Pooch reads Scooch, Tag and Kit a story book during their sleepover. But when the last pages are missing, the three kids work together to make up their own ending to the story.</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429165000 +0800" channel="dreamworks_hd">
     <title lang="en">Team Zenko Go</title>
     <desc lang="en">Ari moves in to Harmony Harbor, but notices something strange involving a group of kids, a Noodle Truck chef and her pet squirrel. / After Ari discovers the secret of Team Zenko Go, he asks to join the crew. But first he must learn the importance of teamwork.</desc>
@@ -2807,6 +2803,10 @@
   <programme start="20250430160000 +0800" stop="20250430162500 +0800" channel="dreamworks_hd">
     <title lang="en">Go, Dog. Go!</title>
     <desc lang="en">Tag, Scooch and Kit think they found the perfect story for their newspaper: Bigpaw is in Pawston! But when they find out that Frank and Beans were lying to the town, they seek to uncover the truth and reveal it to everyone. \ When Sam Whippet sets up a pirate-themed race for the Race Cadets, pirate-loving Scooch takes on the role of captain. Tag struggles to take orders as first mate while helping Scooch navigate maritime obstacles and avoid the fearsome pirates.</desc>
+  </programme>
+  <programme start="20250430162500 +0800" stop="20250430165000 +0800" channel="dreamworks_hd">
+    <title lang="en">Team Zenko Go</title>
+    <desc lang="en">When Donna's delivery truck breaks down, it's up to the crew to help Donna continue delivering packages to Harmony Harbor's residents. / When the crew takes on a mission to rescue a lost pet, Ellie must face her fears in order to help save the day.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -3296,10 +3296,6 @@
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429152500 +0800" stop="20250429162500 +0800" channel="bbcearth_hd">
-    <title lang="en">Primates 1</title>
-    <desc lang="en">Revealing the extraordinary strategies monkeys, apes and lemurs use to survive in the most unexpected places, from snow-capped mountains to the open savannah.</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429171500 +0800" channel="bbcearth_hd">
     <title lang="en">Extreme Fishing with Robson Green 1</title>
     <desc lang="en">Robson is in America's deep south on the Tennessee River where he catches catfish in his hands. Then he's off to the Gulf of Mexico for blackfin tuna.</desc>
@@ -3403,6 +3399,10 @@
   <programme start="20250430153000 +0800" stop="20250430162000 +0800" channel="bbcearth_hd">
     <title lang="en">Michael Portillo's Long Weekends 1</title>
     <desc lang="en">Michael embraces the spirit of the great navigators, uncovers the origins of the spy with a license to kill, discovers a lavish 18th century party palace, and turns sleuth to find a secret restaurant.</desc>
+  </programme>
+  <programme start="20250430162000 +0800" stop="20250430171500 +0800" channel="bbcearth_hd">
+    <title lang="en">Extreme Fishing with Robson Green 1</title>
+    <desc lang="en">Robson is in South Africa on the trail of the incredible phenomenon known as the Sardine Run and has a close encounter with a shark.</desc>
   </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
@@ -3508,10 +3508,6 @@
     <display-name lang="en">SPOTV_HD2</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250429140000 +0800" stop="20250429162000 +0800" channel="SPOTV_HD2">
-    <title lang="en">MLB 2025: Regular season</title>
-    <desc lang="en">Major League Baseball is the most historic professional sports league consists of 30 member clubs in the U.S. and Canada, representing the highest level of professional baseball.</desc>
-  </programme>
   <programme start="20250429162000 +0800" stop="20250429165000 +0800" channel="SPOTV_HD2">
     <title lang="en">SailGP: Racing on the Edge</title>
     <desc lang="en">Expect sheer emotion, state-of-the-art technology and incredible drama as elite athletes fly cutting-edge wingsailed catamarans in thrilling close-to-shore races in iconic venues across the globe.</desc>
@@ -3707,6 +3703,10 @@
   <programme start="20250430153500 +0800" stop="20250430162500 +0800" channel="rock_entertainment">
     <title lang="en">Next Level Chef S4</title>
     <desc lang="en">It's the final round of auditions, where eight professional chefs must impress the judges in order to advance to the next stage.</desc>
+  </programme>
+  <programme start="20250430162500 +0800" stop="20250430171500 +0800" channel="rock_entertainment">
+    <title lang="en">Next Level Chef S4</title>
+    <desc lang="en">The 15 chefs who qualified for the draft are matched with their mentors and are given their first team challenge; each chef must create an incredible Italian dish.</desc>
   </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
@@ -5648,10 +5648,6 @@
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429153600 +0800" stop="20250429162400 +0800" channel="foodnetwork_hd">
-    <title lang="en">Wildcard Kitchen (S1)</title>
-    <desc lang="en">Three all-star chefs play against each other in a high-stakes cooking competition! Who will prove their cooking prowess and take home some cold hard cash?</desc>
-  </programme>
   <programme start="20250429162400 +0800" stop="20250429164800 +0800" channel="foodnetwork_hd">
     <title lang="en">Cheap Eats (S2)</title>
     <desc lang="en">Ali eats his way through Chattanooga, TN, and tries a whiskey pot de creme.</desc>
@@ -5791,6 +5787,10 @@
   <programme start="20250430153600 +0800" stop="20250430162400 +0800" channel="foodnetwork_hd">
     <title lang="en">Best Places To Pig Out (S1)</title>
     <desc lang="en">A gargantuan 62-inch pizza earns a spot in the Pig Out Hall of Fame during this tasty countdown.</desc>
+  </programme>
+  <programme start="20250430162400 +0800" stop="20250430164800 +0800" channel="foodnetwork_hd">
+    <title lang="en">Unwrapped 2.0 (S2)</title>
+    <desc lang="en">Host Alfonso Ribeiro goes behind the scenes of some blockbuster movie theater snacks.</desc>
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
@@ -5984,10 +5984,6 @@
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429152500 +0800" stop="20250429162000 +0800" channel="history_hd">
-    <title lang="en">History's Greatest Escapes With Morgan Freeman (S2)</title>
-    <desc lang="en">An Iranian American psychopath is thrown into city jail in Southern California. Before he gets sent to a higher security prison, he escapes by crawling up the plumbing chase of the five-story prison.</desc>
-  </programme>
   <programme start="20250429162000 +0800" stop="20250429172000 +0800" channel="history_hd">
     <title lang="en">The Food That Built The World (S4)</title>
     <desc lang="en">A Georgia diner owner discovers the chicken game when he creates a unique fried chicken sandwich with cast-off filets. The sandwich becomes the menu centrepiece at one of the most popular fast food chains.</desc>
@@ -6091,6 +6087,10 @@
   <programme start="20250430152500 +0800" stop="20250430162000 +0800" channel="history_hd">
     <title lang="en">The UnXplained With William Shatner (S3)</title>
     <desc lang="en">For centuries, humanity has been fixated on Mars - the glowing red orb in the night sky. As a new era of exploration of the Red Planet begins, we are on the cusp of finally solving its mysteries.</desc>
+  </programme>
+  <programme start="20250430162000 +0800" stop="20250430172000 +0800" channel="history_hd">
+    <title lang="en">Ancient Aliens (S14)</title>
+    <desc lang="en">Ancient cultures around the world often referred to gods as 'The Immortals,' but could they have encountered extraterrestrial beings that had achieved eternal life?</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -6452,14 +6452,6 @@
     <display-name lang="en">nhk_japan</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429161000 +0800" stop="20250429162000 +0800" channel="nhk_japan">
-    <title lang="en">Trails to Oishii Tokyo Mini</title>
-    <desc lang="en">Shirasu are baby Japanese anchovies. Known for their clear, silvery-white appearance, these tiny things are packed with umami and nutrients.</desc>
-  </programme>
-  <programme start="20250429162000 +0800" stop="20250429162500 +0800" channel="nhk_japan">
-    <title lang="en">Carving the Spirit of Fishermen</title>
-    <desc lang="en">Hokkaido / Takeya Takayuki (model maker) Fishing boats in the herring industry-which thrived here until the 1950s-featured swirling decorations that made a big impression on Takeya, a Hokkaido native.</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429163000 +0800" channel="nhk_japan">
     <title lang="en">The Masterpieces of Tsutaju</title>
     <desc lang="en">This miniseries presents the masterpieces of Tsutaju, a brilliant ukiyo-e producer of the Edo period. This episode takes a close look at artist Utamaro's iconic "Woman with a Glass Noisemaker."</desc>
@@ -7060,14 +7052,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429161000 +0800" stop="20250429162000 +0800" channel="nickjr">
-    <title lang="en">The Sharkdog Days of Summer</title>
-    <desc lang="en">Max and Sharkdog want to enjoy the last day of summer, but first, they have to deal with the mess they left at home.</desc>
-  </programme>
-  <programme start="20250429162000 +0800" stop="20250429162500 +0800" channel="nickjr">
-    <title lang="en">No Fishes in This School</title>
-    <desc lang="en">It's the first day of school, and Sharkdog's not allowed to come; well, that's never stopped him before!</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429163500 +0800" channel="nickjr">
     <title lang="en">Going Wild</title>
     <desc lang="en">When Sharkdog's wild side keeps scaring away the dogs at the dog park, Sharkdog must find his inner calm if he wants to make new friends.</desc>
@@ -7460,14 +7444,18 @@
     <title lang="en">A Not So Grand Opening</title>
     <desc lang="en">When Sharkdog accidentally eats the aquarium's newest exhibit, Max and the Sharkpack must come up with a plan before Mr. Ceviche, the aquarium's owner, catches on.</desc>
   </programme>
+  <programme start="20250430162000 +0800" stop="20250430162500 +0800" channel="nickjr">
+    <title lang="en">The Fast and The Fishy</title>
+    <desc lang="en">Max is determined to win this year's obstacle course race, but that may be difficult with Sharkdog always trying to help.</desc>
+  </programme>
+  <programme start="20250430162500 +0800" stop="20250430163500 +0800" channel="nickjr">
+    <title lang="en">The Big Picture</title>
+    <desc lang="en">Sharkdog is very excited to be in the annual Fisher family photo, but disaster after disaster threatens his perfect picture.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429160000 +0800" stop="20250429162500 +0800" channel="warnertv_hd">
-    <title lang="en">Hack My Life S2 15</title>
-    <desc lang="en">Dr. Hack is back with tips for treating medical maladies. Plus, Broke Ass Bob hacks moving in together, Kevin tests a homemade tanning blend, and Brooke reveals the Lazy Cook's latest endeavor: homemade microwaved potato chips.</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429165000 +0800" channel="warnertv_hd">
     <title lang="en">Hack My Life S2 16</title>
     <desc lang="en">Brooke and Kevin test hacks for getting free parking, and Kevin finds the best hack for peeling eggs. Plus, Brooke combats shrinking sweaters, and Pitch Man shares the best hacks for cooking like a pro.</desc>
@@ -7619,6 +7607,10 @@
   <programme start="20250430160000 +0800" stop="20250430162500 +0800" channel="warnertv_hd">
     <title lang="en">Hack My Life S2 17</title>
     <desc lang="en">Brooke and Kevin test the best hacks for beating a motion detector. Plus, secrets for hacking French manicures and beach hair, keeping your dog off the lawn, and making a frittata out of leftover pizza are revealed.</desc>
+  </programme>
+  <programme start="20250430162500 +0800" stop="20250430165000 +0800" channel="warnertv_hd">
+    <title lang="en">Hack My Life S2 18</title>
+    <desc lang="en">Dr. Hack is back with the most unexpected ways to cure burns, toothaches, and migraines. Plus, Kevin and Brooke test the best hacks for maintaining rock star hair, cooking an omelet in a bag, and gaming the carnival system.</desc>
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
@@ -7976,10 +7968,6 @@
     <display-name lang="en">axn</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429153000 +0800" stop="20250429162500 +0800" channel="axn">
-    <title lang="en">NCIS: Sydney (Season 1)</title>
-    <desc lang="en">When a Navy Compliance Officer is found dead in a waterhole, the team’s investigation uncovers a complex trafficking ring, whilst they manage new workplace teething problems ... and a talking galah.</desc>
-  </programme>
   <programme start="20250429162500 +0800" stop="20250429171000 +0800" channel="axn">
     <title lang="en">FBI: International 3</title>
     <desc lang="en">The Fly Team heads to Bulgaria in search of a wanted criminal who is exploiting underage American girls. Meanwhile, Raines becomes curious when Forrester asks him to keep an eye on Powell.</desc>
@@ -8091,6 +8079,10 @@
   <programme start="20250430153000 +0800" stop="20250430162000 +0800" channel="axn">
     <title lang="en">CSI: Vegas (Season 3)</title>
     <desc lang="en">The CSI team investigates the death of a local antique shop owner who died from an apparent gunshot wound that is missing one important clue - the bullet. Also, Max makes an important breakthrough in the ongoing case with Ocho from the robotics factory.</desc>
+  </programme>
+  <programme start="20250430162000 +0800" stop="20250430171000 +0800" channel="axn">
+    <title lang="en">FBI: International 3</title>
+    <desc lang="en">When a disgraced former U.S. cabinet member is arrested in Vienna, the Fly Team is sent to investigate whether he and his assistant were peddling classified government documents.</desc>
   </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
@@ -9366,6 +9358,10 @@
     <title lang="en">Funeral Vigil</title>
     <desc lang="en">Night vigils are done at funerals as the souls are said to linger three days after death. Si is a gambler who only goes home when he needs money from his mother and is not around when she dies. When he learns that his mother has buried treasure at home, Si returns to keep a vigil for her in order to find the treasure. Strange things start to occur…</desc>
   </programme>
+  <programme start="20250430162000 +0800" stop="20250430175000 +0800" channel="thrill">
+    <title lang="en">Sa Haba Ng Gabi</title>
+    <desc lang="en">Two housemaids and a driver take shelter at their employer's mansion when a zombie outbreak happens one night. Can they all survive the night?</desc>
+  </programme>
   <channel id="crime_investigation">
     <display-name lang="en">crime_investigation</display-name>
     <url>http://www.cignalplay.com</url>
@@ -9674,10 +9670,6 @@
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250429160000 +0800" stop="20250429162000 +0800" channel="knowledge_channel">
-    <title lang="en">Extracurricular</title>
-    <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
-  </programme>
   <programme start="20250429162000 +0800" stop="20250429164000 +0800" channel="knowledge_channel">
     <title lang="en">Extracurricular</title>
     <desc lang="en">These episodes feature different short animations and documentaries that are related to arts and culture.</desc>
@@ -9881,6 +9873,10 @@
   <programme start="20250430160000 +0800" stop="20250430162000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Filipino</title>
     <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
+  </programme>
+  <programme start="20250430162000 +0800" stop="20250430164000 +0800" channel="knowledge_channel">
+    <title lang="en">Grade 10 Math</title>
+    <desc lang="en">These episodes explain the key concepts of measures of position.</desc>
   </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>

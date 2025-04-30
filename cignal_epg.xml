@@ -580,10 +580,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430155500 +0800" stop="20250430162000 +0800" channel="cg_hbofam">
-    <title lang="en">Justice League Unlimited S2</title>
-    <desc lang="en">Justice League Unlimited S2</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430163100 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S3</title>
     <desc lang="en">Bunnicula S3</desc>
@@ -2032,10 +2028,6 @@
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430153000 +0800" stop="20250430162000 +0800" channel="bbcearth_hd">
-    <title lang="en">Michael Portillo's Long Weekends 1</title>
-    <desc lang="en">Michael embraces the spirit of the great navigators, uncovers the origins of the spy with a license to kill, discovers a lavish 18th century party palace, and turns sleuth to find a secret restaurant.</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430171500 +0800" channel="bbcearth_hd">
     <title lang="en">Extreme Fishing with Robson Green 1</title>
     <desc lang="en">Robson is in South Africa on the trail of the incredible phenomenon known as the Sardine Run and has a close encounter with a shark.</desc>
@@ -3780,10 +3772,6 @@
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430153600 +0800" stop="20250430162400 +0800" channel="foodnetwork_hd">
-    <title lang="en">Best Places To Pig Out (S1)</title>
-    <desc lang="en">A gargantuan 62-inch pizza earns a spot in the Pig Out Hall of Fame during this tasty countdown.</desc>
-  </programme>
   <programme start="20250430162400 +0800" stop="20250430164800 +0800" channel="foodnetwork_hd">
     <title lang="en">Unwrapped 2.0 (S2)</title>
     <desc lang="en">Host Alfonso Ribeiro goes behind the scenes of some blockbuster movie theater snacks.</desc>
@@ -3976,10 +3964,6 @@
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430152500 +0800" stop="20250430162000 +0800" channel="history_hd">
-    <title lang="en">The UnXplained With William Shatner (S3)</title>
-    <desc lang="en">For centuries, humanity has been fixated on Mars - the glowing red orb in the night sky. As a new era of exploration of the Red Planet begins, we are on the cusp of finally solving its mysteries.</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430172000 +0800" channel="history_hd">
     <title lang="en">Ancient Aliens (S14)</title>
     <desc lang="en">Ancient cultures around the world often referred to gods as 'The Immortals,' but could they have encountered extraterrestrial beings that had achieved eternal life?</desc>
@@ -4592,10 +4576,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430161000 +0800" stop="20250430162000 +0800" channel="nickjr">
-    <title lang="en">A Not So Grand Opening</title>
-    <desc lang="en">When Sharkdog accidentally eats the aquarium's newest exhibit, Max and the Sharkpack must come up with a plan before Mr. Ceviche, the aquarium's owner, catches on.</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430162500 +0800" channel="nickjr">
     <title lang="en">The Fast and The Fishy</title>
     <desc lang="en">Max is determined to win this year's obstacle course race, but that may be difficult with Sharkdog always trying to help.</desc>
@@ -5172,10 +5152,6 @@
     <display-name lang="en">axn</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430153000 +0800" stop="20250430162000 +0800" channel="axn">
-    <title lang="en">CSI: Vegas (Season 3)</title>
-    <desc lang="en">The CSI team investigates the death of a local antique shop owner who died from an apparent gunshot wound that is missing one important clue - the bullet. Also, Max makes an important breakthrough in the ongoing case with Ocho from the robotics factory.</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430171000 +0800" channel="axn">
     <title lang="en">FBI: International 3</title>
     <desc lang="en">When a disgraced former U.S. cabinet member is arrested in Vienna, the Fly Team is sent to investigate whether he and his assistant were peddling classified government documents.</desc>
@@ -5495,6 +5471,10 @@
   <programme start="20250501155900 +0800" stop="20250501162300 +0800" channel="moonbug_kids">
     <title lang="en">Get Ready to Sing Along</title>
     <desc lang="en">Join Mia, Twinkle the Star and Baby Max for some of your favourite nursery rhymes!</desc>
+  </programme>
+  <programme start="20250501162300 +0800" stop="20250501165700 +0800" channel="moonbug_kids">
+    <title lang="en">Bingo is Pawfect!</title>
+    <desc lang="en">It's song and dance time! Join JJ, his friends and family celebrating life's big moments for little kids.</desc>
   </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
@@ -6282,10 +6262,6 @@
     <display-name lang="en">thrill</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430144500 +0800" stop="20250430162000 +0800" channel="thrill">
-    <title lang="en">Funeral Vigil</title>
-    <desc lang="en">Night vigils are done at funerals as the souls are said to linger three days after death. Si is a gambler who only goes home when he needs money from his mother and is not around when she dies. When he learns that his mother has buried treasure at home, Si returns to keep a vigil for her in order to find the treasure. Strange things start to occur…</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430175000 +0800" channel="thrill">
     <title lang="en">Sa Haba Ng Gabi</title>
     <desc lang="en">Two housemaids and a driver take shelter at their employer's mansion when a zombie outbreak happens one night. Can they all survive the night?</desc>
@@ -6526,10 +6502,6 @@
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250430160000 +0800" stop="20250430162000 +0800" channel="knowledge_channel">
-    <title lang="en">Grade 10 Filipino</title>
-    <desc lang="en">Ang mga palabas na ito ay tumatalakay sa iba't ibang akda at maikling kuwento na may kinalaman sa kulturang Asyano. Susuriin din dito ang mga tauhan, mahahalagang pangyayari, at kaisipan sa binasang akda.</desc>
-  </programme>
   <programme start="20250430162000 +0800" stop="20250430164000 +0800" channel="knowledge_channel">
     <title lang="en">Grade 10 Math</title>
     <desc lang="en">These episodes explain the key concepts of measures of position.</desc>

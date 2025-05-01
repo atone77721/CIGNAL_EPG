@@ -724,10 +724,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250501224500 +0800" stop="20250502002000 +0800" channel="cg_hbofam">
-    <title lang="en">An American Girl: Chrissa Stands Strong</title>
-    <desc lang="en">When Chrissa moves to a new school in the middle of the year, she is greeted by the girls in her fourth-grade class with teasing and tricks.</desc>
-  </programme>
   <programme start="20250502002000 +0800" stop="20250502003100 +0800" channel="cg_hbofam">
     <title lang="en">Chowder S2</title>
     <desc lang="en">Gazpacho and Chowder try to find a way to stand up to a customer.</desc>
@@ -1340,10 +1336,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250501235500 +0800" stop="20250502002000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">When the town’s well runs dry, Hiccup and Toothless discover a group of baby Whispering Death dragons living in the tunnels underneath, planted there by Alvin.</desc>
-  </programme>
   <programme start="20250502002000 +0800" stop="20250502004500 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Snotlout is concerned when his dragon’s flame goes out and the kids have to figure out how to reignite it before it’s too late.</desc>
@@ -1579,6 +1571,10 @@
   <programme start="20250502235500 +0800" stop="20250503002000 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">The gang competes to see who can best train a Terrible Terror, while Alvin is closing in on Berk.</desc>
+  </programme>
+  <programme start="20250503002000 +0800" stop="20250503004500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">When different species of dragons are found on Dragon Island, the kids suspect that the Screaming Death might be back and it's up to an unlikely hero to save the day.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -2564,10 +2560,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250501235500 +0800" stop="20250502002000 +0800" channel="dreamworks_hd">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">When the town’s well runs dry, Hiccup and Toothless discover a group of baby Whispering Death dragons living in the tunnels underneath, planted there by Alvin.</desc>
-  </programme>
   <programme start="20250502002000 +0800" stop="20250502004500 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Snotlout is concerned when his dragon’s flame goes out and the kids have to figure out how to reignite it before it’s too late.</desc>
@@ -2804,14 +2796,14 @@
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">The gang competes to see who can best train a Terrible Terror, while Alvin is closing in on Berk.</desc>
   </programme>
+  <programme start="20250503002000 +0800" stop="20250503004500 +0800" channel="dreamworks_hd">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">When different species of dragons are found on Dragon Island, the kids suspect that the Screaming Death might be back and it's up to an unlikely hero to save the day.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250501235500 +0800" stop="20250502002200 +0800" channel="animal_planet">
-    <title lang="en">Meet The Orangutans (S1)</title>
-    <desc lang="en">In today’s show: Four-year-old Gelison is the laziest baby in nursery and a bully to boot.</desc>
-  </programme>
   <programme start="20250502002200 +0800" stop="20250502005000 +0800" channel="animal_planet">
     <title lang="en">Meet The Orangutans (S1)</title>
     <desc lang="en">In today’s show: Over-confident five-year olds Lumi and Kacy get everyone worried sick when they disappear from the centre for almost a week</desc>
@@ -2939,6 +2931,10 @@
   <programme start="20250502235500 +0800" stop="20250503002200 +0800" channel="animal_planet">
     <title lang="en">Meet The Orangutans (S1)</title>
     <desc lang="en">Baby Chiquita is quite the Diva. At just three years old, she’s capable of throwing tantrums worthy of top Prima Donnas</desc>
+  </programme>
+  <programme start="20250503002200 +0800" stop="20250503005000 +0800" channel="animal_planet">
+    <title lang="en">Meet The Orangutans (S1)</title>
+    <desc lang="en">The rainy season has arrived in Borneo, and the only way to keep the Orangutans parasite-free is a monthly worming injection.</desc>
   </programme>
   <channel id="SPOTV_HD">
     <display-name lang="en">SPOTV_HD</display-name>
@@ -7032,10 +7028,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250501235500 +0800" stop="20250502002000 +0800" channel="nickjr">
-    <title lang="en">DORA</title>
-    <desc lang="en">Dora, Boots, and Map help Tío Tesoro find his treasure trackers and become a treasure map again. // Dora and Boots investigate a mysterious key so they can discover more about Dora's great-great grandma, the first exploradora.</desc>
-  </programme>
   <programme start="20250502002000 +0800" stop="20250502004000 +0800" channel="nickjr">
     <title lang="en">BARBAPAPA - One Big Happy Family!</title>
     <desc lang="en">Barbabright coats the house in magic product to prevent water leakage. The next day, The house deflates like a balloon. // A bird builds its nest on Barbazoo's belly. Barbazoo wants to become a big tree to shelter animals. This becomes complicated.</desc>
@@ -7432,14 +7424,14 @@
     <title lang="en">DORA</title>
     <desc lang="en">Abuela shows Dora her photo album of birds, with one page blank: the Quickatoo. Dora vows to find the Quickatoo and get a picture to complete the album. // Dora and Boots help a baby parrot named Lorito find his Mami, but he can't stop copying Boots!</desc>
   </programme>
+  <programme start="20250503002000 +0800" stop="20250503004000 +0800" channel="nickjr">
+    <title lang="en">BARBAPAPA - One Big Happy Family!</title>
+    <desc lang="en">The barbababies discover a strange cave. Barbalib tells the story of the caves Barbapapa and how they transformed. // The Barbababies have a sleepover in the living room. Fearing the monsters in the closet, they set up wacky traps to catch them.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250501234000 +0800" stop="20250502002000 +0800" channel="warnertv_hd">
-    <title lang="en">East New York S1 10</title>
-    <desc lang="en">With Bentley fighting for his life, Haywood and team race to track down the shooter, whose true target may have been another one of their own.</desc>
-  </programme>
   <programme start="20250502002000 +0800" stop="20250502004500 +0800" channel="warnertv_hd">
     <title lang="en">Container Wars S2 1</title>
     <desc lang="en">The biggest auction on the planet explodes when a mysterious container from the Far East makes landfall in Los Angeles.   Jason thinks he has the inside track, but will someone else unlock its secrets to land the biggest score yet?</desc>
@@ -8474,6 +8466,10 @@
   </programme>
   <programme start="20250502234500 +0800" stop="20250503001800 +0800" channel="moonbug_kids">
     <title lang="en">Love Your Family</title>
+    <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
+  </programme>
+  <programme start="20250503001800 +0800" stop="20250503005600 +0800" channel="moonbug_kids">
+    <title lang="en">Be Safe!</title>
     <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
   </programme>
   <channel id="tapactionflix_hd">
@@ -9720,10 +9716,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502000000 +0800" stop="20250502002000 +0800" channel="nickelodeon">
-    <title lang="en">The Casagrandes</title>
-    <desc lang="en">Abuela teaches Ronnie Anne that getting ingredients for dinner is no small task. // When Vito's apartment floods, the kids try to find an apartment that suits him best.</desc>
-  </programme>
   <programme start="20250502002000 +0800" stop="20250502004500 +0800" channel="nickelodeon">
     <title lang="en">Tyler Perry's Young Dylan</title>
     <desc lang="en">Dylan receives disappointing news and finds out that true self-confidence comes from within and shouldn't compromise relationships. Rebecca learns when it comes to creativity sometimes less is more.</desc>
@@ -9979,6 +9971,10 @@
   <programme start="20250503000000 +0800" stop="20250503002000 +0800" channel="nickelodeon">
     <title lang="en">The Casagrandes</title>
     <desc lang="en">Celebrity psychic Ernesto Estrella deems Great Lakes City to be bad luck and Abuela believes him!</desc>
+  </programme>
+  <programme start="20250503002000 +0800" stop="20250503004500 +0800" channel="nickelodeon">
+    <title lang="en">Tyler Perry's Young Dylan</title>
+    <desc lang="en">Dylan and Charlie are in too deep when a little white lie leads to a grave consequence. Rebecca is determined to prove that the boys are deceiving Yasmine and Myles.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

@@ -500,6 +500,10 @@
     <title lang="en">North Country</title>
     <desc lang="en">A single mother retaliates against her male co-workers in an iron mine, leading to the first class-action lawsuit for sexual discrimination in America.</desc>
   </programme>
+  <programme start="20250503091000 +0800" stop="20250503104000 +0800" channel="cg_hbohd">
+    <title lang="en">The Secret Life Of Pets</title>
+    <desc lang="en">When a pampered terrier and his owner’s newly adopted pet get lost in New York City, they must put aside their differences to survive the journey back home.</desc>
+  </programme>
   <channel id="tvup_prd">
     <display-name lang="en">tvup_prd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -899,6 +903,10 @@
   <programme start="20250503084600 +0800" stop="20250503090700 +0800" channel="cg_hbofam">
     <title lang="en">Scooby-Doo And Guess Who? S1</title>
     <desc lang="en">When Scooby and the gang are taking a tour of merry old London they run afoul of horrible screaming skulls of English legend!</desc>
+  </programme>
+  <programme start="20250503090700 +0800" stop="20250503092800 +0800" channel="cg_hbofam">
+    <title lang="en">Scooby-Doo And Guess Who? S1</title>
+    <desc lang="en">Scooby-Doo and the gang travel to Chambersburg a battlefield near Gettysburg to investigate the mysterious appearance of ghost zombie Civil War soldiers.</desc>
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
@@ -1312,10 +1320,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502085500 +0800" stop="20250502092000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Trolls: The Beat Goes On!</title>
-    <desc lang="en">When the Party Crashers invade Troll Village, they trap Poppy and Branch, party throughout the village, and challenge the Trolls to a dramatic sing-off</desc>
-  </programme>
   <programme start="20250502092000 +0800" stop="20250502094500 +0800" channel="cg_dreamworktag">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">Rumors of scary sea monsters in the East End take the kids on a journey of discovering you shouldn’t believe everything you hear. / Mysterious globs disturbing the ocean turn out to be the byproduct of food from Unicorn Land.</desc>
@@ -1551,6 +1555,10 @@
   <programme start="20250503085500 +0800" stop="20250503092000 +0800" channel="cg_dreamworktag">
     <title lang="en">Spirit Riding Free</title>
     <desc lang="en">Spirit and Lucky desperately try to find a way back to one another.</desc>
+  </programme>
+  <programme start="20250503092000 +0800" stop="20250503094500 +0800" channel="cg_dreamworktag">
+    <title lang="en">	 Abominable and The Invisible City</title>
+    <desc lang="en">Right before basketball tryouts, Peng learns from NaiNai that it is his “big bad” year on the zodiac calendar – which means bad luck. Peng is skeptical at first, but after seeing the positive effects of adhering to NaiNai’s superstitions, he dives headfirst into learning all he can to secure his spot on the team. Eventually, he becomes so consumed that he “breaks up” with Yi and Jin because of their zodiac incompatibility. Cut from tryouts, Peng eventually realizes with the help of his friends that he went overboard and he has more to offer than just basketball.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -2056,10 +2064,6 @@
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502084500 +0800" stop="20250502091500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Unikitty</title>
-    <desc lang="en">Unikitty and gang get on the Sugar Crash roller coaster.</desc>
-  </programme>
   <programme start="20250502091500 +0800" stop="20250502101500 +0800" channel="cartoon_net_hd">
     <title lang="en">The Tom And Jerry Show</title>
     <desc lang="en">When Jerry gets a cold he gets no help from Tom.</desc>
@@ -2211,6 +2215,10 @@
   <programme start="20250503084500 +0800" stop="20250503091500 +0800" channel="cartoon_net_hd">
     <title lang="en">Tiny Toons Looniversity</title>
     <desc lang="en">It's picture day at Acme Loo! Babs accidentally shrinks herself, Buster fails to get the perfect photo day haircut.</desc>
+  </programme>
+  <programme start="20250503091500 +0800" stop="20250503094000 +0800" channel="cartoon_net_hd">
+    <title lang="en">Teen Titans Go!</title>
+    <desc lang="en">Sticky Joe loses his shoe and embarks on a wild adventure!</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -2508,10 +2516,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502085500 +0800" stop="20250502092000 +0800" channel="dreamworks_hd">
-    <title lang="en">Trolls: The Beat Goes On!</title>
-    <desc lang="en">When the Party Crashers invade Troll Village, they trap Poppy and Branch, party throughout the village, and challenge the Trolls to a dramatic sing-off</desc>
-  </programme>
   <programme start="20250502092000 +0800" stop="20250502094500 +0800" channel="dreamworks_hd">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">Rumors of scary sea monsters in the East End take the kids on a journey of discovering you shouldn’t believe everything you hear. / Mysterious globs disturbing the ocean turn out to be the byproduct of food from Unicorn Land.</desc>
@@ -2747,6 +2751,10 @@
   <programme start="20250503085500 +0800" stop="20250503092000 +0800" channel="dreamworks_hd">
     <title lang="en">Spirit Riding Free</title>
     <desc lang="en">Spirit and Lucky desperately try to find a way back to one another.</desc>
+  </programme>
+  <programme start="20250503092000 +0800" stop="20250503094500 +0800" channel="dreamworks_hd">
+    <title lang="en">	 Abominable and The Invisible City</title>
+    <desc lang="en">Right before basketball tryouts, Peng learns from NaiNai that it is his “big bad” year on the zodiac calendar – which means bad luck. Peng is skeptical at first, but after seeing the positive effects of adhering to NaiNai’s superstitions, he dives headfirst into learning all he can to secure his spot on the team. Eventually, he becomes so consumed that he “breaks up” with Yi and Jin because of their zodiac incompatibility. Cut from tryouts, Peng eventually realizes with the help of his friends that he went overboard and he has more to offer than just basketball.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -4264,6 +4272,10 @@
     <title lang="en">Arirang Creative Lab A</title>
     <desc lang="en">Arirang Creative Lab A</desc>
   </programme>
+  <programme start="20250503092000 +0800" stop="20250503093000 +0800" channel="arirang">
+    <title lang="en">Exploring Korean Literature A</title>
+    <desc lang="en">Exploring Korean Literature A</desc>
+  </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4592,6 +4604,10 @@
     <title lang="en">The Fishermen and the Sea S3</title>
     <desc lang="en">The new season of this Korean fishing variety show, hosted by two celebrity hosts who are fishing enthusiasts, sets sail with celebrity guests such as K-Pop idols Lee Know (Straykids), Yuno (Ateez), and Ha Sung Woon (Wanna One). The programme features some beautiful fishing spots around Korea and shares useful fishing tips with the viewers.</desc>
   </programme>
+  <programme start="20250503090500 +0800" stop="20250503103500 +0800" channel="kix_hd">
+    <title lang="en">Army of One</title>
+    <desc lang="en">Special Forces agent Brenner and her husband stumble upon an illegal drug compound in the woods while hiking. The drug dealers capture them, kill her husband, and leave her for dead. Not only does Brenner escape alive, she is also seething with rage and vows to hunt down all who murdered her husband and take revenge!</desc>
+  </programme>
   <channel id="lifetime">
     <display-name lang="en">lifetime</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4784,10 +4800,6 @@
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502085500 +0800" stop="20250502092000 +0800" channel="hgtv_hd">
-    <title lang="en">House Hunters (S107)</title>
-    <desc lang="en">A young professional is looking for the perfect apartment to call home in Washington, D.C.</desc>
-  </programme>
   <programme start="20250502092000 +0800" stop="20250502101000 +0800" channel="hgtv_hd">
     <title lang="en">100 Day Hotel Challenge (S1)</title>
     <desc lang="en">Brian and Mika take the competition outside with an amenity showdown as all new guest designers aim to bring empty outdoor lounges back to life!</desc>
@@ -4936,6 +4948,10 @@
     <title lang="en">Unsellable Houses (S5)</title>
     <desc lang="en">Market factors cause Lyndsay and Leslie to increase their investment for a landlord couple trying to sell their nearly $1 million duplex.</desc>
   </programme>
+  <programme start="20250503092000 +0800" stop="20250503094500 +0800" channel="hgtv_hd">
+    <title lang="en">My Lottery Dream Home (S14)</title>
+    <desc lang="en">David searches for a Midwestern couple who are ready for the relaxing vibes of Central Florida.</desc>
+  </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4964,10 +4980,6 @@
     <display-name lang="en">travel_channel</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502082400 +0800" stop="20250502091200 +0800" channel="travel_channel">
-    <title lang="en">Ufo Witness (S2)</title>
-    <desc lang="en">Ben and Melissa explore a recent trend that has them concerned. Are extra-terrestrials brainwashing their victims in a plot to dominate humanity?</desc>
-  </programme>
   <programme start="20250502091200 +0800" stop="20250502093600 +0800" channel="travel_channel">
     <title lang="en">Island Hunters (S3)</title>
     <desc lang="en">A Toronto-based couple and their two children shop for and purchase an island in northern Ontario.</desc>
@@ -5112,6 +5124,10 @@
     <title lang="en">Trip Flip (S2)</title>
     <desc lang="en">Bert takes two willing travelers to Australia's Great Barrier Reef.</desc>
   </programme>
+  <programme start="20250503091200 +0800" stop="20250503093600 +0800" channel="travel_channel">
+    <title lang="en">Beachfront Bargain Hunt (S22)</title>
+    <desc lang="en">A couple want a weekend retreat along the Jersey Shore where they can raise their baby. They’re looking for a spacious home to escape the city.</desc>
+  </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -5216,10 +5232,6 @@
     <display-name lang="en">pbo</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502073000 +0800" stop="20250502091500 +0800" channel="pbo">
-    <title lang="en">Ang Pahina</title>
-    <desc lang="en">Because of Mira’s (Kiray Celis) determination to convinced her loved one study, she, together with her mother Linda, Mang Johnny and Paul all have graduated with flying colors with the help of DepEd’s Alternative Learning System. </desc>
-  </programme>
   <programme start="20250502091500 +0800" stop="20250502111500 +0800" channel="pbo">
     <title lang="en">Nuuk</title>
     <desc lang="en">Elaisa (Alice Dixson) is a Filipino widow who lives in Nuuk with her rebellious adult son Karl. She meets a visiting Filipino seaman Mark (Aga Muhlach). He is friendly and caring. But a blizzard is threatening to cause more havoc in her life.</desc>
@@ -5628,10 +5640,6 @@
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502084800 +0800" stop="20250502091200 +0800" channel="foodnetwork_hd">
-    <title lang="en">Triple D Nation: Steak, Sausage And Salami</title>
-    <desc lang="en">It's meat mayhem as Guy Fieri checks out over-the-top meaty joints in Utah, Arizona and Nebraska.</desc>
-  </programme>
   <programme start="20250502091200 +0800" stop="20250502093600 +0800" channel="foodnetwork_hd">
     <title lang="en">Diners, Drive-Ins, And Dives (S33)</title>
     <desc lang="en">Guy Fieri combines cooking at home with great restaurant food when four DDD alums send ingredients and join Guy via video chat to cook the recipes.</desc>
@@ -5779,6 +5787,10 @@
   <programme start="20250503082400 +0800" stop="20250503091200 +0800" channel="foodnetwork_hd">
     <title lang="en">Guy! Hawaiian Style (S1)</title>
     <desc lang="en">On Maui, Guy Fieri and his family go deep-sea fishing and cook their catch with the help of some DDD buddies.</desc>
+  </programme>
+  <programme start="20250503091200 +0800" stop="20250503093600 +0800" channel="foodnetwork_hd">
+    <title lang="en">Cheap Eats (S2)</title>
+    <desc lang="en">Ali Khan checks out the best meal deals in Des Moines, Iowa.</desc>
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
@@ -6736,6 +6748,10 @@
     <title lang="en">NHK NEWSLINE</title>
     <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
   </programme>
+  <programme start="20250503091000 +0800" stop="20250503100000 +0800" channel="nhk_japan">
+    <title lang="en">Barakan Discovers KUMANO</title>
+    <desc lang="en">Minakata Kumagusu, a renowned ecologist, defended the sacred forests of Kumano in the Kii Mountain Range. He saved them from extinction by fighting the government near the start of the 20th century.</desc>
+  </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
     <url>http://www.cignalplay.com</url>
@@ -7312,10 +7328,6 @@
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502083000 +0800" stop="20250502092000 +0800" channel="warnertv_hd">
-    <title lang="en">Arrow S2 12</title>
-    <desc lang="en">When Laurel asks the Arrow to investigate Sebastian Blood, Oliver is unsure whether to believe her accusations.  But when they get too close to the truth, Blood strikes back.</desc>
-  </programme>
   <programme start="20250502092000 +0800" stop="20250502094500 +0800" channel="warnertv_hd">
     <title lang="en">Hack My Life S3 01</title>
     <desc lang="en">Gather 'round for a most hackful holiday celebration, as Brooke and Kevin demonstrate how to navigate any holiday office party like a pro Elf, and explain how the ball drop became a New Year's tradition.</desc>
@@ -7491,6 +7503,10 @@
   <programme start="20250503085500 +0800" stop="20250503092000 +0800" channel="warnertv_hd">
     <title lang="en">Caught! (Season 2) S2 8</title>
     <desc lang="en">Officers in high-velocity situations need to make life-or-death decisions and put their lives in danger to protect and serve every day.</desc>
+  </programme>
+  <programme start="20250503092000 +0800" stop="20250503094500 +0800" channel="warnertv_hd">
+    <title lang="en">Caught! (Season 2) S2 9</title>
+    <desc lang="en">See these incredible brushes with disaster, close calls and near-death events avoided by split-second decisions that change the course of fate.</desc>
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
@@ -8168,10 +8184,6 @@
     <display-name lang="en">moonbug_kids</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502083500 +0800" stop="20250502090700 +0800" channel="moonbug_kids">
-    <title lang="en">Singing Time With Cody!</title>
-    <desc lang="en">Cody is now a big brother and he's ready to share all-new adventures full of music, games &amp; creativity!</desc>
-  </programme>
   <programme start="20250502090700 +0800" stop="20250502094500 +0800" channel="moonbug_kids">
     <title lang="en">ABC's and Counting With JJ</title>
     <desc lang="en">It's song and dance time! Join JJ, his friends and family celebrating life's big moments for little kids.</desc>
@@ -8344,6 +8356,10 @@
     <title lang="en">We Love Bingo!</title>
     <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
   </programme>
+  <programme start="20250503090800 +0800" stop="20250503094000 +0800" channel="moonbug_kids">
+    <title lang="en">JJ's Pawfect Pets!</title>
+    <desc lang="en">It's song and dance time! Join JJ, his friends and family celebrating life's big moments for little kids.</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8404,14 +8420,6 @@
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502090000 +0800" stop="20250502091500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
-  <programme start="20250502091500 +0800" stop="20250502091600 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250502091600 +0800" stop="20250502093000 +0800" channel="france24">
     <title lang="en">Tête à tête</title>
     <desc lang="en">An interview with a personality from the world of economics, politics, culture or diplomacy.</desc>
@@ -8835,6 +8843,10 @@
   <programme start="20250503090000 +0800" stop="20250503091500 +0800" channel="france24">
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250503091500 +0800" stop="20250503093000 +0800" channel="france24">
+    <title lang="en">Guest of the day</title>
+    <desc lang="en">Guest of the day.</desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
@@ -9592,10 +9604,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502085500 +0800" stop="20250502092000 +0800" channel="nickelodeon">
-    <title lang="en">SpongeBob SquarePants</title>
-    <desc lang="en">After a misunderstanding, SpongeBob and Patrick try to prove their life insurance protects them from any danger! // When SpongeBob blows himself a bubble boat, everyone in town wants one! Everyone except Mrs. Puff, that is.</desc>
-  </programme>
   <programme start="20250502092000 +0800" stop="20250502094500 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Plankton closes the Chum Bucket and moves to a new town, but Mr. Krabs suspects he's still up to no good. // When SpongeBob accidentally picks up Neptune's magic trident, there's no telling what trouble he may cause!</desc>
@@ -9847,6 +9855,10 @@
   <programme start="20250503085500 +0800" stop="20250503091500 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Frustrated that he's seen as cute instead of evil, Plankton builds a robot to punish anyone who says "aww!" // Patrick crushes the mailman, so he and SpongeBob deliver the mail around Bikini Bottom.</desc>
+  </programme>
+  <programme start="20250503091500 +0800" stop="20250503094000 +0800" channel="nickelodeon">
+    <title lang="en">The Patrick Star Show</title>
+    <desc lang="en">Patrick hires other Patricks to entertain at parties. // Pat-Thos shares a Hamdonian tale of love and pork products.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

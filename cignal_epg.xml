@@ -700,10 +700,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502153500 +0800" stop="20250502162000 +0800" channel="cg_hbofam">
-    <title lang="en">Ruby And The Well S1</title>
-    <desc lang="en">A wish involving a librarian, a treasure map and a new perspective all help Ruby discover that her love of helping others comes from her late mom.</desc>
-  </programme>
   <programme start="20250502162000 +0800" stop="20250502163500 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S3</title>
     <desc lang="en">The ghosts and ghouls of the Orlock are spooked when suddenly a mysterious visitor appears revealing a tie to Bunnicula's past.</desc>
@@ -1625,10 +1621,6 @@
     <display-name lang="en">globaltrekker</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502152500 +0800" stop="20250502162000 +0800" channel="globaltrekker">
-    <title lang="en">Exceptional Engineering S2</title>
-    <desc lang="en">Electricity harnessed from wind has become the second largest source of energy in Germany since 2017. Nearly 30,000 wind turbines are operating throughout the country, covering approx. 19 percent of energy consumption.</desc>
-  </programme>
   <programme start="20250502162000 +0800" stop="20250502171500 +0800" channel="globaltrekker">
     <title lang="en">The Lost Tapes S2</title>
     <desc lang="en">Witness the story of President Clinton's impeachment, presented through archival footage of the day.</desc>
@@ -2184,6 +2176,10 @@
   <programme start="20250503161500 +0800" stop="20250503162000 +0800" channel="cartoon_net_hd">
     <title lang="en">Lamput</title>
     <desc lang="en">Lamput escapes the Lab, and unenviable task of orange-blob-retrieval falls to Specs and Skinny.</desc>
+  </programme>
+  <programme start="20250503162000 +0800" stop="20250503164500 +0800" channel="cartoon_net_hd">
+    <title lang="en">Clarence</title>
+    <desc lang="en">What Clarence does before the sun rises…</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -3281,10 +3277,6 @@
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502152500 +0800" stop="20250502162000 +0800" channel="bbcearth_hd">
-    <title lang="en">How Did They Build That? 1</title>
-    <desc lang="en">Discover how engineers built Zaha Hadid's Antwerp Port House, find out how 432 Park Avenue New York was built and marvel at Kengo Kuma's Victoria &amp; Albert Museum in Dundee, Scotland.</desc>
-  </programme>
   <programme start="20250502162000 +0800" stop="20250502171000 +0800" channel="bbcearth_hd">
     <title lang="en">Extreme Fishing with Robson Green 2</title>
     <desc lang="en">Robson heads out on the Fraser River to find Canada's largest game fish; the mighty sturgeon, which can reach weights of 1000 lbs and lengths of 12ft.</desc>
@@ -4353,6 +4345,10 @@
     <title lang="en">My Neighbor, Charles</title>
     <desc lang="en">Foreigners, leaving their homelands behind, have come all the way to new country, South Korea. They chose South Korea not for sightseeing or short-term stay. But, they are here for various reasons, such as work, study or even marriage. The real stories of foreigners who challenge themselves to survive in Korean society will be unfolded!</desc>
   </programme>
+  <programme start="20250503162000 +0800" stop="20250503175000 +0800" channel="kbs_world">
+    <title lang="en">Moving Voices</title>
+    <desc lang="en">A global music trip to experience the music and the culture of various countries.</desc>
+  </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -4564,6 +4560,10 @@
   <programme start="20250503141500 +0800" stop="20250503162000 +0800" channel="kix_hd">
     <title lang="en">The Fishermen and the Sea S3</title>
     <desc lang="en">The new season of this Korean fishing variety show, hosted by two celebrity hosts who are fishing enthusiasts, sets sail with celebrity guests such as K-Pop idols Lee Know (Straykids), Yuno (Ateez), and Ha Sung Woon (Wanna One). The programme features some beautiful fishing spots around Korea and shares useful fishing tips with the viewers.</desc>
+  </programme>
+  <programme start="20250503162000 +0800" stop="20250503173500 +0800" channel="kix_hd">
+    <title lang="en">Iron Ball</title>
+    <desc lang="en">This sports entertainment show brings the best special forces from Iron Squad to take on a new challenge – dodgeball. The 26 players will enter a fierce competition, until a strongest team armed with powerful athletic endurance and mental strength is formed. Witness how they compete in front of the star athletes and legendary dodgeball coaches!</desc>
   </programme>
   <channel id="lifetime">
     <display-name lang="en">lifetime</display-name>
@@ -5909,10 +5909,6 @@
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502152500 +0800" stop="20250502162000 +0800" channel="history_hd">
-    <title lang="en">The Mega-Brands That Built The World (S1)</title>
-    <desc lang="en">The founding fathers of the biggest retail stores in the world battle to be the first to innovate, build, and revolutionise the industry. And Sam Walton will construct the world's largest retail empire.</desc>
-  </programme>
   <programme start="20250502162000 +0800" stop="20250502172000 +0800" channel="history_hd">
     <title lang="en">Pawn Stars (S24)</title>
     <desc lang="en">When a seller strolls in with a collection of action figures signed by the cast of 'The Walking Dead', will Chum bite? Then, Corey is too cool when a 'Rock n Roll High School' poster comes into the shop.</desc>
@@ -6016,6 +6012,10 @@
   <programme start="20250503152500 +0800" stop="20250503162000 +0800" channel="history_hd">
     <title lang="en">Holy Marvels With Dennis Quaid</title>
     <desc lang="en">In the Bible, there are two Arks, each designed by God himself. Both the Ark of the Covenant and Noah's Ark were built to protect but lost to history. Did either exist, and if so, where could they be?</desc>
+  </programme>
+  <programme start="20250503162000 +0800" stop="20250503172000 +0800" channel="history_hd">
+    <title lang="en">The UnXplained With William Shatner (S3)</title>
+    <desc lang="en">There have been many sacred relics believed to be imbued with mystical powers. Is it possible that these ordinary items, like a tooth, or a soldier's spear, can have the ability to perform miracles?</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -6905,10 +6905,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250502161000 +0800" stop="20250502162000 +0800" channel="nickjr">
-    <title lang="en">Sharkdog</title>
-    <desc lang="en">When Sharkdog accidentally destroys the boardwalk, Max and Sharkpack must prove to everyone that Sharkdog is a really great pet.</desc>
-  </programme>
   <programme start="20250502162000 +0800" stop="20250502162500 +0800" channel="nickjr">
     <title lang="en">Sharkdog</title>
     <desc lang="en">All Sharkdog wants to do is play with his new toy, but when Dad ends up on a wild adventure through town, Sharkdog must give up his playtime and come to Dad's rescue.</desc>
@@ -7288,6 +7284,10 @@
   <programme start="20250503161000 +0800" stop="20250503162000 +0800" channel="nickjr">
     <title lang="en">Sharkdog</title>
     <desc lang="en">The Sharkpack are excited to watch the meteor shower on Foggy Springs's highest mountain, and Sharkdog knows the best way to get there. The only problem? Captain Quigley thinks she does too.</desc>
+  </programme>
+  <programme start="20250503162000 +0800" stop="20250503162500 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">Sharkdog has fleas! Sea fleas, that is. Max will do whatever it takes to get rid of them, but that may be tough because Sharkdog is so itchy, he can't sit still!</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -8756,6 +8756,10 @@
   <programme start="20250503161500 +0800" stop="20250503162100 +0800" channel="france24">
     <title lang="en">French Connections</title>
     <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
+  </programme>
+  <programme start="20250503162100 +0800" stop="20250503163000 +0800" channel="france24">
+    <title lang="en">Fashion</title>
+    <desc lang="en">Young creative minds and experienced gurus of fashion present their collections to the audience. Be aware of what is in the spotlight every season and find out the latest trends. Follow haute couture news, videos, reports and analyses, and look behind the scene of Parisian catwalks. </desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>

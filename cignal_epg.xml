@@ -648,10 +648,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504000900 +0800" stop="20250504002000 +0800" channel="cg_hbofam">
-    <title lang="en">Chowder S2</title>
-    <desc lang="en">Gumbo traps Chowder in a deadly maze.</desc>
-  </programme>
   <programme start="20250504002000 +0800" stop="20250504003100 +0800" channel="cg_hbofam">
     <title lang="en">Chowder S2</title>
     <desc lang="en">All of Marzipan City's apprentices must take the BLTs (Basic Learning Tests).</desc>
@@ -879,6 +875,10 @@
   <programme start="20250504235000 +0800" stop="20250505001500 +0800" channel="cg_hbofam">
     <title lang="en">Sesame Street S54</title>
     <desc lang="en">Elmo is feeling excited and a little scared to go down the big slide for the very first time. Chris helps Elmo by holding his hand as he goes down the slide. Elmo doesn’t feel scared anymore and is ready to go down the slide again all by himself!</desc>
+  </programme>
+  <programme start="20250505001500 +0800" stop="20250505005000 +0800" channel="cg_hbofam">
+    <title lang="en">Sesame Street S54</title>
+    <desc lang="en">Elmo, Chris, and their friends on Sesame Street have dressed up as dinosaurs. With help from Elmo’s book, they learn that there are small and big dinosaurs, some dinosaurs are herbivores and some are carnivores and that Big Bird is a dinosaur!</desc>
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
@@ -1248,10 +1248,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503235500 +0800" stop="20250504002000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">Bucket and Mulch accidentally discover a Skrill, and its up to the gang to save it from the Beserkers.</desc>
-  </programme>
   <programme start="20250504002000 +0800" stop="20250504004500 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Hiccup and the gang start a secret club to prepare for the Outcast offensive.</desc>
@@ -1487,6 +1483,10 @@
   <programme start="20250504235500 +0800" stop="20250505002000 +0800" channel="cg_dreamworktag">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">The kids go on a training mission on Dragon Island, where Hiccup runs into an old enemy – Dagur!</desc>
+  </programme>
+  <programme start="20250505002000 +0800" stop="20250505004500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">When the town’s well runs dry, Hiccup and Toothless discover a group of baby Whispering Death dragons living in the tunnels underneath, planted there by Alvin.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -1752,6 +1752,10 @@
   <programme start="20250504233000 +0800" stop="20250505002000 +0800" channel="globaltrekker">
     <title lang="en">Wildest Survival</title>
     <desc lang="en">The instinct to secure a mate is one of the most powerful that there is. From the beautiful to the bizarre, this episode explores the most amazing mating rituals from right across the animal kingdom.</desc>
+  </programme>
+  <programme start="20250505002000 +0800" stop="20250505011000 +0800" channel="globaltrekker">
+    <title lang="en">Loch Lomond: A Year In The Wild</title>
+    <desc lang="en">It is now June, and the park is bathed in 17 hours of daylight. With the warm temperatures come rich pickings, but for the newborn the summer months are crucial as they learn to fight, find food and avoid predators.</desc>
   </programme>
   <channel id="cgtnenglish">
     <display-name lang="en">cgtnenglish</display-name>
@@ -2505,10 +2509,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503235500 +0800" stop="20250504002000 +0800" channel="dreamworks_hd">
-    <title lang="en">Dragons: Defenders of Berk</title>
-    <desc lang="en">Bucket and Mulch accidentally discover a Skrill, and its up to the gang to save it from the Beserkers.</desc>
-  </programme>
   <programme start="20250504002000 +0800" stop="20250504004500 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">Hiccup and the gang start a secret club to prepare for the Outcast offensive.</desc>
@@ -2744,6 +2744,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504235500 +0800" stop="20250505002000 +0800" channel="dreamworks_hd">
     <title lang="en">Dragons: Defenders of Berk</title>
     <desc lang="en">The kids go on a training mission on Dragon Island, where Hiccup runs into an old enemy – Dagur!</desc>
+  </programme>
+  <programme start="20250505002000 +0800" stop="20250505004500 +0800" channel="dreamworks_hd">
+    <title lang="en">Dragons: Defenders of Berk</title>
+    <desc lang="en">When the town’s well runs dry, Hiccup and Toothless discover a group of baby Whispering Death dragons living in the tunnels underneath, planted there by Alvin.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -3180,6 +3184,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504223500 +0800" stop="20250505002000 +0800" channel="blueant_extreme">
     <title lang="en">Shanghai</title>
     <desc lang="en">John Cusack stars as an American intelligence official who returns to Shanghai in late 1941 to investigate the death of a friend, which leads him to both love and a much larger conspiracy.</desc>
+  </programme>
+  <programme start="20250505002000 +0800" stop="20250505021500 +0800" channel="blueant_extreme">
+    <title lang="en">Bad Boys</title>
+    <desc lang="en">Two Miami cops must switch identities to track down a heroin thief and save their department.</desc>
   </programme>
   <channel id="tap_sports">
     <display-name lang="en">tap_sports</display-name>
@@ -3849,6 +3857,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">TV Drama</title>
     <desc lang="en">Chinese produced television drama</desc>
   </programme>
+  <programme start="20250505002000 +0800" stop="20250505011000 +0800" channel="cctv4">
+    <title lang="en">TV Drama</title>
+    <desc lang="en">Chinese produced television drama</desc>
+  </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -3920,6 +3932,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504221500 +0800" stop="20250505001500 +0800" channel="pbarush_hd">
     <title lang="en">Terrafirma vs Magnolia Game 26 49th PBA Philippine Cup May 4 QTA</title>
     <desc lang="en">Terrafirma vs Magnolia Game 26 49th PBA Philippine Cup May 4 QTA</desc>
+  </programme>
+  <programme start="20250505001500 +0800" stop="20250505021500 +0800" channel="pbarush_hd">
+    <title lang="en">TNT vs San Miguel Game 27 49th PBA Philippine Cup May 4 QTA</title>
+    <desc lang="en">TNT vs San Miguel Game 27 49th PBA Philippine Cup May 4 QTA</desc>
   </programme>
   <channel id="arirang">
     <display-name lang="en">arirang</display-name>
@@ -4369,10 +4385,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">kix_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503224500 +0800" stop="20250504001500 +0800" channel="kix_hd">
-    <title lang="en">Totally Outnumbered</title>
-    <desc lang="en">Totally Outnumbered is a unique Japanese variety game show where one supreme professional from a specific area of expertise faces off with a large group of amateurs in original competitions in each episode.</desc>
-  </programme>
   <programme start="20250504001500 +0800" stop="20250504012500 +0800" channel="kix_hd">
     <title lang="en">Wusong VS Ximenqing</title>
     <desc lang="en">Wu Song finds out about his sister-in-law’s affair with a rich man, Ximen Qing. Qing sets Song up and have him exiled for a year, during which his hapless brother is murdered and cremated. When Song finally returns home, he takes the case to court but the judge brushes it aside and closes it abruptly. Can Song finally avenge his brother’s death?</desc>
@@ -6789,10 +6801,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503235500 +0800" stop="20250504002000 +0800" channel="nickjr">
-    <title lang="en">DORA</title>
-    <desc lang="en">The twins are excited to see their first rainbow, but it's missing its colors! Dora sets off to return its azul, rojo, y amarillo. // Boots' rubber band ball bounces into the Forest Next Door, and he must ask Cynthia the Centipede to get it back.</desc>
-  </programme>
   <programme start="20250504002000 +0800" stop="20250504004000 +0800" channel="nickjr">
     <title lang="en">BARBAPAPA - One Big Happy Family!</title>
     <desc lang="en">Barbapapa and Barbamama go out to celebrate their birthdays. Barbabelle is in charge and gets overwhelmed. // Barbabelle watches Bali's kittens. She's scared something will happen and won't let them out. Barbamama must intervene to help the kittens.</desc>
@@ -7165,14 +7173,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">DORA</title>
     <desc lang="en">Ale the Alebrije asks Dora for her help! The Alebrije tree is wilting, so it's up to Dora to find its rainbow water. // On a super hot day, everyone wants paleta, but Val's paleta truck is stuck! Dora goes to rescue her and get paletas for everyone.</desc>
   </programme>
+  <programme start="20250505002000 +0800" stop="20250505004000 +0800" channel="nickjr">
+    <title lang="en">BARBAPAPA - One Big Happy Family!</title>
+    <desc lang="en">Mr. Strict's twins visit the barbababies. The barbababies organize a treasure hunt for the twins and enjoy the great outdoors. // The Barbapapas are off to a new adventure... in the garden. But living in nature is more complicated than they expected.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503235500 +0800" stop="20250504002000 +0800" channel="warnertv_hd">
-    <title lang="en">Caught! (Season 2) S2 2</title>
-    <desc lang="en">Throughout history, humans have dared to be wild by pulling off insane stunts, and risking it all for glory -- in modern times, their goal is those addictive internet likes!</desc>
-  </programme>
   <programme start="20250504002000 +0800" stop="20250504004500 +0800" channel="warnertv_hd">
     <title lang="en">Friends S6 21</title>
     <desc lang="en">Ross fails to impress his girlfriend's father. Joey jeopardizes his acting role by insulting a robot. Phoebe writes a book about Monica and Chandler.</desc>
@@ -8245,10 +8253,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504000000 +0800" stop="20250504001500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250504001500 +0800" stop="20250504002100 +0800" channel="france24">
     <title lang="en">French Connections</title>
     <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
@@ -8733,6 +8737,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
   </programme>
+  <programme start="20250505001500 +0800" stop="20250505003000 +0800" channel="france24">
+    <title lang="en">Access Asia</title>
+    <desc lang="en">Access Asia opens the diverse continent and presents news from its segments to the audience. Get the latest updates on the social events and political stories, thorough analysis of the cutting-edge current affairs from India, China, Indonesia, Australia and other countries. </desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8920,6 +8928,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504221500 +0800" stop="20250505001500 +0800" channel="hits_movies">
     <title lang="en">Top Gun</title>
     <desc lang="en">A daring yet reckless pilot who shuns teamwork and the rules of engagement eventually learns the importance of cooperation and discipline.  Along the way he has a fiery affair, does some spectacular flying and causes the death of his best friend.</desc>
+  </programme>
+  <programme start="20250505001500 +0800" stop="20250505021500 +0800" channel="hits_movies">
+    <title lang="en">Shutter</title>
+    <desc lang="en">A newly married couple discovers disturbing, ghostly images in photographs they develop after an eerie accident in which they believe they may have hit a young girl with their car.</desc>
   </programme>
   <channel id="channelnews_asia">
     <display-name lang="en">channelnews_asia</display-name>
@@ -9613,10 +9625,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504000000 +0800" stop="20250504002000 +0800" channel="nickelodeon">
-    <title lang="en">SpongeBob SquarePants</title>
-    <desc lang="en">SpongeBob and Patrick try to join the extreme sports team The Drasticals. // Sandy finds a book of world’s records, and tries to break them all with SpongeBob’s help.</desc>
-  </programme>
   <programme start="20250504002000 +0800" stop="20250504004500 +0800" channel="nickelodeon">
     <title lang="en">Monster High</title>
     <desc lang="en">Lagoona's creative vision is ignored by other monsters as they make a movie for the Monster High Film Festival. // Frustrated at her classmates, Toralei and her band release earworms that control everyone's thoughts.</desc>
@@ -9868,6 +9876,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250505000000 +0800" stop="20250505002000 +0800" channel="nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Squidward finds SpongeBob's diary, and starts reading it out loud in the Krusty Krab. // SpongeBob once again fails his driving test, forcing Mrs. Puff to think outside the box--and off the road.</desc>
+  </programme>
+  <programme start="20250505002000 +0800" stop="20250505004500 +0800" channel="nickelodeon">
+    <title lang="en">Monster High</title>
+    <desc lang="en">When Catarina Stripe (Torelai's mom) visits Monster High, Clawdeen is stunned when Catarina proposes a monstrous trade: Clawdeen's Moon Claw for Selena Wolf's old diary.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

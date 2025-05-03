@@ -560,10 +560,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504062500 +0800" stop="20250504074500 +0800" channel="cg_hbofam">
-    <title lang="en">The Heist Before Christmas</title>
-    <desc lang="en">This heart-warming festive TV movie centres on 10-year-old Mikey, whose humble background has left him feeling cynical about Santa and Christmas in general.</desc>
-  </programme>
   <programme start="20250504074500 +0800" stop="20250504075600 +0800" channel="cg_hbofam">
     <title lang="en">Bunnicula S2</title>
     <desc lang="en">Bunnicula's spooky brand of fun comes to an abrupt end when he drains some blueberries. They turn him blue and make him super sad.</desc>
@@ -1928,10 +1924,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504072000 +0800" stop="20250504074500 +0800" channel="cartoon_net_hd">
-    <title lang="en">The Tom And Jerry Show</title>
-    <desc lang="en">Hildie and Beatie bring home a fortune-telling magic mirror.</desc>
-  </programme>
   <programme start="20250504074500 +0800" stop="20250504081500 +0800" channel="cartoon_net_hd">
     <title lang="en">Scooby-Doo! Mystery Incorporated</title>
     <desc lang="en">Scooby and the gang receive an imitation Gatorburg purse.</desc>
@@ -7888,10 +7880,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504074400 +0800" stop="20250504074500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250504074500 +0800" stop="20250504075100 +0800" channel="france24">
     <title lang="en">Sports</title>
     <desc lang="en">A summary of world sports news of the day, both on and off the pitch.</desc>
@@ -8368,6 +8356,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
   </programme>
+  <programme start="20250505074500 +0800" stop="20250505075100 +0800" channel="france24">
+    <title lang="en">Global Grid</title>
+    <desc lang="en">France 24's International Affairs Editors come on set to give you their take on world events.</desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8644,10 +8636,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">crime_investigation</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504071500 +0800" stop="20250504074500 +0800" channel="crime_investigation">
-    <title lang="en">My Strange Arrest</title>
-    <desc lang="en">A look at some of the strangest arrests from across the country. A man decides to interrupt his crime to make a pizza; police track down a man who jumped through the roof of a port-a-potty; and more.</desc>
-  </programme>
   <programme start="20250504074500 +0800" stop="20250504084000 +0800" channel="crime_investigation">
     <title lang="en">60 Days In (S8)</title>
     <desc lang="en">The first three participants enter Pitt County Detention Center to begin their 60 days inside the jail.</desc>
@@ -8763,6 +8751,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250505065000 +0800" stop="20250505074500 +0800" channel="crime_investigation">
     <title lang="en">Tell Me How I Died</title>
     <desc lang="en">After a man is shot dead, pathologist Dr. Antoine Wrice works with investigators to interpret unusual evidence found on the scene and unwind the complex case that could be more than a typical homicide.</desc>
+  </programme>
+  <programme start="20250505074500 +0800" stop="20250505084000 +0800" channel="crime_investigation">
+    <title lang="en">60 Days In (S8)</title>
+    <desc lang="en">As two more participants enter Pitt County Detention Center, some may already be wavering on their commitment to make it through quarantine.</desc>
   </programme>
   <channel id="tech_storm">
     <display-name lang="en">tech_storm</display-name>
@@ -9260,10 +9252,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250504072000 +0800" stop="20250504074500 +0800" channel="nickelodeon">
-    <title lang="en">The Loud House</title>
-    <desc lang="en">When Mom is assigned a travel article at work, she takes the entire family on a cross country road trip. But the trip gets off to a bumpy start when Lincoln tries to change Mom's itinerary to go to Dr. Weirdly's Bizarritorium.</desc>
-  </programme>
   <programme start="20250504074500 +0800" stop="20250504080500 +0800" channel="nickelodeon">
     <title lang="en">The Loud House</title>
     <desc lang="en">During a visit of the White House, the Loud kids can't help but sneak off and explore the rooms not on the tour. // Intimidated by an intense day of hiking in the Rocky Mountains, the Loud kids try to find reasons to call off the hike.</desc>
@@ -9519,6 +9507,10 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20250505072000 +0800" stop="20250505074500 +0800" channel="nickelodeon">
     <title lang="en">The Loud House</title>
     <desc lang="en">After failing to make Chef Guy Grazer a meal on his show, the kids try to erase the footage before it airs. // The kids search all over Royal Woods to find the missing furniture they left outside while cleaning.</desc>
+  </programme>
+  <programme start="20250505074500 +0800" stop="20250505081000 +0800" channel="nickelodeon">
+    <title lang="en">The Loud House</title>
+    <desc lang="en">When Darcy's birthday party falls on the same day as one of Lisa's hero scientist's talks, Lisa sends TODD in her place to the party. // Flip sees a lucrative business opportunity when he discovers Nacho has the ability to predict the weather.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

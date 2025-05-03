@@ -160,10 +160,6 @@
     <display-name lang="en">rptv</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503153000 +0800" stop="20250503161500 +0800" channel="rptv">
-    <title lang="en">Budol Alert</title>
-    <desc lang="en">Budol Alert</desc>
-  </programme>
   <programme start="20250503161500 +0800" stop="20250503163000 +0800" channel="rptv">
     <title lang="en">Wow Mali Doble Tawa</title>
     <desc lang="en">Wow Mali Doble Tawa</desc>
@@ -231,6 +227,10 @@
   <programme start="20250504153000 +0800" stop="20250504161500 +0800" channel="rptv">
     <title lang="en">Top 5: Mga Kwentong Marc Logan</title>
     <desc lang="en">Top 5: Mga Kwentong Marc Logan</desc>
+  </programme>
+  <programme start="20250504161500 +0800" stop="20250504163000 +0800" channel="rptv">
+    <title lang="en">Wow Mali Doble Tawa</title>
+    <desc lang="en">Wow Mali Doble Tawa</desc>
   </programme>
   <channel id="truefmtv">
     <display-name lang="en">truefmtv</display-name>
@@ -1260,10 +1260,6 @@
     <display-name lang="en">cg_tvnmovie</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503150500 +0800" stop="20250503161500 +0800" channel="cg_tvnmovie">
-    <title lang="en">Mr. Queen Ep7</title>
-    <desc lang="en">After an accident, Jang Bong-hwan finds himself transported back in time to the Joseon dynasty, trapped in the body of Queen Cheo-rin, wife to King Cheol-jong, the reigning monarch of that period.</desc>
-  </programme>
   <programme start="20250503161500 +0800" stop="20250503172500 +0800" channel="cg_tvnmovie">
     <title lang="en">Mr. Queen Ep8</title>
     <desc lang="en">After an accident, Jang Bong-hwan finds himself transported back in time to the Joseon dynasty, trapped in the body of Queen Cheo-rin, wife to King Cheol-jong, the reigning monarch of that period.</desc>
@@ -2132,14 +2128,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503154500 +0800" stop="20250503161500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Grizzy And The Lemmings: World Tour</title>
-    <desc lang="en">While he was falling, Grizzy performed a series of acrobatics that amazed the Lemmings.</desc>
-  </programme>
-  <programme start="20250503161500 +0800" stop="20250503162000 +0800" channel="cartoon_net_hd">
-    <title lang="en">Lamput</title>
-    <desc lang="en">Lamput escapes the Lab, and unenviable task of orange-blob-retrieval falls to Specs and Skinny.</desc>
-  </programme>
   <programme start="20250503162000 +0800" stop="20250503164500 +0800" channel="cartoon_net_hd">
     <title lang="en">Clarence</title>
     <desc lang="en">What Clarence does before the sun rises…</desc>
@@ -2307,6 +2295,14 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504154500 +0800" stop="20250504161500 +0800" channel="cartoon_net_hd">
     <title lang="en">Grizzy And The Lemmings: World Tour</title>
     <desc lang="en">Grizzy finds a compass that indicates the direction of one's own desires.</desc>
+  </programme>
+  <programme start="20250504161500 +0800" stop="20250504162000 +0800" channel="cartoon_net_hd">
+    <title lang="en">Lamput</title>
+    <desc lang="en">Skinny and Specs’ worst nightmares come true when the Boss hires a super-cool “Fixer” to catch Lamput once and for all.</desc>
+  </programme>
+  <programme start="20250504162000 +0800" stop="20250504164500 +0800" channel="cartoon_net_hd">
+    <title lang="en">Clarence</title>
+    <desc lang="en">The boys take a hike.</desc>
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
@@ -4232,10 +4228,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">kbs_world</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503153000 +0800" stop="20250503162000 +0800" channel="kbs_world">
-    <title lang="en">My Neighbor, Charles</title>
-    <desc lang="en">Foreigners, leaving their homelands behind, have come all the way to new country, South Korea. They chose South Korea not for sightseeing or short-term stay. But, they are here for various reasons, such as work, study or even marriage. The real stories of foreigners who challenge themselves to survive in Korean society will be unfolded!</desc>
-  </programme>
   <programme start="20250503162000 +0800" stop="20250503175000 +0800" channel="kbs_world">
     <title lang="en">Moving Voices</title>
     <desc lang="en">A global music trip to experience the music and the culture of various countries.</desc>
@@ -4412,10 +4404,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">kix_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503141500 +0800" stop="20250503162000 +0800" channel="kix_hd">
-    <title lang="en">The Fishermen and the Sea S3</title>
-    <desc lang="en">The new season of this Korean fishing variety show, hosted by two celebrity hosts who are fishing enthusiasts, sets sail with celebrity guests such as K-Pop idols Lee Know (Straykids), Yuno (Ateez), and Ha Sung Woon (Wanna One). The programme features some beautiful fishing spots around Korea and shares useful fishing tips with the viewers.</desc>
-  </programme>
   <programme start="20250503162000 +0800" stop="20250503173500 +0800" channel="kix_hd">
     <title lang="en">Iron Ball</title>
     <desc lang="en">This sports entertainment show brings the best special forces from Iron Squad to take on a new challenge – dodgeball. The 26 players will enter a fierce competition, until a strongest team armed with powerful athletic endurance and mental strength is formed. Witness how they compete in front of the star athletes and legendary dodgeball coaches!</desc>
@@ -5772,10 +5760,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503152500 +0800" stop="20250503162000 +0800" channel="history_hd">
-    <title lang="en">Holy Marvels With Dennis Quaid</title>
-    <desc lang="en">In the Bible, there are two Arks, each designed by God himself. Both the Ark of the Covenant and Noah's Ark were built to protect but lost to history. Did either exist, and if so, where could they be?</desc>
-  </programme>
   <programme start="20250503162000 +0800" stop="20250503172000 +0800" channel="history_hd">
     <title lang="en">The UnXplained With William Shatner (S3)</title>
     <desc lang="en">There have been many sacred relics believed to be imbued with mystical powers. Is it possible that these ordinary items, like a tooth, or a soldier's spear, can have the ability to perform miracles?</desc>
@@ -5879,6 +5863,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504152500 +0800" stop="20250504162000 +0800" channel="history_hd">
     <title lang="en">Alone (S10)</title>
     <desc lang="en">The three remaining survivalists brace themselves for the fight to the finish. One participant finds it impossible to stay warm, while others risk it all on the ice. Only one can claim the $500,000 prize.</desc>
+  </programme>
+  <programme start="20250504162000 +0800" stop="20250504172000 +0800" channel="history_hd">
+    <title lang="en">Ancient Aliens (S15)</title>
+    <desc lang="en">More than 10,000 crop circle formations have been documented in over 50 countries, and many display properties that defy conventional explanations. Are they of otherworldly origin?</desc>
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
@@ -6872,10 +6860,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">nickjr</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503161000 +0800" stop="20250503162000 +0800" channel="nickjr">
-    <title lang="en">Sharkdog</title>
-    <desc lang="en">The Sharkpack are excited to watch the meteor shower on Foggy Springs's highest mountain, and Sharkdog knows the best way to get there. The only problem? Captain Quigley thinks she does too.</desc>
-  </programme>
   <programme start="20250503162000 +0800" stop="20250503162500 +0800" channel="nickjr">
     <title lang="en">Sharkdog</title>
     <desc lang="en">Sharkdog has fleas! Sea fleas, that is. Max will do whatever it takes to get rid of them, but that may be tough because Sharkdog is so itchy, he can't sit still!</desc>
@@ -7247,6 +7231,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504161000 +0800" stop="20250504162000 +0800" channel="nickjr">
     <title lang="en">Sharkdog</title>
     <desc lang="en">When Dad's cool boss comes over for dinner, Max and Sharkdog both try to impress him. And they'll do whatever it takes.</desc>
+  </programme>
+  <programme start="20250504162000 +0800" stop="20250504162500 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">When Sharkdog and Dennis get stuck together (literally!), Max must find a way to separate them before the big surf contest.</desc>
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
@@ -8270,6 +8258,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <title lang="en">Your Favourite Songs</title>
     <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
   </programme>
+  <programme start="20250504162000 +0800" stop="20250504170400 +0800" channel="moonbug_kids">
+    <title lang="en">Clean and Get Ready</title>
+    <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://www.cignalplay.com</url>
@@ -8330,10 +8322,6 @@ The Agenda: No nonsense talk; Challenging perceptions.
     <display-name lang="en">france24</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250503161400 +0800" stop="20250503161500 +0800" channel="france24">
-    <title lang="en">The News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250503161500 +0800" stop="20250503162100 +0800" channel="france24">
     <title lang="en">French Connections</title>
     <desc lang="en">French Connections revolves around France, its top stories and news, its experience in various spheres and cultural life, sport events, health care and education, cuisine and so much more. Find out what is like to live in France, get to know its regions, and feel the true taste of France. </desc>
@@ -8821,6 +8809,10 @@ The Agenda: No nonsense talk; Challenging perceptions.
   <programme start="20250504161400 +0800" stop="20250504161500 +0800" channel="france24">
     <title lang="en">The News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250504161500 +0800" stop="20250504162100 +0800" channel="france24">
+    <title lang="en">The Observers</title>
+    <desc lang="en">The Observers on France 24 is a weekly show produced with photos, videos and personal accounts from Observers around the world. Top international current affairs are covered by using eyewitness accounts from Observers- people who are at the heart of an event. They send their photos and videos, which are verified and contextualized by France 24 team of professional journalists in Paris. </desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>

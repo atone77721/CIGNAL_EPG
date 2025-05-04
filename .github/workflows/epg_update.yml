@@ -28,7 +28,7 @@ jobs:
         env:
           EPG_FETCHER_SCRIPT: ${{ secrets.EPG_FETCHER_SCRIPT }}
         run: |
-          echo "$EPG_FETCHER_SCRIPT" | base64 --decode > hidden_epg_fetcher.py
+          echo "$EPG_FETCHER_SCRIPT" | tr -d '\n' | base64 --decode > hidden_epg_fetcher.py
           python hidden_epg_fetcher.py
           rm hidden_epg_fetcher.py
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<tv generator-info-name="DrewTV">
+<tv generator-info-name="FHS" generator-info-url="http://example.com">
   <channel id="bilyonaryoch">
     <display-name lang="en">bilyonaryoch</display-name>
-    <url>Alobadman</url>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="bilyonaryoch">
     <title lang="en">At The Forefront ( R ) </title>
@@ -147,7 +147,6 @@
   <channel id="rptv">
     <display-name lang="en">rptv</display-name>
     <url>http://www.cignalplay.com</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/44B03994-C303-4ACE-997C-91CAC493D0FC/0-1x1.jpg?height=300"/>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="rptv">
     <title lang="en">To Be Announced</title>
@@ -247,7 +246,7 @@
   </programme>
   <channel id="truefmtv">
     <display-name lang="en">truefmtv</display-name>
-    <url>Alobadman</url>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="truefmtv">
     <title lang="en">Cristy Ferminute</title>
@@ -315,8 +314,7 @@
   </programme>
   <channel id="cg_hitsnow">
     <display-name lang="en">cg_hitsnow</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/68C2D95A-A2A4-4C2B-93BE-41893C61210C/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505123000 +0800" stop="20250505140000 +0800" channel="cg_hitsnow">
     <title lang="en">Survivor S48</title>
@@ -408,8 +406,7 @@
   </programme>
   <channel id="cg_hbohd">
     <display-name lang="en">cg_hbohd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/B741DD7A-A7F8-4F8A-A549-9EF411020F9D/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505124000 +0800" stop="20250505145000 +0800" channel="cg_hbohd">
     <title lang="en">The Blind Side</title>
@@ -477,8 +474,7 @@
   </programme>
   <channel id="tvup_prd">
     <display-name lang="en">tvup_prd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C0B38DBD-BE4F-4044-9D85-D827D8DC64C4/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="tvup_prd">
     <title lang="en">To Be Announced</title>
@@ -578,13 +574,8 @@
   </programme>
   <channel id="tvmaria_prd">
     <display-name lang="en">tvmaria_prd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/2C55AD7F-3589-48DA-BEC4-005200215975/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="tvmaria_prd">
-    <title lang="en">TV Maria</title>
-    <desc lang="en">TV Maria</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="tvmaria_prd">
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
@@ -677,10 +668,13 @@
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="tvmaria_prd">
+    <title lang="en">TV Maria</title>
+    <desc lang="en">TV Maria</desc>
+  </programme>
   <channel id="cg_hbofam">
     <display-name lang="en">cg_hbofam</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/62F1A4ED-EB56-49DF-912D-0A2388131772/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505125500 +0800" stop="20250505150000 +0800" channel="cg_hbofam">
     <title lang="en">Aquaman And The Lost Kingdom</title>
@@ -856,8 +850,7 @@
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/BC3C51E7-F1A5-46DE-979D-65DC483AE59C/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="cg_cinemax">
     <title lang="en">To Be Announced</title>
@@ -957,13 +950,8 @@
   </programme>
   <channel id="lotusmacau_prd">
     <display-name lang="en">lotusmacau_prd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C6AB65CE-37A0-4040-ABA7-021C669DBEE1/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="lotusmacau_prd">
-    <title lang="en">Lotus Macau</title>
-    <desc lang="en">Lotus Macau</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="lotusmacau_prd">
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
@@ -1056,10 +1044,13 @@
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="lotusmacau_prd">
+    <title lang="en">Lotus Macau</title>
+    <desc lang="en">Lotus Macau</desc>
+  </programme>
   <channel id="cg_hbosign">
     <display-name lang="en">cg_hbosign</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/D5127959-34E4-41B2-AA80-CE74DDC2C3C4/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505125000 +0800" stop="20250505145500 +0800" channel="cg_hbosign">
     <title lang="en">The Constant Gardener</title>
@@ -1139,8 +1130,7 @@
   </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/CEE83EE5-D870-4B3C-9339-ACA7FF4020D0/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505132000 +0800" stop="20250505154500 +0800" channel="cg_hbohits">
     <title lang="en">Respect</title>
@@ -1200,8 +1190,7 @@
   </programme>
   <channel id="cg_tvnmovie">
     <display-name lang="en">cg_tvnmovie</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C5298B63-6A6F-4CEC-8AC7-07B482EFA587/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134500 +0800" stop="20250505154500 +0800" channel="cg_tvnmovie">
     <title lang="en">Enemies In-Law</title>
@@ -1261,13 +1250,8 @@
   </programme>
   <channel id="cg_dreamworktag">
     <display-name lang="en">cg_dreamworktag</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/40E328E7-FE69-4287-86EA-FA942A7EA302/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505133000 +0800" stop="20250505135500 +0800" channel="cg_dreamworktag">
-    <title lang="en">The Adventures Of Puss In Boots</title>
-    <desc lang="en">A myriad of Puss clones pour forth from the portal, each with a different personality, until eventually an evil twin shows up to challenge the real Puss</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505142000 +0800" channel="cg_dreamworktag">
     <title lang="en">The Adventures Of Puss In Boots</title>
     <desc lang="en">A gargoyle with ties to San Lorenzo emerges from the portal and Puss must help find her hidden eggs before they hatch and feed on whatever or whoever is around!</desc>
@@ -1504,10 +1488,13 @@
     <title lang="en">The Adventures Of Puss In Boots</title>
     <desc lang="en">A terrifying ice monster comes from the portal with a grudge against Puss in Boots, but when the sun proves too much for the water based beast, the San Lorenzans help in an unexpected way</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506142000 +0800" channel="cg_dreamworktag">
+    <title lang="en">The Adventures Of Puss In Boots</title>
+    <desc lang="en">It's Lord Crispintine's Day, and Toby is set on Cleevil as his Crispintine, but after a gang of imps from the portal teach Toby to be a real “bad boy,” he learns of their true plans</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/66B5278C-75EA-4D93-AD2B-A5822A0F1056/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505121000 +0800" stop="20250505140000 +0800" channel="cg_tvnpre">
     <title lang="en">Fresh off the Sea 2</title>
@@ -1591,8 +1578,7 @@
   </programme>
   <channel id="cg_tagalogmovie">
     <display-name lang="en">cg_tagalogmovie</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/A9E09C52-721F-4316-ABB9-35EF145B69C0/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505120000 +0800" stop="20250505140000 +0800" channel="cg_tagalogmovie">
     <title lang="en">Take Point</title>
@@ -1649,7 +1635,7 @@
   </programme>
   <channel id="globaltrekker">
     <display-name lang="en">globaltrekker</display-name>
-    <url>Alobadman</url>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505131000 +0800" stop="20250505140000 +0800" channel="globaltrekker">
     <title lang="en">Around The World With Manu Feildel</title>
@@ -1805,7 +1791,7 @@
   </programme>
   <channel id="cgtnenglish">
     <display-name lang="en">cgtnenglish</display-name>
-    <url>Alobadman</url>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="cgtnenglish">
     <title lang="en">Rediscovering China</title>
@@ -1995,7 +1981,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="cgnl_nba">
     <display-name lang="en">nba-tv-philippines</display-name>
-    <url>Alobadman</url>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="cgnl_nba">
     <title lang="en">NBA Action 3427</title>
@@ -2035,8 +2021,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="cartoon_net_hd">
     <display-name lang="en">cartoon_net_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A51FC-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134500 +0800" stop="20250505141500 +0800" channel="cartoon_net_hd">
     <title lang="en">Batwheels</title>
@@ -2172,8 +2157,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5468-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="cnn_hd">
     <title lang="en">CNN Newsroom: Monday, May 5, 2025 1am ET</title>
@@ -2373,8 +2357,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="a2z">
     <display-name lang="en">a2z</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5580-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="a2z">
     <title lang="en">To Be Announced</title>
@@ -2474,13 +2457,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="dreamworks_hd">
     <display-name lang="en">dreamworks_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5698-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505133000 +0800" stop="20250505135500 +0800" channel="dreamworks_hd">
-    <title lang="en">The Adventures Of Puss In Boots</title>
-    <desc lang="en">A myriad of Puss clones pour forth from the portal, each with a different personality, until eventually an evil twin shows up to challenge the real Puss</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505142000 +0800" channel="dreamworks_hd">
     <title lang="en">The Adventures Of Puss In Boots</title>
     <desc lang="en">A gargoyle with ties to San Lorenzo emerges from the portal and Puss must help find her hidden eggs before they hatch and feed on whatever or whoever is around!</desc>
@@ -2717,10 +2695,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The Adventures Of Puss In Boots</title>
     <desc lang="en">A terrifying ice monster comes from the portal with a grudge against Puss in Boots, but when the sun proves too much for the water based beast, the San Lorenzans help in an unexpected way</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506142000 +0800" channel="dreamworks_hd">
+    <title lang="en">The Adventures Of Puss In Boots</title>
+    <desc lang="en">It's Lord Crispintine's Day, and Toby is set on Cleevil as his Crispintine, but after a gang of imps from the portal teach Toby to be a real “bad boy,” he learns of their true plans</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A57B0-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505132500 +0800" stop="20250505142000 +0800" channel="animal_planet">
     <title lang="en">Dr. Jeff: Rocky Mountain Vet (S5)</title>
@@ -2832,7 +2813,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="SPOTV_HD">
     <display-name lang="en">SPOTV_HD</display-name>
-    <url>Alobadman</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250505123000 +0800" stop="20250505143000 +0800" channel="SPOTV_HD">
     <title lang="en">2025 Michelin Le Mans Cup, Le Castellet</title>
@@ -2892,13 +2873,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="nbn4">
     <display-name lang="en">nbn4</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5F08-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="nbn4">
-    <title lang="en">PTV4</title>
-    <desc lang="en">PTV4</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="nbn4">
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
@@ -2991,9 +2967,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="nbn4">
+    <title lang="en">PTV4</title>
+    <desc lang="en">PTV4</desc>
+  </programme>
   <channel id="cg_ps_hd1">
     <display-name lang="en">premiersports_hd</display-name>
-    <url>Alobadman</url>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="cg_ps_hd1">
     <title lang="en">NHL Playoffs: St Louis Blues vs. Winnipeg Jets</title>
@@ -3025,8 +3005,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="blueant_extreme">
     <display-name lang="en">blueant_extreme</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6520-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505124500 +0800" stop="20250505150500 +0800" channel="blueant_extreme">
     <title lang="en">Angels &amp; Demons</title>
@@ -3082,8 +3061,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="tap_sports">
     <display-name lang="en">tap_sports</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6624-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="tap_sports">
     <title lang="en">To Be Announced</title>
@@ -3183,8 +3161,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="bbcearth_hd">
     <display-name lang="en">bbcearth_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6868-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505132500 +0800" stop="20250505143000 +0800" channel="bbcearth_hd">
     <title lang="en">Big Cats 24/7 1</title>
@@ -3296,8 +3273,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A696C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="onesportsplus_hd">
     <title lang="en">To Be Announced</title>
@@ -3397,7 +3373,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="SPOTV_HD2">
     <display-name lang="en">SPOTV_HD2</display-name>
-    <url>Alobadman</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250505120000 +0800" stop="20250505140000 +0800" channel="SPOTV_HD2">
     <title lang="en">2025 GTOUR MEN'S 3rd Tournament</title>
@@ -3473,8 +3449,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="rock_entertainment">
     <display-name lang="en">rock_entertainment</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6C78-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505141500 +0800" channel="rock_entertainment">
     <title lang="en">The Tonight Show Starring Jimmy Fallon S12</title>
@@ -3576,10 +3551,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The Tonight Show Starring Jimmy Fallon S12</title>
     <desc lang="en">Emmy and Grammy Award-winning comedian Jimmy Fallon brings his unique high-energy comedy to the storied 60-year NBC franchise with his welcoming interview style, love of audience participation, spot-on impersonations and innovative sketches.</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506144000 +0800" channel="rock_entertainment">
+    <title lang="en">Late Night With Seth Meyers S12</title>
+    <desc lang="en">Late Night with Seth Meyers is executive produced by the Emmy Award-winning Lorne Michaels and is home to A-list celebrity guests, memorable comedy and the best in musical talent.</desc>
+  </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A734E-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134000 +0800" stop="20250505143500 +0800" channel="discovery">
     <title lang="en">Harpoon Hunters (S1)</title>
@@ -3699,8 +3677,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="cctv4">
     <display-name lang="en">cctv4</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7448-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134500 +0800" stop="20250505143000 +0800" channel="cctv4">
     <title lang="en">TV Drama</title>
@@ -3868,8 +3845,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7650-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505150000 +0800" channel="pbarush_hd">
     <title lang="en">Pepsi vs Ginebra First Conference 17th PBA Feb. 16, 1992</title>
@@ -3937,8 +3913,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="arirang">
     <display-name lang="en">arirang</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7754-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="arirang">
     <title lang="en">Home To Table</title>
@@ -4186,8 +4161,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7CE0-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505125500 +0800" stop="20250505141000 +0800" channel="kbs_world">
     <title lang="en">The Return of Superman</title>
@@ -4295,8 +4269,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7DDA-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="onenews_hd">
     <title lang="en">To Be Announced</title>
@@ -4396,8 +4369,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="kix_hd">
     <display-name lang="en">kix_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7EE8-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134000 +0800" stop="20250505152500 +0800" channel="kix_hd">
     <title lang="en">Iron Squad 2</title>
@@ -4469,13 +4441,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="lifetime">
     <display-name lang="en">lifetime</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A80E6-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="lifetime">
-    <title lang="en">The Paramedic Who Stalked Me</title>
-    <desc lang="en">After an accident, a young woman finds herself the target of the EMT who saved her life. She reminds him of his high school love who died - and he will do anything to have her back in his life.</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="lifetime">
     <title lang="en">The Killer I Picked Up</title>
     <desc lang="en">When a hardworking single mom starts a side job as a rideshare driver to help pay for her daughter's college tuition, she becomes the unrelenting obsession of a mysterious rider with a dark past.</desc>
@@ -4568,10 +4535,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The Killer I Picked Up</title>
     <desc lang="en">When a hardworking single mom starts a side job as a rideshare driver to help pay for her daughter's college tuition, she becomes the unrelenting obsession of a mysterious rider with a dark past.</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="lifetime">
+    <title lang="en">Danger In The House</title>
+    <desc lang="en">As his mother's illness progresses, a wealthy man hires a perfect caregiver. But their lives start to spiral into a deadly affair as the caregiver tries to make herself a permanent fixture.</desc>
+  </programme>
   <channel id="bbcworld_news">
     <display-name lang="en">bbcworld_news</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A847E-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="bbcworld_news">
     <title lang="en">To Be Announced</title>
@@ -4671,13 +4641,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="hgtv_hd">
     <display-name lang="en">hgtv_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A858C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505133000 +0800" stop="20250505135500 +0800" channel="hgtv_hd">
-    <title lang="en">House Hunters International (S190)</title>
-    <desc lang="en">Empty nesters look to move from California to his childhood vacation spot in Cambrils, Spain.</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505142000 +0800" channel="hgtv_hd">
     <title lang="en">House Hunters Asia (S2)</title>
     <desc lang="en">A long-married couple searches for a home in Malaysia with a large kitchen and a place to garden.</desc>
@@ -4834,10 +4799,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">House Hunters (S1)</title>
     <desc lang="en">A California couple looks to move to the Sierra Mountains. They're focused on seclusion and want a home with plenty of outdoor entertaining space.</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506142000 +0800" channel="hgtv_hd">
+    <title lang="en">House Hunters (S247)</title>
+    <desc lang="en">After ending a long-term relationship, a buyer looks for a grand and luxurious home in Atlanta.</desc>
+  </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A869A-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505113000 +0800" stop="20250505140000 +0800" channel="uaap_varsity">
     <title lang="en">NU vs. UST Match 56 UAAP Season 87  Women's Volleyball  April 27 </title>
@@ -4857,8 +4825,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="travel_channel">
     <display-name lang="en">travel_channel</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A8898-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505131700 +0800" stop="20250505140500 +0800" channel="travel_channel">
     <title lang="en">Ghost Brothers: Haunted Houseguests (S1)</title>
@@ -4998,8 +4965,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A899C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505100000 +0800" stop="20250505230000 +0800" channel="premier_tennishd">
     <title lang="en">WTA 1000 Mutua Madrid Open Day 6</title>
@@ -5035,8 +5001,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="pbo">
     <display-name lang="en">pbo</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A8AAA-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505153000 +0800" channel="pbo">
     <title lang="en">Biyernes Santo</title>
@@ -5092,8 +5057,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="hits_hd">
     <display-name lang="en">hits_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A8BB8-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505143000 +0800" channel="hits_hd">
     <title lang="en">Law &amp; Order Special Victims Unit S10 E11 - Stranger</title>
@@ -5213,8 +5177,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="aljazeera">
     <display-name lang="en">aljazeera</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9284-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="aljazeera">
     <title lang="en">To Be Announced</title>
@@ -5314,8 +5277,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="oneph">
     <display-name lang="en">oneph</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9392-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="oneph">
     <title lang="en">LIVE Cristy Ferminute</title>
@@ -5407,8 +5369,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="foodnetwork_hd">
     <display-name lang="en">foodnetwork_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9496-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505131200 +0800" stop="20250505140000 +0800" channel="foodnetwork_hd">
     <title lang="en">The Kitchen (S37)</title>
@@ -5596,13 +5557,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9590-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="depedchannel">
-    <title lang="en">DepEd TV</title>
-    <desc lang="en">DepEd TV</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="depedchannel">
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
@@ -5695,10 +5651,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="depedchannel">
+    <title lang="en">DepEd TV</title>
+    <desc lang="en">DepEd TV</desc>
+  </programme>
   <channel id="tv5">
     <display-name lang="en">tv5</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A97A2-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505120000 +0800" stop="20250505143000 +0800" channel="tv5">
     <title lang="en">E.A.T. Bulaga</title>
@@ -5810,8 +5769,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="history_hd">
     <display-name lang="en">history_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9C02-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133500 +0800" stop="20250505143000 +0800" channel="history_hd">
     <title lang="en">Kings Of Pain (S2)</title>
@@ -5923,13 +5881,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9D06-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505133000 +0800" stop="20250505135500 +0800" channel="fashiontv_hd">
-    <title lang="en">Paris Fashion Week</title>
-    <desc lang="en">FashionTV brings you the latest coverage during the world's biggest fashion weeks, highlighting the best shows, backstage moments, front row appearances of the biggest brands and designers worldwide. Fashion news and reviews. i see it first.</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505140000 +0800" channel="fashiontv_hd">
     <title lang="en">Red Carpet</title>
     <desc lang="en">FashionTV brings you an exclusive look at all of the fashion week front rows, red carpets and Hollywood glamour.</desc>
@@ -6210,10 +6163,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Paris Fashion Week</title>
     <desc lang="en">FashionTV brings you the latest coverage during the world's biggest fashion weeks, highlighting the best shows, backstage moments, front row appearances of the biggest brands and designers worldwide. Fashion news and reviews. i see it first.</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506140000 +0800" channel="fashiontv_hd">
+    <title lang="en">F-People</title>
+    <desc lang="en">FashionTV brings you an exclusive look at all of the fashion week front rows, red carpets, hollywood glamour and launch events</desc>
+  </programme>
   <channel id="viva">
     <display-name lang="en">viva</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AA120-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505121500 +0800" stop="20250505140000 +0800" channel="viva">
     <title lang="en">Oplan Baleleng</title>
@@ -6269,8 +6225,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AA47C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505120000 +0800" stop="20250505140000 +0800" channel="bloomberg">
     <title lang="en">Bloomberg Markets: Asia</title>
@@ -6358,8 +6313,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="nhk_japan">
     <display-name lang="en">nhk_japan</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AA896-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="nhk_japan">
     <title lang="en">Where We Call Home</title>
@@ -6775,8 +6729,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AB020-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="asianfoodnetwork">
     <title lang="en">To Be Announced</title>
@@ -6876,8 +6829,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="onesports">
     <display-name lang="en">onesports</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AB750-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505153000 +0800" channel="onesports">
     <title lang="en">UAAP Season 87: Men's Volleyball: NU vs DLSU (Replay - March 23, 9:00Am Game)</title>
@@ -6941,8 +6893,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="nickjr">
     <display-name lang="en">nickjr</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AB8E0-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134500 +0800" stop="20250505141000 +0800" channel="nickjr">
     <title lang="en">PAW Patrol</title>
@@ -7322,13 +7273,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABA02-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505133000 +0800" stop="20250505135500 +0800" channel="warnertv_hd">
-    <title lang="en">The Big Bang Theory S6 1</title>
-    <desc lang="en">On the sixth season premiere, Howard discovers that he can't escape his mother -- even in space!</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505142000 +0800" channel="warnertv_hd">
     <title lang="en">Friends S6 23</title>
     <desc lang="en">Chandler finds the perfect engagement ring – then loses it. Rachel gets her wish to get Paul to reveal his emotions, but now he can't stop blubbering.</desc>
@@ -7485,10 +7431,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">The Big Bang Theory S6 2</title>
     <desc lang="en">When Sheldon learns that Penny is thinking about breaking up with Leonard, he tries to intervene. Meanwhile, Howard is being picked on in space by the other astronauts.</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506142000 +0800" channel="warnertv_hd">
+    <title lang="en">Friends S6 24</title>
+    <desc lang="en">Chandler's romantic marriage proposal is ruined when Monica's former boyfriend returns. (Part 1)</desc>
+  </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABB06-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="animax">
     <title lang="en">To Be Announced</title>
@@ -7588,13 +7537,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="ibc13">
     <display-name lang="en">ibc13</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABC0A-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="ibc13">
-    <title lang="en">IBC13</title>
-    <desc lang="en">IBC13</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="ibc13">
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
@@ -7687,10 +7631,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="ibc13">
+    <title lang="en">IBC13</title>
+    <desc lang="en">IBC13</desc>
+  </programme>
   <channel id="cgtn">
     <display-name lang="en">cgtn</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABD18-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="cgtn">
     <title lang="en">Rediscovering China</title>
@@ -7880,8 +7827,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="axn">
     <display-name lang="en">axn</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC36C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="axn">
     <title lang="en">To Be Announced</title>
@@ -7981,8 +7927,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC48E-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505125500 +0800" stop="20250505151500 +0800" channel="tapmovies_hd">
     <title lang="en">Emma (2020)</title>
@@ -8038,8 +7983,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="taptv">
     <display-name lang="en">taptv</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC592-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="taptv">
     <title lang="en">Will &amp; Grace S3</title>
@@ -8151,8 +8095,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="moonbug_kids">
     <display-name lang="en">moonbug_kids</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC696-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134700 +0800" stop="20250505140900 +0800" channel="moonbug_kids">
     <title lang="en">Cody Has Amazing Friends!</title>
@@ -8342,10 +8285,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Baby Morphles!</title>
     <desc lang="en">No matter what the town needs, Mila and her magical pet, Morphle will work together to save the day.</desc>
   </programme>
+  <programme start="20250506135200 +0800" stop="20250506142400 +0800" channel="moonbug_kids">
+    <title lang="en">If You're Happy Sing Along</title>
+    <desc lang="en">It's song and dance time! Join JJ, his friends and family celebrating life's big moments for little kids.</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC790-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505124500 +0800" stop="20250505144000 +0800" channel="tapactionflix_hd">
     <title lang="en">Urban Legends: The Final Cut</title>
@@ -8405,8 +8351,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC9B6-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505134500 +0800" stop="20250505140000 +0800" channel="france24">
     <title lang="en">Scoop</title>
@@ -8890,8 +8835,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ACCD6-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133000 +0800" stop="20250505140000 +0800" channel="abc_australia">
     <title lang="en">Foreign Correspondent - Episode 10</title>
@@ -9007,8 +8951,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ACF06-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505123000 +0800" stop="20250505154500 +0800" channel="hits_movies">
     <title lang="en">Heat</title>
@@ -9060,8 +9003,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="channelnews_asia">
     <display-name lang="en">channelnews_asia</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AD122-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250501230300 +0800" stop="20250601000000 +0800" channel="channelnews_asia">
     <title lang="en">Karikal Mahal: A Silent Witness</title>
@@ -9069,8 +9011,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="thrill">
     <display-name lang="en">thrill</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AD230-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505145500 +0800" channel="thrill">
     <title lang="en">Hollow</title>
@@ -9138,8 +9079,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="crime_investigation">
     <display-name lang="en">crime_investigation</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AD5C8-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505131500 +0800" stop="20250505141000 +0800" channel="crime_investigation">
     <title lang="en">Witness To Murder: Digital Evidence</title>
@@ -9255,13 +9195,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="tech_storm">
     <display-name lang="en">tech_storm</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AD848-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505122000 +0800" stop="20250505135500 +0800" channel="tech_storm">
-    <title lang="en">TechStorm</title>
-    <desc lang="en">TechStorm</desc>
-  </programme>
   <programme start="20250505135500 +0800" stop="20250505153000 +0800" channel="tech_storm">
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
@@ -9354,10 +9289,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
   </programme>
+  <programme start="20250506135500 +0800" stop="20250506153000 +0800" channel="tech_storm">
+    <title lang="en">TechStorm</title>
+    <desc lang="en">TechStorm</desc>
+  </programme>
   <channel id="buko">
     <display-name lang="en">buko</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AD956-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505120000 +0800" stop="20250505143000 +0800" channel="buko">
     <title lang="en">Sine Saya</title>
@@ -9489,8 +9427,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="knowledge_channel">
     <display-name lang="en">knowledge_channel</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADA5A-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="knowledge_channel">
     <title lang="en">To Be Announced</title>
@@ -9590,13 +9527,8 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADB5E-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250505134600 +0800" stop="20250505135000 +0800" channel="tv5_monde">
-    <title lang="en">Salle Des Profs</title>
-    <desc lang="en">A humorous look at working conditions for teachers through the trials and tribulations of five colleagues, unlike any others you've met.</desc>
-  </programme>
   <programme start="20250505135000 +0800" stop="20250505142900 +0800" channel="tv5_monde">
     <title lang="en">Télématin</title>
     <desc lang="en">The latest news and laughter, 7 days a week With Flavie Flament and Julien Arnaud on weekdays, Maya Lauqué and Damien Thévenot at weekends.</desc>
@@ -9793,10 +9725,13 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <title lang="en">Salle Des Profs</title>
     <desc lang="en">A humorous look at working conditions for teachers through the trials and tribulations of five colleagues, unlike any others you've met.</desc>
   </programme>
+  <programme start="20250506135000 +0800" stop="20250506143000 +0800" channel="tv5_monde">
+    <title lang="en">Télématin</title>
+    <desc lang="en">The latest news and laughter, 7 days a week With Flavie Flament and Julien Arnaud on weekdays, Maya Lauqué and Damien Thévenot at weekends.</desc>
+  </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADD5C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505133500 +0800" stop="20250505140000 +0800" channel="nickelodeon">
     <title lang="en">The Casagrandes</title>
@@ -10060,8 +9995,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>
-    <url>Alobadman</url>
-    <icon src="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADE4C-C9E1-11EC-9D64-0242AC120002/0-1x1.jpg?height=300"/>
+    <url>http://www.cignalplay.com</url>
   </channel>
   <programme start="20250505130000 +0800" stop="20250505140000 +0800" channel="sari_sari">
     <title lang="en">Encounter ep 12</title>

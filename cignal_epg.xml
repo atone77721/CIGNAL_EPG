@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv generator-info-name="FHS" generator-info-url="http://example.com">
+<tv generator-info-name="atone77721" generator-info-url="https://www.cignalplay.com">
   <channel id="bilyonaryoch">
     <display-name lang="en">bilyonaryoch</display-name>
     <url>http://example.com</url>
@@ -680,14 +680,6 @@
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506094000 +0800" stop="20250506101000 +0800" channel="cg_hbofam">
-    <title lang="en">Sesame Street S54</title>
-    <desc lang="en">Elmo, Abby, and Tamir come across a wooden cricket. Something new they’ve never seen before! They try to figure out what it is and learn that it’s Dave’s favorite musical instrument from Cuba called a guiro.</desc>
-  </programme>
-  <programme start="20250506101000 +0800" stop="20250506102200 +0800" channel="cg_hbofam">
-    <title lang="en">Chowder S2</title>
-    <desc lang="en">Chowder accidentally wrecks Mung's childhood dice cycle.</desc>
-  </programme>
   <programme start="20250506102200 +0800" stop="20250506103400 +0800" channel="cg_hbofam">
     <title lang="en">Chowder S2</title>
     <desc lang="en">Chowder is known for slicing, dicing and constantly causing trouble in the kitchen. Hold on to your apron, you're in for some laughs!</desc>
@@ -863,6 +855,10 @@
   <programme start="20250507100000 +0800" stop="20250507101100 +0800" channel="cg_hbofam">
     <title lang="en">Chowder S2</title>
     <desc lang="en">When a neurotic parasite takes residence in Chowder's belly, Chowder thinks he's found his inner voice.</desc>
+  </programme>
+  <programme start="20250507101100 +0800" stop="20250507102300 +0800" channel="cg_hbofam">
+    <title lang="en">Chowder S2</title>
+    <desc lang="en">Mung decides to throw the biggest party he can in Chowder's honor.</desc>
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
@@ -1140,10 +1136,6 @@
     <display-name lang="en">cg_hbohits</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506080000 +0800" stop="20250506101000 +0800" channel="cg_hbohits">
-    <title lang="en">Fantastic Beasts: The Crimes Of Grindelwald</title>
-    <desc lang="en">Grindelwald escapes custody and Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead.</desc>
-  </programme>
   <programme start="20250506101000 +0800" stop="20250506123000 +0800" channel="cg_hbohits">
     <title lang="en">Respect</title>
     <desc lang="en">The life story of legendary R&amp;B singer, Aretha Franklin.</desc>
@@ -1268,10 +1260,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506094500 +0800" stop="20250506101000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Not Quite Narwhal</title>
-    <desc lang="en">When Pixie struggles to recreate an old tradition perfectly, the kids realize they can make their own traditions./ A story told by Chef J inspires Juniper to go in search of snow.</desc>
-  </programme>
   <programme start="20250506101000 +0800" stop="20250506103500 +0800" channel="cg_dreamworktag">
     <title lang="en">Go, Dog. Go!</title>
     <desc lang="en">Tag chooses to pair up with her Grandpaw for the Barker Family Talent Show, and together, they search for their winning talent. \ Tag is surprised to learn that today is the Pawston Snoozie-a-Hullabaloozie. With everything shut down for the day, Tag and Scooch take the opportunity to play all over town, while trying not to wake up other dogs.</desc>
@@ -1508,6 +1496,10 @@
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">Kelp and Scallop help Dad discover the true meaning of family trips. / When the Great Great Grandicorn comes to visit, the kids learn that making mistakes is part of learning.</desc>
   </programme>
+  <programme start="20250507101000 +0800" stop="20250507103500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Go, Dog. Go!</title>
+    <desc lang="en">When Tag discovers that Scooch is a great baker, she encourages him to start a pupcake stand. But when Tag rounds up more customers than Scooch is prepared to handle, Scooch can’t keep up with the demand. \ Tag and Scooch’s race to pick up the most trash on Pawston Beach is thwarted by Frank and Beans, who just want to make more of a mess.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://example.com</url>
@@ -1591,6 +1583,10 @@
   <programme start="20250507094000 +0800" stop="20250507101000 +0800" channel="cg_tvnpre">
     <title lang="en">Chansung's Cooking</title>
     <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
+  </programme>
+  <programme start="20250507101000 +0800" stop="20250507120000 +0800" channel="cg_tvnpre">
+    <title lang="en">Fresh off the Sea 2</title>
+    <desc lang="en">&lt;Fresh off the Sea&gt; returns with Season 2! Lim Ji-yeon and Lee Jae-wook join the crew to hit Korea's coast and explore local delicacies unique to the area.</desc>
   </programme>
   <channel id="cg_tagalogmovie">
     <display-name lang="en">cg_tagalogmovie</display-name>
@@ -2165,6 +2161,10 @@
     <title lang="en">Totally Spies!</title>
     <desc lang="en">A giant panda unleashes icy terror in Singapore's streets!</desc>
   </programme>
+  <programme start="20250507101500 +0800" stop="20250507104500 +0800" channel="cartoon_net_hd">
+    <title lang="en">Tiny Toons Looniversity</title>
+    <desc lang="en">It’s the first day of school at Acme Looniversity where we find fraternal twins, Babs and Buster Bunny meeting their new friends.</desc>
+  </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
     <url>http://example.com</url>
@@ -2469,10 +2469,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506094500 +0800" stop="20250506101000 +0800" channel="dreamworks_hd">
-    <title lang="en">Not Quite Narwhal</title>
-    <desc lang="en">When Pixie struggles to recreate an old tradition perfectly, the kids realize they can make their own traditions./ A story told by Chef J inspires Juniper to go in search of snow.</desc>
-  </programme>
   <programme start="20250506101000 +0800" stop="20250506103500 +0800" channel="dreamworks_hd">
     <title lang="en">Go, Dog. Go!</title>
     <desc lang="en">Tag chooses to pair up with her Grandpaw for the Barker Family Talent Show, and together, they search for their winning talent. \ Tag is surprised to learn that today is the Pawston Snoozie-a-Hullabaloozie. With everything shut down for the day, Tag and Scooch take the opportunity to play all over town, while trying not to wake up other dogs.</desc>
@@ -2708,6 +2704,10 @@
   <programme start="20250507094500 +0800" stop="20250507101000 +0800" channel="dreamworks_hd">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">Kelp and Scallop help Dad discover the true meaning of family trips. / When the Great Great Grandicorn comes to visit, the kids learn that making mistakes is part of learning.</desc>
+  </programme>
+  <programme start="20250507101000 +0800" stop="20250507103500 +0800" channel="dreamworks_hd">
+    <title lang="en">Go, Dog. Go!</title>
+    <desc lang="en">When Tag discovers that Scooch is a great baker, she encourages him to start a pupcake stand. But when Tag rounds up more customers than Scooch is prepared to handle, Scooch can’t keep up with the demand. \ Tag and Scooch’s race to pick up the most trash on Pawston Beach is thwarted by Frank and Beans, who just want to make more of a mess.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -3485,10 +3485,6 @@
     <display-name lang="en">rock_entertainment</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506093000 +0800" stop="20250506101500 +0800" channel="rock_entertainment">
-    <title lang="en">NCIS S22</title>
-    <desc lang="en">NCIS is more than just an action drama. With liberal doses of humor, it's a show that focuses on the sometimes complex and always amusing dynamics of a team forced to work together in high-stress situations.</desc>
-  </programme>
   <programme start="20250506101500 +0800" stop="20250506114500 +0800" channel="rock_entertainment">
     <title lang="en">Bad Influence</title>
     <desc lang="en">A single mom is overjoyed when her daughter finally makes friends at her new high school. Soon, however, it becomes clear that this group of students follows their own moral code that’s strange, self-centered, and possibly dangerous.</desc>
@@ -3585,10 +3581,6 @@
     <display-name lang="en">discovery</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506093000 +0800" stop="20250506102000 +0800" channel="discovery">
-    <title lang="en">Harpoon Hunters (S1)</title>
-    <desc lang="en">Captain Joe takes his sons to sea aboard the Redrum, only to witness nature at its rawest. Niko hunts the season's biggest bluefin yet, worth $10,000.</desc>
-  </programme>
   <programme start="20250506102000 +0800" stop="20250506111000 +0800" channel="discovery">
     <title lang="en">Beachfront Bargain Hunt Renovation (S2)</title>
     <desc lang="en">After years of visiting relatives in Galveston, TX, a couple is ready to find a beach home of their own. </desc>
@@ -3685,14 +3677,14 @@
     <title lang="en">Homestead Rescue (S6)</title>
     <desc lang="en">Marty responds to a new, desperate plea from the Bower Family in eastern Vermont: a 100-year flood has wiped out their property access route.</desc>
   </programme>
+  <programme start="20250507102000 +0800" stop="20250507111000 +0800" channel="discovery">
+    <title lang="en">Beachfront Bargain Hunt Renovation (S2)</title>
+    <desc lang="en">A mother and her children search for a beachfront home on the Jersey Shore.</desc>
+  </programme>
   <channel id="cctv4">
     <display-name lang="en">cctv4</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506100000 +0800" stop="20250506101500 +0800" channel="cctv4">
-    <title lang="en">China News</title>
-    <desc lang="en">It concentrates on the latest news and social changes happening in china and all over the world</desc>
-  </programme>
   <programme start="20250506101500 +0800" stop="20250506110000 +0800" channel="cctv4">
     <title lang="en">On the Way</title>
     <desc lang="en"> a large-scale tourism programme that is designed to present rich tourism resources in China and around the world </desc>
@@ -3856,6 +3848,10 @@
   <programme start="20250507100000 +0800" stop="20250507101500 +0800" channel="cctv4">
     <title lang="en">China News</title>
     <desc lang="en">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+  </programme>
+  <programme start="20250507101500 +0800" stop="20250507110000 +0800" channel="cctv4">
+    <title lang="en">On the Way</title>
+    <desc lang="en"> a large-scale tourism programme that is designed to present rich tourism resources in China and around the world </desc>
   </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
@@ -4653,10 +4649,6 @@
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506092000 +0800" stop="20250506101000 +0800" channel="hgtv_hd">
-    <title lang="en">The Flip Off (S1)</title>
-    <desc lang="en">Tarek and Heather compete against his ex Christina to find out who can design the best guest bedroom and bathroom!</desc>
-  </programme>
   <programme start="20250506101000 +0800" stop="20250506110000 +0800" channel="hgtv_hd">
     <title lang="en">Fixer To Fabulous (S3)</title>
     <desc lang="en">Two newlyweds from Chicago love the house they bought in Arkansas, but they want to put their own personalized stamp on it.</desc>
@@ -4808,6 +4800,10 @@
   <programme start="20250507092000 +0800" stop="20250507101000 +0800" channel="hgtv_hd">
     <title lang="en">Unsellable Houses (S5)</title>
     <desc lang="en">Market factors cause Lyndsay and Leslie to increase their investment for a landlord couple trying to sell their nearly $1 million duplex.</desc>
+  </programme>
+  <programme start="20250507101000 +0800" stop="20250507110000 +0800" channel="hgtv_hd">
+    <title lang="en">Home Town (S7)</title>
+    <desc lang="en">Ben and Erin present a couple looking for something unique with a home set across from a park and a rancher with an impressive garden room.</desc>
   </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
@@ -5677,10 +5673,6 @@
     <display-name lang="en">tv5</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250506084500 +0800" stop="20250506101500 +0800" channel="tv5">
-    <title lang="en">Cine Cinco Sa Umaga: Tbc</title>
-    <desc lang="en">Cine Cinco Sa Umaga: Tbc</desc>
-  </programme>
   <programme start="20250506101500 +0800" stop="20250506110000 +0800" channel="tv5">
     <title lang="en">Betty In New York</title>
     <desc lang="en">Betty In New York</desc>
@@ -5780,6 +5772,10 @@
   <programme start="20250507084500 +0800" stop="20250507101500 +0800" channel="tv5">
     <title lang="en">Cine Cinco Sa Umaga: Tbc</title>
     <desc lang="en">Cine Cinco Sa Umaga: Tbc</desc>
+  </programme>
+  <programme start="20250507101500 +0800" stop="20250507110000 +0800" channel="tv5">
+    <title lang="en">Betty In New York</title>
+    <desc lang="en">Betty In New York</desc>
   </programme>
   <channel id="history_hd">
     <display-name lang="en">history_hd</display-name>
@@ -6237,6 +6233,10 @@
     <title lang="en">Oras-Oras, Araw-Araw</title>
     <desc lang="en">Jessa Rodriguez (Sharon Cuneta), a successful TV personality whose top rating show features ugly stories of poverty and hardships. She sympathizes with her subjects but it all ends there, until she meets one lady in a club.</desc>
   </programme>
+  <programme start="20250507101500 +0800" stop="20250507120000 +0800" channel="viva">
+    <title lang="en">Oplan: Kidnap Gang</title>
+    <desc lang="en">The continuous rise of kidnap-for-ransom cases forces the government to form a task force to stop it. All committed to one goal -- stop the dreaded Lost Command, the most notorious of the kidnap-for-ransom gangs. Expect a lot of explosive firepower and non-stop action.</desc>
+  </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
     <url>http://example.com</url>
@@ -6329,14 +6329,6 @@
     <display-name lang="en">nhk_japan</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506100000 +0800" stop="20250506101000 +0800" channel="nhk_japan">
-    <title lang="en">NHK NEWSLINE</title>
-    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
-  </programme>
-  <programme start="20250506101000 +0800" stop="20250506102000 +0800" channel="nhk_japan">
-    <title lang="en">Nun's Seasonal Calendar</title>
-    <desc lang="en">In this episode, we learn about rikka and shoman, two dates of early summer. The temple chefs teach us how to make kimpira stir fry with itadori and mehari-zushi (eye-popping sushi).</desc>
-  </programme>
   <programme start="20250506102000 +0800" stop="20250506103000 +0800" channel="nhk_japan">
     <title lang="en">Beware! False Info and Impression</title>
     <desc lang="en">After a major earthquake hits, the father posts a video online spreading a rumor that the quake was "man-made." Of course, this earns a scolding from his daughter, but like always, not much changes.</desc>
@@ -6893,14 +6885,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506100500 +0800" stop="20250506101500 +0800" channel="nickjr">
-    <title lang="en">Sharkdog</title>
-    <desc lang="en">When Sharkdog and Dennis get stuck together (literally!), Max must find a way to separate them before the big surf contest.</desc>
-  </programme>
-  <programme start="20250506101500 +0800" stop="20250506102000 +0800" channel="nickjr">
-    <title lang="en">Sharkdog</title>
-    <desc lang="en">When Sharkdog steals the show in the new aquarium commercial, Max must overcome a serious case of jealousy.</desc>
-  </programme>
   <programme start="20250506102000 +0800" stop="20250506103000 +0800" channel="nickjr">
     <title lang="en">Sharkdog</title>
     <desc lang="en">When Sharkdog doesn't come home from the aquarium, the Sharkpack go on a mission to find their missing friend!</desc>
@@ -7273,14 +7257,18 @@
     <title lang="en">Sharkdog</title>
     <desc lang="en">The Sharkpack must stop Mr. Ceviche before he spills Sharkdog's secret.</desc>
   </programme>
+  <programme start="20250507101500 +0800" stop="20250507102000 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">Max is desperate for a dog, but when he finds Sharkdog while paddle boarding he gets a pet - and friend - who is way more bizarre and fun than he expected.</desc>
+  </programme>
+  <programme start="20250507102000 +0800" stop="20250507103000 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">Max's new best friend, Sharkdog, comes home with him, but keeping him a secret from his parents is a challenge.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506094500 +0800" stop="20250506101000 +0800" channel="warnertv_hd">
-    <title lang="en">Hack My Life S3 06</title>
-    <desc lang="en">Brooke and Kevin demonstrate how to save money at the gas tank. Plus, breaking up doesn't have to be so hard when you use these lessons from our Hack Hero!</desc>
-  </programme>
   <programme start="20250506101000 +0800" stop="20250506110000 +0800" channel="warnertv_hd">
     <title lang="en">East New York S1 13</title>
     <desc lang="en">When the 7-4 investigates a fire, Killian and Morales turn to Dr. Ken Corley, a medical examiner, and fire marshal Nicky Greenville for insight. Also, Haywood announces a new policy.</desc>
@@ -7436,6 +7424,10 @@
   <programme start="20250507094500 +0800" stop="20250507101000 +0800" channel="warnertv_hd">
     <title lang="en">Hack My Life S3 08</title>
     <desc lang="en">We're going to the future with Kevin as he lives out his hoverboard dream with Master Hacker Science Bob. And move over, 2000 thread count sheets, Brooke and Kevin spot a hack that will help your sheets feel like a million bucks!</desc>
+  </programme>
+  <programme start="20250507101000 +0800" stop="20250507110000 +0800" channel="warnertv_hd">
+    <title lang="en">East New York S1 14</title>
+    <desc lang="en">When a house party ends in murder, Morales, and Killian turn to Quinlan for help. Also, Haywood takes on an unexpected new role, and Suarez helps his brother.</desc>
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
@@ -8277,6 +8269,10 @@
     <title lang="en">Your Favourite Songs</title>
     <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
   </programme>
+  <programme start="20250507101900 +0800" stop="20250507104600 +0800" channel="moonbug_kids">
+    <title lang="en">Barky Walkies</title>
+    <desc lang="en">No matter what the town needs, Mila and her magical pet, Morphle will work together to save the day.</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://example.com</url>
@@ -8341,10 +8337,6 @@
     <display-name lang="en">france24</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250506100000 +0800" stop="20250506101500 +0800" channel="france24">
-    <title lang="en">News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250506101500 +0800" stop="20250506103000 +0800" channel="france24">
     <title lang="en">Perspective</title>
     <desc lang="en">Join presenters Eve Irvine and Stuart Norval, as they talk to various notable people about important topics such as social issues, culture, sport, science, business, and much more.</desc>
@@ -8816,6 +8808,10 @@
   <programme start="20250507100000 +0800" stop="20250507101500 +0800" channel="france24">
     <title lang="en">News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250507101500 +0800" stop="20250507103000 +0800" channel="france24">
+    <title lang="en">Perspective</title>
+    <desc lang="en">Join presenters Eve Irvine and Stuart Norval, as they talk to various notable people about important topics such as social issues, culture, sport, science, business, and much more.</desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
@@ -9721,10 +9717,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250506100000 +0800" stop="20250506102000 +0800" channel="nickelodeon">
-    <title lang="en">The Loud House</title>
-    <desc lang="en">Dad and Lincoln get on "Legends of the Hidden Temple" and can't wait to for a whole day of father/son bonding. // Lincoln wants to go to the mall but has to watch his younger sisters so he decides to take them to the mall.</desc>
-  </programme>
   <programme start="20250506102000 +0800" stop="20250506103500 +0800" channel="nickelodeon">
     <title lang="en">The Loud House</title>
     <desc lang="en">After eavesdropping on his parents, Lincoln thinks they have decided to get rid of their kids!</desc>
@@ -9980,6 +9972,10 @@
   <programme start="20250507100000 +0800" stop="20250507102000 +0800" channel="nickelodeon">
     <title lang="en">The Loud House</title>
     <desc lang="en">To get Lily to stop crying the kids give her an old singing toy from the attic but it quickly drives them crazy. // Dad declares war on the kids' devices so they decide to show Dad how great electronics and the internet are.</desc>
+  </programme>
+  <programme start="20250507102000 +0800" stop="20250507103500 +0800" channel="nickelodeon">
+    <title lang="en">The Loud House</title>
+    <desc lang="en">Tensions run high when Lincoln and Clyde both get an internship at Flip's and compete to win the manager title. // When Lincoln sees how tame Pop Pop has gotten in his older age, he takes him out for a day to remember.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

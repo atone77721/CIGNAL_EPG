@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pytz beautifulsoup4 selenium
+          pip install requests pytz beautifulsoup4 selenium webdriver-manager
 
       - name: Decode and Run EPG fetcher from Secret
         env:

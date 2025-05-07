@@ -1,4 +1,4 @@
-name: EPG Fetcher
+name: cignal-epg-scraper
 
 on:
   workflow_dispatch:
@@ -10,32 +10,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
-      # Step 2: Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Step 3: Install Python dependencies
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
       - name: Install Python dependencies
         run: |
-          pip install requests pytz beautifulsoup4 selenium webdriver-manager python-dateutil
+          pip install requests pytz beautifulsoup4 selenium webdriver-manager
 
-      # Step 4: Run the EPG scraper script
-      - name: Run the EPG scraper script
+      - name: Run the EPG script
         run: |
           python sky-epg.py
 
-      # Step 5: Commit and push the changes if any
       - name: Commit and push if changes
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.SKY_EPG }}@github.com/ATONE77721/CIGNAL_EPG.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ATONE77721/CIGNAL_EPG.git
           git add sky_epg.xml sky_epg.xml.gz
           git diff --staged --quiet || git commit -m "Update SKY EPG data"
           git push --force

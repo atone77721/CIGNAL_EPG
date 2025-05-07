@@ -892,6 +892,10 @@
     <title lang="en">Scooby-Doo And Guess Who? S1</title>
     <desc lang="en">The gang discover a camp run by Weird Al Yankovic!</desc>
   </programme>
+  <programme start="20250508092500 +0800" stop="20250508093600 +0800" channel="cg_hbofam">
+    <title lang="en">Ben 10 S1</title>
+    <desc lang="en">When Gwen drags Ben along on a hike in search of the legendary Forgeti - a yeti that makes people forget they ever saw it - Ben is dubious.</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
     <url>http://example.com</url>
@@ -1096,10 +1100,6 @@
     <display-name lang="en">cg_hbosign</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507074000 +0800" stop="20250507092500 +0800" channel="cg_hbosign">
-    <title lang="en">Wit</title>
-    <desc lang="en">Vivian Bearing is suddenly faced with the most daunting of personal crises — a diagnosis of terminal ovarian cancer and a personal awakening is set in motion.</desc>
-  </programme>
   <programme start="20250507092500 +0800" stop="20250507095500 +0800" channel="cg_hbosign">
     <title lang="en">Avenue 5 S1</title>
     <desc lang="en">Billie seeks her moment in the limelight after stepping in to help Ryan during the ship’s newest crisis. Doug tries to get in the way of Mia’s newfound sexual freedom.</desc>
@@ -1296,10 +1296,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507085500 +0800" stop="20250507092000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Trolls: The Beat Goes On!</title>
-    <desc lang="en">When a neighbor asks Guy for help to fight a monster, Guy mistakes it as an invite to act in his play/Smidge sets out to help Troll Village but creates disastrous results</desc>
-  </programme>
   <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="cg_dreamworktag">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">When Kelp and Scallop discover Mr. Pearly has a cave full of stuff they help him to realize it could help a lot of other sea creatures. / When the group goes camping, Kelp helps Ollie learn that even though it didn’t go exactly as planned, they can still have loads of fun.</desc>
@@ -1536,14 +1532,14 @@
     <title lang="en">Trolls: The Beat Goes On!</title>
     <desc lang="en">Smidge tries to rescue the Trolls after thinking she has magical powers/ DJ Suki tries to impress her favorite niece CJ Suki</desc>
   </programme>
+  <programme start="20250508092000 +0800" stop="20250508094500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">When one of Rikki’s plants won't sing, Pixie and Juniper both tell their varying recollections of why the plant is suddenly silent. / Kelp, Scallop, and Cruz have always thought that starfish did nothing but laze about; but as they go about their day, the starfish goes through his own routine, completely unbeknownst to everyone else.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507072000 +0800" stop="20250507092000 +0800" channel="cg_tvnpre">
-    <title lang="en">Express Delivery: Mongolia Edition</title>
-    <desc lang="en">“Let’s deliver parcels while riding horses!” The “Dragon Zodiac Club” members become delivery men in Mongolia, globe-trotting to deliver parcels from the world only to keep their word!</desc>
-  </programme>
   <programme start="20250507092000 +0800" stop="20250507094000 +0800" channel="cg_tvnpre">
     <title lang="en">You Can Cook With Sam Kim</title>
     <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
@@ -2536,10 +2532,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507085500 +0800" stop="20250507092000 +0800" channel="dreamworks_hd">
-    <title lang="en">Trolls: The Beat Goes On!</title>
-    <desc lang="en">When a neighbor asks Guy for help to fight a monster, Guy mistakes it as an invite to act in his play/Smidge sets out to help Troll Village but creates disastrous results</desc>
-  </programme>
   <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="dreamworks_hd">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">When Kelp and Scallop discover Mr. Pearly has a cave full of stuff they help him to realize it could help a lot of other sea creatures. / When the group goes camping, Kelp helps Ollie learn that even though it didn’t go exactly as planned, they can still have loads of fun.</desc>
@@ -2775,6 +2767,10 @@
   <programme start="20250508085500 +0800" stop="20250508092000 +0800" channel="dreamworks_hd">
     <title lang="en">Trolls: The Beat Goes On!</title>
     <desc lang="en">Smidge tries to rescue the Trolls after thinking she has magical powers/ DJ Suki tries to impress her favorite niece CJ Suki</desc>
+  </programme>
+  <programme start="20250508092000 +0800" stop="20250508094500 +0800" channel="dreamworks_hd">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">When one of Rikki’s plants won't sing, Pixie and Juniper both tell their varying recollections of why the plant is suddenly silent. / Kelp, Scallop, and Cruz have always thought that starfish did nothing but laze about; but as they go about their day, the starfish goes through his own routine, completely unbeknownst to everyone else.</desc>
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
@@ -4228,10 +4224,6 @@
     <display-name lang="en">kbs_world</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507081000 +0800" stop="20250507092500 +0800" channel="kbs_world">
-    <title lang="en">The Slave Hunters</title>
-    <desc lang="en">Slaves fervently wishing to live like a human being VS. Slave hunters chasing them tirelessly. A bloody battle between them begins to take place!!! Being a slave hunter, Daegil is disregarded by people due to his low social status. While doing his job, Daegil is offered by Lee Gyongsuk to get Song Taeha and is promised to be given a fair amount of money as a reward. Taeha was forced to become a state slave as he was wrongfully accused of stealing some provisions. After reading a secret message saying the life of Sohyeons youngest son is on the line, Taeha tries to escape in an attempt to save him, the eldest son of the Crown Prince. Daegil, however, gets wind of his plan and the two ends up fighting a bloody fight. Having barely escaped from the fierce fight, Taeha happens to accompany a woman named Hyewon. Daegil fails to track down the slave he was first assigned to capture, and constantly runs into Seolhwa who escaped from a troupe of strolling actors. To make things worse, Daegil is threatened to be killed by a group of slaves who formed a hit squad to assassinate nobles. As for Daegil, he has every reason to be successful in accomplishing his first mission. Aside from recovering his pride hurt by Taeha, Daegil needs a sizable sum of money to live a comfortable life in his old age. In the end, Taeha manages to run away from Daegil while Daegil feels affection for Hyewon.</desc>
-  </programme>
   <programme start="20250507092500 +0800" stop="20250507100000 +0800" channel="kbs_world">
     <title lang="en">Good Luck!</title>
     <desc lang="en">A life story of three friends, one who is rich, one who is poor, and one who wishes to be rich, along with their families.</desc>
@@ -4348,6 +4340,10 @@
     <title lang="en">Queen of Mystery Season 2</title>
     <desc lang="en">Queen of Mystery is back! Housewife-turned-investigator Seolok and passionate detective Wanseung collaborate to solve mysterious cases and cure the hearts of those who were wounded by crimes along the way.</desc>
   </programme>
+  <programme start="20250508092500 +0800" stop="20250508100000 +0800" channel="kbs_world">
+    <title lang="en">Good Luck!</title>
+    <desc lang="en">A life story of three friends, one who is rich, one who is poor, and one who wishes to be rich, along with their families.</desc>
+  </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
     <url>http://example.com</url>
@@ -4452,10 +4448,6 @@
     <display-name lang="en">kix_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507074000 +0800" stop="20250507092500 +0800" channel="kix_hd">
-    <title lang="en">Iron Squad 2</title>
-    <desc lang="en">The new season of this Korean military survival show brings eight Special Force units together to compete in extreme missions that will test their physical stamina, mental strength and teamwork. Top male reservists form teams of four to compete against one another. Witness how they battle till the end in front of five celebrity hosts!</desc>
-  </programme>
   <programme start="20250507092500 +0800" stop="20250507104500 +0800" channel="kix_hd">
     <title lang="en">Iron Ball</title>
     <desc lang="en">This sports entertainment show brings the best special forces from Iron Squad to take on a new challenge – dodgeball. The 26 players will enter a fierce competition, until a strongest team armed with powerful athletic endurance and mental strength is formed. Witness how they compete in front of the star athletes and legendary dodgeball coaches!</desc>
@@ -4732,10 +4724,6 @@
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507085500 +0800" stop="20250507092000 +0800" channel="hgtv_hd">
-    <title lang="en">House Hunters (S109)</title>
-    <desc lang="en">A young couple can't agree on suburbs vs. city in Rochester, New York.</desc>
-  </programme>
   <programme start="20250507092000 +0800" stop="20250507101000 +0800" channel="hgtv_hd">
     <title lang="en">Unsellable Houses (S5)</title>
     <desc lang="en">Market factors cause Lyndsay and Leslie to increase their investment for a landlord couple trying to sell their nearly $1 million duplex.</desc>
@@ -4899,6 +4887,10 @@
   <programme start="20250508085500 +0800" stop="20250508092000 +0800" channel="hgtv_hd">
     <title lang="en">House Hunters (S109)</title>
     <desc lang="en">A military family seeks a home in Aurora, Colorado, where they can put down roots.</desc>
+  </programme>
+  <programme start="20250508092000 +0800" stop="20250508101000 +0800" channel="hgtv_hd">
+    <title lang="en">House Hunters Renovation (S17)</title>
+    <desc lang="en">First-time buyers look for a home in Atlanta, Georgia. He wants a home in the city with plenty of space, but she wants a suburban home.</desc>
   </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
@@ -6444,10 +6436,6 @@
     <display-name lang="en">nhk_japan</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507091500 +0800" stop="20250507092500 +0800" channel="nhk_japan">
-    <title lang="en">MATSURI: The Heartbeat of Japan</title>
-    <desc lang="en">Sawara Taisai looks back 300 years to a time when the town of Sawara was a vibrant cultural center. Large, elaborately decorated floats are paraded through the streets.</desc>
-  </programme>
   <programme start="20250507092500 +0800" stop="20250507093000 +0800" channel="nhk_japan">
     <title lang="en">Nun's Cookbook</title>
     <desc lang="en">The nuns of Otowasan Kannonji Temple show us how to make sesame-covered taro dumplings. Simply mash up boiled taro, add cheese, sprinkle with sesame, and deep fry for some tasty autumn goodness.</desc>
@@ -6852,10 +6840,6 @@
     <display-name lang="en">nickjr</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507092500 +0800" channel="nickjr">
-    <title lang="en">DORA</title>
-    <desc lang="en">Dora and Boots meet Shelly, a hermit crab missing her shell, who uses one of Boots' boots. Dora travels across the beach in search of her old shell. // Papi is having a quesadilla picnic, but he forgot the ingredients! Dora sets off to deliver them.</desc>
-  </programme>
   <programme start="20250507092500 +0800" stop="20250507094500 +0800" channel="nickjr">
     <title lang="en">Blaze and the Monster Machines</title>
     <desc lang="en">Witness the return of Sir Blaze and Sir AJ as they embark on an epic quest to free a magical unicorn from an unpoppable bubble!</desc>
@@ -7244,14 +7228,14 @@
     <title lang="en">DORA</title>
     <desc lang="en">Boots is too short to go on a ride, so he wishes to be bigger and becomes giant!  Dora helps him go back to his normal size. // Backpack has something special for Dora, but she can't open! They travel to Abuela on Tallest Mountain so she can fix her.</desc>
   </programme>
+  <programme start="20250508092500 +0800" stop="20250508094500 +0800" channel="nickjr">
+    <title lang="en">Blaze and the Monster Machines</title>
+    <desc lang="en">At the starting line for Race to Sky High Mountain, one of Crusher's cheats threatens to sideline Blaze for good. To get back in this race, Blaze will need... Power Tires!</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507083000 +0800" stop="20250507092000 +0800" channel="warnertv_hd">
-    <title lang="en">Arrow S2 15</title>
-    <desc lang="en">As Oliver brings Sara into the team, Felicity starts to feel left out.  To prove her worth, she goes after a villain named William Tockman, a.k.a. The Clock King (ROBERT KNEPPER).</desc>
-  </programme>
   <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="warnertv_hd">
     <title lang="en">Hack My Life S3 07</title>
     <desc lang="en">Brooke and Kevin give tips on skipping a busy lunch line with a new Gaming the System hack, the Pitchman has some money-saving advice for your car, and ever wonder where high heels come from? Find out in Hacks From History.</desc>
@@ -7411,6 +7395,10 @@
   <programme start="20250508083000 +0800" stop="20250508092000 +0800" channel="warnertv_hd">
     <title lang="en">Arrow S2 16</title>
     <desc lang="en">Oliver is shocked to learn that Slade has come to Starling City.  Back on the island, Oliver tries to hide the secret of Shado's death and the battle begins.</desc>
+  </programme>
+  <programme start="20250508092000 +0800" stop="20250508094500 +0800" channel="warnertv_hd">
+    <title lang="en">Hack My Life S3 09</title>
+    <desc lang="en">Officers Mack and Jack come to the rescue of a perp who has a tough time being alone, and Kevin reunites with his long-time friend Candace Bailey in a hacksperiment where they attempt to find out the sex of her baby.</desc>
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
@@ -8328,10 +8316,6 @@
     <display-name lang="en">france24</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507091500 +0800" stop="20250507092100 +0800" channel="france24">
-    <title lang="en">Business</title>
-    <desc lang="en">Business on France 24 gives you a perfect chance to get the business updates as they come and to be up to speed on international finances and economics. Business keeps you posted on everything that really matters in our fast moving world.</desc>
-  </programme>
   <programme start="20250507092100 +0800" stop="20250507093000 +0800" channel="france24">
     <title lang="en">In the Press</title>
     <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
@@ -8807,6 +8791,10 @@
   <programme start="20250508091500 +0800" stop="20250508092100 +0800" channel="france24">
     <title lang="en">Business</title>
     <desc lang="en">Business on France 24 gives you a perfect chance to get the business updates as they come and to be up to speed on international finances and economics. Business keeps you posted on everything that really matters in our fast moving world.</desc>
+  </programme>
+  <programme start="20250508092100 +0800" stop="20250508093000 +0800" channel="france24">
+    <title lang="en">In the Press</title>
+    <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
@@ -9552,10 +9540,6 @@
     <display-name lang="en">tv5_monde</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507091600 +0800" stop="20250507092500 +0800" channel="tv5_monde">
-    <title lang="en">L'Invité</title>
-    <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
-  </programme>
   <programme start="20250507092500 +0800" stop="20250507093000 +0800" channel="tv5_monde">
     <title lang="en">64' L'Essentiel</title>
     <desc lang="en">The whole world, in French.</desc>
@@ -9756,14 +9740,14 @@
     <title lang="en">L'Invité</title>
     <desc lang="en">Patrick Simonin hosts the stars in the headlines, culture, music, film, books, an unmissable rendezvous with all those who light up our times.</desc>
   </programme>
+  <programme start="20250508092500 +0800" stop="20250508093000 +0800" channel="tv5_monde">
+    <title lang="en">64' L'Essentiel</title>
+    <desc lang="en">The whole world, in French.</desc>
+  </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250507085500 +0800" stop="20250507092000 +0800" channel="nickelodeon">
-    <title lang="en">ALVINNN!!! and The Chipmunks</title>
-    <desc lang="en">The Chipmunks don't want to perform in the school play, after learning of its curse. // Simon's robot Geizmo becomes jealous of Jeanette's robot Zeela, until a sudden tragedy reveals Geizmo's true heart.</desc>
-  </programme>
   <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="nickelodeon">
     <title lang="en">ALVINNN!!! and The Chipmunks</title>
     <desc lang="en">In an effort to be more productive, Simon invents a device that can override the need to sleep. But does it work? // Alvin gets a taste of his own medicine when he zaps Dave with a youth ray, turning him into an irresponsible teen.</desc>
@@ -10019,6 +10003,10 @@
   <programme start="20250508085500 +0800" stop="20250508092000 +0800" channel="nickelodeon">
     <title lang="en">ALVINNN!!! and The Chipmunks</title>
     <desc lang="en">Alvin sounds the alarm when he believes Theodore has joined a motorcycle gang of vampires! // When Brittany declines Alvin's help for a talent show, he convinces Jeanette to enter, putting them at odds.</desc>
+  </programme>
+  <programme start="20250508092000 +0800" stop="20250508094500 +0800" channel="nickelodeon">
+    <title lang="en">ALVINNN!!! and The Chipmunks</title>
+    <desc lang="en">When Miss Croner has a disagreement with Miss Miller, she fakes her disappearance to get even. // Simon tells Alvin time travel is impossible, until a man from the future shows up at their home.</desc>
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>

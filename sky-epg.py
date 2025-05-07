@@ -2,6 +2,7 @@ import requests
 import datetime
 import xml.etree.ElementTree as ET
 import gzip
+from dateutil import parser
 
 BASE_URL = "https://skyepg.mysky.com.ph/Main/getEventsbyType"
 LOGO_URL = "http://202.78.65.124/epgcms/uploads/"
@@ -13,8 +14,13 @@ def fetch_epg(counter):
     return response.json()
 
 def convert_time(timestamp_ms):
-    dt = datetime.datetime.fromtimestamp(int(timestamp_ms) / 1000)
-    return dt.strftime("%Y%m%d%H%M%S +0800")
+    # Try to parse the string date (e.g. '2025/05/07 10:00')
+    try:
+        dt = parser.parse(timestamp_ms)
+        return dt.strftime("%Y%m%d%H%M%S +0800")
+    except Exception as e:
+        print(f"❌ Error parsing timestamp: {timestamp_ms} - {e}")
+        raise
 
 def create_xmltv(all_data):
     tv = ET.Element("tv")

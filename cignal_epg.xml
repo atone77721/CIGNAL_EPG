@@ -588,10 +588,6 @@
     <display-name lang="en">tvmaria_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="tvmaria_prd">
-    <title lang="en">TV Maria</title>
-    <desc lang="en">TV Maria</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="tvmaria_prd">
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
@@ -681,6 +677,10 @@
     <desc lang="en">TV Maria</desc>
   </programme>
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="tvmaria_prd">
+    <title lang="en">TV Maria</title>
+    <desc lang="en">TV Maria</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="tvmaria_prd">
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
   </programme>
@@ -996,10 +996,6 @@
     <display-name lang="en">lotusmacau_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="lotusmacau_prd">
-    <title lang="en">Lotus Macau</title>
-    <desc lang="en">Lotus Macau</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="lotusmacau_prd">
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
@@ -1089,6 +1085,10 @@
     <desc lang="en">Lotus Macau</desc>
   </programme>
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="lotusmacau_prd">
+    <title lang="en">Lotus Macau</title>
+    <desc lang="en">Lotus Macau</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="lotusmacau_prd">
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
   </programme>
@@ -1288,10 +1288,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507074000 +0800" stop="20250507080500 +0800" channel="cg_dreamworktag">
-    <title lang="en">Boss Baby: Back in Business</title>
-    <desc lang="en">When Tim is forced to take piano lessons, he actually enjoys them and Boss Baby realizes that Tim is being brainwashed by his piano teacher, slowly turning Tim into an old man</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507083000 +0800" channel="cg_dreamworktag">
     <title lang="en">	 Abominable and The Invisible City</title>
     <desc lang="en">An earth-shaking rumble signals the arrival of a new creature, but Yi and Jin butt heads, each convinced they’re the better team leader. The crew eventually discovers that the massive Sewer Koi is behind the earthquakes, but he’s missing his precious pearl, the key to a magical underground dam. Without it, the sewer’s water levels will rise, threatening to overflow and flood the whole city! It’s going to take a heist to extract the pearl from its display at a local museum, before it’s too late.</desc>
@@ -1527,6 +1523,10 @@
   <programme start="20250508074000 +0800" stop="20250508080500 +0800" channel="cg_dreamworktag">
     <title lang="en">Boss Baby: Back in Business</title>
     <desc lang="en">Turtleneck wants to crack the Stinkless Serum formula and makes it a competition, pitting worker babies against worker babies, stating that the first one to the Serum will be the new CEO!</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508083000 +0800" channel="cg_dreamworktag">
+    <title lang="en">	 Abominable and The Invisible City</title>
+    <desc lang="en">With the sudden closing of a local candy shop, NaiNai is busy trying to recreate its famous candied fruit. But after a late-night sugar binge in NaiNai’s stash, Peng starts acting strangely. It turns out that he’s possessed by magical creatures! The Minticon are sugar-addicted puffball creatures, who previously lived in the old candy shop. Armed with her violin, Yi commands the creatures out of Peng’s body, winning over the Minticon in the process.</desc>
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
@@ -2524,10 +2524,6 @@
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507074000 +0800" stop="20250507080500 +0800" channel="dreamworks_hd">
-    <title lang="en">Boss Baby: Back in Business</title>
-    <desc lang="en">When Tim is forced to take piano lessons, he actually enjoys them and Boss Baby realizes that Tim is being brainwashed by his piano teacher, slowly turning Tim into an old man</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507083000 +0800" channel="dreamworks_hd">
     <title lang="en">	 Abominable and The Invisible City</title>
     <desc lang="en">An earth-shaking rumble signals the arrival of a new creature, but Yi and Jin butt heads, each convinced they’re the better team leader. The crew eventually discovers that the massive Sewer Koi is behind the earthquakes, but he’s missing his precious pearl, the key to a magical underground dam. Without it, the sewer’s water levels will rise, threatening to overflow and flood the whole city! It’s going to take a heist to extract the pearl from its display at a local museum, before it’s too late.</desc>
@@ -2764,6 +2760,10 @@
     <title lang="en">Boss Baby: Back in Business</title>
     <desc lang="en">Turtleneck wants to crack the Stinkless Serum formula and makes it a competition, pitting worker babies against worker babies, stating that the first one to the Serum will be the new CEO!</desc>
   </programme>
+  <programme start="20250508080500 +0800" stop="20250508083000 +0800" channel="dreamworks_hd">
+    <title lang="en">	 Abominable and The Invisible City</title>
+    <desc lang="en">With the sudden closing of a local candy shop, NaiNai is busy trying to recreate its famous candied fruit. But after a late-night sugar binge in NaiNai’s stash, Peng starts acting strangely. It turns out that he’s possessed by magical creatures! The Minticon are sugar-addicted puffball creatures, who previously lived in the old candy shop. Armed with her violin, Yi commands the creatures out of Peng’s body, winning over the Minticon in the process.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://example.com</url>
@@ -2944,10 +2944,6 @@
     <display-name lang="en">nbn4</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="nbn4">
-    <title lang="en">PTV4</title>
-    <desc lang="en">PTV4</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="nbn4">
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
@@ -3037,6 +3033,10 @@
     <desc lang="en">PTV4</desc>
   </programme>
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="nbn4">
+    <title lang="en">PTV4</title>
+    <desc lang="en">PTV4</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="nbn4">
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
   </programme>
@@ -4508,10 +4508,6 @@
     <display-name lang="en">lifetime</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="lifetime">
-    <title lang="en">Rachael Ray In Tuscany</title>
-    <desc lang="en">Rachael prepares a well-rounded meal of a French-cut rack of lamb, baked with Dijon mustard and seasoned breadcrumbs, and a side dish of brown and wild rice with porcini mushrooms and sautéed spinach.</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="lifetime">
     <title lang="en">Married At First Sight Australia (S9)</title>
     <desc lang="en">The honeymoons continue for the first of our newlyweds.</desc>
@@ -4603,6 +4599,10 @@
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="lifetime">
     <title lang="en">Rachael Ray In Tuscany</title>
     <desc lang="en">Author and chef Sara Moulton joins Rachael in her Tuscan kitchen to create a meal using ingredients from Rachael's pantry. Sara prepares a free-form crostata using a variety of vegetables.</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="lifetime">
+    <title lang="en">Married At First Sight Australia (S9)</title>
+    <desc lang="en">While it’s fireworks for latest newlyweds Jackson and Olivia, the youngest groom Al fails to find a spark with his new bride Samantha.</desc>
   </programme>
   <channel id="bbcworld_news">
     <display-name lang="en">bbcworld_news</display-name>
@@ -4708,10 +4708,6 @@
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507074000 +0800" stop="20250507080500 +0800" channel="hgtv_hd">
-    <title lang="en">House Hunters (S1)</title>
-    <desc lang="en">A couple tasks estate agent and psychic Larry with helping them find their first home in Toronto. They're looking for a place that fits spiritually.</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507083000 +0800" channel="hgtv_hd">
     <title lang="en">House Hunters International (S189)</title>
     <desc lang="en">A young, married couple leaves her lifelong home in Tennessee for his native Australia.</desc>
@@ -4875,6 +4871,10 @@
   <programme start="20250508074000 +0800" stop="20250508080500 +0800" channel="hgtv_hd">
     <title lang="en">House Hunters: All-Stars (S1)</title>
     <desc lang="en">HGTV's Indy expert Mina Starsiak Hawk helps an artist relocating from Hawaii find the right home in the right Indianapolis neighbourhood.</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508083000 +0800" channel="hgtv_hd">
+    <title lang="en">House Hunters International (S189)</title>
+    <desc lang="en">A military vet heads to Thailand, sight unseen, to help navigate life's setbacks, which includes divorce, injury and PTSD.</desc>
   </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
@@ -5668,10 +5668,6 @@
     <display-name lang="en">depedchannel</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="depedchannel">
-    <title lang="en">DepEd TV</title>
-    <desc lang="en">DepEd TV</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="depedchannel">
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
@@ -5761,6 +5757,10 @@
     <desc lang="en">DepEd TV</desc>
   </programme>
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="depedchannel">
+    <title lang="en">DepEd TV</title>
+    <desc lang="en">DepEd TV</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="depedchannel">
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
   </programme>
@@ -7504,10 +7504,6 @@
     <display-name lang="en">ibc13</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="ibc13">
-    <title lang="en">IBC13</title>
-    <desc lang="en">IBC13</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="ibc13">
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
@@ -7597,6 +7593,10 @@
     <desc lang="en">IBC13</desc>
   </programme>
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="ibc13">
+    <title lang="en">IBC13</title>
+    <desc lang="en">IBC13</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="ibc13">
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
   </programme>
@@ -9060,6 +9060,10 @@
     <title lang="en">Ruin Me</title>
     <desc lang="en">Six strangers sign up for “Slasher Sleepout”, a horror movie experience in which participants are dropped into a forest and pursued by knife-wielding assassins. When the participants begin to die one after the other, Alexandra, who has never seen a horror film before, must unravel the mysteries in order to survive the ordeal.</desc>
   </programme>
+  <programme start="20250508080500 +0800" stop="20250508100500 +0800" channel="thrill">
+    <title lang="en">Watch Me Kill</title>
+    <desc lang="en">A ruthless assassin named Luciana is hired by a kingpin to murder a man with a valuable diamond. Complications ensue when Luciana stumbles upon a teenage girl who is held captive by the man, and the kingpin discovers that the diamond Luciana turned over is fake.</desc>
+  </programme>
   <channel id="crime_investigation">
     <display-name lang="en">crime_investigation</display-name>
     <url>http://example.com</url>
@@ -9200,10 +9204,6 @@
     <display-name lang="en">tech_storm</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073500 +0800" stop="20250507080500 +0800" channel="tech_storm">
-    <title lang="en">TechStorm</title>
-    <desc lang="en">TechStorm</desc>
-  </programme>
   <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="tech_storm">
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
@@ -9293,6 +9293,10 @@
     <desc lang="en">TechStorm</desc>
   </programme>
   <programme start="20250508073500 +0800" stop="20250508080500 +0800" channel="tech_storm">
+    <title lang="en">TechStorm</title>
+    <desc lang="en">TechStorm</desc>
+  </programme>
+  <programme start="20250508080500 +0800" stop="20250508094500 +0800" channel="tech_storm">
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
   </programme>

@@ -1,4 +1,4 @@
-name: SKY-epg-scraper
+name: cignal-epg-scraper
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install requests pytz beautifulsoup4 selenium webdriver-manager
+          pip install requests pytz beautifulsoup4 selenium webdriver-manager python-dateutil
 
       - name: Run the EPG script
         run: |

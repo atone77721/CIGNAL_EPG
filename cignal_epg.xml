@@ -4,10 +4,6 @@
     <display-name lang="en">bilyonaryoch</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="bilyonaryoch">
-    <title lang="en">At The Forefront </title>
-    <desc lang="en">At The Forefront </desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="bilyonaryoch">
     <title lang="en">Business 360</title>
     <desc lang="en">Business 360</desc>
@@ -144,14 +140,14 @@
     <title lang="en">At The Forefront </title>
     <desc lang="en">At The Forefront </desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508110000 +0800" channel="bilyonaryoch">
+    <title lang="en">Business 360</title>
+    <desc lang="en">Business 360</desc>
+  </programme>
   <channel id="rptv">
     <display-name lang="en">rptv</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="rptv">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="rptv">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -244,14 +240,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="rptv">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="truefmtv">
     <display-name lang="en">truefmtv</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507060000 +0800" stop="20250507100000 +0800" channel="truefmtv">
-    <title lang="en">Ted and Cha</title>
-    <desc lang="en">Ted and Cha</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507120000 +0800" channel="truefmtv">
     <title lang="en">Sana Lourd</title>
     <desc lang="en">Sana Lourd</desc>
@@ -312,18 +308,14 @@
     <title lang="en">Ted and Cha</title>
     <desc lang="en">Ted and Cha</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508120000 +0800" channel="truefmtv">
+    <title lang="en">Sana Lourd</title>
+    <desc lang="en">Sana Lourd</desc>
+  </programme>
   <channel id="cg_hitsnow">
     <display-name lang="en">cg_hitsnow</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="cg_hitsnow">
-    <title lang="en">The $100,000 Pyramid S7</title>
-    <desc lang="en">Michael Strahan returns as the host and he's bringing the hottest names in film, TV, sports and entertainment like Olympian Lindsey Vonn, comedian Russell Peters, and Seinfeld stars Jason Alexander.</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cg_hitsnow">
-    <title lang="en">The $100,000 Pyramid S7</title>
-    <desc lang="en">Michael Strahan returns as the host and he's bringing the hottest names in film, TV, sports and entertainment like Olympian Lindsey Vonn, comedian Russell Peters, and Seinfeld stars Jason Alexander.</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="cg_hitsnow">
     <title lang="en">Project Runway All-Stars</title>
     <desc lang="en">14 of the most beloved designers from across 19 seasons are given one more shot in a high-stakes All-Stars season that will be full of surprises and twists that change the game for a career-defining win.  </desc>
@@ -416,14 +408,14 @@
     <title lang="en">Fire Country S3</title>
     <desc lang="en">Extremely high winds and dangerous conditions push the Zebel Ridge fire into Edgewater, threatening Three Rock and Walter’s care facility.</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508110000 +0800" channel="cg_hitsnow">
+    <title lang="en">Project Runway All-Stars</title>
+    <desc lang="en">14 of the most beloved designers from across 19 seasons are given one more shot in a high-stakes All-Stars season that will be full of surprises and twists that change the game for a career-defining win.  </desc>
+  </programme>
   <channel id="cg_hbohd">
     <display-name lang="en">cg_hbohd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507081500 +0800" stop="20250507095000 +0800" channel="cg_hbohd">
-    <title lang="en">Austin Powers: The Spy Who Shagged Me</title>
-    <desc lang="en">Dr. Evil returns from space just as British spy Austin Powers learns on his honeymoon that his wife, Vanessa is a fembot under Dr Evil's control.</desc>
-  </programme>
   <programme start="20250507095000 +0800" stop="20250507120500 +0800" channel="cg_hbohd">
     <title lang="en">The Magnificent Seven</title>
     <desc lang="en">Desperate townspeople hire seven mercenaries to battle a greedy industrialist and his ruthless henchmen in the Old West.</desc>
@@ -484,14 +476,14 @@
     <title lang="en">Ready Jet Go: Space Camp The Movie</title>
     <desc lang="en">Alien Jet Propulsion travels through many galaxies in search of a cure for the illness of his pet, Sunspot.</desc>
   </programme>
+  <programme start="20250508095500 +0800" stop="20250508113000 +0800" channel="cg_hbohd">
+    <title lang="en">Despicable Me</title>
+    <desc lang="en">A villain’s plans to steal the moon are foiled when he encounters the immense will of three little orphaned girls who look at him as a potential Dad.</desc>
+  </programme>
   <channel id="tvup_prd">
     <display-name lang="en">tvup_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="tvup_prd">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="tvup_prd">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -584,14 +576,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="tvup_prd">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="tvmaria_prd">
     <display-name lang="en">tvmaria_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="tvmaria_prd">
-    <title lang="en">TV Maria</title>
-    <desc lang="en">TV Maria</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="tvmaria_prd">
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
@@ -684,26 +676,14 @@
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="tvmaria_prd">
+    <title lang="en">TV Maria</title>
+    <desc lang="en">TV Maria</desc>
+  </programme>
   <channel id="cg_hbofam">
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="cg_hbofam">
-    <title lang="en">Sesame Street S54</title>
-    <desc lang="en">Prairie Dawn is hosting a cookie party where all the cookies are baked in all kinds of shapes! Cookie Monster is excited to eat all the octagon shaped cookies but needs to figure out which of the cookies are octagons.</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cg_hbofam">
-    <title lang="en">Crashbox S1</title>
-    <desc lang="en">An outrageously insane new game show of puzzles and brainteasers for kids to play on television.</desc>
-  </programme>
-  <programme start="20250507100000 +0800" stop="20250507101100 +0800" channel="cg_hbofam">
-    <title lang="en">Chowder S2</title>
-    <desc lang="en">When a neurotic parasite takes residence in Chowder's belly, Chowder thinks he's found his inner voice.</desc>
-  </programme>
-  <programme start="20250507101100 +0800" stop="20250507102300 +0800" channel="cg_hbofam">
-    <title lang="en">Chowder S2</title>
-    <desc lang="en">Mung decides to throw the biggest party he can in Chowder's honor.</desc>
-  </programme>
   <programme start="20250507102300 +0800" stop="20250507103400 +0800" channel="cg_hbofam">
     <title lang="en">Chowder S2</title>
     <desc lang="en">Panini goes crazy with jealousy.</desc>
@@ -896,14 +876,30 @@
     <title lang="en">Ben 10 S1</title>
     <desc lang="en">When Gwen drags Ben along on a hike in search of the legendary Forgeti - a yeti that makes people forget they ever saw it - Ben is dubious.</desc>
   </programme>
+  <programme start="20250508093600 +0800" stop="20250508094700 +0800" channel="cg_hbofam">
+    <title lang="en">Ben 10 S1</title>
+    <desc lang="en">Ben is tasked with cleaning the Rust Bucket but is soon tricked into letting the villainous and vile Fly Guys steal it.</desc>
+  </programme>
+  <programme start="20250508094700 +0800" stop="20250508095800 +0800" channel="cg_hbofam">
+    <title lang="en">Ben 10 S1</title>
+    <desc lang="en">While tailgating at a State U. homecoming football game, Ben teams up with Grandpa Max's old college buddies to keep the crazy clown Zombozo from robbing the stadium blind at halftime.</desc>
+  </programme>
+  <programme start="20250508095800 +0800" stop="20250508100900 +0800" channel="cg_hbofam">
+    <title lang="en">Ben 10 S1</title>
+    <desc lang="en">While winning big on a Sumo Slammers video game, Ben gets the idea to win a real wrestling match - until an intimidating wrestler named Iron Kyle decides to make it a true challenge.</desc>
+  </programme>
+  <programme start="20250508100900 +0800" stop="20250508102500 +0800" channel="cg_hbofam">
+    <title lang="en">Ben 10 S1</title>
+    <desc lang="en">While trying to film his own indie film, Ben accidentally lets the Bug Gang go free and when he takes the fight to their hidden lair, Ben has to take on their narcissistic leader - the Ant Queen.</desc>
+  </programme>
+  <programme start="20250508102500 +0800" stop="20250508103700 +0800" channel="cg_hbofam">
+    <title lang="en">The Heroic Quest Of The Valiant Prince Ivandoe S1</title>
+    <desc lang="en">Prince Ivandoe and Bert set off on their heroic quest and, almost immediately, a winged serpent steals their map to Eagle Mountain.</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="cg_cinemax">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="cg_cinemax">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -996,14 +992,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="cg_cinemax">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="lotusmacau_prd">
     <display-name lang="en">lotusmacau_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="lotusmacau_prd">
-    <title lang="en">Lotus Macau</title>
-    <desc lang="en">Lotus Macau</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="lotusmacau_prd">
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
@@ -1096,14 +1092,14 @@
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="lotusmacau_prd">
+    <title lang="en">Lotus Macau</title>
+    <desc lang="en">Lotus Macau</desc>
+  </programme>
   <channel id="cg_hbosign">
     <display-name lang="en">cg_hbosign</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092500 +0800" stop="20250507095500 +0800" channel="cg_hbosign">
-    <title lang="en">Avenue 5 S1</title>
-    <desc lang="en">Billie seeks her moment in the limelight after stepping in to help Ryan during the ship’s newest crisis. Doug tries to get in the way of Mia’s newfound sexual freedom.</desc>
-  </programme>
   <programme start="20250507095500 +0800" stop="20250507103000 +0800" channel="cg_hbosign">
     <title lang="en">Avenue 5 S1</title>
     <desc lang="en">Avenue 5 celebrates the birth of a space baby. Rav appeals to the President for rescue funds but, in exchange, is faced with an ethical dilemma.</desc>
@@ -1172,14 +1168,14 @@
     <title lang="en">Avenue 5 S1</title>
     <desc lang="en">Karen collects non-essential items to jettison as frenzied passengers develop a conspiracy theory.</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508105500 +0800" channel="cg_hbosign">
+    <title lang="en">Southern Rites</title>
+    <desc lang="en">A photographer documents the repercussions when a white resident is charged with the murder of a black man during a campaign to elect the county's first African-American sheriff.</desc>
+  </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507083000 +0800" stop="20250507095500 +0800" channel="cg_hbohits">
-    <title lang="en">Paw Patrol: The Mighty Movie</title>
-    <desc lang="en">A magical meteor lands in Adventure City and transforms the PAW Patrol pups into The MIGHTY PUPS.</desc>
-  </programme>
   <programme start="20250507095500 +0800" stop="20250507114500 +0800" channel="cg_hbohits">
     <title lang="en">Godzilla X Kong: The New Empire</title>
     <desc lang="en">The ultimate Titan team-up! Godzilla and Kong face a colossal threat from Hollow World, challenging their very existence - and our own.</desc>
@@ -1232,14 +1228,14 @@
     <title lang="en">Unbroken</title>
     <desc lang="en">Directed by Angelina Jolie, the movie tells the incredible story of Louis Zamperini, who survived on a raft in the ocean for 47 days.</desc>
   </programme>
+  <programme start="20250508101500 +0800" stop="20250508122000 +0800" channel="cg_hbohits">
+    <title lang="en">The Accountant</title>
+    <desc lang="en">Ben Affleck stars as a math savant whose calm, bespectacled exterior as an accountant hides his work for some dangerous criminal organizations.</desc>
+  </programme>
   <channel id="cg_tvnmovie">
     <display-name lang="en">cg_tvnmovie</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507072000 +0800" stop="20250507093000 +0800" channel="cg_tvnmovie">
-    <title lang="en">Smugglers</title>
-    <desc lang="en">The haenyeos are having trouble with collecting seafood under water because of the newly built factory nearby. To make a living, they started doing smuggling business...</desc>
-  </programme>
   <programme start="20250507093000 +0800" stop="20250507113000 +0800" channel="cg_tvnmovie">
     <title lang="en">The Con Artists</title>
     <desc lang="en">A wily safecracker is forced to help a mob boss pull off a $150 million heist, but smells a double-cross in the works.</desc>
@@ -1296,14 +1292,6 @@
     <display-name lang="en">cg_dreamworktag</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="cg_dreamworktag">
-    <title lang="en">Not Quite Narwhal</title>
-    <desc lang="en">When Kelp and Scallop discover Mr. Pearly has a cave full of stuff they help him to realize it could help a lot of other sea creatures. / When the group goes camping, Kelp helps Ollie learn that even though it didn’t go exactly as planned, they can still have loads of fun.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507101000 +0800" channel="cg_dreamworktag">
-    <title lang="en">Not Quite Narwhal</title>
-    <desc lang="en">Kelp and Scallop help Dad discover the true meaning of family trips. / When the Great Great Grandicorn comes to visit, the kids learn that making mistakes is part of learning.</desc>
-  </programme>
   <programme start="20250507101000 +0800" stop="20250507103500 +0800" channel="cg_dreamworktag">
     <title lang="en">Go, Dog. Go!</title>
     <desc lang="en">When Tag discovers that Scooch is a great baker, she encourages him to start a pupcake stand. But when Tag rounds up more customers than Scooch is prepared to handle, Scooch can’t keep up with the demand. \ Tag and Scooch’s race to pick up the most trash on Pawston Beach is thwarted by Frank and Beans, who just want to make more of a mess.</desc>
@@ -1536,18 +1524,18 @@
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">When one of Rikki’s plants won't sing, Pixie and Juniper both tell their varying recollections of why the plant is suddenly silent. / Kelp, Scallop, and Cruz have always thought that starfish did nothing but laze about; but as they go about their day, the starfish goes through his own routine, completely unbeknownst to everyone else.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508101000 +0800" channel="cg_dreamworktag">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">Leroy must learn to let go when his caterpillar friend turns into a butterfly. / When Pixie loses her spark, Kelp and Juniper look for the plant they think will cure her. Meanwhile Pixie wonders whether she can be cured at all!</desc>
+  </programme>
+  <programme start="20250508101000 +0800" stop="20250508103500 +0800" channel="cg_dreamworktag">
+    <title lang="en">Go, Dog. Go!</title>
+    <desc lang="en">It’s Pawston’s annual Take Your Kid to Work Day, and it’s Tag’s year to spend the day at the Doorbell Store with Paw. \ Sam Whippet challenges the Not Yet Cadets to complete an obstacle course in the woods.</desc>
+  </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092000 +0800" stop="20250507094000 +0800" channel="cg_tvnpre">
-    <title lang="en">You Can Cook With Sam Kim</title>
-    <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
-  </programme>
-  <programme start="20250507094000 +0800" stop="20250507101000 +0800" channel="cg_tvnpre">
-    <title lang="en">Chansung's Cooking</title>
-    <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
-  </programme>
   <programme start="20250507101000 +0800" stop="20250507120000 +0800" channel="cg_tvnpre">
     <title lang="en">Fresh off the Sea 2</title>
     <desc lang="en">&lt;Fresh off the Sea&gt; returns with Season 2! Lim Ji-yeon and Lee Jae-wook join the crew to hit Korea's coast and explore local delicacies unique to the area.</desc>
@@ -1612,14 +1600,14 @@
     <title lang="en">Handsome Guys</title>
     <desc lang="en">The cast travels across South Korea, discovering unique culture, nature, magical places, and fascinating people. Each episode features different guests, joining in the joyful journey.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508110000 +0800" channel="cg_tvnpre">
+    <title lang="en">BRO&amp;MARBLE in Dubai</title>
+    <desc lang="en">Top celebrities come together to play a real-life “Blue Marble” game in Dubai with unexpected challenges! Who will survive in crisis and seize both friendship and money as the ultimate winning bro?</desc>
+  </programme>
   <channel id="cg_tagalogmovie">
     <display-name lang="en">cg_tagalogmovie</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080000 +0800" stop="20250507100000 +0800" channel="cg_tagalogmovie">
-    <title lang="en">A Cry From Within</title>
-    <desc lang="en">A psychological horror story about dark secrets destroying people and their families from the inside out.</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507120000 +0800" channel="cg_tagalogmovie">
     <title lang="en">Search And Destroy</title>
     <desc lang="en">American Ranger John Cutter seeks revenge against the notorious Ukrainian arms dealer responsible for his demise.</desc>
@@ -1668,14 +1656,14 @@
     <title lang="en">Jim Button And Luke The Engine Driver</title>
     <desc lang="en">Jim Knopf and Luke the Engine Driver embark on an adventurous journey through fantastic worlds to free the kidnapped Princess Li Si from the impenetrable Dragon City and solve the secret of Jim's mysterious origins.</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508120000 +0800" channel="cg_tagalogmovie">
+    <title lang="en">The Soul-Mate</title>
+    <desc lang="en">A Judo instructor's life turned upside down when he becomes haunted by a ghost of a police officer who is stuck in a coma after an accident while investigating a case</desc>
+  </programme>
   <channel id="globaltrekker">
     <display-name lang="en">globaltrekker</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507084500 +0800" stop="20250507094000 +0800" channel="globaltrekker">
-    <title lang="en">Canada: A Year In The Wild</title>
-    <desc lang="en">Spring is late this year, and when it finally arrives, the race is on to find a mate and start a family; black bears and beavers in the west, wood frogs in the south and 20,000 gannets in the east all have one thing on their minds.</desc>
-  </programme>
   <programme start="20250507094000 +0800" stop="20250507103000 +0800" channel="globaltrekker">
     <title lang="en">Wildest Survival</title>
     <desc lang="en">This episode explores the world’s most toxic animals, revealing how poison and venom have given them the edge over the competition in their fight for survival.</desc>
@@ -1788,18 +1776,14 @@
     <title lang="en">40 Under 40</title>
     <desc lang="en">Go behind the scenes of the "40 under 40: Craft Futures" exhibition, featuring traditional and non-traditional works of decorative art created by the top 40 American craft artists under the age of 40. </desc>
   </programme>
+  <programme start="20250508095000 +0800" stop="20250508105000 +0800" channel="globaltrekker">
+    <title lang="en">David Attenborough: A Life On Earth</title>
+    <desc lang="en">Sir David Attenborough, a legendary communicator and educator, has traveled the world for over six decades, inspiring millions with his captivating storytelling and bringing the natural world into our homes.</desc>
+  </programme>
   <channel id="cgtnenglish">
     <display-name lang="en">cgtnenglish</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="cgtnenglish">
-    <title lang="en">The World Today</title>
-    <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cgtnenglish">
-    <title lang="en">China 24</title>
-    <desc lang="en">China 24 is a prime time news program featuring in-depth reports and analysis of the stories in the headlines in China. </desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507103000 +0800" channel="cgtnenglish">
     <title lang="en">The World Today</title>
     <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
@@ -1976,18 +1960,18 @@
     <title lang="en">The World Today</title>
     <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="cgtnenglish">
+    <title lang="en">China 24</title>
+    <desc lang="en">China 24 is a prime time news program featuring in-depth reports and analysis of the stories in the headlines in China. </desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="cgtnenglish">
+    <title lang="en">The World Today</title>
+    <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
+  </programme>
   <channel id="cgnl_nba">
     <display-name lang="en">nba-tv-philippines</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507070000 +0800" stop="20250507093000 +0800" channel="cgnl_nba">
-    <title lang="en">Indiana Pacers vs. Cleveland Cavaliers 2024-25 NBA Playoffs Second Round Live</title>
-    <desc lang="en">Indiana Pacers vs. Cleveland Cavaliers 2024-25 NBA Playoffs Second Round Live</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cgnl_nba">
-    <title lang="en">NBA TV Ph Interstitial</title>
-    <desc lang="en">NBA TV Ph Interstitial</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507123000 +0800" channel="cgnl_nba">
     <title lang="en">Playoff Central Live</title>
     <desc lang="en">Playoff Central Live</desc>
@@ -2076,18 +2060,14 @@
     <title lang="en">New York vs. Boston Celtics 2024-25 NBA Playoffs Second Round Live</title>
     <desc lang="en">New York vs. Boston Celtics 2024-25 NBA Playoffs Second Round Live</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508123000 +0800" channel="cgnl_nba">
+    <title lang="en">Playoff Central Live</title>
+    <desc lang="en">Playoff Central Live</desc>
+  </programme>
   <channel id="cartoon_net_hd">
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507091500 +0800" stop="20250507094500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Teen Titans Go!</title>
-    <desc lang="en">The Titans try to break their deal with Toy Master.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507101500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Totally Spies!</title>
-    <desc lang="en">A giant panda unleashes icy terror in Singapore's streets!</desc>
-  </programme>
   <programme start="20250507101500 +0800" stop="20250507104500 +0800" channel="cartoon_net_hd">
     <title lang="en">Tiny Toons Looniversity</title>
     <desc lang="en">It’s the first day of school at Acme Looniversity where we find fraternal twins, Babs and Buster Bunny meeting their new friends.</desc>
@@ -2228,18 +2208,18 @@
     <title lang="en">Teen Titans Go!</title>
     <desc lang="en">Sticky Joe tries to clip his pet rat's nails…</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508101500 +0800" channel="cartoon_net_hd">
+    <title lang="en">Totally Spies!</title>
+    <desc lang="en">A villain disrupts the Spies and Alex's new coach chance.</desc>
+  </programme>
+  <programme start="20250508101500 +0800" stop="20250508104500 +0800" channel="cartoon_net_hd">
+    <title lang="en">Tiny Toons Looniversity</title>
+    <desc lang="en">Rivals Buster and Plucky decide to throw an epic pizza party and are shocked to find out they’re actually getting along.</desc>
+  </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="cnn_hd">
-    <title lang="en">The Source: Tuesday, May 6, 2025 9PM</title>
-    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cnn_hd">
-    <title lang="en">The Source: Tuesday, May 6, 2025 9PM</title>
-    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507103000 +0800" channel="cnn_hd">
     <title lang="en">CNN NewsNight: Tuesday, May 6, 2025 10PM</title>
     <desc lang="en">Abby Phillip leads a roundtable discussion on the day's biggest stories and issues shaping our world.</desc>
@@ -2428,14 +2408,18 @@
     <title lang="en">The Source: Wednesday, May 7, 2025 9PM</title>
     <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="cnn_hd">
+    <title lang="en">The Source: Wednesday, May 7, 2025 9PM</title>
+    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="cnn_hd">
+    <title lang="en">CNN NewsNight: Wednesday, May 7, 2025 10PM</title>
+    <desc lang="en">Abby Phillip leads a roundtable discussion on the day's biggest stories and issues shaping our world.</desc>
+  </programme>
   <channel id="a2z">
     <display-name lang="en">a2z</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="a2z">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="a2z">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -2528,18 +2512,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="a2z">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="dreamworks_hd">
     <display-name lang="en">dreamworks_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="dreamworks_hd">
-    <title lang="en">Not Quite Narwhal</title>
-    <desc lang="en">When Kelp and Scallop discover Mr. Pearly has a cave full of stuff they help him to realize it could help a lot of other sea creatures. / When the group goes camping, Kelp helps Ollie learn that even though it didn’t go exactly as planned, they can still have loads of fun.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507101000 +0800" channel="dreamworks_hd">
-    <title lang="en">Not Quite Narwhal</title>
-    <desc lang="en">Kelp and Scallop help Dad discover the true meaning of family trips. / When the Great Great Grandicorn comes to visit, the kids learn that making mistakes is part of learning.</desc>
-  </programme>
   <programme start="20250507101000 +0800" stop="20250507103500 +0800" channel="dreamworks_hd">
     <title lang="en">Go, Dog. Go!</title>
     <desc lang="en">When Tag discovers that Scooch is a great baker, she encourages him to start a pupcake stand. But when Tag rounds up more customers than Scooch is prepared to handle, Scooch can’t keep up with the demand. \ Tag and Scooch’s race to pick up the most trash on Pawston Beach is thwarted by Frank and Beans, who just want to make more of a mess.</desc>
@@ -2772,14 +2752,18 @@
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">When one of Rikki’s plants won't sing, Pixie and Juniper both tell their varying recollections of why the plant is suddenly silent. / Kelp, Scallop, and Cruz have always thought that starfish did nothing but laze about; but as they go about their day, the starfish goes through his own routine, completely unbeknownst to everyone else.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508101000 +0800" channel="dreamworks_hd">
+    <title lang="en">Not Quite Narwhal</title>
+    <desc lang="en">Leroy must learn to let go when his caterpillar friend turns into a butterfly. / When Pixie loses her spark, Kelp and Juniper look for the plant they think will cure her. Meanwhile Pixie wonders whether she can be cured at all!</desc>
+  </programme>
+  <programme start="20250508101000 +0800" stop="20250508103500 +0800" channel="dreamworks_hd">
+    <title lang="en">Go, Dog. Go!</title>
+    <desc lang="en">It’s Pawston’s annual Take Your Kid to Work Day, and it’s Tag’s year to spend the day at the Doorbell Store with Paw. \ Sam Whippet challenges the Not Yet Cadets to complete an obstacle course in the woods.</desc>
+  </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507085000 +0800" stop="20250507094500 +0800" channel="animal_planet">
-    <title lang="en">The Snake Catcher (S1)</title>
-    <desc lang="en">Julia helps a customer deal with a python in their garden with a particularly big belly. Plus, Julia and John race to get a python out of a tree.</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104000 +0800" channel="animal_planet">
     <title lang="en">Hot Life Africa (S1)</title>
     <desc lang="en">The lions' usual prey increasingly tends to eat when the hunters rest, this means when the sun is higher. But that's about exposing body to the heat.</desc>
@@ -2884,6 +2868,10 @@
     <title lang="en">The Vet Life (S3)</title>
     <desc lang="en">Dr. Blue has a hog house call, and Dr. Lavigne has concerns over his vet tech assisting with an operation on her own dog. A blackout creates chaos at Cy-Fair.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104000 +0800" channel="animal_planet">
+    <title lang="en">Extinct Or Alive: The Lost Shark</title>
+    <desc lang="en">Forrest Galante heads to the Maldives to find a supposedly extinct shark. Unidentified sharks in the area have led many to believe it's alive.</desc>
+  </programme>
   <channel id="SPOTV_HD">
     <display-name lang="en">SPOTV_HD</display-name>
     <url>http://example.com</url>
@@ -2952,10 +2940,6 @@
     <display-name lang="en">nbn4</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="nbn4">
-    <title lang="en">PTV4</title>
-    <desc lang="en">PTV4</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="nbn4">
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
@@ -3048,14 +3032,14 @@
     <title lang="en">PTV4</title>
     <desc lang="en">PTV4</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="nbn4">
+    <title lang="en">PTV4</title>
+    <desc lang="en">PTV4</desc>
+  </programme>
   <channel id="cg_ps_hd1">
     <display-name lang="en">premiersports_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507070000 +0800" stop="20250507093000 +0800" channel="cg_ps_hd1">
-    <title lang="en">NHL Playoffs: Carolina Hurricanes vs. Washington Capitals</title>
-    <desc lang="en">NHL Playoffs: Carolina Hurricanes vs. Washington Capitals</desc>
-  </programme>
   <programme start="20250507093000 +0800" stop="20250507120000 +0800" channel="cg_ps_hd1">
     <title lang="en">NHL Playoffs: Edmonton Oilers vs. Vegas Golden Knights</title>
     <desc lang="en">NHL Playoffs: Edmonton Oilers vs. Vegas Golden Knights</desc>
@@ -3096,10 +3080,6 @@
     <display-name lang="en">blueant_extreme</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507072500 +0800" stop="20250507094000 +0800" channel="blueant_extreme">
-    <title lang="en">Angels &amp; Demons</title>
-    <desc lang="en">Tom Hanks reprises his role as Harvard symbologist Robert Langdon, who once again finds that forces with ancient roots are willing to stop at nothing, even murder, to advance their goals.</desc>
-  </programme>
   <programme start="20250507094000 +0800" stop="20250507113500 +0800" channel="blueant_extreme">
     <title lang="en">Star Trek: Nemesis</title>
     <desc lang="en">A generation's final journey begins when Captain Picard and the crew of the Enterprise encounter a monstrous alien race known as the Remans. Picard and his crew must risk everything to prevent this sinister villain from destroying Earth.</desc>
@@ -3224,14 +3204,14 @@
     <title lang="en">WWE NXT UK </title>
     <desc lang="en">WWE NXT UK </desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="tap_sports">
+    <title lang="en">On Point</title>
+    <desc lang="en">On Point</desc>
+  </programme>
   <channel id="bbcearth_hd">
     <display-name lang="en">bbcearth_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507084500 +0800" stop="20250507094000 +0800" channel="bbcearth_hd">
-    <title lang="en">Robson and Jim's Fly Fishing Adventure 2</title>
-    <desc lang="en">Robson Green and Jim Murray conclude their fly-fishing adventures as they head to the Isle of Lewis and Harris for some unforgettable fishing, then take part in a 24-hour non-stop competition on the River Dee.</desc>
-  </programme>
   <programme start="20250507094000 +0800" stop="20250507103500 +0800" channel="bbcearth_hd">
     <title lang="en">Michael Portillo's Long Weekends 1</title>
     <desc lang="en">Michael's tackles a 700-year old stick-fighting marital art, witnesses divine illumination at a magnificent monastery, and discovers a chocolate cake with global ambitions.</desc>
@@ -3336,14 +3316,14 @@
     <title lang="en">Inside the Factory 9</title>
     <desc lang="en">Paddy McGuinness and Cherry Healey visit a factory that produces three million books every week and makes 20,000 hardback copies of Pride and Prejudice.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104000 +0800" channel="bbcearth_hd">
+    <title lang="en">The Mating Game 1</title>
+    <desc lang="en">The Ocean is where life first experimented with the Mating Game, and over time this has led to some of the most ingenious mating strategies of all!</desc>
+  </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="onesportsplus_hd">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="onesportsplus_hd">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -3436,6 +3416,10 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="onesportsplus_hd">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="SPOTV_HD2">
     <display-name lang="en">SPOTV_HD2</display-name>
     <url>http://example.com</url>
@@ -3516,14 +3500,14 @@
     <title lang="en">MLB 2025: Regular season</title>
     <desc lang="en">Major League Baseball is the most historic professional sports league consists of 30 member clubs in the U.S. and Canada, representing the highest level of professional baseball.</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508113000 +0800" channel="SPOTV_HD2">
+    <title lang="en">WorldSBK 2025: Rd4 Acerbis Italian Round</title>
+    <desc lang="en">Superbike World Championship also known as WorldSBK, is a silhouette road racing series based on heavily modified production sports motorcycles.</desc>
+  </programme>
   <channel id="rock_entertainment">
     <display-name lang="en">rock_entertainment</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507083000 +0800" stop="20250507093000 +0800" channel="rock_entertainment">
-    <title lang="en">DOC - In Your Hands</title>
-    <desc lang="en">Andrea Fanti, a talented doctor, loses his memory of the last 12 years of his life due to a brain injury and for the first time ever he finds himself as the patient but not a doctor.</desc>
-  </programme>
   <programme start="20250507093000 +0800" stop="20250507103000 +0800" channel="rock_entertainment">
     <title lang="en">DOC - In Your Hands</title>
     <desc lang="en">Andrea Fanti, a talented doctor, loses his memory of the last 12 years of his life due to a brain injury and for the first time ever he finds himself as the patient but not a doctor.</desc>
@@ -3620,14 +3604,14 @@
     <title lang="en">Next Level Chef S4</title>
     <desc lang="en">Chefs Gordon Ramsay, Nyesha Arrington and Richard Blais recruit talented chefs and take them under their wings as they face unique cooking challenges in a one of a kind culinary gauntlet with the goal of finding the food world's newest superstar.</desc>
   </programme>
+  <programme start="20250508093500 +0800" stop="20250508120500 +0800" channel="rock_entertainment">
+    <title lang="en">LFRC: MET Gala 2025</title>
+    <desc lang="en">Affectionately referred to as “fashion’s biggest night out,” the Met Gala 2025 is a fundraising benefit for the Metropolitan Museum of Art in New York City that is held every year on the first Monday in May. The event welcomes stars, young creatives, and industry paragons. The 2025 Met Gala will take place on Monday, May 5 and will celebrate the Costume Institute’s new exhibition, “Superfine: Tailoring Black Style.”</desc>
+  </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507084000 +0800" stop="20250507102000 +0800" channel="discovery">
-    <title lang="en">Homestead Rescue (S6)</title>
-    <desc lang="en">Marty responds to a new, desperate plea from the Bower Family in eastern Vermont: a 100-year flood has wiped out their property access route.</desc>
-  </programme>
   <programme start="20250507102000 +0800" stop="20250507111000 +0800" channel="discovery">
     <title lang="en">Beachfront Bargain Hunt Renovation (S2)</title>
     <desc lang="en">A mother and her children search for a beachfront home on the Jersey Shore.</desc>
@@ -3724,22 +3708,18 @@
     <title lang="en">Expedition Unknown (S9)</title>
     <desc lang="en">Rewriting history, Josh helps discover a tomb at Petra's iconic Treasury. The twelve skeletons inside may belong to a royal family of Petra.</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508102000 +0800" channel="discovery">
+    <title lang="en">Expedition X (S5)</title>
+    <desc lang="en">Heather and Phil brave treacherous landscapes and deadly wildlife in their search for the vengeful and ancient Mayan spirit known as the Stone Lady.</desc>
+  </programme>
+  <programme start="20250508102000 +0800" stop="20250508111000 +0800" channel="discovery">
+    <title lang="en">Beachfront Bargain Hunt Renovation (S2)</title>
+    <desc lang="en">A newly engaged couple faces a tight deadline when they add a big addition to their renovation.</desc>
+  </programme>
   <channel id="cctv4">
     <display-name lang="en">cctv4</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="cctv4">
-    <title lang="en">Asia Today</title>
-    <desc lang="en">Report the Asia News on Asian view </desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cctv4">
-    <title lang="en">China Showbiz </title>
-    <desc lang="en">The China Showbiz gathers together a wide range of wonderful TV artistic works and directs viewers into a fabulous world of arts through works appreciation and review. </desc>
-  </programme>
-  <programme start="20250507100000 +0800" stop="20250507101500 +0800" channel="cctv4">
-    <title lang="en">China News</title>
-    <desc lang="en">It concentrates on the latest news and social changes happening in china and all over the world</desc>
-  </programme>
   <programme start="20250507101500 +0800" stop="20250507110000 +0800" channel="cctv4">
     <title lang="en">On the Way</title>
     <desc lang="en"> a large-scale tourism programme that is designed to present rich tourism resources in China and around the world </desc>
@@ -3896,6 +3876,18 @@
     <title lang="en">Asia Today</title>
     <desc lang="en">Report the Asia News on Asian view </desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="cctv4">
+    <title lang="en">China Showbiz </title>
+    <desc lang="en">The China Showbiz gathers together a wide range of wonderful TV artistic works and directs viewers into a fabulous world of arts through works appreciation and review. </desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508101500 +0800" channel="cctv4">
+    <title lang="en">China News</title>
+    <desc lang="en">It concentrates on the latest news and social changes happening in china and all over the world</desc>
+  </programme>
+  <programme start="20250508101500 +0800" stop="20250508110000 +0800" channel="cctv4">
+    <title lang="en">On the Way</title>
+    <desc lang="en"> a large-scale tourism programme that is designed to present rich tourism resources in China and around the world </desc>
+  </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
     <url>http://example.com</url>
@@ -3976,14 +3968,6 @@
     <display-name lang="en">arirang</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="arirang">
-    <title lang="en">New Day At Arirang</title>
-    <desc lang="en">New Day At Arirang</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="arirang">
-    <title lang="en">News Generation [L]</title>
-    <desc lang="en">News Generation [L]</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="arirang">
     <title lang="en">Culture Crunch [L]</title>
     <desc lang="en">Culture Crunch [L]</desc>
@@ -4220,14 +4204,18 @@
     <title lang="en">New Day At Arirang</title>
     <desc lang="en">New Day At Arirang</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="arirang">
+    <title lang="en">News Generation [L]</title>
+    <desc lang="en">News Generation [L]</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508110000 +0800" channel="arirang">
+    <title lang="en">Culture Crunch [L]</title>
+    <desc lang="en">Culture Crunch [L]</desc>
+  </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092500 +0800" stop="20250507100000 +0800" channel="kbs_world">
-    <title lang="en">Good Luck!</title>
-    <desc lang="en">A life story of three friends, one who is rich, one who is poor, and one who wishes to be rich, along with their families.</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507104000 +0800" channel="kbs_world">
     <title lang="en">Queen's House</title>
     <desc lang="en">A revenge story about a woman in the top 1% starting over from the ground up to reclaim her stolen life and find her true ‘home'. A passionate drama of people striving to regain the true meaning of life.</desc>
@@ -4344,14 +4332,14 @@
     <title lang="en">Good Luck!</title>
     <desc lang="en">A life story of three friends, one who is rich, one who is poor, and one who wishes to be rich, along with their families.</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508104000 +0800" channel="kbs_world">
+    <title lang="en">Queen's House</title>
+    <desc lang="en">A revenge story about a woman in the top 1% starting over from the ground up to reclaim her stolen life and find her true ‘home'. A passionate drama of people striving to regain the true meaning of life.</desc>
+  </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="onenews_hd">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="onenews_hd">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -4444,6 +4432,10 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="onenews_hd">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="kix_hd">
     <display-name lang="en">kix_hd</display-name>
     <url>http://example.com</url>
@@ -4524,10 +4516,6 @@
     <display-name lang="en">lifetime</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="lifetime">
-    <title lang="en">Married At First Sight Australia (S9)</title>
-    <desc lang="en">The honeymoons continue for the first of our newlyweds.</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="lifetime">
     <title lang="en">24 Hour Flip (S1)</title>
     <desc lang="en">Michelle and Jon travel outside of their comfort zone - and area code - to tackle a new challenge in the small lakeside community of West Milford.</desc>
@@ -4620,14 +4608,14 @@
     <title lang="en">Married At First Sight Australia (S9)</title>
     <desc lang="en">While it’s fireworks for latest newlyweds Jackson and Olivia, the youngest groom Al fails to find a spark with his new bride Samantha.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="lifetime">
+    <title lang="en">24 Hour Flip (S1)</title>
+    <desc lang="en">Jon and Michelle take on a multifamily home in Hasbrouck Heights. There are no worries about finishing on time until the reality of dealing with five bedrooms, two bathrooms and two full kitchens sinks in.</desc>
+  </programme>
   <channel id="bbcworld_news">
     <display-name lang="en">bbcworld_news</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="bbcworld_news">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="bbcworld_news">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -4720,14 +4708,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="bbcworld_news">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="hgtv_hd">
     <display-name lang="en">hgtv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092000 +0800" stop="20250507101000 +0800" channel="hgtv_hd">
-    <title lang="en">Unsellable Houses (S5)</title>
-    <desc lang="en">Market factors cause Lyndsay and Leslie to increase their investment for a landlord couple trying to sell their nearly $1 million duplex.</desc>
-  </programme>
   <programme start="20250507101000 +0800" stop="20250507110000 +0800" channel="hgtv_hd">
     <title lang="en">Home Town (S7)</title>
     <desc lang="en">Ben and Erin present a couple looking for something unique with a home set across from a park and a rancher with an impressive garden room.</desc>
@@ -4892,6 +4880,10 @@
     <title lang="en">House Hunters Renovation (S17)</title>
     <desc lang="en">First-time buyers look for a home in Atlanta, Georgia. He wants a home in the city with plenty of space, but she wants a suburban home.</desc>
   </programme>
+  <programme start="20250508101000 +0800" stop="20250508110000 +0800" channel="hgtv_hd">
+    <title lang="en">Lil Jon Wants To Do What? (S1)</title>
+    <desc lang="en">Lil Jon has plans to turn a couple's basement into a sophisticated club. The homeowners are hesitant to go with the musician's ideas.</desc>
+  </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
     <url>http://example.com</url>
@@ -4952,22 +4944,18 @@
     <title lang="en">The Glory Days S2 EP 1</title>
     <desc lang="en">The Glory Days S2 EP 1</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508101500 +0800" channel="uaap_varsity">
+    <title lang="en">The Glory Days S2 EP 2</title>
+    <desc lang="en">The Glory Days S2 EP 2</desc>
+  </programme>
+  <programme start="20250508101500 +0800" stop="20250508120000 +0800" channel="uaap_varsity">
+    <title lang="en">NU vs. UST Match 05 UAAP Season 87  Esports NBA2k25  May 08 Live</title>
+    <desc lang="en">NU vs. UST Match 05 UAAP Season 87  Esports NBA2k25  May 08 Live</desc>
+  </programme>
   <channel id="travel_channel">
     <display-name lang="en">travel_channel</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507091200 +0800" stop="20250507093600 +0800" channel="travel_channel">
-    <title lang="en">Baggage Battles (S2)</title>
-    <desc lang="en">In NYC, the buyers spar over memorabilia from some of music's top icons.</desc>
-  </programme>
-  <programme start="20250507093600 +0800" stop="20250507100000 +0800" channel="travel_channel">
-    <title lang="en">Baggage Battles (S2)</title>
-    <desc lang="en">The buyers head to Denver, hoping for a Rocky Mountain High profit. Billy and Mark scuffle over an authentic German World War II item.</desc>
-  </programme>
-  <programme start="20250507100000 +0800" stop="20250507102600 +0800" channel="travel_channel">
-    <title lang="en">Extreme Vacation Homes (S1)</title>
-    <desc lang="en">Explore unique holiday homes, from crazy ski chalets to heavenly Hamptons hideaways. And, meet the owners and architects behind the creations.</desc>
-  </programme>
   <programme start="20250507102600 +0800" stop="20250507105300 +0800" channel="travel_channel">
     <title lang="en">Extreme Vacation Homes (S1)</title>
     <desc lang="en">Explore unique holiday homes, from crazy ski chalets to heavenly Hamptons hideaways. And, meet the owners and architects behind the creations.</desc>
@@ -5116,14 +5104,14 @@
     <title lang="en">Alien Encounters: Fact Or Fiction (S1)</title>
     <desc lang="en">Tormented by childhood memories of abduction, a woman discovers an implant in her body. A sailor witnesses strange lights over the Pacific Ocean.</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508105300 +0800" channel="travel_channel">
+    <title lang="en">Hotel Impossible (S1)</title>
+    <desc lang="en">Anthony tries to help the sinking town of Grand Lake, CO, and its hotel.</desc>
+  </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507040000 +0800" stop="20250507100000 +0800" channel="premier_tennishd">
-    <title lang="en">LPGA Tour The Chevron Championship Day 2</title>
-    <desc lang="en">LPGA Tour The Chevron Championship Day 2</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507143000 +0800" channel="premier_tennishd">
     <title lang="en">WTA 1000 Mutua Madrid Open SF</title>
     <desc lang="en">WTA 1000 Mutua Madrid Open SF</desc>
@@ -5204,14 +5192,14 @@
     <title lang="en">Bullet Day</title>
     <desc lang="en">A former hit man trying to live a normal life when someone from his past sees him and puts his family and friends in danger. Can he sacrifice his new life to fight for the ones he loves?</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508113000 +0800" channel="pbo">
+    <title lang="en">Ang Babaeng Walang Pakiramdam</title>
+    <desc lang="en">A woman diagnosed with a rare congenital disease that makes her incapable of feeling physical and emotional pain meets a man with cleft palate who makes her feel love like she never has before.</desc>
+  </programme>
   <channel id="hits_hd">
     <display-name lang="en">hits_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="hits_hd">
-    <title lang="en">Cheers S3 E12 - A Ditch In Time</title>
-    <desc lang="en">The regulars of the Boston bar "Cheers" share their experiences and lives with each other while drinking or working at the bar where everybody knows your name. </desc>
-  </programme>
   <programme start="20250507093000 +0800" stop="20250507113000 +0800" channel="hits_hd">
     <title lang="en">Columbo S7 E02 - Make Me A Perfect</title>
     <desc lang="en">Los Angeles homicide detective Lieutenant Columbo uses his humble ways and ingenuous demeanor to winkle out even the most well-concealed of crimes.However, beneath all that comical exterior was probably the most dogged investigator in the Los Angeles Police Department.</desc>
@@ -5324,14 +5312,14 @@
     <title lang="en">Cheers S3 E13 - Whodunit</title>
     <desc lang="en">The regulars of the Boston bar "Cheers" share their experiences and lives with each other while drinking or working at the bar where everybody knows your name. </desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508110000 +0800" channel="hits_hd">
+    <title lang="en">Columbo S7 E03 - How To Dial A Murder</title>
+    <desc lang="en">Los Angeles homicide detective Lieutenant Columbo uses his humble ways and ingenuous demeanor to winkle out even the most well-concealed of crimes.However, beneath all that comical exterior was probably the most dogged investigator in the Los Angeles Police Department.</desc>
+  </programme>
   <channel id="aljazeera">
     <display-name lang="en">aljazeera</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="aljazeera">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="aljazeera">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -5424,14 +5412,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="aljazeera">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="oneph">
     <display-name lang="en">oneph</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507060000 +0800" stop="20250507100000 +0800" channel="oneph">
-    <title lang="en">LIVE Ted Failon DJ Cha Cha Sa Radyo 5</title>
-    <desc lang="en">LIVE Ted Failon DJ Cha Cha Sa Radyo 5</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="oneph">
     <title lang="en">Masaganang Buhay</title>
     <desc lang="en">Masaganang Buhay</desc>
@@ -5515,6 +5503,10 @@
   <programme start="20250508060000 +0800" stop="20250508100000 +0800" channel="oneph">
     <title lang="en">LIVE Ted Failon DJ Cha Cha Sa Radyo 5</title>
     <desc lang="en">LIVE Ted Failon DJ Cha Cha Sa Radyo 5</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508110000 +0800" channel="oneph">
+    <title lang="en">Masaganang Buhay</title>
+    <desc lang="en">Masaganang Buhay</desc>
   </programme>
   <channel id="foodnetwork_hd">
     <display-name lang="en">foodnetwork_hd</display-name>
@@ -5680,14 +5672,14 @@
     <title lang="en">The Kitchen (S37)</title>
     <desc lang="en">The Kitchen shares the best summertime dishes you can eat with your hands -- no utensils required!</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508104800 +0800" channel="foodnetwork_hd">
+    <title lang="en">Wildcard Kitchen (S1)</title>
+    <desc lang="en">Eric Adjepong brings seasoned competitors Tiffani Faison, Martel Stone and Shirley Chung to his late-night card game.</desc>
+  </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="depedchannel">
-    <title lang="en">DepEd TV</title>
-    <desc lang="en">DepEd TV</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="depedchannel">
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
@@ -5780,14 +5772,14 @@
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="depedchannel">
+    <title lang="en">DepEd TV</title>
+    <desc lang="en">DepEd TV</desc>
+  </programme>
   <channel id="tv5">
     <display-name lang="en">tv5</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250507084500 +0800" stop="20250507101500 +0800" channel="tv5">
-    <title lang="en">Cine Cinco Sa Umaga: Tbc</title>
-    <desc lang="en">Cine Cinco Sa Umaga: Tbc</desc>
-  </programme>
   <programme start="20250507101500 +0800" stop="20250507110000 +0800" channel="tv5">
     <title lang="en">Betty In New York</title>
     <desc lang="en">Betty In New York</desc>
@@ -5888,14 +5880,14 @@
     <title lang="en">Cine Cinco Sa Umaga: Tbc</title>
     <desc lang="en">Cine Cinco Sa Umaga: Tbc</desc>
   </programme>
+  <programme start="20250508101500 +0800" stop="20250508110000 +0800" channel="tv5">
+    <title lang="en">Betty In New York</title>
+    <desc lang="en">Betty In New York</desc>
+  </programme>
   <channel id="history_hd">
     <display-name lang="en">history_hd</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250507085500 +0800" stop="20250507095500 +0800" channel="history_hd">
-    <title lang="en">Ancient Aliens (S15)</title>
-    <desc lang="en">The discovery of the ancient site of Karahan Tepe in southern Turkey turns the world of archaeology on its head, displaying engineering skills far beyond what the people of the time were capable of.</desc>
-  </programme>
   <programme start="20250507095500 +0800" stop="20250507105000 +0800" channel="history_hd">
     <title lang="en">The Secret Of Skinwalker Ranch (S5)</title>
     <desc lang="en">The drilling operation in the mysterious Mesa on Skinwalker Ranch leads to a stunning and disturbing chain of events.</desc>
@@ -6000,18 +5992,14 @@
     <title lang="en">Swamp People: Serpent Invasion (S3)</title>
     <desc lang="en">Troy and Pickle help a friend look for his lost dog. Bill and Tes search for pythons in a spot ravaged by wildfires. Zak and Bruce investigate an abandoned boat yard.</desc>
   </programme>
+  <programme start="20250508095500 +0800" stop="20250508105000 +0800" channel="history_hd">
+    <title lang="en">Kings Of Pain (S2)</title>
+    <desc lang="en">Rob and Adam test the pain dished out by a trio of unlikely creatures commonly kept in home aquariums, and proceed to ruin the image of a popular cartoon movie character for millions of children.</desc>
+  </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="fashiontv_hd">
-    <title lang="en">The Story Of</title>
-    <desc lang="en">Join FashionTV, as we take you on a complete journey with fashion’s greatest icons. Celebrate world glamor with breathtaking fashion, passion, and all the action</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="fashiontv_hd">
-    <title lang="en">The Story Of</title>
-    <desc lang="en">Join FashionTV, as we take you on a complete journey with fashion’s greatest icons. Celebrate world glamor with breathtaking fashion, passion, and all the action</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507103000 +0800" channel="fashiontv_hd">
     <title lang="en">New York Fashion Week</title>
     <desc lang="en">FashionTV brings you the latest coverage during the world's biggest fashion weeks, highlighting the best shows, backstage moments, front row appearances of the biggest brands and designers worldwide. Fashion news and reviews. i see it first.</desc>
@@ -6288,14 +6276,18 @@
     <title lang="en">The Story Of</title>
     <desc lang="en">Join FashionTV, as we take you on a complete journey with fashion’s greatest icons. Celebrate world glamor with breathtaking fashion, passion, and all the action</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="fashiontv_hd">
+    <title lang="en">The Story Of</title>
+    <desc lang="en">Join FashionTV, as we take you on a complete journey with fashion’s greatest icons. Celebrate world glamor with breathtaking fashion, passion, and all the action</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="fashiontv_hd">
+    <title lang="en">New York Fashion Week</title>
+    <desc lang="en">FashionTV brings you the latest coverage during the world's biggest fashion weeks, highlighting the best shows, backstage moments, front row appearances of the biggest brands and designers worldwide. Fashion news and reviews. i see it first.</desc>
+  </programme>
   <channel id="viva">
     <display-name lang="en">viva</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080000 +0800" stop="20250507101500 +0800" channel="viva">
-    <title lang="en">Oras-Oras, Araw-Araw</title>
-    <desc lang="en">Jessa Rodriguez (Sharon Cuneta), a successful TV personality whose top rating show features ugly stories of poverty and hardships. She sympathizes with her subjects but it all ends there, until she meets one lady in a club.</desc>
-  </programme>
   <programme start="20250507101500 +0800" stop="20250507120000 +0800" channel="viva">
     <title lang="en">Oplan: Kidnap Gang</title>
     <desc lang="en">The continuous rise of kidnap-for-ransom cases forces the government to form a task force to stop it. All committed to one goal -- stop the dreaded Lost Command, the most notorious of the kidnap-for-ransom gangs. Expect a lot of explosive firepower and non-stop action.</desc>
@@ -6343,6 +6335,10 @@
   <programme start="20250508080000 +0800" stop="20250508100000 +0800" channel="viva">
     <title lang="en">Abot Hanggang Sukdulan</title>
     <desc lang="en">The abduction and rape of the eldest daughter shattered the once happy Paredes household. They vowed to get justice for their daughter but changed their plan when Romano offered marriage after it was discovered that Agnes was pregnant.</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508120000 +0800" channel="viva">
+    <title lang="en">Carnap King (The Randy Padilla Story)</title>
+    <desc lang="en">The story of the most delinquent of the Padilla brothers. Randy was the problem child to his father. This conflict led him to leave and stay with his mother who love him so much.  His reputation as a bad boy was stuck when he stole a car to impress a girl.</desc>
   </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
@@ -6436,18 +6432,6 @@
     <display-name lang="en">nhk_japan</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092500 +0800" stop="20250507093000 +0800" channel="nhk_japan">
-    <title lang="en">Nun's Cookbook</title>
-    <desc lang="en">The nuns of Otowasan Kannonji Temple show us how to make sesame-covered taro dumplings. Simply mash up boiled taro, add cheese, sprinkle with sesame, and deep fry for some tasty autumn goodness.</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507094500 +0800" channel="nhk_japan">
-    <title lang="en">Direct Talk</title>
-    <desc lang="en">Sekiguchi Itaru helped to restore the pipe organ at Notre Dame in Paris, following the cathedral's fire in 2019. He tells us about his work, including the tuning and voicing of these instruments.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507100000 +0800" channel="nhk_japan">
-    <title lang="en">Japan's Top Inventions</title>
-    <desc lang="en">Discover the stories behind renowned Japanese products alongside our reporter. This time: Massage chairs.</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507103000 +0800" channel="nhk_japan">
     <title lang="en">NHK NEWSLINE</title>
     <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
@@ -6668,14 +6652,18 @@
     <title lang="en">NHK NEWSLINE</title>
     <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="nhk_japan">
+    <title lang="en">Tokyo's Bobsled Factories</title>
+    <desc lang="en">Small factories in Tokyo are combining their expertise to build a new bobsled, with the goal of it featuring in the Olympics. We examine how the project is changing small-scale Japanese manufacturing.</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="nhk_japan">
+    <title lang="en">NHK NEWSLINE</title>
+    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
+  </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="asianfoodnetwork">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="asianfoodnetwork">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -6768,14 +6756,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="asianfoodnetwork">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="onesports">
     <display-name lang="en">onesports</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507073000 +0800" stop="20250507100000 +0800" channel="onesports">
-    <title lang="en">2024 PVL All Filipino Conference: Galeries vs Farm Fresh (Replay - January 30, 6:30Pm Game) </title>
-    <desc lang="en">2024 PVL All Filipino Conference: Galeries vs Farm Fresh (Replay - January 30, 6:30Pm Game) </desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507123000 +0800" channel="onesports">
     <title lang="en">2024 PVL All Filipino Conference: Capital1 vs Akari (Replay - February 01, 4:00Pm Game)</title>
     <desc lang="en">2024 PVL All Filipino Conference: Capital1 vs Akari (Replay - February 01, 4:00Pm Game)</desc>
@@ -6836,26 +6824,14 @@
     <title lang="en">2024 PVL All Filipino Conference: Cignal vs Creamline (Replay - February 01, 6:30Pm Game)</title>
     <desc lang="en">2024 PVL All Filipino Conference: Cignal vs Creamline (Replay - February 01, 6:30Pm Game)</desc>
   </programme>
+  <programme start="20250508100000 +0800" stop="20250508123000 +0800" channel="onesports">
+    <title lang="en">2024 PVL All Filipino Conference: Farm Fresh vs Pldt (Replay - February 04, 4:00Pm Game)</title>
+    <desc lang="en">2024 PVL All Filipino Conference: Farm Fresh vs Pldt (Replay - February 04, 4:00Pm Game)</desc>
+  </programme>
   <channel id="nickjr">
     <display-name lang="en">nickjr</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092500 +0800" stop="20250507094500 +0800" channel="nickjr">
-    <title lang="en">Blaze and the Monster Machines</title>
-    <desc lang="en">Witness the return of Sir Blaze and Sir AJ as they embark on an epic quest to free a magical unicorn from an unpoppable bubble!</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507100500 +0800" channel="nickjr">
-    <title lang="en">The Tiny Chef Show</title>
-    <desc lang="en">Chef is so focused on his avocado's perfect ripeness that he ignores the rest of his avocado sushi recipe. // Chef's friend inspires him to bring Hawai'i home by making poi and decorating the Stump-staycation style.</desc>
-  </programme>
-  <programme start="20250507100500 +0800" stop="20250507101500 +0800" channel="nickjr">
-    <title lang="en">Sharkdog</title>
-    <desc lang="en">The Sharkpack must stop Mr. Ceviche before he spills Sharkdog's secret.</desc>
-  </programme>
-  <programme start="20250507101500 +0800" stop="20250507102000 +0800" channel="nickjr">
-    <title lang="en">Sharkdog</title>
-    <desc lang="en">Max is desperate for a dog, but when he finds Sharkdog while paddle boarding he gets a pet - and friend - who is way more bizarre and fun than he expected.</desc>
-  </programme>
   <programme start="20250507102000 +0800" stop="20250507103000 +0800" channel="nickjr">
     <title lang="en">Sharkdog</title>
     <desc lang="en">Max's new best friend, Sharkdog, comes home with him, but keeping him a secret from his parents is a challenge.</desc>
@@ -7232,18 +7208,26 @@
     <title lang="en">Blaze and the Monster Machines</title>
     <desc lang="en">At the starting line for Race to Sky High Mountain, one of Crusher's cheats threatens to sideline Blaze for good. To get back in this race, Blaze will need... Power Tires!</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508100500 +0800" channel="nickjr">
+    <title lang="en">The Tiny Chef Show</title>
+    <desc lang="en">On Ruby Day, Chef always celebrates the same traditions, including making a Ruby Tart. But this year, everything goes wrong. // Chef and Olly want to make smoothies, but Henry won't let them inside the Stump!</desc>
+  </programme>
+  <programme start="20250508100500 +0800" stop="20250508101500 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">When Sharkdog fetches items that belong to the residents of Foggy Springs, Max needs to help him return them all before anyone notices.</desc>
+  </programme>
+  <programme start="20250508101500 +0800" stop="20250508102000 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">Max needs to create a permanent home for Sharkdog and he knows that his best friends, Olivia and Royce, are just the people to help him.</desc>
+  </programme>
+  <programme start="20250508102000 +0800" stop="20250508103000 +0800" channel="nickjr">
+    <title lang="en">Sharkdog</title>
+    <desc lang="en">Dad desperately wants to win Garden of the Year but when Sharkdog destroys the garden right before judging, the Sharkpack needs to step in and put it all in order.</desc>
+  </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="warnertv_hd">
-    <title lang="en">Hack My Life S3 07</title>
-    <desc lang="en">Brooke and Kevin give tips on skipping a busy lunch line with a new Gaming the System hack, the Pitchman has some money-saving advice for your car, and ever wonder where high heels come from? Find out in Hacks From History.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507101000 +0800" channel="warnertv_hd">
-    <title lang="en">Hack My Life S3 08</title>
-    <desc lang="en">We're going to the future with Kevin as he lives out his hoverboard dream with Master Hacker Science Bob. And move over, 2000 thread count sheets, Brooke and Kevin spot a hack that will help your sheets feel like a million bucks!</desc>
-  </programme>
   <programme start="20250507101000 +0800" stop="20250507110000 +0800" channel="warnertv_hd">
     <title lang="en">East New York S1 14</title>
     <desc lang="en">When a house party ends in murder, Morales, and Killian turn to Quinlan for help. Also, Haywood takes on an unexpected new role, and Suarez helps his brother.</desc>
@@ -7400,14 +7384,18 @@
     <title lang="en">Hack My Life S3 09</title>
     <desc lang="en">Officers Mack and Jack come to the rescue of a perp who has a tough time being alone, and Kevin reunites with his long-time friend Candace Bailey in a hacksperiment where they attempt to find out the sex of her baby.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508101000 +0800" channel="warnertv_hd">
+    <title lang="en">Hack My Life S3 10</title>
+    <desc lang="en">Brooke and Kevin meet their toughest challenge yet when they use hacks to game a polygraph test, and it gets hot and heavy in the OR when Dr. Hack meets the fiery new CEO. Plus, Kevin learns how to defend himself with a smartphone.</desc>
+  </programme>
+  <programme start="20250508101000 +0800" stop="20250508110000 +0800" channel="warnertv_hd">
+    <title lang="en">East New York S1 15</title>
+    <desc lang="en">When a body is found at the construction site of a new high-end housing development, the team races to find the killer amidst a contentious gentrification battle in the neighborhood.</desc>
+  </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="animax">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="animax">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -7500,14 +7488,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="animax">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="ibc13">
     <display-name lang="en">ibc13</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="ibc13">
-    <title lang="en">IBC13</title>
-    <desc lang="en">IBC13</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="ibc13">
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
@@ -7600,18 +7588,14 @@
     <title lang="en">IBC13</title>
     <desc lang="en">IBC13</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="ibc13">
+    <title lang="en">IBC13</title>
+    <desc lang="en">IBC13</desc>
+  </programme>
   <channel id="cgtn">
     <display-name lang="en">cgtn</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507093000 +0800" channel="cgtn">
-    <title lang="en">The World Today</title>
-    <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="cgtn">
-    <title lang="en">China 24</title>
-    <desc lang="en">China 24 is a prime time news program featuring in-depth reports and analysis of the stories in the headlines in China. </desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507103000 +0800" channel="cgtn">
     <title lang="en">The World Today</title>
     <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
@@ -7788,14 +7772,18 @@
     <title lang="en">The World Today</title>
     <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="cgtn">
+    <title lang="en">China 24</title>
+    <desc lang="en">China 24 is a prime time news program featuring in-depth reports and analysis of the stories in the headlines in China. </desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="cgtn">
+    <title lang="en">The World Today</title>
+    <desc lang="en">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen. </desc>
+  </programme>
   <channel id="axn">
     <display-name lang="en">axn</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="axn">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="axn">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -7888,14 +7876,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="axn">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507075500 +0800" stop="20250507093500 +0800" channel="tapmovies_hd">
-    <title lang="en">Madagascar</title>
-    <desc lang="en">Madagascar</desc>
-  </programme>
   <programme start="20250507093500 +0800" stop="20250507114000 +0800" channel="tapmovies_hd">
     <title lang="en">The Magic of Belle Isle</title>
     <desc lang="en">The Magic of Belle Isle</desc>
@@ -8060,14 +8048,6 @@
     <display-name lang="en">moonbug_kids</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507085300 +0800" stop="20250507093200 +0800" channel="moonbug_kids">
-    <title lang="en">This Is the Way</title>
-    <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
-  </programme>
-  <programme start="20250507093200 +0800" stop="20250507101900 +0800" channel="moonbug_kids">
-    <title lang="en">Your Favourite Songs</title>
-    <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
-  </programme>
   <programme start="20250507101900 +0800" stop="20250507104600 +0800" channel="moonbug_kids">
     <title lang="en">Barky Walkies</title>
     <desc lang="en">No matter what the town needs, Mila and her magical pet, Morphle will work together to save the day.</desc>
@@ -8256,14 +8236,18 @@
     <title lang="en">My Ice Cream Machine</title>
     <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
   </programme>
+  <programme start="20250508094600 +0800" stop="20250508102400 +0800" channel="moonbug_kids">
+    <title lang="en">Exercise Is Fun!</title>
+    <desc lang="en">Come sing along with baby John, his brother, Jack, and sister, Jill in Little Angel!</desc>
+  </programme>
+  <programme start="20250508102400 +0800" stop="20250508105100 +0800" channel="moonbug_kids">
+    <title lang="en">Grow Your Own Veggies</title>
+    <desc lang="en">No matter what the town needs, Mila and her magical pet, Morphle will work together to save the day.</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507083000 +0800" stop="20250507100500 +0800" channel="tapactionflix_hd">
-    <title lang="en">Saint Maud</title>
-    <desc lang="en">Saint Maud</desc>
-  </programme>
   <programme start="20250507100500 +0800" stop="20250507123500 +0800" channel="tapactionflix_hd">
     <title lang="en">The Tomorrow War</title>
     <desc lang="en">The Tomorrow War</desc>
@@ -8312,34 +8296,14 @@
     <title lang="en">Di AMond Dogs</title>
     <desc lang="en">Di AMond Dogs</desc>
   </programme>
+  <programme start="20250508095500 +0800" stop="20250508114000 +0800" channel="tapactionflix_hd">
+    <title lang="en">My Father Die</title>
+    <desc lang="en">My Father Die</desc>
+  </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092100 +0800" stop="20250507093000 +0800" channel="france24">
-    <title lang="en">In the Press</title>
-    <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507094000 +0800" channel="france24">
-    <title lang="en">News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
-  <programme start="20250507094000 +0800" stop="20250507094500 +0800" channel="france24">
-    <title lang="en">Perspective</title>
-    <desc lang="en">Join presenters Eve Irvine and Stuart Norval, as they talk to various notable people about important topics such as social issues, culture, sport, science, business, and much more.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507095000 +0800" channel="france24">
-    <title lang="en">Focus</title>
-    <desc lang="en">Keep up with the latest news from all over the globe with Focus on France 24. Focus programme provides exclusive reports from Monday to Friday at 7.50 am Paris time. Find out what's going on in the world of economy, politics, culture, sport, medicine, ecology. Focus has it all covered for you.</desc>
-  </programme>
-  <programme start="20250507095000 +0800" stop="20250507100000 +0800" channel="france24">
-    <title lang="en">Sports</title>
-    <desc lang="en">A summary of world sports news of the day, both on and off the pitch.</desc>
-  </programme>
-  <programme start="20250507100000 +0800" stop="20250507101500 +0800" channel="france24">
-    <title lang="en">News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250507101500 +0800" stop="20250507103000 +0800" channel="france24">
     <title lang="en">Perspective</title>
     <desc lang="en">Join presenters Eve Irvine and Stuart Norval, as they talk to various notable people about important topics such as social issues, culture, sport, science, business, and much more.</desc>
@@ -8796,6 +8760,30 @@
     <title lang="en">In the Press</title>
     <desc lang="en">Presenters Solange Mougin, Alison Sargent and Dheepthika Laurent go through the day's most exciting national and international newspaper headlines. Discover all the stories that make it to the pages, including news from politics, entertainment, environment, business and more. The presenters review these press headlines and offer details about the stories.</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508094000 +0800" channel="france24">
+    <title lang="en">News</title>
+    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250508094000 +0800" stop="20250508094500 +0800" channel="france24">
+    <title lang="en">Perspective</title>
+    <desc lang="en">Join presenters Eve Irvine and Stuart Norval, as they talk to various notable people about important topics such as social issues, culture, sport, science, business, and much more.</desc>
+  </programme>
+  <programme start="20250508094500 +0800" stop="20250508095000 +0800" channel="france24">
+    <title lang="en">Focus</title>
+    <desc lang="en">Keep up with the latest news from all over the globe with Focus on France 24. Focus programme provides exclusive reports from Monday to Friday at 7.50 am Paris time. Find out what's going on in the world of economy, politics, culture, sport, medicine, ecology. Focus has it all covered for you.</desc>
+  </programme>
+  <programme start="20250508095000 +0800" stop="20250508100000 +0800" channel="france24">
+    <title lang="en">Sports</title>
+    <desc lang="en">A summary of world sports news of the day, both on and off the pitch.</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508101500 +0800" channel="france24">
+    <title lang="en">News</title>
+    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20250508101500 +0800" stop="20250508103000 +0800" channel="france24">
+    <title lang="en">Perspective</title>
+    <desc lang="en">Join presenters Eve Irvine and Stuart Norval, as they talk to various notable people about important topics such as social issues, culture, sport, science, business, and much more.</desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://example.com</url>
@@ -9004,10 +8992,6 @@
     <display-name lang="en">thrill</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507081000 +0800" stop="20250507095000 +0800" channel="thrill">
-    <title lang="en">Dorome Boys version</title>
-    <desc lang="en">Drama clubs from an all-boys and all-girls high school hold a joint training camp. A series of horrific and ususual events soon take place at the camp and the students learn that an old mountain legend creature, Dorome, is responsible.</desc>
-  </programme>
   <programme start="20250507095000 +0800" stop="20250507114000 +0800" channel="thrill">
     <title lang="en">Whisper of Silent Body</title>
     <desc lang="en">Renowned as the "corpse whisperer," forensic pathologist Qin Ming uncovers vital clues from the corpses. During a homicide investigation, he unravels a murder case sixteen years ago in the snowy mountain with his assistant and a detective. Together, they unveil the secrets of the mysterious homicide.</desc>
@@ -9068,14 +9052,14 @@
     <title lang="en">Watch Me Kill</title>
     <desc lang="en">A ruthless assassin named Luciana is hired by a kingpin to murder a man with a valuable diamond. Complications ensue when Luciana stumbles upon a teenage girl who is held captive by the man, and the kingpin discovers that the diamond Luciana turned over is fake.</desc>
   </programme>
+  <programme start="20250508100500 +0800" stop="20250508113000 +0800" channel="thrill">
+    <title lang="en">Dead Dicks</title>
+    <desc lang="en">Richie is a suicidal young man who finds himself very much alive every time he kills himself, although there will be a dead body of him in his apartment after each suicide attempt. Richie’s sister comes to his rescue and discovers the piled up dead bodies in the house. What keeps bringing Richie back?</desc>
+  </programme>
   <channel id="crime_investigation">
     <display-name lang="en">crime_investigation</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507084000 +0800" stop="20250507093500 +0800" channel="crime_investigation">
-    <title lang="en">The First 48 (S25)</title>
-    <desc lang="en">When a man is shot on the side of the road, clues lead Detective Jason White to an ongoing crime spree in his 100th case for Tulsa Homicide.</desc>
-  </programme>
   <programme start="20250507093500 +0800" stop="20250507103000 +0800" channel="crime_investigation">
     <title lang="en">The Torso Killer Confessions</title>
     <desc lang="en">Bergen County (NJ) Chief of Detectives Robert Anzilotti continues his mission to tie Cottingham to additional murders and to get him to confess to more cold-case homicides.</desc>
@@ -9204,14 +9188,14 @@
     <title lang="en">The First 48 (S25)</title>
     <desc lang="en">When a man is found shot to death in the back of his truck, detectives hope a dating app is the key to finding his killer.</desc>
   </programme>
+  <programme start="20250508093500 +0800" stop="20250508103000 +0800" channel="crime_investigation">
+    <title lang="en">Panic 9-1-1 (S3)</title>
+    <desc lang="en">During the height of tornado season, a bride-to-be is trapped in a gully inside her overturned SUV. A terrified 11-year-old and her younger brother are home alone when their apartment goes up in flames.</desc>
+  </programme>
   <channel id="tech_storm">
     <display-name lang="en">tech_storm</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507080500 +0800" stop="20250507094500 +0800" channel="tech_storm">
-    <title lang="en">TechStorm</title>
-    <desc lang="en">TechStorm</desc>
-  </programme>
   <programme start="20250507094500 +0800" stop="20250507104500 +0800" channel="tech_storm">
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
@@ -9304,18 +9288,14 @@
     <title lang="en">TechStorm</title>
     <desc lang="en">TechStorm</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508104500 +0800" channel="tech_storm">
+    <title lang="en">TechStorm</title>
+    <desc lang="en">TechStorm</desc>
+  </programme>
   <channel id="buko">
     <display-name lang="en">buko</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507083000 +0800" stop="20250507093000 +0800" channel="buko">
-    <title lang="en">Pidol's Wonderland</title>
-    <desc lang="en">Pidol's Wonderland</desc>
-  </programme>
-  <programme start="20250507093000 +0800" stop="20250507100000 +0800" channel="buko">
-    <title lang="en">Nina Nino</title>
-    <desc lang="en">Nina Nino</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507103000 +0800" channel="buko">
     <title lang="en">Kambalilong</title>
     <desc lang="en">Kambalilong</desc>
@@ -9436,14 +9416,18 @@
     <title lang="en">Pidol's Wonderland</title>
     <desc lang="en">Pidol's Wonderland</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508100000 +0800" channel="buko">
+    <title lang="en">Nina Nino</title>
+    <desc lang="en">Nina Nino</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508103000 +0800" channel="buko">
+    <title lang="en">Kambalilong</title>
+    <desc lang="en">Kambalilong</desc>
+  </programme>
   <channel id="knowledge_channel">
     <display-name lang="en">knowledge_channel</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="knowledge_channel">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="knowledge_channel">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -9536,14 +9520,14 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
+  <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="knowledge_channel">
+    <title lang="en">To Be Announced</title>
+    <desc lang="en">Program information is not yet available</desc>
+  </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507092500 +0800" stop="20250507093000 +0800" channel="tv5_monde">
-    <title lang="en">64' L'Essentiel</title>
-    <desc lang="en">The whole world, in French.</desc>
-  </programme>
   <programme start="20250507093000 +0800" stop="20250507103700 +0800" channel="tv5_monde">
     <title lang="en">C Dans L'Air</title>
     <desc lang="en">All the latest major events, presented, explained and analysed! Special guests and journalists in the studio analyse both the latest news but also other controversial issues to give us a better understanding of the social, political and cultural events occurring around us.</desc>
@@ -9744,22 +9728,14 @@
     <title lang="en">64' L'Essentiel</title>
     <desc lang="en">The whole world, in French.</desc>
   </programme>
+  <programme start="20250508093000 +0800" stop="20250508103800 +0800" channel="tv5_monde">
+    <title lang="en">C Dans L'Air</title>
+    <desc lang="en">All the latest major events, presented, explained and analysed! Special guests and journalists in the studio analyse both the latest news but also other controversial issues to give us a better understanding of the social, political and cultural events occurring around us.</desc>
+  </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20250507092000 +0800" stop="20250507094500 +0800" channel="nickelodeon">
-    <title lang="en">ALVINNN!!! and The Chipmunks</title>
-    <desc lang="en">In an effort to be more productive, Simon invents a device that can override the need to sleep. But does it work? // Alvin gets a taste of his own medicine when he zaps Dave with a youth ray, turning him into an irresponsible teen.</desc>
-  </programme>
-  <programme start="20250507094500 +0800" stop="20250507100000 +0800" channel="nickelodeon">
-    <title lang="en">ALVINNN!!! and The Chipmunks</title>
-    <desc lang="en">When Alvin tries to break Theodore's dependence on Talking Teddy, Theodore invents a new imaginary friend.</desc>
-  </programme>
-  <programme start="20250507100000 +0800" stop="20250507102000 +0800" channel="nickelodeon">
-    <title lang="en">The Loud House</title>
-    <desc lang="en">To get Lily to stop crying the kids give her an old singing toy from the attic but it quickly drives them crazy. // Dad declares war on the kids' devices so they decide to show Dad how great electronics and the internet are.</desc>
-  </programme>
   <programme start="20250507102000 +0800" stop="20250507103500 +0800" channel="nickelodeon">
     <title lang="en">The Loud House</title>
     <desc lang="en">Tensions run high when Lincoln and Clyde both get an internship at Flip's and compete to win the manager title. // When Lincoln sees how tame Pop Pop has gotten in his older age, he takes him out for a day to remember.</desc>
@@ -10008,14 +9984,22 @@
     <title lang="en">ALVINNN!!! and The Chipmunks</title>
     <desc lang="en">When Miss Croner has a disagreement with Miss Miller, she fakes her disappearance to get even. // Simon tells Alvin time travel is impossible, until a man from the future shows up at their home.</desc>
   </programme>
+  <programme start="20250508094500 +0800" stop="20250508100000 +0800" channel="nickelodeon">
+    <title lang="en">ALVINNN!!! and The Chipmunks</title>
+    <desc lang="en">When Simon falls ill, Alvin takes his place on a camping trip only to discover it's actually an archeological dig.</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508102000 +0800" channel="nickelodeon">
+    <title lang="en">The Loud House</title>
+    <desc lang="en">Everyone in the family has been working hard to save up for a family vacation. But while road tripping to their destination, everything that can go for the family wrong does.</desc>
+  </programme>
+  <programme start="20250508102000 +0800" stop="20250508103500 +0800" channel="nickelodeon">
+    <title lang="en">The Loud House</title>
+    <desc lang="en">After Lincoln gets a pink hand-me-down bike from Lori, he borrows Lynn’s cool BMX bike without telling her.</desc>
+  </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20250507090000 +0800" stop="20250507100000 +0800" channel="sari_sari">
-    <title lang="en">Totoy Bato ep 2</title>
-    <desc lang="en">Totoy Bato explores the origins, the pathos of the character Totoy. All the different battle he went through (terrorist, revenge for his wife, corruption, prejudice and for love) defines him as a character.</desc>
-  </programme>
   <programme start="20250507100000 +0800" stop="20250507110000 +0800" channel="sari_sari">
     <title lang="en">Taddy Taddy Po ep 5</title>
     <desc lang="en">A Sari-Sari Original Series. In this modern family, love wins. Alex is an up-and-coming reporter in a relationship with Marcus, a chef. One day, Alex's sister's kids show up at the couple's doorstep and the couple has no choice but to take care of the kids.</desc>
@@ -10119,5 +10103,13 @@ and innovations of the new generation?</desc>
   <programme start="20250508090000 +0800" stop="20250508100000 +0800" channel="sari_sari">
     <title lang="en">Totoy Bato ep 3</title>
     <desc lang="en">Totoy Bato explores the origins, the pathos of the character Totoy. All the different battle he went through (terrorist, revenge for his wife, corruption, prejudice and for love) defines him as a character.</desc>
+  </programme>
+  <programme start="20250508100000 +0800" stop="20250508110000 +0800" channel="sari_sari">
+    <title lang="en">Da Pers Family S3 ep 6 (ep 32)</title>
+    <desc lang="en">A story of a couple who preserves the family 
+bakery business legacy from closure. Now the 
+couple’s children, volunteers to step in and help the 
+business. Are the parents willing to accept change 
+and innovations of the new generation?</desc>
   </programme>
 </tv>

@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/Alobadman/CIGNAL_EPG.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Alobadman/CIGNAL_EPG.git
           git add sky_epg.xml sky_epg.xml.gz
           git diff --staged --quiet || git commit -m "Update SKY EPG data"
           git push --force

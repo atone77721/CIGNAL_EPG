@@ -1,56 +1,79 @@
 import requests
 import datetime
 import xml.etree.ElementTree as ET
+import gzip
 
-# EPG endpoint from the SKYcable website
 BASE_URL = "https://skyepg.mysky.com.ph/Main/getEventsbyType"
 LOGO_URL = "http://202.78.65.124/epgcms/uploads/"
 
-def fetch_epg(counter=3):
-    """Fetch EPG JSON data from SKYcable endpoint"""
+def fetch_epg(counter):
     params = {"counter": counter}
     response = requests.get(BASE_URL, params=params)
     response.raise_for_status()
     return response.json()
 
 def convert_time(timestamp_ms):
-    """Convert JS timestamp (ms) to XMLTV datetime format"""
     dt = datetime.datetime.fromtimestamp(int(timestamp_ms) / 1000)
     return dt.strftime("%Y%m%d%H%M%S +0800")
 
-def create_xmltv(epg_data):
-    """Convert EPG JSON to XMLTV format"""
+def create_xmltv(all_data):
     tv = ET.Element("tv")
+    channel_ids = set()
 
-    # Add channels
-    for loc in epg_data["location"]:
-        channel = ET.SubElement(tv, "channel", id=str(loc["id"]))
-        display_name = ET.SubElement(channel, "display-name")
-        display_name.text = loc["name"]
-        logo = loc.get("userData", {}).get("logo", "")
-        if logo:
-            icon = ET.SubElement(channel, "icon", src=LOGO_URL + logo)
+    for epg_data in all_data:
+        # Add channels once
+        for loc in epg_data["location"]:
+            if loc["id"] not in channel_ids:
+                channel_ids.add(loc["id"])
+                channel = ET.SubElement(tv, "channel", id=str(loc["id"]))
+                display_name = ET.SubElement(channel, "display-name")
+                display_name.text = loc["name"]
+                logo = loc.get("userData", {}).get("logo", "")
+                if logo:
+                    ET.SubElement(channel, "icon", src=LOGO_URL + logo)
 
-    # Add programmes
-    for event in epg_data["events"]:
-        start_time = convert_time(event["start"])
-        end_time = convert_time(event["end"])
-        programme = ET.SubElement(tv, "programme", start=start_time, stop=end_time, channel=str(event["location"]))
+        # Add events
+        for event in epg_data["events"]:
+            start_time = convert_time(event["start"])
+            end_time = convert_time(event["end"])
+            programme = ET.SubElement(tv, "programme", start=start_time, stop=end_time, channel=str(event["location"]))
 
-        title = ET.SubElement(programme, "title", lang="en")
-        title.text = event.get("name", "No Title")
+            title = ET.SubElement(programme, "title", lang="en")
+            title.text = event.get("name", "No Title")
 
-        if event.get("description"):
-            desc = ET.SubElement(programme, "desc", lang="en")
-            desc.text = event["description"]
+            if event.get("description"):
+                desc = ET.SubElement(programme, "desc", lang="en")
+                desc.text = event["description"]
 
     return ET.ElementTree(tv)
 
+def save_xml_with_compression(xmltv_tree):
+    # Save XML file normally
+    xmltv_tree.write("sky_epg.xml", encoding="utf-8", xml_declaration=True)
+    print("✅ EPG saved to sky_epg.xml")
+
+    # Save compressed XML as .gz
+    with gzip.open("sky_epg.xml.gz", "wb") as f:
+        xmltv_tree.write(f, encoding="utf-8", xml_declaration=True)
+    print("✅ EPG saved to sky_epg.xml.gz")
+
 if __name__ == "__main__":
     try:
-        epg_data = fetch_epg(counter=3)  # You can change counter to 6, 9, etc. for future hours
-        xmltv = create_xmltv(epg_data)
-        xmltv.write("sky_epg.xml", encoding="utf-8", xml_declaration=True)
-        print("✅ EPG saved to sky_epg.xml")
+        all_epg_data = []
+        for counter in range(3, 27, 3):  # 3h steps: 3, 6, 9, ..., 24
+            print(f"Fetching EPG for next {counter} hours...")
+            data = fetch_epg(counter)
+            if data.get("events"):
+                all_epg_data.append(data)
+            else:
+                print(f"⚠️ No events returned for counter {counter}")
+
+        if not all_epg_data:
+            print("❌ No EPG data collected.")
+            exit(1)
+
+        xmltv = create_xmltv(all_epg_data)
+        save_xml_with_compression(xmltv)
     except Exception as e:
         print(f"❌ Error: {e}")
+        exit(1)

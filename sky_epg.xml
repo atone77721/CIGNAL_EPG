@@ -1455,6 +1455,10 @@
     <title lang="en">FIA WEC  6 Hours of Spa</title>
     <desc lang="en">FIA WEC  6 Hours of Spa</desc>
   </programme>
+  <programme start="20250507110000 +0800" stop="20250507110000 +0800" channel="219">
+    <title lang="en">News</title>
+    <desc lang="en">News</desc>
+  </programme>
   <programme start="20250507110000 +0800" stop="20250507111500 +0800" channel="219">
     <title lang="en">The European debrief</title>
     <desc lang="en">The European debrief</desc>
@@ -1488,10 +1492,6 @@
     <desc lang="en">Wake up Europe</desc>
   </programme>
   <programme start="20250507133000 +0800" stop="20250507140000 +0800" channel="219">
-    <title lang="en">Wake up Europe</title>
-    <desc lang="en">Wake up Europe</desc>
-  </programme>
-  <programme start="20250507140000 +0800" stop="20250507141500 +0800" channel="219">
     <title lang="en">Wake up Europe</title>
     <desc lang="en">Wake up Europe</desc>
   </programme>
@@ -4115,6 +4115,10 @@
     <title lang="en">Giro dItalia  Stage 20</title>
     <desc lang="en">Giro dItalia  Stage 20</desc>
   </programme>
+  <programme start="20250507140000 +0800" stop="20250507140000 +0800" channel="219">
+    <title lang="en">Wake up Europe</title>
+    <desc lang="en">Wake up Europe</desc>
+  </programme>
   <programme start="20250507140000 +0800" stop="20250507141500 +0800" channel="219">
     <title lang="en">Wake up Europe</title>
     <desc lang="en">Wake up Europe</desc>
@@ -4190,10 +4194,6 @@
   <programme start="20250507194600 +0800" stop="20250507200000 +0800" channel="219">
     <title lang="en">News</title>
     <desc lang="en">News</desc>
-  </programme>
-  <programme start="20250507200000 +0800" stop="20250507201500 +0800" channel="219">
-    <title lang="en">Euronews Now</title>
-    <desc lang="en">Euronews Now</desc>
   </programme>
   <programme start="20250507140000 +0800" stop="20250507154000 +0800" channel="242">
     <title lang="en">Iron Squad 2</title>
@@ -7934,6 +7934,10 @@
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="214">
     <title lang="en">FIM Speedway GP  Landshut</title>
     <desc lang="en">FIM Speedway GP  Landshut</desc>
+  </programme>
+  <programme start="20250507170000 +0800" stop="20250507170000 +0800" channel="219">
+    <title lang="en">Wake up Europe</title>
+    <desc lang="en">Wake up Europe</desc>
   </programme>
   <programme start="20250507170000 +0800" stop="20250507171500 +0800" channel="219">
     <title lang="en">Euronews Now</title>
@@ -21763,10 +21767,6 @@
     <title lang="en">MGA BATANG .45 MICHAEL RIVERO</title>
     <desc lang="en">MGA BATANG .45 MICHAEL RIVERO</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="9">
-    <title lang="en">MAGING SINO KA MAN</title>
-    <desc lang="en">MAGING SINO KA MAN</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508024500 +0800" channel="9">
     <title lang="en">LA VIDA LENA</title>
     <desc lang="en">LA VIDA LENA</desc>
@@ -21934,10 +21934,6 @@
   <programme start="20250508200000 +0800" stop="20250508204500 +0800" channel="10">
     <title lang="en">BATANG QUIAPO</title>
     <desc lang="en">BATANG QUIAPO</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="16">
-    <title lang="en">A Kiss in the Rain</title>
-    <desc lang="en">A Kiss in the Rain</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508040000 +0800" channel="16">
     <title lang="en">Adult Movie Kalaro</title>
@@ -22135,10 +22131,6 @@
     <title lang="en">Luke Nguyens Railway Vietnam S1</title>
     <desc lang="en">Luke Nguyens Railway Vietnam S1</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="23">
-    <title lang="en">ONE DREAM THE BINIBGYO JOURNEY</title>
-    <desc lang="en">ONE DREAM THE BINIBGYO JOURNEY</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="23">
     <title lang="en">THE LUNCH TABLE</title>
     <desc lang="en">THE LUNCH TABLE</desc>
@@ -22214,10 +22206,6 @@
   <programme start="20250508200000 +0800" stop="20250508203000 +0800" channel="23">
     <title lang="en">BOOKED</title>
     <desc lang="en">BOOKED</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="28">
-    <title lang="en">Amanpour Wednesday, May 7, 2025 1pm ET</title>
-    <desc lang="en">Amanpour Wednesday, May 7, 2025 1pm ET</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="28">
     <title lang="en">Isa Soares Tonight Wednesday, May 7, 2025 2pm ET</title>
@@ -22687,10 +22675,6 @@
     <title lang="en">Animal Armory S1</title>
     <desc lang="en">Animal Armory S1</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="43">
-    <title lang="en">Chowder</title>
-    <desc lang="en">Chowder</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="43">
     <title lang="en">Courage The Cowardly Dog</title>
     <desc lang="en">Courage The Cowardly Dog</desc>
@@ -23003,10 +22987,6 @@
     <title lang="en">Tales of the Teenage Mutant Ninja Turtles</title>
     <desc lang="en">Tales of the Teenage Mutant Ninja Turtles</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="46">
-    <title lang="en">TSUKIMICHI MOONLIT FANTASY SEASON 2</title>
-    <desc lang="en">TSUKIMICHI MOONLIT FANTASY SEASON 2</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508023000 +0800" channel="46">
     <title lang="en">HAIKYU!! SEASON 1</title>
     <desc lang="en">HAIKYU!! SEASON 1</desc>
@@ -23242,10 +23222,6 @@
   <programme start="20250508195500 +0800" stop="20250508205000 +0800" channel="49">
     <title lang="en">ROOKIE BLUE SEASON 5</title>
     <desc lang="en">ROOKIE BLUE SEASON 5</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="53">
-    <title lang="en">Late Night With Seth Meyers S12</title>
-    <desc lang="en">Late Night With Seth Meyers S12</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="53">
     <title lang="en">DOC  In Your Hands</title>
@@ -23858,10 +23834,6 @@
   <programme start="20250508194000 +0800" stop="20250508203000 +0800" channel="68">
     <title lang="en">Guys Grocery Games S22</title>
     <desc lang="en">Guys Grocery Games S22</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="70">
-    <title lang="en">ACTION  AFTER DARK</title>
-    <desc lang="en">ACTION  AFTER DARK</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="70">
     <title lang="en">ORAS NG HIMALA</title>
@@ -25047,10 +25019,6 @@
     <title lang="en">Better Off Zed</title>
     <desc lang="en">Better Off Zed</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="109">
-    <title lang="en">Has The Internet Broken Parenting?</title>
-    <desc lang="en">Has The Internet Broken Parenting?</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="109">
     <title lang="en">Singapore Tonight</title>
     <desc lang="en">Singapore Tonight</desc>
@@ -25122,10 +25090,6 @@
   <programme start="20250508200000 +0800" stop="20250508210000 +0800" channel="109">
     <title lang="en">Asia Tonight</title>
     <desc lang="en">Asia Tonight</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="118">
-    <title lang="en">Mush Mush And The Mushables</title>
-    <desc lang="en">Mush Mush And The Mushables</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="118">
     <title lang="en">Brave Bunnies</title>
@@ -25346,10 +25310,6 @@
   <programme start="20250508200000 +0800" stop="20250508230000 +0800" channel="130">
     <title lang="en">News Breakfast</title>
     <desc lang="en">News Breakfast</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="132">
-    <title lang="en">DocFilm</title>
-    <desc lang="en">DocFilm</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508020200 +0800" channel="132">
     <title lang="en">DW News</title>
@@ -25719,10 +25679,6 @@
     <title lang="en">ITTF World Cup 2025 Womens Round 1</title>
     <desc lang="en">ITTF World Cup 2025 Womens Round 1</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="144">
-    <title lang="en">Shao Kangs War Room</title>
-    <desc lang="en">Shao Kangs War Room</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="144">
     <title lang="en">Global Golden Line</title>
     <desc lang="en">Global Golden Line</desc>
@@ -25794,10 +25750,6 @@
   <programme start="20250508200000 +0800" stop="20250508210000 +0800" channel="144">
     <title lang="en">All About Health</title>
     <desc lang="en">All About Health</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="164">
-    <title lang="en">Beached S1</title>
-    <desc lang="en">Beached S1</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508022500 +0800" channel="164">
     <title lang="en">Handmade In Asia S1</title>
@@ -26143,10 +26095,6 @@
     <title lang="en">ITTF World Cup 2025 Womens Round 1</title>
     <desc lang="en">ITTF World Cup 2025 Womens Round 1</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="178">
-    <title lang="en">Chowder</title>
-    <desc lang="en">Chowder</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="178">
     <title lang="en">Courage The Cowardly Dog</title>
     <desc lang="en">Courage The Cowardly Dog</desc>
@@ -26294,10 +26242,6 @@
   <programme start="20250508191000 +0800" stop="20250508210000 +0800" channel="180">
     <title lang="en">The Turning 2020</title>
     <desc lang="en">The Turning 2020</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="181">
-    <title lang="en">Amanpour Wednesday, May 7, 2025 1pm ET</title>
-    <desc lang="en">Amanpour Wednesday, May 7, 2025 1pm ET</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="181">
     <title lang="en">Isa Soares Tonight Wednesday, May 7, 2025 2pm ET</title>
@@ -26615,10 +26559,6 @@
     <title lang="en">SMALLFOOT</title>
     <desc lang="en">SMALLFOOT</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="190">
-    <title lang="en">Rock.Alt.Indie</title>
-    <desc lang="en">Rock.Alt.Indie</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508024500 +0800" channel="190">
     <title lang="en">Sting MTV Unplugged</title>
     <desc lang="en">Sting MTV Unplugged</desc>
@@ -26694,10 +26634,6 @@
   <programme start="20250508193000 +0800" stop="20250508210000 +0800" channel="190">
     <title lang="en">HD Hits!</title>
     <desc lang="en">HD Hits!</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="196">
-    <title lang="en">Late Night With Seth Meyers S12</title>
-    <desc lang="en">Late Night With Seth Meyers S12</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="196">
     <title lang="en">DOC  In Your Hands</title>
@@ -27143,10 +27079,6 @@
     <title lang="en">The Karate Kid</title>
     <desc lang="en">The Karate Kid</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="214">
-    <title lang="en">London Marathon</title>
-    <desc lang="en">London Marathon</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="214">
     <title lang="en">FIM Speedway GP  Landshut</title>
     <desc lang="en">FIM Speedway GP  Landshut</desc>
@@ -27222,10 +27154,6 @@
   <programme start="20250508183000 +0800" stop="20250508203000 +0800" channel="214">
     <title lang="en">Giro dItalia  Stage 21</title>
     <desc lang="en">Giro dItalia  Stage 21</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="219">
-    <title lang="en">The European debrief</title>
-    <desc lang="en">The European debrief</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508021600 +0800" channel="219">
     <title lang="en">The European debrief</title>
@@ -27462,6 +27390,10 @@
   <programme start="20250508194600 +0800" stop="20250508200000 +0800" channel="219">
     <title lang="en">News</title>
     <desc lang="en">News</desc>
+  </programme>
+  <programme start="20250508200000 +0800" stop="20250508201600 +0800" channel="219">
+    <title lang="en">Euronews Now</title>
+    <desc lang="en">Euronews Now</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030500 +0800" channel="242">
     <title lang="en">10 Fight 10 Season 3</title>
@@ -27975,10 +27907,6 @@
     <title lang="en">Luke Nguyens Railway Vietnam S1</title>
     <desc lang="en">Luke Nguyens Railway Vietnam S1</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="249">
-    <title lang="en">London Marathon</title>
-    <desc lang="en">London Marathon</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="249">
     <title lang="en">FIM Speedway GP  Landshut</title>
     <desc lang="en">FIM Speedway GP  Landshut</desc>
@@ -28203,10 +28131,6 @@
     <title lang="en">MLB 2025 Regular season</title>
     <desc lang="en">MLB 2025 Regular season</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="287">
-    <title lang="en">CARNIVAL EATS</title>
-    <desc lang="en">CARNIVAL EATS</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508023000 +0800" channel="287">
     <title lang="en">CASA DAZA</title>
     <desc lang="en">CASA DAZA</desc>
@@ -28318,10 +28242,6 @@
   <programme start="20250508200000 +0800" stop="20250508213000 +0800" channel="287">
     <title lang="en">THE SUMMIT AUSTRALIA</title>
     <desc lang="en">THE SUMMIT AUSTRALIA</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="288">
-    <title lang="en">CARNIVAL EATS</title>
-    <desc lang="en">CARNIVAL EATS</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508023000 +0800" channel="288">
     <title lang="en">CASA DAZA</title>
@@ -28715,10 +28635,6 @@
     <title lang="en">Animal Armory S1</title>
     <desc lang="en">Animal Armory S1</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="297">
-    <title lang="en">Jelly Jamm</title>
-    <desc lang="en">Jelly Jamm</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508021500 +0800" channel="297">
     <title lang="en">Jelly Jamm</title>
     <desc lang="en">Jelly Jamm</desc>
@@ -29091,10 +29007,6 @@
     <title lang="en">Jelly Jamm S2</title>
     <desc lang="en">Jelly Jamm S2</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="304">
-    <title lang="en">NEWS NIGHT</title>
-    <desc lang="en">NEWS NIGHT</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="304">
     <title lang="en">LATE NIGHT VISION</title>
     <desc lang="en">LATE NIGHT VISION</desc>
@@ -29222,10 +29134,6 @@
   <programme start="20250508193000 +0800" stop="20250508213000 +0800" channel="309">
     <title lang="en">2025 AVC WOMENS CHAMPION LEAGUE SEMIFINALS 1 ZHETYSU VC KAZ vs  THA NAKHON RATCHASIMA QMIN C VC  REPLAY  APRIL 26, 400PM GAME</title>
     <desc lang="en">2025 AVC WOMENS CHAMPION LEAGUE SEMIFINALS 1 ZHETYSU VC KAZ vs  THA NAKHON RATCHASIMA QMIN C VC  REPLAY  APRIL 26, 400PM GAME</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="318">
-    <title lang="en">Monster Jam 2023</title>
-    <desc lang="en">Monster Jam 2023</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508040000 +0800" channel="318">
     <title lang="en">Euroleague 202425</title>
@@ -29358,10 +29266,6 @@
   <programme start="20250508180000 +0800" stop="20250508210000 +0800" channel="321">
     <title lang="en">MTV 90s  The Movies!</title>
     <desc lang="en">MTV 90s  The Movies!</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="322">
-    <title lang="en">Serie A 202425</title>
-    <desc lang="en">Serie A 202425</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508040000 +0800" channel="322">
     <title lang="en">202425 Isuzu ALeague</title>
@@ -29519,10 +29423,6 @@
     <title lang="en">FPJs Batang Quiapo</title>
     <desc lang="en">FPJs Batang Quiapo</desc>
   </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="324">
-    <title lang="en">Worth It S9</title>
-    <desc lang="en">Worth It S9</desc>
-  </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="324">
     <title lang="en">The Kelly Clarkson Show S6</title>
     <desc lang="en">The Kelly Clarkson Show S6</desc>
@@ -29602,10 +29502,6 @@
   <programme start="20250508200000 +0800" stop="20250508203000 +0800" channel="324">
     <title lang="en">Hot Ones S15</title>
     <desc lang="en">Hot Ones S15</desc>
-  </programme>
-  <programme start="20250508020000 +0800" stop="20250508020000 +0800" channel="325">
-    <title lang="en">Chicago P.D. S6</title>
-    <desc lang="en">Chicago P.D. S6</desc>
   </programme>
   <programme start="20250508020000 +0800" stop="20250508030000 +0800" channel="325">
     <title lang="en">The Equalizer S3</title>
@@ -36367,10 +36263,6 @@
     <title lang="en">Switzerland  MXGP  Race 2</title>
     <desc lang="en">Switzerland  MXGP  Race 2</desc>
   </programme>
-  <programme start="20250508050000 +0800" stop="20250508050000 +0800" channel="219">
-    <title lang="en">The European debrief</title>
-    <desc lang="en">The European debrief</desc>
-  </programme>
   <programme start="20250508050000 +0800" stop="20250508051500 +0800" channel="219">
     <title lang="en">The European debrief</title>
     <desc lang="en">The European debrief</desc>
@@ -36636,6 +36528,10 @@
     <desc lang="en">The European debrief</desc>
   </programme>
   <programme start="20250509013000 +0800" stop="20250509020000 +0800" channel="219">
+    <title lang="en">The European debrief</title>
+    <desc lang="en">The European debrief</desc>
+  </programme>
+  <programme start="20250509020000 +0800" stop="20250509021500 +0800" channel="219">
     <title lang="en">The European debrief</title>
     <desc lang="en">The European debrief</desc>
   </programme>
@@ -46731,10 +46627,6 @@
     <title lang="en">Giro dItalia  Review</title>
     <desc lang="en">Giro dItalia  Review</desc>
   </programme>
-  <programme start="20250508080000 +0800" stop="20250508080000 +0800" channel="219">
-    <title lang="en">News</title>
-    <desc lang="en">News</desc>
-  </programme>
   <programme start="20250508080000 +0800" stop="20250508081500 +0800" channel="219">
     <title lang="en">The European debrief</title>
     <desc lang="en">The European debrief</desc>
@@ -47036,6 +46928,10 @@
     <desc lang="en">The European debrief</desc>
   </programme>
   <programme start="20250509073000 +0800" stop="20250509080000 +0800" channel="219">
+    <title lang="en">The European debrief</title>
+    <desc lang="en">The European debrief</desc>
+  </programme>
+  <programme start="20250509080000 +0800" stop="20250509081600 +0800" channel="219">
     <title lang="en">The European debrief</title>
     <desc lang="en">The European debrief</desc>
   </programme>

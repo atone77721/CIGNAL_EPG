@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<tv generator-info-name="FHS" generator-info-url="http://example.com">
+<tv generator-info-name="atone77721" generator-info-url="https://www.cignalplay.com">
   <channel id="bilyonaryoch">
     <display-name lang="en">bilyonaryoch</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="bilyonaryoch">
     <title lang="en">Trade Talks</title>
@@ -138,7 +138,7 @@
   </programme>
   <channel id="rptv">
     <display-name lang="en">rptv</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="rptv">
     <title lang="en">To Be Announced</title>
@@ -238,7 +238,7 @@
   </programme>
   <channel id="truefmtv">
     <display-name lang="en">truefmtv</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907120000 +0800" stop="20250907143000 +0800" channel="truefmtv">
     <title lang="en">H2H (Replay)</title>
@@ -306,7 +306,7 @@
   </programme>
   <channel id="cg_hitsnow">
     <display-name lang="en">cg_hitsnow</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="cg_hitsnow">
     <title lang="en">Celebrity Wheel Of Fortune S3</title>
@@ -414,7 +414,7 @@
   </programme>
   <channel id="cg_hbohd">
     <display-name lang="en">cg_hbohd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907115000 +0800" stop="20250907142500 +0800" channel="cg_hbohd">
     <title lang="en">Harry Potter And The Half-Blood Prince</title>
@@ -474,7 +474,7 @@
   </programme>
   <channel id="tvup_prd">
     <display-name lang="en">tvup_prd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="tvup_prd">
     <title lang="en">Up Talks</title>
@@ -594,7 +594,7 @@
   </programme>
   <channel id="tvmaria_prd">
     <display-name lang="en">tvmaria_prd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="tvmaria_prd">
     <title lang="en">To Be Announced</title>
@@ -694,7 +694,7 @@
   </programme>
   <channel id="cg_hbofam">
     <display-name lang="en">cg_hbofam</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907123500 +0800" stop="20250907140000 +0800" channel="cg_hbofam">
     <title lang="en">Under The Boardwalk</title>
@@ -862,7 +862,7 @@
   </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907110500 +0800" stop="20250907142000 +0800" channel="cg_cinemax">
     <title lang="en">The Godfather Part II</title>
@@ -922,7 +922,7 @@
   </programme>
   <channel id="lotusmacau_prd">
     <display-name lang="en">lotusmacau_prd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="lotusmacau_prd">
     <title lang="en">To Be Announced</title>
@@ -1022,7 +1022,7 @@
   </programme>
   <channel id="cg_hbosign">
     <display-name lang="en">cg_hbosign</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907143500 +0800" channel="cg_hbosign">
     <title lang="en">Pu-239</title>
@@ -1090,7 +1090,7 @@
   </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907120500 +0800" stop="20250907135500 +0800" channel="cg_hbohits">
     <title lang="en">The Break-Up</title>
@@ -1148,9 +1148,13 @@
     <title lang="en">Beetlejuice Beetlejuice</title>
     <desc lang="en">Three generations of the Deetz family return home to Winter River. Lydia's teenage daughter, Astrid, discovers the model of the town in the attic and the portal to the Afterlife is opened.</desc>
   </programme>
+  <programme start="20250908134000 +0800" stop="20250908152500 +0800" channel="cg_hbohits">
+    <title lang="en">The Break-Up</title>
+    <desc lang="en">After their break-up, a couple struggles to live together under one roof and neither party is willing to move out.</desc>
+  </programme>
   <channel id="cg_tvnmovie">
     <display-name lang="en">cg_tvnmovie</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907115000 +0800" stop="20250907135000 +0800" channel="cg_tvnmovie">
     <title lang="en">Train To Busan</title>
@@ -1204,9 +1208,13 @@
     <title lang="en">Hear Me: Our Summer</title>
     <desc lang="en">Yong-jun is working as a delivery man when he meets and instantly falls for Yeo-reum, the devoted sister of a gifter deaf swimmer. Yeo-reum slowly opens her heart to warm-hearted Yong-jun.</desc>
   </programme>
+  <programme start="20250908134000 +0800" stop="20250908152000 +0800" channel="cg_tvnmovie">
+    <title lang="en">The Terror, Live</title>
+    <desc lang="en">A newsman discovers he's been rigged with a bomb after he has an exclusive interview with a terrorist who blew up a bridge.</desc>
+  </programme>
   <channel id="cg_dreamworktag">
     <display-name lang="en">cg_dreamworktag</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907135500 +0800" channel="cg_dreamworktag">
     <title lang="en">	 Abominable and The Invisible City</title>
@@ -1442,7 +1450,7 @@
   </programme>
   <channel id="cg_tvnpre">
     <display-name lang="en">cg_tvnpre</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907143000 +0800" channel="cg_tvnpre">
     <title lang="en">Date My Friend</title>
@@ -1530,7 +1538,7 @@
   </programme>
   <channel id="cg_tagalogmovie">
     <display-name lang="en">cg_tagalogmovie</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907120000 +0800" stop="20250907140000 +0800" channel="cg_tagalogmovie">
     <title lang="en">Peppermint</title>
@@ -1587,7 +1595,7 @@
   </programme>
   <channel id="globaltrekker">
     <display-name lang="en">globaltrekker</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907132500 +0800" stop="20250907141500 +0800" channel="globaltrekker">
     <title lang="en">Aerial Italy</title>
@@ -1735,7 +1743,7 @@
   </programme>
   <channel id="cgtnenglish">
     <display-name lang="en">cgtnenglish</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="cgtnenglish">
     <title lang="en">To Be Announced</title>
@@ -1835,7 +1843,7 @@
   </programme>
   <channel id="cgnl_nba">
     <display-name lang="en">nba-tv-philippines</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="cgnl_nba">
     <title lang="en">To Be Announced</title>
@@ -1935,7 +1943,7 @@
   </programme>
   <channel id="cartoon_net_hd">
     <display-name lang="en">cartoon_net_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="cartoon_net_hd">
     <title lang="en">To Be Announced</title>
@@ -2035,7 +2043,7 @@
   </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907140000 +0800" channel="cnn_hd">
     <title lang="en">Inside Africa: Inside Africa LIAFR707</title>
@@ -2235,7 +2243,7 @@
   </programme>
   <channel id="a2z">
     <display-name lang="en">a2z</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="a2z">
     <title lang="en">To Be Announced</title>
@@ -2335,7 +2343,7 @@
   </programme>
   <channel id="dreamworks_hd">
     <display-name lang="en">dreamworks_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907135500 +0800" channel="dreamworks_hd">
     <title lang="en">	 Abominable and The Invisible City</title>
@@ -2571,7 +2579,7 @@
   </programme>
   <channel id="animal_planet">
     <display-name lang="en">animal_planet</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907132500 +0800" stop="20250907142000 +0800" channel="animal_planet">
     <title lang="en">Wild Winners (S1)</title>
@@ -2755,7 +2763,7 @@
   </programme>
   <channel id="nbn4">
     <display-name lang="en">nbn4</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="nbn4">
     <title lang="en">To Be Announced</title>
@@ -2955,7 +2963,7 @@
   </programme>
   <channel id="blueant_extreme">
     <display-name lang="en">blueant_extreme</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907120000 +0800" stop="20250907140000 +0800" channel="blueant_extreme">
     <title lang="en">The Twilight Saga: Breaking Dawn Part 1</title>
@@ -3019,7 +3027,7 @@
   </programme>
   <channel id="tap_sports">
     <display-name lang="en">tap_sports</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907153000 +0800" channel="tap_sports">
     <title lang="en">WWE SMACKDOWN</title>
@@ -3087,7 +3095,7 @@
   </programme>
   <channel id="bbcearth_hd">
     <display-name lang="en">bbcearth_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907131000 +0800" stop="20250907141000 +0800" channel="bbcearth_hd">
     <title lang="en">Ancient Powers 1</title>
@@ -3199,7 +3207,7 @@
   </programme>
   <channel id="onesportsplus_hd">
     <display-name lang="en">onesportsplus_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="onesportsplus_hd">
     <title lang="en">To Be Announced</title>
@@ -3371,7 +3379,7 @@
   </programme>
   <channel id="rock_entertainment">
     <display-name lang="en">rock_entertainment</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907121500 +0800" stop="20250907140000 +0800" channel="rock_entertainment">
     <title lang="en">Teenage Mutant Ninja Turtles</title>
@@ -3447,12 +3455,8 @@
   </programme>
   <channel id="discovery">
     <display-name lang="en">discovery</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907125000 +0800" stop="20250907134000 +0800" channel="discovery">
-    <title lang="en">Body Cam (S5)</title>
-    <desc lang="en">In New Mexico, an inmate faking a heart attack jumps a prison guard. In Nebraska, a family faces a firework attack by a random family.</desc>
-  </programme>
   <programme start="20250907134000 +0800" stop="20250907143500 +0800" channel="discovery">
     <title lang="en">Body Cam (S5)</title>
     <desc lang="en">A suspect shoots a K-9 trying to take him down. Officers face an armed thief. A head-on collision with a deputy leads to a full-scale manhunt.</desc>
@@ -3589,9 +3593,13 @@
     <title lang="en">Gold Rush: White Water (S8)</title>
     <desc lang="en">Dustin hits rock bottom after abandoning The Wall. The crew discovers a new site, The Golden Straits, igniting a frantic race for season-saving gold.</desc>
   </programme>
+  <programme start="20250908134000 +0800" stop="20250908143500 +0800" channel="discovery">
+    <title lang="en">Outback Opal Hunters (S8)</title>
+    <desc lang="en">Slim Pickings are suddenly a man down when Lee shocks Roger with an unexpected injury. The Misfits divide and conquer at their Lunatic Claim.</desc>
+  </programme>
   <channel id="cctv4">
     <display-name lang="en">cctv4</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907141500 +0800" channel="cctv4">
     <title lang="en">TV Drama</title>
@@ -3747,7 +3755,7 @@
   </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907150000 +0800" channel="pbarush_hd">
     <title lang="en">Blackwater vs Ginebra Game 44 49th PBA Philippine Cup May 23</title>
@@ -3775,7 +3783,7 @@
   </programme>
   <channel id="arirang">
     <display-name lang="en">arirang</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907135000 +0800" channel="arirang">
     <title lang="en">Performarts Reload:Ntok</title>
@@ -4003,7 +4011,7 @@
   </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907124000 +0800" stop="20250907140500 +0800" channel="kbs_world">
     <title lang="en">Music Bank</title>
@@ -4099,7 +4107,7 @@
   </programme>
   <channel id="onenews_hd">
     <display-name lang="en">onenews_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="onenews_hd">
     <title lang="en">Discovereats</title>
@@ -4239,7 +4247,7 @@
   </programme>
   <channel id="kix_hd">
     <display-name lang="en">kix_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907141500 +0800" channel="kix_hd">
     <title lang="en">Wusong VS Ximenqing</title>
@@ -4323,7 +4331,7 @@
   </programme>
   <channel id="lifetime">
     <display-name lang="en">lifetime</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907122000 +0800" stop="20250907135500 +0800" channel="lifetime">
     <title lang="en">You Can't Escape Me</title>
@@ -4419,7 +4427,7 @@
   </programme>
   <channel id="bbcworld_news">
     <display-name lang="en">bbcworld_news</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="bbcworld_news">
     <title lang="en">To Be Announced</title>
@@ -4519,7 +4527,7 @@
   </programme>
   <channel id="hgtv_hd">
     <display-name lang="en">hgtv_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907142000 +0800" channel="hgtv_hd">
     <title lang="en">Celebrity IOU (S6)</title>
@@ -4679,7 +4687,7 @@
   </programme>
   <channel id="uaap_varsity">
     <display-name lang="en">uaap_varsity</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907153000 +0800" channel="uaap_varsity">
     <title lang="en">UP vs. DLSU Game 62 UAAP Season 86  Finals Game 3 December 6  (Men's Basketball)</title>
@@ -4703,12 +4711,8 @@
   </programme>
   <channel id="travel_channel">
     <display-name lang="en">travel_channel</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907131700 +0800" stop="20250907134100 +0800" channel="travel_channel">
-    <title lang="en">Bikinis &amp; Boardwalks (S2)</title>
-    <desc lang="en">The north Shore of Oahu, Hawaii is home to the $1 Million Dollar surf competition. And, the Mexican island oasis of Cozumel boasts world-class snorkelling!</desc>
-  </programme>
   <programme start="20250907134100 +0800" stop="20250907140500 +0800" channel="travel_channel">
     <title lang="en">Bikinis &amp; Boardwalks (S2)</title>
     <desc lang="en">On the beaches of Rio de Janeiro, Brazil, hang-gliders can enjoy stunning views. And, the white sands of South Beach Miami offer the ultimate luxury getaway.</desc>
@@ -4851,7 +4855,7 @@
   </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="premier_tennishd">
     <title lang="en">To Be Announced</title>
@@ -5051,7 +5055,7 @@
   </programme>
   <channel id="hits_hd">
     <display-name lang="en">hits_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907140000 +0800" channel="hits_hd">
     <title lang="en">Frasier S5 E12 - The Zoo Story</title>
@@ -5175,7 +5179,7 @@
   </programme>
   <channel id="aljazeera">
     <display-name lang="en">aljazeera</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="aljazeera">
     <title lang="en">Newshour</title>
@@ -5291,7 +5295,7 @@
   </programme>
   <channel id="oneph">
     <display-name lang="en">oneph</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907143000 +0800" channel="oneph">
     <title lang="en">Masaganang Buhay</title>
@@ -5379,7 +5383,7 @@
   </programme>
   <channel id="foodnetwork_hd">
     <display-name lang="en">foodnetwork_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133600 +0800" stop="20250907140000 +0800" channel="foodnetwork_hd">
     <title lang="en">Delicious Miss Brown (S9)</title>
@@ -5599,7 +5603,7 @@
   </programme>
   <channel id="depedchannel">
     <display-name lang="en">depedchannel</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="depedchannel">
     <title lang="en">To Be Announced</title>
@@ -5915,7 +5919,7 @@
   </programme>
   <channel id="fashiontv_hd">
     <display-name lang="en">fashiontv_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907140000 +0800" channel="fashiontv_hd">
     <title lang="en">Top Models</title>
@@ -6115,7 +6119,7 @@
   </programme>
   <channel id="viva">
     <display-name lang="en">viva</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="viva">
     <title lang="en">To Be Announced</title>
@@ -6215,7 +6219,7 @@
   </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="bloomberg">
     <title lang="en">Bloomberg Wall Street Week</title>
@@ -6355,12 +6359,8 @@
   </programme>
   <channel id="nhk_japan">
     <display-name lang="en">nhk_japan</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907133000 +0800" stop="20250907134500 +0800" channel="nhk_japan">
-    <title lang="en">Easy Japanese for Work</title>
-    <desc lang="en">Students in past editions of Easy Japanese for Work return for a quiz-style business Japanese lesson. This time, the students are Nu Nu Aung (from Myanmar) and Raphael Marso (from Germany).</desc>
-  </programme>
   <programme start="20250907134500 +0800" stop="20250907140000 +0800" channel="nhk_japan">
     <title lang="en">Zero Waste Life</title>
     <desc lang="en">Japanese school children wear backpacks known as randoseru. When no longer needed, Nishikawa Masako remakes them into things like wallets or key fobs that contain cherished childhood memories.</desc>
@@ -6739,12 +6739,8 @@
   </programme>
   <channel id="asianfoodnetwork">
     <display-name lang="en">asianfoodnetwork</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907131500 +0800" stop="20250907134000 +0800" channel="asianfoodnetwork">
-    <title lang="en">Eat Roam Relish (S1)</title>
-    <desc lang="en">Chef Alex Ting joins Audra for a tour around his home town. Sibu is largely populated by Chinese of Foochow descent from Fuzhou.</desc>
-  </programme>
   <programme start="20250907134000 +0800" stop="20250907141000 +0800" channel="asianfoodnetwork">
     <title lang="en">Adam And Poh's Great Australian Bites (S1)</title>
     <desc lang="en">Adam and Poh travel to Gippsland in Victoria, a vital agricultural region of the country.</desc>
@@ -6915,7 +6911,7 @@
   </programme>
   <channel id="onesports">
     <display-name lang="en">onesports</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907123000 +0800" stop="20250907150000 +0800" channel="onesports">
     <title lang="en">2025 PVL On Tour: Akari Vs Chery Tiggo (Replay - July 06, 4:00Pm Game) </title>
@@ -6947,12 +6943,8 @@
   </programme>
   <channel id="nickjr">
     <display-name lang="en">nickjr</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907132500 +0800" stop="20250907134500 +0800" channel="nickjr">
-    <title lang="en">Blaze and the Monster Machines</title>
-    <desc lang="en">Blaze and his friends have renewable energy engines! And when the Gas Guzzler steals everyone's gas, they'll have to use renewable energy to finish the race!</desc>
-  </programme>
   <programme start="20250907134500 +0800" stop="20250907141000 +0800" channel="nickjr">
     <title lang="en">PAW Patrol</title>
     <desc lang="en">Mayor Humdinger drops off a ‘gift’ to Mayor Goodway, a flower that spreads a horrible stink when it blooms. // Mayor Goodway tries to return it to him, but runs into trouble and has to be rescued by the Paw Patrol.</desc>
@@ -7303,7 +7295,7 @@
   </programme>
   <channel id="warnertv_hd">
     <display-name lang="en">warnertv_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907121000 +0800" stop="20250907135500 +0800" channel="warnertv_hd">
     <title lang="en">The Enforcer</title>
@@ -7427,7 +7419,7 @@
   </programme>
   <channel id="animax">
     <display-name lang="en">animax</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="animax">
     <title lang="en">To Be Announced</title>
@@ -7527,7 +7519,7 @@
   </programme>
   <channel id="ibc13">
     <display-name lang="en">ibc13</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="ibc13">
     <title lang="en">To Be Announced</title>
@@ -7627,7 +7619,7 @@
   </programme>
   <channel id="axn">
     <display-name lang="en">axn</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="axn">
     <title lang="en">To Be Announced</title>
@@ -7727,7 +7719,7 @@
   </programme>
   <channel id="tapmovies_hd">
     <display-name lang="en">tapmovies_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907125000 +0800" stop="20250907150000 +0800" channel="tapmovies_hd">
     <title lang="en">A CHRISTMAS No.1</title>
@@ -7781,9 +7773,13 @@
     <title lang="en">The Sun Is Also A Star </title>
     <desc lang="en">The Sun Is Also A Star </desc>
   </programme>
+  <programme start="20250908134000 +0800" stop="20250908152500 +0800" channel="tapmovies_hd">
+    <title lang="en">National Security</title>
+    <desc lang="en">National Security</desc>
+  </programme>
   <channel id="taptv">
     <display-name lang="en">taptv</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="taptv">
     <title lang="en">SATURDAY TODAY</title>
@@ -7899,12 +7895,8 @@
   </programme>
   <channel id="moonbug_kids">
     <display-name lang="en">moonbug_kids</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907131100 +0800" stop="20250907134400 +0800" channel="moonbug_kids">
-    <title lang="en">Keep on Moving</title>
-    <desc lang="en">Army commando-robot ARPO has been assigned his toughest mission yet: babysitter!</desc>
-  </programme>
   <programme start="20250907134400 +0800" stop="20250907141700 +0800" channel="moonbug_kids">
     <title lang="en">Tick Tock Bot</title>
     <desc lang="en">Army commando-robot ARPO has been assigned his toughest mission yet: babysitter!</desc>
@@ -8117,9 +8109,13 @@
     <title lang="en">Snowbod</title>
     <desc lang="en">Welcome to the fantastical planet of Bod, home to the Minibods and their hilarious mayhem.</desc>
   </programme>
+  <programme start="20250908133800 +0800" stop="20250908140900 +0800" channel="moonbug_kids">
+    <title lang="en">Be Kind JJ!</title>
+    <desc lang="en">It's song and dance time! Join JJ, his friends and family celebrating life's big moments for little kids.</desc>
+  </programme>
   <channel id="tapactionflix_hd">
     <display-name lang="en">tapactionflix_hd</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="tapactionflix_hd">
     <title lang="en">To Be Announced</title>
@@ -8219,12 +8215,8 @@
   </programme>
   <channel id="france24">
     <display-name lang="en">france24</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
-  <programme start="20250907133000 +0800" stop="20250907134500 +0800" channel="france24">
-    <title lang="en">News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
   <programme start="20250907134500 +0800" stop="20250907140000 +0800" channel="france24">
     <title lang="en">People And Profit</title>
     <desc lang="en">People and Profit presents top business stories, analyses latest trends and explains what and how impact business operations. Find out what the business prospects are, how business and economic situation affect each and everyone. </desc>
@@ -8739,7 +8731,7 @@
   </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907150000 +0800" channel="abc_australia">
     <title lang="en">AFLW - Round 4 -- Adelaide Crows v Brisbane Lions</title>
@@ -8843,7 +8835,7 @@
   </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907133000 +0800" stop="20250907153000 +0800" channel="hits_movies">
     <title lang="en">The Six Million Dollar Man S3 E01 - Nuclear Alert</title>
@@ -8895,7 +8887,7 @@
   </programme>
   <channel id="channelnews_asia">
     <display-name lang="en">channelnews_asia</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130200 +0800" stop="20250907140000 +0800" channel="channelnews_asia">
     <title lang="en">Japan Hour [English Subtitles]</title>
@@ -9056,7 +9048,7 @@
   </programme>
   <channel id="thrill">
     <display-name lang="en">thrill</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907143500 +0800" channel="thrill">
     <title lang="en">7ujuh</title>
@@ -9124,7 +9116,7 @@
   </programme>
   <channel id="crime_investigation">
     <display-name lang="en">crime_investigation</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907131500 +0800" stop="20250907141000 +0800" channel="crime_investigation">
     <title lang="en">After The First 48 (S15)</title>
@@ -9244,7 +9236,7 @@
   </programme>
   <channel id="tech_storm">
     <display-name lang="en">tech_storm</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="tech_storm">
     <title lang="en">To Be Announced</title>
@@ -9344,7 +9336,7 @@
   </programme>
   <channel id="buko">
     <display-name lang="en">buko</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907120000 +0800" stop="20250907143000 +0800" channel="buko">
     <title lang="en">Buko Sine Saya Presents</title>
@@ -9456,7 +9448,7 @@
   </programme>
   <channel id="knowledge_channel">
     <display-name lang="en">knowledge_channel</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="knowledge_channel">
     <title lang="en">To Be Announced</title>
@@ -9556,7 +9548,7 @@
   </programme>
   <channel id="tv5_monde">
     <display-name lang="en">tv5_monde</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907140000 +0800" channel="tv5_monde">
     <title lang="en">To Be Announced</title>
@@ -9756,7 +9748,7 @@
   </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>
-    <url>http://www.cignalplay.com</url>
+    <url>http://example.com</url>
   </channel>
   <programme start="20250907130000 +0800" stop="20250907150000 +0800" channel="sari_sari">
     <title lang="en">Sari Saring Sine: Kahit Wala Ka Na</title>

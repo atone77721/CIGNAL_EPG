@@ -8,39 +8,7 @@
     <display-name>KBS WORLD</display-name>
     <icon src="http://202.78.65.124/epgcms/uploads/KBS_World.png"/>
   </channel>
-  <programme start="20251013090000 +0800" stop="20251013100000 +0800" channel="54">
-    <title lang="en">TASK S1</title>
-    <desc lang="en">TASK S1</desc>
-  </programme>
-  <programme start="20251013100000 +0800" stop="20251013103000 +0800" channel="54">
-    <title lang="en">THE CHAIR COMPANY S1</title>
-    <desc lang="en">THE CHAIR COMPANY S1</desc>
-  </programme>
-  <programme start="20251013103000 +0800" stop="20251013121000 +0800" channel="54">
-    <title lang="en">DESPICABLE ME</title>
-    <desc lang="en">DESPICABLE ME</desc>
-  </programme>
-  <programme start="20251013090000 +0800" stop="20251013101500 +0800" channel="75">
-    <title lang="en">You Are The Best!</title>
-    <desc lang="en">You Are The Best!</desc>
-  </programme>
-  <programme start="20251013101500 +0800" stop="20251013115500 +0800" channel="75">
-    <title lang="en">Two Days and One Night 4</title>
-    <desc lang="en">Two Days and One Night 4</desc>
-  </programme>
-  <programme start="20251013115500 +0800" stop="20251013131000 +0800" channel="75">
-    <title lang="en">The Return of Superman</title>
-    <desc lang="en">The Return of Superman</desc>
-  </programme>
-  <programme start="20251013120000 +0800" stop="20251013121000 +0800" channel="54">
-    <title lang="en">DESPICABLE ME</title>
-    <desc lang="en">DESPICABLE ME</desc>
-  </programme>
-  <programme start="20251013121000 +0800" stop="20251013145000 +0800" channel="54">
-    <title lang="en">HARRY POTTER AND THE CHAMBER OF SECRETS</title>
-    <desc lang="en">HARRY POTTER AND THE CHAMBER OF SECRETS</desc>
-  </programme>
-  <programme start="20251013145000 +0800" stop="20251013163500 +0800" channel="54">
+  <programme start="20251013160000 +0800" stop="20251013163500 +0800" channel="54">
     <title lang="en">FAST &amp; FURIOUS</title>
     <desc lang="en">FAST &amp; FURIOUS</desc>
   </programme>
@@ -48,21 +16,9 @@
     <title lang="en">JARHEAD</title>
     <desc lang="en">JARHEAD</desc>
   </programme>
-  <programme start="20251013120000 +0800" stop="20251013131000 +0800" channel="75">
-    <title lang="en">The Return of Superman</title>
-    <desc lang="en">The Return of Superman</desc>
-  </programme>
-  <programme start="20251013131000 +0800" stop="20251013142500 +0800" channel="75">
-    <title lang="en">Our Golden Days</title>
-    <desc lang="en">Our Golden Days</desc>
-  </programme>
-  <programme start="20251013142500 +0800" stop="20251013154000 +0800" channel="75">
-    <title lang="en">Our Golden Days</title>
-    <desc lang="en">Our Golden Days</desc>
-  </programme>
-  <programme start="20251013154000 +0800" stop="20251013160000 +0800" channel="75">
-    <title lang="en">KBS WORLD News Today</title>
-    <desc lang="en">KBS WORLD News Today</desc>
+  <programme start="20251013183500 +0800" stop="20251013210000 +0800" channel="54">
+    <title lang="en">AQUAMAN</title>
+    <desc lang="en">AQUAMAN</desc>
   </programme>
   <programme start="20251013160000 +0800" stop="20251013165500 +0800" channel="75">
     <title lang="en">My Neighbor, Charles</title>
@@ -72,15 +28,11 @@
     <title lang="en">Music Bank</title>
     <desc lang="en">Music Bank</desc>
   </programme>
-  <programme start="20251013150000 +0800" stop="20251013163500 +0800" channel="54">
-    <title lang="en">FAST &amp; FURIOUS</title>
-    <desc lang="en">FAST &amp; FURIOUS</desc>
+  <programme start="20251013182000 +0800" stop="20251013193500 +0800" channel="75">
+    <title lang="en">Hello Monster</title>
+    <desc lang="en">Hello Monster</desc>
   </programme>
-  <programme start="20251013163500 +0800" stop="20251013183500 +0800" channel="54">
-    <title lang="en">JARHEAD</title>
-    <desc lang="en">JARHEAD</desc>
-  </programme>
-  <programme start="20251013183500 +0800" stop="20251013210000 +0800" channel="54">
+  <programme start="20251013190000 +0800" stop="20251013210000 +0800" channel="54">
     <title lang="en">AQUAMAN</title>
     <desc lang="en">AQUAMAN</desc>
   </programme>
@@ -96,23 +48,11 @@
     <title lang="en">BLACK BAG</title>
     <desc lang="en">BLACK BAG</desc>
   </programme>
-  <programme start="20251013150000 +0800" stop="20251013154000 +0800" channel="75">
-    <title lang="en">Our Golden Days</title>
-    <desc lang="en">Our Golden Days</desc>
+  <programme start="20251014000500 +0800" stop="20251014014000 +0800" channel="54">
+    <title lang="en">THE NUN</title>
+    <desc lang="en">THE NUN</desc>
   </programme>
-  <programme start="20251013154000 +0800" stop="20251013160000 +0800" channel="75">
-    <title lang="en">KBS WORLD News Today</title>
-    <desc lang="en">KBS WORLD News Today</desc>
-  </programme>
-  <programme start="20251013160000 +0800" stop="20251013165500 +0800" channel="75">
-    <title lang="en">My Neighbor, Charles</title>
-    <desc lang="en">My Neighbor, Charles</desc>
-  </programme>
-  <programme start="20251013165500 +0800" stop="20251013182000 +0800" channel="75">
-    <title lang="en">Music Bank</title>
-    <desc lang="en">Music Bank</desc>
-  </programme>
-  <programme start="20251013182000 +0800" stop="20251013193500 +0800" channel="75">
+  <programme start="20251013190000 +0800" stop="20251013193500 +0800" channel="75">
     <title lang="en">Hello Monster</title>
     <desc lang="en">Hello Monster</desc>
   </programme>
@@ -136,17 +76,9 @@
     <title lang="en">The Merchant  Gaekju 2015</title>
     <desc lang="en">The Merchant  Gaekju 2015</desc>
   </programme>
-  <programme start="20251013180000 +0800" stop="20251013183500 +0800" channel="54">
-    <title lang="en">JARHEAD</title>
-    <desc lang="en">JARHEAD</desc>
-  </programme>
-  <programme start="20251013183500 +0800" stop="20251013210000 +0800" channel="54">
-    <title lang="en">AQUAMAN</title>
-    <desc lang="en">AQUAMAN</desc>
-  </programme>
-  <programme start="20251013210000 +0800" stop="20251013220000 +0800" channel="54">
-    <title lang="en">TASK S1</title>
-    <desc lang="en">TASK S1</desc>
+  <programme start="20251014005000 +0800" stop="20251014023000 +0800" channel="75">
+    <title lang="en">Two Days and One Night 4</title>
+    <desc lang="en">Two Days and One Night 4</desc>
   </programme>
   <programme start="20251013220000 +0800" stop="20251013223000 +0800" channel="54">
     <title lang="en">THE CHAIR COMPANY S1</title>
@@ -172,23 +104,7 @@
     <title lang="en">APOLLO 13</title>
     <desc lang="en">APOLLO 13</desc>
   </programme>
-  <programme start="20251013180000 +0800" stop="20251013182000 +0800" channel="75">
-    <title lang="en">Music Bank</title>
-    <desc lang="en">Music Bank</desc>
-  </programme>
-  <programme start="20251013182000 +0800" stop="20251013193500 +0800" channel="75">
-    <title lang="en">Hello Monster</title>
-    <desc lang="en">Hello Monster</desc>
-  </programme>
-  <programme start="20251013193500 +0800" stop="20251013201000 +0800" channel="75">
-    <title lang="en">Good Luck!</title>
-    <desc lang="en">Good Luck!</desc>
-  </programme>
-  <programme start="20251013201000 +0800" stop="20251013205000 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251013205000 +0800" stop="20251013220500 +0800" channel="75">
+  <programme start="20251013220000 +0800" stop="20251013220500 +0800" channel="75">
     <title lang="en">Are You Human?</title>
     <desc lang="en">Are You Human?</desc>
   </programme>
@@ -220,19 +136,11 @@
     <title lang="en">Stars Top Recipe at FunStaurant</title>
     <desc lang="en">Stars Top Recipe at FunStaurant</desc>
   </programme>
-  <programme start="20251013210000 +0800" stop="20251013220000 +0800" channel="54">
-    <title lang="en">TASK S1</title>
-    <desc lang="en">TASK S1</desc>
+  <programme start="20251014063000 +0800" stop="20251014071000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
   </programme>
-  <programme start="20251013220000 +0800" stop="20251013223000 +0800" channel="54">
-    <title lang="en">THE CHAIR COMPANY S1</title>
-    <desc lang="en">THE CHAIR COMPANY S1</desc>
-  </programme>
-  <programme start="20251013223000 +0800" stop="20251014000500 +0800" channel="54">
-    <title lang="en">BLACK BAG</title>
-    <desc lang="en">BLACK BAG</desc>
-  </programme>
-  <programme start="20251014000500 +0800" stop="20251014014000 +0800" channel="54">
+  <programme start="20251014010000 +0800" stop="20251014014000 +0800" channel="54">
     <title lang="en">THE NUN</title>
     <desc lang="en">THE NUN</desc>
   </programme>
@@ -260,19 +168,11 @@
     <title lang="en">WHAT A GIRL WANTS</title>
     <desc lang="en">WHAT A GIRL WANTS</desc>
   </programme>
-  <programme start="20251013210000 +0800" stop="20251013220500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
+  <programme start="20251014121000 +0800" stop="20251014140500 +0800" channel="54">
+    <title lang="en">JARHEAD</title>
+    <desc lang="en">JARHEAD</desc>
   </programme>
-  <programme start="20251013220500 +0800" stop="20251013233500 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251013233500 +0800" stop="20251014005000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251014005000 +0800" stop="20251014023000 +0800" channel="75">
+  <programme start="20251014010000 +0800" stop="20251014023000 +0800" channel="75">
     <title lang="en">Two Days and One Night 4</title>
     <desc lang="en">Two Days and One Night 4</desc>
   </programme>
@@ -324,15 +224,7 @@
     <title lang="en">Stars Top Recipe at FunStaurant</title>
     <desc lang="en">Stars Top Recipe at FunStaurant</desc>
   </programme>
-  <programme start="20251014000500 +0800" stop="20251014014000 +0800" channel="54">
-    <title lang="en">THE NUN</title>
-    <desc lang="en">THE NUN</desc>
-  </programme>
-  <programme start="20251014014000 +0800" stop="20251014033000 +0800" channel="54">
-    <title lang="en">MEAN GIRLS</title>
-    <desc lang="en">MEAN GIRLS</desc>
-  </programme>
-  <programme start="20251014033000 +0800" stop="20251014045500 +0800" channel="54">
+  <programme start="20251014040000 +0800" stop="20251014045500 +0800" channel="54">
     <title lang="en">VINDICTA</title>
     <desc lang="en">VINDICTA</desc>
   </programme>
@@ -368,139 +260,7 @@
     <title lang="en">MR. BEANS HOLIDAY</title>
     <desc lang="en">MR. BEANS HOLIDAY</desc>
   </programme>
-  <programme start="20251014005000 +0800" stop="20251014023000 +0800" channel="75">
-    <title lang="en">Two Days and One Night 4</title>
-    <desc lang="en">Two Days and One Night 4</desc>
-  </programme>
-  <programme start="20251014023000 +0800" stop="20251014030500 +0800" channel="75">
-    <title lang="en">Good Luck!</title>
-    <desc lang="en">Good Luck!</desc>
-  </programme>
-  <programme start="20251014030500 +0800" stop="20251014034500 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251014034500 +0800" stop="20251014050000 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251014050000 +0800" stop="20251014063000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251014063000 +0800" stop="20251014071000 +0800" channel="75">
-    <title lang="en">Cinderella Game</title>
-    <desc lang="en">Cinderella Game</desc>
-  </programme>
-  <programme start="20251014071000 +0800" stop="20251014082500 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251014082500 +0800" stop="20251014090000 +0800" channel="75">
-    <title lang="en">Good Luck!</title>
-    <desc lang="en">Good Luck!</desc>
-  </programme>
-  <programme start="20251014090000 +0800" stop="20251014094000 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251014094000 +0800" stop="20251014102000 +0800" channel="75">
-    <title lang="en">Cinderella Game</title>
-    <desc lang="en">Cinderella Game</desc>
-  </programme>
-  <programme start="20251014102000 +0800" stop="20251014113500 +0800" channel="75">
-    <title lang="en">Our Golden Days</title>
-    <desc lang="en">Our Golden Days</desc>
-  </programme>
-  <programme start="20251014113500 +0800" stop="20251014114000 +0800" channel="75">
-    <title lang="en">The Best of Immortal Songs</title>
-    <desc lang="en">The Best of Immortal Songs</desc>
-  </programme>
-  <programme start="20251014114000 +0800" stop="20251014131000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251014131000 +0800" stop="20251014142500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251014142500 +0800" stop="20251014154000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251014154000 +0800" stop="20251014160000 +0800" channel="75">
-    <title lang="en">KBS WORLD News Today</title>
-    <desc lang="en">KBS WORLD News Today</desc>
-  </programme>
-  <programme start="20251014160000 +0800" stop="20251014165500 +0800" channel="75">
-    <title lang="en">KBS WORLD SELECTION</title>
-    <desc lang="en">KBS WORLD SELECTION</desc>
-  </programme>
-  <programme start="20251014165500 +0800" stop="20251014182000 +0800" channel="75">
-    <title lang="en">The Seasons</title>
-    <desc lang="en">The Seasons</desc>
-  </programme>
-  <programme start="20251014030000 +0800" stop="20251014033000 +0800" channel="54">
-    <title lang="en">MEAN GIRLS</title>
-    <desc lang="en">MEAN GIRLS</desc>
-  </programme>
-  <programme start="20251014033000 +0800" stop="20251014045500 +0800" channel="54">
-    <title lang="en">VINDICTA</title>
-    <desc lang="en">VINDICTA</desc>
-  </programme>
-  <programme start="20251014045500 +0800" stop="20251014071500 +0800" channel="54">
-    <title lang="en">APOLLO 13</title>
-    <desc lang="en">APOLLO 13</desc>
-  </programme>
-  <programme start="20251014071500 +0800" stop="20251014085000 +0800" channel="54">
-    <title lang="en">DESPICABLE ME</title>
-    <desc lang="en">DESPICABLE ME</desc>
-  </programme>
-  <programme start="20251014085000 +0800" stop="20251014102500 +0800" channel="54">
-    <title lang="en">YOUNG ADULT</title>
-    <desc lang="en">YOUNG ADULT</desc>
-  </programme>
-  <programme start="20251014102500 +0800" stop="20251014121000 +0800" channel="54">
-    <title lang="en">WHAT A GIRL WANTS</title>
-    <desc lang="en">WHAT A GIRL WANTS</desc>
-  </programme>
-  <programme start="20251014121000 +0800" stop="20251014140500 +0800" channel="54">
-    <title lang="en">JARHEAD</title>
-    <desc lang="en">JARHEAD</desc>
-  </programme>
-  <programme start="20251014140500 +0800" stop="20251014153500 +0800" channel="54">
-    <title lang="en">KUNG FU PANDA</title>
-    <desc lang="en">KUNG FU PANDA</desc>
-  </programme>
-  <programme start="20251014153500 +0800" stop="20251014175500 +0800" channel="54">
-    <title lang="en">APOLLO 13</title>
-    <desc lang="en">APOLLO 13</desc>
-  </programme>
-  <programme start="20251014175500 +0800" stop="20251014192500 +0800" channel="54">
-    <title lang="en">MR. BEANS HOLIDAY</title>
-    <desc lang="en">MR. BEANS HOLIDAY</desc>
-  </programme>
-  <programme start="20251014192500 +0800" stop="20251014210000 +0800" channel="54">
-    <title lang="en">BLACK BAG</title>
-    <desc lang="en">BLACK BAG</desc>
-  </programme>
-  <programme start="20251014210000 +0800" stop="20251014223500 +0800" channel="54">
-    <title lang="en">THE NUN</title>
-    <desc lang="en">THE NUN</desc>
-  </programme>
-  <programme start="20251014223500 +0800" stop="20251015003000 +0800" channel="54">
-    <title lang="en">THE BIKERIDERS</title>
-    <desc lang="en">THE BIKERIDERS</desc>
-  </programme>
-  <programme start="20251014030000 +0800" stop="20251014030500 +0800" channel="75">
-    <title lang="en">Good Luck!</title>
-    <desc lang="en">Good Luck!</desc>
-  </programme>
-  <programme start="20251014030500 +0800" stop="20251014034500 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251014034500 +0800" stop="20251014050000 +0800" channel="75">
+  <programme start="20251014040000 +0800" stop="20251014050000 +0800" channel="75">
     <title lang="en">Are You Human?</title>
     <desc lang="en">Are You Human?</desc>
   </programme>
@@ -564,27 +324,7 @@
     <title lang="en">Hello Monster</title>
     <desc lang="en">Hello Monster</desc>
   </programme>
-  <programme start="20251014193500 +0800" stop="20251014201000 +0800" channel="75">
-    <title lang="en">Good Luck!</title>
-    <desc lang="en">Good Luck!</desc>
-  </programme>
-  <programme start="20251014201000 +0800" stop="20251014205000 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251014205000 +0800" stop="20251014220500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251014220500 +0800" stop="20251014233500 +0800" channel="75">
-    <title lang="en">Bangpan Music Go Singing Anywhere</title>
-    <desc lang="en">Bangpan Music Go Singing Anywhere</desc>
-  </programme>
-  <programme start="20251014233500 +0800" stop="20251015005000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251014060000 +0800" stop="20251014071500 +0800" channel="54">
+  <programme start="20251014070000 +0800" stop="20251014071500 +0800" channel="54">
     <title lang="en">APOLLO 13</title>
     <desc lang="en">APOLLO 13</desc>
   </programme>
@@ -632,23 +372,7 @@
     <title lang="en">TOKYO VICE S1</title>
     <desc lang="en">TOKYO VICE S1</desc>
   </programme>
-  <programme start="20251015012500 +0800" stop="20251015034000 +0800" channel="54">
-    <title lang="en">SINNERS</title>
-    <desc lang="en">SINNERS</desc>
-  </programme>
-  <programme start="20251015034000 +0800" stop="20251015052000 +0800" channel="54">
-    <title lang="en">THE BOSS</title>
-    <desc lang="en">THE BOSS</desc>
-  </programme>
-  <programme start="20251015052000 +0800" stop="20251015073500 +0800" channel="54">
-    <title lang="en">THE LORD OF THE RINGS THE WAR OF THE ROHIRRIM</title>
-    <desc lang="en">THE LORD OF THE RINGS THE WAR OF THE ROHIRRIM</desc>
-  </programme>
-  <programme start="20251014060000 +0800" stop="20251014063000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251014063000 +0800" stop="20251014071000 +0800" channel="75">
+  <programme start="20251014070000 +0800" stop="20251014071000 +0800" channel="75">
     <title lang="en">Cinderella Game</title>
     <desc lang="en">Cinderella Game</desc>
   </programme>
@@ -728,6 +452,122 @@
     <title lang="en">Immortal Songs</title>
     <desc lang="en">Immortal Songs</desc>
   </programme>
+  <programme start="20251014100000 +0800" stop="20251014102500 +0800" channel="54">
+    <title lang="en">YOUNG ADULT</title>
+    <desc lang="en">YOUNG ADULT</desc>
+  </programme>
+  <programme start="20251014102500 +0800" stop="20251014121000 +0800" channel="54">
+    <title lang="en">WHAT A GIRL WANTS</title>
+    <desc lang="en">WHAT A GIRL WANTS</desc>
+  </programme>
+  <programme start="20251014121000 +0800" stop="20251014140500 +0800" channel="54">
+    <title lang="en">JARHEAD</title>
+    <desc lang="en">JARHEAD</desc>
+  </programme>
+  <programme start="20251014140500 +0800" stop="20251014153500 +0800" channel="54">
+    <title lang="en">KUNG FU PANDA</title>
+    <desc lang="en">KUNG FU PANDA</desc>
+  </programme>
+  <programme start="20251014153500 +0800" stop="20251014175500 +0800" channel="54">
+    <title lang="en">APOLLO 13</title>
+    <desc lang="en">APOLLO 13</desc>
+  </programme>
+  <programme start="20251014175500 +0800" stop="20251014192500 +0800" channel="54">
+    <title lang="en">MR. BEANS HOLIDAY</title>
+    <desc lang="en">MR. BEANS HOLIDAY</desc>
+  </programme>
+  <programme start="20251014192500 +0800" stop="20251014210000 +0800" channel="54">
+    <title lang="en">BLACK BAG</title>
+    <desc lang="en">BLACK BAG</desc>
+  </programme>
+  <programme start="20251014210000 +0800" stop="20251014223500 +0800" channel="54">
+    <title lang="en">THE NUN</title>
+    <desc lang="en">THE NUN</desc>
+  </programme>
+  <programme start="20251014223500 +0800" stop="20251015003000 +0800" channel="54">
+    <title lang="en">THE BIKERIDERS</title>
+    <desc lang="en">THE BIKERIDERS</desc>
+  </programme>
+  <programme start="20251015003000 +0800" stop="20251015012500 +0800" channel="54">
+    <title lang="en">TOKYO VICE S1</title>
+    <desc lang="en">TOKYO VICE S1</desc>
+  </programme>
+  <programme start="20251015012500 +0800" stop="20251015034000 +0800" channel="54">
+    <title lang="en">SINNERS</title>
+    <desc lang="en">SINNERS</desc>
+  </programme>
+  <programme start="20251015034000 +0800" stop="20251015052000 +0800" channel="54">
+    <title lang="en">THE BOSS</title>
+    <desc lang="en">THE BOSS</desc>
+  </programme>
+  <programme start="20251015052000 +0800" stop="20251015073500 +0800" channel="54">
+    <title lang="en">THE LORD OF THE RINGS THE WAR OF THE ROHIRRIM</title>
+    <desc lang="en">THE LORD OF THE RINGS THE WAR OF THE ROHIRRIM</desc>
+  </programme>
+  <programme start="20251014100000 +0800" stop="20251014102000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
+  </programme>
+  <programme start="20251014102000 +0800" stop="20251014113500 +0800" channel="75">
+    <title lang="en">Our Golden Days</title>
+    <desc lang="en">Our Golden Days</desc>
+  </programme>
+  <programme start="20251014113500 +0800" stop="20251014114000 +0800" channel="75">
+    <title lang="en">The Best of Immortal Songs</title>
+    <desc lang="en">The Best of Immortal Songs</desc>
+  </programme>
+  <programme start="20251014114000 +0800" stop="20251014131000 +0800" channel="75">
+    <title lang="en">Stars Top Recipe at FunStaurant</title>
+    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
+  </programme>
+  <programme start="20251014131000 +0800" stop="20251014142500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251014142500 +0800" stop="20251014154000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251014154000 +0800" stop="20251014160000 +0800" channel="75">
+    <title lang="en">KBS WORLD News Today</title>
+    <desc lang="en">KBS WORLD News Today</desc>
+  </programme>
+  <programme start="20251014160000 +0800" stop="20251014165500 +0800" channel="75">
+    <title lang="en">KBS WORLD SELECTION</title>
+    <desc lang="en">KBS WORLD SELECTION</desc>
+  </programme>
+  <programme start="20251014165500 +0800" stop="20251014182000 +0800" channel="75">
+    <title lang="en">The Seasons</title>
+    <desc lang="en">The Seasons</desc>
+  </programme>
+  <programme start="20251014182000 +0800" stop="20251014193500 +0800" channel="75">
+    <title lang="en">Hello Monster</title>
+    <desc lang="en">Hello Monster</desc>
+  </programme>
+  <programme start="20251014193500 +0800" stop="20251014201000 +0800" channel="75">
+    <title lang="en">Good Luck!</title>
+    <desc lang="en">Good Luck!</desc>
+  </programme>
+  <programme start="20251014201000 +0800" stop="20251014205000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251014205000 +0800" stop="20251014220500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251014220500 +0800" stop="20251014233500 +0800" channel="75">
+    <title lang="en">Bangpan Music Go Singing Anywhere</title>
+    <desc lang="en">Bangpan Music Go Singing Anywhere</desc>
+  </programme>
+  <programme start="20251014233500 +0800" stop="20251015005000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251015005000 +0800" stop="20251015023000 +0800" channel="75">
+    <title lang="en">Immortal Songs</title>
+    <desc lang="en">Immortal Songs</desc>
+  </programme>
   <programme start="20251015023000 +0800" stop="20251015030500 +0800" channel="75">
     <title lang="en">Good Luck!</title>
     <desc lang="en">Good Luck!</desc>
@@ -741,6 +581,166 @@
     <desc lang="en">Are You Human?</desc>
   </programme>
   <programme start="20251015050000 +0800" stop="20251015063000 +0800" channel="75">
+    <title lang="en">Bangpan Music Go Singing Anywhere</title>
+    <desc lang="en">Bangpan Music Go Singing Anywhere</desc>
+  </programme>
+  <programme start="20251015063000 +0800" stop="20251015071000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
+  </programme>
+  <programme start="20251014130000 +0800" stop="20251014140500 +0800" channel="54">
+    <title lang="en">JARHEAD</title>
+    <desc lang="en">JARHEAD</desc>
+  </programme>
+  <programme start="20251014140500 +0800" stop="20251014153500 +0800" channel="54">
+    <title lang="en">KUNG FU PANDA</title>
+    <desc lang="en">KUNG FU PANDA</desc>
+  </programme>
+  <programme start="20251014153500 +0800" stop="20251014175500 +0800" channel="54">
+    <title lang="en">APOLLO 13</title>
+    <desc lang="en">APOLLO 13</desc>
+  </programme>
+  <programme start="20251014175500 +0800" stop="20251014192500 +0800" channel="54">
+    <title lang="en">MR. BEANS HOLIDAY</title>
+    <desc lang="en">MR. BEANS HOLIDAY</desc>
+  </programme>
+  <programme start="20251014192500 +0800" stop="20251014210000 +0800" channel="54">
+    <title lang="en">BLACK BAG</title>
+    <desc lang="en">BLACK BAG</desc>
+  </programme>
+  <programme start="20251014210000 +0800" stop="20251014223500 +0800" channel="54">
+    <title lang="en">THE NUN</title>
+    <desc lang="en">THE NUN</desc>
+  </programme>
+  <programme start="20251014223500 +0800" stop="20251015003000 +0800" channel="54">
+    <title lang="en">THE BIKERIDERS</title>
+    <desc lang="en">THE BIKERIDERS</desc>
+  </programme>
+  <programme start="20251015003000 +0800" stop="20251015012500 +0800" channel="54">
+    <title lang="en">TOKYO VICE S1</title>
+    <desc lang="en">TOKYO VICE S1</desc>
+  </programme>
+  <programme start="20251015012500 +0800" stop="20251015034000 +0800" channel="54">
+    <title lang="en">SINNERS</title>
+    <desc lang="en">SINNERS</desc>
+  </programme>
+  <programme start="20251015034000 +0800" stop="20251015052000 +0800" channel="54">
+    <title lang="en">THE BOSS</title>
+    <desc lang="en">THE BOSS</desc>
+  </programme>
+  <programme start="20251015052000 +0800" stop="20251015073500 +0800" channel="54">
+    <title lang="en">THE LORD OF THE RINGS THE WAR OF THE ROHIRRIM</title>
+    <desc lang="en">THE LORD OF THE RINGS THE WAR OF THE ROHIRRIM</desc>
+  </programme>
+  <programme start="20251015073500 +0800" stop="20251015093000 +0800" channel="54">
+    <title lang="en">THE DEBT</title>
+    <desc lang="en">THE DEBT</desc>
+  </programme>
+  <programme start="20251015093000 +0800" stop="20251015110500 +0800" channel="54">
+    <title lang="en">KUNG FU PANDA</title>
+    <desc lang="en">KUNG FU PANDA</desc>
+  </programme>
+  <programme start="20251015110500 +0800" stop="20251015131500 +0800" channel="54">
+    <title lang="en">SOMETHINGS GOTTA GIVE</title>
+    <desc lang="en">SOMETHINGS GOTTA GIVE</desc>
+  </programme>
+  <programme start="20251014130000 +0800" stop="20251014131000 +0800" channel="75">
+    <title lang="en">Stars Top Recipe at FunStaurant</title>
+    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
+  </programme>
+  <programme start="20251014131000 +0800" stop="20251014142500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251014142500 +0800" stop="20251014154000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251014154000 +0800" stop="20251014160000 +0800" channel="75">
+    <title lang="en">KBS WORLD News Today</title>
+    <desc lang="en">KBS WORLD News Today</desc>
+  </programme>
+  <programme start="20251014160000 +0800" stop="20251014165500 +0800" channel="75">
+    <title lang="en">KBS WORLD SELECTION</title>
+    <desc lang="en">KBS WORLD SELECTION</desc>
+  </programme>
+  <programme start="20251014165500 +0800" stop="20251014182000 +0800" channel="75">
+    <title lang="en">The Seasons</title>
+    <desc lang="en">The Seasons</desc>
+  </programme>
+  <programme start="20251014182000 +0800" stop="20251014193500 +0800" channel="75">
+    <title lang="en">Hello Monster</title>
+    <desc lang="en">Hello Monster</desc>
+  </programme>
+  <programme start="20251014193500 +0800" stop="20251014201000 +0800" channel="75">
+    <title lang="en">Good Luck!</title>
+    <desc lang="en">Good Luck!</desc>
+  </programme>
+  <programme start="20251014201000 +0800" stop="20251014205000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251014205000 +0800" stop="20251014220500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251014220500 +0800" stop="20251014233500 +0800" channel="75">
+    <title lang="en">Bangpan Music Go Singing Anywhere</title>
+    <desc lang="en">Bangpan Music Go Singing Anywhere</desc>
+  </programme>
+  <programme start="20251014233500 +0800" stop="20251015005000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251015005000 +0800" stop="20251015023000 +0800" channel="75">
+    <title lang="en">Immortal Songs</title>
+    <desc lang="en">Immortal Songs</desc>
+  </programme>
+  <programme start="20251015023000 +0800" stop="20251015030500 +0800" channel="75">
+    <title lang="en">Good Luck!</title>
+    <desc lang="en">Good Luck!</desc>
+  </programme>
+  <programme start="20251015030500 +0800" stop="20251015034500 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251015034500 +0800" stop="20251015050000 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251015050000 +0800" stop="20251015063000 +0800" channel="75">
+    <title lang="en">Bangpan Music Go Singing Anywhere</title>
+    <desc lang="en">Bangpan Music Go Singing Anywhere</desc>
+  </programme>
+  <programme start="20251015063000 +0800" stop="20251015071000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
+  </programme>
+  <programme start="20251015071000 +0800" stop="20251015082500 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251015082500 +0800" stop="20251015090000 +0800" channel="75">
+    <title lang="en">Good Luck!</title>
+    <desc lang="en">Good Luck!</desc>
+  </programme>
+  <programme start="20251015090000 +0800" stop="20251015094000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251015094000 +0800" stop="20251015102000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
+  </programme>
+  <programme start="20251015102000 +0800" stop="20251015113500 +0800" channel="75">
+    <title lang="en">Our Golden Days</title>
+    <desc lang="en">Our Golden Days</desc>
+  </programme>
+  <programme start="20251015113500 +0800" stop="20251015114000 +0800" channel="75">
+    <title lang="en">ROUND PLAYLIST</title>
+    <desc lang="en">ROUND PLAYLIST</desc>
+  </programme>
+  <programme start="20251015114000 +0800" stop="20251015131000 +0800" channel="75">
     <title lang="en">Bangpan Music Go Singing Anywhere</title>
     <desc lang="en">Bangpan Music Go Singing Anywhere</desc>
   </programme>

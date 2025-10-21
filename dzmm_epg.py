@@ -1,13 +1,11 @@
 import datetime
 import xml.etree.ElementTree as ET
+import xml.dom.minidom
 
-CHANNEL_ID = "DZMM.TeleRadyo.ph"
-CHANNEL_NAME = "DZMM Radyo Patrol 630 / TeleRadyo Serbisyo"
-CHANNEL_ICON = "https://upload.wikimedia.org/wikipedia/en/9/9a/DZMM_Teleradyo_logo_2023.png"
-OUTPUT_FILE = "dzmm.xml"
+CHANNEL_ID = "DZMM"
+CHANNEL_NAME = "DZMM Radyo Patrol 630"
 
-# Monday-Friday schedule
-weekday_schedule = [
+WEEKDAY_SCHEDULE = [
     ("04:00", "05:00", "Radyo Patrol Balita Alas-Kwatro"),
     ("05:00", "06:00", "Ronda Pasada"),
     ("06:00", "07:00", "Gising Pilipinas"),
@@ -21,18 +19,17 @@ weekday_schedule = [
     ("12:30", "13:00", "Maalaala Mo Kaya sa DZMM"),
     ("13:00", "14:00", "Hello Attorney"),
     ("14:00", "15:00", "Aksyon Ngayon"),
-    ("15:00", "16:00", "Ako 'To si Tyang Amy"),
+    ("15:00", "16:00", "Ako ‘To si Tyang Amy"),
     ("16:00", "16:30", "Headline sa Hapon"),
     ("16:30", "17:30", "ATM: Anong Take Mo?"),
-    ("17:30", "18:30", "DZMM Radyo Patrol 630: Arangkada Balita / DZMM TeleRadyo: Isyu Spotted"),
+    ("17:30", "18:30", "Arangkada Balita / Isyu Spotted"),
     ("18:30", "20:00", "TV Patrol sa DZMM"),
     ("20:00", "21:00", "Spot Report"),
     ("21:00", "22:00", "Alam Na This!"),
     ("22:00", "24:00", "Love Konek"),
 ]
 
-# Saturday schedule
-saturday_schedule = [
+SATURDAY_SCHEDULE = [
     ("04:00", "06:00", "Yan Tayo"),
     ("06:00", "07:00", "Ano'ng Ganap?"),
     ("07:00", "07:15", "Radyo Patrol Balita Alas-Siyete Weekend"),
@@ -51,8 +48,7 @@ saturday_schedule = [
     ("22:00", "24:00", "K-Paps Playlist"),
 ]
 
-# Sunday schedule
-sunday_schedule = [
+SUNDAY_SCHEDULE = [
     ("00:00", "04:00", "Private Talks"),
     ("04:00", "06:00", "Sunny Side Up"),
     ("06:00", "07:00", "Ano'ng Ganap?"),
@@ -71,49 +67,51 @@ sunday_schedule = [
     ("22:00", "24:00", "Rosary Hour"),
 ]
 
-def parse_time_safe(time_str, base_date):
-    """Handle 24:00 as next day 00:00."""
-    if time_str == "24:00":
-        return datetime.datetime.combine(base_date.date() + datetime.timedelta(days=1), datetime.time(0, 0))
-    return datetime.datetime.combine(base_date.date(), datetime.time.fromisoformat(time_str))
-
-def xmltv_time(dt):
-    return dt.strftime("%Y%m%d%H%M%S +0800")
-
-def get_day_schedule(weekday: int):
-    if weekday < 5:  # Monday-Friday
-        return weekday_schedule
-    elif weekday == 5:  # Saturday
-        return saturday_schedule
-    else:  # Sunday
-        return sunday_schedule
 
 def generate_xmltv():
-    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
-    root = ET.Element("tv")
+    today = datetime.date.today()
+    monday = today - datetime.timedelta(days=today.weekday())  # start of current week
 
-    # Channel info
-    ch = ET.SubElement(root, "channel", id=CHANNEL_ID)
-    ET.SubElement(ch, "display-name").text = CHANNEL_NAME
-    ET.SubElement(ch, "icon", src=CHANNEL_ICON)
+    tv = ET.Element("tv")
+    channel = ET.SubElement(tv, "channel", id=CHANNEL_ID)
+    ET.SubElement(channel, "display-name").text = CHANNEL_NAME
 
-    for day_offset in range(7):  # 7 days ahead
-        base_date = now + datetime.timedelta(days=day_offset)
-        programs = get_day_schedule(base_date.weekday())
+    for i in range(7):
+        current_day = monday + datetime.timedelta(days=i)
+        weekday = current_day.weekday()
 
-        for start, end, title in programs:
-            start_dt = parse_time_safe(start, base_date)
-            end_dt = parse_time_safe(end, base_date)
+        if weekday < 5:
+            schedule = WEEKDAY_SCHEDULE
+        elif weekday == 5:
+            schedule = SATURDAY_SCHEDULE
+        else:
+            schedule = SUNDAY_SCHEDULE
 
-            prog = ET.SubElement(root, "programme", {
-                "start": xmltv_time(start_dt),
-                "stop": xmltv_time(end_dt),
-                "channel": CHANNEL_ID
-            })
-            ET.SubElement(prog, "title", lang="tl").text = title
+        for start, end, title in schedule:
+            try:
+                start_time = datetime.time.fromisoformat(start)
+                if end == "24:00":
+                    end_dt = datetime.datetime.combine(current_day + datetime.timedelta(days=1), datetime.time(0, 0))
+                else:
+                    end_time = datetime.time.fromisoformat(end)
+                    end_dt = datetime.datetime.combine(current_day, end_time)
+                start_dt = datetime.datetime.combine(current_day, start_time)
 
-    ET.ElementTree(root).write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-    print(f"✅ Generated 7-day EPG → {OUTPUT_FILE}")
+                prog = ET.SubElement(tv, "programme", {
+                    "start": start_dt.strftime("%Y%m%d%H%M%S +0800"),
+                    "stop": end_dt.strftime("%Y%m%d%H%M%S +0800"),
+                    "channel": CHANNEL_ID
+                })
+                ET.SubElement(prog, "title").text = title
+            except ValueError:
+                print(f"Skipping invalid time format: {start} - {end}")
+
+    # Pretty print XML output
+    rough_string = ET.tostring(tv, "utf-8")
+    reparsed = xml.dom.minidom.parseString(rough_string)
+    with open("dzmm.xml", "w", encoding="utf-8") as f:
+        f.write(reparsed.toprettyxml(indent="  "))
+
 
 if __name__ == "__main__":
     generate_xmltv()

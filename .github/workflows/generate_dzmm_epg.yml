@@ -4,13 +4,18 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths-ignore:
+      - 'dzmm.xml'  # Prevent infinite loop when only the XML is updated
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -18,11 +23,16 @@ jobs:
           python-version: '3.x'
 
       - name: Generate DZMM XMLTV
-        run: |
-          python dzmm_epg.py
+        run: python dzmm_epg.py
 
-      - name: Upload XMLTV output
-        uses: actions/upload-artifact@v4
-        with:
-          name: dzmm-epg
-          path: dzmm.xml
+      - name: Commit and push updated EPG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dzmm.xml
+          if git diff --cached --quiet; then
+            echo "No changes in dzmm.xml — skipping commit."
+          else
+            git commit -m "🗓️ Update DZMM EPG [skip ci]"
+            git push
+          fi

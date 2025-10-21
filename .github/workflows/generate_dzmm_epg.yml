@@ -1,14 +1,19 @@
-name: Generate DZMM EPG
+name: Generate DZMM EPG (Weekly)
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 19 */7 * *'  # every 7 days at 3:00 AM Manila (UTC+8)
   push:
     branches: [main]
     paths-ignore:
-      - 'dzmm.xml'  # Prevent infinite loop when only the XML is updated
+      - 'dzmm.xml'
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,8 +37,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dzmm.xml
           if git diff --cached --quiet; then
-            echo "No changes in dzmm.xml — skipping commit."
+            echo "No changes detected — skipping commit."
           else
-            git commit -m "🗓️ Update DZMM EPG [skip ci]"
+            git commit -m "🗓️ Weekly DZMM EPG update [skip ci]"
             git push
           fi

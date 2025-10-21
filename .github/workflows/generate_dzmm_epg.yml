@@ -5,6 +5,9 @@ on:
     - cron: "0 19 * * 0"  # Every Sunday at 3:00 AM Manila (19:00 UTC Saturday)
   workflow_dispatch:
 
+permissions:
+  contents: write  # allow push
+
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -6,7 +6,6 @@ CHANNEL_NAME = "DZMM Radyo Patrol 630 / TeleRadyo Serbisyo"
 CHANNEL_ICON = "https://upload.wikimedia.org/wikipedia/en/9/9a/DZMM_Teleradyo_logo_2023.png"
 OUTPUT_FILE = "dzmm.xml"
 
-# Schedule definition
 schedule = {
     "monday": [
         ("04:00", "05:00", "Radyo Patrol Balita Alas-Kwatro"),
@@ -77,7 +76,13 @@ schedule = {
 for d in ["tuesday", "wednesday", "thursday", "friday"]:
     schedule[d] = schedule["monday"]
 
-def xmltv_time(dt: datetime.datetime):
+def parse_time_safe(time_str, base_date):
+    """Handle '24:00' as next day midnight."""
+    if time_str == "24:00":
+        return datetime.datetime.combine(base_date.date() + datetime.timedelta(days=1), datetime.time(0, 0))
+    return datetime.datetime.combine(base_date.date(), datetime.time.fromisoformat(time_str))
+
+def xmltv_time(dt):
     return dt.strftime("%Y%m%d%H%M%S +0800")
 
 def generate_xmltv():
@@ -93,8 +98,8 @@ def generate_xmltv():
     for i, (day, programs) in enumerate(schedule.items()):
         base_date = monday + datetime.timedelta(days=i)
         for start, end, title in programs:
-            start_dt = datetime.datetime.combine(base_date.date(), datetime.time.fromisoformat(start))
-            end_dt = datetime.datetime.combine(base_date.date(), datetime.time.fromisoformat(end))
+            start_dt = parse_time_safe(start, base_date)
+            end_dt = parse_time_safe(end, base_date)
             prog = ET.SubElement(root, "programme", {
                 "start": xmltv_time(start_dt),
                 "stop": xmltv_time(end_dt),
@@ -103,7 +108,7 @@ def generate_xmltv():
             ET.SubElement(prog, "title", lang="tl").text = title
 
     ET.ElementTree(root).write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-    print(f"✅ EPG generated: {OUTPUT_FILE}")
+    print(f"✅ EPG generated successfully → {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     generate_xmltv()

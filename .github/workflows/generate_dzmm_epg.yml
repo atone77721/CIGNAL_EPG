@@ -1,44 +1,35 @@
 name: Generate DZMM EPG (Weekly)
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 19 */7 * *'  # every 7 days at 3:00 AM Manila (UTC+8)
-  push:
-    branches: [main]
-    paths-ignore:
-      - 'dzmm.xml'
-
-permissions:
-  contents: write
+    - cron: "0 19 * * 0"  # Every Sunday at 3:00 AM Manila (19:00 UTC Saturday)
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Generate DZMM XMLTV
         run: python dzmm_epg.py
 
       - name: Commit and push updated EPG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dzmm.xml
           if git diff --cached --quiet; then
-            echo "No changes detected — skipping commit."
+            echo "No changes detected."
           else
-            git commit -m "🗓️ Weekly DZMM EPG update [skip ci]"
-            git push
-          fi
+            git commit -m "🗓️ Auto-update DZMM EPG [skip ci]"
+            git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git main

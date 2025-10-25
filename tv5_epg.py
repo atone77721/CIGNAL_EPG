@@ -10,7 +10,12 @@ async def scrape_tv5_schedule():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
-        await page.goto(url, wait_until="networkidle")
+        print("🌐 Loading TV5 schedule page...")
+        try:
+            await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            await page.wait_for_selector("div.tab-data div.grid", timeout=20000)
+        except Exception as e:
+            print("⚠️ Warning:", e)
         html = await page.content()
         await browser.close()
 
@@ -39,6 +44,7 @@ async def scrape_tv5_schedule():
                 "image": img_url
             })
         epg_data[day_name] = shows
+    print(f"✅ Found {sum(len(v) for v in epg_data.values())} programs total")
     return epg_data
 
 
@@ -83,7 +89,7 @@ def generate_xmltv(epg_data, output_file="tv5.xml"):
     tree = ET.ElementTree(tv)
     ET.indent(tree, space="  ", level=0)
     tree.write(output_file, encoding="utf-8", xml_declaration=True)
-    print(f"✅ EPG saved to {output_file}")
+    print(f"📺 XMLTV saved: {output_file}")
 
 
 if __name__ == "__main__":

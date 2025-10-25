@@ -1,0 +1,38 @@
+name: Update TV5 EPG
+
+on:
+  schedule:
+    - cron: "0 16 * * *"  # Runs daily at 12:00 AM Philippine time (16:00 UTC)
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run TV5 scraper
+        run: |
+          python tv5_epg.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tv5.xml
+          if git diff --cached --quiet; then
+            echo "No EPG changes — skipping commit."
+          else
+            git commit -m "Auto-update TV5 EPG $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi

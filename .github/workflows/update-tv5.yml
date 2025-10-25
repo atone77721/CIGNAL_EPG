@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install playwright beautifulsoup4
-          playwright install chromium
+          playwright install --with-deps chromium
 
       - name: Generate TV5 XMLTV
         run: python tv5_epg.py

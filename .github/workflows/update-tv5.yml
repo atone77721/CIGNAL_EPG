@@ -2,7 +2,7 @@ name: Generate TV5 EPG (Daily)
 
 on:
   schedule:
-    - cron: "0 16 * * *"  # every day at 12:00 AM Manila (UTC+8)
+   - cron: '0 0 * * 0'  # every Sunday at midnight UTC
   workflow_dispatch:
 
 permissions:

@@ -2,15 +2,21 @@ name: Update TV5 EPG
 
 on:
   schedule:
-    - cron: "0 16 * * *"  # Runs daily at 12:00 AM Philippine time (16:00 UTC)
+    - cron: "0 16 * * *"  # Runs daily at 12:00 AM Philippine time (UTC+8)
   workflow_dispatch:       # Allow manual trigger
 
 jobs:
-  build:
+  update-epg:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write     # <-- This enables git push using GITHUB_TOKEN
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # required to push
 
       - name: Set up Python
         uses: actions/setup-python@v5

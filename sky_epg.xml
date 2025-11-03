@@ -1,9 +1,5 @@
 <?xml version="1.0" ?>
 <tv>
-  <channel id="9">
-    <display-name>JEEPNEY TV</display-name>
-    <icon src="http://202.78.65.124/epgcms/uploads/Jeepney.png"/>
-  </channel>
   <channel id="31">
     <display-name>SPOTV</display-name>
     <icon src="http://202.78.65.124/epgcms/uploads/SPOTV_LOGO_320x180px.png"/>
@@ -28,253 +24,9 @@
     <display-name>SPOTV 2 HD</display-name>
     <icon src="http://202.78.65.124/epgcms/uploads/SPOTV2_LOGO_320x180px1.png"/>
   </channel>
-  <programme start="20251103160000 +0800" stop="20251103163000 +0800" channel="9">
-    <title lang="en">YSABELLA</title>
-    <desc lang="en">YSABELLA</desc>
-  </programme>
-  <programme start="20251103163000 +0800" stop="20251103173000 +0800" channel="9">
-    <title lang="en">WANSAPANATAYM PRESENTS</title>
-    <desc lang="en">WANSAPANATAYM PRESENTS</desc>
-  </programme>
-  <programme start="20251103173000 +0800" stop="20251103181500 +0800" channel="9">
-    <title lang="en">NASAAN KA NANG KAILANGAN KITA</title>
-    <desc lang="en">NASAAN KA NANG KAILANGAN KITA</desc>
-  </programme>
-  <programme start="20251103181500 +0800" stop="20251103220000 +0800" channel="9">
-    <title lang="en">THE BETTER HALF</title>
-    <desc lang="en">THE BETTER HALF</desc>
-  </programme>
-  <programme start="20251103160000 +0800" stop="20251103180000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103180000 +0800" stop="20251103203000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103160000 +0800" stop="20251103180000 +0800" channel="32">
-    <title lang="en">2025 Michelin Le Mans Cup, Portimao</title>
-    <desc lang="en">2025 Michelin Le Mans Cup, Portimao</desc>
-  </programme>
-  <programme start="20251103180000 +0800" stop="20251103200000 +0800" channel="32">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251103160000 +0800" stop="20251103165500 +0800" channel="75">
-    <title lang="en">My Neighbor, Charles</title>
-    <desc lang="en">My Neighbor, Charles</desc>
-  </programme>
-  <programme start="20251103165500 +0800" stop="20251103182000 +0800" channel="75">
-    <title lang="en">Music Bank</title>
-    <desc lang="en">Music Bank</desc>
-  </programme>
-  <programme start="20251103182000 +0800" stop="20251103193500 +0800" channel="75">
-    <title lang="en">Hello Monster</title>
-    <desc lang="en">Hello Monster</desc>
-  </programme>
-  <programme start="20251103160000 +0800" stop="20251103170000 +0800" channel="109">
-    <title lang="en">From Memes To Movements</title>
-    <desc lang="en">From Memes To Movements</desc>
-  </programme>
-  <programme start="20251103170000 +0800" stop="20251103170200 +0800" channel="109">
-    <title lang="en">Headline News</title>
-    <desc lang="en">Headline News</desc>
-  </programme>
-  <programme start="20251103170200 +0800" stop="20251103180000 +0800" channel="109">
-    <title lang="en">Insight</title>
-    <desc lang="en">Insight</desc>
-  </programme>
-  <programme start="20251103180000 +0800" stop="20251103190000 +0800" channel="109">
-    <title lang="en">East Asia Tonight</title>
-    <desc lang="en">East Asia Tonight</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103200000 +0800" channel="109">
-    <title lang="en">Being Singaporean</title>
-    <desc lang="en">Being Singaporean</desc>
-  </programme>
-  <programme start="20251103160000 +0800" stop="20251103180000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103180000 +0800" stop="20251103203000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103160000 +0800" stop="20251103180000 +0800" channel="254">
-    <title lang="en">2025 Michelin Le Mans Cup, Portimao</title>
-    <desc lang="en">2025 Michelin Le Mans Cup, Portimao</desc>
-  </programme>
-  <programme start="20251103180000 +0800" stop="20251103200000 +0800" channel="254">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103220000 +0800" channel="9">
-    <title lang="en">THE BETTER HALF</title>
-    <desc lang="en">THE BETTER HALF</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251104000000 +0800" channel="9">
-    <title lang="en">ASAP NATIN TO</title>
-    <desc lang="en">ASAP NATIN TO</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103203000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103203000 +0800" stop="20251103223000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251103223000 +0800" stop="20251104020000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103200000 +0800" channel="32">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251103200000 +0800" stop="20251103210000 +0800" channel="32">
-    <title lang="en">MotoGP eSports Championship 2025  Global Series</title>
-    <desc lang="en">MotoGP eSports Championship 2025  Global Series</desc>
-  </programme>
-  <programme start="20251103210000 +0800" stop="20251103230000 +0800" channel="32">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
-  </programme>
-  <programme start="20251103230000 +0800" stop="20251104000000 +0800" channel="32">
-    <title lang="en">WSBK Garage Sessions  Titanic Trio</title>
-    <desc lang="en">WSBK Garage Sessions  Titanic Trio</desc>
-  </programme>
-  <programme start="20251104000000 +0800" stop="20251104010000 +0800" channel="32">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104020000 +0800" channel="32">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103193500 +0800" channel="75">
-    <title lang="en">Hello Monster</title>
-    <desc lang="en">Hello Monster</desc>
-  </programme>
-  <programme start="20251103193500 +0800" stop="20251103201000 +0800" channel="75">
-    <title lang="en">Marie and Her Three Daddies</title>
-    <desc lang="en">Marie and Her Three Daddies</desc>
-  </programme>
-  <programme start="20251103201000 +0800" stop="20251103205000 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251103205000 +0800" stop="20251103220500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251103220500 +0800" stop="20251103233500 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251103233500 +0800" stop="20251104005000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251104005000 +0800" stop="20251104023000 +0800" channel="75">
-    <title lang="en">Two Days and One Night 4</title>
-    <desc lang="en">Two Days and One Night 4</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103200000 +0800" channel="109">
-    <title lang="en">Being Singaporean</title>
-    <desc lang="en">Being Singaporean</desc>
-  </programme>
-  <programme start="20251103200000 +0800" stop="20251103210000 +0800" channel="109">
-    <title lang="en">Asia Tonight</title>
-    <desc lang="en">Asia Tonight</desc>
-  </programme>
-  <programme start="20251103210000 +0800" stop="20251103220000 +0800" channel="109">
-    <title lang="en">Reaching The Unreached S2</title>
-    <desc lang="en">Reaching The Unreached S2</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103230000 +0800" channel="109">
-    <title lang="en">Singapore Tonight</title>
-    <desc lang="en">Singapore Tonight</desc>
-  </programme>
-  <programme start="20251103230000 +0800" stop="20251104000000 +0800" channel="109">
-    <title lang="en">Reaching The Unreached S2</title>
-    <desc lang="en">Reaching The Unreached S2</desc>
-  </programme>
-  <programme start="20251104000000 +0800" stop="20251104000300 +0800" channel="109">
-    <title lang="en">Headline News</title>
-    <desc lang="en">Headline News</desc>
-  </programme>
-  <programme start="20251104000300 +0800" stop="20251104010000 +0800" channel="109">
-    <title lang="en">East Asia Tonight</title>
-    <desc lang="en">East Asia Tonight</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104020000 +0800" channel="109">
-    <title lang="en">Singapore Hour</title>
-    <desc lang="en">Singapore Hour</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103203000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103203000 +0800" stop="20251103223000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251103223000 +0800" stop="20251104020000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251103190000 +0800" stop="20251103200000 +0800" channel="254">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251103200000 +0800" stop="20251103210000 +0800" channel="254">
-    <title lang="en">MotoGP eSports Championship 2025  Global Series</title>
-    <desc lang="en">MotoGP eSports Championship 2025  Global Series</desc>
-  </programme>
-  <programme start="20251103210000 +0800" stop="20251103230000 +0800" channel="254">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
-  </programme>
-  <programme start="20251103230000 +0800" stop="20251104000000 +0800" channel="254">
-    <title lang="en">WSBK Garage Sessions  Titanic Trio</title>
-    <desc lang="en">WSBK Garage Sessions  Titanic Trio</desc>
-  </programme>
-  <programme start="20251104000000 +0800" stop="20251104010000 +0800" channel="254">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104020000 +0800" channel="254">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251104000000 +0800" channel="9">
-    <title lang="en">ASAP NATIN TO</title>
-    <desc lang="en">ASAP NATIN TO</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103223000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251103223000 +0800" stop="20251104020000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
   <programme start="20251104020000 +0800" stop="20251104053000 +0800" channel="31">
     <title lang="en">WTT Champions Montpellier 2025</title>
     <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251104053000 +0800" stop="20251104073000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103230000 +0800" channel="32">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
-  </programme>
-  <programme start="20251103230000 +0800" stop="20251104000000 +0800" channel="32">
-    <title lang="en">WSBK Garage Sessions  Titanic Trio</title>
-    <desc lang="en">WSBK Garage Sessions  Titanic Trio</desc>
   </programme>
   <programme start="20251104000000 +0800" stop="20251104010000 +0800" channel="32">
     <title lang="en">2025 IATC Rd6 Malaysia</title>
@@ -288,26 +40,6 @@
     <title lang="en">2025 AsiaPacific Amateur Championship</title>
     <desc lang="en">2025 AsiaPacific Amateur Championship</desc>
   </programme>
-  <programme start="20251104050500 +0800" stop="20251104070000 +0800" channel="32">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251104070000 +0800" stop="20251104080000 +0800" channel="32">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103220500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251103220500 +0800" stop="20251103233500 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251103233500 +0800" stop="20251104005000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
   <programme start="20251104005000 +0800" stop="20251104023000 +0800" channel="75">
     <title lang="en">Two Days and One Night 4</title>
     <desc lang="en">Two Days and One Night 4</desc>
@@ -315,30 +47,6 @@
   <programme start="20251104023000 +0800" stop="20251104030500 +0800" channel="75">
     <title lang="en">Marie and Her Three Daddies</title>
     <desc lang="en">Marie and Her Three Daddies</desc>
-  </programme>
-  <programme start="20251104030500 +0800" stop="20251104034500 +0800" channel="75">
-    <title lang="en">A Graceful Liar</title>
-    <desc lang="en">A Graceful Liar</desc>
-  </programme>
-  <programme start="20251104034500 +0800" stop="20251104050000 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251104050000 +0800" stop="20251104063000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251104063000 +0800" stop="20251104071000 +0800" channel="75">
-    <title lang="en">Cinderella Game</title>
-    <desc lang="en">Cinderella Game</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103230000 +0800" channel="109">
-    <title lang="en">Singapore Tonight</title>
-    <desc lang="en">Singapore Tonight</desc>
-  </programme>
-  <programme start="20251103230000 +0800" stop="20251104000000 +0800" channel="109">
-    <title lang="en">Reaching The Unreached S2</title>
-    <desc lang="en">Reaching The Unreached S2</desc>
   </programme>
   <programme start="20251104000000 +0800" stop="20251104000300 +0800" channel="109">
     <title lang="en">Headline News</title>
@@ -360,37 +68,9 @@
     <title lang="en">Insight</title>
     <desc lang="en">Insight</desc>
   </programme>
-  <programme start="20251104040000 +0800" stop="20251104050000 +0800" channel="109">
-    <title lang="en">Asia Tonight</title>
-    <desc lang="en">Asia Tonight</desc>
-  </programme>
-  <programme start="20251104050000 +0800" stop="20251104060000 +0800" channel="109">
-    <title lang="en">Reaching The Unreached S2</title>
-    <desc lang="en">Reaching The Unreached S2</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103223000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251103223000 +0800" stop="20251104020000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
   <programme start="20251104020000 +0800" stop="20251104053000 +0800" channel="253">
     <title lang="en">WTT Champions Montpellier 2025</title>
     <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251104053000 +0800" stop="20251104073000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251103220000 +0800" stop="20251103230000 +0800" channel="254">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
-  </programme>
-  <programme start="20251103230000 +0800" stop="20251104000000 +0800" channel="254">
-    <title lang="en">WSBK Garage Sessions  Titanic Trio</title>
-    <desc lang="en">WSBK Garage Sessions  Titanic Trio</desc>
   </programme>
   <programme start="20251104000000 +0800" stop="20251104010000 +0800" channel="254">
     <title lang="en">2025 IATC Rd6 Malaysia</title>
@@ -404,15 +84,7 @@
     <title lang="en">2025 AsiaPacific Amateur Championship</title>
     <desc lang="en">2025 AsiaPacific Amateur Championship</desc>
   </programme>
-  <programme start="20251104050500 +0800" stop="20251104070000 +0800" channel="254">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251104070000 +0800" stop="20251104080000 +0800" channel="254">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104020000 +0800" stop="20251104053000 +0800" channel="31">
+  <programme start="20251104030000 +0800" stop="20251104053000 +0800" channel="31">
     <title lang="en">WTT Champions Montpellier 2025</title>
     <desc lang="en">WTT Champions Montpellier 2025</desc>
   </programme>
@@ -424,27 +96,7 @@
     <title lang="en">Mahindra Volleyball Super League 2025</title>
     <desc lang="en">Mahindra Volleyball Super League 2025</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104113000 +0800" channel="31">
-    <title lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</title>
-    <desc lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</desc>
-  </programme>
-  <programme start="20251104113000 +0800" stop="20251104120000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251104120000 +0800" stop="20251104123000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251104123000 +0800" stop="20251104173000 +0800" channel="31">
-    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
-    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104020000 +0800" channel="32">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104020000 +0800" stop="20251104050500 +0800" channel="32">
+  <programme start="20251104030000 +0800" stop="20251104050500 +0800" channel="32">
     <title lang="en">2025 AsiaPacific Amateur Championship</title>
     <desc lang="en">2025 AsiaPacific Amateur Championship</desc>
   </programme>
@@ -464,19 +116,7 @@
     <title lang="en">ROSHN Saudi League 2526 MW7</title>
     <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104120000 +0800" channel="32">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251104120000 +0800" stop="20251104180000 +0800" channel="32">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104023000 +0800" channel="75">
-    <title lang="en">Two Days and One Night 4</title>
-    <desc lang="en">Two Days and One Night 4</desc>
-  </programme>
-  <programme start="20251104023000 +0800" stop="20251104030500 +0800" channel="75">
+  <programme start="20251104030000 +0800" stop="20251104030500 +0800" channel="75">
     <title lang="en">Marie and Her Three Daddies</title>
     <desc lang="en">Marie and Her Three Daddies</desc>
   </programme>
@@ -508,30 +148,6 @@
     <title lang="en">A Graceful Liar</title>
     <desc lang="en">A Graceful Liar</desc>
   </programme>
-  <programme start="20251104094000 +0800" stop="20251104102000 +0800" channel="75">
-    <title lang="en">Cinderella Game</title>
-    <desc lang="en">Cinderella Game</desc>
-  </programme>
-  <programme start="20251104102000 +0800" stop="20251104113500 +0800" channel="75">
-    <title lang="en">Our Golden Days</title>
-    <desc lang="en">Our Golden Days</desc>
-  </programme>
-  <programme start="20251104113500 +0800" stop="20251104114000 +0800" channel="75">
-    <title lang="en">The Best of Immortal Songs</title>
-    <desc lang="en">The Best of Immortal Songs</desc>
-  </programme>
-  <programme start="20251104114000 +0800" stop="20251104131000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104020000 +0800" channel="109">
-    <title lang="en">Singapore Hour</title>
-    <desc lang="en">Singapore Hour</desc>
-  </programme>
-  <programme start="20251104020000 +0800" stop="20251104030000 +0800" channel="109">
-    <title lang="en">Singapore Tonight</title>
-    <desc lang="en">Singapore Tonight</desc>
-  </programme>
   <programme start="20251104030000 +0800" stop="20251104040000 +0800" channel="109">
     <title lang="en">Insight</title>
     <desc lang="en">Insight</desc>
@@ -544,7 +160,7 @@
     <title lang="en">Reaching The Unreached S2</title>
     <desc lang="en">Reaching The Unreached S2</desc>
   </programme>
-  <programme start="20251104020000 +0800" stop="20251104053000 +0800" channel="253">
+  <programme start="20251104030000 +0800" stop="20251104053000 +0800" channel="253">
     <title lang="en">WTT Champions Montpellier 2025</title>
     <desc lang="en">WTT Champions Montpellier 2025</desc>
   </programme>
@@ -556,27 +172,7 @@
     <title lang="en">Mahindra Volleyball Super League 2025</title>
     <desc lang="en">Mahindra Volleyball Super League 2025</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104113000 +0800" channel="253">
-    <title lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</title>
-    <desc lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</desc>
-  </programme>
-  <programme start="20251104113000 +0800" stop="20251104120000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251104120000 +0800" stop="20251104123000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251104123000 +0800" stop="20251104173000 +0800" channel="253">
-    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
-    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
-  </programme>
-  <programme start="20251104010000 +0800" stop="20251104020000 +0800" channel="254">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104020000 +0800" stop="20251104050500 +0800" channel="254">
+  <programme start="20251104030000 +0800" stop="20251104050500 +0800" channel="254">
     <title lang="en">2025 AsiaPacific Amateur Championship</title>
     <desc lang="en">2025 AsiaPacific Amateur Championship</desc>
   </programme>
@@ -596,19 +192,7 @@
     <title lang="en">ROSHN Saudi League 2526 MW7</title>
     <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104120000 +0800" channel="254">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251104120000 +0800" stop="20251104180000 +0800" channel="254">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251104040000 +0800" stop="20251104053000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251104053000 +0800" stop="20251104073000 +0800" channel="31">
+  <programme start="20251104060000 +0800" stop="20251104073000 +0800" channel="31">
     <title lang="en">202526 ALeague Men Match Rd3</title>
     <desc lang="en">202526 ALeague Men Match Rd3</desc>
   </programme>
@@ -632,19 +216,7 @@
     <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
     <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
   </programme>
-  <programme start="20251104173000 +0800" stop="20251104183000 +0800" channel="31">
-    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
-    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
-  </programme>
-  <programme start="20251104183000 +0800" stop="20251105011500 +0800" channel="31">
-    <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
-    <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
-  </programme>
-  <programme start="20251104040000 +0800" stop="20251104050500 +0800" channel="32">
-    <title lang="en">2025 AsiaPacific Amateur Championship</title>
-    <desc lang="en">2025 AsiaPacific Amateur Championship</desc>
-  </programme>
-  <programme start="20251104050500 +0800" stop="20251104070000 +0800" channel="32">
+  <programme start="20251104060000 +0800" stop="20251104070000 +0800" channel="32">
     <title lang="en">202526 ALeague Men Round 3</title>
     <desc lang="en">202526 ALeague Men Round 3</desc>
   </programme>
@@ -668,15 +240,7 @@
     <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
     <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
   </programme>
-  <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251104040000 +0800" stop="20251104050000 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251104050000 +0800" stop="20251104063000 +0800" channel="75">
+  <programme start="20251104060000 +0800" stop="20251104063000 +0800" channel="75">
     <title lang="en">Stars Top Recipe at FunStaurant</title>
     <desc lang="en">Stars Top Recipe at FunStaurant</desc>
   </programme>
@@ -720,35 +284,7 @@
     <title lang="en">The Merchant  Gaekju 2015</title>
     <desc lang="en">The Merchant  Gaekju 2015</desc>
   </programme>
-  <programme start="20251104154000 +0800" stop="20251104160000 +0800" channel="75">
-    <title lang="en">KBS WORLD News Today</title>
-    <desc lang="en">KBS WORLD News Today</desc>
-  </programme>
-  <programme start="20251104160000 +0800" stop="20251104165500 +0800" channel="75">
-    <title lang="en">KBS WORLD SELECTION</title>
-    <desc lang="en">KBS WORLD SELECTION</desc>
-  </programme>
-  <programme start="20251104165500 +0800" stop="20251104182000 +0800" channel="75">
-    <title lang="en">The Seasons</title>
-    <desc lang="en">The Seasons</desc>
-  </programme>
-  <programme start="20251104182000 +0800" stop="20251104193500 +0800" channel="75">
-    <title lang="en">Hello Monster</title>
-    <desc lang="en">Hello Monster</desc>
-  </programme>
-  <programme start="20251104040000 +0800" stop="20251104050000 +0800" channel="109">
-    <title lang="en">Asia Tonight</title>
-    <desc lang="en">Asia Tonight</desc>
-  </programme>
-  <programme start="20251104050000 +0800" stop="20251104060000 +0800" channel="109">
-    <title lang="en">Reaching The Unreached S2</title>
-    <desc lang="en">Reaching The Unreached S2</desc>
-  </programme>
-  <programme start="20251104040000 +0800" stop="20251104053000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251104053000 +0800" stop="20251104073000 +0800" channel="253">
+  <programme start="20251104060000 +0800" stop="20251104073000 +0800" channel="253">
     <title lang="en">202526 ALeague Men Match Rd3</title>
     <desc lang="en">202526 ALeague Men Match Rd3</desc>
   </programme>
@@ -772,19 +308,7 @@
     <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
     <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
   </programme>
-  <programme start="20251104173000 +0800" stop="20251104183000 +0800" channel="253">
-    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
-    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
-  </programme>
-  <programme start="20251104183000 +0800" stop="20251105011500 +0800" channel="253">
-    <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
-    <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
-  </programme>
-  <programme start="20251104040000 +0800" stop="20251104050500 +0800" channel="254">
-    <title lang="en">2025 AsiaPacific Amateur Championship</title>
-    <desc lang="en">2025 AsiaPacific Amateur Championship</desc>
-  </programme>
-  <programme start="20251104050500 +0800" stop="20251104070000 +0800" channel="254">
+  <programme start="20251104060000 +0800" stop="20251104070000 +0800" channel="254">
     <title lang="en">202526 ALeague Men Round 3</title>
     <desc lang="en">202526 ALeague Men Round 3</desc>
   </programme>
@@ -808,15 +332,7 @@
     <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
     <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
   </programme>
-  <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251104070000 +0800" stop="20251104073000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251104073000 +0800" stop="20251104103000 +0800" channel="31">
+  <programme start="20251104090000 +0800" stop="20251104103000 +0800" channel="31">
     <title lang="en">Mahindra Volleyball Super League 2025</title>
     <desc lang="en">Mahindra Volleyball Super League 2025</desc>
   </programme>
@@ -844,15 +360,7 @@
     <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
     <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
   </programme>
-  <programme start="20251104070000 +0800" stop="20251104080000 +0800" channel="32">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104080000 +0800" stop="20251104083000 +0800" channel="32">
-    <title lang="en">202526 ALeague Men</title>
-    <desc lang="en">202526 ALeague Men</desc>
-  </programme>
-  <programme start="20251104083000 +0800" stop="20251104103000 +0800" channel="32">
+  <programme start="20251104090000 +0800" stop="20251104103000 +0800" channel="32">
     <title lang="en">ROSHN Saudi League 2526 MW7</title>
     <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
   </programme>
@@ -867,26 +375,6 @@
   <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="32">
     <title lang="en">WTT Champions Frankfurt 2025</title>
     <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251104230000 +0800" stop="20251105010000 +0800" channel="32">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
-  </programme>
-  <programme start="20251105010000 +0800" stop="20251105013000 +0800" channel="32">
-    <title lang="en">202526 ALM Mini Match Rd 2</title>
-    <desc lang="en">202526 ALM Mini Match Rd 2</desc>
-  </programme>
-  <programme start="20251104070000 +0800" stop="20251104071000 +0800" channel="75">
-    <title lang="en">Cinderella Game</title>
-    <desc lang="en">Cinderella Game</desc>
-  </programme>
-  <programme start="20251104071000 +0800" stop="20251104082500 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251104082500 +0800" stop="20251104090000 +0800" channel="75">
-    <title lang="en">Marie and Her Three Daddies</title>
-    <desc lang="en">Marie and Her Three Daddies</desc>
   </programme>
   <programme start="20251104090000 +0800" stop="20251104094000 +0800" channel="75">
     <title lang="en">A Graceful Liar</title>
@@ -944,23 +432,7 @@
     <title lang="en">Are You Human?</title>
     <desc lang="en">Are You Human?</desc>
   </programme>
-  <programme start="20251104220500 +0800" stop="20251104233500 +0800" channel="75">
-    <title lang="en">Moving Voices in Spain</title>
-    <desc lang="en">Moving Voices in Spain</desc>
-  </programme>
-  <programme start="20251104233500 +0800" stop="20251105005000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251105005000 +0800" stop="20251105023000 +0800" channel="75">
-    <title lang="en">Immortal Songs</title>
-    <desc lang="en">Immortal Songs</desc>
-  </programme>
-  <programme start="20251104070000 +0800" stop="20251104073000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd3</title>
-    <desc lang="en">202526 ALeague Men Match Rd3</desc>
-  </programme>
-  <programme start="20251104073000 +0800" stop="20251104103000 +0800" channel="253">
+  <programme start="20251104090000 +0800" stop="20251104103000 +0800" channel="253">
     <title lang="en">Mahindra Volleyball Super League 2025</title>
     <desc lang="en">Mahindra Volleyball Super League 2025</desc>
   </programme>
@@ -988,15 +460,7 @@
     <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
     <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
   </programme>
-  <programme start="20251104070000 +0800" stop="20251104080000 +0800" channel="254">
-    <title lang="en">2025 IATC Rd6 Malaysia</title>
-    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
-  </programme>
-  <programme start="20251104080000 +0800" stop="20251104083000 +0800" channel="254">
-    <title lang="en">202526 ALeague Men</title>
-    <desc lang="en">202526 ALeague Men</desc>
-  </programme>
-  <programme start="20251104083000 +0800" stop="20251104103000 +0800" channel="254">
+  <programme start="20251104090000 +0800" stop="20251104103000 +0800" channel="254">
     <title lang="en">ROSHN Saudi League 2526 MW7</title>
     <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
   </programme>
@@ -1011,26 +475,6 @@
   <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="254">
     <title lang="en">WTT Champions Frankfurt 2025</title>
     <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251104230000 +0800" stop="20251105010000 +0800" channel="254">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
-  </programme>
-  <programme start="20251105010000 +0800" stop="20251105013000 +0800" channel="254">
-    <title lang="en">202526 ALM Mini Match Rd 2</title>
-    <desc lang="en">202526 ALM Mini Match Rd 2</desc>
-  </programme>
-  <programme start="20251104100000 +0800" stop="20251104103000 +0800" channel="31">
-    <title lang="en">Mahindra Volleyball Super League 2025</title>
-    <desc lang="en">Mahindra Volleyball Super League 2025</desc>
-  </programme>
-  <programme start="20251104103000 +0800" stop="20251104113000 +0800" channel="31">
-    <title lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</title>
-    <desc lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</desc>
-  </programme>
-  <programme start="20251104113000 +0800" stop="20251104120000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
   </programme>
   <programme start="20251104120000 +0800" stop="20251104123000 +0800" channel="31">
     <title lang="en">202526 ALeague Men Mini Match</title>
@@ -1056,19 +500,159 @@
     <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
     <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
+  <programme start="20251104120000 +0800" stop="20251104180000 +0800" channel="32">
+    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
+    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
+  </programme>
+  <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="32">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104230000 +0800" stop="20251105010000 +0800" channel="32">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251105010000 +0800" stop="20251105013000 +0800" channel="32">
+    <title lang="en">202526 ALM Mini Match Rd 2</title>
+    <desc lang="en">202526 ALM Mini Match Rd 2</desc>
+  </programme>
+  <programme start="20251105013000 +0800" stop="20251105050000 +0800" channel="32">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104120000 +0800" stop="20251104131000 +0800" channel="75">
+    <title lang="en">Stars Top Recipe at FunStaurant</title>
+    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
+  </programme>
+  <programme start="20251104131000 +0800" stop="20251104142500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251104142500 +0800" stop="20251104154000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251104154000 +0800" stop="20251104160000 +0800" channel="75">
+    <title lang="en">KBS WORLD News Today</title>
+    <desc lang="en">KBS WORLD News Today</desc>
+  </programme>
+  <programme start="20251104160000 +0800" stop="20251104165500 +0800" channel="75">
+    <title lang="en">KBS WORLD SELECTION</title>
+    <desc lang="en">KBS WORLD SELECTION</desc>
+  </programme>
+  <programme start="20251104165500 +0800" stop="20251104182000 +0800" channel="75">
+    <title lang="en">The Seasons</title>
+    <desc lang="en">The Seasons</desc>
+  </programme>
+  <programme start="20251104182000 +0800" stop="20251104193500 +0800" channel="75">
+    <title lang="en">Hello Monster</title>
+    <desc lang="en">Hello Monster</desc>
+  </programme>
+  <programme start="20251104193500 +0800" stop="20251104201000 +0800" channel="75">
+    <title lang="en">Marie and Her Three Daddies</title>
+    <desc lang="en">Marie and Her Three Daddies</desc>
+  </programme>
+  <programme start="20251104201000 +0800" stop="20251104205000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251104205000 +0800" stop="20251104220500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251104220500 +0800" stop="20251104233500 +0800" channel="75">
+    <title lang="en">Moving Voices in Spain</title>
+    <desc lang="en">Moving Voices in Spain</desc>
+  </programme>
+  <programme start="20251104233500 +0800" stop="20251105005000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251105005000 +0800" stop="20251105023000 +0800" channel="75">
+    <title lang="en">Immortal Songs</title>
+    <desc lang="en">Immortal Songs</desc>
+  </programme>
+  <programme start="20251105023000 +0800" stop="20251105030500 +0800" channel="75">
+    <title lang="en">Marie and Her Three Daddies</title>
+    <desc lang="en">Marie and Her Three Daddies</desc>
+  </programme>
+  <programme start="20251104120000 +0800" stop="20251104123000 +0800" channel="253">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
+  </programme>
+  <programme start="20251104123000 +0800" stop="20251104173000 +0800" channel="253">
+    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
+    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
+  </programme>
+  <programme start="20251104173000 +0800" stop="20251104183000 +0800" channel="253">
+    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
+    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
+  </programme>
+  <programme start="20251104183000 +0800" stop="20251105011500 +0800" channel="253">
+    <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
+    <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
+  </programme>
+  <programme start="20251105011500 +0800" stop="20251105020000 +0800" channel="253">
+    <title lang="en">UIM E1 World Championship 2025 HLs</title>
+    <desc lang="en">UIM E1 World Championship 2025 HLs</desc>
+  </programme>
+  <programme start="20251105020000 +0800" stop="20251105050000 +0800" channel="253">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251104120000 +0800" stop="20251104180000 +0800" channel="254">
+    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
+    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
+  </programme>
+  <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="254">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104230000 +0800" stop="20251105010000 +0800" channel="254">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251105010000 +0800" stop="20251105013000 +0800" channel="254">
+    <title lang="en">202526 ALM Mini Match Rd 2</title>
+    <desc lang="en">202526 ALM Mini Match Rd 2</desc>
+  </programme>
+  <programme start="20251105013000 +0800" stop="20251105050000 +0800" channel="254">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104150000 +0800" stop="20251104173000 +0800" channel="31">
+    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
+    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
+  </programme>
+  <programme start="20251104173000 +0800" stop="20251104183000 +0800" channel="31">
+    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
+    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
+  </programme>
+  <programme start="20251104183000 +0800" stop="20251105011500 +0800" channel="31">
+    <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
+    <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
+  </programme>
+  <programme start="20251105011500 +0800" stop="20251105020000 +0800" channel="31">
+    <title lang="en">UIM E1 World Championship 2025 HLs</title>
+    <desc lang="en">UIM E1 World Championship 2025 HLs</desc>
+  </programme>
+  <programme start="20251105020000 +0800" stop="20251105050000 +0800" channel="31">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
   <programme start="20251105050000 +0800" stop="20251105080000 +0800" channel="31">
     <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
     <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
-  <programme start="20251104100000 +0800" stop="20251104103000 +0800" channel="32">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="31">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104120000 +0800" channel="32">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
+  <programme start="20251105083000 +0800" stop="20251105110000 +0800" channel="31">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
-  <programme start="20251104120000 +0800" stop="20251104180000 +0800" channel="32">
+  <programme start="20251104150000 +0800" stop="20251104180000 +0800" channel="32">
     <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
     <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
   </programme>
@@ -1096,27 +680,15 @@
     <title lang="en">2025 IATC Rd6 Malaysia</title>
     <desc lang="en">2025 IATC Rd6 Malaysia</desc>
   </programme>
-  <programme start="20251104100000 +0800" stop="20251104102000 +0800" channel="75">
-    <title lang="en">Cinderella Game</title>
-    <desc lang="en">Cinderella Game</desc>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="32">
+    <title lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</title>
+    <desc lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</desc>
   </programme>
-  <programme start="20251104102000 +0800" stop="20251104113500 +0800" channel="75">
-    <title lang="en">Our Golden Days</title>
-    <desc lang="en">Our Golden Days</desc>
+  <programme start="20251105083000 +0800" stop="20251105103000 +0800" channel="32">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
   </programme>
-  <programme start="20251104113500 +0800" stop="20251104114000 +0800" channel="75">
-    <title lang="en">The Best of Immortal Songs</title>
-    <desc lang="en">The Best of Immortal Songs</desc>
-  </programme>
-  <programme start="20251104114000 +0800" stop="20251104131000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251104131000 +0800" stop="20251104142500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251104142500 +0800" stop="20251104154000 +0800" channel="75">
+  <programme start="20251104150000 +0800" stop="20251104154000 +0800" channel="75">
     <title lang="en">The Merchant  Gaekju 2015</title>
     <desc lang="en">The Merchant  Gaekju 2015</desc>
   </programme>
@@ -1180,23 +752,19 @@
     <title lang="en">Cinderella Game</title>
     <desc lang="en">Cinderella Game</desc>
   </programme>
-  <programme start="20251104100000 +0800" stop="20251104103000 +0800" channel="253">
-    <title lang="en">Mahindra Volleyball Super League 2025</title>
-    <desc lang="en">Mahindra Volleyball Super League 2025</desc>
+  <programme start="20251105071000 +0800" stop="20251105082500 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104113000 +0800" channel="253">
-    <title lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</title>
-    <desc lang="en">2025 FIA Extreme H World Cup, Saudi Arabia</desc>
+  <programme start="20251105082500 +0800" stop="20251105090000 +0800" channel="75">
+    <title lang="en">Marie and Her Three Daddies</title>
+    <desc lang="en">Marie and Her Three Daddies</desc>
   </programme>
-  <programme start="20251104113000 +0800" stop="20251104120000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
+  <programme start="20251105090000 +0800" stop="20251105094000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
   </programme>
-  <programme start="20251104120000 +0800" stop="20251104123000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251104123000 +0800" stop="20251104173000 +0800" channel="253">
+  <programme start="20251104150000 +0800" stop="20251104173000 +0800" channel="253">
     <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
     <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
   </programme>
@@ -1220,15 +788,15 @@
     <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
     <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
-  <programme start="20251104100000 +0800" stop="20251104103000 +0800" channel="254">
-    <title lang="en">ROSHN Saudi League 2526 MW7</title>
-    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="253">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
   </programme>
-  <programme start="20251104103000 +0800" stop="20251104120000 +0800" channel="254">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
+  <programme start="20251105083000 +0800" stop="20251105110000 +0800" channel="253">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
-  <programme start="20251104120000 +0800" stop="20251104180000 +0800" channel="254">
+  <programme start="20251104150000 +0800" stop="20251104180000 +0800" channel="254">
     <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
     <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
   </programme>
@@ -1256,11 +824,15 @@
     <title lang="en">2025 IATC Rd6 Malaysia</title>
     <desc lang="en">2025 IATC Rd6 Malaysia</desc>
   </programme>
-  <programme start="20251104130000 +0800" stop="20251104173000 +0800" channel="31">
-    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
-    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="254">
+    <title lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</title>
+    <desc lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</desc>
   </programme>
-  <programme start="20251104173000 +0800" stop="20251104183000 +0800" channel="31">
+  <programme start="20251105083000 +0800" stop="20251105103000 +0800" channel="254">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251104180000 +0800" stop="20251104183000 +0800" channel="31">
     <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
     <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
   </programme>
@@ -1296,9 +868,9 @@
     <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
     <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
-  <programme start="20251104130000 +0800" stop="20251104180000 +0800" channel="32">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
+  <programme start="20251105143000 +0800" stop="20251105193000 +0800" channel="31">
+    <title lang="en">WTT Champions Montpellier 2025</title>
+    <desc lang="en">WTT Champions Montpellier 2025</desc>
   </programme>
   <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="32">
     <title lang="en">WTT Champions Frankfurt 2025</title>
@@ -1340,27 +912,7 @@
     <title lang="en">WTT Champions Frankfurt 2025</title>
     <desc lang="en">WTT Champions Frankfurt 2025</desc>
   </programme>
-  <programme start="20251104130000 +0800" stop="20251104131000 +0800" channel="75">
-    <title lang="en">Stars Top Recipe at FunStaurant</title>
-    <desc lang="en">Stars Top Recipe at FunStaurant</desc>
-  </programme>
-  <programme start="20251104131000 +0800" stop="20251104142500 +0800" channel="75">
-    <title lang="en">Are You Human?</title>
-    <desc lang="en">Are You Human?</desc>
-  </programme>
-  <programme start="20251104142500 +0800" stop="20251104154000 +0800" channel="75">
-    <title lang="en">The Merchant  Gaekju 2015</title>
-    <desc lang="en">The Merchant  Gaekju 2015</desc>
-  </programme>
-  <programme start="20251104154000 +0800" stop="20251104160000 +0800" channel="75">
-    <title lang="en">KBS WORLD News Today</title>
-    <desc lang="en">KBS WORLD News Today</desc>
-  </programme>
-  <programme start="20251104160000 +0800" stop="20251104165500 +0800" channel="75">
-    <title lang="en">KBS WORLD SELECTION</title>
-    <desc lang="en">KBS WORLD SELECTION</desc>
-  </programme>
-  <programme start="20251104165500 +0800" stop="20251104182000 +0800" channel="75">
+  <programme start="20251104180000 +0800" stop="20251104182000 +0800" channel="75">
     <title lang="en">The Seasons</title>
     <desc lang="en">The Seasons</desc>
   </programme>
@@ -1440,11 +992,15 @@
     <title lang="en">Moving Voices in Spain</title>
     <desc lang="en">Moving Voices in Spain</desc>
   </programme>
-  <programme start="20251104130000 +0800" stop="20251104173000 +0800" channel="253">
-    <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
-    <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
+  <programme start="20251105131000 +0800" stop="20251105142500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
   </programme>
-  <programme start="20251104173000 +0800" stop="20251104183000 +0800" channel="253">
+  <programme start="20251105142500 +0800" stop="20251105154000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251104180000 +0800" stop="20251104183000 +0800" channel="253">
     <title lang="en">T100 Triathlon World Tour 2025 Wollongong T100</title>
     <desc lang="en">T100 Triathlon World Tour 2025 Wollongong T100</desc>
   </programme>
@@ -1480,9 +1036,9 @@
     <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
     <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
   </programme>
-  <programme start="20251104130000 +0800" stop="20251104180000 +0800" channel="254">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
+  <programme start="20251105143000 +0800" stop="20251105193000 +0800" channel="253">
+    <title lang="en">WTT Champions Montpellier 2025</title>
+    <desc lang="en">WTT Champions Montpellier 2025</desc>
   </programme>
   <programme start="20251104180000 +0800" stop="20251104230000 +0800" channel="254">
     <title lang="en">WTT Champions Frankfurt 2025</title>
@@ -1521,6 +1077,282 @@
     <desc lang="en">2025 GTOUR Womens 6th Tournament</desc>
   </programme>
   <programme start="20251105123000 +0800" stop="20251105173000 +0800" channel="254">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104210000 +0800" stop="20251105011500 +0800" channel="31">
+    <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
+    <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
+  </programme>
+  <programme start="20251105011500 +0800" stop="20251105020000 +0800" channel="31">
+    <title lang="en">UIM E1 World Championship 2025 HLs</title>
+    <desc lang="en">UIM E1 World Championship 2025 HLs</desc>
+  </programme>
+  <programme start="20251105020000 +0800" stop="20251105050000 +0800" channel="31">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105050000 +0800" stop="20251105080000 +0800" channel="31">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="31">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
+  </programme>
+  <programme start="20251105083000 +0800" stop="20251105110000 +0800" channel="31">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105110000 +0800" stop="20251105113000 +0800" channel="31">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
+  </programme>
+  <programme start="20251105113000 +0800" stop="20251105143000 +0800" channel="31">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105143000 +0800" stop="20251105193000 +0800" channel="31">
+    <title lang="en">WTT Champions Montpellier 2025</title>
+    <desc lang="en">WTT Champions Montpellier 2025</desc>
+  </programme>
+  <programme start="20251105193000 +0800" stop="20251106000000 +0800" channel="31">
+    <title lang="en">WTT Champions Montpellier 2025</title>
+    <desc lang="en">WTT Champions Montpellier 2025</desc>
+  </programme>
+  <programme start="20251104210000 +0800" stop="20251104230000 +0800" channel="32">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104230000 +0800" stop="20251105010000 +0800" channel="32">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251105010000 +0800" stop="20251105013000 +0800" channel="32">
+    <title lang="en">202526 ALM Mini Match Rd 2</title>
+    <desc lang="en">202526 ALM Mini Match Rd 2</desc>
+  </programme>
+  <programme start="20251105013000 +0800" stop="20251105050000 +0800" channel="32">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251105050000 +0800" stop="20251105070000 +0800" channel="32">
+    <title lang="en">202526 ALeague Men Round 3</title>
+    <desc lang="en">202526 ALeague Men Round 3</desc>
+  </programme>
+  <programme start="20251105070000 +0800" stop="20251105080000 +0800" channel="32">
+    <title lang="en">2025 IATC Rd6 Malaysia</title>
+    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
+  </programme>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="32">
+    <title lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</title>
+    <desc lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</desc>
+  </programme>
+  <programme start="20251105083000 +0800" stop="20251105103000 +0800" channel="32">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251105103000 +0800" stop="20251105123000 +0800" channel="32">
+    <title lang="en">2025 GTOUR Womens 6th Tournament</title>
+    <desc lang="en">2025 GTOUR Womens 6th Tournament</desc>
+  </programme>
+  <programme start="20251105123000 +0800" stop="20251105173000 +0800" channel="32">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251105173000 +0800" stop="20251105180000 +0800" channel="32">
+    <title lang="en">202526 ALeague Men</title>
+    <desc lang="en">202526 ALeague Men</desc>
+  </programme>
+  <programme start="20251105180000 +0800" stop="20251105230000 +0800" channel="32">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104210000 +0800" stop="20251104220500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251104220500 +0800" stop="20251104233500 +0800" channel="75">
+    <title lang="en">Moving Voices in Spain</title>
+    <desc lang="en">Moving Voices in Spain</desc>
+  </programme>
+  <programme start="20251104233500 +0800" stop="20251105005000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251105005000 +0800" stop="20251105023000 +0800" channel="75">
+    <title lang="en">Immortal Songs</title>
+    <desc lang="en">Immortal Songs</desc>
+  </programme>
+  <programme start="20251105023000 +0800" stop="20251105030500 +0800" channel="75">
+    <title lang="en">Marie and Her Three Daddies</title>
+    <desc lang="en">Marie and Her Three Daddies</desc>
+  </programme>
+  <programme start="20251105030500 +0800" stop="20251105034500 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251105034500 +0800" stop="20251105050000 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251105050000 +0800" stop="20251105063000 +0800" channel="75">
+    <title lang="en">Moving Voices in Spain</title>
+    <desc lang="en">Moving Voices in Spain</desc>
+  </programme>
+  <programme start="20251105063000 +0800" stop="20251105071000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
+  </programme>
+  <programme start="20251105071000 +0800" stop="20251105082500 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251105082500 +0800" stop="20251105090000 +0800" channel="75">
+    <title lang="en">Marie and Her Three Daddies</title>
+    <desc lang="en">Marie and Her Three Daddies</desc>
+  </programme>
+  <programme start="20251105090000 +0800" stop="20251105094000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251105094000 +0800" stop="20251105102000 +0800" channel="75">
+    <title lang="en">Cinderella Game</title>
+    <desc lang="en">Cinderella Game</desc>
+  </programme>
+  <programme start="20251105102000 +0800" stop="20251105113500 +0800" channel="75">
+    <title lang="en">Our Golden Days</title>
+    <desc lang="en">Our Golden Days</desc>
+  </programme>
+  <programme start="20251105113500 +0800" stop="20251105114000 +0800" channel="75">
+    <title lang="en">ROUND PLAYLIST</title>
+    <desc lang="en">ROUND PLAYLIST</desc>
+  </programme>
+  <programme start="20251105114000 +0800" stop="20251105131000 +0800" channel="75">
+    <title lang="en">Moving Voices in Spain</title>
+    <desc lang="en">Moving Voices in Spain</desc>
+  </programme>
+  <programme start="20251105131000 +0800" stop="20251105142500 +0800" channel="75">
+    <title lang="en">Are You Human?</title>
+    <desc lang="en">Are You Human?</desc>
+  </programme>
+  <programme start="20251105142500 +0800" stop="20251105154000 +0800" channel="75">
+    <title lang="en">The Merchant  Gaekju 2015</title>
+    <desc lang="en">The Merchant  Gaekju 2015</desc>
+  </programme>
+  <programme start="20251105154000 +0800" stop="20251105160000 +0800" channel="75">
+    <title lang="en">KBS WORLD News Today</title>
+    <desc lang="en">KBS WORLD News Today</desc>
+  </programme>
+  <programme start="20251105160000 +0800" stop="20251105171500 +0800" channel="75">
+    <title lang="en">You Are The Best!</title>
+    <desc lang="en">You Are The Best!</desc>
+  </programme>
+  <programme start="20251105171500 +0800" stop="20251105182500 +0800" channel="75">
+    <title lang="en">You Are The Best!</title>
+    <desc lang="en">You Are The Best!</desc>
+  </programme>
+  <programme start="20251105182500 +0800" stop="20251105193500 +0800" channel="75">
+    <title lang="en">The Return of Superman</title>
+    <desc lang="en">The Return of Superman</desc>
+  </programme>
+  <programme start="20251105193500 +0800" stop="20251105201000 +0800" channel="75">
+    <title lang="en">Marie and Her Three Daddies</title>
+    <desc lang="en">Marie and Her Three Daddies</desc>
+  </programme>
+  <programme start="20251105201000 +0800" stop="20251105205000 +0800" channel="75">
+    <title lang="en">A Graceful Liar</title>
+    <desc lang="en">A Graceful Liar</desc>
+  </programme>
+  <programme start="20251105205000 +0800" stop="20251105220500 +0800" channel="75">
+    <title lang="en">Go Back</title>
+    <desc lang="en">Go Back</desc>
+  </programme>
+  <programme start="20251104210000 +0800" stop="20251105011500 +0800" channel="253">
+    <title lang="en">Supercars 2025 Repco Bathurst 1000</title>
+    <desc lang="en">Supercars 2025 Repco Bathurst 1000</desc>
+  </programme>
+  <programme start="20251105011500 +0800" stop="20251105020000 +0800" channel="253">
+    <title lang="en">UIM E1 World Championship 2025 HLs</title>
+    <desc lang="en">UIM E1 World Championship 2025 HLs</desc>
+  </programme>
+  <programme start="20251105020000 +0800" stop="20251105050000 +0800" channel="253">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105050000 +0800" stop="20251105080000 +0800" channel="253">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="253">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
+  </programme>
+  <programme start="20251105083000 +0800" stop="20251105110000 +0800" channel="253">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105110000 +0800" stop="20251105113000 +0800" channel="253">
+    <title lang="en">202526 ALeague Men Mini Match</title>
+    <desc lang="en">202526 ALeague Men Mini Match</desc>
+  </programme>
+  <programme start="20251105113000 +0800" stop="20251105143000 +0800" channel="253">
+    <title lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</title>
+    <desc lang="en">2025 Hyundai Archery World Cup  Final, Nanjing</desc>
+  </programme>
+  <programme start="20251105143000 +0800" stop="20251105193000 +0800" channel="253">
+    <title lang="en">WTT Champions Montpellier 2025</title>
+    <desc lang="en">WTT Champions Montpellier 2025</desc>
+  </programme>
+  <programme start="20251105193000 +0800" stop="20251106000000 +0800" channel="253">
+    <title lang="en">WTT Champions Montpellier 2025</title>
+    <desc lang="en">WTT Champions Montpellier 2025</desc>
+  </programme>
+  <programme start="20251104210000 +0800" stop="20251104230000 +0800" channel="254">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251104230000 +0800" stop="20251105010000 +0800" channel="254">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251105010000 +0800" stop="20251105013000 +0800" channel="254">
+    <title lang="en">202526 ALM Mini Match Rd 2</title>
+    <desc lang="en">202526 ALM Mini Match Rd 2</desc>
+  </programme>
+  <programme start="20251105013000 +0800" stop="20251105050000 +0800" channel="254">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251105050000 +0800" stop="20251105070000 +0800" channel="254">
+    <title lang="en">202526 ALeague Men Round 3</title>
+    <desc lang="en">202526 ALeague Men Round 3</desc>
+  </programme>
+  <programme start="20251105070000 +0800" stop="20251105080000 +0800" channel="254">
+    <title lang="en">2025 IATC Rd6 Malaysia</title>
+    <desc lang="en">2025 IATC Rd6 Malaysia</desc>
+  </programme>
+  <programme start="20251105080000 +0800" stop="20251105083000 +0800" channel="254">
+    <title lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</title>
+    <desc lang="en">WorldSBK 2025 Rewind Rd12 Spanish Round</desc>
+  </programme>
+  <programme start="20251105083000 +0800" stop="20251105103000 +0800" channel="254">
+    <title lang="en">ROSHN Saudi League 2526 MW7</title>
+    <desc lang="en">ROSHN Saudi League 2526 MW7</desc>
+  </programme>
+  <programme start="20251105103000 +0800" stop="20251105123000 +0800" channel="254">
+    <title lang="en">2025 GTOUR Womens 6th Tournament</title>
+    <desc lang="en">2025 GTOUR Womens 6th Tournament</desc>
+  </programme>
+  <programme start="20251105123000 +0800" stop="20251105173000 +0800" channel="254">
+    <title lang="en">WTT Champions Frankfurt 2025</title>
+    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  </programme>
+  <programme start="20251105173000 +0800" stop="20251105180000 +0800" channel="254">
+    <title lang="en">202526 ALeague Men</title>
+    <desc lang="en">202526 ALeague Men</desc>
+  </programme>
+  <programme start="20251105180000 +0800" stop="20251105230000 +0800" channel="254">
     <title lang="en">WTT Champions Frankfurt 2025</title>
     <desc lang="en">WTT Champions Frankfurt 2025</desc>
   </programme>

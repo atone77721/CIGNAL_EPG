@@ -60,10 +60,12 @@ async def scrape_tv5_schedule():
 # 🧩 XMLTV GENERATOR (with gap filling)
 # ──────────────────────────────
 def generate_xmltv(epg_data, output_file="tv5.xml"):
+    import xml.etree.ElementTree as ET
+    from datetime import datetime, timedelta
+
     tv = ET.Element("tv")
     channel_id = "tv5.ph"
 
-    # Channel info
     ch = ET.SubElement(tv, "channel", id=channel_id)
     ET.SubElement(ch, "display-name").text = "TV5"
     ET.SubElement(ch, "icon", src="https://www.tv5.com.ph/assets/images/tv5-new-logo.png")
@@ -76,66 +78,48 @@ def generate_xmltv(epg_data, output_file="tv5.xml"):
         if not shows:
             continue
 
-        # Determine date for this weekday
         date_offset = timedelta(days=(i - today.weekday()) % 7)
         day_date = today + date_offset
 
         parsed = []
-        # Parse times
         for s in shows:
             if not s["time"]:
                 continue
-            start_dt = None
             for fmt in ("%I:%M %p", "%I %p"):
                 try:
                     t = datetime.strptime(s["time"], fmt)
-                    start_dt = day_date.replace(hour=t.hour, minute=t.minute)
+                    parsed.append({**s, "start": day_date.replace(hour=t.hour, minute=t.minute)})
                     break
                 except ValueError:
-                    pass
-            if not start_dt:
-                continue
-            parsed.append({**s, "start": start_dt})
+                    continue
 
         parsed.sort(key=lambda x: x["start"])
-
-        # Generate XML elements + gap fillers
         for idx, s in enumerate(parsed):
             start = s["start"]
-            if idx + 1 < len(parsed):
-                stop = parsed[idx + 1]["start"]
-            else:
-                stop = start + timedelta(hours=1)  # fallback duration
+            stop = parsed[idx + 1]["start"] if idx + 1 < len(parsed) else start + timedelta(hours=1)
 
-            # Add current show
             prog = ET.SubElement(tv, "programme", {
                 "start": start.strftime("%Y%m%d%H%M%S +0800"),
                 "stop": stop.strftime("%Y%m%d%H%M%S +0800"),
                 "channel": channel_id
             })
             ET.SubElement(prog, "title", lang="en").text = s["title"]
-            if s["desc"]:
-                ET.SubElement(prog, "desc", lang="en").text = s["desc"]
-            if s["image"]:
-                ET.SubElement(prog, "icon", src=s["image"])
+            if s.get("desc"): ET.SubElement(prog, "desc", lang="en").text = s["desc"]
+            if s.get("image"): ET.SubElement(prog, "icon", src=s["image"])
 
-            # Detect gaps between current stop and next start
-            if idx + 1 < len(parsed):
-                next_start = parsed[idx + 1]["start"]
-                if stop < next_start:
-                    filler = ET.SubElement(tv, "programme", {
-                        "start": stop.strftime("%Y%m%d%H%M%S +0800"),
-                        "stop": next_start.strftime("%Y%m%d%H%M%S +0800"),
-                        "channel": channel_id
-                    })
-                    ET.SubElement(filler, "title", lang="en").text = "No Program Scheduled"
+            # --- insert filler for gaps ---
+            if idx + 1 < len(parsed) and stop < parsed[idx + 1]["start"]:
+                filler = ET.SubElement(tv, "programme", {
+                    "start": stop.strftime("%Y%m%d%H%M%S +0800"),
+                    "stop": parsed[idx + 1]["start"].strftime("%Y%m%d%H%M%S +0800"),
+                    "channel": channel_id
+                })
+                ET.SubElement(filler, "title", lang="en").text = "No Program Scheduled"
 
-    # Save XMLTV file
     tree = ET.ElementTree(tv)
     ET.indent(tree, space="  ", level=0)
     tree.write(output_file, encoding="utf-8", xml_declaration=True)
-    print(f"📺 XMLTV saved: {output_file} (with blank intervals filled)")
-
+    print(f"📺 XMLTV saved: {output_file} (blank intervals filled)")
 
 # ──────────────────────────────
 # 🚀 MAIN

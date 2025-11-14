@@ -19,7 +19,7 @@ jobs:
       ###############################################
       #   MERGE XML + DUPLICATE REPORTING
       ###############################################
-            - name: Merge XML files into merged_epg.xml
+       - name: Merge XML files into merged_epg.xml
         run: |
           set -e
 

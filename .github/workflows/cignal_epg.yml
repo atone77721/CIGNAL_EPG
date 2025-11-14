@@ -24,7 +24,7 @@ jobs:
         run: |
           pip install requests pytz beautifulsoup4
 
-      - name: Decode and Run EPG fetcher
+      - name: Decode and Run CIGNAL EPG fetcher
         env:
           CIGNAL_EPG_SCRIPT: ${{ secrets.CIGNAL_EPG_SCRIPT }}
         run: |

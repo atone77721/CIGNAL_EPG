@@ -19,9 +19,12 @@ jobs:
       ###############################################
       #   MERGE XML + DUPLICATE REPORTING
       ###############################################
-      - name: Merge XML files into merged_epg.xml
+            - name: Merge XML files into merged_epg.xml
         run: |
           set -e
+
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
 
           # Find input sources
           CIGNAL=$(find . -type f -name "cignal_epg.xml" | head -n 1)
@@ -40,35 +43,34 @@ jobs:
 
           echo "Creating merged_epg.xml"
 
-          # Write ONLY the <tv ...> header from CIGNAL
-          head -n 1 "$CIGNAL" > merged_epg.xml
+          # Start final XML
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
+          echo '<tv>' >> merged_epg.xml
 
-          # Function to merge files safely
-          merge_file() {
+          extract() {
             FILE=$1
-            echo "Adding: $FILE"
-            # Remove only the first (<tv...>) and last (</tv>) lines
-            sed '1d;$d' "$FILE" >> merged_epg.xml
+            echo "Extracting from $FILE"
+            xmlstarlet sel -t -c "/tv/channel" "$FILE" >> merged_epg.xml
+            xmlstarlet sel -t -c "/tv/programme" "$FILE" >> merged_epg.xml
           }
 
-          merge_file "$CIGNAL"
-          merge_file "$CLICK"
-          merge_file "$DZMM"
+          extract "$CIGNAL"
+          extract "$CLICK"
+          extract "$DZMM"
 
-          # Append final closing tag
           echo "</tv>" >> merged_epg.xml
 
+          ###############################################
+          # DUPLICATE REPORTING
+          ###############################################
           echo ""
           echo "==============================================="
           echo "     🔍 SCANNING FOR DUPLICATES (REPORT ONLY)  "
           echo "==============================================="
 
-          ###############################################
-          # Duplicate Channel ID Report
-          ###############################################
+          # Channels
           echo ""
           echo "🔸 Checking duplicate CHANNEL IDs..."
-
           grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml \
             | sort | uniq -d > dup_channels.txt
 
@@ -79,9 +81,7 @@ jobs:
             echo "✔ No duplicate channel IDs."
           fi
 
-          ###############################################
-          # Duplicate Programme Report
-          ###############################################
+          # Programmes
           echo ""
           echo "🔸 Checking duplicate PROGRAMME entries..."
 

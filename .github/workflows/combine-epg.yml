@@ -17,12 +17,13 @@ jobs:
           fetch-depth: 0
 
       ###############################################
-      #   MERGE XML + DUPLICATE REPORTING
+      #   MERGE XML + SAFE EXTRACTION + DUP REPORT
       ###############################################
-       - name: Merge XML files into merged_epg.xml
+      - name: Merge XML files into merged_epg.xml
         run: |
           set -e
 
+          # Install xmlstarlet (safe XML parser)
           sudo apt-get update
           sudo apt-get install -y xmlstarlet
 
@@ -43,13 +44,14 @@ jobs:
 
           echo "Creating merged_epg.xml"
 
-          # Start final XML
+          # Start final XML file with header + root element
           echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
           echo '<tv>' >> merged_epg.xml
 
+          # Safe function to extract only XML nodes (channels + programmes)
           extract() {
             FILE=$1
-            echo "Extracting from $FILE"
+            echo "Extracting from $FILE ..."
             xmlstarlet sel -t -c "/tv/channel" "$FILE" >> merged_epg.xml
             xmlstarlet sel -t -c "/tv/programme" "$FILE" >> merged_epg.xml
           }
@@ -58,7 +60,9 @@ jobs:
           extract "$CLICK"
           extract "$DZMM"
 
+          # Close <tv>
           echo "</tv>" >> merged_epg.xml
+
 
           ###############################################
           # DUPLICATE REPORTING
@@ -68,7 +72,7 @@ jobs:
           echo "     🔍 SCANNING FOR DUPLICATES (REPORT ONLY)  "
           echo "==============================================="
 
-          # Channels
+          # CHANNEL ID DUPLICATES
           echo ""
           echo "🔸 Checking duplicate CHANNEL IDs..."
           grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml \
@@ -81,10 +85,9 @@ jobs:
             echo "✔ No duplicate channel IDs."
           fi
 
-          # Programmes
+          # PROGRAMME DUPLICATES
           echo ""
           echo "🔸 Checking duplicate PROGRAMME entries..."
-
           grep '<programme' merged_epg.xml | \
             sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' \
             > all_programmes.txt
@@ -103,6 +106,7 @@ jobs:
           echo "     Duplicate Scan Complete (No Filtering)    "
           echo "==============================================="
 
+
       ###############################################
       # XML VALIDATION
       ###############################################
@@ -113,13 +117,15 @@ jobs:
 
           echo "Validating merged_epg.xml..."
           xmllint --noout merged_epg.xml
-          echo "XML is valid."
+          echo "✔ XML is valid."
+
 
       ###############################################
       # GZIP OUTPUT
       ###############################################
       - name: GZIP output
         run: gzip -c merged_epg.xml > merged_epg.xml.gz
+
 
       ###############################################
       # COMMIT & PUSH

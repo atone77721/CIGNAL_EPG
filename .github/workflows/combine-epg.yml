@@ -16,7 +16,7 @@ jobs:
           persist-credentials: true      # MUST be true to allow git push
           fetch-depth: 0                 # ensures all history is available
 
-      - name: Merge XML files into merged.xml
+      - name: Merge XML files into merged_epg.xml
         run: |
           # Locate files
           CIGNAL=$(find . -type f -name "cignal_epg.xml" | head -n 1)
@@ -41,7 +41,7 @@ jobs:
           append_xml() {
             FILE=$1
             echo "Appending: $FILE"
-            sed '1,2d;$d' "$FILE" >> merged.xml
+            sed '1,2d;$d' "$FILE" >> merged_epg.xml
           }
 
           append_xml "$CIGNAL"

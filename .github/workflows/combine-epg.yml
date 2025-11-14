@@ -3,7 +3,7 @@ name: combine-epg
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"   # Every 12 hours
+    - cron: "0 */12 * * *"
 
 jobs:
   merge_epg:
@@ -16,112 +16,83 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
+
       ############################################################
-      # MERGE XML (SAFE) + ADD SOURCE-BASED SUFFIX TO CHANNEL IDs
+      # MERGE XML + ADD SOURCE-BASED SUFFIXES (RELIABLE METHOD)
       ############################################################
       - name: Merge XML files into merged_epg.xml
         run: |
           set -e
 
-          sudo apt-get update
-          sudo apt-get install -y xmlstarlet
-
-          # Locate source files
-          CIGNAL=$(find . -type f -name "cignal_epg.xml" | head -n 1)
-          CLICK=$(find . -type f -name "clickthecity_epg.xml" | head -n 1)
-          DZMM=$(find . -type f -name "dzmm.xml" | head -n 1)
+          # Find EPG files
+          CIGNAL="cignal_epg.xml"
+          CLICK="clickthecity_epg.xml"
+          DZMM="dzmm.xml"
 
           echo "Sources:"
-          echo " - CIGNAL: $CIGNAL"
-          echo " - CLICK:  $CLICK"
-          echo " - DZMM:   $DZMM"
+          echo " - $CIGNAL"
+          echo " - $CLICK"
+          echo " - $DZMM"
 
-          if [ -z "$CIGNAL" ] || [ -z "$CLICK" ] || [ -z "$DZMM" ]; then
-            echo "ERROR: Missing XML source file!"
-            exit 1
-          fi
-
+          # Start output
           echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
           echo '<tv>' >> merged_epg.xml
 
-          ############################################################
-          # FUNCTION: Extract channels/programmes with modified IDs
-          ############################################################
-          extract_with_suffix() {
+          #################################################################
+          # FUNCTION: APPEND FILE WITH SUFFIX CHANGE
+          #################################################################
+          add_with_suffix() {
             FILE="$1"
             SUFFIX="$2"
 
-            echo "Processing $FILE with suffix .$SUFFIX ..."
+            echo "Processing $FILE with suffix .$SUFFIX"
 
-            # CHANNELS — rewrite ID → id="$id.$suffix"
-            xmlstarlet sel -t \
-              -m "/tv/channel" \
-              -o '<channel id="' \
-              -v "concat(@id,'.$SUFFIX')" \
-              -o '">' \
-              -m "display-name" -o '<display-name>' -v . -o '</display-name>' \
-              -b \
-              -m "icon" -o '<icon src="' -v @src -o '"/>' \
-              -b \
-              -o "</channel>" \
-              "$FILE" >> merged_epg.xml
+            # CHANNELS: rewrite channel IDs
+            sed -n 's/<channel id="\([^"]*\)"/<channel id="\1.'"$SUFFIX"'"/p' "$FILE" >> merged_epg.xml
 
-            # PROGRAMMES — rewrite channel="" → channel="$id.$suffix"
-            xmlstarlet sel -t \
-              -m "/tv/programme" \
-              -o '<programme start="' -v @start '" stop="' -v @stop '" channel="' \
-              -v "concat(@channel,'.$SUFFIX')" \
-              -o '">' \
-              -m "*" -c . \
-              -b \
-              -o "</programme>" \
-              "$FILE" >> merged_epg.xml
+            # PROGRAMMES: rewrite channel="" attribute
+            sed -n 's/channel="\([^"]*\)"/channel="\1.'"$SUFFIX"'"/p' "$FILE" | \
+              sed -n '/<programme/,/<\/programme>/p' >> merged_epg.xml
           }
 
-          extract_with_suffix "$CIGNAL" "cignal"
-          extract_with_suffix "$CLICK" "click"
-          extract_with_suffix "$DZMM" "dzmm"
+          add_with_suffix "$CIGNAL" "cignal"
+          add_with_suffix "$CLICK"  "click"
+          add_with_suffix "$DZMM"   "dzmm"
 
           echo "</tv>" >> merged_epg.xml
 
-          ############################################################
-          # DUPLICATE REPORTING
-          ############################################################
-          echo ""
-          echo "==============================================="
-          echo "     🔍 SCANNING FOR DUPLICATES (REPORT ONLY)  "
-          echo "==============================================="
 
-          # CHANNEL DUPLICATES (should be 0 now)
+      ############################################################
+      # DUPLICATE REPORTING
+      ############################################################
+      - name: Report duplicates
+        run: |
+          echo "Checking duplicate channel IDs..."
           grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml \
             | sort | uniq -d > dup_channels.txt
 
           if [ -s dup_channels.txt ]; then
-            echo "⚠️ Duplicate Channels AFTER suffixing:"
+            echo "⚠️ Duplicate channels detected (should be zero now):"
             cat dup_channels.txt
           else
-            echo "✔ No duplicate channels (suffix fix successful)."
+            echo "✔ No duplicate channel IDs."
           fi
 
-          # PROGRAMME DUPLICATES
-          grep '<programme' merged_epg.xml | \
-            sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' \
+          echo "Checking duplicate programme blocks..."
+          grep '<programme' merged_epg.xml \
+            | sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' \
             | sort | uniq -d > dup_programmes.txt
 
           if [ -s dup_programmes.txt ]; then
-            echo "⚠️ Duplicate programmes found:"
+            echo "⚠️ Duplicate programme entries detected:"
             cat dup_programmes.txt
           else
             echo "✔ No duplicate programmes."
           fi
 
-          echo "==============================================="
-          echo " Merge + suffixing complete"
-          echo "==============================================="
-
 
       ############################################################
-      # VALIDATE XML
+      # VALIDATE MERGED XML
       ############################################################
       - name: Validate XML
         run: |
@@ -138,7 +109,7 @@ jobs:
 
 
       ############################################################
-      # COMMIT & PUSH
+      # COMMIT AND PUSH
       ############################################################
       - name: Commit and push
         env:
@@ -151,6 +122,6 @@ jobs:
 
           git diff --staged --quiet && echo "No changes to commit." && exit 0
 
-          git commit -m "Update merged EPG + source-based channel ID suffixing"
+          git commit -m "merged EPG with source-based suffix IDs"
           git pull --rebase
           git push

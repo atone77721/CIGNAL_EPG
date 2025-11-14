@@ -972,14 +972,14 @@
     <title lang="en">Apple &amp; Onion S1</title>
     <desc lang="en">Apple runs for mayor.</desc>
   </programme>
+  <programme start="20251115100500 +0800" stop="20251115103500 +0800" channel="cg_hbofam">
+    <title lang="en">Apple &amp; Onion S1</title>
+    <desc lang="en">Apple and Onion need to get rid of a problematic dog.</desc>
+  </programme>
   <channel id="cg_cinemax">
     <display-name lang="en">cg_cinemax</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114075500 +0800" stop="20251114100500 +0800" channel="cg_cinemax">
-    <title lang="en">Downsizing</title>
-    <desc lang="en">When scientists find a way to shrink humans to five inches tall, a couple decides to ditch their stressed out lives and downsize to live large in a luxurious community.</desc>
-  </programme>
   <programme start="20251114100500 +0800" stop="20251114120500 +0800" channel="cg_cinemax">
     <title lang="en">Jason Bourne</title>
     <desc lang="en">Matt Damon reprises his most iconic role in the latest chapter of the Bourne franchise.</desc>
@@ -1031,6 +1031,10 @@
   <programme start="20251115080000 +0800" stop="20251115100500 +0800" channel="cg_cinemax">
     <title lang="en">The Interpreter</title>
     <desc lang="en">Intrigue and deception unfold inside the United Nations, when an interpreter accidentally overhears a death threat against an African head of state.</desc>
+  </programme>
+  <programme start="20251115100500 +0800" stop="20251115113500 +0800" channel="cg_cinemax">
+    <title lang="en">Justice League: Crisis On Infinite Earths - Part One</title>
+    <desc lang="en">Death is coming. But what can the combined might of Superman, Wonder Woman, Batman, and hundreds of heroes do to save all reality from ARMAGEDDON?!</desc>
   </programme>
   <channel id="lotusmacau_prd">
     <display-name lang="en">lotusmacau_prd</display-name>
@@ -7285,10 +7289,6 @@
     <display-name lang="en">axn</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114091500 +0800" stop="20251114100500 +0800" channel="axn">
-    <title lang="en">Hudson &amp; Rex (Season 5)</title>
-    <desc lang="en">When Supt. Donovan´s journalism student daughter investigates the story behind a murder on her university campus, the team races to find the killer before someone else becomes the next victim.</desc>
-  </programme>
   <programme start="20251114100500 +0800" stop="20251114105500 +0800" channel="axn">
     <title lang="en">S.W.A.T. (Season 4)</title>
     <desc lang="en">Hondo's (Shemar Moore) future with S.W.A.T. is in question as a white supremacist gang looks to exploit the growing protests against racism within the LAPD.</desc>
@@ -8780,100 +8780,100 @@
     <url>http://example.com</url>
   </channel>
   <programme start="20251114100000 +0800" stop="20251114110000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114110000 +0800" stop="20251114120000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114120000 +0800" stop="20251114130000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114130000 +0800" stop="20251114140000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114140000 +0800" stop="20251114150000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114150000 +0800" stop="20251114160000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114160000 +0800" stop="20251114170000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114170000 +0800" stop="20251114180000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114180000 +0800" stop="20251114190000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114190000 +0800" stop="20251114200000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114200000 +0800" stop="20251114210000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114210000 +0800" stop="20251114220000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114220000 +0800" stop="20251114230000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251114230000 +0800" stop="20251115000000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115000000 +0800" stop="20251115010000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115010000 +0800" stop="20251115020000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115020000 +0800" stop="20251115030000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115030000 +0800" stop="20251115040000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115040000 +0800" stop="20251115050000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115050000 +0800" stop="20251115060000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115060000 +0800" stop="20251115070000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115070000 +0800" stop="20251115080000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115080000 +0800" stop="20251115090000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <programme start="20251115090000 +0800" stop="20251115100000 +0800" channel="tv5_monde">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
+    <title lang="en">TV5 Monde</title>
+    <desc lang="en">TV5MONDE is offering a wide variety of subtitled primetime films and dramas, world news, live sports events, quality documentaries, travel magazines, kids’ shows, and exciting lifestyle programming. With 10 channels reaching 318 million homes worldwide and localized programming subtitled in 12 languages, TV5 reach the world’s business and cultural elite and the vast global French-speaking community.</desc>
   </programme>
   <channel id="nickelodeon">
     <display-name lang="en">nickelodeon</display-name>

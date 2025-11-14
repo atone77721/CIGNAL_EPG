@@ -16,6 +16,9 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
+      ###############################################
+      #   MERGE XML + DUPLICATE REPORTING
+      ###############################################
       - name: Merge XML files into merged_epg.xml
         run: |
           set -e
@@ -35,24 +38,74 @@ jobs:
             exit 1
           fi
 
-          # Start new merged file
           echo "Creating merged_epg.xml"
-          head -n 2 "$CIGNAL" > merged_epg.xml
 
-          # Append function
-          append_xml() {
+          # Write ONLY the <tv ...> header from CIGNAL
+          head -n 1 "$CIGNAL" > merged_epg.xml
+
+          # Function to merge files safely
+          merge_file() {
             FILE=$1
-            echo "Appending $FILE"
-            sed '1,2d;$d' "$FILE" >> merged_epg.xml
+            echo "Adding: $FILE"
+            # Remove only the first (<tv...>) and last (</tv>) lines
+            sed '1d;$d' "$FILE" >> merged_epg.xml
           }
 
-          append_xml "$CIGNAL"
-          append_xml "$CLICK"
-          append_xml "$DZMM"
+          merge_file "$CIGNAL"
+          merge_file "$CLICK"
+          merge_file "$DZMM"
 
-          # Close XML
+          # Append final closing tag
           echo "</tv>" >> merged_epg.xml
 
+          echo ""
+          echo "==============================================="
+          echo "     🔍 SCANNING FOR DUPLICATES (REPORT ONLY)  "
+          echo "==============================================="
+
+          ###############################################
+          # Duplicate Channel ID Report
+          ###############################################
+          echo ""
+          echo "🔸 Checking duplicate CHANNEL IDs..."
+
+          grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml \
+            | sort | uniq -d > dup_channels.txt
+
+          if [ -s dup_channels.txt ]; then
+            echo "⚠️ Duplicate Channel IDs detected:"
+            cat dup_channels.txt
+          else
+            echo "✔ No duplicate channel IDs."
+          fi
+
+          ###############################################
+          # Duplicate Programme Report
+          ###############################################
+          echo ""
+          echo "🔸 Checking duplicate PROGRAMME entries..."
+
+          grep '<programme' merged_epg.xml | \
+            sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' \
+            > all_programmes.txt
+
+          sort all_programmes.txt | uniq -d > dup_programmes.txt
+
+          if [ -s dup_programmes.txt ]; then
+            echo "⚠️ Duplicate programmes detected (channel|start):"
+            cat dup_programmes.txt
+          else
+            echo "✔ No duplicate programmes."
+          fi
+
+          echo ""
+          echo "==============================================="
+          echo "     Duplicate Scan Complete (No Filtering)    "
+          echo "==============================================="
+
+      ###############################################
+      # XML VALIDATION
+      ###############################################
       - name: Validate XML
         run: |
           sudo apt-get update
@@ -62,10 +115,15 @@ jobs:
           xmllint --noout merged_epg.xml
           echo "XML is valid."
 
+      ###############################################
+      # GZIP OUTPUT
+      ###############################################
       - name: GZIP output
-        run: |
-          gzip -c merged_epg.xml > merged_epg.xml.gz
+        run: gzip -c merged_epg.xml > merged_epg.xml.gz
 
+      ###############################################
+      # COMMIT & PUSH
+      ###############################################
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -73,14 +131,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add merged_epg.xml merged_epg.xml.gz
+          git add merged_epg.xml merged_epg.xml.gz dup_channels.txt dup_programmes.txt
 
           # Only commit if there are changes
           git diff --staged --quiet && echo "No changes to commit." && exit 0
 
-          git commit -m "Update merged EPG"
+          git commit -m "Update merged EPG + duplicate report"
 
-          # Pull latest changes to avoid push rejection
           git pull --rebase
-
           git push

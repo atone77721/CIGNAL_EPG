@@ -26,9 +26,9 @@ jobs:
 
       - name: Decode and Run CLICKTHECITY EPG fetcher
         env:
-          CLICKTHECITY_EPG_SCRIPT: ${{ secrets.CLICKTHECITY_EPG_SCRIPT }}
+          CLICKTHECITY_EPG_FETCHER: ${{ secrets.CLICKTHECITY_EPG_FETCHER }}
         run: |
-          echo "$CLICKTHECITY_EPG_SCRIPT" | tr -d '\n' | base64 --decode > clickthecity_epg.py
+          echo "$CLICKTHECITY_EPG_FETCHER" | tr -d '\n' | base64 --decode > clickthecity_epg.py
           python clickthecity_epg.py
           rm clickthecity_epg.py
 

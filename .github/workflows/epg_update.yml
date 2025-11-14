@@ -1,4 +1,4 @@
-name: cignal-epg-scraper
+name: cignal-CTC-epg-scraper
 
 on:
   workflow_dispatch:
@@ -20,28 +20,28 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Google Chrome
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-
       - name: Install Python dependencies
         run: |
-          pip install requests pytz beautifulsoup4 selenium webdriver-manager
+          pip install requests pytz beautifulsoup4
 
-      - name: Decode and Run EPG fetcher from Secret
+      - name: Decode and Run EPG fetcher
         env:
           EPG_FETCHER_SCRIPT: ${{ secrets.EPG_FETCHER_SCRIPT }}
         run: |
-          echo "$EPG_FETCHER_SCRIPT" | tr -d '\n' | base64 --decode > hidden_epg_fetcher.py
-          python hidden_epg_fetcher.py
-          rm hidden_epg_fetcher.py
+          echo "$EPG_FETCHER_SCRIPT" | tr -d '\n' | base64 --decode > epg_script.py
+          python epg_script.py
+          rm epg_script.py
 
       - name: Commit and push if changes
         run: |
           git config --global user.name "actions-user"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/Alobadman/CIGNAL_EPG.git
-          git add cignal_epg.xml cignal_epg.xml.gz clickthecity_epg.xml clickthecity_epg.xml.gz merged_epg.xml merged_epg.xml.gz
-          git diff --staged --quiet || git commit -m "Update Cignal & ClickTheCity EPG data"
-          git push --force
+
+          git add *.xml *.xml.gz || true
+
+          # Commit only if files changed
+          git diff --staged --quiet || git commit -m "Update EPG data"
+
+          # Avoid failing if nothing to push
+          git push || true

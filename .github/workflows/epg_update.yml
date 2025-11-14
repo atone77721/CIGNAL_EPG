@@ -1,4 +1,4 @@
-name: cignal-CTC-epg-scraper
+name: cignal-epg-scraper
 
 on:
   workflow_dispatch:
@@ -26,11 +26,11 @@ jobs:
 
       - name: Decode and Run EPG fetcher
         env:
-          EPG_FETCHER_SCRIPT: ${{ secrets.EPG_FETCHER_SCRIPT }}
+          CIGNAL_EPG_SCRIPT: ${{ secrets.CIGNAL_EPG_SCRIPT }}
         run: |
-          echo "$EPG_FETCHER_SCRIPT" | tr -d '\n' | base64 --decode > epg_script.py
-          python epg_script.py
-          rm epg_script.py
+          echo "$CIGNAL_EPG_SCRIPT" | tr -d '\n' | base64 --decode > cignal_epg.py
+          python cignal_epg.py
+          rm cignal_epg.py
 
       - name: Commit and push if changes
         run: |

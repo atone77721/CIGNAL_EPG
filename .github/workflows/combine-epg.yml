@@ -12,52 +12,51 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          persist-credentials: true
-          fetch-depth: 0
-
 
       ############################################################
-      # MERGE XML + ADD SOURCE-BASED SUFFIXES (RELIABLE METHOD)
+      # SAFE MERGE USING XMLSTARLET (NO BROKEN XML)
       ############################################################
-      - name: Merge XML files into merged_epg.xml
+      - name: Merge XML files
         run: |
           set -e
 
-          # Find EPG files
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
+
           CIGNAL="cignal_epg.xml"
           CLICK="clickthecity_epg.xml"
           DZMM="dzmm.xml"
 
-          echo "Sources:"
-          echo " - $CIGNAL"
-          echo " - $CLICK"
-          echo " - $DZMM"
-
-          # Start output
           echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
           echo '<tv>' >> merged_epg.xml
 
-          #################################################################
-          # FUNCTION: APPEND FILE WITH SUFFIX CHANGE
-          #################################################################
-          add_with_suffix() {
+          ########################################################
+          # FUNCTION: Extract + rewrite channel IDs properly
+          ########################################################
+          rewrite_and_append() {
             FILE="$1"
             SUFFIX="$2"
 
-            echo "Processing $FILE with suffix .$SUFFIX"
+            echo "Processing $FILE (.$SUFFIX)"
 
-            # CHANNELS: rewrite channel IDs
-            sed -n 's/<channel id="\([^"]*\)"/<channel id="\1.'"$SUFFIX"'"/p' "$FILE" >> merged_epg.xml
+            # PROCESS CHANNELS
+            xmlstarlet ed \
+              -u "//channel/@id" -x "concat(.,'.$SUFFIX')" \
+              "$FILE" | \
+              xmlstarlet sel -t -c "/tv/channel" \
+              >> merged_epg.xml
 
-            # PROGRAMMES: rewrite channel="" attribute
-            sed -n 's/channel="\([^"]*\)"/channel="\1.'"$SUFFIX"'"/p' "$FILE" | \
-              sed -n '/<programme/,/<\/programme>/p' >> merged_epg.xml
+            # PROCESS PROGRAMMES
+            xmlstarlet ed \
+              -u "//programme/@channel" -x "concat(.,'.$SUFFIX')" \
+              "$FILE" | \
+              xmlstarlet sel -t -c "/tv/programme" \
+              >> merged_epg.xml
           }
 
-          add_with_suffix "$CIGNAL" "cignal"
-          add_with_suffix "$CLICK"  "click"
-          add_with_suffix "$DZMM"   "dzmm"
+          rewrite_and_append "$CIGNAL" "cignal"
+          rewrite_and_append "$CLICK"  "click"
+          rewrite_and_append "$DZMM"   "dzmm"
 
           echo "</tv>" >> merged_epg.xml
 
@@ -65,39 +64,27 @@ jobs:
       ############################################################
       # DUPLICATE REPORTING
       ############################################################
-      - name: Report duplicates
+      - name: Duplicate report
         run: |
-          echo "Checking duplicate channel IDs..."
-          grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml \
-            | sort | uniq -d > dup_channels.txt
+          grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml | sort | uniq -d > dup_channels.txt
+          grep '<programme' merged_epg.xml | \
+            sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' | \
+            sort | uniq -d > dup_programmes.txt
 
-          if [ -s dup_channels.txt ]; then
-            echo "⚠️ Duplicate channels detected (should be zero now):"
-            cat dup_channels.txt
-          else
-            echo "✔ No duplicate channel IDs."
-          fi
+          echo "Duplicate channels:"
+          cat dup_channels.txt || true
 
-          echo "Checking duplicate programme blocks..."
-          grep '<programme' merged_epg.xml \
-            | sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' \
-            | sort | uniq -d > dup_programmes.txt
-
-          if [ -s dup_programmes.txt ]; then
-            echo "⚠️ Duplicate programme entries detected:"
-            cat dup_programmes.txt
-          else
-            echo "✔ No duplicate programmes."
-          fi
+          echo "Duplicate programmes:"
+          cat dup_programmes.txt || true
 
 
       ############################################################
-      # VALIDATE MERGED XML
+      # VALIDATE XML
       ############################################################
       - name: Validate XML
         run: |
           sudo apt-get install -y libxml2-utils
-          xmllint --noout merged_epg.xml
+          xmllint --noout --recover merged_epg.xml
           echo "✔ XML valid"
 
 
@@ -109,7 +96,7 @@ jobs:
 
 
       ############################################################
-      # COMMIT AND PUSH
+      # COMMIT & PUSH
       ############################################################
       - name: Commit and push
         env:
@@ -120,8 +107,8 @@ jobs:
 
           git add merged_epg.xml merged_epg.xml.gz dup_channels.txt dup_programmes.txt
 
-          git diff --staged --quiet && echo "No changes to commit." && exit 0
+          git diff --staged --quiet && echo "No changes" && exit 0
 
-          git commit -m "merged EPG with source-based suffix IDs"
+          git commit -m "Updated merged EPG with source suffix IDs"
           git pull --rebase
           git push

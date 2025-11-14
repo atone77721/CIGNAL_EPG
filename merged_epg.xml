@@ -4,10 +4,6 @@
     <display-name lang="en">bilyonaryoch</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="bilyonaryoch">
-    <title lang="en">Business 360</title>
-    <desc lang="en">Business 360</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="bilyonaryoch">
     <title lang="en">Trade Talks</title>
     <desc lang="en">Trade Talks</desc>
@@ -131,6 +127,10 @@
   <programme start="20251115093000 +0800" stop="20251115103000 +0800" channel="bilyonaryoch">
     <title lang="en">At The Forefront</title>
     <desc lang="en">At The Forefront</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="bilyonaryoch">
+    <title lang="en">Rampa</title>
+    <desc lang="en">Rampa</desc>
   </programme>
   <channel id="rptv">
     <display-name lang="en">rptv</display-name>
@@ -420,10 +420,6 @@
     <display-name lang="en">tvup_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="tvup_prd">
-    <title lang="en">AI Horizons Ph</title>
-    <desc lang="en">AI Horizons Ph</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="tvup_prd">
     <title lang="en">Sine Pinoy S03</title>
     <desc lang="en">Sine Pinoy S03</desc>
@@ -544,6 +540,10 @@
     <title lang="en">Isports Time</title>
     <desc lang="en">Isports Time</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="tvup_prd">
+    <title lang="en">Tanging Pamilya</title>
+    <desc lang="en">Tanging Pamilya</desc>
+  </programme>
   <channel id="cg_ppv_main_hd">
     <display-name lang="en">ppv_ch_199</display-name>
     <url>http://example.com</url>
@@ -648,10 +648,6 @@
     <display-name lang="en">tvmaria_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="tvmaria_prd">
-    <title lang="en">TV Maria</title>
-    <desc lang="en">TV Maria</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="tvmaria_prd">
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
@@ -764,18 +760,14 @@
     <title lang="en">TV Maria</title>
     <desc lang="en">TV Maria</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="tvmaria_prd">
+    <title lang="en">TV Maria</title>
+    <desc lang="en">TV Maria</desc>
+  </programme>
   <channel id="cg_hbofam">
     <display-name lang="en">cg_hbofam</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114101200 +0800" channel="cg_hbofam">
-    <title lang="en">Camp Lazlo S2</title>
-    <desc lang="en">The Jellies rip a hole in Lumpus' prized tent and will do anything to keep Lumpus from discovering the secret.</desc>
-  </programme>
-  <programme start="20251114101200 +0800" stop="20251114102400 +0800" channel="cg_hbofam">
-    <title lang="en">Camp Lazlo S2</title>
-    <desc lang="en">When the Jellies discover Slinkman used to be an amazing stuntman, they do all they can to restore him to his former glory.</desc>
-  </programme>
   <programme start="20251114102400 +0800" stop="20251114103600 +0800" channel="cg_hbofam">
     <title lang="en">Camp Lazlo S2</title>
     <desc lang="en">The Jellies want a submarine for the lake, and they try to raise the money to buy one.</desc>
@@ -1036,10 +1028,6 @@
     <display-name lang="en">lotusmacau_prd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="lotusmacau_prd">
-    <title lang="en">Lotus Macau</title>
-    <desc lang="en">Lotus Macau</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="lotusmacau_prd">
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
@@ -1152,6 +1140,10 @@
     <title lang="en">Lotus Macau</title>
     <desc lang="en">Lotus Macau</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="lotusmacau_prd">
+    <title lang="en">Lotus Macau</title>
+    <desc lang="en">Lotus Macau</desc>
+  </programme>
   <channel id="cg_hbosign">
     <display-name lang="en">cg_hbosign</display-name>
     <url>http://example.com</url>
@@ -1228,6 +1220,10 @@
     <title lang="en">100 Foot Wave S1</title>
     <desc lang="en">After the WSL competition abruptly ends, the athletes reflect on their beloved, unpredictable sport. Later,Garrett attempts to surf again.</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115121000 +0800" channel="cg_hbosign">
+    <title lang="en">Mean Girls</title>
+    <desc lang="en">Cady is a hit with the A-list clique at her new school, until she makes the mistake of falling for one of their ex-boyfriends.</desc>
+  </programme>
   <channel id="cg_hbohits">
     <display-name lang="en">cg_hbohits</display-name>
     <url>http://example.com</url>
@@ -1292,6 +1288,10 @@
     <title lang="en">Blood Diamond</title>
     <desc lang="en">A smuggler, fisherman and reporter team up in search of a priceless pink diamond, a lost son and the dark story behind the diamond trade.</desc>
   </programme>
+  <programme start="20251115102000 +0800" stop="20251115121000 +0800" channel="cg_hbohits">
+    <title lang="en">Mamma Mia! Here We Go Again</title>
+    <desc lang="en">Five years after the events of Mamma Mia! (2008), Sophie prepares for the grand reopening of the Hotel Bella Donna as she learns more about her mother's past.</desc>
+  </programme>
   <channel id="cg_tvnmovie">
     <display-name lang="en">cg_tvnmovie</display-name>
     <url>http://example.com</url>
@@ -1347,6 +1347,10 @@
   <programme start="20251115082500 +0800" stop="20251115102000 +0800" channel="cg_tvnmovie">
     <title lang="en">THE ODD FAMILY: ZOMBIE ON SALE</title>
     <desc lang="en">When a pharmaceutical company's illegal experiments inadvertently create a zombie, the quirky Park family discovers an interesting side effect to the virus and tries to profit from it.</desc>
+  </programme>
+  <programme start="20251115102000 +0800" stop="20251115122500 +0800" channel="cg_tvnmovie">
+    <title lang="en">A MELODY TO REMEMBER</title>
+    <desc lang="en">Amidst the Korean War in 1952, Lt. Han Sang-ryul formed a choir with the orphaned refugee children in Busan, finding solace and purpose through music, despite the hardships of war.</desc>
   </programme>
   <channel id="cg_dreamworktag">
     <display-name lang="en">cg_dreamworktag</display-name>
@@ -1581,10 +1585,6 @@
     <display-name lang="en">globaltrekker</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114094000 +0800" stop="20251114103000 +0800" channel="globaltrekker">
-    <title lang="en">Alaska: A Year In The Wild</title>
-    <desc lang="en">Summer has arrived in Alaska.This sets the scene for one of the world's greatest migrations of the Alaskan salmon run.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114112000 +0800" channel="globaltrekker">
     <title lang="en">Alaska: A Year In The Wild</title>
     <desc lang="en">Humpback whales return to Alaska's rich feeding grounds and salmon return to spawn in the rivers. The returning salmon however have to negotiate a path past hungry brown bears.</desc>
@@ -1813,10 +1813,6 @@
     <display-name lang="en">nba-tv-philippines</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114080000 +0800" stop="20251114103000 +0800" channel="cgnl_nba">
-    <title lang="en">Toronto Raptors vs.Cleveland Cavaliers 2025-26 NBA  Live</title>
-    <desc lang="en">Toronto Raptors vs.Cleveland Cavaliers 2025-26 NBA  Live</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="cgnl_nba">
     <title lang="en">Inside Practice Ep 3</title>
     <desc lang="en">Inside Practice Ep 3</desc>
@@ -1881,10 +1877,6 @@
     <display-name lang="en">cartoon_net_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114094500 +0800" stop="20251114101500 +0800" channel="cartoon_net_hd">
-    <title lang="en">Teen Titans Go!</title>
-    <desc lang="en">In this episode of "Turbo Titans Go Force" the Titans gain the ability to transform into cars.</desc>
-  </programme>
   <programme start="20251114101500 +0800" stop="20251114104500 +0800" channel="cartoon_net_hd">
     <title lang="en">The Amazing World Of Gumball</title>
     <desc lang="en">The Wattersons are forced to rent their house to a pair of elderly fainting goats.</desc>
@@ -2025,14 +2017,14 @@
     <title lang="en">Teen Titans Go!</title>
     <desc lang="en">The Titans are in Boston, and with the help of Deadman, search for a legendary bowl of clam chowder.</desc>
   </programme>
+  <programme start="20251115101500 +0800" stop="20251115104500 +0800" channel="cartoon_net_hd">
+    <title lang="en">The Amazing World Of Gumball: The Gumball Chronicles</title>
+    <desc lang="en">Gumball, Darwin and Anais need to find a Mother’s Day gift.</desc>
+  </programme>
   <channel id="cnn_hd">
     <display-name lang="en">cnn_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="cnn_hd">
-    <title lang="en">The Source with Kaitlan Collins: Thursday, November 13, 2025 9PM</title>
-    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="cnn_hd">
     <title lang="en">The Source with Kaitlan Collins: Thursday, November 13, 2025 9PM</title>
     <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
@@ -2201,14 +2193,14 @@
     <title lang="en">The Source with Kaitlan Collins: Friday, November 14, 2025 9PM</title>
     <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="cnn_hd">
+    <title lang="en">The Source with Kaitlan Collins: Friday, November 14, 2025 9PM</title>
+    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
+  </programme>
   <channel id="a2z">
     <display-name lang="en">a2z</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="a2z">
-    <title lang="en">A2Z</title>
-    <desc lang="en">A2Z</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="a2z">
     <title lang="en">A2Z</title>
     <desc lang="en">A2Z</desc>
@@ -2318,6 +2310,10 @@
     <desc lang="en">A2Z</desc>
   </programme>
   <programme start="20251115100000 +0800" stop="20251115103000 +0800" channel="a2z">
+    <title lang="en">A2Z</title>
+    <desc lang="en">A2Z</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="a2z">
     <title lang="en">A2Z</title>
     <desc lang="en">A2Z</desc>
   </programme>
@@ -2693,14 +2689,14 @@
     <title lang="en">Race Of Life (S1)</title>
     <desc lang="en">Animals adapt through a series of small, random mutations to compete more effectively for food, water and space.</desc>
   </programme>
+  <programme start="20251115101200 +0800" stop="20251115104000 +0800" channel="animal_planet">
+    <title lang="en">Race Of Life (S1)</title>
+    <desc lang="en">Sleek, dangerous, fast and vicious, no one runs the race of life faster than the big cats of the wild.</desc>
+  </programme>
   <channel id="SPOTV_HD">
     <display-name lang="en">SPOTV_HD</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114093000 +0800" stop="20251114103000 +0800" channel="SPOTV_HD">
-    <title lang="en">The 153rd Open 2025 Official Film</title>
-    <desc lang="en">Fans gather at the iconic Dunluce links for The 153rd Open at Royal Portrush, as the world's best golfers take on the challenges posed by this magnificent course.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="SPOTV_HD">
     <title lang="en">2025/26 A-League Men Mini Match</title>
     <desc lang="en">All the action, goals, and drama from the Isuzu UTE A-League Men match - a fast-paced cutdown packed with unmissable moments.</desc>
@@ -2769,10 +2765,6 @@
     <display-name lang="en">nbn4</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="nbn4">
-    <title lang="en">PTV 4</title>
-    <desc lang="en">PTV 4</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="nbn4">
     <title lang="en">PTV 4</title>
     <desc lang="en">PTV 4</desc>
@@ -2882,6 +2874,10 @@
     <desc lang="en">PTV 4</desc>
   </programme>
   <programme start="20251115100000 +0800" stop="20251115103000 +0800" channel="nbn4">
+    <title lang="en">PTV 4</title>
+    <desc lang="en">PTV 4</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="nbn4">
     <title lang="en">PTV 4</title>
     <desc lang="en">PTV 4</desc>
   </programme>
@@ -3633,10 +3629,6 @@
     <display-name lang="en">cctv4</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114101500 +0800" channel="cctv4">
-    <title lang="en">China News</title>
-    <desc lang="en">It concentrates on the latest news and social changes happening in china and all over the world</desc>
-  </programme>
   <programme start="20251114101500 +0800" stop="20251114110000 +0800" channel="cctv4">
     <title lang="en">On the Way</title>
     <desc lang="en"> a large-scale tourism programme that is designed to present rich tourism resources in China and around the world </desc>
@@ -3796,6 +3788,10 @@
   <programme start="20251115093000 +0800" stop="20251115103000 +0800" channel="cctv4">
     <title lang="en">China Showbiz </title>
     <desc lang="en">The China Showbiz gathers together a wide range of wonderful TV artistic works and directs viewers into a fabulous world of arts through works appreciation and review. </desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115113000 +0800" channel="cctv4">
+    <title lang="en">Universal Show</title>
+    <desc lang="en">A variety show include music, dance, acrobatics, magic and other art forms</desc>
   </programme>
   <channel id="pbarush_hd">
     <display-name lang="en">pbarush_hd</display-name>
@@ -4108,6 +4104,10 @@
   <programme start="20251115100000 +0800" stop="20251115103000 +0800" channel="arirang">
     <title lang="en">The Agenda</title>
     <desc lang="en">The Agenda</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="arirang">
+    <title lang="en">Talk Room</title>
+    <desc lang="en">Talk Room</desc>
   </programme>
   <channel id="kbs_world">
     <display-name lang="en">kbs_world</display-name>
@@ -4569,10 +4569,6 @@
     <display-name lang="en">bbcworld_news</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="bbcworld_news">
-    <title lang="en">BBC News </title>
-    <desc lang="en">The latest news from the BBC.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="bbcworld_news">
     <title lang="en">BBC News </title>
     <desc lang="en">The latest news from the BBC.</desc>
@@ -4857,10 +4853,6 @@
     <display-name lang="en">uaap_varsity</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114080000 +0800" stop="20251114103000 +0800" channel="uaap_varsity">
-    <title lang="en">FEU vs. Ateneo Match 19 Round 2 Women's Football UAAP Season 88 Nov 8 </title>
-    <desc lang="en">FEU vs. Ateneo Match 19 Round 2 Women's Football UAAP Season 88 Nov 8 </desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114130000 +0800" channel="uaap_varsity">
     <title lang="en">UST vs. DLSU Match 20 Round 2 Women's Football UAAP Season 88 Nov 8</title>
     <desc lang="en">UST vs. DLSU Match 20 Round 2 Women's Football UAAP Season 88 Nov 8</desc>
@@ -4921,10 +4913,6 @@
     <display-name lang="en">travel_channel</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114093500 +0800" stop="20251114101800 +0800" channel="travel_channel">
-    <title lang="en">Top Secret Swimming Holes (S3)</title>
-    <desc lang="en">From swimming in emerald pools and cliff diving in a desert to diving into crystal-clear waters, friends explore spectacular and secret swimming sites across the world.</desc>
-  </programme>
   <programme start="20251114101800 +0800" stop="20251114110100 +0800" channel="travel_channel">
     <title lang="en">Paranormal Emergency (S1)</title>
     <desc lang="en">The restless dead call out to a police officer, a mysterious light is spotted in the sky during a night patrol and a rookie comes face-to-face with a legendary spirit.</desc>
@@ -5081,14 +5069,14 @@
     <title lang="en">Luxury Uncovered (S1)</title>
     <desc lang="en">Jenny boards in Sardinia and meets the small team of six crew who tend to their clients every need, before starting her first task.</desc>
   </programme>
+  <programme start="20251115101800 +0800" stop="20251115103900 +0800" channel="travel_channel">
+    <title lang="en">Toy Hunter (S2)</title>
+    <desc lang="en">Jordan Hembrough is in Anaheim, CA, for the annual Wondercon convention.</desc>
+  </programme>
   <channel id="premier_tennishd">
     <display-name lang="en">premier_tennishd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114093000 +0800" stop="20251114103000 +0800" channel="premier_tennishd">
-    <title lang="en">Wanda Diamond League Highlights: Paris</title>
-    <desc lang="en">Wanda Diamond League Highlights: Paris</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114143000 +0800" channel="premier_tennishd">
     <title lang="en">JLPGA Tour: 41st Itoen Ladies Golf Tournament Day 1</title>
     <desc lang="en">JLPGA Tour: 41st Itoen Ladies Golf Tournament Day 1</desc>
@@ -5136,6 +5124,10 @@
   <programme start="20251115093000 +0800" stop="20251115103000 +0800" channel="premier_tennishd">
     <title lang="en">Wanda Diamond League Highlights: Monaco</title>
     <desc lang="en">Wanda Diamond League Highlights: Monaco</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115143000 +0800" channel="premier_tennishd">
+    <title lang="en">JLPGA Tour: 41st Itoen Ladies Golf Tournament Day 2</title>
+    <desc lang="en">JLPGA Tour: 41st Itoen Ladies Golf Tournament Day 2</desc>
   </programme>
   <channel id="pbo">
     <display-name lang="en">pbo</display-name>
@@ -5197,10 +5189,6 @@
     <display-name lang="en">hits_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114093000 +0800" stop="20251114103000 +0800" channel="hits_hd">
-    <title lang="en">Quantum Leap S2 E20 - Maybe Baby</title>
-    <desc lang="en">As a scientist is caught in a time warp, he catapults to different places and past eras, appearing within the bodies of different people. He must correct and change the course of history in order to complete his mission and advance to the next, hoping it will lead him home eventually.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="hits_hd">
     <title lang="en">I Dream Of Jeannie S3 E17 - Genie, Genie, Who's Got the Genie? - Part 2</title>
     <desc lang="en">An astronaut's life is thrown into chaos when he discovers a bottle that contains a beautiful female genie.</desc>
@@ -5331,6 +5319,10 @@
   </programme>
   <programme start="20251115100000 +0800" stop="20251115103000 +0800" channel="hits_hd">
     <title lang="en">I Dream Of Jeannie S3 E11 - Tony's Wife</title>
+    <desc lang="en">An astronaut's life is thrown into chaos when he discovers a bottle that contains a beautiful female genie.</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="hits_hd">
+    <title lang="en">I Dream Of Jeannie S3 E12 - Jeannie and the Great Bank Robbery</title>
     <desc lang="en">An astronaut's life is thrown into chaos when he discovers a bottle that contains a beautiful female genie.</desc>
   </programme>
   <channel id="aljazeera">
@@ -5541,10 +5533,6 @@
     <display-name lang="en">foodnetwork_hd</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114102400 +0800" channel="foodnetwork_hd">
-    <title lang="en">Guilty Pleasures (S2)</title>
-    <desc lang="en">Food Network stars 'fess up and reveal their pig-tastic guilty pleasures.</desc>
-  </programme>
   <programme start="20251114102400 +0800" stop="20251114104800 +0800" channel="foodnetwork_hd">
     <title lang="en">Guilty Pleasures (S2)</title>
     <desc lang="en">Food Network stars go all out for these sweet and salty indulgences.</desc>
@@ -5721,10 +5709,6 @@
     <display-name lang="en">depedchannel</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="depedchannel">
-    <title lang="en">DepEd TV</title>
-    <desc lang="en">DepEd TV</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="depedchannel">
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
@@ -5837,14 +5821,14 @@
     <title lang="en">DepEd TV</title>
     <desc lang="en">DepEd TV</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="depedchannel">
+    <title lang="en">DepEd TV</title>
+    <desc lang="en">DepEd TV</desc>
+  </programme>
   <channel id="tv5">
     <display-name lang="en">tv5</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20251114090000 +0800" stop="20251114103000 +0800" channel="tv5">
-    <title lang="en">Cine Cinco Sa Umaga: Anak Ng Lupa</title>
-    <desc lang="en">Cine Cinco Sa Umaga: Anak Ng Lupa</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="tv5">
     <title lang="en">Frontline Express (Live)</title>
     <desc lang="en">Frontline Express (Live)</desc>
@@ -6185,6 +6169,10 @@
     <title lang="en">Bituing Walang Ningning (Digitally Enhanced)</title>
     <desc lang="en">A tale about an avid fan that attained her dream of someday becoming a bigger star than her idol.</desc>
   </programme>
+  <programme start="20251115101500 +0800" stop="20251115120000 +0800" channel="viva">
+    <title lang="en">Sgt. Ernesto Baliola: Tinik Sa Batas</title>
+    <desc lang="en">Sgt. Ernesto Baliola: Tinik Sa Batas</desc>
+  </programme>
   <channel id="bloomberg">
     <display-name lang="en">bloomberg</display-name>
     <url>http://example.com</url>
@@ -6289,10 +6277,6 @@
     <display-name lang="en">nhk_japan</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="nhk_japan">
-    <title lang="en">NHK NEWSLINE</title>
-    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="nhk_japan">
     <title lang="en">Printing Construction Innovation</title>
     <desc lang="en">Concrete is essential to Japan's infrastructure, yet aging structures and labor shortages are major issues. A national project now promotes 3D Concrete Printing as a key innovative solution.</desc>
@@ -6533,10 +6517,6 @@
     <display-name lang="en">asianfoodnetwork</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="asianfoodnetwork">
-    <title lang="en">Everyday Gourmet (S11)</title>
-    <desc lang="en">Develop your prowess in the kitchen with one of Australia's most recognisable culinary faces, Justine Schofield on Everyday Gourmet.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114112500 +0800" channel="asianfoodnetwork">
     <title lang="en">Hidden Gem (S1)</title>
     <desc lang="en">In Ayutthaya, discover a dessert shop that sells a beloved Thai dessert that's recommended by the Michelin guide.</desc>
@@ -6705,6 +6685,10 @@
     <title lang="en">Everyday Gourmet (S11)</title>
     <desc lang="en">Develop your prowess in the kitchen with one of Australia's most recognisable culinary faces, Justine Schofield on Everyday Gourmet.</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115105500 +0800" channel="asianfoodnetwork">
+    <title lang="en">Spice Whisperer (S1)</title>
+    <desc lang="en">What is nutmeg's connection to Singapore's history? Why is there a Nutmeg Road and two nutmeg-shaped sculptures along Orchard?</desc>
+  </programme>
   <channel id="onesports">
     <display-name lang="en">onesports</display-name>
     <url>http://example.com</url>
@@ -6764,6 +6748,10 @@
   <programme start="20251115100000 +0800" stop="20251115103000 +0800" channel="onesports">
     <title lang="en">The Bounce</title>
     <desc lang="en">The Bounce</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="onesports">
+    <title lang="en">School Spirit</title>
+    <desc lang="en">School Spirit</desc>
   </programme>
   <channel id="nickjr">
     <display-name lang="en">nickjr</display-name>
@@ -7177,10 +7165,6 @@
     <display-name lang="en">ibc13</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114103000 +0800" channel="ibc13">
-    <title lang="en">IBC 13</title>
-    <desc lang="en">IBC 13</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114110000 +0800" channel="ibc13">
     <title lang="en">IBC 13</title>
     <desc lang="en">IBC 13</desc>
@@ -7290,6 +7274,10 @@
     <desc lang="en">IBC 13</desc>
   </programme>
   <programme start="20251115100000 +0800" stop="20251115103000 +0800" channel="ibc13">
+    <title lang="en">IBC 13</title>
+    <desc lang="en">IBC 13</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115110000 +0800" channel="ibc13">
     <title lang="en">IBC 13</title>
     <desc lang="en">IBC 13</desc>
   </programme>
@@ -7473,10 +7461,6 @@
     <display-name lang="en">taptv</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114080000 +0800" stop="20251114103000 +0800" channel="taptv">
-    <title lang="en">Today</title>
-    <desc lang="en">Today</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114113000 +0800" channel="taptv">
     <title lang="en">The Kelly Clarkson Show S6</title>
     <desc lang="en">The Kelly Clarkson Show S6</desc>
@@ -7560,6 +7544,10 @@
   <programme start="20251115080000 +0800" stop="20251115103000 +0800" channel="taptv">
     <title lang="en">Today</title>
     <desc lang="en">Today</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115113000 +0800" channel="taptv">
+    <title lang="en">The Kelly Clarkson Show S6</title>
+    <desc lang="en">The Kelly Clarkson Show S6</desc>
   </programme>
   <channel id="moonbug_kids">
     <display-name lang="en">moonbug_kids</display-name>
@@ -7693,18 +7681,6 @@
     <display-name lang="en">france24</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114101500 +0800" channel="france24">
-    <title lang="en">News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
-  <programme start="20251114101500 +0800" stop="20251114101600 +0800" channel="france24">
-    <title lang="en">News</title>
-    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
-  </programme>
-  <programme start="20251114101600 +0800" stop="20251114103000 +0800" channel="france24">
-    <title lang="en">Across Africa</title>
-    <desc lang="en">Across Africa is a weekly news program presenting latest updates and stories from the African continent to the world. Get up-to-date full coverage of politics, social events, economic analysis with the help of our team of professional reporters. </desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114104500 +0800" channel="france24">
     <title lang="en">News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
@@ -8113,6 +8089,18 @@
     <title lang="en">News</title>
     <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
   </programme>
+  <programme start="20251115101400 +0800" stop="20251115101500 +0800" channel="france24">
+    <title lang="en">News</title>
+    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
+  <programme start="20251115101500 +0800" stop="20251115103000 +0800" channel="france24">
+    <title lang="en">Access Asia</title>
+    <desc lang="en">Access Asia opens the diverse continent and presents news from its segments to the audience. Get the latest updates on the social events and political stories, thorough analysis of the cutting-edge current affairs from India, China, Indonesia, Australia and other countries. </desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115104400 +0800" channel="france24">
+    <title lang="en">News</title>
+    <desc lang="en">Watch the latest international top stories, The News every 30 minutes with the emphasis on debate, dialogue, role of cultural differences, analytics of key events all over the world, comments, hot topics of the day, reports.</desc>
+  </programme>
   <channel id="abc_australia">
     <display-name lang="en">abc_australia</display-name>
     <url>http://example.com</url>
@@ -8241,14 +8229,14 @@
     <title lang="en">ABC News - Episode 91</title>
     <desc lang="en">Melissa Mackay presents the latest from ABC News on the weekend bringing you today's top stories and coverage of events as they unfold. Plus original reporting, analysis and updated news, sport, weather and information.</desc>
   </programme>
+  <programme start="20251115103000 +0800" stop="20251115105500 +0800" channel="abc_australia">
+    <title lang="en">Asia News Week - Episode 43</title>
+    <desc lang="en">Yvonne Yong brings you a weekly roundup of the stories making news across the Asia region, plus what's trending on social media and making an impact on the culture and the way people live.</desc>
+  </programme>
   <channel id="hits_movies">
     <display-name lang="en">hits_movies</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114084500 +0800" stop="20251114103000 +0800" channel="hits_movies">
-    <title lang="en">The Negotiator</title>
-    <desc lang="en">A mentally ill young woman finds her love in an eccentric man who models himself after Buster Keaton.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114123000 +0800" channel="hits_movies">
     <title lang="en">Rocky II</title>
     <desc lang="en">Fortune hunter Allan Quatermain teams up with a resourceful woman to help her find her missing father lost in the wilds of 1900s Africa while being pursued by hostile tribes and a rival German explorer.</desc>
@@ -8471,10 +8459,6 @@
     <display-name lang="en">crime_investigation</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114093500 +0800" stop="20251114103000 +0800" channel="crime_investigation">
-    <title lang="en">Beyond The Headlines: The Series</title>
-    <desc lang="en">Stories of mothers and fathers who made headlines by committing crimes out of malice, extremism, and desperation.</desc>
-  </programme>
   <programme start="20251114103000 +0800" stop="20251114112500 +0800" channel="crime_investigation">
     <title lang="en">The First 48 Presents: Critical Minutes (S2)</title>
     <desc lang="en">In Tulsa, what appears to be a case of road rage turns out to be something else entirely. A man is stabbed to death in his car and detectives have a hard time believing his friend's story of what happened.</desc>
@@ -8582,6 +8566,10 @@
   <programme start="20251115093500 +0800" stop="20251115103000 +0800" channel="crime_investigation">
     <title lang="en">#TextMeWhenYouGetHome (S2)</title>
     <desc lang="en">Residents of Robeson, Pennsylvania were stunned when Ashley Kline went missing on New Year's Eve. The 12-day search turned up several suspects until investigators uncovered suspicious text messages.</desc>
+  </programme>
+  <programme start="20251115103000 +0800" stop="20251115112500 +0800" channel="crime_investigation">
+    <title lang="en">Booked: First Day In (S2)</title>
+    <desc lang="en">In Modesto, a 21-year-old lands in jail for kicking a police officer, while a man in Virginia Beach is brought in after robbing several gas stations.</desc>
   </programme>
   <channel id="buko">
     <display-name lang="en">buko</display-name>
@@ -8887,10 +8875,6 @@
     <display-name lang="en">nickelodeon</display-name>
     <url>http://www.cignalplay.com</url>
   </channel>
-  <programme start="20251114100000 +0800" stop="20251114102000 +0800" channel="nickelodeon">
-    <title lang="en">The Thundermans: Undercover</title>
-    <desc lang="en">Max seeks help dealing with a mystery prankster at school from his old principal, who was always the target of his pranks. But Max fails to stop the pranks and quits the mission, prompting Chloe to confess that she was the prankster all along.</desc>
-  </programme>
   <programme start="20251114102000 +0800" stop="20251114104500 +0800" channel="nickelodeon">
     <title lang="en">Danger Force</title>
     <desc lang="en">The Supies! Swellview's biggest night for superheros, and Captain Man is not invited. Danger Force enlists Henry's help to make sure the night goes off without a hitch!</desc>
@@ -9155,6 +9139,10 @@
     <title lang="en">The Thundermans: Undercover</title>
     <desc lang="en">Chloe is struggling with her leadership skills, but when a villain attacks her school field trip, Max and Phoebe have to put Chloe in charge while they try to take down the villain and defuse his dangerous astronomical weapon.</desc>
   </programme>
+  <programme start="20251115102000 +0800" stop="20251115104500 +0800" channel="nickelodeon">
+    <title lang="en">Danger Force</title>
+    <desc lang="en">When a tax loophole allows Dr. Minyak to buy the Man's Nest, Captain Man must stand his ground and live with his terrible new roommate while Danger Force tries to find a way to reverse the sale before they lose the Man's Nest for good.</desc>
+  </programme>
   <channel id="sari_sari">
     <display-name lang="en">sari_sari</display-name>
     <url>http://example.com</url>
@@ -9263,16 +9251,16 @@ and innovations of the new generation?</desc>
     <title lang="en">Sari Saring Sine: Hindi Pa Tapos ang Laban</title>
     <desc lang="en">Fernando Poe Jr. stars as Carding Villamar, a city professional who returns to their hometown of Evangelista after learning of his brother's untimely demise. As a series of events unfold, he soon discovers that his brother didn't succumb to a heart attack as he was made to believe. He was shot in cold blood for refusing to sell his land to a powerful congressman. With a town muted and crippled by fear, the congressman's henchmen move unhampered to silence Carding and his brother's orphaned family as well. Big mistake. Armed with only a crusty riffle and a whole ton of rage. Carding sets out to right the wrong and exact vengeance for the murder of his brother. That is, if he survives the hot pursuits of bounty hunters, the militia and the police who are all in the congressman's payroll.</desc>
   </programme>
-  <channel id="a2z">
+  <channel id="a2z-alt">
     <display-name>a2z</display-name>
   </channel>
   <channel id="anc">
     <display-name>anc</display-name>
   </channel>
-  <channel id="animax">
+  <channel id="animax-alt">
     <display-name>animax</display-name>
   </channel>
-  <channel id="axn">
+  <channel id="axn-alt">
     <display-name>axn</display-name>
   </channel>
   <channel id="cinema-one">
@@ -9296,7 +9284,7 @@ and innovations of the new generation?</desc>
   <channel id="net-25">
     <display-name>net-25</display-name>
   </channel>
-  <channel id="pbo">
+  <channel id="pbo-alt">
     <display-name>pbo</display-name>
   </channel>
   <channel id="ptv">
@@ -9305,101 +9293,98 @@ and innovations of the new generation?</desc>
   <channel id="solar-flix">
     <display-name>solar-flix</display-name>
   </channel>
-  <channel id="tv5">
+  <channel id="tv5-alt">
     <display-name>tv5</display-name>
   </channel>
   <channel id="viva-cinema">
     <display-name>viva-cinema</display-name>
   </channel>
-  <programme channel="gma" start="20251114093000 +0800" stop="20251114100000 +0800">
+  <programme channel="gma-alt" start="20251114093000 +0800" stop="20251114100000 +0800">
     <title>Kapuso Movie Festival</title>
   </programme>
-  <programme channel="gma" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="gma-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>Tiktoclock</title>
   </programme>
-  <programme channel="gma" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="gma-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>It's Showtime</title>
   </programme>
-  <programme channel="gma" start="20251114143000 +0800" stop="20251114150000 +0800">
+  <programme channel="gma-alt" start="20251114143000 +0800" stop="20251114150000 +0800">
     <title>Hating Kapatid</title>
   </programme>
-  <programme channel="gma" start="20251114152000 +0800" stop="20251114155000 +0800">
+  <programme channel="gma-alt" start="20251114152000 +0800" stop="20251114155000 +0800">
     <title>Cruz vs. Cruz</title>
   </programme>
-  <programme channel="gma" start="20251114160500 +0800" stop="20251114163500 +0800">
+  <programme channel="gma-alt" start="20251114160500 +0800" stop="20251114163500 +0800">
     <title>Unica Hija</title>
   </programme>
-  <programme channel="gma" start="20251114164500 +0800" stop="20251114171500 +0800">
+  <programme channel="gma-alt" start="20251114164500 +0800" stop="20251114171500 +0800">
     <title>Fast Talk with Boy Abunda</title>
   </programme>
-  <programme channel="gma" start="20251114171000 +0800" stop="20251114174000 +0800">
+  <programme channel="gma-alt" start="20251114171000 +0800" stop="20251114174000 +0800">
     <title>You Are My Make-Up Artist</title>
   </programme>
-  <programme channel="gma" start="20251114174000 +0800" stop="20251114181000 +0800">
+  <programme channel="gma-alt" start="20251114174000 +0800" stop="20251114181000 +0800">
     <title>Family Feud</title>
   </programme>
-  <programme channel="gma" start="20251114183000 +0800" stop="20251114190000 +0800">
+  <programme channel="gma-alt" start="20251114183000 +0800" stop="20251114190000 +0800">
     <title>24 Oras</title>
   </programme>
-  <programme channel="gma" start="20251114200500 +0800" stop="20251114203500 +0800">
+  <programme channel="gma-alt" start="20251114200500 +0800" stop="20251114203500 +0800">
     <title>Encantadia Chronicles: Sang'gre</title>
   </programme>
-  <programme channel="gma" start="20251114205500 +0800" stop="20251114212500 +0800">
+  <programme channel="gma-alt" start="20251114205500 +0800" stop="20251114212500 +0800">
     <title>Sanggang - Dikit FR</title>
   </programme>
-  <programme channel="gma" start="20251114214000 +0800" stop="20251114221000 +0800">
+  <programme channel="gma-alt" start="20251114214000 +0800" stop="20251114221000 +0800">
     <title>Amazing Earth</title>
   </programme>
-  <programme channel="gma" start="20251114222000 +0800" stop="20251114225000 +0800">
+  <programme channel="gma-alt" start="20251114222000 +0800" stop="20251114225000 +0800">
     <title>Saksi</title>
   </programme>
-  <programme channel="gma" start="20251114230000 +0800" stop="20251114233000 +0800">
+  <programme channel="gma-alt" start="20251114230000 +0800" stop="20251114233000 +0800">
     <title>When I Marry A Stranger</title>
   </programme>
-  <programme channel="gma" start="20251114233000 +0800" stop="20251115000000 +0800">
+  <programme channel="gma-alt" start="20251114233000 +0800" stop="20251115000000 +0800">
     <title>To The Moon and Back</title>
   </programme>
-  <programme channel="gtv" start="20251114090000 +0800" stop="20251114093000 +0800">
+  <programme channel="gtv-alt" start="20251114090000 +0800" stop="20251114093000 +0800">
     <title>Cinema G!</title>
   </programme>
-  <programme channel="gtv" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="gtv-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>Balitanghali</title>
   </programme>
-  <programme channel="gtv" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="gtv-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Noontime Movie Hits</title>
   </programme>
-  <programme channel="gtv" start="20251114143000 +0800" stop="20251114150000 +0800">
+  <programme channel="gtv-alt" start="20251114143000 +0800" stop="20251114150000 +0800">
     <title>Princess Hours</title>
   </programme>
-  <programme channel="gtv" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="gtv-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>Bad Romeo</title>
   </programme>
-  <programme channel="gtv" start="20251114153000 +0800" stop="20251114160000 +0800">
+  <programme channel="gtv-alt" start="20251114153000 +0800" stop="20251114160000 +0800">
     <title>Afternoon Movie Break</title>
   </programme>
-  <programme channel="gtv" start="20251114174500 +0800" stop="20251114181500 +0800">
+  <programme channel="gtv-alt" start="20251114174500 +0800" stop="20251114181500 +0800">
     <title>Hearts On Ice</title>
   </programme>
-  <programme channel="gtv" start="20251114183000 +0800" stop="20251114190000 +0800">
+  <programme channel="gtv-alt" start="20251114183000 +0800" stop="20251114190000 +0800">
     <title>24 Oras</title>
   </programme>
-  <programme channel="gtv" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="gtv-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>G! Flicks</title>
   </programme>
-  <programme channel="gtv" start="20251114214500 +0800" stop="20251114221500 +0800">
+  <programme channel="gtv-alt" start="20251114214500 +0800" stop="20251114221500 +0800">
     <title>Encantadia Chronicles: Sang'gre</title>
   </programme>
-  <programme channel="gtv" start="20251114223000 +0800" stop="20251114230000 +0800">
+  <programme channel="gtv-alt" start="20251114223000 +0800" stop="20251114230000 +0800">
     <title>Sanggang - Dikit FR</title>
   </programme>
-  <programme channel="gtv" start="20251114230500 +0800" stop="20251114233500 +0800">
+  <programme channel="gtv-alt" start="20251114230500 +0800" stop="20251114233500 +0800">
     <title>State Of The Nation</title>
   </programme>
-  <programme channel="gtv" start="20251114232500 +0800" stop="20251114235500 +0800">
+  <programme channel="gtv-alt" start="20251114232500 +0800" stop="20251114235500 +0800">
     <title>True Horror Stories</title>
-  </programme>
-  <programme channel="tv5" start="20251114090000 +0800" stop="20251114093000 +0800">
-    <title>Cine Cinco Sa Umaga</title>
   </programme>
   <programme channel="tv5" start="20251114103000 +0800" stop="20251114110000 +0800">
     <title>Frontline Express Live</title>
@@ -9521,241 +9506,238 @@ and innovations of the new generation?</desc>
   <programme channel="a2z" start="20251114231500 +0800" stop="20251114234500 +0800">
     <title>Bro. Eddie Villanueva Classics</title>
   </programme>
-  <programme channel="ptv" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="ptv-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>Radyo Publiko Serbisyo</title>
   </programme>
-  <programme channel="ptv" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="ptv-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>ASEAN Documentary</title>
   </programme>
-  <programme channel="ptv" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="ptv-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Bagong Pilipinas Ngayon</title>
   </programme>
-  <programme channel="ptv" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="ptv-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>Sentro Balita</title>
   </programme>
-  <programme channel="ptv" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="ptv-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>ASEAN Documentary</title>
   </programme>
-  <programme channel="ptv" start="20251114141500 +0800" stop="20251114144500 +0800">
+  <programme channel="ptv-alt" start="20251114141500 +0800" stop="20251114144500 +0800">
     <title>Stories From The Grid</title>
   </programme>
-  <programme channel="ptv" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="ptv-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>PTV Sports</title>
   </programme>
-  <programme channel="ptv" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="ptv-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>Kangrunaan A Damag</title>
   </programme>
-  <programme channel="ptv" start="20251114170000 +0800" stop="20251114173000 +0800">
+  <programme channel="ptv-alt" start="20251114170000 +0800" stop="20251114173000 +0800">
     <title>PTV News Mindanao</title>
   </programme>
-  <programme channel="ptv" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="ptv-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>Ulat Bayan</title>
   </programme>
-  <programme channel="ptv" start="20251114190000 +0800" stop="20251114193000 +0800">
+  <programme channel="ptv-alt" start="20251114190000 +0800" stop="20251114193000 +0800">
     <title>In Person</title>
   </programme>
-  <programme channel="ptv" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="ptv-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>Larry Gadon Live</title>
   </programme>
-  <programme channel="ptv" start="20251114210000 +0800" stop="20251114213000 +0800">
+  <programme channel="ptv-alt" start="20251114210000 +0800" stop="20251114213000 +0800">
     <title>PTV News Tonight</title>
   </programme>
-  <programme channel="ptv" start="20251114220000 +0800" stop="20251114223000 +0800">
+  <programme channel="ptv-alt" start="20251114220000 +0800" stop="20251114223000 +0800">
     <title>Oras Ng Himala</title>
   </programme>
-  <programme channel="ptv" start="20251114230000 +0800" stop="20251114233000 +0800">
+  <programme channel="ptv-alt" start="20251114230000 +0800" stop="20251114233000 +0800">
     <title>Bagong Pilipinas Ngayon</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>#IPABITAGMO - Sumbungan Ng Sambayanan</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114123000 +0800" stop="20251114130000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114123000 +0800" stop="20251114130000 +0800">
     <title>Congress TV</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>AlaUna Sa Balita</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>PCSO Lottery Draw</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114141500 +0800" stop="20251114144500 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114141500 +0800" stop="20251114144500 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>Faces Of ASEAN</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114153000 +0800" stop="20251114160000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114153000 +0800" stop="20251114160000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>IBC Tutok 13</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114170000 +0800" stop="20251114173000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114170000 +0800" stop="20251114173000 +0800">
     <title>PCSO Lottery Draw</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114171500 +0800" stop="20251114174500 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114171500 +0800" stop="20251114174500 +0800">
     <title>ASEAN Changing Lives</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114173000 +0800" stop="20251114180000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114173000 +0800" stop="20251114180000 +0800">
     <title>Restourant</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114190000 +0800" stop="20251114193000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114190000 +0800" stop="20251114193000 +0800">
     <title>IBC Express Balita</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114191000 +0800" stop="20251114194000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114191000 +0800" stop="20251114194000 +0800">
     <title>Chairman's Report With Dante "Klink" Ang</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>IBC Express Balita</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114201000 +0800" stop="20251114204000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114201000 +0800" stop="20251114204000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114210000 +0800" stop="20251114213000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114210000 +0800" stop="20251114213000 +0800">
     <title>PCSO Lottery Draw</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114213000 +0800" stop="20251114220000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114213000 +0800" stop="20251114220000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20251114220000 +0800" stop="20251114223000 +0800">
+  <programme channel="ibc-tv-13-alt" start="20251114220000 +0800" stop="20251114223000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="solar-flix" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="solar-flix-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>Oras Ng Himala</title>
   </programme>
-  <programme channel="solar-flix" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="solar-flix-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>In Between</title>
   </programme>
-  <programme channel="solar-flix" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="solar-flix-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Recipes Of Love</title>
   </programme>
-  <programme channel="solar-flix" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="solar-flix-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>Sea Lullabies</title>
   </programme>
-  <programme channel="solar-flix" start="20251114133000 +0800" stop="20251114140000 +0800">
+  <programme channel="solar-flix-alt" start="20251114133000 +0800" stop="20251114140000 +0800">
     <title>Shop Tv</title>
   </programme>
-  <programme channel="solar-flix" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="solar-flix-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>Ang Galing Galing Mo Mrs. Jones</title>
   </programme>
-  <programme channel="solar-flix" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="solar-flix-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>Forbidden Fruit S2</title>
   </programme>
-  <programme channel="solar-flix" start="20251114170000 +0800" stop="20251114173000 +0800">
+  <programme channel="solar-flix-alt" start="20251114170000 +0800" stop="20251114173000 +0800">
     <title>In Between</title>
   </programme>
-  <programme channel="solar-flix" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="solar-flix-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>Secret Of Feriha The Untold Story</title>
   </programme>
-  <programme channel="solar-flix" start="20251114190000 +0800" stop="20251114193000 +0800">
+  <programme channel="solar-flix-alt" start="20251114190000 +0800" stop="20251114193000 +0800">
     <title>Sa Akin Ang Iyong Katawan</title>
   </programme>
-  <programme channel="solar-flix" start="20251114210000 +0800" stop="20251114213000 +0800">
+  <programme channel="solar-flix-alt" start="20251114210000 +0800" stop="20251114213000 +0800">
     <title>Secret Of Feriha The Untold Story</title>
   </programme>
-  <programme channel="solar-flix" start="20251114220000 +0800" stop="20251114223000 +0800">
+  <programme channel="solar-flix-alt" start="20251114220000 +0800" stop="20251114223000 +0800">
     <title>Molata</title>
   </programme>
-  <programme channel="solar-flix" start="20251115000000 +0800" stop="20251115003000 +0800">
+  <programme channel="solar-flix-alt" start="20251115000000 +0800" stop="20251115003000 +0800">
     <title>Relative Happiness</title>
   </programme>
-  <programme channel="solar-flix" start="20251115020000 +0800" stop="20251115023000 +0800">
+  <programme channel="solar-flix-alt" start="20251115020000 +0800" stop="20251115023000 +0800">
     <title>Naiibang Hayop</title>
   </programme>
-  <programme channel="solar-flix" start="20251115040000 +0800" stop="20251115043000 +0800">
+  <programme channel="solar-flix-alt" start="20251115040000 +0800" stop="20251115043000 +0800">
     <title>Enemy</title>
   </programme>
-  <programme channel="anc" start="20251114100000 +0800" stop="20251114103000 +0800">
-    <title>Local Legends</title>
-  </programme>
-  <programme channel="anc" start="20251114103000 +0800" stop="20251114110000 +0800">
+  <programme channel="anc-alt" start="20251114103000 +0800" stop="20251114110000 +0800">
     <title>Hot Copy on Headstart with Karen Davila</title>
   </programme>
-  <programme channel="anc" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="anc-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>Global Us</title>
   </programme>
-  <programme channel="anc" start="20251114113000 +0800" stop="20251114120000 +0800">
+  <programme channel="anc-alt" start="20251114113000 +0800" stop="20251114120000 +0800">
     <title>Rev</title>
   </programme>
-  <programme channel="anc" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="anc-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Dateline Philippines</title>
   </programme>
-  <programme channel="anc" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="anc-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>24x24</title>
   </programme>
-  <programme channel="anc" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="anc-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>In Good Shape</title>
   </programme>
-  <programme channel="anc" start="20251114143000 +0800" stop="20251114150000 +0800">
+  <programme channel="anc-alt" start="20251114143000 +0800" stop="20251114150000 +0800">
     <title>Dayaw</title>
   </programme>
-  <programme channel="anc" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="anc-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>Business Roadshow</title>
   </programme>
-  <programme channel="anc" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="anc-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>Beyond The Exchange</title>
   </programme>
-  <programme channel="anc" start="20251114163000 +0800" stop="20251114170000 +0800">
+  <programme channel="anc-alt" start="20251114163000 +0800" stop="20251114170000 +0800">
     <title>Tomorrow Today</title>
   </programme>
-  <programme channel="anc" start="20251114170000 +0800" stop="20251114173000 +0800">
+  <programme channel="anc-alt" start="20251114170000 +0800" stop="20251114173000 +0800">
     <title>Top Story</title>
   </programme>
-  <programme channel="anc" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="anc-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>LSS: The Martin Nievera Show</title>
   </programme>
-  <programme channel="anc" start="20251114183000 +0800" stop="20251114190000 +0800">
+  <programme channel="anc-alt" start="20251114183000 +0800" stop="20251114190000 +0800">
     <title>TV Patrol</title>
   </programme>
-  <programme channel="anc" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="anc-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>Business Outlook</title>
   </programme>
-  <programme channel="anc" start="20251114203000 +0800" stop="20251114210000 +0800">
+  <programme channel="anc-alt" start="20251114203000 +0800" stop="20251114210000 +0800">
     <title>At The Moment</title>
   </programme>
-  <programme channel="anc" start="20251114210000 +0800" stop="20251114213000 +0800">
+  <programme channel="anc-alt" start="20251114210000 +0800" stop="20251114213000 +0800">
     <title>The World Tonight</title>
   </programme>
-  <programme channel="anc" start="20251114213000 +0800" stop="20251114220000 +0800">
+  <programme channel="anc-alt" start="20251114213000 +0800" stop="20251114220000 +0800">
     <title>LSS: The Martin Nievera Show</title>
   </programme>
-  <programme channel="anc" start="20251114220000 +0800" stop="20251114223000 +0800">
+  <programme channel="anc-alt" start="20251114220000 +0800" stop="20251114223000 +0800">
     <title>Made in Germany</title>
   </programme>
-  <programme channel="anc" start="20251114223000 +0800" stop="20251114230000 +0800">
+  <programme channel="anc-alt" start="20251114223000 +0800" stop="20251114230000 +0800">
     <title>Rev</title>
   </programme>
-  <programme channel="anc" start="20251114230000 +0800" stop="20251114233000 +0800">
+  <programme channel="anc-alt" start="20251114230000 +0800" stop="20251114233000 +0800">
     <title>Chasing Flavors</title>
   </programme>
-  <programme channel="anc" start="20251115000000 +0800" stop="20251115003000 +0800">
+  <programme channel="anc-alt" start="20251115000000 +0800" stop="20251115003000 +0800">
     <title>The World Tonight</title>
   </programme>
-  <programme channel="anc" start="20251115003000 +0800" stop="20251115010000 +0800">
+  <programme channel="anc-alt" start="20251115003000 +0800" stop="20251115010000 +0800">
     <title>Insight with April Lee-Tan</title>
   </programme>
-  <programme channel="anc" start="20251115010000 +0800" stop="20251115013000 +0800">
+  <programme channel="anc-alt" start="20251115010000 +0800" stop="20251115013000 +0800">
     <title>Headstart with Karen Davila</title>
   </programme>
-  <programme channel="anc" start="20251115020000 +0800" stop="20251115023000 +0800">
+  <programme channel="anc-alt" start="20251115020000 +0800" stop="20251115023000 +0800">
     <title>Local Legends</title>
   </programme>
-  <programme channel="anc" start="20251115023000 +0800" stop="20251115030000 +0800">
+  <programme channel="anc-alt" start="20251115023000 +0800" stop="20251115030000 +0800">
     <title>On Cue</title>
   </programme>
-  <programme channel="anc" start="20251115030000 +0800" stop="20251115033000 +0800">
+  <programme channel="anc-alt" start="20251115030000 +0800" stop="20251115033000 +0800">
     <title>EIC on The Move</title>
   </programme>
-  <programme channel="anc" start="20251115033000 +0800" stop="20251115040000 +0800">
+  <programme channel="anc-alt" start="20251115033000 +0800" stop="20251115040000 +0800">
     <title>At The Moment</title>
   </programme>
-  <programme channel="anc" start="20251115040000 +0800" stop="20251115043000 +0800">
+  <programme channel="anc-alt" start="20251115040000 +0800" stop="20251115043000 +0800">
     <title>Beached</title>
   </programme>
   <programme channel="axn" start="20251114101000 +0800" stop="20251114104000 +0800">
@@ -9887,262 +9869,262 @@ and innovations of the new generation?</desc>
   <programme channel="animax" start="20251115043000 +0800" stop="20251115050000 +0800">
     <title>Why Raeliana Ended Up At The Duke's Mansion</title>
   </programme>
-  <programme channel="cinema-one" start="20251114090000 +0800" stop="20251114093000 +0800">
+  <programme channel="cinema-one-alt" start="20251114090000 +0800" stop="20251114093000 +0800">
     <title>Ultimatum: Ceasefire</title>
   </programme>
-  <programme channel="cinema-one" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="cinema-one-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>Otso-Otso, Pamela-Mela Wan</title>
   </programme>
-  <programme channel="cinema-one" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="cinema-one-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>Don't Give Up On Us</title>
   </programme>
-  <programme channel="cinema-one" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="cinema-one-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>The B Side</title>
   </programme>
-  <programme channel="cinema-one" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="cinema-one-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>The Amazing Praybeyt Benjamin</title>
   </programme>
-  <programme channel="cinema-one" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="cinema-one-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>Crazy Beautiful You</title>
   </programme>
-  <programme channel="cinema-one" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="cinema-one-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>I Love You To Death</title>
   </programme>
-  <programme channel="cinema-one" start="20251114220000 +0800" stop="20251114223000 +0800">
+  <programme channel="cinema-one-alt" start="20251114220000 +0800" stop="20251114223000 +0800">
     <title>K9</title>
   </programme>
-  <programme channel="cinema-one" start="20251115000000 +0800" stop="20251115003000 +0800">
+  <programme channel="cinema-one-alt" start="20251115000000 +0800" stop="20251115003000 +0800">
     <title>Magic To Win 5</title>
   </programme>
-  <programme channel="cinema-one" start="20251115020000 +0800" stop="20251115023000 +0800">
+  <programme channel="cinema-one-alt" start="20251115020000 +0800" stop="20251115023000 +0800">
     <title>Aliw Masarap Na Lason</title>
   </programme>
-  <programme channel="cinema-one" start="20251115040000 +0800" stop="20251115043000 +0800">
+  <programme channel="cinema-one-alt" start="20251115040000 +0800" stop="20251115043000 +0800">
     <title>Bitukang Manok</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>Annaliza</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114110000 +0800" stop="20251114113000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114110000 +0800" stop="20251114113000 +0800">
     <title>Kokey @ Ako</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Aryana</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>Reputasyon</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>Kahit Puso'y Masugatan</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114143000 +0800" stop="20251114150000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114143000 +0800" stop="20251114150000 +0800">
     <title>Walang Hanggan</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>Maging Sino Ka Man</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114154500 +0800" stop="20251114161500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114154500 +0800" stop="20251114161500 +0800">
     <title>The Greatest Love</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114170000 +0800" stop="20251114173000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114170000 +0800" stop="20251114173000 +0800">
     <title>Basta't Kasama Kita</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114173000 +0800" stop="20251114180000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114173000 +0800" stop="20251114180000 +0800">
     <title>TV Patrol Express</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114174500 +0800" stop="20251114181500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114174500 +0800" stop="20251114181500 +0800">
     <title>Galema: Anak Ni Zuma</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114183000 +0800" stop="20251114190000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114183000 +0800" stop="20251114190000 +0800">
     <title>Katorse</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114193000 +0800" stop="20251114200000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114193000 +0800" stop="20251114200000 +0800">
     <title>Kung Ako'y Iiwan Mo</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>The Legal Wife</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114204500 +0800" stop="20251114211500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114204500 +0800" stop="20251114211500 +0800">
     <title>Pusong Ligaw</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114213000 +0800" stop="20251114220000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114213000 +0800" stop="20251114220000 +0800">
     <title>Ang Sa Iyo Ay Akin</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114221500 +0800" stop="20251114224500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114221500 +0800" stop="20251114224500 +0800">
     <title>Sins Of The Father</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114230500 +0800" stop="20251114233500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114230500 +0800" stop="20251114233500 +0800">
     <title>What Lies Beneath</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251114233500 +0800" stop="20251115000500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251114233500 +0800" stop="20251115000500 +0800">
     <title>Galema: Anak Ni Zuma</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251115000000 +0800" stop="20251115003000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251115000000 +0800" stop="20251115003000 +0800">
     <title>Kung Ako'y Iiwan Mo</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251115004500 +0800" stop="20251115011500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251115004500 +0800" stop="20251115011500 +0800">
     <title>Home Along Da Riles</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251115014500 +0800" stop="20251115021500 +0800">
+  <programme channel="jeepney-tv-alt" start="20251115014500 +0800" stop="20251115021500 +0800">
     <title>Oki Doki Doc</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251115023000 +0800" stop="20251115030000 +0800">
+  <programme channel="jeepney-tv-alt" start="20251115023000 +0800" stop="20251115030000 +0800">
     <title>Katorse</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>Kapamilya Blockbusters</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>It's Showtime</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114143000 +0800" stop="20251114150000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114143000 +0800" stop="20251114150000 +0800">
     <title>Linlang</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114151500 +0800" stop="20251114154500 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114151500 +0800" stop="20251114154500 +0800">
     <title>Pamilya Sagrado</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>Kapamilya Gold Hits</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114173000 +0800" stop="20251114180000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114173000 +0800" stop="20251114180000 +0800">
     <title>TV Patrol Express</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114174500 +0800" stop="20251114181500 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114174500 +0800" stop="20251114181500 +0800">
     <title>Kapamilya Deal Or No Deal</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114183000 +0800" stop="20251114190000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114183000 +0800" stop="20251114190000 +0800">
     <title>TV Patrol</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>FPJ's Batang Quiapo</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114204500 +0800" stop="20251114211500 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114204500 +0800" stop="20251114211500 +0800">
     <title>What Lies Beneath</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114213000 +0800" stop="20251114220000 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114213000 +0800" stop="20251114220000 +0800">
     <title>Sins Of The Father</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114221500 +0800" stop="20251114224500 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114221500 +0800" stop="20251114224500 +0800">
     <title>Go Ahead</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114224500 +0800" stop="20251114231500 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114224500 +0800" stop="20251114231500 +0800">
     <title>The World Tonight</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20251114231500 +0800" stop="20251114234500 +0800">
+  <programme channel="kapamilya-channel-alt" start="20251114231500 +0800" stop="20251114234500 +0800">
     <title>Movie Central Presents</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="viva-cinema-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>Mahal Kita Alam Mo Ba</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="viva-cinema-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Paranaque Bank Robbery</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="viva-cinema-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>Ano Ba Talaga Kuya</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="viva-cinema-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>Walang Karugtong Ang Nakaraan</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="viva-cinema-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>Tunay Na Magkaibigan Walang Iwanan Peksman</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114201500 +0800" stop="20251114204500 +0800">
+  <programme channel="viva-cinema-alt" start="20251114201500 +0800" stop="20251114204500 +0800">
     <title>Si Mokong, Si Astig, At Si Gamol</title>
   </programme>
-  <programme channel="viva-cinema" start="20251114221500 +0800" stop="20251114224500 +0800">
+  <programme channel="viva-cinema-alt" start="20251114221500 +0800" stop="20251114224500 +0800">
     <title>Silang Mga Sisiw sa Lansangan</title>
   </programme>
-  <programme channel="viva-cinema" start="20251115001500 +0800" stop="20251115004500 +0800">
+  <programme channel="viva-cinema-alt" start="20251115001500 +0800" stop="20251115004500 +0800">
     <title>Codename: Palaban</title>
   </programme>
-  <programme channel="viva-cinema" start="20251115020000 +0800" stop="20251115023000 +0800">
+  <programme channel="viva-cinema-alt" start="20251115020000 +0800" stop="20251115023000 +0800">
     <title>Ikaw Lang</title>
   </programme>
-  <programme channel="viva-cinema" start="20251115041500 +0800" stop="20251115044500 +0800">
+  <programme channel="viva-cinema-alt" start="20251115041500 +0800" stop="20251115044500 +0800">
     <title>Ang Babaeng Hinugot Sa Aking Tadyang</title>
   </programme>
-  <programme channel="net-25" start="20251114100000 +0800" stop="20251114103000 +0800">
+  <programme channel="net-25-alt" start="20251114100000 +0800" stop="20251114103000 +0800">
     <title>Kada Umaga</title>
   </programme>
-  <programme channel="net-25" start="20251114120000 +0800" stop="20251114123000 +0800">
+  <programme channel="net-25-alt" start="20251114120000 +0800" stop="20251114123000 +0800">
     <title>Mata Ng Agila Sa Tanghali</title>
   </programme>
-  <programme channel="net-25" start="20251114123000 +0800" stop="20251114130000 +0800">
+  <programme channel="net-25-alt" start="20251114123000 +0800" stop="20251114130000 +0800">
     <title>Love Me, Love My Voice</title>
   </programme>
-  <programme channel="net-25" start="20251114130000 +0800" stop="20251114133000 +0800">
+  <programme channel="net-25-alt" start="20251114130000 +0800" stop="20251114133000 +0800">
     <title>Love Designer</title>
   </programme>
-  <programme channel="net-25" start="20251114133000 +0800" stop="20251114140000 +0800">
+  <programme channel="net-25-alt" start="20251114133000 +0800" stop="20251114140000 +0800">
     <title>Strict Ang Mommy Ko</title>
   </programme>
-  <programme channel="net-25" start="20251114140000 +0800" stop="20251114143000 +0800">
+  <programme channel="net-25-alt" start="20251114140000 +0800" stop="20251114143000 +0800">
     <title>Rising with the Wind</title>
   </programme>
-  <programme channel="net-25" start="20251114143000 +0800" stop="20251114150000 +0800">
+  <programme channel="net-25-alt" start="20251114143000 +0800" stop="20251114150000 +0800">
     <title>A Date With The Future</title>
   </programme>
-  <programme channel="net-25" start="20251114150000 +0800" stop="20251114153000 +0800">
+  <programme channel="net-25-alt" start="20251114150000 +0800" stop="20251114153000 +0800">
     <title>Korina Interviews</title>
   </programme>
-  <programme channel="net-25" start="20251114160000 +0800" stop="20251114163000 +0800">
+  <programme channel="net-25-alt" start="20251114160000 +0800" stop="20251114163000 +0800">
     <title>Road to Starkada</title>
   </programme>
-  <programme channel="net-25" start="20251114163000 +0800" stop="20251114170000 +0800">
+  <programme channel="net-25-alt" start="20251114163000 +0800" stop="20251114170000 +0800">
     <title>Sa Ganang Mamamayan</title>
   </programme>
-  <programme channel="net-25" start="20251114180000 +0800" stop="20251114183000 +0800">
+  <programme channel="net-25-alt" start="20251114180000 +0800" stop="20251114183000 +0800">
     <title>Mata Ng Agila</title>
   </programme>
-  <programme channel="net-25" start="20251114193000 +0800" stop="20251114200000 +0800">
+  <programme channel="net-25-alt" start="20251114193000 +0800" stop="20251114200000 +0800">
     <title>Best Choice Ever</title>
   </programme>
-  <programme channel="net-25" start="20251114200000 +0800" stop="20251114203000 +0800">
+  <programme channel="net-25-alt" start="20251114200000 +0800" stop="20251114203000 +0800">
     <title>Go Go Squid</title>
   </programme>
-  <programme channel="net-25" start="20251114203000 +0800" stop="20251114210000 +0800">
+  <programme channel="net-25-alt" start="20251114203000 +0800" stop="20251114210000 +0800">
     <title>A Date With The Future</title>
   </programme>
-  <programme channel="net-25" start="20251114210000 +0800" stop="20251114213000 +0800">
+  <programme channel="net-25-alt" start="20251114210000 +0800" stop="20251114213000 +0800">
     <title>As Beautiful As You</title>
   </programme>
-  <programme channel="net-25" start="20251114213000 +0800" stop="20251114220000 +0800">
+  <programme channel="net-25-alt" start="20251114213000 +0800" stop="20251114220000 +0800">
     <title>Mata Ng Agila International</title>
   </programme>
-  <programme channel="net-25" start="20251114223000 +0800" stop="20251114230000 +0800">
+  <programme channel="net-25-alt" start="20251114223000 +0800" stop="20251114230000 +0800">
     <title>Global Us</title>
   </programme>
-  <programme channel="net-25" start="20251114230000 +0800" stop="20251114233000 +0800">
+  <programme channel="net-25-alt" start="20251114230000 +0800" stop="20251114233000 +0800">
     <title>Open for Business</title>
   </programme>
-  <programme channel="net-25" start="20251115000000 +0800" stop="20251115003000 +0800">
+  <programme channel="net-25-alt" start="20251115000000 +0800" stop="20251115003000 +0800">
     <title>That's in the Bible</title>
   </programme>
-  <programme channel="net-25" start="20251115003000 +0800" stop="20251115010000 +0800">
+  <programme channel="net-25-alt" start="20251115003000 +0800" stop="20251115010000 +0800">
     <title>Ang Matuod nga Pagtuo</title>
   </programme>
-  <programme channel="net-25" start="20251115010000 +0800" stop="20251115013000 +0800">
+  <programme channel="net-25-alt" start="20251115010000 +0800" stop="20251115013000 +0800">
     <title>INC international Edition</title>
   </programme>
-  <programme channel="net-25" start="20251115013000 +0800" stop="20251115020000 +0800">
+  <programme channel="net-25-alt" start="20251115013000 +0800" stop="20251115020000 +0800">
     <title>Gabay Sa Mabuting Asal</title>
   </programme>
-  <programme channel="net-25" start="20251115020000 +0800" stop="20251115023000 +0800">
+  <programme channel="net-25-alt" start="20251115020000 +0800" stop="20251115023000 +0800">
     <title>Executive News Feature</title>
   </programme>
-  <programme channel="net-25" start="20251115023000 +0800" stop="20251115030000 +0800">
+  <programme channel="net-25-alt" start="20251115023000 +0800" stop="20251115030000 +0800">
     <title>Landas Ng Buhay</title>
   </programme>
-  <programme channel="net-25" start="20251115033000 +0800" stop="20251115040000 +0800">
+  <programme channel="net-25-alt" start="20251115033000 +0800" stop="20251115040000 +0800">
     <title>Turning Point</title>
   </programme>
-  <programme channel="net-25" start="20251115040000 +0800" stop="20251115043000 +0800">
+  <programme channel="net-25-alt" start="20251115040000 +0800" stop="20251115043000 +0800">
     <title>#Panatag</title>
   </programme>
-  <programme channel="net-25" start="20251115043000 +0800" stop="20251115050000 +0800">
+  <programme channel="net-25-alt" start="20251115043000 +0800" stop="20251115050000 +0800">
     <title>Lingap Stories</title>
   </programme>
-  <programme channel="net-25" start="20251115043000 +0800" stop="20251115050000 +0800">
+  <programme channel="net-25-alt" start="20251115043000 +0800" stop="20251115050000 +0800">
     <title>Pundasyon</title>
   </programme>
 </tv>

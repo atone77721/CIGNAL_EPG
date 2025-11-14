@@ -32,23 +32,6 @@ jobs:
           python clickthecity_epg.py
           rm clickthecity_epg.py
 
-      - name: Merge dzmm.xml into generated EPG
-        run: |
-          if [ -f dzmm.xml ] && [ -f epg.xml ]; then
-            echo "Merging dzmm.xml into epg.xml..."
-
-            # Remove closing </tv> tag from epg.xml
-            sed -i '$ d' epg.xml
-
-            # Remove XML header and opening <tv> tag from dzmm.xml, then append
-            tail -n +3 dzmm.xml >> epg.xml
-
-            # Ensure final closing tag exists
-            echo "</tv>" >> epg.xml
-          else
-            echo "dzmm.xml or epg.xml not found, skipping merge."
-          fi
-
       - name: Commit and push if changes
         run: |
           git config --global user.name "actions-user"
@@ -57,6 +40,8 @@ jobs:
 
           git add *.xml *.xml.gz || true
 
-          git diff --staged --quiet || git commit -m "Update EPG data (merged dzmm.xml)"
+          # Commit only if files changed
+          git diff --staged --quiet || git commit -m "Update EPG data"
 
+          # Avoid failing if nothing to push
           git push || true

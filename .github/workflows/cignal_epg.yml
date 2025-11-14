@@ -26,9 +26,9 @@ jobs:
 
       - name: Decode and Run CIGNAL EPG fetcher
         env:
-          CIGNAL_EPG_SCRIPT: ${{ secrets.CIGNAL_EPG_SCRIPT }}
+          CIGNAL_EPG_FETCHER: ${{ secrets.CIGNAL_EPG_FETCHER }}
         run: |
-          echo "$CIGNAL_EPG_SCRIPT" | tr -d '\n' | base64 --decode > cignal_epg.py
+          echo "$CIGNAL_EPG_FETCHER" | tr -d '\n' | base64 --decode > cignal_epg.py
           python cignal_epg.py
           rm cignal_epg.py
 

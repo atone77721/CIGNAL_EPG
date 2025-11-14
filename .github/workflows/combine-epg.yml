@@ -16,18 +16,17 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      ###############################################
-      #   MERGE XML + SAFE EXTRACTION + DUP REPORT
-      ###############################################
+      ############################################################
+      # MERGE XML (SAFE) + ADD SOURCE-BASED SUFFIX TO CHANNEL IDs
+      ############################################################
       - name: Merge XML files into merged_epg.xml
         run: |
           set -e
 
-          # Install xmlstarlet (safe XML parser)
           sudo apt-get update
           sudo apt-get install -y xmlstarlet
 
-          # Find input sources
+          # Locate source files
           CIGNAL=$(find . -type f -name "cignal_epg.xml" | head -n 1)
           CLICK=$(find . -type f -name "clickthecity_epg.xml" | head -n 1)
           DZMM=$(find . -type f -name "dzmm.xml" | head -n 1)
@@ -38,98 +37,109 @@ jobs:
           echo " - DZMM:   $DZMM"
 
           if [ -z "$CIGNAL" ] || [ -z "$CLICK" ] || [ -z "$DZMM" ]; then
-            echo "ERROR: One or more XML source files are missing!"
+            echo "ERROR: Missing XML source file!"
             exit 1
           fi
 
-          echo "Creating merged_epg.xml"
-
-          # Start final XML file with header + root element
           echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
           echo '<tv>' >> merged_epg.xml
 
-          # Safe function to extract only XML nodes (channels + programmes)
-          extract() {
-            FILE=$1
-            echo "Extracting from $FILE ..."
-            xmlstarlet sel -t -c "/tv/channel" "$FILE" >> merged_epg.xml
-            xmlstarlet sel -t -c "/tv/programme" "$FILE" >> merged_epg.xml
+          ############################################################
+          # FUNCTION: Extract channels/programmes with modified IDs
+          ############################################################
+          extract_with_suffix() {
+            FILE="$1"
+            SUFFIX="$2"
+
+            echo "Processing $FILE with suffix .$SUFFIX ..."
+
+            # CHANNELS — rewrite ID → id="$id.$suffix"
+            xmlstarlet sel -t \
+              -m "/tv/channel" \
+              -o '<channel id="' \
+              -v "concat(@id,'.$SUFFIX')" \
+              -o '">' \
+              -m "display-name" -o '<display-name>' -v . -o '</display-name>' \
+              -b \
+              -m "icon" -o '<icon src="' -v @src -o '"/>' \
+              -b \
+              -o "</channel>" \
+              "$FILE" >> merged_epg.xml
+
+            # PROGRAMMES — rewrite channel="" → channel="$id.$suffix"
+            xmlstarlet sel -t \
+              -m "/tv/programme" \
+              -o '<programme start="' -v @start '" stop="' -v @stop '" channel="' \
+              -v "concat(@channel,'.$SUFFIX')" \
+              -o '">' \
+              -m "*" -c . \
+              -b \
+              -o "</programme>" \
+              "$FILE" >> merged_epg.xml
           }
 
-          extract "$CIGNAL"
-          extract "$CLICK"
-          extract "$DZMM"
+          extract_with_suffix "$CIGNAL" "cignal"
+          extract_with_suffix "$CLICK" "click"
+          extract_with_suffix "$DZMM" "dzmm"
 
-          # Close <tv>
           echo "</tv>" >> merged_epg.xml
 
-
-          ###############################################
+          ############################################################
           # DUPLICATE REPORTING
-          ###############################################
+          ############################################################
           echo ""
           echo "==============================================="
           echo "     🔍 SCANNING FOR DUPLICATES (REPORT ONLY)  "
           echo "==============================================="
 
-          # CHANNEL ID DUPLICATES
-          echo ""
-          echo "🔸 Checking duplicate CHANNEL IDs..."
+          # CHANNEL DUPLICATES (should be 0 now)
           grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml \
             | sort | uniq -d > dup_channels.txt
 
           if [ -s dup_channels.txt ]; then
-            echo "⚠️ Duplicate Channel IDs detected:"
+            echo "⚠️ Duplicate Channels AFTER suffixing:"
             cat dup_channels.txt
           else
-            echo "✔ No duplicate channel IDs."
+            echo "✔ No duplicate channels (suffix fix successful)."
           fi
 
           # PROGRAMME DUPLICATES
-          echo ""
-          echo "🔸 Checking duplicate PROGRAMME entries..."
           grep '<programme' merged_epg.xml | \
             sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' \
-            > all_programmes.txt
-
-          sort all_programmes.txt | uniq -d > dup_programmes.txt
+            | sort | uniq -d > dup_programmes.txt
 
           if [ -s dup_programmes.txt ]; then
-            echo "⚠️ Duplicate programmes detected (channel|start):"
+            echo "⚠️ Duplicate programmes found:"
             cat dup_programmes.txt
           else
             echo "✔ No duplicate programmes."
           fi
 
-          echo ""
           echo "==============================================="
-          echo "     Duplicate Scan Complete (No Filtering)    "
+          echo " Merge + suffixing complete"
           echo "==============================================="
 
 
-      ###############################################
-      # XML VALIDATION
-      ###############################################
+      ############################################################
+      # VALIDATE XML
+      ############################################################
       - name: Validate XML
         run: |
-          sudo apt-get update
           sudo apt-get install -y libxml2-utils
-
-          echo "Validating merged_epg.xml..."
           xmllint --noout merged_epg.xml
-          echo "✔ XML is valid."
+          echo "✔ XML valid"
 
 
-      ###############################################
+      ############################################################
       # GZIP OUTPUT
-      ###############################################
+      ############################################################
       - name: GZIP output
         run: gzip -c merged_epg.xml > merged_epg.xml.gz
 
 
-      ###############################################
+      ############################################################
       # COMMIT & PUSH
-      ###############################################
+      ############################################################
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -139,10 +149,8 @@ jobs:
 
           git add merged_epg.xml merged_epg.xml.gz dup_channels.txt dup_programmes.txt
 
-          # Only commit if there are changes
           git diff --staged --quiet && echo "No changes to commit." && exit 0
 
-          git commit -m "Update merged EPG + duplicate report"
-
+          git commit -m "Update merged EPG + source-based channel ID suffixing"
           git pull --rebase
           git push

@@ -49,12 +49,12 @@ jobs:
           append_xml "$DZMM"
 
           # Add closing </tv> tag
-          echo "</tv>" >> merged.xml
+          echo "</tv>" >> merged_epg.xml
 
-          echo "merged.xml created successfully"
+          echo "merged_epg.xml created successfully"
 
-      - name: Create merged.xml.gz
-        run: gzip -c merged.xml > merged.xml.gz
+      - name: Create merged_epg.xml.gz
+        run: gzip -c merged_epg.xml > merged_epg.xml.gz
 
       - name: Commit and push merged files
         env:
@@ -63,7 +63,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add merged.xml merged.xml.gz || true
+          git add merged_epg.xml merged_epg.xml.gz || true
 
           # Only commit if there are changes
           git diff --staged --quiet || git commit -m "Update merged EPG"

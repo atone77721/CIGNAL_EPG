@@ -7553,10 +7553,6 @@
     <display-name lang="en">moonbug_kids</display-name>
     <url>http://example.com</url>
   </channel>
-  <programme start="20251114095200 +0800" stop="20251114103100 +0800" channel="moonbug_kids">
-    <title lang="en">Cop Car Caper</title>
-    <desc lang="en">Officer Morphle is on the case! He must stop a series of troublemakers, including a giant baby, a runaway globe, &amp; a group of pesky bandits.</desc>
-  </programme>
   <programme start="20251114103100 +0800" stop="20251114110600 +0800" channel="moonbug_kids">
     <title lang="en">Tower of Power</title>
     <desc lang="en">It's the tower of power! Rob is low on power, but when the crew gets to the Power Planet, they find that it's out of power too!</desc>
@@ -9252,16 +9248,16 @@ and innovations of the new generation?</desc>
     <desc lang="en">Fernando Poe Jr. stars as Carding Villamar, a city professional who returns to their hometown of Evangelista after learning of his brother's untimely demise. As a series of events unfold, he soon discovers that his brother didn't succumb to a heart attack as he was made to believe. He was shot in cold blood for refusing to sell his land to a powerful congressman. With a town muted and crippled by fear, the congressman's henchmen move unhampered to silence Carding and his brother's orphaned family as well. Big mistake. Armed with only a crusty riffle and a whole ton of rage. Carding sets out to right the wrong and exact vengeance for the murder of his brother. That is, if he survives the hot pursuits of bounty hunters, the militia and the police who are all in the congressman's payroll.</desc>
   </programme>
   <channel id="a2z-alt">
-    <display-name>a2z</display-name>
+    <display-name>a2z ALT</display-name>
   </channel>
   <channel id="anc">
     <display-name>anc</display-name>
   </channel>
   <channel id="animax-alt">
-    <display-name>animax</display-name>
+    <display-name>animax ALT</display-name>
   </channel>
   <channel id="axn-alt">
-    <display-name>axn</display-name>
+    <display-name>axn ALT</display-name>
   </channel>
   <channel id="cinema-one">
     <display-name>cinema-one</display-name>
@@ -9285,7 +9281,7 @@ and innovations of the new generation?</desc>
     <display-name>net-25</display-name>
   </channel>
   <channel id="pbo-alt">
-    <display-name>pbo</display-name>
+    <display-name>pbo ALT</display-name>
   </channel>
   <channel id="ptv">
     <display-name>ptv</display-name>
@@ -9294,7 +9290,7 @@ and innovations of the new generation?</desc>
     <display-name>solar-flix</display-name>
   </channel>
   <channel id="tv5-alt">
-    <display-name>tv5</display-name>
+    <display-name>tv5 ALT</display-name>
   </channel>
   <channel id="viva-cinema">
     <display-name>viva-cinema</display-name>

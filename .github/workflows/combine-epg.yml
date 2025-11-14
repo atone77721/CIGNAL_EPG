@@ -1,0 +1,66 @@
+name: combine-epg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"   # Every 12 hours
+
+jobs:
+  merge_epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Merge XML files into merged.xml
+        run: |
+          # Locate files
+          CIGNAL=$(find . -type f -name "cignal_epg.xml" | head -n 1)
+          CLICK=$(find . -type f -name "clickthecity_epg.xml" | head -n 1)
+          DZMM=$(find . -type f -name "dzmm.xml" | head -n 1)
+
+          echo "CIGNAL file: $CIGNAL"
+          echo "CLICKTHECITY file: $CLICK"
+          echo "DZMM file: $DZMM"
+
+          if [ -z "$CIGNAL" ] || [ -z "$CLICK" ] || [ -z "$DZMM" ]; then
+            echo "One or more EPG source files are missing!"
+            exit 1
+          fi
+
+          echo "Creating merged.xml"
+
+          # Start with XML header and main <tv> tag
+          head -n 2 "$CIGNAL" > merged.xml
+
+          # Function to append XML without header and without closing </tv>
+          append_xml() {
+            FILE=$1
+            echo "Appending $FILE"
+            sed '1,2d;$d' "$FILE" >> merged.xml
+          }
+
+          append_xml "$CIGNAL"
+          append_xml "$CLICK"
+          append_xml "$DZMM"
+
+          # Close TV tag
+          echo "</tv>" >> merged.xml
+
+          echo "merged.xml created successfully"
+
+      - name: Create merged.xml.gz
+        run: gzip -c merged.xml > merged.xml.gz
+
+      - name: Commit and push merged files
+        run: |
+          git config --global user.name "actions-user"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.CIGNAL_EPG }}@github.com/Alobadman/CIGNAL_EPG.git
+
+          git add merged.xml merged.xml.gz || true
+
+          git diff --staged --quiet || git commit -m "Update merged EPG"
+
+          git push || true

@@ -32,10 +32,10 @@ jobs:
             exit 1
           fi
 
-          echo "Creating merged.xml"
+          echo "Creating merged_epg.xml"
 
-          # Start merged.xml with XML header and main <tv> tag
-          head -n 2 "$CIGNAL" > merged.xml
+          # Start merged_epg.xml with XML header and main <tv> tag
+          head -n 2 "$CIGNAL" > merged_epg.xml
 
           # Function to append XML without header and without </tv>
           append_xml() {

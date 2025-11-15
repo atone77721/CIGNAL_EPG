@@ -43,6 +43,7 @@ EPG_DESC = {
     "Kwatro Alas": "Talk program tungkol sa mainit na isyung panlipunan at pang-komunidad.",
     "Safe Space": "Friendly discussions on mental wellness, relationships, and personal issues.",
     "Pasado Serbisyo": "On-air assistance at solusyon para sa concerns ng publiko.",
+    "TV Patrol Weekend sa DZMM": "Weekend simulcast ng pangunahing newscast ng ABS-CBN.",
     "Story Outlook": "Feature stories, human interest segments, at inspirational narratives.",
     "Feel Kita": "Feel-good music, stories, at talk to lighten up your weekend night.",
     "K-Paps Playlist": "Non-stop K-pop hits at fan-updates para sa K-culture fans.",
@@ -130,7 +131,7 @@ SUNDAY_SCHEDULE = [
 # ---------------------------
 def generate_xmltv():
     today = datetime.date.today()
-    monday = today - datetime.timedelta(days=today.weekday())  # start of current week
+    monday = today - datetime.timedelta(days=today.weekday())
 
     tv = ET.Element("tv")
     channel = ET.SubElement(tv, "channel", id=CHANNEL_ID)

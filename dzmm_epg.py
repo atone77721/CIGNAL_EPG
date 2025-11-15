@@ -9,6 +9,7 @@ CHANNEL_NAME = "DZMM Radyo Patrol 630"
 # EPG SYNOPSIS DICTIONARY
 # ---------------------------
 EPG_DESC = {
+    # Weekday
     "Radyo Patrol Balita Alas-Kwatro": "Pinakabagong balita at live reports mula sa Radyo Patrol para simulan ang araw nang may tamang impormasyon.",
     "Ronda Pasada": "Balitang kalsada, trapiko, transportasyon, at public service para sa mga motorista at commuters.",
     "Gising Pilipinas": "Balitang pambansa, komentaryo, at morning updates para ihanda ka sa buong araw.",
@@ -42,7 +43,6 @@ EPG_DESC = {
     "Kwatro Alas": "Talk program tungkol sa mainit na isyung panlipunan at pang-komunidad.",
     "Safe Space": "Friendly discussions on mental wellness, relationships, and personal issues.",
     "Pasado Serbisyo": "On-air assistance at solusyon para sa concerns ng publiko.",
-    "TV Patrol Weekend sa DZMM": "Weekend simulcast ng pangunahing newscast ng ABS-CBN.",
     "Story Outlook": "Feature stories, human interest segments, at inspirational narratives.",
     "Feel Kita": "Feel-good music, stories, at talk to lighten up your weekend night.",
     "K-Paps Playlist": "Non-stop K-pop hits at fan-updates para sa K-culture fans.",
@@ -61,7 +61,7 @@ EPG_DESC = {
 }
 
 # ---------------------------
-# SCHEDULES (unchanged)
+# FULL DZMM SCHEDULES
 # ---------------------------
 WEEKDAY_SCHEDULE = [
     ("04:00", "05:00", "Radyo Patrol Balita Alas-Kwatro"),
@@ -73,7 +73,6 @@ WEEKDAY_SCHEDULE = [
     ("09:00", "10:00", "Balitapatan"),
     ("10:00", "11:00", "Kabayan"),
     ("11:00", "12:00", "Nagseserbisyo, Niña at Migs"),
-    ("12:00", "12:30", "Headline Ngayon"),
     ("12:00", "12:30", "Headline Ngayon"),
     ("12:30", "13:00", "Maalaala Mo Kaya sa DZMM"),
     ("13:00", "14:00", "Hello Attorney"),
@@ -88,15 +87,50 @@ WEEKDAY_SCHEDULE = [
     ("22:00", "24:00", "Love Konek"),
 ]
 
-SATURDAY_SCHEDULE = [...]
-SUNDAY_SCHEDULE = [...]
+SATURDAY_SCHEDULE = [
+    ("04:00", "06:00", "Yan Tayo"),
+    ("06:00", "07:00", "Ano'ng Ganap?"),
+    ("07:00", "07:15", "Radyo Patrol Balita Alas-Siyete Weekend"),
+    ("07:15", "08:00", "Ano'ng Ganap?"),
+    ("08:00", "09:00", "Balita AnteMano"),
+    ("09:00", "10:00", "Iwas Sakit, Iwas Gastos"),
+    ("10:00", "11:00", "Win Today"),
+    ("11:00", "12:00", "Serbisyong DSWD For Every Juan"),
+    ("12:00", "13:30", "Ligtas Dapat"),
+    ("13:30", "15:00", "Kwatro Alas"),
+    ("15:00", "16:00", "Safe Space"),
+    ("16:00", "17:15", "Pasado Serbisyo"),
+    ("17:15", "18:15", "TV Patrol Weekend sa DZMM"),
+    ("18:15", "20:00", "Story Outlook"),
+    ("20:00", "22:00", "Feel Kita"),
+    ("22:00", "24:00", "K-Paps Playlist"),
+]
+
+SUNDAY_SCHEDULE = [
+    ("00:00", "04:00", "Private Talks"),
+    ("04:00", "06:00", "Sunny Side Up"),
+    ("06:00", "07:00", "Ano'ng Ganap?"),
+    ("07:00", "07:15", "Radyo Patrol Balita Alas-Siyete Weekend"),
+    ("07:15", "08:00", "Ano'ng Ganap?"),
+    ("08:00", "09:30", "Aprub Yan!"),
+    ("09:30", "11:00", "Panalong Diskarte"),
+    ("11:00", "12:00", "Wow Sikat"),
+    ("12:00", "13:30", "Bongga Ka Jhai!"),
+    ("13:30", "15:30", "Konek Ka D'yan"),
+    ("15:30", "17:30", "Travel ni Ahwel"),
+    ("17:30", "18:15", "TV Patrol Weekend sa DZMM"),
+    ("18:15", "19:30", "Story Outlook"),
+    ("19:30", "20:30", "GBU: God Bless You"),
+    ("20:30", "22:00", "K-Paps Playlist"),
+    ("22:00", "24:00", "Rosary Hour"),
+]
 
 # ---------------------------
 # XMLTV GENERATOR
 # ---------------------------
 def generate_xmltv():
     today = datetime.date.today()
-    monday = today - datetime.timedelta(days=today.weekday())
+    monday = today - datetime.timedelta(days=today.weekday())  # start of current week
 
     tv = ET.Element("tv")
     channel = ET.SubElement(tv, "channel", id=CHANNEL_ID)
@@ -134,20 +168,16 @@ def generate_xmltv():
                 })
 
                 ET.SubElement(prog, "title").text = title
-
-                # Add EPG description
                 desc = EPG_DESC.get(title, "Walang available na description.")
                 ET.SubElement(prog, "desc").text = desc
 
             except ValueError:
                 print(f"Skipping invalid time format: {start} - {end}")
 
-    # Pretty XML formatting
     rough = ET.tostring(tv, "utf-8")
     pretty = xml.dom.minidom.parseString(rough)
     with open("dzmm.xml", "w", encoding="utf-8") as f:
         f.write(pretty.toprettyxml(indent="  "))
-
 
 if __name__ == "__main__":
     generate_xmltv()

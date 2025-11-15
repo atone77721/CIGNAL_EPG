@@ -48,9 +48,6 @@
   <channel id="viva-cinema">
     <display-name>viva-cinema</display-name>
   </channel>
-  <programme channel="a2z" start="20251116060000 +0800" stop="20251116070000 +0800">
-    <title>Shuffle</title>
-  </programme>
   <programme channel="a2z" start="20251116070000 +0800" stop="20251116090000 +0800">
     <title>Jesus Is Lord Sunday Workship and Healing Service</title>
   </programme>
@@ -95,45 +92,6 @@
   </programme>
   <programme channel="a2z" start="20251116224500 +0800" stop="20251116231500 +0800">
     <title>Diyos At Bayan</title>
-  </programme>
-  <programme channel="anc" start="20251116000000 +0800" stop="20251116003000 +0800">
-    <title>The World Tonight</title>
-  </programme>
-  <programme channel="anc" start="20251116003000 +0800" stop="20251116010000 +0800">
-    <title>Local Legends</title>
-  </programme>
-  <programme channel="anc" start="20251116010000 +0800" stop="20251116013000 +0800">
-    <title>Tao Po!</title>
-  </programme>
-  <programme channel="anc" start="20251116013000 +0800" stop="20251116020000 +0800">
-    <title>At The Moment</title>
-  </programme>
-  <programme channel="anc" start="20251116020000 +0800" stop="20251116030000 +0800">
-    <title>24x24</title>
-  </programme>
-  <programme channel="anc" start="20251116030000 +0800" stop="20251116033000 +0800">
-    <title>On Cue</title>
-  </programme>
-  <programme channel="anc" start="20251116033000 +0800" stop="20251116040000 +0800">
-    <title>LSS: The Martin Nievera Show</title>
-  </programme>
-  <programme channel="anc" start="20251116040000 +0800" stop="20251116043000 +0800">
-    <title>G Diaries: Stronger Together</title>
-  </programme>
-  <programme channel="anc" start="20251116043000 +0800" stop="20251116050000 +0800">
-    <title>My Italy with Margarita</title>
-  </programme>
-  <programme channel="anc" start="20251116050000 +0800" stop="20251116053000 +0800">
-    <title>Global Us</title>
-  </programme>
-  <programme channel="anc" start="20251116053000 +0800" stop="20251116060000 +0800">
-    <title>Made in Germany</title>
-  </programme>
-  <programme channel="anc" start="20251116060000 +0800" stop="20251116063000 +0800">
-    <title>The Word Exposed</title>
-  </programme>
-  <programme channel="anc" start="20251116063000 +0800" stop="20251116070000 +0800">
-    <title>Dayaw</title>
   </programme>
   <programme channel="anc" start="20251116070000 +0800" stop="20251116080000 +0800">
     <title>Metabeats</title>
@@ -246,24 +204,6 @@
   <programme channel="anc" start="20251117043000 +0800" stop="20251117050000 +0800">
     <title>Made in Germany</title>
   </programme>
-  <programme channel="animax" start="20251116000000 +0800" stop="20251116020000 +0800">
-    <title>Buddy Daddies</title>
-  </programme>
-  <programme channel="animax" start="20251116020000 +0800" stop="20251116030000 +0800">
-    <title>I'll Become A Villainess Who Goes Down in History</title>
-  </programme>
-  <programme channel="animax" start="20251116030000 +0800" stop="20251116033000 +0800">
-    <title>The Daily Life Of A Middle-Aged Online Shopper in Another World</title>
-  </programme>
-  <programme channel="animax" start="20251116033000 +0800" stop="20251116040000 +0800">
-    <title>Reincarnated As A Sword</title>
-  </programme>
-  <programme channel="animax" start="20251116040000 +0800" stop="20251116043000 +0800">
-    <title>Why Raeliana Ended Up At The Duke's Mansion</title>
-  </programme>
-  <programme channel="animax" start="20251116043000 +0800" stop="20251116060000 +0800">
-    <title>Witch Watch</title>
-  </programme>
   <programme channel="animax" start="20251116060000 +0800" stop="20251116073000 +0800">
     <title>Kuroko's Basketball 3rd Season</title>
   </programme>
@@ -330,18 +270,6 @@
   <programme channel="animax" start="20251117043000 +0800" stop="20251117050000 +0800">
     <title>I'll Become A Villainess Who Goes Down in History</title>
   </programme>
-  <programme channel="axn" start="20251116015000 +0800" stop="20251116041500 +0800">
-    <title>Spider-Man 2</title>
-  </programme>
-  <programme channel="axn" start="20251116041500 +0800" stop="20251116050500 +0800">
-    <title>CSI: Vegas (Season 3)</title>
-  </programme>
-  <programme channel="axn" start="20251116050500 +0800" stop="20251116060000 +0800">
-    <title>Hudson &amp; Rex (Season 5)</title>
-  </programme>
-  <programme channel="axn" start="20251116060000 +0800" stop="20251116065000 +0800">
-    <title>The Amazing Race (Season 35)</title>
-  </programme>
   <programme channel="axn" start="20251116065000 +0800" stop="20251116074500 +0800">
     <title>The Amazing Race (Season 35)</title>
   </programme>
@@ -402,15 +330,6 @@
   <programme channel="axn" start="20251117041000 +0800" stop="20251117044000 +0800">
     <title>Hudson &amp; Rex (Season 5)</title>
   </programme>
-  <programme channel="cinema-one" start="20251116010000 +0800" stop="20251116030000 +0800">
-    <title>Bornebol: Special Agent</title>
-  </programme>
-  <programme channel="cinema-one" start="20251116030000 +0800" stop="20251116050000 +0800">
-    <title>Still Lives</title>
-  </programme>
-  <programme channel="cinema-one" start="20251116050000 +0800" stop="20251116070000 +0800">
-    <title>High School Scandal</title>
-  </programme>
   <programme channel="cinema-one" start="20251116070000 +0800" stop="20251116090000 +0800">
     <title>Elvis And James 2</title>
   </programme>
@@ -446,12 +365,6 @@
   </programme>
   <programme channel="cinema-one" start="20251117040000 +0800" stop="20251117043000 +0800">
     <title>Leron, Leron Sinta</title>
-  </programme>
-  <programme channel="gma" start="20251116053000 +0800" stop="20251116060000 +0800">
-    <title>Key Of David</title>
-  </programme>
-  <programme channel="gma" start="20251116060000 +0800" stop="20251116070000 +0800">
-    <title>The Bible</title>
   </programme>
   <programme channel="gma" start="20251116070000 +0800" stop="20251116073000 +0800">
     <title>Detective Conan</title>
@@ -503,15 +416,6 @@
   </programme>
   <programme channel="gma" start="20251116230500 +0800" stop="20251116233500 +0800">
     <title>Cayetano in Action with Boy Abunda</title>
-  </programme>
-  <programme channel="gtv" start="20251116060000 +0800" stop="20251116060000 +0800">
-    <title>Piggy Tales</title>
-  </programme>
-  <programme channel="gtv" start="20251116060000 +0800" stop="20251116063000 +0800">
-    <title>Where's Chicky?</title>
-  </programme>
-  <programme channel="gtv" start="20251116063000 +0800" stop="20251116070000 +0800">
-    <title>Puppy In My Pocket</title>
   </programme>
   <programme channel="gtv" start="20251116070000 +0800" stop="20251116073000 +0800">
     <title>Sunny Bunnies</title>
@@ -630,15 +534,6 @@
   <programme channel="ibc-tv-13" start="20251116213000 +0800" stop="20251116220000 +0800">
     <title>Colors Of ASEAN</title>
   </programme>
-  <programme channel="jeepney-tv" start="20251116000000 +0800" stop="20251116013000 +0800">
-    <title>ASAP Remix</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20251116013000 +0800" stop="20251116040000 +0800">
-    <title>Maging Sino Ka Man</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20251116040000 +0800" stop="20251116070000 +0800">
-    <title>Galema: Anak Ni Zuma</title>
-  </programme>
   <programme channel="jeepney-tv" start="20251116070000 +0800" stop="20251116080000 +0800">
     <title>The Healing Eucharist Sunday Mass</title>
   </programme>
@@ -686,18 +581,6 @@
   </programme>
   <programme channel="jeepney-tv" start="20251117044500 +0800" stop="20251117051500 +0800">
     <title>Kung Ako'y Iiwan Mo</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20251116000000 +0800" stop="20251116020000 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20251116020000 +0800" stop="20251116040000 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20251116040000 +0800" stop="20251116060000 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20251116060000 +0800" stop="20251116070000 +0800">
-    <title>The Healing Eucharist Sunday Mass</title>
   </programme>
   <programme channel="kapamilya-channel" start="20251116070000 +0800" stop="20251116072500 +0800">
     <title>Wikaharian</title>
@@ -755,45 +638,6 @@
   </programme>
   <programme channel="kapamilya-channel" start="20251117034500 +0800" stop="20251117041500 +0800">
     <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="net-25" start="20251116000000 +0800" stop="20251116003000 +0800">
-    <title>That's in the Bible</title>
-  </programme>
-  <programme channel="net-25" start="20251116003000 +0800" stop="20251116010000 +0800">
-    <title>A Mensagem</title>
-  </programme>
-  <programme channel="net-25" start="20251116010000 +0800" stop="20251116013000 +0800">
-    <title>INC international Edition</title>
-  </programme>
-  <programme channel="net-25" start="20251116013000 +0800" stop="20251116020000 +0800">
-    <title>Gabay Sa Mabuting Asal</title>
-  </programme>
-  <programme channel="net-25" start="20251116020000 +0800" stop="20251116023000 +0800">
-    <title>Executive News Feature</title>
-  </programme>
-  <programme channel="net-25" start="20251116023000 +0800" stop="20251116033000 +0800">
-    <title>INCinema</title>
-  </programme>
-  <programme channel="net-25" start="20251116033000 +0800" stop="20251116040000 +0800">
-    <title>Turning Point</title>
-  </programme>
-  <programme channel="net-25" start="20251116040000 +0800" stop="20251116043000 +0800">
-    <title>Trabaho Ko To</title>
-  </programme>
-  <programme channel="net-25" start="20251116043000 +0800" stop="20251116050000 +0800">
-    <title>INC Giving Show</title>
-  </programme>
-  <programme channel="net-25" start="20251116050000 +0800" stop="20251116053000 +0800">
-    <title>See For Yourself</title>
-  </programme>
-  <programme channel="net-25" start="20251116053000 +0800" stop="20251116060000 +0800">
-    <title>That's in the Bible</title>
-  </programme>
-  <programme channel="net-25" start="20251116060000 +0800" stop="20251116063000 +0800">
-    <title>Ang Iglesia Ni Cristo</title>
-  </programme>
-  <programme channel="net-25" start="20251116063000 +0800" stop="20251116070000 +0800">
-    <title>Executive News Feature</title>
   </programme>
   <programme channel="net-25" start="20251116070000 +0800" stop="20251116080000 +0800">
     <title>Your Light Forever</title>
@@ -872,12 +716,6 @@
   </programme>
   <programme channel="net-25" start="20251117043000 +0800" stop="20251117050000 +0800">
     <title>INC Giving Show</title>
-  </programme>
-  <programme channel="pbo" start="20251116013000 +0800" stop="20251116033000 +0800">
-    <title>Wag Kang Lilingon</title>
-  </programme>
-  <programme channel="pbo" start="20251116033000 +0800" stop="20251116060000 +0800">
-    <title>Mañanita</title>
   </programme>
   <programme channel="pbo" start="20251116060000 +0800" stop="20251116081500 +0800">
     <title>Nanay, Tatay</title>
@@ -975,15 +813,6 @@
   <programme channel="ptv" start="20251116233000 +0800" stop="20251117000000 +0800">
     <title>Presidential Coverage</title>
   </programme>
-  <programme channel="solar-flix" start="20251116000000 +0800" stop="20251116020000 +0800">
-    <title>Abrakadabra</title>
-  </programme>
-  <programme channel="solar-flix" start="20251116020000 +0800" stop="20251116040000 +0800">
-    <title>Ganti Ng Puso</title>
-  </programme>
-  <programme channel="solar-flix" start="20251116040000 +0800" stop="20251116060000 +0800">
-    <title>Colossal</title>
-  </programme>
   <programme channel="solar-flix" start="20251116060000 +0800" stop="20251116080000 +0800">
     <title>Isang Milyon sa Ulo Ni Cobra</title>
   </programme>
@@ -1032,15 +861,6 @@
   <programme channel="solar-flix" start="20251117040000 +0800" stop="20251117043000 +0800">
     <title>Suburbicon</title>
   </programme>
-  <programme channel="tv5" start="20251116003000 +0800" stop="20251116053000 +0800">
-    <title>Oras Ng Himala</title>
-  </programme>
-  <programme channel="tv5" start="20251116053000 +0800" stop="20251116060000 +0800">
-    <title>In Touch with Dr. Charles Stanley</title>
-  </programme>
-  <programme channel="tv5" start="20251116060000 +0800" stop="20251116070000 +0800">
-    <title>Sunday TV Mass</title>
-  </programme>
   <programme channel="tv5" start="20251116070000 +0800" stop="20251116080000 +0800">
     <title>Oras ng Katotohanan</title>
   </programme>
@@ -1088,15 +908,6 @@
   </programme>
   <programme channel="tv5" start="20251116233000 +0800" stop="20251117000000 +0800">
     <title>CCF Worship Service</title>
-  </programme>
-  <programme channel="viva-cinema" start="20251116003000 +0800" stop="20251116020000 +0800">
-    <title>Rosalie 19 Reyna Ng Bocaue</title>
-  </programme>
-  <programme channel="viva-cinema" start="20251116020000 +0800" stop="20251116040000 +0800">
-    <title>Bokyo</title>
-  </programme>
-  <programme channel="viva-cinema" start="20251116040000 +0800" stop="20251116060000 +0800">
-    <title>Bakit Bughaw Ang Langit</title>
   </programme>
   <programme channel="viva-cinema" start="20251116060000 +0800" stop="20251116080000 +0800">
     <title>Kosa</title>

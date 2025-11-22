@@ -2,7 +2,7 @@ name: Generate DZMM EPG (Weekly)
 
 on:
   schedule:
-    - cron: "0 19 * * 0"  # every Sunday at 3:00 AM Manila
+    - cron: "0 */8 * * *"  # every Sunday at 3:00 AM Manila
   workflow_dispatch:
 
 permissions:

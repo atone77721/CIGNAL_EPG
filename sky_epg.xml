@@ -1,859 +1,1195 @@
 <?xml version="1.0" ?>
 <tv>
-  <channel id="31">
-    <display-name>SPOTV</display-name>
-    <icon src="http://202.78.65.124/epgcms/uploads/SPOTV_LOGO_320x180px.png"/>
+  <channel id="28">
+    <display-name>CNN</display-name>
+    <icon src="http://202.78.65.124/epgcms/uploads/CNN_web.png"/>
   </channel>
-  <channel id="32">
-    <display-name>SPOTV  2</display-name>
-    <icon src="http://202.78.65.124/epgcms/uploads/SPOTV2_LOGO_320x180px.png"/>
+  <channel id="181">
+    <display-name>CNN HD</display-name>
+    <icon src="http://202.78.65.124/epgcms/uploads/CNN_hD.png"/>
   </channel>
-  <channel id="253">
-    <display-name>SPOTV HD</display-name>
-    <icon src="http://202.78.65.124/epgcms/uploads/SPOTV_LOGO_320x180px1.png"/>
-  </channel>
-  <channel id="254">
-    <display-name>SPOTV 2 HD</display-name>
-    <icon src="http://202.78.65.124/epgcms/uploads/SPOTV2_LOGO_320x180px1.png"/>
-  </channel>
-  <programme start="20251109003000 +0800" stop="20251109011500 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109011500 +0800" stop="20251109033000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109000000 +0800" stop="20251109004500 +0800" channel="32">
-    <title lang="en">2025 MotoE Rd 7 GP of  Portugal</title>
-    <desc lang="en">2025 MotoE Rd 7 GP of  Portugal</desc>
-  </programme>
-  <programme start="20251109004500 +0800" stop="20251109013000 +0800" channel="32">
-    <title lang="en">Marc Marquez More Than A Comeback</title>
-    <desc lang="en">Marc Marquez More Than A Comeback</desc>
-  </programme>
-  <programme start="20251109013000 +0800" stop="20251109050000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109003000 +0800" stop="20251109011500 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109011500 +0800" stop="20251109033000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109000000 +0800" stop="20251109004500 +0800" channel="254">
-    <title lang="en">2025 MotoE Rd 7 GP of  Portugal</title>
-    <desc lang="en">2025 MotoE Rd 7 GP of  Portugal</desc>
-  </programme>
-  <programme start="20251109004500 +0800" stop="20251109013000 +0800" channel="254">
-    <title lang="en">Marc Marquez More Than A Comeback</title>
-    <desc lang="en">Marc Marquez More Than A Comeback</desc>
-  </programme>
-  <programme start="20251109013000 +0800" stop="20251109050000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109030000 +0800" stop="20251109033000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109033000 +0800" stop="20251109070000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109090000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109123000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109030000 +0800" stop="20251109050000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109050000 +0800" stop="20251109070000 +0800" channel="32">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109074500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109074500 +0800" stop="20251109082500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109082500 +0800" stop="20251109090500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109030000 +0800" stop="20251109033000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109033000 +0800" stop="20251109070000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109090000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109123000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109030000 +0800" stop="20251109050000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109050000 +0800" stop="20251109070000 +0800" channel="254">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109074500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109074500 +0800" stop="20251109082500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109082500 +0800" stop="20251109090500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109060000 +0800" stop="20251109070000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109090000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109123000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109123000 +0800" stop="20251109133000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109135500 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109135500 +0800" stop="20251109160000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109060000 +0800" stop="20251109070000 +0800" channel="32">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109074500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109074500 +0800" stop="20251109082500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109082500 +0800" stop="20251109090500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109090500 +0800" stop="20251109101500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109101500 +0800" stop="20251109111500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109111500 +0800" stop="20251109121500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109121500 +0800" stop="20251109133000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109140000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Rewind  GP of Malaysia</title>
-    <desc lang="en">MotoGP 2025 Rewind  GP of Malaysia</desc>
-  </programme>
-  <programme start="20251109140000 +0800" stop="20251109173500 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109060000 +0800" stop="20251109070000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109090000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109123000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109123000 +0800" stop="20251109133000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109135500 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109135500 +0800" stop="20251109160000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109060000 +0800" stop="20251109070000 +0800" channel="254">
-    <title lang="en">202526 ALeague Men Round 3</title>
-    <desc lang="en">202526 ALeague Men Round 3</desc>
-  </programme>
-  <programme start="20251109070000 +0800" stop="20251109074500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109074500 +0800" stop="20251109082500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109082500 +0800" stop="20251109090500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109090500 +0800" stop="20251109101500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109101500 +0800" stop="20251109111500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109111500 +0800" stop="20251109121500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109121500 +0800" stop="20251109133000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109140000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Rewind  GP of Malaysia</title>
-    <desc lang="en">MotoGP 2025 Rewind  GP of Malaysia</desc>
-  </programme>
-  <programme start="20251109140000 +0800" stop="20251109173500 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109123000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109123000 +0800" stop="20251109133000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109135500 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109135500 +0800" stop="20251109160000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109160000 +0800" stop="20251109183000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109090500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109090500 +0800" stop="20251109101500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109101500 +0800" stop="20251109111500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109111500 +0800" stop="20251109121500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109121500 +0800" stop="20251109133000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109140000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Rewind  GP of Malaysia</title>
-    <desc lang="en">MotoGP 2025 Rewind  GP of Malaysia</desc>
-  </programme>
-  <programme start="20251109140000 +0800" stop="20251109173500 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109173500 +0800" stop="20251109190000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109123000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109123000 +0800" stop="20251109133000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109135500 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109135500 +0800" stop="20251109160000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109160000 +0800" stop="20251109183000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109090000 +0800" stop="20251109090500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109090500 +0800" stop="20251109101500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109101500 +0800" stop="20251109111500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109111500 +0800" stop="20251109121500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109121500 +0800" stop="20251109133000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109140000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Rewind  GP of Malaysia</title>
-    <desc lang="en">MotoGP 2025 Rewind  GP of Malaysia</desc>
-  </programme>
-  <programme start="20251109140000 +0800" stop="20251109173500 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109173500 +0800" stop="20251109190000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109120000 +0800" stop="20251109123000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109123000 +0800" stop="20251109133000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109135500 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109135500 +0800" stop="20251109160000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109160000 +0800" stop="20251109183000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109120000 +0800" stop="20251109121500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109121500 +0800" stop="20251109133000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109140000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Rewind  GP of Malaysia</title>
-    <desc lang="en">MotoGP 2025 Rewind  GP of Malaysia</desc>
-  </programme>
-  <programme start="20251109140000 +0800" stop="20251109173500 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109173500 +0800" stop="20251109190000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="32">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109120000 +0800" stop="20251109123000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109123000 +0800" stop="20251109133000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109135500 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109135500 +0800" stop="20251109160000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109160000 +0800" stop="20251109183000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109120000 +0800" stop="20251109121500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109121500 +0800" stop="20251109133000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109133000 +0800" stop="20251109140000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Rewind  GP of Malaysia</title>
-    <desc lang="en">MotoGP 2025 Rewind  GP of Malaysia</desc>
-  </programme>
-  <programme start="20251109140000 +0800" stop="20251109173500 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109173500 +0800" stop="20251109190000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="254">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109150000 +0800" stop="20251109160000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109160000 +0800" stop="20251109183000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109150000 +0800" stop="20251109173500 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109173500 +0800" stop="20251109190000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="32">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109150000 +0800" stop="20251109160000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109160000 +0800" stop="20251109183000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109150000 +0800" stop="20251109173500 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109173500 +0800" stop="20251109190000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="254">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109180000 +0800" stop="20251109183000 +0800" channel="31">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109180000 +0800" stop="20251109190000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="32">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109180000 +0800" stop="20251109183000 +0800" channel="253">
-    <title lang="en">WTT Champions Montpellier 2025</title>
-    <desc lang="en">WTT Champions Montpellier 2025</desc>
-  </programme>
-  <programme start="20251109183000 +0800" stop="20251109203000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Match Rd4</title>
-    <desc lang="en">202526 ALeague Men Match Rd4</desc>
-  </programme>
-  <programme start="20251109203000 +0800" stop="20251109223000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109180000 +0800" stop="20251109190000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109190000 +0800" stop="20251109202500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109202500 +0800" stop="20251109221500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="254">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109210000 +0800" stop="20251109223000 +0800" channel="31">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="31">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="31">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="31">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109210000 +0800" stop="20251109221500 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="32">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="32">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="32">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
-  </programme>
-  <programme start="20251109210000 +0800" stop="20251109223000 +0800" channel="253">
-    <title lang="en">ROSHN Saudi League 2526  MW8</title>
-    <desc lang="en">ROSHN Saudi League 2526  MW8</desc>
-  </programme>
-  <programme start="20251109223000 +0800" stop="20251109233000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110003000 +0800" channel="253">
-    <title lang="en">Supercars 2025 Boost Mobile Gold Coast 500</title>
-    <desc lang="en">Supercars 2025 Boost Mobile Gold Coast 500</desc>
-  </programme>
-  <programme start="20251110003000 +0800" stop="20251110013000 +0800" channel="253">
-    <title lang="en">2025 European Le Mans Series 4 Hours of Portimao</title>
-    <desc lang="en">2025 European Le Mans Series 4 Hours of Portimao</desc>
-  </programme>
-  <programme start="20251110013000 +0800" stop="20251110060000 +0800" channel="253">
-    <title lang="en">202526 ALeague Men Mini Match</title>
-    <desc lang="en">202526 ALeague Men Mini Match</desc>
-  </programme>
-  <programme start="20251109210000 +0800" stop="20251109221500 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109221500 +0800" stop="20251109233000 +0800" channel="254">
-    <title lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</title>
-    <desc lang="en">MotoGP 2025 Round 21 Qatar Airways Grand Prix of Portugal</desc>
-  </programme>
-  <programme start="20251109233000 +0800" stop="20251110000000 +0800" channel="254">
-    <title lang="en">202526 ALM Mini Match Rd 3</title>
-    <desc lang="en">202526 ALM Mini Match Rd 3</desc>
-  </programme>
-  <programme start="20251110000000 +0800" stop="20251110060000 +0800" channel="254">
-    <title lang="en">WTT Champions Frankfurt 2025</title>
-    <desc lang="en">WTT Champions Frankfurt 2025</desc>
+  <programme start="20251205160000 +0800" stop="20251205164500 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Friday, December 5, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Friday, December 5, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251205164500 +0800" stop="20251205170000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 1245am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 1245am ET</desc>
+  </programme>
+  <programme start="20251205170000 +0800" stop="20251205180000 +0800" channel="28">
+    <title lang="en">Amanpour Thursday, December 4, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Thursday, December 4, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251205180000 +0800" stop="20251205190000 +0800" channel="28">
+    <title lang="en">Early Start with Rahel Solomon Wednesday, September 24, 2025 4AM</title>
+    <desc lang="en">Early Start with Rahel Solomon Wednesday, September 24, 2025 4AM</desc>
+  </programme>
+  <programme start="20251205190000 +0800" stop="20251205200000 +0800" channel="28">
+    <title lang="en">CNN This Morning Friday, December 5, 2025 6AM</title>
+    <desc lang="en">CNN This Morning Friday, December 5, 2025 6AM</desc>
+  </programme>
+  <programme start="20251205160000 +0800" stop="20251205164500 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Friday, December 5, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Friday, December 5, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251205164500 +0800" stop="20251205170000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 1245am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 1245am ET</desc>
+  </programme>
+  <programme start="20251205170000 +0800" stop="20251205180000 +0800" channel="181">
+    <title lang="en">Amanpour Thursday, December 4, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Thursday, December 4, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251205180000 +0800" stop="20251205190000 +0800" channel="181">
+    <title lang="en">Early Start with Rahel Solomon Wednesday, September 24, 2025 4AM</title>
+    <desc lang="en">Early Start with Rahel Solomon Wednesday, September 24, 2025 4AM</desc>
+  </programme>
+  <programme start="20251205190000 +0800" stop="20251205200000 +0800" channel="181">
+    <title lang="en">CNN This Morning Friday, December 5, 2025 6AM</title>
+    <desc lang="en">CNN This Morning Friday, December 5, 2025 6AM</desc>
+  </programme>
+  <programme start="20251205190000 +0800" stop="20251205200000 +0800" channel="28">
+    <title lang="en">CNN This Morning Friday, December 5, 2025 6AM</title>
+    <desc lang="en">CNN This Morning Friday, December 5, 2025 6AM</desc>
+  </programme>
+  <programme start="20251205200000 +0800" stop="20251205210000 +0800" channel="28">
+    <title lang="en">CNN News Central Friday, December 5, 2025 7AM</title>
+    <desc lang="en">CNN News Central Friday, December 5, 2025 7AM</desc>
+  </programme>
+  <programme start="20251205210000 +0800" stop="20251205213000 +0800" channel="28">
+    <title lang="en">CNN News Central AM 30m CNN News Central  Friday, December 5, 2025 8am ET</title>
+    <desc lang="en">CNN News Central AM 30m CNN News Central  Friday, December 5, 2025 8am ET</desc>
+  </programme>
+  <programme start="20251205213000 +0800" stop="20251205220000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 730am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 730am ET</desc>
+  </programme>
+  <programme start="20251205220000 +0800" stop="20251205224500 +0800" channel="28">
+    <title lang="en">Connect the World Friday, December 5, 2025 9am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 9am ET</desc>
+  </programme>
+  <programme start="20251205224500 +0800" stop="20251205230000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 945am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 945am ET</desc>
+  </programme>
+  <programme start="20251205230000 +0800" stop="20251206000000 +0800" channel="28">
+    <title lang="en">Connect the World Friday, December 5, 2025 10am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 10am ET</desc>
+  </programme>
+  <programme start="20251206000000 +0800" stop="20251206030000 +0800" channel="28">
+    <title lang="en">One World Friday, December 5, 2025 11am ET</title>
+    <desc lang="en">One World Friday, December 5, 2025 11am ET</desc>
+  </programme>
+  <programme start="20251205190000 +0800" stop="20251205200000 +0800" channel="181">
+    <title lang="en">CNN This Morning Friday, December 5, 2025 6AM</title>
+    <desc lang="en">CNN This Morning Friday, December 5, 2025 6AM</desc>
+  </programme>
+  <programme start="20251205200000 +0800" stop="20251205210000 +0800" channel="181">
+    <title lang="en">CNN News Central Friday, December 5, 2025 7AM</title>
+    <desc lang="en">CNN News Central Friday, December 5, 2025 7AM</desc>
+  </programme>
+  <programme start="20251205210000 +0800" stop="20251205213000 +0800" channel="181">
+    <title lang="en">CNN News Central AM 30m CNN News Central  Friday, December 5, 2025 8am ET</title>
+    <desc lang="en">CNN News Central AM 30m CNN News Central  Friday, December 5, 2025 8am ET</desc>
+  </programme>
+  <programme start="20251205213000 +0800" stop="20251205220000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 730am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 730am ET</desc>
+  </programme>
+  <programme start="20251205220000 +0800" stop="20251205224500 +0800" channel="181">
+    <title lang="en">Connect the World Friday, December 5, 2025 9am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 9am ET</desc>
+  </programme>
+  <programme start="20251205224500 +0800" stop="20251205230000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 945am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 945am ET</desc>
+  </programme>
+  <programme start="20251205230000 +0800" stop="20251206000000 +0800" channel="181">
+    <title lang="en">Connect the World Friday, December 5, 2025 10am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 10am ET</desc>
+  </programme>
+  <programme start="20251206000000 +0800" stop="20251206030000 +0800" channel="181">
+    <title lang="en">One World Friday, December 5, 2025 11am ET</title>
+    <desc lang="en">One World Friday, December 5, 2025 11am ET</desc>
+  </programme>
+  <programme start="20251205220000 +0800" stop="20251205224500 +0800" channel="28">
+    <title lang="en">Connect the World Friday, December 5, 2025 9am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 9am ET</desc>
+  </programme>
+  <programme start="20251205224500 +0800" stop="20251205230000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 945am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 945am ET</desc>
+  </programme>
+  <programme start="20251205230000 +0800" stop="20251206000000 +0800" channel="28">
+    <title lang="en">Connect the World Friday, December 5, 2025 10am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 10am ET</desc>
+  </programme>
+  <programme start="20251206000000 +0800" stop="20251206030000 +0800" channel="28">
+    <title lang="en">One World Friday, December 5, 2025 11am ET</title>
+    <desc lang="en">One World Friday, December 5, 2025 11am ET</desc>
+  </programme>
+  <programme start="20251206030000 +0800" stop="20251206040000 +0800" channel="28">
+    <title lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</title>
+    <desc lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</desc>
+  </programme>
+  <programme start="20251206040000 +0800" stop="20251206053000 +0800" channel="28">
+    <title lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</title>
+    <desc lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</desc>
+  </programme>
+  <programme start="20251206053000 +0800" stop="20251206060000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 530pm ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 530pm ET</desc>
+  </programme>
+  <programme start="20251206060000 +0800" stop="20251206070000 +0800" channel="28">
+    <title lang="en">Amanpour Friday, December 5, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Friday, December 5, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="28">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251205220000 +0800" stop="20251205224500 +0800" channel="181">
+    <title lang="en">Connect the World Friday, December 5, 2025 9am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 9am ET</desc>
+  </programme>
+  <programme start="20251205224500 +0800" stop="20251205230000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 945am ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 945am ET</desc>
+  </programme>
+  <programme start="20251205230000 +0800" stop="20251206000000 +0800" channel="181">
+    <title lang="en">Connect the World Friday, December 5, 2025 10am ET</title>
+    <desc lang="en">Connect the World Friday, December 5, 2025 10am ET</desc>
+  </programme>
+  <programme start="20251206000000 +0800" stop="20251206030000 +0800" channel="181">
+    <title lang="en">One World Friday, December 5, 2025 11am ET</title>
+    <desc lang="en">One World Friday, December 5, 2025 11am ET</desc>
+  </programme>
+  <programme start="20251206030000 +0800" stop="20251206040000 +0800" channel="181">
+    <title lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</title>
+    <desc lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</desc>
+  </programme>
+  <programme start="20251206040000 +0800" stop="20251206053000 +0800" channel="181">
+    <title lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</title>
+    <desc lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</desc>
+  </programme>
+  <programme start="20251206053000 +0800" stop="20251206060000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 530pm ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 530pm ET</desc>
+  </programme>
+  <programme start="20251206060000 +0800" stop="20251206070000 +0800" channel="181">
+    <title lang="en">Amanpour Friday, December 5, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Friday, December 5, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="181">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206010000 +0800" stop="20251206030000 +0800" channel="28">
+    <title lang="en">One World Friday, December 5, 2025 11am ET</title>
+    <desc lang="en">One World Friday, December 5, 2025 11am ET</desc>
+  </programme>
+  <programme start="20251206030000 +0800" stop="20251206040000 +0800" channel="28">
+    <title lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</title>
+    <desc lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</desc>
+  </programme>
+  <programme start="20251206040000 +0800" stop="20251206053000 +0800" channel="28">
+    <title lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</title>
+    <desc lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</desc>
+  </programme>
+  <programme start="20251206053000 +0800" stop="20251206060000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 530pm ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 530pm ET</desc>
+  </programme>
+  <programme start="20251206060000 +0800" stop="20251206070000 +0800" channel="28">
+    <title lang="en">Amanpour Friday, December 5, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Friday, December 5, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="28">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206080000 +0800" stop="20251206090000 +0800" channel="28">
+    <title lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</title>
+    <desc lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</desc>
+  </programme>
+  <programme start="20251206090000 +0800" stop="20251206100000 +0800" channel="28">
+    <title lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</title>
+    <desc lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="28">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="28">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="28">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206010000 +0800" stop="20251206030000 +0800" channel="181">
+    <title lang="en">One World Friday, December 5, 2025 11am ET</title>
+    <desc lang="en">One World Friday, December 5, 2025 11am ET</desc>
+  </programme>
+  <programme start="20251206030000 +0800" stop="20251206040000 +0800" channel="181">
+    <title lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</title>
+    <desc lang="en">Isa Soares Tonight Friday, December 5, 2025 2pm ET</desc>
+  </programme>
+  <programme start="20251206040000 +0800" stop="20251206053000 +0800" channel="181">
+    <title lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</title>
+    <desc lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</desc>
+  </programme>
+  <programme start="20251206053000 +0800" stop="20251206060000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 530pm ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 530pm ET</desc>
+  </programme>
+  <programme start="20251206060000 +0800" stop="20251206070000 +0800" channel="181">
+    <title lang="en">Amanpour Friday, December 5, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Friday, December 5, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="181">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206080000 +0800" stop="20251206090000 +0800" channel="181">
+    <title lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</title>
+    <desc lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</desc>
+  </programme>
+  <programme start="20251206090000 +0800" stop="20251206100000 +0800" channel="181">
+    <title lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</title>
+    <desc lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="181">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="181">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="181">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206040000 +0800" stop="20251206053000 +0800" channel="28">
+    <title lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</title>
+    <desc lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</desc>
+  </programme>
+  <programme start="20251206053000 +0800" stop="20251206060000 +0800" channel="28">
+    <title lang="en">World Sport Friday, December 5, 2025 530pm ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 530pm ET</desc>
+  </programme>
+  <programme start="20251206060000 +0800" stop="20251206070000 +0800" channel="28">
+    <title lang="en">Amanpour Friday, December 5, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Friday, December 5, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="28">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206080000 +0800" stop="20251206090000 +0800" channel="28">
+    <title lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</title>
+    <desc lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</desc>
+  </programme>
+  <programme start="20251206090000 +0800" stop="20251206100000 +0800" channel="28">
+    <title lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</title>
+    <desc lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="28">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="28">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="28">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="28">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206040000 +0800" stop="20251206053000 +0800" channel="181">
+    <title lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</title>
+    <desc lang="en">What We Know with Max Foster Friday, December 5, 2025 3pm ET</desc>
+  </programme>
+  <programme start="20251206053000 +0800" stop="20251206060000 +0800" channel="181">
+    <title lang="en">World Sport Friday, December 5, 2025 530pm ET</title>
+    <desc lang="en">World Sport Friday, December 5, 2025 530pm ET</desc>
+  </programme>
+  <programme start="20251206060000 +0800" stop="20251206070000 +0800" channel="181">
+    <title lang="en">Amanpour Friday, December 5, 2025 1pm ET</title>
+    <desc lang="en">Amanpour Friday, December 5, 2025 1pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="181">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206080000 +0800" stop="20251206090000 +0800" channel="181">
+    <title lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</title>
+    <desc lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</desc>
+  </programme>
+  <programme start="20251206090000 +0800" stop="20251206100000 +0800" channel="181">
+    <title lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</title>
+    <desc lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="181">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="181">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="181">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="181">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="28">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206080000 +0800" stop="20251206090000 +0800" channel="28">
+    <title lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</title>
+    <desc lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</desc>
+  </programme>
+  <programme start="20251206090000 +0800" stop="20251206100000 +0800" channel="28">
+    <title lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</title>
+    <desc lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="28">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="28">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="28">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="28">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206193000 +0800" stop="20251206200000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206200000 +0800" stop="20251206210000 +0800" channel="28">
+    <title lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</title>
+    <desc lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</desc>
+  </programme>
+  <programme start="20251206210000 +0800" stop="20251206220000 +0800" channel="28">
+    <title lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</title>
+    <desc lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</desc>
+  </programme>
+  <programme start="20251206220000 +0800" stop="20251206230000 +0800" channel="28">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251206230000 +0800" stop="20251206233000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206233000 +0800" stop="20251207000000 +0800" channel="28">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207000000 +0800" stop="20251207010000 +0800" channel="28">
+    <title lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</title>
+    <desc lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</desc>
+  </programme>
+  <programme start="20251207010000 +0800" stop="20251207013000 +0800" channel="28">
+    <title lang="en">World Sport Saturday, December 6, 2025 12pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 12pm ET</desc>
+  </programme>
+  <programme start="20251206070000 +0800" stop="20251206080000 +0800" channel="181">
+    <title lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</title>
+    <desc lang="en">The Brief with Jim Sciutto Friday, December 5, 2025  6pm ET</desc>
+  </programme>
+  <programme start="20251206080000 +0800" stop="20251206090000 +0800" channel="181">
+    <title lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</title>
+    <desc lang="en">Erin Burnett OutFront Friday, December 5, 2025 7PM</desc>
+  </programme>
+  <programme start="20251206090000 +0800" stop="20251206100000 +0800" channel="181">
+    <title lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</title>
+    <desc lang="en">Anderson Cooper 360 Friday, December 5, 2025 8PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="181">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="181">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="181">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="181">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206193000 +0800" stop="20251206200000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206200000 +0800" stop="20251206210000 +0800" channel="181">
+    <title lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</title>
+    <desc lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</desc>
+  </programme>
+  <programme start="20251206210000 +0800" stop="20251206220000 +0800" channel="181">
+    <title lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</title>
+    <desc lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</desc>
+  </programme>
+  <programme start="20251206220000 +0800" stop="20251206230000 +0800" channel="181">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251206230000 +0800" stop="20251206233000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206233000 +0800" stop="20251207000000 +0800" channel="181">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207000000 +0800" stop="20251207010000 +0800" channel="181">
+    <title lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</title>
+    <desc lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</desc>
+  </programme>
+  <programme start="20251207010000 +0800" stop="20251207013000 +0800" channel="181">
+    <title lang="en">World Sport Saturday, December 6, 2025 12pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 12pm ET</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="28">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="28">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="28">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="28">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206193000 +0800" stop="20251206200000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206200000 +0800" stop="20251206210000 +0800" channel="28">
+    <title lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</title>
+    <desc lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</desc>
+  </programme>
+  <programme start="20251206210000 +0800" stop="20251206220000 +0800" channel="28">
+    <title lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</title>
+    <desc lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</desc>
+  </programme>
+  <programme start="20251206220000 +0800" stop="20251206230000 +0800" channel="28">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251206230000 +0800" stop="20251206233000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206233000 +0800" stop="20251207000000 +0800" channel="28">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207000000 +0800" stop="20251207010000 +0800" channel="28">
+    <title lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</title>
+    <desc lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</desc>
+  </programme>
+  <programme start="20251207010000 +0800" stop="20251207013000 +0800" channel="28">
+    <title lang="en">World Sport Saturday, December 6, 2025 12pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 12pm ET</desc>
+  </programme>
+  <programme start="20251207013000 +0800" stop="20251207014500 +0800" channel="28">
+    <title lang="en">Marketplace Middle East Aviation &amp; Aerospace</title>
+    <desc lang="en">Marketplace Middle East Aviation &amp; Aerospace</desc>
+  </programme>
+  <programme start="20251207014500 +0800" stop="20251207020000 +0800" channel="28">
+    <title lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</title>
+    <desc lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</desc>
+  </programme>
+  <programme start="20251207020000 +0800" stop="20251207030000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</desc>
+  </programme>
+  <programme start="20251207030000 +0800" stop="20251207040000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</desc>
+  </programme>
+  <programme start="20251207040000 +0800" stop="20251207050000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</desc>
+  </programme>
+  <programme start="20251207050000 +0800" stop="20251207060000 +0800" channel="28">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251207060000 +0800" stop="20251207063000 +0800" channel="28">
+    <title lang="en">World Sport Saturday, December 6, 2025 5pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 5pm ET</desc>
+  </programme>
+  <programme start="20251207063000 +0800" stop="20251207070000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251207070000 +0800" stop="20251207080000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</desc>
+  </programme>
+  <programme start="20251206100000 +0800" stop="20251206110000 +0800" channel="181">
+    <title lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</title>
+    <desc lang="en">The Source with Kaitlan Collins Friday, December 5, 2025 9PM</desc>
+  </programme>
+  <programme start="20251206110000 +0800" stop="20251206120000 +0800" channel="181">
+    <title lang="en">CNN NewsNight Friday, December 5, 2025 10PM</title>
+    <desc lang="en">CNN NewsNight Friday, December 5, 2025 10PM</desc>
+  </programme>
+  <programme start="20251206120000 +0800" stop="20251206130000 +0800" channel="181">
+    <title lang="en">Laura Coates Live Friday, December 5, 2025 11PM</title>
+    <desc lang="en">Laura Coates Live Friday, December 5, 2025 11PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="181">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206193000 +0800" stop="20251206200000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206200000 +0800" stop="20251206210000 +0800" channel="181">
+    <title lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</title>
+    <desc lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</desc>
+  </programme>
+  <programme start="20251206210000 +0800" stop="20251206220000 +0800" channel="181">
+    <title lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</title>
+    <desc lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</desc>
+  </programme>
+  <programme start="20251206220000 +0800" stop="20251206230000 +0800" channel="181">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251206230000 +0800" stop="20251206233000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206233000 +0800" stop="20251207000000 +0800" channel="181">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207000000 +0800" stop="20251207010000 +0800" channel="181">
+    <title lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</title>
+    <desc lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</desc>
+  </programme>
+  <programme start="20251207010000 +0800" stop="20251207013000 +0800" channel="181">
+    <title lang="en">World Sport Saturday, December 6, 2025 12pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 12pm ET</desc>
+  </programme>
+  <programme start="20251207013000 +0800" stop="20251207014500 +0800" channel="181">
+    <title lang="en">Marketplace Middle East Aviation &amp; Aerospace</title>
+    <desc lang="en">Marketplace Middle East Aviation &amp; Aerospace</desc>
+  </programme>
+  <programme start="20251207014500 +0800" stop="20251207020000 +0800" channel="181">
+    <title lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</title>
+    <desc lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</desc>
+  </programme>
+  <programme start="20251207020000 +0800" stop="20251207030000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</desc>
+  </programme>
+  <programme start="20251207030000 +0800" stop="20251207040000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</desc>
+  </programme>
+  <programme start="20251207040000 +0800" stop="20251207050000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</desc>
+  </programme>
+  <programme start="20251207050000 +0800" stop="20251207060000 +0800" channel="181">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251207060000 +0800" stop="20251207063000 +0800" channel="181">
+    <title lang="en">World Sport Saturday, December 6, 2025 5pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 5pm ET</desc>
+  </programme>
+  <programme start="20251207063000 +0800" stop="20251207070000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251207070000 +0800" stop="20251207080000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="28">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="28">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206193000 +0800" stop="20251206200000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206200000 +0800" stop="20251206210000 +0800" channel="28">
+    <title lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</title>
+    <desc lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</desc>
+  </programme>
+  <programme start="20251206210000 +0800" stop="20251206220000 +0800" channel="28">
+    <title lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</title>
+    <desc lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</desc>
+  </programme>
+  <programme start="20251206220000 +0800" stop="20251206230000 +0800" channel="28">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251206230000 +0800" stop="20251206233000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206233000 +0800" stop="20251207000000 +0800" channel="28">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207000000 +0800" stop="20251207010000 +0800" channel="28">
+    <title lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</title>
+    <desc lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</desc>
+  </programme>
+  <programme start="20251207010000 +0800" stop="20251207013000 +0800" channel="28">
+    <title lang="en">World Sport Saturday, December 6, 2025 12pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 12pm ET</desc>
+  </programme>
+  <programme start="20251207013000 +0800" stop="20251207014500 +0800" channel="28">
+    <title lang="en">Marketplace Middle East Aviation &amp; Aerospace</title>
+    <desc lang="en">Marketplace Middle East Aviation &amp; Aerospace</desc>
+  </programme>
+  <programme start="20251207014500 +0800" stop="20251207020000 +0800" channel="28">
+    <title lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</title>
+    <desc lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</desc>
+  </programme>
+  <programme start="20251207020000 +0800" stop="20251207030000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</desc>
+  </programme>
+  <programme start="20251207030000 +0800" stop="20251207040000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</desc>
+  </programme>
+  <programme start="20251207040000 +0800" stop="20251207050000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</desc>
+  </programme>
+  <programme start="20251207050000 +0800" stop="20251207060000 +0800" channel="28">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251207060000 +0800" stop="20251207063000 +0800" channel="28">
+    <title lang="en">World Sport Saturday, December 6, 2025 5pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 5pm ET</desc>
+  </programme>
+  <programme start="20251207063000 +0800" stop="20251207070000 +0800" channel="28">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251207070000 +0800" stop="20251207080000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</desc>
+  </programme>
+  <programme start="20251207080000 +0800" stop="20251207090000 +0800" channel="28">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 7PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 7PM</desc>
+  </programme>
+  <programme start="20251207090000 +0800" stop="20251207100000 +0800" channel="28">
+    <title lang="en">DNU  CNN Heroes An AllStar Tribute 2025 CNN Heroes An AllStar Tribute 2025</title>
+    <desc lang="en">DNU  CNN Heroes An AllStar Tribute 2025 CNN Heroes An AllStar Tribute 2025</desc>
+  </programme>
+  <programme start="20251207100000 +0800" stop="20251207103000 +0800" channel="28">
+    <title lang="en">World Sport Saturday, December 6, 2025 5pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 5pm ET</desc>
+  </programme>
+  <programme start="20251207103000 +0800" stop="20251207110000 +0800" channel="28">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251207110000 +0800" stop="20251207113000 +0800" channel="28">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207113000 +0800" stop="20251207120000 +0800" channel="28">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251207120000 +0800" stop="20251207123000 +0800" channel="28">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251207123000 +0800" stop="20251207124500 +0800" channel="28">
+    <title lang="en">Marketplace Middle East Aviation &amp; Aerospace</title>
+    <desc lang="en">Marketplace Middle East Aviation &amp; Aerospace</desc>
+  </programme>
+  <programme start="20251207124500 +0800" stop="20251207130000 +0800" channel="28">
+    <title lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</title>
+    <desc lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</desc>
+  </programme>
+  <programme start="20251207130000 +0800" stop="20251207133000 +0800" channel="28">
+    <title lang="en">CNN Newsroom CNNI Sunday, December 7, 2025 12am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Sunday, December 7, 2025 12am ET</desc>
+  </programme>
+  <programme start="20251206130000 +0800" stop="20251206140000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 12AM</desc>
+  </programme>
+  <programme start="20251206140000 +0800" stop="20251206143000 +0800" channel="181">
+    <title lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</title>
+    <desc lang="en">The Story Is With Elex Michaelson Saturday, December 6, 2025 1AM</desc>
+  </programme>
+  <programme start="20251206143000 +0800" stop="20251206150000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206150000 +0800" stop="20251206153000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 2am ET</desc>
+  </programme>
+  <programme start="20251206153000 +0800" stop="20251206160000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206160000 +0800" stop="20251206163000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 3am ET</desc>
+  </programme>
+  <programme start="20251206163000 +0800" stop="20251206170000 +0800" channel="181">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251206170000 +0800" stop="20251206173000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 4am ET</desc>
+  </programme>
+  <programme start="20251206173000 +0800" stop="20251206180000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206180000 +0800" stop="20251206190000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Saturday, December 6, 2025 5am ET</desc>
+  </programme>
+  <programme start="20251206190000 +0800" stop="20251206193000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251206193000 +0800" stop="20251206200000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251206200000 +0800" stop="20251206210000 +0800" channel="181">
+    <title lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</title>
+    <desc lang="en">CNN This Morning Weekend Saturday, December 6, 2025 7AM</desc>
+  </programme>
+  <programme start="20251206210000 +0800" stop="20251206220000 +0800" channel="181">
+    <title lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</title>
+    <desc lang="en">First Of All With Victor Blackwell Saturday, December 6, 2025 8AM</desc>
+  </programme>
+  <programme start="20251206220000 +0800" stop="20251206230000 +0800" channel="181">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251206230000 +0800" stop="20251206233000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251206233000 +0800" stop="20251207000000 +0800" channel="181">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207000000 +0800" stop="20251207010000 +0800" channel="181">
+    <title lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</title>
+    <desc lang="en">The Amanpour Hour Saturday, December 6, 2025 11AM</desc>
+  </programme>
+  <programme start="20251207010000 +0800" stop="20251207013000 +0800" channel="181">
+    <title lang="en">World Sport Saturday, December 6, 2025 12pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 12pm ET</desc>
+  </programme>
+  <programme start="20251207013000 +0800" stop="20251207014500 +0800" channel="181">
+    <title lang="en">Marketplace Middle East Aviation &amp; Aerospace</title>
+    <desc lang="en">Marketplace Middle East Aviation &amp; Aerospace</desc>
+  </programme>
+  <programme start="20251207014500 +0800" stop="20251207020000 +0800" channel="181">
+    <title lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</title>
+    <desc lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</desc>
+  </programme>
+  <programme start="20251207020000 +0800" stop="20251207030000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 1PM</desc>
+  </programme>
+  <programme start="20251207030000 +0800" stop="20251207040000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 2PM</desc>
+  </programme>
+  <programme start="20251207040000 +0800" stop="20251207050000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 3PM</desc>
+  </programme>
+  <programme start="20251207050000 +0800" stop="20251207060000 +0800" channel="181">
+    <title lang="en">Smerconish Saturday, December 6, 2025 9AM</title>
+    <desc lang="en">Smerconish Saturday, December 6, 2025 9AM</desc>
+  </programme>
+  <programme start="20251207060000 +0800" stop="20251207063000 +0800" channel="181">
+    <title lang="en">World Sport Saturday, December 6, 2025 5pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 5pm ET</desc>
+  </programme>
+  <programme start="20251207063000 +0800" stop="20251207070000 +0800" channel="181">
+    <title lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</title>
+    <desc lang="en">CNN Creators The Intro CNN Creators The Intro  Thursday, December 4, 2025 1130am ET</desc>
+  </programme>
+  <programme start="20251207070000 +0800" stop="20251207080000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 6PM</desc>
+  </programme>
+  <programme start="20251207080000 +0800" stop="20251207090000 +0800" channel="181">
+    <title lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 7PM</title>
+    <desc lang="en">CNN Newsroom Saturday Saturday, December 6, 2025 7PM</desc>
+  </programme>
+  <programme start="20251207090000 +0800" stop="20251207100000 +0800" channel="181">
+    <title lang="en">DNU  CNN Heroes An AllStar Tribute 2025 CNN Heroes An AllStar Tribute 2025</title>
+    <desc lang="en">DNU  CNN Heroes An AllStar Tribute 2025 CNN Heroes An AllStar Tribute 2025</desc>
+  </programme>
+  <programme start="20251207100000 +0800" stop="20251207103000 +0800" channel="181">
+    <title lang="en">World Sport Saturday, December 6, 2025 5pm ET</title>
+    <desc lang="en">World Sport Saturday, December 6, 2025 5pm ET</desc>
+  </programme>
+  <programme start="20251207103000 +0800" stop="20251207110000 +0800" channel="181">
+    <title lang="en">Tech for Good Agriculture Tech</title>
+    <desc lang="en">Tech for Good Agriculture Tech</desc>
+  </programme>
+  <programme start="20251207110000 +0800" stop="20251207113000 +0800" channel="181">
+    <title lang="en">Inside Africa Botswanas Sports Stars</title>
+    <desc lang="en">Inside Africa Botswanas Sports Stars</desc>
+  </programme>
+  <programme start="20251207113000 +0800" stop="20251207120000 +0800" channel="181">
+    <title lang="en">African Voices Changemakers Ebuka ObiUchendu</title>
+    <desc lang="en">African Voices Changemakers Ebuka ObiUchendu</desc>
+  </programme>
+  <programme start="20251207120000 +0800" stop="20251207123000 +0800" channel="181">
+    <title lang="en">Connecting Africa Mohamed Mansour</title>
+    <desc lang="en">Connecting Africa Mohamed Mansour</desc>
+  </programme>
+  <programme start="20251207123000 +0800" stop="20251207124500 +0800" channel="181">
+    <title lang="en">Marketplace Middle East Aviation &amp; Aerospace</title>
+    <desc lang="en">Marketplace Middle East Aviation &amp; Aerospace</desc>
+  </programme>
+  <programme start="20251207124500 +0800" stop="20251207130000 +0800" channel="181">
+    <title lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</title>
+    <desc lang="en">Marketplace Africa Driving and Digitizing Nigerias Blue Economy Samer Kassem</desc>
+  </programme>
+  <programme start="20251207130000 +0800" stop="20251207133000 +0800" channel="181">
+    <title lang="en">CNN Newsroom CNNI Sunday, December 7, 2025 12am ET</title>
+    <desc lang="en">CNN Newsroom CNNI Sunday, December 7, 2025 12am ET</desc>
   </programme>
 </tv>

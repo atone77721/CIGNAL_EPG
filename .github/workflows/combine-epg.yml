@@ -26,6 +26,7 @@ jobs:
           CIGNAL="cignal_epg.xml"
           CLICK="clickthecity_epg.xml"
           DZMM="dzmm.xml"
+          TV5="tv5.xml"
 
           echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
           echo '<tv>' >> merged_epg.xml
@@ -57,6 +58,7 @@ jobs:
           rewrite_and_append "$CIGNAL" "cignal"
           rewrite_and_append "$CLICK"  "click"
           rewrite_and_append "$DZMM"   "dzmm"
+          rewrite_and_append "$TV5"   "tv5"
 
           echo "</tv>" >> merged_epg.xml
 

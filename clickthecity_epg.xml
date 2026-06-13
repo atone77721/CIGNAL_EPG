@@ -48,21 +48,6 @@
   <channel id="viva-cinema">
     <display-name>viva-cinema</display-name>
   </channel>
-  <programme channel="a2z" start="20260613100000 +0800" stop="20260613120000 +0800">
-    <title>Zinema Sa Umaga</title>
-  </programme>
-  <programme channel="a2z" start="20260613120000 +0800" stop="20260613143000 +0800">
-    <title>It's Showtime</title>
-  </programme>
-  <programme channel="a2z" start="20260613143000 +0800" stop="20260613151500 +0800">
-    <title>Can't Buy Me Love</title>
-  </programme>
-  <programme channel="a2z" start="20260613151500 +0800" stop="20260613170000 +0800">
-    <title>Zine Aksyon</title>
-  </programme>
-  <programme channel="a2z" start="20260613170000 +0800" stop="20260613174500 +0800">
-    <title>SOCO</title>
-  </programme>
   <programme channel="a2z" start="20260613174500 +0800" stop="20260613184500 +0800">
     <title>TV Patrol Weekend</title>
   </programme>
@@ -83,39 +68,6 @@
   </programme>
   <programme channel="a2z" start="20260613234500 +0800" stop="20260614001500 +0800">
     <title>Jesus The Healer</title>
-  </programme>
-  <programme channel="anc" start="20260613113000 +0800" stop="20260613120000 +0800">
-    <title>My Puhunan Kaya Mo!</title>
-  </programme>
-  <programme channel="anc" start="20260613120000 +0800" stop="20260613130000 +0800">
-    <title>Dateline Philippines</title>
-  </programme>
-  <programme channel="anc" start="20260613130000 +0800" stop="20260613133000 +0800">
-    <title>Insight with April Lee-Tan</title>
-  </programme>
-  <programme channel="anc" start="20260613133000 +0800" stop="20260613140000 +0800">
-    <title>Rev</title>
-  </programme>
-  <programme channel="anc" start="20260613140000 +0800" stop="20260613143000 +0800">
-    <title>Asian Air Safari</title>
-  </programme>
-  <programme channel="anc" start="20260613143000 +0800" stop="20260613150000 +0800">
-    <title>Hot Copy on Headstart with Karen Davila</title>
-  </programme>
-  <programme channel="anc" start="20260613150000 +0800" stop="20260613160000 +0800">
-    <title>Chasing Flavors</title>
-  </programme>
-  <programme channel="anc" start="20260613160000 +0800" stop="20260613163000 +0800">
-    <title>Tao Po!</title>
-  </programme>
-  <programme channel="anc" start="20260613163000 +0800" stop="20260613171500 +0800">
-    <title>Maaram Isla Ng Panay</title>
-  </programme>
-  <programme channel="anc" start="20260613171500 +0800" stop="20260613181500 +0800">
-    <title>TV Patrol Weekend</title>
-  </programme>
-  <programme channel="anc" start="20260613181500 +0800" stop="20260613183000 +0800">
-    <title>Gourmet Takeaway</title>
   </programme>
   <programme channel="anc" start="20260613183000 +0800" stop="20260613190000 +0800">
     <title>LSS: The Martin Nievera Show</title>
@@ -171,18 +123,6 @@
   <programme channel="anc" start="20260614043000 +0800" stop="20260614050000 +0800">
     <title>My Italy with Margarita</title>
   </programme>
-  <programme channel="animax" start="20260613103000 +0800" stop="20260613120000 +0800">
-    <title>Unnamed Memory Season 1</title>
-  </programme>
-  <programme channel="animax" start="20260613120000 +0800" stop="20260613130000 +0800">
-    <title>The Daily Life Of A Middle-Aged Online Shopper in Another World</title>
-  </programme>
-  <programme channel="animax" start="20260613130000 +0800" stop="20260613153000 +0800">
-    <title>D.Gray-Man (#1-52)</title>
-  </programme>
-  <programme channel="animax" start="20260613153000 +0800" stop="20260613173000 +0800">
-    <title>Magic Maker: How To Make Magic In Another World</title>
-  </programme>
   <programme channel="animax" start="20260613173000 +0800" stop="20260613190000 +0800">
     <title>Strike The Blood Final</title>
   </programme>
@@ -206,24 +146,6 @@
   </programme>
   <programme channel="animax" start="20260614043000 +0800" stop="20260614050000 +0800">
     <title>Unnamed Memory Season 1</title>
-  </programme>
-  <programme channel="axn" start="20260613113000 +0800" stop="20260613122500 +0800">
-    <title>American Ninja Warrior (Season 15)</title>
-  </programme>
-  <programme channel="axn" start="20260613122500 +0800" stop="20260613132000 +0800">
-    <title>Hudson &amp; Rex (Season 7)</title>
-  </programme>
-  <programme channel="axn" start="20260613132000 +0800" stop="20260613141500 +0800">
-    <title>Coroner (Season 1)</title>
-  </programme>
-  <programme channel="axn" start="20260613141500 +0800" stop="20260613151000 +0800">
-    <title>Elsbeth (Season 3)</title>
-  </programme>
-  <programme channel="axn" start="20260613151000 +0800" stop="20260613160500 +0800">
-    <title>FBI (Season 8)</title>
-  </programme>
-  <programme channel="axn" start="20260613160500 +0800" stop="20260613180000 +0800">
-    <title>The Equalizer 3</title>
   </programme>
   <programme channel="axn" start="20260613180000 +0800" stop="20260613190000 +0800">
     <title>American Ninja Warrior (Season 15)</title>
@@ -255,18 +177,6 @@
   <programme channel="axn" start="20260614042000 +0800" stop="20260614045000 +0800">
     <title>S.W.A.T. (Season 8)</title>
   </programme>
-  <programme channel="cinema-one" start="20260613100000 +0800" stop="20260613120000 +0800">
-    <title>Biokids</title>
-  </programme>
-  <programme channel="cinema-one" start="20260613120000 +0800" stop="20260613140000 +0800">
-    <title>Close To You</title>
-  </programme>
-  <programme channel="cinema-one" start="20260613140000 +0800" stop="20260613160000 +0800">
-    <title>Vince &amp; Kath &amp; James</title>
-  </programme>
-  <programme channel="cinema-one" start="20260613160000 +0800" stop="20260613180000 +0800">
-    <title>Feng Shui 2</title>
-  </programme>
   <programme channel="cinema-one" start="20260613180000 +0800" stop="20260613190000 +0800">
     <title>The B Side</title>
   </programme>
@@ -284,27 +194,6 @@
   </programme>
   <programme channel="cinema-one" start="20260614030000 +0800" stop="20260614033000 +0800">
     <title>Double Twisting Double Back</title>
-  </programme>
-  <programme channel="gma" start="20260613111500 +0800" stop="20260613120000 +0800">
-    <title>Pera-Paraan</title>
-  </programme>
-  <programme channel="gma" start="20260613120000 +0800" stop="20260613143000 +0800">
-    <title>It's Showtime</title>
-  </programme>
-  <programme channel="gma" start="20260613143000 +0800" stop="20260613151500 +0800">
-    <title>Born To Shine</title>
-  </programme>
-  <programme channel="gma" start="20260613151500 +0800" stop="20260613160000 +0800">
-    <title>Tadhana</title>
-  </programme>
-  <programme channel="gma" start="20260613160000 +0800" stop="20260613164500 +0800">
-    <title>Wish Ko Lang</title>
-  </programme>
-  <programme channel="gma" start="20260613164500 +0800" stop="20260613173000 +0800">
-    <title>Farm to Table</title>
-  </programme>
-  <programme channel="gma" start="20260613173000 +0800" stop="20260613181500 +0800">
-    <title>24 Oras Weekend</title>
   </programme>
   <programme channel="gma" start="20260613181500 +0800" stop="20260613191500 +0800">
     <title>The People Have Spoken</title>
@@ -327,21 +216,6 @@
   <programme channel="gma" start="20260613233000 +0800" stop="20260614000000 +0800">
     <title>Hidden Love</title>
   </programme>
-  <programme channel="gtv" start="20260613103000 +0800" stop="20260613120000 +0800">
-    <title>Saturday Cinema Hits</title>
-  </programme>
-  <programme channel="gtv" start="20260613120000 +0800" stop="20260613140000 +0800">
-    <title>Noontime Movie Hits</title>
-  </programme>
-  <programme channel="gtv" start="20260613140000 +0800" stop="20260613155000 +0800">
-    <title>Afternoon Movie Break</title>
-  </programme>
-  <programme channel="gtv" start="20260613155000 +0800" stop="20260613174000 +0800">
-    <title>Afternoon Movie Break</title>
-  </programme>
-  <programme channel="gtv" start="20260613174000 +0800" stop="20260613183000 +0800">
-    <title>24 Oras Weekend</title>
-  </programme>
   <programme channel="gtv" start="20260613183000 +0800" stop="20260613201500 +0800">
     <title>G! Flicks</title>
   </programme>
@@ -360,39 +234,6 @@
   <programme channel="gtv" start="20260613233000 +0800" stop="20260614000000 +0800">
     <title>In Touch with Dr. Charles Stanley</title>
   </programme>
-  <programme channel="ibc-tv-13" start="20260613110000 +0800" stop="20260613120000 +0800">
-    <title>Cooltura</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613120000 +0800" stop="20260613130000 +0800">
-    <title>Congress TV</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613130000 +0800" stop="20260613140000 +0800">
-    <title>House at Your Service</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613140000 +0800" stop="20260613141500 +0800">
-    <title>PCSO Lottery Draw</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613141500 +0800" stop="20260613150000 +0800">
-    <title>GOV on The Move</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613150000 +0800" stop="20260613160000 +0800">
-    <title>Chairman's Report With Dante "Klink" Ang</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613160000 +0800" stop="20260613163000 +0800">
-    <title>Kalye Sining</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613163000 +0800" stop="20260613170000 +0800">
-    <title>Talents Academy</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613170000 +0800" stop="20260613171500 +0800">
-    <title>PCSO Lottery Draw</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613171500 +0800" stop="20260613174500 +0800">
-    <title>Voices Of Hope</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260613174500 +0800" stop="20260613180000 +0800">
-    <title>Sharing ASEAN</title>
-  </programme>
   <programme channel="ibc-tv-13" start="20260613180000 +0800" stop="20260613190000 +0800">
     <title>Balitaktakan: Tinig Ng Kinabukasan</title>
   </programme>
@@ -408,24 +249,6 @@
   <programme channel="ibc-tv-13" start="20260613213000 +0800" stop="20260613220000 +0800">
     <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="jeepney-tv" start="20260613100000 +0800" stop="20260613120000 +0800">
-    <title>Kung Fu Kids</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260613120000 +0800" stop="20260613130000 +0800">
-    <title>Home Along Da Riles</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260613130000 +0800" stop="20260613143000 +0800">
-    <title>Saan Ka Man Naroroon</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260613143000 +0800" stop="20260613163000 +0800">
-    <title>Love Ko Si Babe</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260613163000 +0800" stop="20260613171500 +0800">
-    <title>Wansapanataym</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260613171500 +0800" stop="20260613181500 +0800">
-    <title>Oki Doki Doc</title>
-  </programme>
   <programme channel="jeepney-tv" start="20260613181500 +0800" stop="20260613203000 +0800">
     <title>Magkaribal</title>
   </programme>
@@ -440,21 +263,6 @@
   </programme>
   <programme channel="jeepney-tv" start="20260614040000 +0800" stop="20260614043000 +0800">
     <title>Love Me Again</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260613083000 +0800" stop="20260613120000 +0800">
-    <title>KB Family Weekend</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260613120000 +0800" stop="20260613143000 +0800">
-    <title>It's Showtime</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260613143000 +0800" stop="20260613151500 +0800">
-    <title>Tubig to Handle</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260613151500 +0800" stop="20260613170000 +0800">
-    <title>Kapamilya Action Sabado</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260613170000 +0800" stop="20260613174500 +0800">
-    <title>SOCO</title>
   </programme>
   <programme channel="kapamilya-channel" start="20260613174500 +0800" stop="20260613184500 +0800">
     <title>TV Patrol Sabado</title>
@@ -482,33 +290,6 @@
   </programme>
   <programme channel="kapamilya-channel" start="20260614040000 +0800" stop="20260614043000 +0800">
     <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="net-25" start="20260613110000 +0800" stop="20260613120000 +0800">
-    <title>Lutong Daza</title>
-  </programme>
-  <programme channel="net-25" start="20260613120000 +0800" stop="20260613123000 +0800">
-    <title>Musiko</title>
-  </programme>
-  <programme channel="net-25" start="20260613123000 +0800" stop="20260613130000 +0800">
-    <title>Musikover</title>
-  </programme>
-  <programme channel="net-25" start="20260613130000 +0800" stop="20260613140000 +0800">
-    <title>Letters and Music</title>
-  </programme>
-  <programme channel="net-25" start="20260613140000 +0800" stop="20260613143000 +0800">
-    <title>AveNEU</title>
-  </programme>
-  <programme channel="net-25" start="20260613143000 +0800" stop="20260613150000 +0800">
-    <title>Negosyuniversity</title>
-  </programme>
-  <programme channel="net-25" start="20260613150000 +0800" stop="20260613160000 +0800">
-    <title>INCinema</title>
-  </programme>
-  <programme channel="net-25" start="20260613160000 +0800" stop="20260613170000 +0800">
-    <title>Mata Ng Agila Weekend</title>
-  </programme>
-  <programme channel="net-25" start="20260613170000 +0800" stop="20260613180000 +0800">
-    <title>Landmarks</title>
   </programme>
   <programme channel="net-25" start="20260613180000 +0800" stop="20260613190000 +0800">
     <title>Responde: Mata Ng Mamamayan</title>
@@ -552,15 +333,6 @@
   <programme channel="net-25" start="20260614043000 +0800" stop="20260614050000 +0800">
     <title>INC Giving Show</title>
   </programme>
-  <programme channel="pbo" start="20260613111500 +0800" stop="20260613130000 +0800">
-    <title>Wander Bra</title>
-  </programme>
-  <programme channel="pbo" start="20260613130000 +0800" stop="20260613150000 +0800">
-    <title>I America</title>
-  </programme>
-  <programme channel="pbo" start="20260613150000 +0800" stop="20260613170000 +0800">
-    <title>Strebel Gestapo Ng Maynila</title>
-  </programme>
   <programme channel="pbo" start="20260613170000 +0800" stop="20260613190000 +0800">
     <title>Hari Ng Selda: Anak Ni Baby Ama 2</title>
   </programme>
@@ -585,36 +357,6 @@
   <programme channel="pbo" start="20260614043000 +0800" stop="20260614050000 +0800">
     <title>Isang Gabi</title>
   </programme>
-  <programme channel="ptv" start="20260613113000 +0800" stop="20260613123000 +0800">
-    <title>Iskoolmates</title>
-  </programme>
-  <programme channel="ptv" start="20260613123000 +0800" stop="20260613130000 +0800">
-    <title>Presidential Coverage</title>
-  </programme>
-  <programme channel="ptv" start="20260613130000 +0800" stop="20260613133000 +0800">
-    <title>Sentro Balita Weekend</title>
-  </programme>
-  <programme channel="ptv" start="20260613133000 +0800" stop="20260613140000 +0800">
-    <title>PBBM Bloc</title>
-  </programme>
-  <programme channel="ptv" start="20260613140000 +0800" stop="20260613150000 +0800">
-    <title>Larry Gadon Live</title>
-  </programme>
-  <programme channel="ptv" start="20260613150000 +0800" stop="20260613153000 +0800">
-    <title>Presidential Coverage</title>
-  </programme>
-  <programme channel="ptv" start="20260613153000 +0800" stop="20260613160000 +0800">
-    <title>Straight Shot</title>
-  </programme>
-  <programme channel="ptv" start="20260613160000 +0800" stop="20260613163000 +0800">
-    <title>PTV Sports Weekend</title>
-  </programme>
-  <programme channel="ptv" start="20260613163000 +0800" stop="20260613170000 +0800">
-    <title>Presidential Coverage</title>
-  </programme>
-  <programme channel="ptv" start="20260613170000 +0800" stop="20260613180000 +0800">
-    <title>Pag-usapan Natin with Oscar Orbos</title>
-  </programme>
   <programme channel="ptv" start="20260613180000 +0800" stop="20260613190000 +0800">
     <title>Ulat Bayan Weekend</title>
   </programme>
@@ -632,12 +374,6 @@
   </programme>
   <programme channel="ptv" start="20260613230000 +0800" stop="20260613233000 +0800">
     <title>Jesus Miracle Crusade</title>
-  </programme>
-  <programme channel="solar-flix" start="20260613080000 +0800" stop="20260613130000 +0800">
-    <title>A Kiss in The Rain</title>
-  </programme>
-  <programme channel="solar-flix" start="20260613130000 +0800" stop="20260613180000 +0800">
-    <title>The Legend of Bruce Lee</title>
   </programme>
   <programme channel="solar-flix" start="20260613180000 +0800" stop="20260613200000 +0800">
     <title>Thy Womb</title>
@@ -657,24 +393,6 @@
   <programme channel="solar-flix" start="20260614040000 +0800" stop="20260614043000 +0800">
     <title>The Summer We Saw You</title>
   </programme>
-  <programme channel="tv5" start="20260613113000 +0800" stop="20260613143000 +0800">
-    <title>Eat Bulaga</title>
-  </programme>
-  <programme channel="tv5" start="20260613143000 +0800" stop="20260613150000 +0800">
-    <title>Frontline Pilipinas Weekend</title>
-  </programme>
-  <programme channel="tv5" start="20260613150000 +0800" stop="20260613161500 +0800">
-    <title>Cine Cinco Hit Na Hit</title>
-  </programme>
-  <programme channel="tv5" start="20260613161500 +0800" stop="20260613170000 +0800">
-    <title>Ogie Diaz Inspires</title>
-  </programme>
-  <programme channel="tv5" start="20260613170000 +0800" stop="20260613173000 +0800">
-    <title>Presinto 5</title>
-  </programme>
-  <programme channel="tv5" start="20260613173000 +0800" stop="20260613181500 +0800">
-    <title>Frontline Pilipinas Weekend</title>
-  </programme>
   <programme channel="tv5" start="20260613181500 +0800" stop="20260613200000 +0800">
     <title>Vibe TV</title>
   </programme>
@@ -689,18 +407,6 @@
   </programme>
   <programme channel="tv5" start="20260614003000 +0800" stop="20260614010000 +0800">
     <title>Oras Ng Himala</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260613100000 +0800" stop="20260613120000 +0800">
-    <title>Eseng ng Tondo</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260613120000 +0800" stop="20260613141500 +0800">
-    <title>Like Father Like Son</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260613141500 +0800" stop="20260613161500 +0800">
-    <title>Isa, Dalawa, Tatlo Ang Tatay Kong Kalbo</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260613161500 +0800" stop="20260613181500 +0800">
-    <title>Where D Girls Are</title>
   </programme>
   <programme channel="viva-cinema" start="20260613181500 +0800" stop="20260613200000 +0800">
     <title>Diego</title>

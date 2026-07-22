@@ -48,24 +48,6 @@
   <channel id="viva-cinema">
     <display-name>viva-cinema</display-name>
   </channel>
-  <programme channel="a2z" start="20260722050000 +0800" stop="20260722060000 +0800">
-    <title>Shuffle</title>
-  </programme>
-  <programme channel="a2z" start="20260722060000 +0800" stop="20260722070000 +0800">
-    <title>Bro. Eddie Villanueva Classics</title>
-  </programme>
-  <programme channel="a2z" start="20260722070000 +0800" stop="20260722080000 +0800">
-    <title>A2Z School Anywhere</title>
-  </programme>
-  <programme channel="a2z" start="20260722080000 +0800" stop="20260722083000 +0800">
-    <title>Superbook S5</title>
-  </programme>
-  <programme channel="a2z" start="20260722083000 +0800" stop="20260722093000 +0800">
-    <title>Magandang Buhay</title>
-  </programme>
-  <programme channel="a2z" start="20260722093000 +0800" stop="20260722100000 +0800">
-    <title>Oh My Gan!</title>
-  </programme>
   <programme channel="a2z" start="20260722100000 +0800" stop="20260722120000 +0800">
     <title>Blockbuster Sa Umaga</title>
   </programme>
@@ -107,51 +89,6 @@
   </programme>
   <programme channel="a2z" start="20260722231500 +0800" stop="20260722234500 +0800">
     <title>Bro. Eddie Villanueva Classics</title>
-  </programme>
-  <programme channel="anc" start="20260722010000 +0800" stop="20260722020000 +0800">
-    <title>Headstart with Karen Davila</title>
-  </programme>
-  <programme channel="anc" start="20260722020000 +0800" stop="20260722023000 +0800">
-    <title>Cityscape</title>
-  </programme>
-  <programme channel="anc" start="20260722023000 +0800" stop="20260722030000 +0800">
-    <title>Rev</title>
-  </programme>
-  <programme channel="anc" start="20260722030000 +0800" stop="20260722033000 +0800">
-    <title>Entrep Lab</title>
-  </programme>
-  <programme channel="anc" start="20260722033000 +0800" stop="20260722040000 +0800">
-    <title>Dayaw</title>
-  </programme>
-  <programme channel="anc" start="20260722040000 +0800" stop="20260722043000 +0800">
-    <title>EIC on The Move</title>
-  </programme>
-  <programme channel="anc" start="20260722043000 +0800" stop="20260722050000 +0800">
-    <title>Global Us</title>
-  </programme>
-  <programme channel="anc" start="20260722050000 +0800" stop="20260722053000 +0800">
-    <title>Asian Air Safari</title>
-  </programme>
-  <programme channel="anc" start="20260722053000 +0800" stop="20260722060000 +0800">
-    <title>The World Sailing Series</title>
-  </programme>
-  <programme channel="anc" start="20260722060000 +0800" stop="20260722070000 +0800">
-    <title>Business Roadshow</title>
-  </programme>
-  <programme channel="anc" start="20260722070000 +0800" stop="20260722073000 +0800">
-    <title>ANC Rundown</title>
-  </programme>
-  <programme channel="anc" start="20260722073000 +0800" stop="20260722080000 +0800">
-    <title>Business Outlook</title>
-  </programme>
-  <programme channel="anc" start="20260722080000 +0800" stop="20260722090000 +0800">
-    <title>Headstart with Karen Davila</title>
-  </programme>
-  <programme channel="anc" start="20260722090000 +0800" stop="20260722100000 +0800">
-    <title>Market Edge</title>
-  </programme>
-  <programme channel="anc" start="20260722100000 +0800" stop="20260722103000 +0800">
-    <title>My Italy with Margarita</title>
   </programme>
   <programme channel="anc" start="20260722103000 +0800" stop="20260722110000 +0800">
     <title>Hot Copy on Headstart with Karen Davila</title>
@@ -240,36 +177,6 @@
   <programme channel="anc" start="20260723043000 +0800" stop="20260723050000 +0800">
     <title>In Good Shape</title>
   </programme>
-  <programme channel="animax" start="20260722010000 +0800" stop="20260722020000 +0800">
-    <title>Ragna Crimson</title>
-  </programme>
-  <programme channel="animax" start="20260722020000 +0800" stop="20260722030000 +0800">
-    <title>D.Gray-Man (#1-52)</title>
-  </programme>
-  <programme channel="animax" start="20260722030000 +0800" stop="20260722040000 +0800">
-    <title>Unnamed Memory Season 2</title>
-  </programme>
-  <programme channel="animax" start="20260722040000 +0800" stop="20260722050000 +0800">
-    <title>Black Clover Season 1</title>
-  </programme>
-  <programme channel="animax" start="20260722050000 +0800" stop="20260722060000 +0800">
-    <title>Ragna Crimson</title>
-  </programme>
-  <programme channel="animax" start="20260722060000 +0800" stop="20260722070000 +0800">
-    <title>D.Gray-Man (#1-52)</title>
-  </programme>
-  <programme channel="animax" start="20260722070000 +0800" stop="20260722080000 +0800">
-    <title>Black Clover Season 1</title>
-  </programme>
-  <programme channel="animax" start="20260722080000 +0800" stop="20260722090000 +0800">
-    <title>Unnamed Memory Season 2</title>
-  </programme>
-  <programme channel="animax" start="20260722090000 +0800" stop="20260722100000 +0800">
-    <title>D.Gray-Man (#1-52)</title>
-  </programme>
-  <programme channel="animax" start="20260722100000 +0800" stop="20260722103000 +0800">
-    <title>Remake Our Life!</title>
-  </programme>
   <programme channel="animax" start="20260722103000 +0800" stop="20260722110000 +0800">
     <title>In/spectre Season 2</title>
   </programme>
@@ -332,39 +239,6 @@
   </programme>
   <programme channel="animax" start="20260723040000 +0800" stop="20260723043000 +0800">
     <title>Black Clover Season 1</title>
-  </programme>
-  <programme channel="axn" start="20260722003000 +0800" stop="20260722012500 +0800">
-    <title>S.W.A.T. (Season 7)</title>
-  </programme>
-  <programme channel="axn" start="20260722012500 +0800" stop="20260722022000 +0800">
-    <title>NCIS: Origins (Season 2)</title>
-  </programme>
-  <programme channel="axn" start="20260722022000 +0800" stop="20260722031500 +0800">
-    <title>The Amazing Race (Season 35)</title>
-  </programme>
-  <programme channel="axn" start="20260722031500 +0800" stop="20260722041000 +0800">
-    <title>The Rookie (Season 8)</title>
-  </programme>
-  <programme channel="axn" start="20260722041000 +0800" stop="20260722050000 +0800">
-    <title>Elsbeth (Season 1)</title>
-  </programme>
-  <programme channel="axn" start="20260722050000 +0800" stop="20260722060000 +0800">
-    <title>Long Bright River (Season 1)</title>
-  </programme>
-  <programme channel="axn" start="20260722060000 +0800" stop="20260722065000 +0800">
-    <title>The Amazing Race (Season 35)</title>
-  </programme>
-  <programme channel="axn" start="20260722065000 +0800" stop="20260722073500 +0800">
-    <title>S.W.A.T. (Season 7)</title>
-  </programme>
-  <programme channel="axn" start="20260722073500 +0800" stop="20260722082000 +0800">
-    <title>NCIS: Origins (Season 2)</title>
-  </programme>
-  <programme channel="axn" start="20260722082000 +0800" stop="20260722091000 +0800">
-    <title>Elsbeth (Season 1)</title>
-  </programme>
-  <programme channel="axn" start="20260722091000 +0800" stop="20260722101000 +0800">
-    <title>Long Bright River (Season 1)</title>
   </programme>
   <programme channel="axn" start="20260722101000 +0800" stop="20260722110000 +0800">
     <title>S.W.A.T. (Season 7)</title>
@@ -432,18 +306,6 @@
   <programme channel="axn" start="20260723045500 +0800" stop="20260723052500 +0800">
     <title>Long Bright River (Season 1)</title>
   </programme>
-  <programme channel="cinema-one" start="20260722010000 +0800" stop="20260722030000 +0800">
-    <title>Magsikap: Kayod sa Araw, Kayod Sa Gabi</title>
-  </programme>
-  <programme channel="cinema-one" start="20260722030000 +0800" stop="20260722050000 +0800">
-    <title>Makiusap Ka Sa Diyos</title>
-  </programme>
-  <programme channel="cinema-one" start="20260722050000 +0800" stop="20260722070000 +0800">
-    <title>Magchumikap Ka</title>
-  </programme>
-  <programme channel="cinema-one" start="20260722070000 +0800" stop="20260722090000 +0800">
-    <title>Noon At Ngayon</title>
-  </programme>
   <programme channel="cinema-one" start="20260722090000 +0800" stop="20260722110000 +0800">
     <title>K9</title>
   </programme>
@@ -473,18 +335,6 @@
   </programme>
   <programme channel="cinema-one" start="20260723030000 +0800" stop="20260723033000 +0800">
     <title>Genghis Bond</title>
-  </programme>
-  <programme channel="gma" start="20260722053000 +0800" stop="20260722080000 +0800">
-    <title>Unang Hirit</title>
-  </programme>
-  <programme channel="gma" start="20260722080000 +0800" stop="20260722082500 +0800">
-    <title>Slam Dunk</title>
-  </programme>
-  <programme channel="gma" start="20260722082500 +0800" stop="20260722090000 +0800">
-    <title>Duty After School</title>
-  </programme>
-  <programme channel="gma" start="20260722090000 +0800" stop="20260722093000 +0800">
-    <title>Exclusive Fairytale</title>
   </programme>
   <programme channel="gma" start="20260722093000 +0800" stop="20260722110000 +0800">
     <title>Kapuso Movie Festival</title>
@@ -534,9 +384,6 @@
   <programme channel="gma" start="20260722233000 +0800" stop="20260723000000 +0800">
     <title>The Lovely Runner</title>
   </programme>
-  <programme channel="gtv" start="20260722053000 +0800" stop="20260722090000 +0800">
-    <title>Dobol B TV</title>
-  </programme>
   <programme channel="gtv" start="20260722090000 +0800" stop="20260722110000 +0800">
     <title>Cinema G!</title>
   </programme>
@@ -575,27 +422,6 @@
   </programme>
   <programme channel="gtv" start="20260722232500 +0800" stop="20260722235500 +0800">
     <title>First Yaya</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722053000 +0800" stop="20260722060000 +0800">
-    <title>Mag-Agree Tayo</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722060000 +0800" stop="20260722080000 +0800">
-    <title>Treze Mornings</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722080000 +0800" stop="20260722083000 +0800">
-    <title>Sharing ASEAN</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722083000 +0800" stop="20260722090000 +0800">
-    <title>PBBM - RTVM</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722090000 +0800" stop="20260722091500 +0800">
-    <title>Treze Express Balita</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722091500 +0800" stop="20260722100000 +0800">
-    <title>Mindanow Network Hour</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260722100000 +0800" stop="20260722101500 +0800">
-    <title>Treze Express Balita</title>
   </programme>
   <programme channel="ibc-tv-13" start="20260722101500 +0800" stop="20260722120000 +0800">
     <title>#IPABITAGMO - Sumbungan Ng Sambayanan</title>
@@ -650,36 +476,6 @@
   </programme>
   <programme channel="ibc-tv-13" start="20260722220000 +0800" stop="20260722223000 +0800">
     <title>Ang Paglilitis</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722012000 +0800" stop="20260722020000 +0800">
-    <title>Darating Ang Umaga</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722020000 +0800" stop="20260722024500 +0800">
-    <title>Lobo</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722024500 +0800" stop="20260722033000 +0800">
-    <title>Dyosa</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722033000 +0800" stop="20260722044500 +0800">
-    <title>Hanggang Saan</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722044500 +0800" stop="20260722052500 +0800">
-    <title>Iisa pa Lamang</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722052500 +0800" stop="20260722064500 +0800">
-    <title>We Will Survive</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722064500 +0800" stop="20260722073000 +0800">
-    <title>The Good Son</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722073000 +0800" stop="20260722080000 +0800">
-    <title>Kapamilya Daily Mass</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722080000 +0800" stop="20260722090000 +0800">
-    <title>Flordeliza</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260722090000 +0800" stop="20260722100000 +0800">
-    <title>Magandang Buhay</title>
   </programme>
   <programme channel="jeepney-tv" start="20260722100000 +0800" stop="20260722110000 +0800">
     <title>Mga Anghel Na Walang Langit</title>
@@ -759,27 +555,6 @@
   <programme channel="jeepney-tv" start="20260723044500 +0800" stop="20260723051500 +0800">
     <title>Iisa pa Lamang</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260722020000 +0800" stop="20260722034500 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260722034500 +0800" stop="20260722053000 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260722053000 +0800" stop="20260722060000 +0800">
-    <title>Kapamilya Daily Mass</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260722060000 +0800" stop="20260722073000 +0800">
-    <title>School Anywhere sa Kapamilya Channel</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260722073000 +0800" stop="20260722080000 +0800">
-    <title>The Flying House</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260722080000 +0800" stop="20260722083000 +0800">
-    <title>Superbook S5</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260722083000 +0800" stop="20260722103000 +0800">
-    <title>Blockbuster Sa Umaga</title>
-  </programme>
   <programme channel="kapamilya-channel" start="20260722103000 +0800" stop="20260722110000 +0800">
     <title>Oh My Gan!</title>
   </programme>
@@ -830,30 +605,6 @@
   </programme>
   <programme channel="kapamilya-channel" start="20260723034500 +0800" stop="20260723041500 +0800">
     <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="net-25" start="20260722010000 +0800" stop="20260722020000 +0800">
-    <title>Your Light Forever</title>
-  </programme>
-  <programme channel="net-25" start="20260722020000 +0800" stop="20260722023000 +0800">
-    <title>Executive News Feature</title>
-  </programme>
-  <programme channel="net-25" start="20260722023000 +0800" stop="20260722033000 +0800">
-    <title>INCinema</title>
-  </programme>
-  <programme channel="net-25" start="20260722033000 +0800" stop="20260722040000 +0800">
-    <title>Turning Point</title>
-  </programme>
-  <programme channel="net-25" start="20260722040000 +0800" stop="20260722050000 +0800">
-    <title>INC Shows</title>
-  </programme>
-  <programme channel="net-25" start="20260722050000 +0800" stop="20260722070000 +0800">
-    <title>Siento Por Siento</title>
-  </programme>
-  <programme channel="net-25" start="20260722070000 +0800" stop="20260722080000 +0800">
-    <title>Love, Tonipet and Everythaaaang!</title>
-  </programme>
-  <programme channel="net-25" start="20260722080000 +0800" stop="20260722100000 +0800">
-    <title>A.S.P.N. Ano Sa Palagay Nyo?</title>
   </programme>
   <programme channel="net-25" start="20260722100000 +0800" stop="20260722120000 +0800">
     <title>Kada Umaga</title>
@@ -936,21 +687,6 @@
   <programme channel="net-25" start="20260723040000 +0800" stop="20260723043000 +0800">
     <title>INC Shows</title>
   </programme>
-  <programme channel="pbo" start="20260722000000 +0800" stop="20260722013000 +0800">
-    <title>Hamog Sa Bukang Liwayway</title>
-  </programme>
-  <programme channel="pbo" start="20260722013000 +0800" stop="20260722030000 +0800">
-    <title>Bukas May Umaga</title>
-  </programme>
-  <programme channel="pbo" start="20260722030000 +0800" stop="20260722050000 +0800">
-    <title>Ate</title>
-  </programme>
-  <programme channel="pbo" start="20260722050000 +0800" stop="20260722070000 +0800">
-    <title>Till I Met You</title>
-  </programme>
-  <programme channel="pbo" start="20260722070000 +0800" stop="20260722090000 +0800">
-    <title>Donsol</title>
-  </programme>
   <programme channel="pbo" start="20260722090000 +0800" stop="20260722110000 +0800">
     <title>Radyo</title>
   </programme>
@@ -983,18 +719,6 @@
   </programme>
   <programme channel="pbo" start="20260723033000 +0800" stop="20260723040000 +0800">
     <title>Pagnanasa</title>
-  </programme>
-  <programme channel="ptv" start="20260722053000 +0800" stop="20260722060000 +0800">
-    <title>PBBM Bloc</title>
-  </programme>
-  <programme channel="ptv" start="20260722060000 +0800" stop="20260722080000 +0800">
-    <title>Rise and Shine Pilipinas</title>
-  </programme>
-  <programme channel="ptv" start="20260722080000 +0800" stop="20260722090000 +0800">
-    <title>PTV Sports</title>
-  </programme>
-  <programme channel="ptv" start="20260722090000 +0800" stop="20260722100000 +0800">
-    <title>Presidential Coverage</title>
   </programme>
   <programme channel="ptv" start="20260722100000 +0800" stop="20260722110000 +0800">
     <title>Radyo Publiko Serbisyo</title>
@@ -1034,21 +758,6 @@
   </programme>
   <programme channel="ptv" start="20260722230000 +0800" stop="20260722233000 +0800">
     <title>Bagong Pilipinas Ngayon</title>
-  </programme>
-  <programme channel="solar-flix" start="20260722010000 +0800" stop="20260722020000 +0800">
-    <title>Forbidden Fruit S2</title>
-  </programme>
-  <programme channel="solar-flix" start="20260722020000 +0800" stop="20260722040000 +0800">
-    <title>Paligayahin Mo Ako</title>
-  </programme>
-  <programme channel="solar-flix" start="20260722040000 +0800" stop="20260722060000 +0800">
-    <title>Lobo Ng Gubat</title>
-  </programme>
-  <programme channel="solar-flix" start="20260722060000 +0800" stop="20260722080000 +0800">
-    <title>Hari Ng Yabang</title>
-  </programme>
-  <programme channel="solar-flix" start="20260722080000 +0800" stop="20260722100000 +0800">
-    <title>A E I O U</title>
   </programme>
   <programme channel="solar-flix" start="20260722100000 +0800" stop="20260722110000 +0800">
     <title>Forbidden Fruit S2</title>
@@ -1100,18 +809,6 @@
   </programme>
   <programme channel="solar-flix" start="20260723040000 +0800" stop="20260723043000 +0800">
     <title>Spotlight</title>
-  </programme>
-  <programme channel="tv5" start="20260722043000 +0800" stop="20260722053000 +0800">
-    <title>Mga Kwentong MX3</title>
-  </programme>
-  <programme channel="tv5" start="20260722053000 +0800" stop="20260722080000 +0800">
-    <title>Gud Morning Kapatid</title>
-  </programme>
-  <programme channel="tv5" start="20260722080000 +0800" stop="20260722083000 +0800">
-    <title>Chibi Maruko Chan</title>
-  </programme>
-  <programme channel="tv5" start="20260722083000 +0800" stop="20260722103000 +0800">
-    <title>Cine Cinco Sa Umaga</title>
   </programme>
   <programme channel="tv5" start="20260722103000 +0800" stop="20260722110000 +0800">
     <title>Frontline Express Live</title>
@@ -1166,21 +863,6 @@
   </programme>
   <programme channel="tv5" start="20260723043000 +0800" stop="20260723050000 +0800">
     <title>Mga Kwentong MX3</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260722001500 +0800" stop="20260722020000 +0800">
-    <title>Magkapalad</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260722020000 +0800" stop="20260722040000 +0800">
-    <title>Paranaque Bank Robbery</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260722040000 +0800" stop="20260722060000 +0800">
-    <title>Sugo</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260722060000 +0800" stop="20260722080000 +0800">
-    <title>Papunta Ka Pa Lang, Pabalik Na Ako</title>
-  </programme>
-  <programme channel="viva-cinema" start="20260722080000 +0800" stop="20260722101500 +0800">
-    <title>Hanggang Saan Hanggang Kailan</title>
   </programme>
   <programme channel="viva-cinema" start="20260722101500 +0800" stop="20260722120000 +0800">
     <title>Anak ni Baby Ama</title>

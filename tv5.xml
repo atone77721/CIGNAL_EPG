@@ -4,639 +4,695 @@
     <display-name>TV5</display-name>
     <icon src="https://www.tv5.com.ph/assets/images/tv5-new-logo.png" />
   </channel>
-  <programme start="20260831000052 +0800" stop="20260831003052 +0800" channel="tv5.ph">
-    <title lang="en">KAPATID SUNDAY SPECIALS: STEAL MY HEART</title>
+  <programme start="20260907000027 +0800" stop="20260907003027 +0800" channel="tv5.ph">
+    <title lang="en">KAPATID SUNDAY SPECIALS</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/03/SCHEDULE-KSS.png" />
   </programme>
-  <programme start="20260831003052 +0800" stop="20260831013052 +0800" channel="tv5.ph">
+  <programme start="20260907003027 +0800" stop="20260907013027 +0800" channel="tv5.ph">
     <title lang="en">ORAS NG HIMALA</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_1280x720.png" />
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
   </programme>
-  <programme start="20260831013052 +0800" stop="20260831043052 +0800" channel="tv5.ph">
+  <programme start="20260907013027 +0800" stop="20260907043027 +0800" channel="tv5.ph">
     <title lang="en">OFF THE AIR</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260831043052 +0800" stop="20260831053052 +0800" channel="tv5.ph">
+  <programme start="20260907043027 +0800" stop="20260907053027 +0800" channel="tv5.ph">
     <title lang="en">MGA KWENTONG MX3</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260831053052 +0800" stop="20260831080052 +0800" channel="tv5.ph">
+  <programme start="20260907053027 +0800" stop="20260907080027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
+    <desc lang="en">Simulan ang bawat umaga nang maalam sa napapanahong isyu at balita kasama sina Ed Lingao, Andrei Felix, Dimples Romana, Angela Lagunzad Castro, at ang buong puwersa ng News5.</desc>
   </programme>
-  <programme start="20260831080052 +0800" stop="20260831083052 +0800" channel="tv5.ph">
+  <programme start="20260907080027 +0800" stop="20260907083027 +0800" channel="tv5.ph">
     <title lang="en">COOKING MASTER BOY</title>
+    <desc lang="en">Samahan si little Master Mao sa isang nakaka-inspire na adventure-flavored journey.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
   </programme>
-  <programme start="20260831083052 +0800" stop="20260831103052 +0800" channel="tv5.ph">
-    <title lang="en">BLOCKBUSTERS SA UMAGA: MEMORY</title>
+  <programme start="20260907083027 +0800" stop="20260907103027 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: HERCULES</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260831103052 +0800" stop="20260831110052 +0800" channel="tv5.ph">
+  <programme start="20260907103027 +0800" stop="20260907110027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
     <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
   </programme>
-  <programme start="20260831110052 +0800" stop="20260831120052 +0800" channel="tv5.ph">
+  <programme start="20260907110027 +0800" stop="20260907120027 +0800" channel="tv5.ph">
     <title lang="en">FACE TO FACE WITH ATE KORING</title>
     <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
   </programme>
-  <programme start="20260831120052 +0800" stop="20260831143052 +0800" channel="tv5.ph">
+  <programme start="20260907120027 +0800" stop="20260907143027 +0800" channel="tv5.ph">
     <title lang="en">EAT BULAGA (LIVE)</title>
     <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260831143052 +0800" stop="20260831151552 +0800" channel="tv5.ph">
+  <programme start="20260907143027 +0800" stop="20260907151527 +0800" channel="tv5.ph">
     <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
     <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
   </programme>
-  <programme start="20260831151552 +0800" stop="20260831160052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE EXPRESS (LIVE) PM</title>
+  <programme start="20260907151527 +0800" stop="20260907160027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
     <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
   </programme>
-  <programme start="20260831160052 +0800" stop="20260831164552 +0800" channel="tv5.ph">
-    <title lang="en">MANO PO LEGACY: THE FAMILY FORTUNE</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-The-Family-Fortune-480x270-1.png" />
+  <programme start="20260907160027 +0800" stop="20260907164527 +0800" channel="tv5.ph">
+    <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
+    <desc lang="en">Mosh o Big Boss? Sino ang mananaig sa puso ni Irene?</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
   </programme>
-  <programme start="20260831164552 +0800" stop="20260831173052 +0800" channel="tv5.ph">
+  <programme start="20260907164527 +0800" stop="20260907173027 +0800" channel="tv5.ph">
     <title lang="en">KNIGHT RIDER</title>
+    <desc lang="en">Subaybayan ang adventures ni Michael Knight at ng super-talino niyang sasakyan na si K.I.T.T. sa isa sa mga pinakaastig at maaksyon na TV series noong 80s.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260831173052 +0800" stop="20260831181552 +0800" channel="tv5.ph">
+  <programme start="20260907173027 +0800" stop="20260907181527 +0800" channel="tv5.ph">
     <title lang="en">UNA SA LAHAT (LIVE)</title>
+    <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/TV5Portal_USL_480x270.jpg" />
   </programme>
-  <programme start="20260831181552 +0800" stop="20260831200052 +0800" channel="tv5.ph">
+  <programme start="20260907181527 +0800" stop="20260907200027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
     <desc lang="en">Maging updated sa mga pinakamahalagang impormasyon kasama ang mga Kapatid sa balitaan at public service na sina Cheryl Cosim at Julius Babao.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Pilipinas-2025-480x270-1.png" />
   </programme>
-  <programme start="20260831200052 +0800" stop="20260831204552 +0800" channel="tv5.ph">
+  <programme start="20260907200027 +0800" stop="20260907204527 +0800" channel="tv5.ph">
     <title lang="en">SIGABO</title>
+    <desc lang="en">Samahan ang Hari ng Aksyon sa ating Henerasyon na si Coco Martin at ang Prime Actress na si Julia Montes sa isang kwentong hitik sa maaaksyong eksena at matitinding bakbakan.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
   </programme>
-  <programme start="20260831204552 +0800" stop="20260831213052 +0800" channel="tv5.ph">
+  <programme start="20260907204527 +0800" stop="20260907213027 +0800" channel="tv5.ph">
     <title lang="en">SOMEONE, SOMEDAY</title>
+    <desc lang="en">Mga matitinding rebelasyon at nakakakilig na tagpo ang bibida sa romantic mystery series na ito na pinagbibidahan nina Kathryn Bernardo, James Reid, at Maja Salvador.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
   </programme>
-  <programme start="20260831213052 +0800" stop="20260831221552 +0800" channel="tv5.ph">
+  <programme start="20260907213027 +0800" stop="20260907221527 +0800" channel="tv5.ph">
     <title lang="en">A SECRET IN PRAGUE</title>
     <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/ASIP-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260831221552 +0800" stop="20260831224552 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE TONIGHT (LIVE)</title>
-    <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
-  </programme>
-  <programme start="20260831224552 +0800" stop="20260831230052 +0800" channel="tv5.ph">
-    <title lang="en">VIBE NIGHTS</title>
-    <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
-  </programme>
-  <programme start="20260831230052 +0800" stop="20260901000052 +0800" channel="tv5.ph">
-    <title lang="en">MIDNIGHT DJ</title>
-    <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260901000052 +0800" stop="20260901010052 +0800" channel="tv5.ph">
-    <title lang="en">ORAS NG HIMALA</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
-  </programme>
-  <programme start="20260901010052 +0800" stop="20260901043052 +0800" channel="tv5.ph">
-    <title lang="en">OFF THE AIR</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260901043052 +0800" stop="20260901053052 +0800" channel="tv5.ph">
-    <title lang="en">MGA KWENTONG MX3</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260901053052 +0800" stop="20260901080052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
-  </programme>
-  <programme start="20260901080052 +0800" stop="20260901083052 +0800" channel="tv5.ph">
-    <title lang="en">COOKING MASTER BOY</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
-  </programme>
-  <programme start="20260901083052 +0800" stop="20260901103052 +0800" channel="tv5.ph">
-    <title lang="en">BLOCKBUSTERS SA UMAGA: THE 355</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260901103052 +0800" stop="20260901110052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
-    <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
-  </programme>
-  <programme start="20260901110052 +0800" stop="20260901120052 +0800" channel="tv5.ph">
-    <title lang="en">FACE TO FACE WITH ATE KORING</title>
-    <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
-  </programme>
-  <programme start="20260901120052 +0800" stop="20260901143052 +0800" channel="tv5.ph">
-    <title lang="en">EAT BULAGA (LIVE)</title>
-    <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
-  </programme>
-  <programme start="20260901143052 +0800" stop="20260901151552 +0800" channel="tv5.ph">
-    <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
-    <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
-  </programme>
-  <programme start="20260901151552 +0800" stop="20260901160052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
-    <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
-  </programme>
-  <programme start="20260901160052 +0800" stop="20260901164552 +0800" channel="tv5.ph">
-    <title lang="en">MANO PO LEGACY: THE FAMILY FORTUNE</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-The-Family-Fortune-480x270-1.png" />
-  </programme>
-  <programme start="20260901164552 +0800" stop="20260901173052 +0800" channel="tv5.ph">
-    <title lang="en">KNIGHT RIDER</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
-  </programme>
-  <programme start="20260901173052 +0800" stop="20260901181552 +0800" channel="tv5.ph">
-    <title lang="en">UNA SA LAHAT (LIVE)</title>
-    <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
-  </programme>
-  <programme start="20260901181552 +0800" stop="20260901200052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
-    <desc lang="en">Maging updated sa mga pinakamahalagang impormasyon kasama ang mga Kapatid sa balitaan at public service na sina Cheryl Cosim at Julius Babao.</desc>
-  </programme>
-  <programme start="20260901200052 +0800" stop="20260901204552 +0800" channel="tv5.ph">
-    <title lang="en">SIGABO</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
-  </programme>
-  <programme start="20260901204552 +0800" stop="20260901213052 +0800" channel="tv5.ph">
-    <title lang="en">SOMEONE, SOMEDAY</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
-  </programme>
-  <programme start="20260901213052 +0800" stop="20260901221552 +0800" channel="tv5.ph">
-    <title lang="en">A SECRET IN PRAGUE</title>
-    <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal-480x270-ASIP.jpg" />
-  </programme>
-  <programme start="20260901221552 +0800" stop="20260901224552 +0800" channel="tv5.ph">
+  <programme start="20260907221527 +0800" stop="20260907224527 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE TONIGHT (LIVE)</title>
     <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Tonight-480x270-1.png" />
   </programme>
-  <programme start="20260901224552 +0800" stop="20260901230052 +0800" channel="tv5.ph">
+  <programme start="20260907224527 +0800" stop="20260907230027 +0800" channel="tv5.ph">
     <title lang="en">VIBE NIGHTS</title>
     <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
   </programme>
-  <programme start="20260901230052 +0800" stop="20260902000052 +0800" channel="tv5.ph">
+  <programme start="20260907230027 +0800" stop="20260908000027 +0800" channel="tv5.ph">
     <title lang="en">MIDNIGHT DJ</title>
     <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/05/MDJ_480x270.png" />
   </programme>
-  <programme start="20260902000052 +0800" stop="20260902010052 +0800" channel="tv5.ph">
+  <programme start="20260908000027 +0800" stop="20260908010027 +0800" channel="tv5.ph">
     <title lang="en">ORAS NG HIMALA</title>
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
   </programme>
-  <programme start="20260902010052 +0800" stop="20260902043052 +0800" channel="tv5.ph">
+  <programme start="20260908010027 +0800" stop="20260908043027 +0800" channel="tv5.ph">
     <title lang="en">OFF THE AIR</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260902043052 +0800" stop="20260902053052 +0800" channel="tv5.ph">
+  <programme start="20260908043027 +0800" stop="20260908053027 +0800" channel="tv5.ph">
     <title lang="en">MGA KWENTONG MX3</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260902053052 +0800" stop="20260902080052 +0800" channel="tv5.ph">
+  <programme start="20260908053027 +0800" stop="20260908080027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
+    <desc lang="en">Simulan ang bawat umaga nang maalam sa napapanahong isyu at balita kasama sina Ed Lingao, Andrei Felix, Dimples Romana, Angela Lagunzad Castro, at ang buong puwersa ng News5.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
   </programme>
-  <programme start="20260902080052 +0800" stop="20260902083052 +0800" channel="tv5.ph">
+  <programme start="20260908080027 +0800" stop="20260908083027 +0800" channel="tv5.ph">
     <title lang="en">COOKING MASTER BOY</title>
+    <desc lang="en">Samahan si little Master Mao sa isang nakaka-inspire na adventure-flavored journey.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
   </programme>
-  <programme start="20260902083052 +0800" stop="20260902103052 +0800" channel="tv5.ph">
-    <title lang="en">BLOCKBUSTERS SA UMAGA: TAKE DOWN</title>
+  <programme start="20260908083027 +0800" stop="20260908103027 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: BREATHE</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260902103052 +0800" stop="20260902110052 +0800" channel="tv5.ph">
+  <programme start="20260908103027 +0800" stop="20260908110027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
     <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
   </programme>
-  <programme start="20260902110052 +0800" stop="20260902120052 +0800" channel="tv5.ph">
+  <programme start="20260908110027 +0800" stop="20260908120027 +0800" channel="tv5.ph">
     <title lang="en">FACE TO FACE WITH ATE KORING</title>
     <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
   </programme>
-  <programme start="20260902120052 +0800" stop="20260902143052 +0800" channel="tv5.ph">
+  <programme start="20260908120027 +0800" stop="20260908143027 +0800" channel="tv5.ph">
     <title lang="en">EAT BULAGA (LIVE)</title>
     <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260902143052 +0800" stop="20260902151552 +0800" channel="tv5.ph">
+  <programme start="20260908143027 +0800" stop="20260908151527 +0800" channel="tv5.ph">
     <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
     <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
   </programme>
-  <programme start="20260902151552 +0800" stop="20260902160052 +0800" channel="tv5.ph">
+  <programme start="20260908151527 +0800" stop="20260908160027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
     <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
   </programme>
-  <programme start="20260902160052 +0800" stop="20260902164552 +0800" channel="tv5.ph">
+  <programme start="20260908160027 +0800" stop="20260908164527 +0800" channel="tv5.ph">
     <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
+    <desc lang="en">Mosh o Big Boss? Sino ang mananaig sa puso ni Irene?</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
   </programme>
-  <programme start="20260902164552 +0800" stop="20260902173052 +0800" channel="tv5.ph">
+  <programme start="20260908164527 +0800" stop="20260908173027 +0800" channel="tv5.ph">
     <title lang="en">KNIGHT RIDER</title>
+    <desc lang="en">Subaybayan ang adventures ni Michael Knight at ng super-talino niyang sasakyan na si K.I.T.T. sa isa sa mga pinakaastig at maaksyon na TV series noong 80s.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260902173052 +0800" stop="20260902181552 +0800" channel="tv5.ph">
-    <title lang="en">UNA SA LAHAT (LIVE)</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/TV5Portal_USL_480x270.jpg" />
-  </programme>
-  <programme start="20260902181552 +0800" stop="20260902200052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
-    <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
-  </programme>
-  <programme start="20260902200052 +0800" stop="20260902204552 +0800" channel="tv5.ph">
-    <title lang="en">SIGABO</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
-  </programme>
-  <programme start="20260902204552 +0800" stop="20260902213052 +0800" channel="tv5.ph">
-    <title lang="en">SOMEONE, SOMEDAY</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
-  </programme>
-  <programme start="20260902213052 +0800" stop="20260902221552 +0800" channel="tv5.ph">
-    <title lang="en">A SECRET IN PRAGUE</title>
-    <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal-480x270-ASIP.jpg" />
-  </programme>
-  <programme start="20260902221552 +0800" stop="20260902224552 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE TONIGHT (LIVE)</title>
-    <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Tonight-480x270-1.png" />
-  </programme>
-  <programme start="20260902224552 +0800" stop="20260902230052 +0800" channel="tv5.ph">
-    <title lang="en">VIBE NIGHTS</title>
-    <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
-  </programme>
-  <programme start="20260902230052 +0800" stop="20260903000052 +0800" channel="tv5.ph">
-    <title lang="en">MIDNIGHT DJ</title>
-    <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260903000052 +0800" stop="20260903010052 +0800" channel="tv5.ph">
-    <title lang="en">ORAS NG HIMALA</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
-  </programme>
-  <programme start="20260903010052 +0800" stop="20260903043052 +0800" channel="tv5.ph">
-    <title lang="en">OFF THE AIR</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260903043052 +0800" stop="20260903053052 +0800" channel="tv5.ph">
-    <title lang="en">MGA KWENTONG MX3</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260903053052 +0800" stop="20260903080052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
-  </programme>
-  <programme start="20260903080052 +0800" stop="20260903083052 +0800" channel="tv5.ph">
-    <title lang="en">COOKING MASTER BOY</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
-  </programme>
-  <programme start="20260903083052 +0800" stop="20260903103052 +0800" channel="tv5.ph">
-    <title lang="en">BLOCKBUSTERS SA UMAGA: THE GIRL WITH ALL THE GIFTS</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260903103052 +0800" stop="20260903110052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
-    <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
-  </programme>
-  <programme start="20260903110052 +0800" stop="20260903120052 +0800" channel="tv5.ph">
-    <title lang="en">FACE TO FACE WITH ATE KORING</title>
-    <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
-  </programme>
-  <programme start="20260903120052 +0800" stop="20260903143052 +0800" channel="tv5.ph">
-    <title lang="en">EAT BULAGA (LIVE)</title>
-    <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
-  </programme>
-  <programme start="20260903143052 +0800" stop="20260903151552 +0800" channel="tv5.ph">
-    <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
-    <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
-  </programme>
-  <programme start="20260903151552 +0800" stop="20260903160052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
-    <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
-  </programme>
-  <programme start="20260903160052 +0800" stop="20260903164552 +0800" channel="tv5.ph">
-    <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
-  </programme>
-  <programme start="20260903164552 +0800" stop="20260903173052 +0800" channel="tv5.ph">
-    <title lang="en">KNIGHT RIDER</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
-  </programme>
-  <programme start="20260903173052 +0800" stop="20260903181552 +0800" channel="tv5.ph">
+  <programme start="20260908173027 +0800" stop="20260908181527 +0800" channel="tv5.ph">
     <title lang="en">UNA SA LAHAT (LIVE)</title>
     <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/TV5Portal_USL_480x270.jpg" />
   </programme>
-  <programme start="20260903181552 +0800" stop="20260903200052 +0800" channel="tv5.ph">
+  <programme start="20260908181527 +0800" stop="20260908200027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
     <desc lang="en">Maging updated sa mga pinakamahalagang impormasyon kasama ang mga Kapatid sa balitaan at public service na sina Cheryl Cosim at Julius Babao.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Pilipinas-2025-480x270-1.png" />
   </programme>
-  <programme start="20260903200052 +0800" stop="20260903204552 +0800" channel="tv5.ph">
+  <programme start="20260908200027 +0800" stop="20260908204527 +0800" channel="tv5.ph">
     <title lang="en">SIGABO</title>
+    <desc lang="en">Samahan ang Hari ng Aksyon sa ating Henerasyon na si Coco Martin at ang Prime Actress na si Julia Montes sa isang kwentong hitik sa maaaksyong eksena at matitinding bakbakan.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
   </programme>
-  <programme start="20260903204552 +0800" stop="20260903213052 +0800" channel="tv5.ph">
+  <programme start="20260908204527 +0800" stop="20260908213027 +0800" channel="tv5.ph">
     <title lang="en">SOMEONE, SOMEDAY</title>
+    <desc lang="en">Mga matitinding rebelasyon at nakakakilig na tagpo ang bibida sa romantic mystery series na ito na pinagbibidahan nina Kathryn Bernardo, James Reid, at Maja Salvador.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
   </programme>
-  <programme start="20260903213052 +0800" stop="20260903221552 +0800" channel="tv5.ph">
+  <programme start="20260908213027 +0800" stop="20260908221527 +0800" channel="tv5.ph">
     <title lang="en">A SECRET IN PRAGUE</title>
     <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal-480x270-ASIP.jpg" />
   </programme>
-  <programme start="20260903221552 +0800" stop="20260903224552 +0800" channel="tv5.ph">
+  <programme start="20260908221527 +0800" stop="20260908224527 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE TONIGHT (LIVE)</title>
     <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Tonight-480x270-1.png" />
   </programme>
-  <programme start="20260903224552 +0800" stop="20260903230052 +0800" channel="tv5.ph">
+  <programme start="20260908224527 +0800" stop="20260908230027 +0800" channel="tv5.ph">
     <title lang="en">VIBE NIGHTS</title>
     <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
   </programme>
-  <programme start="20260903230052 +0800" stop="20260904000052 +0800" channel="tv5.ph">
+  <programme start="20260908230027 +0800" stop="20260909000027 +0800" channel="tv5.ph">
     <title lang="en">MIDNIGHT DJ</title>
     <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/05/MDJ_480x270.png" />
   </programme>
-  <programme start="20260904000052 +0800" stop="20260904010052 +0800" channel="tv5.ph">
+  <programme start="20260909000027 +0800" stop="20260909010027 +0800" channel="tv5.ph">
     <title lang="en">ORAS NG HIMALA</title>
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
   </programme>
-  <programme start="20260904010052 +0800" stop="20260904043052 +0800" channel="tv5.ph">
+  <programme start="20260909010027 +0800" stop="20260909053027 +0800" channel="tv5.ph">
     <title lang="en">OFF THE AIR</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260904043052 +0800" stop="20260904053052 +0800" channel="tv5.ph">
-    <title lang="en">MGA KWENTONG MX3</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
-  </programme>
-  <programme start="20260904053052 +0800" stop="20260904080052 +0800" channel="tv5.ph">
+  <programme start="20260909053027 +0800" stop="20260909080027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
+    <desc lang="en">Simulan ang bawat umaga nang maalam sa napapanahong isyu at balita kasama sina Ed Lingao, Andrei Felix, Dimples Romana, Angela Lagunzad Castro, at ang buong puwersa ng News5.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
   </programme>
-  <programme start="20260904080052 +0800" stop="20260904083052 +0800" channel="tv5.ph">
+  <programme start="20260909080027 +0800" stop="20260909083027 +0800" channel="tv5.ph">
     <title lang="en">COOKING MASTER BOY</title>
+    <desc lang="en">Samahan si little Master Mao sa isang nakaka-inspire na adventure-flavored journey.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
   </programme>
-  <programme start="20260904083052 +0800" stop="20260904103052 +0800" channel="tv5.ph">
-    <title lang="en">BLOCKBUSTERS SA UMAGA: TAKE DOWN</title>
+  <programme start="20260909083027 +0800" stop="20260909103027 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: NAVY SEALS VS. ZOMBIES</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260904103052 +0800" stop="20260904110052 +0800" channel="tv5.ph">
+  <programme start="20260909103027 +0800" stop="20260909110027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
     <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
   </programme>
-  <programme start="20260904110052 +0800" stop="20260904120052 +0800" channel="tv5.ph">
-    <title lang="en">FACE TO FACE WITH ATE KORING</title>
+  <programme start="20260909110027 +0800" stop="20260909120027 +0800" channel="tv5.ph">
+    <title lang="en">BEST OF FACE TO FACE WITH ATE KORING</title>
     <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
   </programme>
-  <programme start="20260904120052 +0800" stop="20260904143052 +0800" channel="tv5.ph">
+  <programme start="20260909120027 +0800" stop="20260909143027 +0800" channel="tv5.ph">
     <title lang="en">EAT BULAGA (LIVE)</title>
     <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260904143052 +0800" stop="20260904151552 +0800" channel="tv5.ph">
+  <programme start="20260909143027 +0800" stop="20260909151527 +0800" channel="tv5.ph">
     <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
     <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
   </programme>
-  <programme start="20260904151552 +0800" stop="20260904160052 +0800" channel="tv5.ph">
+  <programme start="20260909151527 +0800" stop="20260909160027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
     <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
   </programme>
-  <programme start="20260904160052 +0800" stop="20260904164552 +0800" channel="tv5.ph">
+  <programme start="20260909160027 +0800" stop="20260909164527 +0800" channel="tv5.ph">
     <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
+    <desc lang="en">Mosh o Big Boss? Sino ang mananaig sa puso ni Irene?</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
   </programme>
-  <programme start="20260904164552 +0800" stop="20260904173052 +0800" channel="tv5.ph">
+  <programme start="20260909164527 +0800" stop="20260909173027 +0800" channel="tv5.ph">
     <title lang="en">KNIGHT RIDER</title>
+    <desc lang="en">Subaybayan ang adventures ni Michael Knight at ng super-talino niyang sasakyan na si K.I.T.T. sa isa sa mga pinakaastig at maaksyon na TV series noong 80s.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260904173052 +0800" stop="20260904181552 +0800" channel="tv5.ph">
+  <programme start="20260909173027 +0800" stop="20260909181527 +0800" channel="tv5.ph">
     <title lang="en">UNA SA LAHAT (LIVE)</title>
     <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/TV5Portal_USL_480x270.jpg" />
   </programme>
-  <programme start="20260904181552 +0800" stop="20260904200052 +0800" channel="tv5.ph">
+  <programme start="20260909181527 +0800" stop="20260909200027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
     <desc lang="en">Maging updated sa mga pinakamahalagang impormasyon kasama ang mga Kapatid sa balitaan at public service na sina Cheryl Cosim at Julius Babao.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Pilipinas-2025-480x270-1.png" />
   </programme>
-  <programme start="20260904200052 +0800" stop="20260904204552 +0800" channel="tv5.ph">
+  <programme start="20260909200027 +0800" stop="20260909204527 +0800" channel="tv5.ph">
     <title lang="en">SIGABO</title>
+    <desc lang="en">Samahan ang Hari ng Aksyon sa ating Henerasyon na si Coco Martin at ang Prime Actress na si Julia Montes sa isang kwentong hitik sa maaaksyong eksena at matitinding bakbakan.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
   </programme>
-  <programme start="20260904204552 +0800" stop="20260904213052 +0800" channel="tv5.ph">
+  <programme start="20260909204527 +0800" stop="20260909213027 +0800" channel="tv5.ph">
     <title lang="en">SOMEONE, SOMEDAY</title>
+    <desc lang="en">Mga matitinding rebelasyon at nakakakilig na tagpo ang bibida sa romantic mystery series na ito na pinagbibidahan nina Kathryn Bernardo, James Reid, at Maja Salvador.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
   </programme>
-  <programme start="20260904213052 +0800" stop="20260904221552 +0800" channel="tv5.ph">
+  <programme start="20260909213027 +0800" stop="20260909221527 +0800" channel="tv5.ph">
     <title lang="en">A SECRET IN PRAGUE</title>
     <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal-480x270-ASIP.jpg" />
   </programme>
-  <programme start="20260904221552 +0800" stop="20260904224552 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE TONIGHT (LIVE)</title>
+  <programme start="20260909221527 +0800" stop="20260909224527 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE TONIGHT</title>
     <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Tonight-480x270-1.png" />
   </programme>
-  <programme start="20260904224552 +0800" stop="20260904230052 +0800" channel="tv5.ph">
+  <programme start="20260909224527 +0800" stop="20260909230027 +0800" channel="tv5.ph">
     <title lang="en">VIBE NIGHTS</title>
     <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
   </programme>
-  <programme start="20260904230052 +0800" stop="20260905000052 +0800" channel="tv5.ph">
+  <programme start="20260909230027 +0800" stop="20260910000027 +0800" channel="tv5.ph">
     <title lang="en">MIDNIGHT DJ</title>
     <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/05/MDJ_480x270.png" />
   </programme>
-  <programme start="20260905000052 +0800" stop="20260905010052 +0800" channel="tv5.ph">
+  <programme start="20260910000027 +0800" stop="20260910010027 +0800" channel="tv5.ph">
     <title lang="en">ORAS NG HIMALA</title>
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
   </programme>
-  <programme start="20260905010052 +0800" stop="20260905070052 +0800" channel="tv5.ph">
+  <programme start="20260910010027 +0800" stop="20260910043027 +0800" channel="tv5.ph">
     <title lang="en">OFF THE AIR</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260905070052 +0800" stop="20260905073052 +0800" channel="tv5.ph">
+  <programme start="20260910043027 +0800" stop="20260910053027 +0800" channel="tv5.ph">
+    <title lang="en">MGA KWENTONG MX3</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+  </programme>
+  <programme start="20260910053027 +0800" stop="20260910080027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
+    <desc lang="en">Simulan ang bawat umaga nang maalam sa napapanahong isyu at balita kasama sina Ed Lingao, Andrei Felix, Dimples Romana, Angela Lagunzad Castro, at ang buong puwersa ng News5.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
+  </programme>
+  <programme start="20260910080027 +0800" stop="20260910083027 +0800" channel="tv5.ph">
+    <title lang="en">COOKING MASTER BOY</title>
+    <desc lang="en">Samahan si little Master Mao sa isang nakaka-inspire na adventure-flavored journey.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
+  </programme>
+  <programme start="20260910083027 +0800" stop="20260910103027 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: REVOLT</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+  </programme>
+  <programme start="20260910103027 +0800" stop="20260910110027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
+    <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
+  </programme>
+  <programme start="20260910110027 +0800" stop="20260910120027 +0800" channel="tv5.ph">
+    <title lang="en">FACE TO FACE WITH ATE KORING</title>
+    <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
+  </programme>
+  <programme start="20260910120027 +0800" stop="20260910143027 +0800" channel="tv5.ph">
+    <title lang="en">EAT BULAGA (LIVE)</title>
+    <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
+  </programme>
+  <programme start="20260910143027 +0800" stop="20260910151527 +0800" channel="tv5.ph">
+    <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
+    <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
+  </programme>
+  <programme start="20260910151527 +0800" stop="20260910160027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
+    <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
+  </programme>
+  <programme start="20260910160027 +0800" stop="20260910164527 +0800" channel="tv5.ph">
+    <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
+    <desc lang="en">Mosh o Big Boss? Sino ang mananaig sa puso ni Irene?</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
+  </programme>
+  <programme start="20260910164527 +0800" stop="20260910173027 +0800" channel="tv5.ph">
+    <title lang="en">KNIGHT RIDER</title>
+    <desc lang="en">Subaybayan ang adventures ni Michael Knight at ng super-talino niyang sasakyan na si K.I.T.T. sa isa sa mga pinakaastig at maaksyon na TV series noong 80s.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
+  </programme>
+  <programme start="20260910173027 +0800" stop="20260910181527 +0800" channel="tv5.ph">
+    <title lang="en">UNA SA LAHAT (LIVE)</title>
+    <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/TV5Portal_USL_480x270.jpg" />
+  </programme>
+  <programme start="20260910181527 +0800" stop="20260910200027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
+    <desc lang="en">Maging updated sa mga pinakamahalagang impormasyon kasama ang mga Kapatid sa balitaan at public service na sina Cheryl Cosim at Julius Babao.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Pilipinas-2025-480x270-1.png" />
+  </programme>
+  <programme start="20260910200027 +0800" stop="20260910204527 +0800" channel="tv5.ph">
+    <title lang="en">SIGABO</title>
+    <desc lang="en">Samahan ang Hari ng Aksyon sa ating Henerasyon na si Coco Martin at ang Prime Actress na si Julia Montes sa isang kwentong hitik sa maaaksyong eksena at matitinding bakbakan.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
+  </programme>
+  <programme start="20260910204527 +0800" stop="20260910213027 +0800" channel="tv5.ph">
+    <title lang="en">SOMEONE, SOMEDAY</title>
+    <desc lang="en">Mga matitinding rebelasyon at nakakakilig na tagpo ang bibida sa romantic mystery series na ito na pinagbibidahan nina Kathryn Bernardo, James Reid, at Maja Salvador.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
+  </programme>
+  <programme start="20260910213027 +0800" stop="20260910221527 +0800" channel="tv5.ph">
+    <title lang="en">A SECRET IN PRAGUE</title>
+    <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal-480x270-ASIP.jpg" />
+  </programme>
+  <programme start="20260910221527 +0800" stop="20260910224527 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE TONIGHT (LIVE)</title>
+    <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Tonight-480x270-1.png" />
+  </programme>
+  <programme start="20260910224527 +0800" stop="20260910230027 +0800" channel="tv5.ph">
+    <title lang="en">VIBE NIGHTS</title>
+    <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
+  </programme>
+  <programme start="20260910230027 +0800" stop="20260911000027 +0800" channel="tv5.ph">
+    <title lang="en">MIDNIGHT DJ</title>
+    <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/05/MDJ_480x270.png" />
+  </programme>
+  <programme start="20260911000027 +0800" stop="20260911010027 +0800" channel="tv5.ph">
+    <title lang="en">ORAS NG HIMALA</title>
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
+  </programme>
+  <programme start="20260911010027 +0800" stop="20260911043027 +0800" channel="tv5.ph">
+    <title lang="en">OFF THE AIR</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+  </programme>
+  <programme start="20260911043027 +0800" stop="20260911053027 +0800" channel="tv5.ph">
+    <title lang="en">MGA KWENTONG MX3</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+  </programme>
+  <programme start="20260911053027 +0800" stop="20260911080027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE SA UMAGA (LIVE)</title>
+    <desc lang="en">Simulan ang bawat umaga nang maalam sa napapanahong isyu at balita kasama sina Ed Lingao, Andrei Felix, Dimples Romana, Angela Lagunzad Castro, at ang buong puwersa ng News5.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-sa-Umaga-2026-480x270-1.png" />
+  </programme>
+  <programme start="20260911080027 +0800" stop="20260911083027 +0800" channel="tv5.ph">
+    <title lang="en">COOKING MASTER BOY</title>
+    <desc lang="en">Samahan si little Master Mao sa isang nakaka-inspire na adventure-flavored journey.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/cmb-sched-480x270-1.png" />
+  </programme>
+  <programme start="20260911083027 +0800" stop="20260911103027 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: AIR STRIKE</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+  </programme>
+  <programme start="20260911103027 +0800" stop="20260911110027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE EXPRESS AM (LIVE)</title>
+    <desc lang="en">Alamin ang pinakamahahalagang balita na dapat mong malaman sa pagsabak ng panibagong araw, kasama si Nikki De Guzman.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-AM-480X270.png" />
+  </programme>
+  <programme start="20260911110027 +0800" stop="20260911120027 +0800" channel="tv5.ph">
+    <title lang="en">FACE TO FACE WITH ATE KORING</title>
+    <desc lang="en">Sali na sa masayang kwentuhan, praktikal na tulong, mahalagang kaalaman, at makabuluhang inspirasyon kasama ang “Ate ng Masa” na si Korina Sanchez.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Face-to-Face-with-Ate-Koring-480x270-1.png" />
+  </programme>
+  <programme start="20260911120027 +0800" stop="20260911143027 +0800" channel="tv5.ph">
+    <title lang="en">EAT BULAGA (LIVE)</title>
+    <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
+  </programme>
+  <programme start="20260911143027 +0800" stop="20260911151527 +0800" channel="tv5.ph">
+    <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
+    <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
+  </programme>
+  <programme start="20260911151527 +0800" stop="20260911160027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE EXPRESS PM (LIVE)</title>
+    <desc lang="en">Ang mabilis, diretso, at detalyadong balita tuwing hapon, iuulat ni Ruth Cabal.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/FRONTLINE-EXPRESS-PM-480X270.png" />
+  </programme>
+  <programme start="20260911160027 +0800" stop="20260911164527 +0800" channel="tv5.ph">
+    <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
+    <desc lang="en">Mosh o Big Boss? Sino ang mananaig sa puso ni Irene?</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
+  </programme>
+  <programme start="20260911164527 +0800" stop="20260911173027 +0800" channel="tv5.ph">
+    <title lang="en">KNIGHT RIDER</title>
+    <desc lang="en">Subaybayan ang adventures ni Michael Knight at ng super-talino niyang sasakyan na si K.I.T.T. sa isa sa mga pinakaastig at maaksyon na TV series noong 80s.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/KNIGHT-RIDER-WEB-PORTAL-IMAGE-schedule-480x270-1.png" />
+  </programme>
+  <programme start="20260911173027 +0800" stop="20260911181527 +0800" channel="tv5.ph">
+    <title lang="en">UNA SA LAHAT (LIVE)</title>
+    <desc lang="en">Mauuna sa maiinit na issues, trending topics, at viral videos sa bansa, hatid ni Jiggy Manicad.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/TV5Portal_USL_480x270.jpg" />
+  </programme>
+  <programme start="20260911181527 +0800" stop="20260911200027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE PILIPINAS (LIVE)</title>
+    <desc lang="en">Maging updated sa mga pinakamahalagang impormasyon kasama ang mga Kapatid sa balitaan at public service na sina Cheryl Cosim at Julius Babao.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Pilipinas-2025-480x270-1.png" />
+  </programme>
+  <programme start="20260911200027 +0800" stop="20260911204527 +0800" channel="tv5.ph">
+    <title lang="en">SIGABO</title>
+    <desc lang="en">Samahan ang Hari ng Aksyon sa ating Henerasyon na si Coco Martin at ang Prime Actress na si Julia Montes sa isang kwentong hitik sa maaaksyong eksena at matitinding bakbakan.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/06/sigabo-sched-480x270-1.jpg" />
+  </programme>
+  <programme start="20260911204527 +0800" stop="20260911213027 +0800" channel="tv5.ph">
+    <title lang="en">SOMEONE, SOMEDAY</title>
+    <desc lang="en">Mga matitinding rebelasyon at nakakakilig na tagpo ang bibida sa romantic mystery series na ito na pinagbibidahan nina Kathryn Bernardo, James Reid, at Maja Salvador.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Someone-Someday-480x270-1.png" />
+  </programme>
+  <programme start="20260911213027 +0800" stop="20260911221527 +0800" channel="tv5.ph">
+    <title lang="en">A SECRET IN PRAGUE</title>
+    <desc lang="en">Tutok na sa kilig at pag-ibig na hatid ng unang tambalan nina Enrique Gil at Andrea Brillantes sa nakaka-in love na city of Prague.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal-480x270-ASIP.jpg" />
+  </programme>
+  <programme start="20260911221527 +0800" stop="20260911224527 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE TONIGHT</title>
+    <desc lang="en">Tumutok na sa gabi-gabing balitaan at diskusyon kasama sina Lourd de Veyra, Maeanne Los Baños, at Jannie Alipo-on.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Tonight-480x270-1.png" />
+  </programme>
+  <programme start="20260911224527 +0800" stop="20260911230027 +0800" channel="tv5.ph">
+    <title lang="en">VIBE NIGHTS</title>
+    <desc lang="en">End your nights perfectly with fresh trend talks, fun moments with fans, late-night snacks, live chikahan, and real-time reactions to the hottest OPM moments and viral buzz.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Nights-Plus-480x270-1.png" />
+  </programme>
+  <programme start="20260911230027 +0800" stop="20260912000027 +0800" channel="tv5.ph">
+    <title lang="en">MIDNIGHT DJ</title>
+    <desc lang="en">Samahan si DJ Samboy at ang kanyang team sa paglutas ng mga makatindig-balahibong paranormal cases sa classic Pinoy horror series na ito.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/05/MDJ_480x270.png" />
+  </programme>
+  <programme start="20260912000027 +0800" stop="20260912010027 +0800" channel="tv5.ph">
+    <title lang="en">ORAS NG HIMALA</title>
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
+  </programme>
+  <programme start="20260912010027 +0800" stop="20260912070027 +0800" channel="tv5.ph">
+    <title lang="en">OFF THE AIR</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+  </programme>
+  <programme start="20260912070027 +0800" stop="20260912073027 +0800" channel="tv5.ph">
     <title lang="en">DOG OF FLANDERS</title>
+    <desc lang="en">Balikan ang kwento ng pangarap at pagkakaibigan ng little boy at cute doggo na umantig sa ating mga puso!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/10/SCHEDULE-DOF-1.png" />
   </programme>
-  <programme start="20260905073052 +0800" stop="20260905083052 +0800" channel="tv5.ph">
+  <programme start="20260912073027 +0800" stop="20260912083027 +0800" channel="tv5.ph">
     <title lang="en">THE ADVENTURES OF TOM SAWYER</title>
+    <desc lang="en">Sumama na sa classic journey kasama si Tom Sawyer.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/01/TV5Portal_TAOTS_480x270.jpg" />
   </programme>
-  <programme start="20260905083052 +0800" stop="20260905093052 +0800" channel="tv5.ph">
+  <programme start="20260912083027 +0800" stop="20260912093027 +0800" channel="tv5.ph">
     <title lang="en">LITTLE PRINCESS SARAH</title>
+    <desc lang="en">Simulan ang araw nang may aral na mapupulot mula sa classic life journey ni Sarah.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/10/SCHEDULE-LPS.png" />
   </programme>
-  <programme start="20260905093052 +0800" stop="20260905120052 +0800" channel="tv5.ph">
-    <title lang="en">CINE CINCO WEEKEND SAYA: FINDING RIN TIN TIN</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/CC-WEEKEND-SAYA-480X270.png" />
+  <programme start="20260912093027 +0800" stop="20260912112527 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: LOST &amp; FOUND</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260905120052 +0800" stop="20260905143052 +0800" channel="tv5.ph">
+  <programme start="20260912112527 +0800" stop="20260912142527 +0800" channel="tv5.ph">
     <title lang="en">EAT BULAGA (LIVE)</title>
     <desc lang="en">Tara na’t makipagbulagaan araw-araw kasama ang Legit Dabarkads sa longest-running noontime show ng bansa!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/eb-schedule-480x270-1.png" />
   </programme>
-  <programme start="20260905143052 +0800" stop="20260905151052 +0800" channel="tv5.ph">
-    <title lang="en">MY BESPREN EMMAN: ANG TOTOONG LABAN</title>
-    <desc lang="en">Kapit na sa kwento ng pag-asa at inspirasyon kasama ang bagong Bespren ng lahat.</desc>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/04/TV5Portal_MBE_480x270.jpg" />
-  </programme>
-  <programme start="20260905151052 +0800" stop="20260905154052 +0800" channel="tv5.ph">
+  <programme start="20260912142527 +0800" stop="20260912145527 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE EXPRESS (LIVE)</title>
+    <desc lang="en">Alamin ang pinamalalaking headlines ngayong weekend.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Express-480x270-1.png" />
   </programme>
-  <programme start="20260905154052 +0800" stop="20260905162552 +0800" channel="tv5.ph">
+  <programme start="20260912145527 +0800" stop="20260912154027 +0800" channel="tv5.ph">
     <title lang="en">MANO PO LEGACY: HER BIG BOSS</title>
+    <desc lang="en">Mosh o Big Boss? Sino ang mananaig sa puso ni Irene?</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Mano-Po-Legacy-Her-Big-Boss-480x270-1.png" />
   </programme>
-  <programme start="20260905162552 +0800" stop="20260905173052 +0800" channel="tv5.ph">
-    <title lang="en">CINE CINCO HIT NA HIT: JURASSIC WORLD: FALLEN KINGDOM</title>
+  <programme start="20260912154027 +0800" stop="20260912170027 +0800" channel="tv5.ph">
+    <title lang="en">CINE CINCO HIT NA HIT: CURSE OF CHUCKY</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/CC-HIT-NA-HIT-480X270.png" />
   </programme>
-  <programme start="20260905173052 +0800" stop="20260905180052 +0800" channel="tv5.ph">
-    <title lang="en">FRONTLINE WEEKEND</title>
+  <programme start="20260912170027 +0800" stop="20260912180027 +0800" channel="tv5.ph">
+    <title lang="en">FRONTLINE WEEKEND (LIVE)</title>
+    <desc lang="en">Mga impormasyong dapat ninyong malaman ngayong weekend, ibabalita nina Nikki De Guzman at Andrei Felix.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Weekend-480x270-1.png" />
   </programme>
-  <programme start="20260905180052 +0800" stop="20260905193052 +0800" channel="tv5.ph">
+  <programme start="20260912180027 +0800" stop="20260912193027 +0800" channel="tv5.ph">
     <title lang="en">VIBE PLUS</title>
+    <desc lang="en">Join the ultimate Pinoy music variety show and OPM party!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Plus-480x270-1.png" />
   </programme>
-  <programme start="20260905193052 +0800" stop="20260905203052 +0800" channel="tv5.ph">
+  <programme start="20260912193027 +0800" stop="20260912203027 +0800" channel="tv5.ph">
     <title lang="en">KAPAMILYA DEAL OR NO DEAL</title>
+    <desc lang="en">Buksan na ang briefcase at salubungin ang swerte sa pinaka-lucky season ng “Kapamilya Deal or No Deal” kasama ang Pambansang Host na si Luis Manzano.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/KDOND-480x270-1.png" />
   </programme>
-  <programme start="20260905203052 +0800" stop="20260905214552 +0800" channel="tv5.ph">
+  <programme start="20260912203027 +0800" stop="20260912214527 +0800" channel="tv5.ph">
     <title lang="en">EVERYBODY SING</title>
+    <desc lang="en">Samahan si Asia’s Unkabogable Superstar Vice Ganda sa unang community singing game show ng Pilipinas na puno ng tawanan, kantahan, at papremyo.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Everybody-Sing-480x270-1.png" />
   </programme>
-  <programme start="20260905214552 +0800" stop="20260905223052 +0800" channel="tv5.ph">
+  <programme start="20260912214527 +0800" stop="20260912223027 +0800" channel="tv5.ph">
     <title lang="en">PROJECT LOKI</title>
+    <desc lang="en">Ang hit Wattpad mystery series, nasa TV5 na! Samahan ang Q.E.D. Club sa paglutas ng mga misteryo sa Clark University.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/loki-sched-480x270-1.png" />
   </programme>
-  <programme start="20260905223052 +0800" stop="20260905233052 +0800" channel="tv5.ph">
+  <programme start="20260912223027 +0800" stop="20260912233027 +0800" channel="tv5.ph">
     <title lang="en">AMERICA'S GOT TALENT</title>
+    <desc lang="en">Don’t miss ang exciting na 20th season ng paborito nating talent search featuring Fil-Am sensation, Jessica Sanchez.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/02/SCHEDULE-AGT.png" />
   </programme>
-  <programme start="20260905233052 +0800" stop="20260906003052 +0800" channel="tv5.ph">
+  <programme start="20260912233027 +0800" stop="20260913003027 +0800" channel="tv5.ph">
+    <title lang="en">IN TOUCH WITH DR. CHARLES STANLEY</title>
+    <desc lang="en">Feed your soul and your inner spirituality. Get In Touch with the Lord with guidance from Dr. Stanley.</desc>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/06/INTOUCH_480x270.jpg" />
+  </programme>
+  <programme start="20260906000027 +0800" stop="20260906003027 +0800" channel="tv5.ph">
     <title lang="en">THE MEN'S ROOM</title>
+    <desc lang="en">Let’s talk about the things that men want! Janno and Stan are in The Men’s Room.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/480x270-themensroom.png" />
   </programme>
-  <programme start="20260830000052 +0800" stop="20260830003052 +0800" channel="tv5.ph">
-    <title lang="en">THE MEN'S ROOM</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/05/480x270-themensroom.png" />
-  </programme>
-  <programme start="20260830003052 +0800" stop="20260830013052 +0800" channel="tv5.ph">
+  <programme start="20260906003027 +0800" stop="20260906013027 +0800" channel="tv5.ph">
     <title lang="en">ORAS NG HIMALA</title>
+    <desc lang="en">Miracles happen to the faithful – and each story is a blessing. Witness His power work with Apostle Renato D. Carillo.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2023/09/ONH_480x270.png" />
   </programme>
-  <programme start="20260830013052 +0800" stop="20260830053052 +0800" channel="tv5.ph">
+  <programme start="20260906013027 +0800" stop="20260906053027 +0800" channel="tv5.ph">
     <title lang="en">OFF THE AIR</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260830053052 +0800" stop="20260830060052 +0800" channel="tv5.ph">
-    <title lang="en">IN TOUCH WITH DR. CHARLES STANLEY</title>
+  <programme start="20260906053027 +0800" stop="20260906060027 +0800" channel="tv5.ph">
+    <title lang="en">IN TOUCH WITH DR. CHARLES STANLEY (REPLAY)</title>
+    <desc lang="en">Feed your soul and your inner spirituality. Get In Touch with the Lord with guidance from Dr. Stanley.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2020/06/INTOUCH_480x270.jpg" />
   </programme>
-  <programme start="20260830060052 +0800" stop="20260830070052 +0800" channel="tv5.ph">
+  <programme start="20260906060027 +0800" stop="20260906070027 +0800" channel="tv5.ph">
     <title lang="en">SUNDAY MASS</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2019/03/Tv-Mass_480x270.jpg" />
   </programme>
-  <programme start="20260830070052 +0800" stop="20260830080052 +0800" channel="tv5.ph">
+  <programme start="20260906070027 +0800" stop="20260906080027 +0800" channel="tv5.ph">
     <title lang="en">ORAS NG KATOTOHANAN WITH APOSTLE JONATHAN S. FERRIOL</title>
+    <desc lang="en">Buksan ang inyong mga puso sa mga aral ng pag-asa at panalangin ng kaligtasan.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/ORAS-NG-KATOTOHANAN-480X270.png" />
   </programme>
-  <programme start="20260830080052 +0800" stop="20260830083052 +0800" channel="tv5.ph">
+  <programme start="20260906080027 +0800" stop="20260906090027 +0800" channel="tv5.ph">
     <title lang="en">DOG OF FLANDERS</title>
+    <desc lang="en">Balikan ang kwento ng pangarap at pagkakaibigan ng little boy at cute doggo na umantig sa ating mga puso!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/10/SCHEDULE-DOF-1.png" />
   </programme>
-  <programme start="20260830083052 +0800" stop="20260830090052 +0800" channel="tv5.ph">
+  <programme start="20260906090027 +0800" stop="20260906100027 +0800" channel="tv5.ph">
     <title lang="en">THE ADVENTURES OF TOM SAWYER</title>
+    <desc lang="en">Sumama na sa classic journey kasama si Tom Sawyer.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/01/TV5Portal_TAOTS_480x270.jpg" />
   </programme>
-  <programme start="20260830090052 +0800" stop="20260830110052 +0800" channel="tv5.ph">
-    <title lang="en">CINE CINCO WEEKEND SAYA: BLUE CRUSH 2</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2025/09/CC-WEEKEND-SAYA-480X270.png" />
+  <programme start="20260906100027 +0800" stop="20260906120027 +0800" channel="tv5.ph">
+    <title lang="en">BLOCKBUSTERS SA UMAGA: THE MYSTERY OF THE DRAGON SEAL</title>
+    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/TV5-logo-480x270-1.png" />
   </programme>
-  <programme start="20260830110052 +0800" stop="20260830120052 +0800" channel="tv5.ph">
-    <title lang="en">THE SINGING LODI</title>
-    <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/The-Singing-Lodi-480x270-1.png" />
-  </programme>
-  <programme start="20260830120052 +0800" stop="20260830133052 +0800" channel="tv5.ph">
+  <programme start="20260906120027 +0800" stop="20260906133027 +0800" channel="tv5.ph">
     <title lang="en">VIBE PLAYBACK</title>
+    <desc lang="en">Join the ultimate Pinoy music variety show and OPM party!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Vibe-Plus-480x270-1.png" />
   </programme>
-  <programme start="20260830133052 +0800" stop="20260830151552 +0800" channel="tv5.ph">
-    <title lang="en">CINE CINCO ASTIG SUNDAY: TUCKER AND DALE VS EVIL</title>
+  <programme start="20260906133027 +0800" stop="20260906151527 +0800" channel="tv5.ph">
+    <title lang="en">CINE CINCO ASTIG SUNDAY: THE LONG WAY HOME</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2024/10/SCHEDULE-CCA.png" />
   </programme>
-  <programme start="20260830151552 +0800" stop="20260830160052 +0800" channel="tv5.ph">
+  <programme start="20260906151527 +0800" stop="20260906160027 +0800" channel="tv5.ph">
     <title lang="en">OGIE DIAZ INSPIRES</title>
+    <desc lang="en">Panoorin natin ang celebrity interviews ng OG ng real talk na si Ogie Diaz.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Ogie-Diaz-Inspires-480x270-1.png" />
   </programme>
-  <programme start="20260830160052 +0800" stop="20260830163052 +0800" channel="tv5.ph">
+  <programme start="20260906160027 +0800" stop="20260906163027 +0800" channel="tv5.ph">
     <title lang="en">JULIUS BABAO UNPLUGGED</title>
+    <desc lang="en">Ibubunyag ni Julius Babao ang mga kwentong nakakagulat, nakaka-inspire, at nakakakurot ng puso, tungkol sa mga dating sikat na idolo’t artista.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2024/09/SCHEDULE-JBU.png" />
   </programme>
-  <programme start="20260830163052 +0800" stop="20260830170052 +0800" channel="tv5.ph">
+  <programme start="20260906163027 +0800" stop="20260906170027 +0800" channel="tv5.ph">
     <title lang="en">PRESINTO 5</title>
+    <desc lang="en">Mga kwentong krimen, iuulat nina Boy Bagyo Mon Gualvez at Mr. Exclusive Gary de Leon.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/01/PRESINTO-5-480X270.png" />
   </programme>
-  <programme start="20260830170052 +0800" stop="20260830180052 +0800" channel="tv5.ph">
+  <programme start="20260906170027 +0800" stop="20260906180027 +0800" channel="tv5.ph">
     <title lang="en">FRONTLINE WEEKEND (LIVE)</title>
+    <desc lang="en">Mga impormasyong dapat ninyong malaman ngayong weekend, ibabalita nina Nikki De Guzman at Andrei Felix.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Frontline-Weekend-480x270-1.png" />
   </programme>
-  <programme start="20260830180052 +0800" stop="20260830190052 +0800" channel="tv5.ph">
+  <programme start="20260906180027 +0800" stop="20260906190027 +0800" channel="tv5.ph">
     <title lang="en">KAPATID MO, IDOL RAFFY TULFO</title>
+    <desc lang="en">Iba’t ibang kwento ng Pilipino, ihahatid sa atin tuwing Linggo ng nag-iisa nating idolo, Sen. Raffy Tulfo!</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2024/04/KMIRT-SCHEDULE.png" />
   </programme>
-  <programme start="20260830190052 +0800" stop="20260830193052 +0800" channel="tv5.ph">
+  <programme start="20260906190027 +0800" stop="20260906193027 +0800" channel="tv5.ph">
     <title lang="en">TOP 5 MGA KWENTONG MARC LOGAN</title>
+    <desc lang="en">Kulitan at tawanan sa mga trending kwento ang hatid ng ating Pambansang Pantanggal Umay, Marc Logan.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2024/04/T5MKML-SCHEDULE-BANNER.png" />
   </programme>
-  <programme start="20260830193052 +0800" stop="20260830203052 +0800" channel="tv5.ph">
+  <programme start="20260906193027 +0800" stop="20260906203027 +0800" channel="tv5.ph">
     <title lang="en">KAPAMILYA DEAL OR NO DEAL</title>
+    <desc lang="en">Buksan na ang briefcase at salubungin ang swerte sa pinaka-lucky season ng “Kapamilya Deal or No Deal” kasama ang Pambansang Host na si Luis Manzano.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/KDOND-480x270-1.png" />
   </programme>
-  <programme start="20260830203052 +0800" stop="20260830214552 +0800" channel="tv5.ph">
+  <programme start="20260906203027 +0800" stop="20260906214527 +0800" channel="tv5.ph">
     <title lang="en">EVERYBODY SING</title>
+    <desc lang="en">Samahan si Asia’s Unkabogable Superstar Vice Ganda sa unang community singing game show ng Pilipinas na puno ng tawanan, kantahan, at papremyo.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/08/Everybody-Sing-480x270-1.png" />
   </programme>
-  <programme start="20260830214552 +0800" stop="20260830223052 +0800" channel="tv5.ph">
+  <programme start="20260906214527 +0800" stop="20260906223027 +0800" channel="tv5.ph">
     <title lang="en">PROJECT LOKI</title>
+    <desc lang="en">Ang hit Wattpad mystery series, nasa TV5 na! Samahan ang Q.E.D. Club sa paglutas ng mga misteryo sa Clark University.</desc>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/05/loki-sched-480x270-1.png" />
   </programme>
-  <programme start="20260830223052 +0800" stop="20260830233052 +0800" channel="tv5.ph">
-    <title lang="en">KAPATID SUNDAY SPECIALS: THE SPIES</title>
+  <programme start="20260906223027 +0800" stop="20260906233027 +0800" channel="tv5.ph">
+    <title lang="en">KAPATID SUNDAY SPECIALS: MR. ZOO: THE MISSING VIP</title>
     <icon src="https://corpcms.tv5.com.ph/wp-content/uploads/2026/03/SCHEDULE-KSS.png" />
   </programme>
 </tv>

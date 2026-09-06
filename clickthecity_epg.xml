@@ -3,54 +3,18 @@
   <channel id="anc">
     <display-name>anc</display-name>
   </channel>
-  <channel id="kapamilya-channel">
-    <display-name>kapamilya-channel</display-name>
+  <channel id="cinema-one">
+    <display-name>cinema-one</display-name>
   </channel>
-  <programme channel="anc" start="20260906013000 +0800" stop="20260906020000 +0800">
-    <title>At The Moment</title>
-  </programme>
-  <programme channel="anc" start="20260906020000 +0800" stop="20260906030000 +0800">
-    <title>24x24</title>
-  </programme>
-  <programme channel="anc" start="20260906030000 +0800" stop="20260906033000 +0800">
-    <title>On Cue</title>
-  </programme>
-  <programme channel="anc" start="20260906033000 +0800" stop="20260906040000 +0800">
-    <title>LSS: The Martin Nievera Show</title>
-  </programme>
-  <programme channel="anc" start="20260906040000 +0800" stop="20260906043000 +0800">
-    <title>G Diaries: Stronger Together</title>
-  </programme>
-  <programme channel="anc" start="20260906043000 +0800" stop="20260906050000 +0800">
-    <title>My Italy with Margarita</title>
-  </programme>
-  <programme channel="anc" start="20260906050000 +0800" stop="20260906053000 +0800">
-    <title>Global Us</title>
-  </programme>
-  <programme channel="anc" start="20260906053000 +0800" stop="20260906060000 +0800">
-    <title>Made in Germany</title>
-  </programme>
-  <programme channel="anc" start="20260906060000 +0800" stop="20260906063000 +0800">
-    <title>The Word Exposed</title>
-  </programme>
-  <programme channel="anc" start="20260906063000 +0800" stop="20260906070000 +0800">
-    <title>Dayaw</title>
-  </programme>
-  <programme channel="anc" start="20260906070000 +0800" stop="20260906080000 +0800">
-    <title>Metabeats</title>
-  </programme>
-  <programme channel="anc" start="20260906080000 +0800" stop="20260906083000 +0800">
-    <title>Executive Class</title>
-  </programme>
-  <programme channel="anc" start="20260906083000 +0800" stop="20260906093000 +0800">
-    <title>Beached</title>
-  </programme>
-  <programme channel="anc" start="20260906093000 +0800" stop="20260906100000 +0800">
-    <title>Insight with April Lee-Tan</title>
-  </programme>
-  <programme channel="anc" start="20260906100000 +0800" stop="20260906110000 +0800">
-    <title>Chasing Flavors</title>
-  </programme>
+  <channel id="gma">
+    <display-name>gma</display-name>
+  </channel>
+  <channel id="jeepney-tv">
+    <display-name>jeepney-tv</display-name>
+  </channel>
+  <channel id="pbo">
+    <display-name>pbo</display-name>
+  </channel>
   <programme channel="anc" start="20260906110000 +0800" stop="20260906120000 +0800">
     <title>Foodprints with Chef Sandy Daza</title>
   </programme>
@@ -147,73 +111,136 @@
   <programme channel="anc" start="20260907043000 +0800" stop="20260907050000 +0800">
     <title>Made in Germany</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906003000 +0800" stop="20260906020000 +0800">
-    <title>Movie Central Presents</title>
+  <programme channel="cinema-one" start="20260906110000 +0800" stop="20260906130000 +0800">
+    <title>Ultimatum: Ceasefire</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906020000 +0800" stop="20260906040000 +0800">
-    <title>Movie Central Presents</title>
+  <programme channel="cinema-one" start="20260906130000 +0800" stop="20260906150000 +0800">
+    <title>The Girl In The Orange Dress</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906040000 +0800" stop="20260906060000 +0800">
-    <title>Movie Central Presents</title>
+  <programme channel="cinema-one" start="20260906150000 +0800" stop="20260906170000 +0800">
+    <title>Momzillas</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906060000 +0800" stop="20260906070000 +0800">
-    <title>The Healing Eucharist Sunday Mass</title>
+  <programme channel="cinema-one" start="20260906170000 +0800" stop="20260906190000 +0800">
+    <title>It Takes A Man And A Woman</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906070000 +0800" stop="20260906072500 +0800">
-    <title>Wikaharian</title>
+  <programme channel="cinema-one" start="20260906190000 +0800" stop="20260906210000 +0800">
+    <title>Vince &amp; Kath &amp; James</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906072500 +0800" stop="20260906075000 +0800">
-    <title>Ready Set Read</title>
+  <programme channel="cinema-one" start="20260906210000 +0800" stop="20260906220000 +0800">
+    <title>The B Side</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906075000 +0800" stop="20260906081500 +0800">
-    <title>Math-dali</title>
+  <programme channel="cinema-one" start="20260906220000 +0800" stop="20260907000000 +0800">
+    <title>Hindi Nahahati Ang Langit</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906081500 +0800" stop="20260906084000 +0800">
-    <title>Estudyantipid</title>
+  <programme channel="cinema-one" start="20260907000000 +0800" stop="20260907020000 +0800">
+    <title>Gabriela</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906084000 +0800" stop="20260906090000 +0800">
-    <title>Wow</title>
+  <programme channel="cinema-one" start="20260907020000 +0800" stop="20260907040000 +0800">
+    <title>Room 69</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906090000 +0800" stop="20260906100000 +0800">
+  <programme channel="cinema-one" start="20260907040000 +0800" stop="20260907043000 +0800">
+    <title>Bad Bananas Sa Puting Tabing</title>
+  </programme>
+  <programme channel="gma" start="20260906100500 +0800" stop="20260906120000 +0800">
+    <title>Kapuso Movie Festival</title>
+  </programme>
+  <programme channel="gma" start="20260906120000 +0800" stop="20260906140000 +0800">
+    <title>All-Out Sundays</title>
+  </programme>
+  <programme channel="gma" start="20260906140000 +0800" stop="20260906144500 +0800">
+    <title>Regal Studio Presents</title>
+  </programme>
+  <programme channel="gma" start="20260906144500 +0800" stop="20260906151500 +0800">
+    <title>Resibo</title>
+  </programme>
+  <programme channel="gma" start="20260906151500 +0800" stop="20260906173000 +0800">
+    <title>FPJ Sa GMA</title>
+  </programme>
+  <programme channel="gma" start="20260906173000 +0800" stop="20260906181500 +0800">
+    <title>24 Oras Weekend</title>
+  </programme>
+  <programme channel="gma" start="20260906181500 +0800" stop="20260906191500 +0800">
+    <title>BBLGang</title>
+  </programme>
+  <programme channel="gma" start="20260906191500 +0800" stop="20260906201500 +0800">
+    <title>The Clash Teens</title>
+  </programme>
+  <programme channel="gma" start="20260906201500 +0800" stop="20260906220000 +0800">
+    <title>Kapuso Mo, Jessica Soho</title>
+  </programme>
+  <programme channel="gma" start="20260906220000 +0800" stop="20260906230000 +0800">
+    <title>TBATS On The Go</title>
+  </programme>
+  <programme channel="gma" start="20260906230000 +0800" stop="20260906233000 +0800">
+    <title>Just For Laughs Gags</title>
+  </programme>
+  <programme channel="jeepney-tv" start="20260906100000 +0800" stop="20260906130000 +0800">
+    <title>It Might Be You</title>
+  </programme>
+  <programme channel="jeepney-tv" start="20260906130000 +0800" stop="20260906143000 +0800">
+    <title>Saan Ka Man Naroroon</title>
+  </programme>
+  <programme channel="jeepney-tv" start="20260906143000 +0800" stop="20260906163000 +0800">
+    <title>Love Ko Si Babe</title>
+  </programme>
+  <programme channel="jeepney-tv" start="20260906163000 +0800" stop="20260906173000 +0800">
     <title>Wansapanataym</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906100000 +0800" stop="20260906120000 +0800">
-    <title>Blockbuster Sa Umaga</title>
+  <programme channel="jeepney-tv" start="20260906173000 +0800" stop="20260906183000 +0800">
+    <title>!Okat Tokat</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906120000 +0800" stop="20260906141500 +0800">
-    <title>Sunday Noontime Blockbusters</title>
+  <programme channel="jeepney-tv" start="20260906183000 +0800" stop="20260906220000 +0800">
+    <title>Tubig at Langis</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906141500 +0800" stop="20260906150000 +0800">
-    <title>Kuan On One</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260906150000 +0800" stop="20260906153000 +0800">
-    <title>My Puhunan</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260906153000 +0800" stop="20260906163000 +0800">
-    <title>Rated Korina</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260906163000 +0800" stop="20260906173000 +0800">
-    <title>TV Patrol Weekend</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260906173000 +0800" stop="20260906193000 +0800">
+  <programme channel="jeepney-tv" start="20260906220000 +0800" stop="20260907000000 +0800">
     <title>ASAP XP</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906193000 +0800" stop="20260906203000 +0800">
-    <title>Kapamilya Deal Or No Deal S6</title>
+  <programme channel="jeepney-tv" start="20260907000000 +0800" stop="20260907004500 +0800">
+    <title>Home Along Da Riles</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906203000 +0800" stop="20260906214500 +0800">
-    <title>Everybody Sing S4</title>
+  <programme channel="jeepney-tv" start="20260907004500 +0800" stop="20260907012000 +0800">
+    <title>Huwag Kang Mangamba</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906214500 +0800" stop="20260906224500 +0800">
-    <title>Maalaala Mo Kaya</title>
+  <programme channel="jeepney-tv" start="20260907012000 +0800" stop="20260907020000 +0800">
+    <title>Darating Ang Umaga</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260906224500 +0800" stop="20260907020000 +0800">
-    <title>Sunday's Best</title>
+  <programme channel="jeepney-tv" start="20260907020000 +0800" stop="20260907024500 +0800">
+    <title>Lobo</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260907020000 +0800" stop="20260907034500 +0800">
-    <title>Movie Central Presents</title>
+  <programme channel="jeepney-tv" start="20260907024500 +0800" stop="20260907033000 +0800">
+    <title>Dream Dad</title>
   </programme>
-  <programme channel="kapamilya-channel" start="20260907034500 +0800" stop="20260907041500 +0800">
-    <title>Movie Central Presents</title>
+  <programme channel="jeepney-tv" start="20260907033000 +0800" stop="20260907044500 +0800">
+    <title>Sana Bukas Pa Ang Kahapon</title>
+  </programme>
+  <programme channel="jeepney-tv" start="20260907044500 +0800" stop="20260907051500 +0800">
+    <title>Bukas Na Lang Kita Mamahalin</title>
+  </programme>
+  <programme channel="pbo" start="20260906110000 +0800" stop="20260906130000 +0800">
+    <title>Ikaw Lamang Hanggang Ngayon</title>
+  </programme>
+  <programme channel="pbo" start="20260906130000 +0800" stop="20260906151500 +0800">
+    <title>Ang Kuya Kong Siga</title>
+  </programme>
+  <programme channel="pbo" start="20260906151500 +0800" stop="20260906171500 +0800">
+    <title>Ang Tipo Kong Lalaki</title>
+  </programme>
+  <programme channel="pbo" start="20260906171500 +0800" stop="20260906193000 +0800">
+    <title>Sumigaw Ka Hanggang Gusto Mo</title>
+  </programme>
+  <programme channel="pbo" start="20260906193000 +0800" stop="20260906213000 +0800">
+    <title>It Takes A Man And A Woman</title>
+  </programme>
+  <programme channel="pbo" start="20260906213000 +0800" stop="20260906233000 +0800">
+    <title>Banyo Queen</title>
+  </programme>
+  <programme channel="pbo" start="20260906233000 +0800" stop="20260907013000 +0800">
+    <title>Kiss Mo Ko</title>
+  </programme>
+  <programme channel="pbo" start="20260907013000 +0800" stop="20260907033000 +0800">
+    <title>Lupe, A Seamans Wife</title>
+  </programme>
+  <programme channel="pbo" start="20260907033000 +0800" stop="20260907040000 +0800">
+    <title>The Wife</title>
   </programme>
 </tv>

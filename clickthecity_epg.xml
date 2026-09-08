@@ -1,159 +1,45 @@
 <?xml version="1.0" ?>
 <tv generator-info-name="clickthecity" generator-info-url="https://www.clickthecity.com">
-  <channel id="a2z">
-    <display-name>a2z</display-name>
+  <channel id="cinema-one">
+    <display-name>cinema-one</display-name>
   </channel>
-  <channel id="axn">
-    <display-name>axn</display-name>
-  </channel>
-  <channel id="ibc-tv-13">
-    <display-name>ibc-tv-13</display-name>
-  </channel>
-  <channel id="jeepney-tv">
-    <display-name>jeepney-tv</display-name>
-  </channel>
-  <channel id="pbo">
-    <display-name>pbo</display-name>
-  </channel>
-  <channel id="solar-flix">
-    <display-name>solar-flix</display-name>
-  </channel>
-  <programme channel="a2z" start="20260908200000 +0800" stop="20260908204500 +0800">
-    <title>Sigabo</title>
+  <programme channel="cinema-one" start="20260909030000 +0800" stop="20260909050000 +0800">
+    <title>Kriminal</title>
   </programme>
-  <programme channel="a2z" start="20260908204500 +0800" stop="20260908213000 +0800">
-    <title>Someone, Someday</title>
+  <programme channel="cinema-one" start="20260909050000 +0800" stop="20260909070000 +0800">
+    <title>Mana Sa Ina</title>
   </programme>
-  <programme channel="a2z" start="20260908213000 +0800" stop="20260908221500 +0800">
-    <title>A Secret In Prague</title>
+  <programme channel="cinema-one" start="20260909070000 +0800" stop="20260909090000 +0800">
+    <title>The Crazy Professor</title>
   </programme>
-  <programme channel="a2z" start="20260908221500 +0800" stop="20260908224500 +0800">
-    <title>Falling Into Your Smile</title>
+  <programme channel="cinema-one" start="20260909090000 +0800" stop="20260909110000 +0800">
+    <title>Super Mouse &amp; The Roborats</title>
   </programme>
-  <programme channel="a2z" start="20260908224500 +0800" stop="20260908231500 +0800">
-    <title>Balitang A2Z</title>
+  <programme channel="cinema-one" start="20260909110000 +0800" stop="20260909130000 +0800">
+    <title>Kung Ikaw Ay Isang Panaginip</title>
   </programme>
-  <programme channel="a2z" start="20260908231500 +0800" stop="20260908234500 +0800">
-    <title>Bro. Eddie Villanueva Classics</title>
+  <programme channel="cinema-one" start="20260909130000 +0800" stop="20260909150000 +0800">
+    <title>My Kuya's Wedding</title>
   </programme>
-  <programme channel="axn" start="20260908195500 +0800" stop="20260908205000 +0800">
-    <title>FBI (Season 7)</title>
+  <programme channel="cinema-one" start="20260909150000 +0800" stop="20260909170000 +0800">
+    <title>She's Dating The Gangster</title>
   </programme>
-  <programme channel="axn" start="20260908205000 +0800" stop="20260908213000 +0800">
-    <title>Hudson &amp; Rex (Season 7)</title>
+  <programme channel="cinema-one" start="20260909170000 +0800" stop="20260909190000 +0800">
+    <title>Unbreakable (2019)</title>
   </programme>
-  <programme channel="axn" start="20260908213000 +0800" stop="20260908214500 +0800">
-    <title>AXN Ultimate Challenge: Sarawak</title>
+  <programme channel="cinema-one" start="20260909190000 +0800" stop="20260909210000 +0800">
+    <title>Madrasta</title>
   </programme>
-  <programme channel="axn" start="20260908214500 +0800" stop="20260908224000 +0800">
-    <title>Boston Blue (Season 1)</title>
+  <programme channel="cinema-one" start="20260909210000 +0800" stop="20260909230000 +0800">
+    <title>Pinulot Ka Lang Sa Lupa</title>
   </programme>
-  <programme channel="axn" start="20260908224000 +0800" stop="20260908233500 +0800">
-    <title>S.W.A.T. (Season 7)</title>
+  <programme channel="cinema-one" start="20260909230000 +0800" stop="20260910010000 +0800">
+    <title>Foster Child</title>
   </programme>
-  <programme channel="axn" start="20260908233500 +0800" stop="20260909003000 +0800">
-    <title>FBI (Season 8)</title>
+  <programme channel="cinema-one" start="20260910010000 +0800" stop="20260910030000 +0800">
+    <title>Machete</title>
   </programme>
-  <programme channel="axn" start="20260909003000 +0800" stop="20260909012500 +0800">
-    <title>S.W.A.T. (Season 7)</title>
-  </programme>
-  <programme channel="axn" start="20260909012500 +0800" stop="20260909022000 +0800">
-    <title>Hudson &amp; Rex (Season 7)</title>
-  </programme>
-  <programme channel="axn" start="20260909022000 +0800" stop="20260909031500 +0800">
-    <title>The Rookie (Season 6)</title>
-  </programme>
-  <programme channel="axn" start="20260909031500 +0800" stop="20260909041000 +0800">
-    <title>FBI (Season 7)</title>
-  </programme>
-  <programme channel="axn" start="20260909041000 +0800" stop="20260909044000 +0800">
-    <title>NCIS: Origins (Season 1)</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260908201500 +0800" stop="20260908210000 +0800">
-    <title>PBBM - RTVM</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260908210000 +0800" stop="20260908213000 +0800">
-    <title>PCSO Lottery Draw</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260908213000 +0800" stop="20260908220000 +0800">
-    <title>13 News</title>
-  </programme>
-  <programme channel="ibc-tv-13" start="20260908220000 +0800" stop="20260908223000 +0800">
-    <title>PBBM - RTVM</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260908200000 +0800" stop="20260908204500 +0800">
-    <title>Dream Dad</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260908204500 +0800" stop="20260908213000 +0800">
-    <title>Lobo</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260908213000 +0800" stop="20260908220000 +0800">
-    <title>The Good Son</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260908220000 +0800" stop="20260908231500 +0800">
-    <title>Sana Bukas Pa Ang Kahapon</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260908231500 +0800" stop="20260909000000 +0800">
-    <title>Los Bastardos</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909000000 +0800" stop="20260909004500 +0800">
-    <title>Bukas Na Lang Kita Mamahalin</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909004500 +0800" stop="20260909012000 +0800">
-    <title>Huwag Kang Mangamba</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909012000 +0800" stop="20260909020000 +0800">
-    <title>Darating Ang Umaga</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909020000 +0800" stop="20260909024500 +0800">
-    <title>Lobo</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909024500 +0800" stop="20260909033000 +0800">
-    <title>Dream Dad</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909033000 +0800" stop="20260909044500 +0800">
-    <title>Sana Bukas Pa Ang Kahapon</title>
-  </programme>
-  <programme channel="jeepney-tv" start="20260909044500 +0800" stop="20260909051500 +0800">
-    <title>Bukas Na Lang Kita Mamahalin</title>
-  </programme>
-  <programme channel="pbo" start="20260908193000 +0800" stop="20260908213000 +0800">
-    <title>Para Sa Broken Hearted</title>
-  </programme>
-  <programme channel="pbo" start="20260908213000 +0800" stop="20260908233000 +0800">
-    <title>Annie B.</title>
-  </programme>
-  <programme channel="pbo" start="20260908233000 +0800" stop="20260909000000 +0800">
-    <title>Anong Ganap?</title>
-  </programme>
-  <programme channel="pbo" start="20260909000000 +0800" stop="20260909020000 +0800">
-    <title>Akin Ang Labang Ito</title>
-  </programme>
-  <programme channel="pbo" start="20260909020000 +0800" stop="20260909034500 +0800">
-    <title>Kulimlim</title>
-  </programme>
-  <programme channel="pbo" start="20260909034500 +0800" stop="20260909041500 +0800">
-    <title>Negligee</title>
-  </programme>
-  <programme channel="solar-flix" start="20260908200000 +0800" stop="20260908210000 +0800">
-    <title>Recipe Of Love</title>
-  </programme>
-  <programme channel="solar-flix" start="20260908210000 +0800" stop="20260908220000 +0800">
-    <title>Endless Love</title>
-  </programme>
-  <programme channel="solar-flix" start="20260908220000 +0800" stop="20260909000000 +0800">
-    <title>Dalhin Mo Ako Sa Langit</title>
-  </programme>
-  <programme channel="solar-flix" start="20260909000000 +0800" stop="20260909010000 +0800">
-    <title>Forbidden Fruit S2</title>
-  </programme>
-  <programme channel="solar-flix" start="20260909010000 +0800" stop="20260909020000 +0800">
-    <title>Forbidden Fruit S2</title>
-  </programme>
-  <programme channel="solar-flix" start="20260909020000 +0800" stop="20260909040000 +0800">
-    <title>Pick-Up Girls</title>
-  </programme>
-  <programme channel="solar-flix" start="20260909040000 +0800" stop="20260909043000 +0800">
-    <title>Kisapmata</title>
+  <programme channel="cinema-one" start="20260910030000 +0800" stop="20260910033000 +0800">
+    <title>Free To Love</title>
   </programme>
 </tv>

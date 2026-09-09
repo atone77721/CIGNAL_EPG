@@ -1,45 +1,111 @@
 <?xml version="1.0" ?>
 <tv generator-info-name="clickthecity" generator-info-url="https://www.clickthecity.com">
-  <channel id="cinema-one">
-    <display-name>cinema-one</display-name>
+  <channel id="ibc-tv-13">
+    <display-name>ibc-tv-13</display-name>
   </channel>
-  <programme channel="cinema-one" start="20260909030000 +0800" stop="20260909050000 +0800">
-    <title>Kriminal</title>
+  <channel id="ptv">
+    <display-name>ptv</display-name>
+  </channel>
+  <programme channel="ibc-tv-13" start="20260909101500 +0800" stop="20260909120000 +0800">
+    <title>#IPABITAGMO - Sumbungan Ng Sambayanan</title>
   </programme>
-  <programme channel="cinema-one" start="20260909050000 +0800" stop="20260909070000 +0800">
-    <title>Mana Sa Ina</title>
+  <programme channel="ibc-tv-13" start="20260909120000 +0800" stop="20260909121500 +0800">
+    <title>Treze Express Balita</title>
   </programme>
-  <programme channel="cinema-one" start="20260909070000 +0800" stop="20260909090000 +0800">
-    <title>The Crazy Professor</title>
+  <programme channel="ibc-tv-13" start="20260909121500 +0800" stop="20260909130000 +0800">
+    <title>Ang Paglilitis</title>
   </programme>
-  <programme channel="cinema-one" start="20260909090000 +0800" stop="20260909110000 +0800">
-    <title>Super Mouse &amp; The Roborats</title>
+  <programme channel="ibc-tv-13" start="20260909130000 +0800" stop="20260909140000 +0800">
+    <title>Treze Sa Tanghali</title>
   </programme>
-  <programme channel="cinema-one" start="20260909110000 +0800" stop="20260909130000 +0800">
-    <title>Kung Ikaw Ay Isang Panaginip</title>
+  <programme channel="ibc-tv-13" start="20260909140000 +0800" stop="20260909141500 +0800">
+    <title>PCSO Lottery Draw</title>
   </programme>
-  <programme channel="cinema-one" start="20260909130000 +0800" stop="20260909150000 +0800">
-    <title>My Kuya's Wedding</title>
+  <programme channel="ibc-tv-13" start="20260909141500 +0800" stop="20260909150000 +0800">
+    <title>Ang Paglilitis</title>
   </programme>
-  <programme channel="cinema-one" start="20260909150000 +0800" stop="20260909170000 +0800">
-    <title>She's Dating The Gangster</title>
+  <programme channel="ibc-tv-13" start="20260909150000 +0800" stop="20260909151500 +0800">
+    <title>Treze Express Balita</title>
   </programme>
-  <programme channel="cinema-one" start="20260909170000 +0800" stop="20260909190000 +0800">
-    <title>Unbreakable (2019)</title>
+  <programme channel="ibc-tv-13" start="20260909151500 +0800" stop="20260909160000 +0800">
+    <title>Good Stories</title>
   </programme>
-  <programme channel="cinema-one" start="20260909190000 +0800" stop="20260909210000 +0800">
-    <title>Madrasta</title>
+  <programme channel="ibc-tv-13" start="20260909160000 +0800" stop="20260909161500 +0800">
+    <title>Treze Express Balita</title>
   </programme>
-  <programme channel="cinema-one" start="20260909210000 +0800" stop="20260909230000 +0800">
-    <title>Pinulot Ka Lang Sa Lupa</title>
+  <programme channel="ibc-tv-13" start="20260909161500 +0800" stop="20260909170000 +0800">
+    <title>PBBM - RTVM</title>
   </programme>
-  <programme channel="cinema-one" start="20260909230000 +0800" stop="20260910010000 +0800">
-    <title>Foster Child</title>
+  <programme channel="ibc-tv-13" start="20260909170000 +0800" stop="20260909171500 +0800">
+    <title>PCSO Lottery Draw</title>
   </programme>
-  <programme channel="cinema-one" start="20260910010000 +0800" stop="20260910030000 +0800">
-    <title>Machete</title>
+  <programme channel="ibc-tv-13" start="20260909171500 +0800" stop="20260909181500 +0800">
+    <title>Tutok Treze</title>
   </programme>
-  <programme channel="cinema-one" start="20260910030000 +0800" stop="20260910033000 +0800">
-    <title>Free To Love</title>
+  <programme channel="ibc-tv-13" start="20260909181500 +0800" stop="20260909190000 +0800">
+    <title>Congress News</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909190000 +0800" stop="20260909191500 +0800">
+    <title>Treze Express Balita</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909191500 +0800" stop="20260909193000 +0800">
+    <title>Voices Of Hope</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909193000 +0800" stop="20260909200000 +0800">
+    <title>Congress TV</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909200000 +0800" stop="20260909201500 +0800">
+    <title>Treze Express Balita</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909201500 +0800" stop="20260909210000 +0800">
+    <title>PBBM - RTVM</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909210000 +0800" stop="20260909213000 +0800">
+    <title>PCSO Lottery Draw</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909213000 +0800" stop="20260909220000 +0800">
+    <title>13 News</title>
+  </programme>
+  <programme channel="ibc-tv-13" start="20260909220000 +0800" stop="20260909223000 +0800">
+    <title>PBBM - RTVM</title>
+  </programme>
+  <programme channel="ptv" start="20260909100000 +0800" stop="20260909120000 +0800">
+    <title>The Impeachment Trial</title>
+  </programme>
+  <programme channel="ptv" start="20260909120000 +0800" stop="20260909130000 +0800">
+    <title>Bagong Pilipinas Ngayon</title>
+  </programme>
+  <programme channel="ptv" start="20260909130000 +0800" stop="20260909150000 +0800">
+    <title>The Impeachment Trial</title>
+  </programme>
+  <programme channel="ptv" start="20260909150000 +0800" stop="20260909160000 +0800">
+    <title>Sentro Balita</title>
+  </programme>
+  <programme channel="ptv" start="20260909160000 +0800" stop="20260909170000 +0800">
+    <title>Kangrunaan A Damag</title>
+  </programme>
+  <programme channel="ptv" start="20260909170000 +0800" stop="20260909180000 +0800">
+    <title>PTV News Mindanao</title>
+  </programme>
+  <programme channel="ptv" start="20260909180000 +0800" stop="20260909190000 +0800">
+    <title>Ulat Bayan</title>
+  </programme>
+  <programme channel="ptv" start="20260909190000 +0800" stop="20260909193000 +0800">
+    <title>Dayaw</title>
+  </programme>
+  <programme channel="ptv" start="20260909193000 +0800" stop="20260909200000 +0800">
+    <title>Code Red</title>
+  </programme>
+  <programme channel="ptv" start="20260909200000 +0800" stop="20260909210000 +0800">
+    <title>Presidential Coverage</title>
+  </programme>
+  <programme channel="ptv" start="20260909210000 +0800" stop="20260909220000 +0800">
+    <title>PTV News Tonight</title>
+  </programme>
+  <programme channel="ptv" start="20260909220000 +0800" stop="20260909230000 +0800">
+    <title>Bagong Pilipinas Ngayon</title>
+  </programme>
+  <programme channel="ptv" start="20260909230000 +0800" stop="20260909233000 +0800">
+    <title>PTV Sports</title>
   </programme>
 </tv>

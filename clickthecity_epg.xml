@@ -3,24 +3,6 @@
   <channel id="cinema-one">
     <display-name>cinema-one</display-name>
   </channel>
-  <channel id="kapamilya-channel">
-    <display-name>kapamilya-channel</display-name>
-  </channel>
-  <programme channel="cinema-one" start="20260912100000 +0800" stop="20260912120000 +0800">
-    <title>Puso Ng Pasko</title>
-  </programme>
-  <programme channel="cinema-one" start="20260912120000 +0800" stop="20260912140000 +0800">
-    <title>Ang Tanging Ina</title>
-  </programme>
-  <programme channel="cinema-one" start="20260912140000 +0800" stop="20260912160000 +0800">
-    <title>Must Be Love</title>
-  </programme>
-  <programme channel="cinema-one" start="20260912160000 +0800" stop="20260912180000 +0800">
-    <title>Vince &amp; Kath &amp; James</title>
-  </programme>
-  <programme channel="cinema-one" start="20260912180000 +0800" stop="20260912190000 +0800">
-    <title>The B Side</title>
-  </programme>
   <programme channel="cinema-one" start="20260912190000 +0800" stop="20260912210000 +0800">
     <title>Beauty and the Bestie</title>
   </programme>
@@ -35,47 +17,5 @@
   </programme>
   <programme channel="cinema-one" start="20260913030000 +0800" stop="20260913033000 +0800">
     <title>Metamorphosis</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912101500 +0800" stop="20260912120000 +0800">
-    <title>Blockbuster Sa Umaga</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912120000 +0800" stop="20260912143000 +0800">
-    <title>It's Showtime</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912143000 +0800" stop="20260912151500 +0800">
-    <title>My Bespren Emman</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912151500 +0800" stop="20260912170000 +0800">
-    <title>Kapamilya Action Sabado</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912170000 +0800" stop="20260912174500 +0800">
-    <title>SOCO</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912174500 +0800" stop="20260912184500 +0800">
-    <title>TV Patrol Sabado</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912184500 +0800" stop="20260912193000 +0800">
-    <title>Ibang Level 'To</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912193000 +0800" stop="20260912203000 +0800">
-    <title>Kapamilya Deal Or No Deal S6</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912203000 +0800" stop="20260912214500 +0800">
-    <title>Everybody Sing S4</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912214500 +0800" stop="20260912224500 +0800">
-    <title>Maalaala Mo Kaya</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260912224500 +0800" stop="20260913003000 +0800">
-    <title>Y-Speak 2.0</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260913003000 +0800" stop="20260913020000 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260913020000 +0800" stop="20260913040000 +0800">
-    <title>Movie Central Presents</title>
-  </programme>
-  <programme channel="kapamilya-channel" start="20260913040000 +0800" stop="20260913043000 +0800">
-    <title>Movie Central Presents</title>
   </programme>
 </tv>

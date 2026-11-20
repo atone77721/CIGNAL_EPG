@@ -31,6 +31,7 @@ jobs:
       - name: Merge XML files
         run: |
           cat > merge_epg.py <<'PY'
+          import gzip
           import os
           import sys
           import xml.etree.ElementTree as ET
@@ -41,13 +42,21 @@ jobs:
               ("cignal-epg.xml",         "cignal"),
               ("clickthecity_epg.xml",   "click"),
               ("dzmm.xml",               "dzmm"),
-              ("epg_ripper_US2.xml.gz",  "US"),
+              ("epg_ripper_US2.xml.gz",  "us2"),   # .gz is auto-detected
           ]
           OUTPUT = "merged_epg.xml"
           REPORT = "merge_report.txt"
 
           def key(cid):
               return cid.strip().casefold()
+
+          def open_source(path):
+              # Detect gzip by magic bytes, not by file extension
+              with open(path, "rb") as f:
+                  magic = f.read(2)
+              if magic == b"\x1f\x8b":
+                  return gzip.open(path, "rb")
+              return open(path, "rb")
 
           # ---------- load sources ----------
           loaded = []  # (suffix, root)
@@ -56,9 +65,10 @@ jobs:
                   print(f"WARNING: {path} not found, skipping")
                   continue
               try:
-                  root = ET.parse(path).getroot()
-              except ET.ParseError as e:
-                  print(f"WARNING: {path} is not valid XML ({e}), skipping")
+                  with open_source(path) as f:
+                      root = ET.parse(f).getroot()
+              except (ET.ParseError, OSError, EOFError) as e:
+                  print(f"WARNING: {path} could not be read ({e}), skipping")
                   continue
               loaded.append((path, suffix, root))
 

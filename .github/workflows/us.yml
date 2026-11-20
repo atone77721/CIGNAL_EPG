@@ -23,7 +23,7 @@ jobs:
             "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
           # Make sure the download is a valid gzip before replacing the old file
           gzip -t epg/epg_ripper_US2.xml.gz.tmp
-          mv epg/epg_ripper_US2.xml.gz.tmp epg/epg_ripper_US2.xml.gz
+          mv epg/epg_ripper_US2.xml.gz.tmp epg_ripper_US2.xml.gz
 
       - name: Commit if changed
         run: |

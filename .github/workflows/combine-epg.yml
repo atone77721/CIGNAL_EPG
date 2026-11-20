@@ -41,6 +41,7 @@ jobs:
               ("cignal-epg.xml",         "cignal"),
               ("clickthecity_epg.xml",   "click"),
               ("dzmm.xml",               "dzmm"),
+              ("epg_ripper_US2.xml.gz",  "US"),
           ]
           OUTPUT = "merged_epg.xml"
           REPORT = "merge_report.txt"

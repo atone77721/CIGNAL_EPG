@@ -42,6 +42,7 @@ jobs:
               ("cignal-epg.xml",         "cignal"),
               ("clickthecity_epg.xml",   "click"),
               ("dzmm.xml",               "dzmm"),
+              ("amazon.xml",             "amazon"),
               ("epg_ripper_US2.xml.gz",  "us2"),   # .gz is auto-detected
           ]
           OUTPUT = "merged_epg.xml"

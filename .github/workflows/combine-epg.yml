@@ -160,7 +160,10 @@ jobs:
       # GZIP OUTPUT
       ############################################################
       - name: GZIP output
-        run: gzip -9 -c merged_epg.xml > merged_epg.xml.gz
+        run: |
+          gzip -9 -c merged_epg.xml > merged_epg.xml.gz
+          rm -f merged_epg.xml
+          ls -lh merged_epg.xml.gz
 
       ############################################################
       # COMMIT & PUSH
@@ -170,7 +173,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add merged_epg.xml merged_epg.xml.gz merge_report.txt
+          # Stop tracking the old uncompressed file if it exists in the repo
+          git rm --cached --ignore-unmatch -q merged_epg.xml
+
+          git add merged_epg.xml.gz merge_report.txt
 
           if git diff --staged --quiet; then
             echo "No changes"

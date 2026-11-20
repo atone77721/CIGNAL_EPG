@@ -44,6 +44,8 @@ jobs:
               ("dzmm.xml",               "dzmm"),
               ("amazon.xml",             "amazon"),
               ("epg_ripper_US2.xml.gz",  "us2"),   # .gz is auto-detected
+              ("epg_ripper_CA2.xml.gz",  "ca2"),
+              ("epg_ripper_UK1.xml.gz",  "uk1"),
           ]
           OUTPUT = "merged_epg.xml"
           REPORT = "merge_report.txt"

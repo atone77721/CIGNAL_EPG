@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fetch-epg
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -20,8 +24,9 @@ jobs:
           curl -fsSL --retry 3 --retry-delay 10 \
             -o amazon.xml.tmp \
             "https://raw.githubusercontent.com/atone77721/AMZN_EPG/main/data/amazon.xml"
-          # Make sure the download is a valid gzip before replacing the old file
-          gzip -t amazon.xml.tmp
+          # Make sure the download is non-empty and looks like XML
+          test -s amazon.xml.tmp
+          head -c 200 amazon.xml.tmp | grep -q "<?xml\|<tv"
           mv amazon.xml.tmp amazon.xml
 
       - name: Commit if changed

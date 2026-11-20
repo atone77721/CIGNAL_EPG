@@ -5,110 +5,164 @@ on:
   schedule:
     - cron: '0 */9 * * *'  # Every 9 hours
 
+permissions:
+  contents: write
+
+concurrency:
+  group: combine-epg
+  cancel-in-progress: false
+
 jobs:
   merge_epg:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       ############################################################
-      # SAFE MERGE USING XMLSTARLET (NO BROKEN XML)
+      # SMART MERGE
+      # - Channel IDs are kept as-is unless the same ID appears in
+      #   more than one source. Only those clashing IDs get the
+      #   source suffix (e.g. GMA7 -> GMA7.cignal / GMA7.click).
+      # - Programmes follow their channel's (possibly renamed) ID.
+      # - Exact duplicate channels/programmes are dropped.
       ############################################################
       - name: Merge XML files
         run: |
-          set -e
+          cat > merge_epg.py <<'PY'
+          import os
+          import sys
+          import xml.etree.ElementTree as ET
+          from collections import defaultdict
 
-          sudo apt-get update
-          sudo apt-get install -y xmlstarlet
+          # (file, suffix) -- add or remove sources here
+          SOURCES = [
+              ("cignal-epg.xml",         "cignal"),
+              ("clickthecity_epg.xml",   "click"),
+              ("dzmm.xml",               "dzmm"),
+          ]
+          OUTPUT = "merged_epg.xml"
+          REPORT = "merge_report.txt"
 
-          CIGNAL="cignal-epg.xml"
-          CLICK="clickthecity_epg.xml"
-          DZMM="dzmm.xml"
+          def key(cid):
+              return cid.strip().casefold()
 
-          echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
-          echo '<tv>' >> merged_epg.xml
+          # ---------- load sources ----------
+          loaded = []  # (suffix, root)
+          for path, suffix in SOURCES:
+              if not os.path.exists(path):
+                  print(f"WARNING: {path} not found, skipping")
+                  continue
+              try:
+                  root = ET.parse(path).getroot()
+              except ET.ParseError as e:
+                  print(f"WARNING: {path} is not valid XML ({e}), skipping")
+                  continue
+              loaded.append((path, suffix, root))
 
-          ########################################################
-          # FUNCTION: Extract + rewrite channel IDs properly
-          ########################################################
-          rewrite_and_append() {
-            FILE="$1"
-            SUFFIX="$2"
+          if not loaded:
+              sys.exit("ERROR: no usable source files")
 
-            echo "Processing $FILE (.$SUFFIX)"
+          # ---------- find IDs that clash across different sources ----------
+          sources_per_id = defaultdict(set)
+          for path, suffix, root in loaded:
+              for ch in root.findall("channel"):
+                  cid = ch.get("id")
+                  if cid:
+                      sources_per_id[key(cid)].add(suffix)
+          clashing = {k for k, s in sources_per_id.items() if len(s) > 1}
 
-            # PROCESS CHANNELS
-            xmlstarlet ed \
-              -u "//channel/@id" -x "concat(.,'.$SUFFIX')" \
-              "$FILE" | \
-              xmlstarlet sel -t -c "/tv/channel" \
-              >> merged_epg.xml
+          # ---------- build merged tree ----------
+          merged = ET.Element("tv", loaded[0][2].attrib)
+          seen_channels = set()
+          seen_programmes = set()
+          renamed = []       # (source, old, new)
+          dropped_ch = 0
+          dropped_pr = 0
+          counts = {}
 
-            # PROCESS PROGRAMMES
-            xmlstarlet ed \
-              -u "//programme/@channel" -x "concat(.,'.$SUFFIX')" \
-              "$FILE" | \
-              xmlstarlet sel -t -c "/tv/programme" \
-              >> merged_epg.xml
-          }
+          for path, suffix, root in loaded:
+              idmap = {}
+              n_ch = n_pr = 0
 
-          rewrite_and_append "$CIGNAL" "cignal"
-          rewrite_and_append "$CLICK"  "click"
-          rewrite_and_append "$DZMM"   "dzmm"
+              for ch in root.findall("channel"):
+                  old = ch.get("id")
+                  if not old:
+                      continue
+                  new = f"{old}.{suffix}" if key(old) in clashing else old
+                  idmap[old] = new
+                  if new != old:
+                      renamed.append((path, old, new))
+                  if key(new) in seen_channels:
+                      dropped_ch += 1
+                      continue
+                  seen_channels.add(key(new))
+                  ch.set("id", new)
+                  merged.append(ch)
+                  n_ch += 1
 
-          echo "</tv>" >> merged_epg.xml
+              for pr in root.findall("programme"):
+                  old = pr.get("channel")
+                  if not old:
+                      continue
+                  new = idmap.get(old, old)
+                  pr.set("channel", new)
+                  sig = (key(new), pr.get("start"), pr.get("stop"))
+                  if sig in seen_programmes:
+                      dropped_pr += 1
+                      continue
+                  seen_programmes.add(sig)
+                  merged.append(pr)
+                  n_pr += 1
 
+              counts[path] = (n_ch, n_pr)
 
-      ############################################################
-      # DUPLICATE REPORTING
-      ############################################################
-      - name: Duplicate report
-        run: |
-          grep -oP '(?<=<channel id=")[^"]+' merged_epg.xml | sort | uniq -d > dup_channels.txt
-          grep '<programme' merged_epg.xml | \
-            sed -E 's/.*channel="([^"]+)".*start="([^"]+)".*/\1|\2/' | \
-            sort | uniq -d > dup_programmes.txt
+          # ---------- write output ----------
+          ET.indent(merged)
+          ET.ElementTree(merged).write(OUTPUT, encoding="UTF-8", xml_declaration=True)
 
-          echo "Duplicate channels:"
-          cat dup_channels.txt || true
+          # ---------- validate by re-parsing ----------
+          ET.parse(OUTPUT)
 
-          echo "Duplicate programmes:"
-          cat dup_programmes.txt || true
+          # ---------- report ----------
+          lines = ["EPG merge report", "================"]
+          for path, (c, p) in counts.items():
+              lines.append(f"{path}: {c} channels, {p} programmes")
+          lines.append("")
+          lines.append(f"Channel IDs renamed due to clashes: {len(renamed)}")
+          for src, old, new in renamed:
+              lines.append(f"  [{src}] {old} -> {new}")
+          lines.append(f"Exact duplicate channels dropped:   {dropped_ch}")
+          lines.append(f"Exact duplicate programmes dropped: {dropped_pr}")
+          report = "\n".join(lines)
+          open(REPORT, "w", encoding="utf-8").write(report + "\n")
+          print(report)
+          PY
 
-
-      ############################################################
-      # VALIDATE XML
-      ############################################################
-      - name: Validate XML
-        run: |
-          sudo apt-get install -y libxml2-utils
-          xmllint --noout --recover merged_epg.xml
-          echo "✔ XML valid"
-
+          python3 merge_epg.py
 
       ############################################################
       # GZIP OUTPUT
       ############################################################
       - name: GZIP output
-        run: gzip -c merged_epg.xml > merged_epg.xml.gz
-
+        run: gzip -9 -c merged_epg.xml > merged_epg.xml.gz
 
       ############################################################
       # COMMIT & PUSH
       ############################################################
       - name: Commit and push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add merged_epg.xml merged_epg.xml.gz dup_channels.txt dup_programmes.txt
+          git add merged_epg.xml merged_epg.xml.gz merge_report.txt
 
-          git diff --staged --quiet && echo "No changes" && exit 0
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
 
-          git commit -m "Updated merged EPG with source suffix IDs"
+          git commit -m "Updated merged EPG"
           git pull --rebase
           git push

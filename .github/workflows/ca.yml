@@ -1,0 +1,38 @@
+name: CA Fetch EPG
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"   # every 8 hours (00:00, 08:00, 16:00 UTC)
+  workflow_dispatch:         # allow manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download EPG
+        run: |
+          mkdir -p epg
+          curl -fsSL --retry 3 --retry-delay 10 \
+            -o epg/epg_ripper_CA2.xml.gz.tmp \
+            "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"
+          # Make sure the download is a valid gzip before replacing the old file
+          gzip -t epg/epg_ripper_CA2.xml.gz.tmp
+          mv epg/epg_ripper_CA2.xml.gz.tmp epg_ripper_CA2.xml.gz
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg_ripper_CA2.xml.gz
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update EPG $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

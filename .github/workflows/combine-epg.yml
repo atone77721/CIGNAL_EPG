@@ -23,10 +23,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y xmlstarlet
 
-          CIGNAL="cignal_epg.xml"
+          CIGNAL="cignal-epg.xml"
           CLICK="clickthecity_epg.xml"
           DZMM="dzmm.xml"
-          TV5="tv5.xml"
 
           echo '<?xml version="1.0" encoding="UTF-8"?>' > merged_epg.xml
           echo '<tv>' >> merged_epg.xml

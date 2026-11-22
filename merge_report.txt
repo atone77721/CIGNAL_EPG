@@ -1,12 +1,12 @@
 EPG merge report
 ================
-cignal-epg.xml: 63 channels, 10630 programmes
-clickthecity_epg.xml: 16 channels, 323 programmes
+cignal-epg.xml: 63 channels, 10477 programmes
+clickthecity_epg.xml: 16 channels, 203 programmes
 dzmm.xml: 1 channels, 137 programmes
-amazon.xml: 447 channels, 5138 programmes
-epg_ripper_US2.xml.gz: 792 channels, 82244 programmes
-epg_ripper_CA2.xml.gz: 696 channels, 67283 programmes
-epg_ripper_UK1.xml.gz: 487 channels, 42273 programmes
+amazon.xml: 418 channels, 4873 programmes
+epg_ripper_US2.xml.gz: 792 channels, 82428 programmes
+epg_ripper_CA2.xml.gz: 696 channels, 68241 programmes
+epg_ripper_UK1.xml.gz: 487 channels, 42403 programmes
 
 Channel IDs renamed due to clashes: 8
   [cignal-epg.xml] a2z -> a2z.cignal
@@ -18,4 +18,4 @@ Channel IDs renamed due to clashes: 8
   [clickthecity_epg.xml] axn -> axn.click
   [clickthecity_epg.xml] tv5 -> tv5.click
 Exact duplicate channels dropped:   4
-Exact duplicate programmes dropped: 548
+Exact duplicate programmes dropped: 541

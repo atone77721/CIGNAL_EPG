@@ -3,7 +3,7 @@ name: cignal-epg-scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */8 * * *'  # Every 8 hours
+    - cron: '40 */8 * * *'  # Every 8 hours
 
 permissions:
   contents: write

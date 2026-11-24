@@ -21,6 +21,53 @@ jobs:
         uses: actions/checkout@v4
 
       ############################################################
+      # FETCH SOURCES
+      # - Downloads every EPG straight from its URL.
+      # - Each download is validated (non-empty, looks like XML or
+      #   valid gzip) before it replaces the local copy.
+      # - If a download fails, the previous local copy (if any) is
+      #   kept and the merge carries on with it.
+      ############################################################
+      - name: Fetch EPG sources
+        run: |
+          fetch() {
+            url="$1"; out="$2"
+            tmp="${out}.tmp"
+            if ! curl -fsSL --retry 3 --retry-delay 10 -A "Mozilla/5.0" -o "$tmp" "$url"; then
+              echo "WARNING: download failed for $url"
+              rm -f "$tmp"; return 0
+            fi
+            if [ ! -s "$tmp" ]; then
+              echo "WARNING: empty download for $url"
+              rm -f "$tmp"; return 0
+            fi
+            case "$out" in
+              *.gz)
+                if ! gzip -t "$tmp" 2>/dev/null; then
+                  echo "WARNING: $out is not valid gzip"
+                  rm -f "$tmp"; return 0
+                fi
+                ;;
+              *)
+                if ! head -c 500 "$tmp" | grep -q "<?xml\|<tv"; then
+                  echo "WARNING: $out does not look like XML"
+                  rm -f "$tmp"; return 0
+                fi
+                ;;
+            esac
+            mv "$tmp" "$out"
+            echo "OK: $out ($(du -h "$out" | cut -f1))"
+          }
+
+          fetch "https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/cignal-epg.xml"       cignal-epg.xml
+          fetch "https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/clickthecity_epg.xml" clickthecity_epg.xml
+          fetch "https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/dzmm.xml"             dzmm.xml
+          fetch "https://raw.githubusercontent.com/atone77721/AMZN_EPG/main/data/amazon.xml"                   amazon.xml
+          fetch "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"                                   epg_ripper_US2.xml.gz
+          fetch "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"                                   epg_ripper_CA2.xml.gz
+          fetch "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"                                   epg_ripper_UK1.xml.gz
+
+      ############################################################
       # SMART MERGE
       # - Channel IDs are kept as-is unless the same ID appears in
       #   more than one source. Only those clashing IDs get the

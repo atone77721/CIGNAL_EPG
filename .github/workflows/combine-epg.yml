@@ -231,5 +231,9 @@ jobs:
           fi
 
           git commit -m "Updated merged EPG"
+
+          # Downloaded source files are tracked in the repo and now show as
+          # modified; they're already merged, so discard them before rebasing.
+          git checkout -- .
           git pull --rebase
           git push

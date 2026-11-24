@@ -3,7 +3,7 @@ name: clickthecity-epg-scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */7 * * *'  # Every 7 hours
+    - cron: '50 */8 * * *'  # Every 7 hours
 
 permissions:
   contents: write
